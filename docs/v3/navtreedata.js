@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "Essential Kit", "index.html", [
+    [ "Introduction", "index.html", null ],
     [ "Deprecated List", "da/d58/deprecated.html", null ],
     [ "Topics", "topics.html", "topics" ],
     [ "Package Members", "namespacemembers.html", [

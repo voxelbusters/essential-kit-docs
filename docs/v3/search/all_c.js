@@ -28,9 +28,10 @@ var searchData=
   ['middlename_25',['MiddleName',['../d4/d51/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contact.html#a0e35db215749ff442d1a37c6ecc8f3fa',1,'VoxelBusters::EssentialKit::IAddressBookContact']]],
   ['mime_26',['Mime',['../d9/dac/class_voxel_busters_1_1_essential_kit_1_1_raw_media_data.html#a1153601619bcad2c8364de4e2e13be13',1,'VoxelBusters::EssentialKit::RawMediaData']]],
   ['mimetype_27',['MimeType',['../db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type.html',1,'VoxelBusters::CoreLibrary']]],
-  ['month_28',['Month',['../da/d57/namespace_voxel_busters_1_1_essential_kit.html#a473402ead2d64c30e3af0f68802531f5a7cbb885aa1164b390a0bc050a64e1812',1,'VoxelBusters::EssentialKit']]],
-  ['mustincludeemail_29',['MustIncludeEmail',['../da/d57/namespace_voxel_busters_1_1_essential_kit.html#a95f15edccc5f9081f6ff6ba21a2d1522a2d6452a8d42f092b24de4995fbb2f2d2',1,'VoxelBusters::EssentialKit']]],
-  ['mustincludename_30',['MustIncludeName',['../da/d57/namespace_voxel_busters_1_1_essential_kit.html#a95f15edccc5f9081f6ff6ba21a2d1522afded3ae248f85b93ee489e4ffd001b47',1,'VoxelBusters::EssentialKit']]],
-  ['mustincludephonenumber_31',['MustIncludePhoneNumber',['../da/d57/namespace_voxel_busters_1_1_essential_kit.html#a95f15edccc5f9081f6ff6ba21a2d1522a058db1b7466f2ee1f609de459870707a',1,'VoxelBusters::EssentialKit']]],
-  ['my_20app_32',['Rate My App',['../d7/d11/group___rate_my_app.html',1,'']]]
+  ['mobile_20platforms_28',['&lt;strong&gt;Essential Kit (V3)&lt;/strong&gt; a true cross-platform tool for Unity which provides unique and unified way to access native functionality on mobile platforms.',['../index.html#essential-kit-v3-a-true-cross-platform-tool-for-unity-which-provides-unique-and-unified-way-to-access-native-functionality-on-mobile-platforms',1,'']]],
+  ['month_29',['Month',['../da/d57/namespace_voxel_busters_1_1_essential_kit.html#a473402ead2d64c30e3af0f68802531f5a7cbb885aa1164b390a0bc050a64e1812',1,'VoxelBusters::EssentialKit']]],
+  ['mustincludeemail_30',['MustIncludeEmail',['../da/d57/namespace_voxel_busters_1_1_essential_kit.html#a95f15edccc5f9081f6ff6ba21a2d1522a2d6452a8d42f092b24de4995fbb2f2d2',1,'VoxelBusters::EssentialKit']]],
+  ['mustincludename_31',['MustIncludeName',['../da/d57/namespace_voxel_busters_1_1_essential_kit.html#a95f15edccc5f9081f6ff6ba21a2d1522afded3ae248f85b93ee489e4ffd001b47',1,'VoxelBusters::EssentialKit']]],
+  ['mustincludephonenumber_32',['MustIncludePhoneNumber',['../da/d57/namespace_voxel_busters_1_1_essential_kit.html#a95f15edccc5f9081f6ff6ba21a2d1522a058db1b7466f2ee1f609de459870707a',1,'VoxelBusters::EssentialKit']]],
+  ['my_20app_33',['Rate My App',['../d7/d11/group___rate_my_app.html',1,'']]]
 ];
