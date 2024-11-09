@@ -1,13 +1,19 @@
 var searchData=
 [
-  ['gameservices_0',['GameServices',['../d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services.html',1,'VoxelBusters::EssentialKit']]],
-  ['gameservicesauthstatuschangeresult_1',['GameServicesAuthStatusChangeResult',['../db/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_auth_status_change_result.html',1,'VoxelBusters::EssentialKit']]],
-  ['gameservicesloadachievementdescriptionsresult_2',['GameServicesLoadAchievementDescriptionsResult',['../df/dfa/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_achievement_descriptions_result.html',1,'VoxelBusters::EssentialKit']]],
-  ['gameservicesloadachievementsresult_3',['GameServicesLoadAchievementsResult',['../d6/d49/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_achievements_result.html',1,'VoxelBusters::EssentialKit']]],
-  ['gameservicesloadleaderboardsresult_4',['GameServicesLoadLeaderboardsResult',['../d2/db3/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_leaderboards_result.html',1,'VoxelBusters::EssentialKit']]],
-  ['gameservicesloadplayerfriendsresult_5',['GameServicesLoadPlayerFriendsResult',['../d7/d5d/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_player_friends_result.html',1,'VoxelBusters::EssentialKit']]],
-  ['gameservicesloadplayersresult_6',['GameServicesLoadPlayersResult',['../d1/ddf/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_players_result.html',1,'VoxelBusters::EssentialKit']]],
-  ['gameservicesloadservercredentialsresult_7',['GameServicesLoadServerCredentialsResult',['../d0/dbf/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_server_credentials_result.html',1,'VoxelBusters::EssentialKit']]],
-  ['gameservicesunitysettings_8',['GameServicesUnitySettings',['../d7/dee/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings.html',1,'VoxelBusters::EssentialKit']]],
-  ['gameservicesviewresult_9',['GameServicesViewResult',['../db/d8d/class_voxel_busters_1_1_essential_kit_1_1_game_services_view_result.html',1,'VoxelBusters::EssentialKit']]]
+  ['iachievement_0',['IAchievement',['../d0/d60/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement.html',1,'VoxelBusters::EssentialKit']]],
+  ['iachievementdescription_1',['IAchievementDescription',['../d8/ded/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement_description.html',1,'VoxelBusters::EssentialKit']]],
+  ['iaddressbookcontact_2',['IAddressBookContact',['../d4/d51/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contact.html',1,'VoxelBusters::EssentialKit']]],
+  ['ibillingproduct_3',['IBillingProduct',['../d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product.html',1,'VoxelBusters::EssentialKit']]],
+  ['ibillingtransaction_4',['IBillingTransaction',['../da/d96/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_transaction.html',1,'VoxelBusters::EssentialKit']]],
+  ['iclouduser_5',['ICloudUser',['../d5/d14/interface_voxel_busters_1_1_essential_kit_1_1_i_cloud_user.html',1,'VoxelBusters::EssentialKit']]],
+  ['ileaderboard_6',['ILeaderboard',['../d0/d20/interface_voxel_busters_1_1_essential_kit_1_1_i_leaderboard.html',1,'VoxelBusters::EssentialKit']]],
+  ['ileaderboardscore_7',['ILeaderboardScore',['../d6/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_leaderboard_score.html',1,'VoxelBusters::EssentialKit']]],
+  ['ilocalplayer_8',['ILocalPlayer',['../d4/d37/interface_voxel_busters_1_1_essential_kit_1_1_i_local_player.html',1,'VoxelBusters::EssentialKit']]],
+  ['imediacontent_9',['IMediaContent',['../d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content.html',1,'VoxelBusters::EssentialKit']]],
+  ['inotification_10',['INotification',['../d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification.html',1,'VoxelBusters::EssentialKit']]],
+  ['inotificationtrigger_11',['INotificationTrigger',['../d2/df5/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_trigger.html',1,'VoxelBusters::EssentialKit']]],
+  ['iosplatformproperties_12',['IosPlatformProperties',['../d3/da5/class_voxel_busters_1_1_essential_kit_1_1_server_credentials_1_1_ios_platform_properties.html',1,'VoxelBusters::EssentialKit::ServerCredentials']]],
+  ['iosproperties_13',['IosProperties',['../db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties.html',1,'VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails']]],
+  ['iplayer_14',['IPlayer',['../db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player.html',1,'VoxelBusters::EssentialKit']]],
+  ['iscore_15',['IScore',['../dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score.html',1,'VoxelBusters::EssentialKit']]]
 ];

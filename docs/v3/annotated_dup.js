@@ -1,17 +1,6 @@
 var annotated_dup =
 [
     [ "VoxelBusters", "db/daf/namespace_voxel_busters.html", [
-      [ "CoreLibrary", "d7/d45/namespace_voxel_busters_1_1_core_library.html", [
-        [ "ExternalServiceProvider", "d4/db5/class_voxel_busters_1_1_core_library_1_1_external_service_provider.html", "d4/db5/class_voxel_busters_1_1_core_library_1_1_external_service_provider" ],
-        [ "IEventHandler", "de/ddd/interface_voxel_busters_1_1_core_library_1_1_i_event_handler.html", null ],
-        [ "IJsonServiceProvider", "d4/d8a/interface_voxel_busters_1_1_core_library_1_1_i_json_service_provider.html", "d4/d8a/interface_voxel_busters_1_1_core_library_1_1_i_json_service_provider" ],
-        [ "ISaveServiceProvider", "d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider.html", null ],
-        [ "KeyValueDataStore", "d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store.html", "d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store" ],
-        [ "MimeType", "db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type.html", "db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type" ],
-        [ "RuntimePlatformConstant", "db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant.html", "db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant" ],
-        [ "StringPopupAttribute", "d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute.html", null ],
-        [ "URLString", "d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string.html", "d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string" ]
-      ] ],
       [ "EssentialKit", "da/d57/namespace_voxel_busters_1_1_essential_kit.html", [
         [ "AchievementDefinition", "d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition.html", "d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition" ],
         [ "AddressBook", "da/db1/class_voxel_busters_1_1_essential_kit_1_1_address_book.html", "da/db1/class_voxel_busters_1_1_essential_kit_1_1_address_book" ],

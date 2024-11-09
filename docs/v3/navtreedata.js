@@ -30,7 +30,6 @@ var NAVTREE =
     [ "Topics", "topics.html", "topics" ],
     [ "Package Members", "namespacemembers.html", [
       [ "All", "namespacemembers.html", null ],
-      [ "Functions", "namespacemembers_func.html", null ],
       [ "Enumerations", "namespacemembers_enum.html", null ]
     ] ],
     [ "Classes", "annotated.html", [
@@ -51,9 +50,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d5/d40/class_voxel_busters_1_1_essential_kit_1_1_media_content_save_options.html#a0673bd44d0e7bc5c9b19f43bf0e4de6a",
-"da/d97/class_voxel_busters_1_1_essential_kit_1_1_notification_services.html",
-"functions_func_h.html"
+"d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services.html#a95a4fd58b0d7f700aea99c47aa841650",
+"da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder.html#a14216b8e4bc614c899dec5515aaf9444",
+"functions_vars.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -20,6 +20,5 @@ var searchData=
   ['isnotifieractive_17',['IsNotifierActive',['../dd/d14/class_voxel_busters_1_1_essential_kit_1_1_network_services.html#a39f5c61df616f61f192903b6f99c6155',1,'VoxelBusters::EssentialKit::NetworkServices']]],
   ['isreachable_18',['IsReachable',['../dc/ddf/class_voxel_busters_1_1_essential_kit_1_1_network_services_host_reachability_status_change_result.html#afdd8920a6757cb9631d1f07504c96520',1,'VoxelBusters::EssentialKit::NetworkServicesHostReachabilityStatusChangeResult']]],
   ['isreplayable_19',['IsReplayable',['../d8/ded/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement_description.html#a3b9911ed28a7ddeb43c7cb80646e9363',1,'VoxelBusters::EssentialKit::IAchievementDescription']]],
-  ['isunderage_20',['IsUnderAge',['../d4/d37/interface_voxel_busters_1_1_essential_kit_1_1_i_local_player.html#ab840642f1e46930a164a367e2c1417ca',1,'VoxelBusters::EssentialKit::ILocalPlayer']]],
-  ['isvalid_21',['IsValid',['../d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string.html#a62885a2911b2c21274564c3d9e407c2c',1,'VoxelBusters::CoreLibrary::URLString']]]
+  ['isunderage_20',['IsUnderAge',['../d4/d37/interface_voxel_busters_1_1_essential_kit_1_1_i_local_player.html#ab840642f1e46930a164a367e2c1417ca',1,'VoxelBusters::EssentialKit::ILocalPlayer']]]
 ];

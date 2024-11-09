@@ -20,10 +20,10 @@
 <script type="text/javascript" src="../../search/search.js"></script>
 <script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
-<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
-<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
-<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="https://fonts.googleapis.com/css?family=Bebas Neue" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -125,13 +125,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Show</b> ()</td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Hide</b> ()</td></tr>
 <tr class="memdesc:a130bc36524c72ad408ecd7338f1e0070"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hides the web view. <br /></td></tr>
 <tr class="separator:a130bc36524c72ad408ecd7338f1e0070"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe7ac96040b7a96b1d580052c91c24ea" id="r_abe7ac96040b7a96b1d580052c91c24ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe7ac96040b7a96b1d580052c91c24ea">LoadURL</a> (<a class="el" href="../../d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string.html">URLString</a> url)</td></tr>
+<tr class="memitem:abe7ac96040b7a96b1d580052c91c24ea" id="r_abe7ac96040b7a96b1d580052c91c24ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe7ac96040b7a96b1d580052c91c24ea">LoadURL</a> (URLString url)</td></tr>
 <tr class="memdesc:abe7ac96040b7a96b1d580052c91c24ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects to a given URL and asynchronously loads the content.  <br /></td></tr>
 <tr class="separator:abe7ac96040b7a96b1d580052c91c24ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75953be897b61775c3e1503d47bb2182" id="r_a75953be897b61775c3e1503d47bb2182"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75953be897b61775c3e1503d47bb2182">LoadHtmlString</a> (string htmlString, <a class="el" href="../../d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string.html">URLString</a>? baseURL=null)</td></tr>
+<tr class="memitem:a75953be897b61775c3e1503d47bb2182" id="r_a75953be897b61775c3e1503d47bb2182"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75953be897b61775c3e1503d47bb2182">LoadHtmlString</a> (string htmlString, URLString? baseURL=null)</td></tr>
 <tr class="memdesc:a75953be897b61775c3e1503d47bb2182"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the webpage contents.  <br /></td></tr>
 <tr class="separator:a75953be897b61775c3e1503d47bb2182"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6a5f443950394dd45e6572d11683106" id="r_ae6a5f443950394dd45e6572d11683106"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6a5f443950394dd45e6572d11683106">LoadData</a> (byte[] data, string mimeType, string textEncodingName, <a class="el" href="../../d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string.html">URLString</a>? baseURL=null)</td></tr>
+<tr class="memitem:ae6a5f443950394dd45e6572d11683106" id="r_ae6a5f443950394dd45e6572d11683106"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6a5f443950394dd45e6572d11683106">LoadData</a> (byte[] data, string mimeType, string textEncodingName, URLString? baseURL=null)</td></tr>
 <tr class="memdesc:ae6a5f443950394dd45e6572d11683106"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the webpage contents from specified file.  <br /></td></tr>
 <tr class="separator:ae6a5f443950394dd45e6572d11683106"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c6d9cfe80065438024b2055c8cf0a04" id="r_a7c6d9cfe80065438024b2055c8cf0a04"><td class="memItemLeft" align="right" valign="top"><a id="a7c6d9cfe80065438024b2055c8cf0a04" name="a7c6d9cfe80065438024b2055c8cf0a04"></a>
@@ -248,7 +248,7 @@ static Callback&lt; string &gt;&#160;</td><td class="memItemRight" valign="botto
 <div class="line">        m_webView.SetFullScreen();</div>
 <div class="line"> </div>
 <div class="line">        <span class="comment">// start request</span></div>
-<div class="line">        m_webView.<a class="code hl_function" href="#abe7ac96040b7a96b1d580052c91c24ea">LoadURL</a>(<span class="keyword">new</span> <a class="code hl_struct" href="../../d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string.html">URLString</a>(<span class="stringliteral">&quot;https://www.google.com&quot;</span>));</div>
+<div class="line">        m_webView.<a class="code hl_function" href="#abe7ac96040b7a96b1d580052c91c24ea">LoadURL</a>(<span class="keyword">new</span> URLString(<span class="stringliteral">&quot;https://www.google.com&quot;</span>));</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="keyword">private</span> <span class="keywordtype">void</span> OnEnable()</div>
@@ -313,7 +313,6 @@ static Callback&lt; string &gt;&#160;</td><td class="memItemRight" valign="botto
 <div class="ttc" id="aclass_voxel_busters_1_1_essential_kit_1_1_web_view_html_abe7ac96040b7a96b1d580052c91c24ea"><div class="ttname"><a href="#abe7ac96040b7a96b1d580052c91c24ea">VoxelBusters.EssentialKit.WebView.LoadURL</a></div><div class="ttdeci">void LoadURL(URLString url)</div><div class="ttdoc">Connects to a given URL and asynchronously loads the content.</div><div class="ttdef"><b>Definition</b> WebView.cs:541</div></div>
 <div class="ttc" id="aclass_voxel_busters_1_1_essential_kit_1_1_web_view_html_af82bacfe5b6faf0534ae06a9540cb886"><div class="ttname"><a href="#af82bacfe5b6faf0534ae06a9540cb886">VoxelBusters.EssentialKit.WebView.URL</a></div><div class="ttdeci">string URL</div><div class="ttdoc">The active URL. (read-only)</div><div class="ttdef"><b>Definition</b> WebView.cs:152</div></div>
 <div class="ttc" id="anamespace_voxel_busters_1_1_essential_kit_html"><div class="ttname"><a href="../../da/d57/namespace_voxel_busters_1_1_essential_kit.html">VoxelBusters.EssentialKit</a></div><div class="ttdoc">Namespace for essential kit features. You need to import this namespace along with VoxelBusters....</div><div class="ttdef"><b>Definition</b> AddressBook.cs:8</div></div>
-<div class="ttc" id="astruct_voxel_busters_1_1_core_library_1_1_u_r_l_string_html"><div class="ttname"><a href="../../d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string.html">VoxelBusters.CoreLibrary.URLString</a></div><div class="ttdoc">Struct value to represent the location of a resource, such as an item on a remote server or the path ...</div><div class="ttdef"><b>Definition</b> URLString.cs:12</div></div>
 </div><!-- fragment --> </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="abe7ac96040b7a96b1d580052c91c24ea" name="abe7ac96040b7a96b1d580052c91c24ea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abe7ac96040b7a96b1d580052c91c24ea">&#9670;&#160;</a></span>LoadURL()</h2>
@@ -324,7 +323,7 @@ static Callback&lt; string &gt;&#160;</td><td class="memItemRight" valign="botto
         <tr>
           <td class="memname">void LoadURL </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string.html">URLString</a></td>          <td class="paramname"><span class="paramname"><em>url</em></span></td><td>)</td>
+          <td class="paramtype">URLString</td>          <td class="paramname"><span class="paramname"><em>url</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -336,8 +335,6 @@ static Callback&lt; string &gt;&#160;</td><td class="memItemRight" valign="botto
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>Don’t use this method to load local HTML files, instead use LoadHtmlString(string, URLString). </dd></dl>
-
-<p class="reference">References <a class="el" href="../../d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string.html#a62885a2911b2c21274564c3d9e407c2c">URLString.IsValid</a>, and <a class="el" href="../../d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string.html#aa73e7c4dd1df5fd5fbf81c7764ee1533">URLString.ToString()</a>.</p>
 
 </div>
 </div>
@@ -355,7 +352,7 @@ static Callback&lt; string &gt;&#160;</td><td class="memItemRight" valign="botto
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string.html">URLString</a>?</td>          <td class="paramname"><span class="paramname"><em>baseURL</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">URLString?</td>          <td class="paramname"><span class="paramname"><em>baseURL</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -393,7 +390,7 @@ static Callback&lt; string &gt;&#160;</td><td class="memItemRight" valign="botto
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string.html">URLString</a>?</td>          <td class="paramname"><span class="paramname"><em>baseURL</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">URLString?</td>          <td class="paramname"><span class="paramname"><em>baseURL</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

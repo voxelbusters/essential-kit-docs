@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['mediacontentcaptureoptions_0',['MediaContentCaptureOptions',['../db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options.html#a266d53444cd54ba236c56ed88d6ea454',1,'VoxelBusters::EssentialKit::MediaContentCaptureOptions']]],
-  ['mediacontentselectoptions_1',['MediaContentSelectOptions',['../df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options.html#a9650eb3f856fbc908eba5d86545a64c0',1,'VoxelBusters::EssentialKit::MediaContentSelectOptions']]]
+  ['openapplicationsettings_0',['OpenApplicationSettings',['../d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities.html#abc8021a2d00879e17d4d0881eae74599',1,'VoxelBusters::EssentialKit::Utilities']]],
+  ['openappstorepage_1',['OpenAppStorePage',['../d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities.html#a4762977ab68072fc0ad870c3b4674996',1,'VoxelBusters.EssentialKit.Utilities.OpenAppStorePage()'],['../d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities.html#a9f050ac2f0aee36f061ec624fc3b8074',1,'VoxelBusters.EssentialKit.Utilities.OpenAppStorePage(params RuntimePlatformConstant[] applicationIds)'],['../d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities.html#a0d0ba6f1036c8e9801f520a9f372c470',1,'VoxelBusters.EssentialKit.Utilities.OpenAppStorePage(string applicationId)']]]
 ];
