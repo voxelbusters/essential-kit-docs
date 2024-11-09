@@ -8,11 +8,9 @@
 
 > As promised, all customers get [Ads Kit](https://u3d.as/37du "https://u3d.as/37du") for Free - No Code Required!
 
-![](../../resources/v3/asset-store/cover.png)
+![](https://raw.githubusercontent.com/voxelbusters/essential-kit-docs/main/resources/v3/asset-store/cover.png)
 
 * * *
-
-  
 
 #### **Important links**
 
@@ -94,11 +92,7 @@
 
 • You need to add "com.unity.nuget.**newtonsoft**\-json": "2.0.0" in Packages/manifest.json
 
-  
-
 * * *
-
-  
 
 **You might be interested in our other products**  
 
@@ -121,5 +115,3 @@
 <br>
 
 #### **Third Party Plugins Compatibility**
-
-• Plays nicely with [Anti-Cheat Toolkit](https://assetstore.unity.com/packages/slug/202695 "https://assetstore.unity.com/packages/slug/202695")
