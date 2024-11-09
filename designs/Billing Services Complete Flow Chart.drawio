@@ -1,0 +1,496 @@
+<mxfile host="app.diagrams.net" modified="2024-06-22T06:56:52.006Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="3fzjQ-fhbR9zOtcbKtw6" version="24.6.1" type="device">
+  <diagram name="Page-1" id="Ji4nOvzaj2n3dYa_QeOg">
+    <mxGraphModel dx="1628" dy="3281" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3FP0wMJxepDp0NqOBhyf-25" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="995" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="870" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" source="PVTjeA9JKSZRkX04qY1x-20" target="PVTjeA9JKSZRkX04qY1x-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-20" value="Event Registration&amp;nbsp;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 128, 0); background-color: rgb(255, 255, 255); white-space: pre; font-size: 17px;&quot;&gt;BillingServices.OnInitializeStoreComplete,&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); line-height: 18px; white-space: pre; font-size: 17px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 128, 0); font-size: 17px;&quot;&gt;BillingServices.&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 128, 0); font-size: 17px;&quot;&gt;OnTransactionStateChange&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 128, 0); font-size: 17px;&quot;&gt;,&lt;/span&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;div style=&quot;line-height: 18px; font-size: 17px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 128, 0); font-size: 17px;&quot;&gt;BillingServices.&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 128, 0); font-size: 17px;&quot;&gt;OnRestorePurchasesComplete&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="375" y="-1070" width="440" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" source="PVTjeA9JKSZRkX04qY1x-22" target="PVTjeA9JKSZRkX04qY1x-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-22" value="InitializeStore&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); line-height: 18px; white-space: pre; font-size: 17px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 128, 0); font-size: 17px;&quot;&gt;BillingServices.InitializeStore();&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="387.5" y="-810" width="415" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" source="PVTjeA9JKSZRkX04qY1x-24" target="PVTjeA9JKSZRkX04qY1x-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-28" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;labelBorderColor=none;horizontal=1;fontFamily=Verdana;textShadow=0;rounded=1;" parent="PVTjeA9JKSZRkX04qY1x-27" vertex="1" connectable="0">
+          <mxGeometry x="-0.0005" y="-3" relative="1" as="geometry">
+            <mxPoint x="-46" y="42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" source="PVTjeA9JKSZRkX04qY1x-24" target="PVTjeA9JKSZRkX04qY1x-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1125" y="-515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" source="PVTjeA9JKSZRkX04qY1x-24" target="PVTjeA9JKSZRkX04qY1x-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" source="PVTjeA9JKSZRkX04qY1x-24" target="PVTjeA9JKSZRkX04qY1x-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-36" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;labelBorderColor=none;horizontal=1;fontFamily=Verdana;textShadow=0;rounded=1;" parent="PVTjeA9JKSZRkX04qY1x-35" vertex="1" connectable="0">
+          <mxGeometry x="-0.2125" y="2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-24" value="Received&amp;nbsp;&lt;span style=&quot;color: rgb(0, 128, 0); white-space: pre; background-color: rgb(255, 255, 255); font-size: 17px;&quot;&gt;OnInitializeStoreComplete event&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 128, 0); white-space: pre; background-color: rgb(255, 255, 255); font-size: 17px;&quot;&gt;with Products?&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="340" y="-670" width="510" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-26" value="[Android] Check if the user is a valid tester or make him/her a licensed tester" style="whiteSpace=wrap;html=1;rounded=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="1125" y="-730" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-29" value="[iOS] Check if all tax aggrements are submitted in App Store Connect (Paid aggrements needs to be green)" style="whiteSpace=wrap;html=1;rounded=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="1125" y="-577.5" width="300" height="127.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-32" value="Check if event returned any Invalid Products. If so, make sure the BillingProduct identifiers (Platform Id&#39;s + Overrides) are correct." style="whiteSpace=wrap;html=1;rounded=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="1125" y="-430" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" source="PVTjeA9JKSZRkX04qY1x-34" target="PVTjeA9JKSZRkX04qY1x-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-34" value="Present Shop/Store with BillingProduct details" style="whiteSpace=wrap;html=1;rounded=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="410" y="-180" width="370" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-65" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" source="PVTjeA9JKSZRkX04qY1x-45" target="PVTjeA9JKSZRkX04qY1x-64" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-45" value="Consumable" style="whiteSpace=wrap;html=1;rounded=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="255" y="309" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" source="PVTjeA9JKSZRkX04qY1x-47" target="PVTjeA9JKSZRkX04qY1x-61" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-47" value="Non-Consumable" style="whiteSpace=wrap;html=1;rounded=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="535" y="309" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-63" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" source="PVTjeA9JKSZRkX04qY1x-51" target="PVTjeA9JKSZRkX04qY1x-61" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-51" value="Subscription" style="whiteSpace=wrap;html=1;rounded=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="755" y="309" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-57" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" source="PVTjeA9JKSZRkX04qY1x-54" target="PVTjeA9JKSZRkX04qY1x-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-58" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" source="PVTjeA9JKSZRkX04qY1x-54" target="PVTjeA9JKSZRkX04qY1x-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-59" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" source="PVTjeA9JKSZRkX04qY1x-54" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="815" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-60" value="SubscriptionInfo != null" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;labelBorderColor=none;horizontal=1;fontFamily=Verdana;textShadow=0;rounded=1;" parent="PVTjeA9JKSZRkX04qY1x-59" vertex="1" connectable="0">
+          <mxGeometry x="-0.0707" y="3" relative="1" as="geometry">
+            <mxPoint y="90" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PVTjeA9JKSZRkX04qY1x-54" target="qVZ3GGBNQU_vaDKlbaAR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-54" value="Each Billing Product (IBillingProduct)" style="whiteSpace=wrap;html=1;rounded=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="510" y="45" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-66" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" source="PVTjeA9JKSZRkX04qY1x-61" target="PVTjeA9JKSZRkX04qY1x-64" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-67" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;labelBorderColor=none;horizontal=1;fontFamily=Verdana;textShadow=0;rounded=1;" parent="PVTjeA9JKSZRkX04qY1x-66" vertex="1" connectable="0">
+          <mxGeometry x="-0.6045" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-69" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" source="PVTjeA9JKSZRkX04qY1x-61" target="PVTjeA9JKSZRkX04qY1x-68" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-61" value="Is Purchased?&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); line-height: 18px; white-space: pre; font-size: 17px;&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;font color=&quot;#006633&quot;&gt;BillingServices.IsProductPurchased&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); line-height: 18px; white-space: pre; font-size: 17px;&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;font color=&quot;#006633&quot;&gt;(IBillingProduct)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="515" y="505" width="385" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PVTjeA9JKSZRkX04qY1x-64" target="PVTjeA9JKSZRkX04qY1x-74" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-64" value="Purchase&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;color: rgb(121, 94, 38); white-space: pre; background-color: rgb(255, 255, 255); font-size: 17px;&quot;&gt;BillingServices.BuyProduct(IBillingProduct)&lt;/span&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="357.51" y="990" width="695" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-68" value="Allocate the product to the user and mark it owned by the user" style="whiteSpace=wrap;html=1;rounded=1;fontSize=17;labelBorderColor=none;horizontal=1;verticalAlign=middle;fontFamily=Verdana;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="1145" y="561.5" width="220" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PVTjeA9JKSZRkX04qY1x-74" target="PVTjeA9JKSZRkX04qY1x-83" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-74" value="Store presents&amp;nbsp;&lt;div&gt;Purchase Dialog&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=17;fontFamily=Verdana;labelBorderColor=none;size=-11.25;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="593.13" y="1265" width="223.75" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PVTjeA9JKSZRkX04qY1x-78" target="PVTjeA9JKSZRkX04qY1x-86" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-78" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Event&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(0, 128, 0); white-space: pre;&quot;&gt;OnTransactionStateChange &lt;/span&gt;&lt;/div&gt;&lt;div&gt;fired with&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(0, 128, 0); white-space: pre;&quot;&gt;&lt;br&gt;&lt;/span&gt;IBillingTransaction instance(s)&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=17;fontFamily=Verdana;labelBorderColor=none;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="565" y="1515" width="280" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-85" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PVTjeA9JKSZRkX04qY1x-83" target="PVTjeA9JKSZRkX04qY1x-78" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-83" value="Provide Input to&amp;nbsp;&lt;div&gt;Buy or Cancel&amp;nbsp;&lt;/div&gt;&lt;div&gt;the purchase&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=17;fontFamily=Verdana;labelBorderColor=none;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="562.5" y="1390" width="285" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PVTjeA9JKSZRkX04qY1x-86" target="PVTjeA9JKSZRkX04qY1x-88" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-90" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" parent="PVTjeA9JKSZRkX04qY1x-89" vertex="1" connectable="0">
+          <mxGeometry x="0.1455" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PVTjeA9JKSZRkX04qY1x-86" target="PVTjeA9JKSZRkX04qY1x-93" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-109" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" parent="PVTjeA9JKSZRkX04qY1x-94" vertex="1" connectable="0">
+          <mxGeometry x="-0.1066" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-86" value="TransactionState&amp;nbsp;&lt;div&gt;==&amp;nbsp;&lt;div&gt;&lt;span style=&quot;color: rgb(38, 127, 153); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space: pre;&quot;&gt;BillingTransactionState.Purchased&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;?&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;fontFamily=Verdana;labelBorderColor=none;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="497.5" y="1775" width="415" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-88" value="Inform user about transaction fail by checking Error property" style="whiteSpace=wrap;html=1;fontSize=17;fontFamily=Verdana;labelBorderColor=none;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1135" y="1787.0300000000004" width="255" height="160.93" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="PVTjeA9JKSZRkX04qY1x-93" target="PVTjeA9JKSZRkX04qY1x-98" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-100" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" parent="PVTjeA9JKSZRkX04qY1x-99" vertex="1" connectable="0">
+          <mxGeometry x="-0.079" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-93" value="ReceiptVerificationState&amp;nbsp;&lt;div&gt;==&amp;nbsp;&lt;div&gt;&lt;span style=&quot;color: rgb(38, 127, 153); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space: pre;&quot;&gt;BillingReceiptVerificationState&lt;/span&gt;&lt;span style=&quot;color: rgb(38, 127, 153); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space: pre;&quot;&gt;.Success&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;?&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;fontFamily=Verdana;labelBorderColor=none;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="25" y="2005" width="445" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PVTjeA9JKSZRkX04qY1x-98" target="PVTjeA9JKSZRkX04qY1x-110" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PVTjeA9JKSZRkX04qY1x-98" target="qVZ3GGBNQU_vaDKlbaAR-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-98" value="Deliver the Item" style="whiteSpace=wrap;html=1;fontSize=17;fontFamily=Verdana;labelBorderColor=none;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="645.01" y="2069.9950000000003" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PVTjeA9JKSZRkX04qY1x-110" target="PVTjeA9JKSZRkX04qY1x-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-7" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qVZ3GGBNQU_vaDKlbaAR-6">
+          <mxGeometry x="0.0724" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-110" value="Auto Finish Transactions&amp;nbsp;&lt;div&gt;Setting Disabled?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;fontFamily=Verdana;labelBorderColor=none;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="565" y="2210" width="280" height="149.67" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-112" value="Call&lt;div&gt;&lt;font face=&quot;Menlo, Monaco, Courier New, monospace&quot; color=&quot;#267f99&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;BillingServices.&lt;br/&gt;FinishTransactions(IBillingTransaction[])&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=17;fontFamily=Verdana;labelBorderColor=none;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="930" y="2219.84" width="305" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-122" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 17px;&quot;&gt;Getting started with event registration and Initializing the store&lt;/span&gt;e" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="20" y="-1155" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-123" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 17px;&quot;&gt;On receiving the Billing Products, display and allow the user to purchase a&amp;nbsp;&lt;/span&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-size: 17px;&quot;&gt;Billing Product&lt;/div&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="45" y="45" width="245" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="PVTjeA9JKSZRkX04qY1x-124" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;From store presenting the purchase dialog, receiving the transaction and delivery of the item.&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1240" width="245" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-1" value="&lt;div&gt;&lt;b&gt;Display Info&lt;/b&gt;&lt;br&gt;Product Identifier : &lt;b&gt;Id&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Product Title/Name : &lt;b&gt;LocalizedTitle&lt;/b&gt;&lt;/div&gt;Display Price : &lt;b&gt;Price.DisplayText&lt;/b&gt;&lt;br&gt;Price Value : &lt;b&gt;Price.Value&lt;/b&gt;&lt;br&gt;Currency Code : &lt;b&gt;Price.CurrencyCode&lt;/b&gt;&lt;br&gt;Currency Symbol : &lt;b&gt;Price.CurrencySymbol&lt;br&gt;&lt;/b&gt;Offers:&amp;nbsp;&lt;b&gt;Offers&lt;/b&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1052.51" y="12.5" width="485" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#6a00ff;strokeColor=#3700CC;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-3" target="qVZ3GGBNQU_vaDKlbaAR-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1435" y="3794.000244140625" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1425" y="3670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-3" value="&lt;b&gt;Offers&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1365" y="175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d80073;strokeColor=#A50040;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-8" target="qVZ3GGBNQU_vaDKlbaAR-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="4956.39990234375" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1530" y="4915" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-8" value="&lt;b&gt;SubscriptionInfo&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-11" target="qVZ3GGBNQU_vaDKlbaAR-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-11" value="Is ProductType ==&lt;br&gt;&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #267f99;&quot;&gt;BillingProductType.Subscription?&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="847.5" y="2040" width="325" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-13" target="qVZ3GGBNQU_vaDKlbaAR-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1345" y="2730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1345" y="2505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-13" value="SubscriptionStatus" style="whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="1285" y="2070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-16" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;Handling Subscription Status of a subscription&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2440" width="245" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-17" target="qVZ3GGBNQU_vaDKlbaAR-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="2655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-17" target="qVZ3GGBNQU_vaDKlbaAR-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-17" value="Subscription Status" style="whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="647.5" y="2475" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-18" value="GroupId" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="2665" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-19" target="qVZ3GGBNQU_vaDKlbaAR-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-19" target="qVZ3GGBNQU_vaDKlbaAR-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-19" target="qVZ3GGBNQU_vaDKlbaAR-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-19" target="qVZ3GGBNQU_vaDKlbaAR-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-19" target="qVZ3GGBNQU_vaDKlbaAR-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-19" value="RenewalInfo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="2770" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-25" value="&lt;b&gt;RenewalState&lt;/b&gt;&lt;br&gt;Subscribed, Expired, InBillingRetryPeriod, &lt;br&gt;InGradePeriod, &lt;br&gt;Revoked, Unknown&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(151, 208, 119);&quot;&gt;Android : Always Unknown&lt;br&gt;iOS : Proper value&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="17.5" y="3037.5" width="367.5" height="127.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-29" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;b style=&quot;&quot;&gt;IsAutoRenewEnabled&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="3040" width="160" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-32" value="&lt;b&gt;ExpirationReason?&lt;/b&gt;&lt;br&gt;AutoRenewDisabled, BillingError, &lt;br&gt;DidNotConsentPriceIncrease, ProductUnavailable, &lt;br&gt;Unknown&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(151, 208, 119);&quot;&gt;Android : Always Unknown&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(151, 208, 119);&quot;&gt;iOS : Proper value&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="3035" width="344.38" height="182.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-34" value="&lt;b&gt;RenewalDate?&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="985" y="3035" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-35" value="&lt;b&gt;GracePeriodExpirationDate?&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="3035" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-39" value="Offers" style="whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="660" y="3640" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-40" value="&lt;b&gt;Id&lt;/b&gt;&lt;br&gt;Android : The Id you fill for an offer in a Base Plan&lt;br&gt;&lt;br&gt;iOS : Offer Id you set for a Subscription offer in a Subscription" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="3840" width="120" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-41" value="&lt;b&gt;Category&lt;/b&gt;&lt;br&gt;None, Introductory, Promotional, Code, Unknown&lt;br&gt;&lt;div&gt;&lt;br&gt;Android: Set tags of an offer in Google Play Console to have Intro, Code, Promo to populate corresponding Category&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="497.5" y="3840" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-42" target="qVZ3GGBNQU_vaDKlbaAR-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-42" value="&lt;b&gt;PricingPhases&lt;/b&gt;&lt;br&gt;A BillingProduct can contain &lt;b&gt;multiple Offers.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Android: Creating multiple offers for a base plan is possible in Google Play Console&lt;br&gt;iOS: Max of 1 offer per subscription in AppStoreConnect" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="675" y="3840" width="120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-43" target="qVZ3GGBNQU_vaDKlbaAR-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-43" target="qVZ3GGBNQU_vaDKlbaAR-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-43" target="qVZ3GGBNQU_vaDKlbaAR-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-43" target="qVZ3GGBNQU_vaDKlbaAR-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-43" value="&lt;b&gt;Offer Pricing Phase&lt;br&gt;&lt;/b&gt;(Price + Period)&lt;br&gt;&lt;br&gt;Each offer can have a pricing phase which is Price + Period of the offer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="637.5" y="4190" width="195" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-45" value="&lt;b&gt;PaymentMode&lt;/b&gt;&lt;br&gt;FreeTrial, PayAsYouGo, PayUpFront, Unknown" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="4465" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-46" value="&lt;b&gt;Price&lt;/b&gt;&lt;div&gt;Value&lt;br&gt;CurrencyCode&lt;br&gt;CurrencySymbol&lt;br&gt;DisplayText&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="4465" width="120" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-47" value="&lt;b&gt;Period&lt;/b&gt;&lt;div&gt;Duration&lt;br&gt;Unit - Day, Week, Month, Year&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="4465" width="120" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-49" value="&lt;b&gt;RepeatCount&lt;/b&gt;&lt;div&gt;Number of times we need to repeat this offer pricing as per billing period unit&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="4465" width="120" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-55" target="qVZ3GGBNQU_vaDKlbaAR-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-55" target="qVZ3GGBNQU_vaDKlbaAR-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-55" target="qVZ3GGBNQU_vaDKlbaAR-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775" y="5020" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-55" value="SubscriptionInfo" style="whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="642.5" y="4885" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-56" value="&lt;b&gt;GroupId&lt;/b&gt;&lt;br&gt;Android : Subscription Id set in google play console is considered as GroupId and BasePlan Id set is considered as Billing Product Platform Id&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="5120" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-57" value="&lt;b&gt;LocalizedGroupTitle&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="675" y="5120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-58" value="&lt;b&gt;Period&lt;br&gt;&lt;/b&gt;Duration&lt;br&gt;Unit - Day, Week, Month, Year&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="5120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-62" target="qVZ3GGBNQU_vaDKlbaAR-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="-2170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-62" target="qVZ3GGBNQU_vaDKlbaAR-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-62" value="Billing Services Terminology" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="-2305" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-64" target="qVZ3GGBNQU_vaDKlbaAR-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-64" target="qVZ3GGBNQU_vaDKlbaAR-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-64" target="qVZ3GGBNQU_vaDKlbaAR-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-64" value="iOS - AppStoreConnect" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="-2190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-65" target="qVZ3GGBNQU_vaDKlbaAR-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-65" target="qVZ3GGBNQU_vaDKlbaAR-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-65" value="Android - Google Play Console" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="945" y="-2185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-67" value="Consumable Products" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="-2020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-69" value="Non-Consumable Products" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="-2025" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-70" target="qVZ3GGBNQU_vaDKlbaAR-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-70" value="Subscriptions" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-2025" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-73" target="qVZ3GGBNQU_vaDKlbaAR-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-73" target="qVZ3GGBNQU_vaDKlbaAR-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-73" value="In-App Products / One-Time Purchases" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="945" y="-2045" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-75" value="Consumable Products" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="855" y="-1910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-77" value="Non-Consumable Products" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1052.51" y="-1910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-79" target="qVZ3GGBNQU_vaDKlbaAR-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-79" value="Subscriptions" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="-2045" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-81" target="qVZ3GGBNQU_vaDKlbaAR-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-81" value="Subscription Group" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-1880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-83" value="Subscription" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-1745" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-85" target="qVZ3GGBNQU_vaDKlbaAR-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-85" value="Subscription" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="-1905" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-87" target="qVZ3GGBNQU_vaDKlbaAR-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-87" value="Base Plan&lt;br&gt;&lt;font color=&quot;#ff3399&quot;&gt;(Only one BasePlan per subscription supported)&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="-1765" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-89" value="Offers&lt;br&gt;(Multiple Offers allowed per base plan)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="-1625" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-91" target="qVZ3GGBNQU_vaDKlbaAR-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-91" target="qVZ3GGBNQU_vaDKlbaAR-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qVZ3GGBNQU_vaDKlbaAR-91" target="qVZ3GGBNQU_vaDKlbaAR-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-91" value="BillingProduct (Essential Kit)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334.69" y="-1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-92" value="Id&lt;br&gt;An id you give to refer a billing product uniquely across platforms. This is the value you use in code to compare, buy and other operations" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="659.69" y="-1395" width="120" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-94" value="&lt;b&gt;PlatformId&lt;/b&gt;&lt;br&gt;This is the value we set in Essential Kit Settings for PlatformId or PlatformIdOverrides" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="824.69" y="-1395" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-95" value="&lt;b&gt;SubscriptionInfo.GroupId&lt;br&gt;&lt;/b&gt;Is for grouping subscriptions. On iOS this is Subscription Group Id and on Android this is Base Plan Id set for a subscription" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1029.69" y="-1400" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-98" value="Android : To achieve proper cross platform compatibility, we allow&lt;b&gt; only one Base Plan for a Subscription&lt;/b&gt;. Also the value you set for &lt;b&gt;Subscription Id&lt;/b&gt; in play console is considered as the &lt;b&gt;Billing Product Platform Id&lt;/b&gt; (which you need to fill in settings).&lt;div&gt;&lt;b&gt;Base Plan Id&lt;/b&gt;&amp;nbsp;is&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;BillingProduct&#39;s&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;SubscriptionInfo.GroupId &lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;and&lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;can be used to group the subscriptions to achieve something similar to what iOS offers.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Ex: Subscription Id - com.company.product.sub_vip_monthly&lt;/div&gt;&lt;div&gt;Base Plan Id - vip&lt;/div&gt;&lt;div&gt;Offers - Can have multiple&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="860" y="-1825" width="325" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-99" value="iOS : &lt;b&gt;Subscription Group Id&lt;/b&gt; set in AppStoreConnect &lt;b&gt;is&lt;/b&gt; BillingProduct&#39;s &lt;b&gt;SubscriptionInfo.GroupId&lt;/b&gt;&lt;br&gt;and&lt;br&gt;&lt;b&gt;Subscription Id &lt;/b&gt;set in AppStoreConnect is BillingProduct&#39;s &lt;b&gt;Platform Id&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Ex: Subscription Id - com.company.product.sub_vip_monthly&lt;/div&gt;&lt;div&gt;Base Plan Id - vip&lt;/div&gt;&lt;div&gt;Offers - Can have multiple&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="75" y="-1925" width="320" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="qVZ3GGBNQU_vaDKlbaAR-102" value="Cross Platform Essential Kit - Billing Services&lt;br&gt;Consumable + Non-Consumable + Subscriptions + Offers&lt;br&gt;iOS - Store Kit 2&lt;br&gt;Android - Billing Client v7" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-2400" width="1120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
