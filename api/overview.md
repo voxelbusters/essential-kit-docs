@@ -8,7 +8,7 @@
 
 > As promised, all customers get [Ads Kit](https://u3d.as/37du "https://u3d.as/37du") for Free - No Code Required!
 
-![](https://raw.githubusercontent.com/voxelbusters/essential-kit-docs/main/resources/v3/asset-store/cover.png)
+![](../../../resources/v3/asset-store/cover.png)
 
 * * *
 
