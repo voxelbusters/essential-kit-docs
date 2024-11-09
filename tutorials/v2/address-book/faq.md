@@ -8,8 +8,6 @@ No. Plugin takes care of it. It automatically adds the required permissions in t
 
 Explain the reason why your game/app needs the permission before requesting it. If user deny it accidentally, you can let the user manually enable it from settings and you can open the application settings screen with  **Utilities.OpenApplicationSettings** method.
 
-![](../../../resources/v3/asset-store/cover.png "Test Image")
 
-![](../../resources/)
 
 
