@@ -59,7 +59,7 @@ done
 
 
 # Add, commit, and push changes to the api-github-pages branch
-git add $api_folder
+git add $target_folder
 git commit -m "chore: Updating contents of latest docs for GitHub Pages"
 git push origin $target_branch
 
