@@ -11,6 +11,8 @@ target_branch="api-github-pages"
 api_folder="api"
 docs_folder="docs"
 docs_folder_from_root="api/docs"
+
+temp_folder="temp"
 target_folder="api"
 
 
@@ -33,30 +35,37 @@ git push origin $master_branch
 
 git checkout $target_branch
 
-# Checkout the contents of the docs folder from the main branch
-git checkout $master_branch -- $docs_folder_from_root/
+echo "Copying contents of $docs_folder_from_root from $master_branch to $temp_folder"
+mkdir $temp_folder
+echo "Copying contants of $docs_folder_from_root to $temp_folder"
+git --work-tree=./$temp_folder checkout $master_branch -- $docs_folder_from_root/
 #git checkout $master_branch -- $resources_folder/ - No need to copy this as it will be copied now within doxygen (as we referred the images folder and moved overview.md to root)
 
-
-
 # Loop through all sub_folderes of $docs_folder_from_root, delete only if they exist in destination
-find "$docs_folder_from_root" -mindepth 1 -maxdepth 1 -type d | while read -r sub_folder; do
+find "$temp_folder/$docs_folder_from_root" -mindepth 1 -maxdepth 1 -type d | while read -r sub_folder; do
   sub_folder_name=$(basename "$sub_folder")
   target_sub_folder="$target_folder/$sub_folder_name"
-  
+  echo "Source sub folder : $sub_folder"
+  echo "Target sub folder : $target_sub_folder"
+
   # Check if the sub_folder exists in the target directory
   if [ -d "$target_sub_folder" ]; then
+    echo "There is a target folder $target_sub_folder, so we will delete it"
     # If it exists, delete it
     rm -rf "$target_sub_folder"
     echo "Deleted existing folder: $target_sub_folder"
+  else
+    echo "Creating $target_sub_folder if doesn't exist"
+    mkdir -p "$target_sub_folder"  
   fi
-  echo "$target_folder/$sub_folder_name"
-  mkdir -p "$target_sub_folder"
+  
   # Copy the sub_folder from source to target
-  cp -r "$sub_folder" "$target_folder"
-  echo "Copied folder: $sub_folder to $target_folder"
+  cp -r "$sub_folder/." "$target_sub_folder"
+  echo "Copied folder: $sub_folder to $target_sub_folder"
 done
 
+echo "Deleting temp folder"
+rm -rf $temp_folder
 
 # Add, commit, and push changes to the api-github-pages branch
 git add $target_folder
