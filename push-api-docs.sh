@@ -70,9 +70,9 @@ rm -rf $temp_folder
 # Add, commit, and push changes to the api-github-pages branch
 git add $target_folder
 git commit -m "chore: Updating contents of latest docs for GitHub Pages"
-#git push origin $target_branch
+git push origin $target_branch
 
 # Checkout back to the master branch
-#git checkout $master_branch
+git checkout $master_branch
 
 echo "Contents of the docs folder have been moved to the root of the $target_branch branch, and you are now back on the main branch."
