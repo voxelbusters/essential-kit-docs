@@ -1,4 +1,0 @@
-var class_voxel_busters_1_1_essential_kit_1_1_notification_services_register_for_push_notifications_result =
-[
-    [ "DeviceToken", "d5/df0/class_voxel_busters_1_1_essential_kit_1_1_notification_services_register_for_push_notifications_result.html#a9409c921495f71d6b73d4a41f3d0e36d", null ]
-];
