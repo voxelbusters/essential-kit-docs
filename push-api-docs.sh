@@ -11,7 +11,7 @@ target_branch="api-github-pages"
 api_folder="api"
 docs_folder="docs"
 docs_folder_from_root="api/docs"
-target_folder="docs"
+target_folder="api"
 
 
 
