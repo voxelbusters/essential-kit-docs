@@ -29,7 +29,7 @@ git checkout $target_branch
 
 # Step 1: Checkout the contents of the docs folder from the main branch
 git checkout $master_branch -- $docs_folder_from_root/
-git checkout $master_branch -- $resources_folder/
+#git checkout $master_branch -- $resources_folder/ - No need to copy this as it will be copied now within doxygen (as we referred the images folder and moved overview.md to root)
 
 # Step 7: Add, commit, and push changes to the api-github-pages branch
 git add $api_folder
