@@ -1,5 +1,6 @@
 ---
 description: Have your own localised text for the strings used within the plugin
+hidden: true
 ---
 
 # Localisation
