@@ -12,7 +12,7 @@ To enable billing on Android, you first need to upload your app to play store in
 
 Once after  uploading the app and publish in any of the tracks, you will get an option to add in-app products.&#x20;
 
-![Create in-app product from Monetise -> Products -> In-App products](../../.gitbook/assets/BillingServicesInAppAndroidCreate.gif)
+![Create in-app product from Monetise -> Products -> In-App products](../../../.gitbook/assets/BillingServicesInAppAndroidCreate.gif)
 
 ## Public Key
 
@@ -20,7 +20,7 @@ Once after  uploading the app and publish in any of the tracks, you will get an 
 
 ###
 
-![Public key needs to be set in Billing Services under Android in Essential Kit Settings](../../.gitbook/assets/BillingServicesInAppAndroidPublicKey.png)
+![Public key needs to be set in Billing Services under Android in Essential Kit Settings](../../../.gitbook/assets/BillingServicesInAppAndroidPublicKey.png)
 
 {% hint style="info" %}
 Public key is used internally by the plugin to validate a purchased receipt on Android

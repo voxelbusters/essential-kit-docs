@@ -23,19 +23,15 @@
   * [Usage](features/address-book/usage.md)
   * [Testing](features/address-book/testing.md)
   * [FAQ](features/address-book/faq.md)
-
-## Billing Services
-
-* [Overview](billing-services/overview.md)
-* [Use Cases](billing-services/use-cases.md)
-* [Setup](billing-services/setup/README.md)
-  * [iOS](billing-services/setup/ios.md)
-  * [Android](billing-services/setup/android.md)
-* [Usage](billing-services/usage.md)
-* [Testing](billing-services/testing/README.md)
-  * [iOS](billing-services/testing/testing-ios.md)
-  * [Android](billing-services/testing/testing-android.md)
-* [FAQ](billing-services/faq.md)
+* [💲 Billing Services](features/billing-services/README.md)
+  * [Setup](features/billing-services/setup/README.md)
+    * [iOS](features/billing-services/setup/ios.md)
+    * [Android](features/billing-services/setup/android.md)
+  * [Usage](features/billing-services/usage.md)
+  * [Testing](features/billing-services/testing/README.md)
+    * [iOS](features/billing-services/testing/testing-ios.md)
+    * [Android](features/billing-services/testing/testing-android.md)
+  * [FAQ](features/billing-services/faq.md)
 
 ## Cloud Services
 

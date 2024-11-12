@@ -4,13 +4,13 @@ description: Configuring Billing Services Feature
 
 # Setup
 
-Before using any of the billing products, we need to configure them in the [Essential Kit Settings](../../plugin-overview/settings.md) under billing services.
+Before using any of the billing products, we need to configure them in the [Essential Kit Settings](../../../plugin-overview/settings.md) under billing services.
 
 ## Enable Feature
 
-Open [Essential Kit Settings](../../plugin-overview/settings.md) and enable Billing Services feature in the inspector.
+Open [Essential Kit Settings](../../../plugin-overview/settings.md) and enable Billing Services feature in the inspector.
 
-![Enable Billing Services feature from Essential Kit Settings](../../.gitbook/assets/EnableBillingServices.gif)
+![Enable Billing Services feature from Essential Kit Settings](../../../.gitbook/assets/EnableBillingServices.gif)
 
 ### Properties
 
