@@ -1,13 +1,13 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Features](features.md)
+* [Features Overview](features-overview.md)
 
 ## Whats new in v3
 
 * [Version 3 vs Version 2](whats-new-in-v3/version-3-vs-version-2.md)
-* [Upgrade from V2](whats-new-in-v3/upgrade-from-v2.md)
 * [Release Notes](whats-new-in-v3/release-notes.md)
+* [Upgrade from V2](whats-new-in-v3/upgrade-from-v2.md)
 
 ## Plugin Overview
 
@@ -16,14 +16,13 @@
 * [Installation FAQ](plugin-overview/installation-faq.md)
 * [Localisation](plugin-overview/localisation.md)
 
-## Address Book
+## Features
 
-* [Overview](address-book/overview.md)
-* [Use Cases](address-book/use-cases.md)
-* [Setup](address-book/setup.md)
-* [Usage](address-book/usage.md)
-* [Testing](address-book/testing.md)
-* [FAQ](address-book/faq.md)
+* [📒 Address Book](features/address-book/README.md)
+  * [Setup](features/address-book/setup.md)
+  * [Usage](features/address-book/usage.md)
+  * [Testing](features/address-book/testing.md)
+  * [FAQ](features/address-book/faq.md)
 
 ## Billing Services
 

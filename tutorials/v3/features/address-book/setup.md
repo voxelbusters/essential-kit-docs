@@ -8,7 +8,7 @@ description: Configuring Address Book Feature
 
 Open Essential Kit Settings and enable Address Book feature in the inspector.
 
-![Enable Address Book feature from Essential Kit Settings](../.gitbook/assets/EnableAddressBook.gif)
+![Enable Address Book feature from Essential Kit Settings](../../.gitbook/assets/EnableAddressBook.gif)
 
 #### Properties
 

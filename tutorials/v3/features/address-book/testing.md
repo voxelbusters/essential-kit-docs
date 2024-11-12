@@ -6,5 +6,5 @@ This will come handy if you don't have access to a device or you just want to by
 
 Set the access status to value of **AddressBookContactsAccessStatus** and it should act as per the set status while running on editor.
 
-![Update the simulator database to simulate the address book access status](../.gitbook/assets/AddressBookSimulator.gif)
+![Update the simulator database to simulate the address book access status](../../.gitbook/assets/AddressBookSimulator.gif)
 
