@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Features](features.md)
 * [Version 3 vs Version 2](version-3-vs-version-2/README.md)
+  * [Release Notes](version-3-vs-version-2/release-notes.md)
   * [Upgrade from V2](version-3-vs-version-2/upgrade-from-v2.md)
 
 ## Plugin Overview
