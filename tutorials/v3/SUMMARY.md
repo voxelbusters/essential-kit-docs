@@ -89,10 +89,6 @@
   * [Usage](features/web-view/usage.md)
   * [FAQ](features/web-view/faq.md)
 
-## Web View
-
-* [Use Cases](web-view/use-cases.md)
-
 ## Notes
 
 * [Resolving Android Gradle Build Errors](notes/resolving-android-gradle-build-errors.md)
