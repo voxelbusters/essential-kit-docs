@@ -2,9 +2,12 @@
 
 * [Introduction](README.md)
 * [Features](features.md)
-* [Version 3 vs Version 2](version-3-vs-version-2/README.md)
-  * [Release Notes](version-3-vs-version-2/release-notes.md)
-  * [Upgrade from V2](version-3-vs-version-2/upgrade-from-v2.md)
+
+## Whats new in v3
+
+* [Version 3 vs Version 2](whats-new-in-v3/version-3-vs-version-2.md)
+* [Upgrade from V2](whats-new-in-v3/upgrade-from-v2.md)
+* [Release Notes](whats-new-in-v3/release-notes.md)
 
 ## Plugin Overview
 
