@@ -8,7 +8,7 @@ For Google Play Services to sign in successfully, you need to make sure the apk 
 
 Each apk built with a keystore has a SHA fingerprint. You need to make sure the SHA fingerprint is added in the google cloud.&#x20;
 
-You can fetch it with keytool command (check [here](../game-services/faq.md#what-are-different-sha-fingerprints-that-needs-to-be-used-for-logging-in-successfully-on-different-environments-and-how-to-create-them) on how to get SHA for each environment )
+You can fetch it with keytool command (check [here](../features/game-services/faq.md#what-are-different-sha-fingerprints-that-needs-to-be-used-for-logging-in-successfully-on-different-environments-and-how-to-create-them) on how to get SHA for each environment )
 
 ### How many SHA fingerprints I need to add for successful authentication?&#x20;
 
@@ -32,4 +32,4 @@ So in total 3 environments (dev, release and production). If you want all the ab
 
 ### Where to add these SHA fingerprints?&#x20;
 
-Google Play Console. Check [here](../game-services/setup/android.md#adding-a-sha-fingerprint) for details on how to add a SHA fingerprint.
+Google Play Console. Check [here](../features/game-services/setup/android.md#adding-a-sha-fingerprint) for details on how to add a SHA fingerprint.
