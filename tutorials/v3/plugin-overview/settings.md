@@ -4,7 +4,7 @@
 
 {% embed url="https://www.youtube.com/watch?v=ZoBO9s-3_1o" %}
 
-Essential Kit Settings is the control panel for all the features covered in [**Cross Platform Essential Kit**](http://u3d.as/1szE).\
+Essential Kit Settings is the control panel for all the features covered in [**Essential Kit**](https://link.voxelbusters.com/essential-kit).\
 You can enable and disable the features based on your requirement.&#x20;
 
 
@@ -17,7 +17,7 @@ Add the following dependencies in manifest.json (if not added)
 
 
 
-Access the settings from **Window -> Voxel Busters -> Native Plugins -> Essential Kit -> Open Settings**
+Access the settings from **Window -> Voxel Busters -> Essential Kit -> Open Settings**
 
 ![Open Essential Kit Settings](../.gitbook/assets/OpenEssentialKitSettings.gif)
 
@@ -31,7 +31,7 @@ Enable the features you want to use and disable the rest.
 Disabling the features that you don't use will let the plugin to not export the features that are unused.
 {% endhint %}
 
-Application Settings is common to all features and the values need to be set before you publish the app to app stores.
+General section is common to all features and the values need to be set before you publish the app to app stores.
 
 ![Application Settings](../.gitbook/assets/ApplicationSettings.gif)
 
