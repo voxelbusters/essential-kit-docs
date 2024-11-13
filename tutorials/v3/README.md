@@ -106,7 +106,7 @@
 
 [Cross Platform **Story Kit(Instagram)**](http://u3d.as/1pMn)
 
-**If you are upgrading from version 2.x, please follow** **this guide.**
+**If you are upgrading from version 2.x, please follow** [**this guide**](whats-new-in-v3/upgrade-from-v2.md)**.**
 
 **Third Party Plugins Compatibility**
 
