@@ -14,7 +14,7 @@
 
 #### **Important links**
 
-[Unity Forum Thread](link.voxelbusters.com/essential-kit-unity-forum){:target="_blank"} | [Tutorials](link.voxelbusters.com/essential-kit-tutorials){:target="_blank"}  | [Support](link.voxelbusters.com/essential-kit-support){:target="_blank"} 
+[Unity Forum Thread](https://link.voxelbusters.com/essential-kit-unity-forum) | [Tutorials](https://link.voxelbusters.com/essential-kit-tutorials)  | [API Reference](https://link.voxelbusters.com/essential-kit-api) | [Support](https://link.voxelbusters.com/essential-kit-support)
 
 <br>
 
