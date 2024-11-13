@@ -8,7 +8,7 @@ description: Improvements and other changes in Version3 compared to Version 2
 
 #### Free Ads Kit (v1)
 
-Get a <mark style="background-color:green;">free copy</mark> of [Ads Kit](https://link.voxelbusters.com/essential-kit-ads-kit) (v1) with V3. Ads Kit offer single api for adding any supported ad network. It has no-code work flow too and very limited api calls for supporting different ad types.
+Get a <mark style="background-color:green;">free copy</mark> of [Ads Kit](https://link.voxelbusters.com/ads-kit) (v1) with V3. Ads Kit offer single api for adding any supported ad network. It has no-code work flow too and very limited api calls for supporting different ad types.
 
 #### Complete Custom Implementation
 

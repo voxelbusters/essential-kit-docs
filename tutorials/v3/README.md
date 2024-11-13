@@ -6,7 +6,7 @@
 
 > **450+** 🌟🌟🌟🌟🌟 | Used by **25,000+ developers** world-wide
 
-> As promised, all customers get [Ads Kit](https://link.voxelbusters.com/essential-kit-ads-kit) for Free - No Code Required!
+> As promised, all customers get [Ads Kit](https://link.voxelbusters.com/ads-kit) for Free - No Code Required!
 
 
 
