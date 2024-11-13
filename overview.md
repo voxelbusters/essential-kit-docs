@@ -14,7 +14,7 @@
 
 #### **Important links**
 
-[Unity Forum Thread](http://bit.ly/1Ldxu4f "http://bit.ly/1Ldxu4f") | [Tutorials](https://assetstore.essentialkit.voxelbusters.com/ "https://assetstore.essentialkit.voxelbusters.com/") | [Support](https://discord.gg/y4kQAefbJ8 "https://discord.gg/y4kQAefbJ8")
+[Unity Forum Thread](link.voxelbusters.com/essential-kit-unity-forum){:target="_blank"} | [Tutorials](link.voxelbusters.com/essential-kit-tutorials){:target="_blank"}  | [Support](link.voxelbusters.com/essential-kit-support){:target="_blank"} 
 
 <br>
 
@@ -115,3 +115,4 @@
 <br>
 
 #### **Third Party Plugins Compatibility**
+• Plays nicely with [Anti-Cheat Toolkit](https://assetstore.unity.com/packages/slug/202695){:target="_blank"}
