@@ -21,9 +21,8 @@
 <script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/css?family=Bebas Neue" rel="stylesheet" type="text/css"/>
-<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
-<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -175,8 +174,22 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Signout</b> ()
 <tr class="memitem:a1e8d6e3ff864d9746c5599f009ab5311" id="r_a1e8d6e3ff864d9746c5599f009ab5311"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e8d6e3ff864d9746c5599f009ab5311">LoadServerCredentials</a> (EventCallback&lt; <a class="el" href="../../d0/dbf/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_server_credentials_result.html">GameServicesLoadServerCredentialsResult</a> &gt; callback)</td></tr>
 <tr class="memdesc:a1e8d6e3ff864d9746c5599f009ab5311"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the server credentials.  <br /></td></tr>
 <tr class="separator:a1e8d6e3ff864d9746c5599f009ab5311"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Advanced Usage</div></td></tr>
+<tr class="memitem:a1805c679a942612471ecc2d2d135fc8c" id="r_a1805c679a942612471ecc2d2d135fc8c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1805c679a942612471ecc2d2d135fc8c">Initialize</a> (<a class="el" href="../../d7/dee/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings.html">GameServicesUnitySettings</a> settings)</td></tr>
+<tr class="memdesc:a1805c679a942612471ecc2d2d135fc8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes game services with custom settings created at runtime.  <br /></td></tr>
+<tr class="separator:a1805c679a942612471ecc2d2d135fc8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Obsolete methods</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p>Loads the player details from game server.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">playerIds</td><td>An array of player id's whose details has to be retrieved from game server.</td></tr>
+    <tr><td class="paramname">callback</td><td>Callback that will be called after operation is completed.</td></tr>
+  </table>
+  </dd>
+</dl>
+</div></td></tr>
 <tr class="memitem:a0e00c1da79668bb7d2dc2a36dd5a3b15" id="r_a0e00c1da79668bb7d2dc2a36dd5a3b15"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e00c1da79668bb7d2dc2a36dd5a3b15">LoadPlayers</a> (string[] playerIds, EventCallback&lt; <a class="el" href="../../d1/ddf/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_players_result.html">GameServicesLoadPlayersResult</a> &gt; callback)</td></tr>
-<tr class="memdesc:a0e00c1da79668bb7d2dc2a36dd5a3b15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the player details from game server.  <br /></td></tr>
+<tr class="memdesc:a0e00c1da79668bb7d2dc2a36dd5a3b15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the score for specified leaderboard.  <br /></td></tr>
 <tr class="separator:a0e00c1da79668bb7d2dc2a36dd5a3b15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4891ec2f09f2fe223475511a0b4bb6dc" id="r_a4891ec2f09f2fe223475511a0b4bb6dc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score.html">IScore</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4891ec2f09f2fe223475511a0b4bb6dc">CreateScore</a> (string leaderboardId)</td></tr>
 <tr class="memdesc:a4891ec2f09f2fe223475511a0b4bb6dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the score for specified leaderboard.  <br /></td></tr>
@@ -184,10 +197,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Signout</b> ()
 <tr class="memitem:a4e8b6349240d1c3f1c54d16e8c1fcd37" id="r_a4e8b6349240d1c3f1c54d16e8c1fcd37"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score.html">IScore</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e8b6349240d1c3f1c54d16e8c1fcd37">CreateScore</a> (<a class="el" href="../../d0/d20/interface_voxel_busters_1_1_essential_kit_1_1_i_leaderboard.html">ILeaderboard</a> leaderboard)</td></tr>
 <tr class="memdesc:a4e8b6349240d1c3f1c54d16e8c1fcd37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the score for specified leaderboard.  <br /></td></tr>
 <tr class="separator:a4e8b6349240d1c3f1c54d16e8c1fcd37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Advanced Usage</div></td></tr>
-<tr class="memitem:a1805c679a942612471ecc2d2d135fc8c" id="r_a1805c679a942612471ecc2d2d135fc8c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1805c679a942612471ecc2d2d135fc8c">Initialize</a> (<a class="el" href="../../d7/dee/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings.html">GameServicesUnitySettings</a> settings)</td></tr>
-<tr class="memdesc:a1805c679a942612471ecc2d2d135fc8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes game services with custom settings created at runtime.  <br /></td></tr>
-<tr class="separator:a1805c679a942612471ecc2d2d135fc8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -930,10 +939,10 @@ static EventCallback&lt; <a class="el" href="../../db/d23/class_voxel_busters_1_
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>The score object.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">playerIds</td><td>An array of player id's whose details has to be retrieved from game server.</td></tr>
-    <tr><td class="paramname">callback</td><td>Callback that will be called after operation is completed.</td></tr>
+    <tr><td class="paramname">leaderboardId</td><td>A string used to uniquely identify the leaderboard.</td></tr>
   </table>
   </dd>
 </dl>
@@ -1136,7 +1145,7 @@ static EventCallback&lt; <a class="el" href="../../db/d23/class_voxel_busters_1_
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/daf/namespace_voxel_busters.html">VoxelBusters</a></li><li class="navelem"><a class="el" href="../../da/d57/namespace_voxel_busters_1_1_essential_kit.html">EssentialKit</a></li><li class="navelem"><a class="el" href="../../d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services.html">GameServices</a></li>
-    <li class="footer">Generated on Wed Nov 13 2024 for Essential Kit by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">Generated on Fri Nov 22 2024 for Essential Kit by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>
 </body>

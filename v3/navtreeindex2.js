@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"da/d96/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_transaction.html#af994f1f43a91359d2bb996f01bf87a1e":[2,2,17,9],
 "da/d97/class_voxel_busters_1_1_essential_kit_1_1_notification_services.html":[2,9,6],
 "da/d97/class_voxel_busters_1_1_essential_kit_1_1_notification_services.html#a29e685bfa7828dab555454e0a78ce717":[2,9,6,15],
 "da/d97/class_voxel_busters_1_1_essential_kit_1_1_notification_services.html#a35906cc7a8101a0f3597ef1c296d8c7b":[2,9,6,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "functions_func_b.html":[4,3,1,1],
 "functions_func_c.html":[4,3,1,2],
 "functions_func_d.html":[4,3,1,3],
-"functions_func_f.html":[4,3,1,4],
-"functions_func_g.html":[4,3,1,5]
+"functions_func_f.html":[4,3,1,4]
 };

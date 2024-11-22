@@ -21,9 +21,8 @@
 <script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/css?family=Bebas Neue" rel="stylesheet" type="text/css"/>
-<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
-<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -137,6 +136,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1b536ec77117a3f1c3b6bd66ccf6c3b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the array object associated with the specified key. <br  />
   <br /></td></tr>
 <tr class="separator:a1b536ec77117a3f1c3b6bd66ccf6c3b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21989a600bac52cf570cba4e0b5f85e8" id="r_a21989a600bac52cf570cba4e0b5f85e8"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21989a600bac52cf570cba4e0b5f85e8">HasKey</a> (string key)</td></tr>
+<tr class="memdesc:a21989a600bac52cf570cba4e0b5f85e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <code>true</code> if key exists in the data snapshot.  <br /></td></tr>
+<tr class="separator:a21989a600bac52cf570cba4e0b5f85e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc998578d58aa52f2f5efeaec6a380ba" id="r_adc998578d58aa52f2f5efeaec6a380ba"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc998578d58aa52f2f5efeaec6a380ba">SetBool</a> (string key, bool value)</td></tr>
 <tr class="memdesc:adc998578d58aa52f2f5efeaec6a380ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a boolean value for the specified key in the cloud data store.  <br /></td></tr>
 <tr class="separator:adc998578d58aa52f2f5efeaec6a380ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -423,6 +425,38 @@ static Callback&lt; <a class="el" href="../../dc/d81/class_voxel_busters_1_1_ess
 </dl>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/da8/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_utility.html#ab99b23fd9918112e8be770a80deefb3e">CloudServicesUtility.TryGetCloudAndLocalCacheValues&lt; T &gt;()</a>.</p>
+
+</div>
+</div>
+<a id="a21989a600bac52cf570cba4e0b5f85e8" name="a21989a600bac52cf570cba4e0b5f85e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21989a600bac52cf570cba4e0b5f85e8">&#9670;&#160;</a></span>HasKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool HasKey </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>key</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>A string used to identify the value stored in the current data snapshot.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if key exists in the data snapshot, otherwise <code>false</code>.</dd></dl>
 
 </div>
 </div>
@@ -787,7 +821,7 @@ static Callback&lt; <a class="el" href="../../dc/d81/class_voxel_busters_1_1_ess
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/daf/namespace_voxel_busters.html">VoxelBusters</a></li><li class="navelem"><a class="el" href="../../da/d57/namespace_voxel_busters_1_1_essential_kit.html">EssentialKit</a></li><li class="navelem"><a class="el" href="../../d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services.html">CloudServices</a></li>
-    <li class="footer">Generated on Wed Nov 13 2024 for Essential Kit by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">Generated on Fri Nov 22 2024 for Essential Kit by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>
 </body>
