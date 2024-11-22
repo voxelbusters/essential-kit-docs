@@ -365,9 +365,22 @@ foreach (var each in transactions)
 BillingServices.FinishTransactions(transactions);
 ```
 
+### External Receipt Verification
 
+If you would like to validate a receipt externally and allocate the entitlements to the user, you need to follow the below workflow.
 
-####
+1. Disable Auto Finish Transactions in Billing Settings (Essential Kit Settings)
+2. Once you get a change transaction event, pass the required details to your server
+3. On receiving success or failure response from your server, set ReceiptVerificationState of IBillingTransaction to BillingReceiptVerificationState.Success or BillingReceiptVerificationState.Failed
+4. Call FinishTransactions method with the updated transaction to manually close the transaction
+
+The details that you may require for your external server can be as follows
+
+* Android
+  * Purchase Token - <mark style="color:green;">Get from IBillingTransaction.Receipt</mark>
+  * Signature - <mark style="color:green;">Get from IBillingTransaction.RawData</mark> (contains signature key and value)
+  * Product Identifier - <mark style="color:green;">Get from IBillingTransaction.Product.PlatformId</mark>
+  * Purchase Data - Get from IBillingTransaction.RawData (contains transaction key and value)
 
 ## Platform Specific (Advanced)
 
