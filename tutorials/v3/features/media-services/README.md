@@ -8,13 +8,17 @@ Media Services Video Tutorial
 
 ### Use-cases
 
-#### Take pictures from camera or Access images from device gallery
+#### Select media content(Image/Video/Document) from device
 
-Using Media Services, you can let your application to take a picture with device camera and pick the images from the user's device gallery/photo albums.
+Using Media Services, you can let your application to select media content from the user's device
 
-#### Save images to device gallery
+#### Capture media from Camera
 
-You can save a texture captured from the application and save it on user's device gallery.
+Allow your app to capture a picture from device camera or a video.
+
+#### Save media content(Image/Video/Document) to device
+
+You can save any supported media content from the application on to user's device.
 
 {% content-ref url="setup.md" %}
 [setup.md](setup.md)

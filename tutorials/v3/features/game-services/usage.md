@@ -381,7 +381,7 @@ As the results returned by **LoadTopScores** and **LoadPlayerCenteredScores** ar
 
 ### Report Score to a leaderboard <a href="#report-score" id="report-score"></a>
 
-For reporting a score to leaderboard, you need to have a **ILeaderboard**(doc) instance or [Id of the leaderboard set in Essential Kit Settings](setup/#properties) or an **IScore(doc)** instance created from CreateScore.
+For reporting a score to leaderboard, you need to have a **ILeaderboard**(doc) instance or [Id of the leaderboard set in Essential Kit Settings](setup/#properties).
 
 There are multiple ways to report a score
 
@@ -390,6 +390,7 @@ There are multiple ways to report a score
 ```csharp
 long        score       = 57;
 string      leaderboardId = "leaderboardId";// Value from setup done in inspector
+string      tag = "weapon-6"; //This must be a 8 length ascii chars - Optional
 GameServices.ReportScore(leaderboardId, score, (success, error) =>
 {
     if (success)
@@ -400,7 +401,7 @@ GameServices.ReportScore(leaderboardId, score, (success, error) =>
     {
         Debug.Log("Request to submit score failed with error: " + error.Description);
     }
-});
+}, tag);
 ```
 {% endtab %}
 
@@ -409,6 +410,7 @@ GameServices.ReportScore(leaderboardId, score, (success, error) =>
 ```csharp
 long        score       = 57;
 ILeaderboard      leaderboardInstance;// This you can get from either LoadLeaderboards or CreateLeaderboard
+string      tag = "weapon-6"; //This must be a 8 length ascii chars
 GameServices.ReportScore(leaderboardInstance, score, (success, error) =>
 {
     if (success)
@@ -419,32 +421,23 @@ GameServices.ReportScore(leaderboardInstance, score, (success, error) =>
     {
         Debug.Log("Request to submit score failed with error: " + error.Description);
     }
-});
-```
-{% endcode %}
-{% endtab %}
-
-{% tab title="With IScore instance" %}
-{% code title="Reporting with IScore instance" %}
-```csharp
-long        score       = 57;
-string      leaderboardId = "leaderboardId";// Value from setup done in inspector
-IScore      scoreInstance = GameServices.CreateScore(leaderboardId);
-scoreInstance.ReportScore((success, error) =>
-{
-    if (success)
-    {
-        Debug.Log("Request to submit score finished successfully.");
-    }
-    else
-    {
-        Debug.Log("Request to submit score failed with error: " + error.Description);
-    }
-});
+}, tag);
 ```
 {% endcode %}
 {% endtab %}
 {% endtabs %}
+
+{% hint style="success" %}
+**NEW : Helps in Game Retention and Monetization**&#x20;
+
+Now you can submit a **tag** to a score to give some **context** which can be retrieved back when fetching leaderboards. With this you can do something like below
+
+* Show a popup to purchase an in-app item used to secure the score
+* Showcase player's past score and how he/she improved
+* Show level in which player reached this score
+{% endhint %}
+
+
 
 ### Show Leaderboards <a href="#show-leaderboards-ui" id="show-leaderboards-ui"></a>
 

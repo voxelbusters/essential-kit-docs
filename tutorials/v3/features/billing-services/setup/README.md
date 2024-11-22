@@ -14,14 +14,11 @@ Open [Essential Kit Settings](../../../plugin-overview/settings.md) and enable B
 
 ### Properties
 
-| Name                                            | Description                                                                                                                                    |
-| ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| Products                                        | <p>Collection of In-App purchase Billing products <br>(Billing Products - See below)</p>                                                       |
-| Maintain Purchase History                       | Enabling this stores the non-consumable purchases on device locally                                                                            |
-| Auto Finish Transactions                        | Automatically close the transaction once the purchase is done. Disabling this requires you to manually call **FinishTransactions**             |
-| Verify Transaction Receipts                     | Enabling this allows the plugin to do an internal verification once after the purchase for additional security. Recommended to set it to true. |
-| iOS Properties (Custom verification server url) | You can set a custom verification server url if you have your own server which validates the receipt (TODO : Get the url format)               |
-| Android Properties (Public Key)                 | Enter the public key from google play console ([reference](android.md))                                                                        |
+| Name                            | Description                                                                                                                        |
+| ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Products                        | <p>Collection of In-App purchase Billing products <br>(Billing Products - See below)</p>                                           |
+| Auto Finish Transactions        | Automatically close the transaction once the purchase is done. Disabling this requires you to manually call **FinishTransactions** |
+| Android Properties (Public Key) | Enter the public key from google play console ([reference](android.md))                                                            |
 
 ## Billing Products
 
@@ -41,6 +38,7 @@ You can have your purchasable items both Consumable and Non-Consumable.
 | -------------- | -------------------------------------------------------------------------------------------------------------- |
 | Consumable     | <p>In-App products which can be purchased multiple times</p><p>ex: Virtual coins pack, Bullets pack etc...</p> |
 | Non-Consumable | <p>In-App products which can be purchased only once</p><p>ex: Ad-Free offering, Level packs etc...</p>         |
+| Subscription   | <p>In-App products which are time bound.<br>ex: Ad-Free for a week or month, Battle pass etc</p>               |
 
 ### Properties
 
@@ -52,4 +50,5 @@ You can have your purchasable items both Consumable and Non-Consumable.
 | Product Type                  | <p>Consumable : In-App products which can be purchased multiple times</p><p></p><p>Non-Consumable : In-App products which can be purchased only one time</p> |
 | Title                         | Title for this In-App billing product (will be useful for displaying available billing products)                                                             |
 | Description                   | Description for this In-App billing product (will be useful for displaying available billing products)                                                       |
+| Payouts                       | Meta data that can be used to store what are offered for a purchase. Ex: 30 primary currency coins on purchase of a product                                  |
 

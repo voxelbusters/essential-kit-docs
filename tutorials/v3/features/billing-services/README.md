@@ -14,7 +14,7 @@ Use in-app purchases (Consumable/Non-Consumable) to sell in-game items or levels
 
 ### Sell Subscriptions
 
-Utilize subscriptions to provide players with ongoing benefits or premium features. This could include access to exclusive content, special items, or enhanced game mechanics. Offer flexible subscription plans (e.g., monthly, yearly) to cater to different player needs and engage them with continuous updates and rewards to maintain their interest and justify the subscription value.
+Utilize subscriptions to provide players with ongoing benefits or premium features. This could include access to exclusive content, special items, or enhanced game mechanics. Offer flexible subscription plans (e.g., weekly, monthly, yearly) to cater to different player needs and engage them with continuous updates and rewards to maintain their interest and justify the subscription value.
 
 ### Option for Removing Ads
 

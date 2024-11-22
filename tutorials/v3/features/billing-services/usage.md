@@ -4,6 +4,13 @@ description: Billing Services allows to monetize your app on iOS and Android pla
 
 # Usage
 
+{% hint style="success" %}
+Plugin refers Consumable, Non-Consumable and Subscription purchasable items as Billing Products. This makes the api much easier to understand.&#x20;
+
+\
+Each Billing product can have an Id, Name, Description, SubscriptionInfo(Not null, if its a subscription), Payouts etc.
+{% endhint %}
+
 Once after you setup and add billing products, you can purchase a product by referring them in code.
 
 Before using any of the billing services features, first make sure if it's available on the running platform with IsAvailable method. This returns true if you are allowed to make purchases on the current platform.
@@ -12,7 +19,7 @@ Before using any of the billing services features, first make sure if it's avail
 BillingServices.IsAvailable()
 ```
 
-### Events
+## Events
 
 Once you see that billing services are available, you should register for the billing services events.
 
@@ -42,7 +49,17 @@ private void OnDisable()
 
 Events are triggered based on an action initiated by the plugin's api calls, asynchronously. For ex: Calling InitializeStore triggers OnInitializeStoreComplete with the product details if it's successful.
 
+## Billing Products Presentation
+
+Billing Products details can be changed anytime even after the app is published. So the details need to be fetched from stores before presenting them to the user.
+
 ### Get Billing Product Details
+
+{% hint style="danger" %}
+Note that the order of billing products returned in the event callback can be different from the order you sent. **This is intentional**.\
+\
+As the products can be removed or added once after your app release in native dashboards, we don't guarantee the order or sort the order in the event callbacks. You need to refer a product with it's Id(GetBillingProductWithId) rather than the array index.
+{% endhint %}
 
 After event registration, you need to call **InitializeStore** to fetch the complete details of the in-app purchase billing products.
 
@@ -98,6 +115,25 @@ private void OnInitializeStoreComplete(BillingServicesInitializeStoreResult resu
 The platform product id's you set in Essential Kit Settings will be used internally by the plugin to fetch the complete details of the product on current platform.&#x20;
 {% endhint %}
 
+### Product Offers
+
+After fetching the billing products from store with InitializeStore call, Offers property of IBillingProduct contains an array of offers that can be eligible for the corresponding billing product.
+
+Each offer(BillingProductOffer) contains the following details
+
+* Id - Offer Id that needs to be usef for redeeming an offer
+* Category - Category in which this offer falls into. Can be Introductory or Promotional
+* Pricing Phases - Phases of how the pricing is calculated during the promotion period. On some platforms (ex: Android) there can be more than one pricing phase.
+
+Each Pricing Phase(BillingProductOfferPricingPhase) gives info about the&#x20;
+
+* Payment Mode - Free Trial or PayAsYouGo or PayUpfront
+* Price - Price applied during the period
+* Period - Period for which pricing is applied
+* Repeat Count - How many times this pricing phase is repeated (can be > 1 for PayAsYouGo and 1 for rest)&#x20;
+
+## Handling Purchases
+
 ### Making a purchase
 
 Once you have the details about pricing and description of a product, you can check if your device is ready to make payments. **CanMakePayments** returns true when its fine to make purchases. If purchases are not currently allowed, it returns false.
@@ -106,19 +142,32 @@ Once you have the details about pricing and description of a product, you can ch
 BillingServices.CanMakePayments()
 ```
 
-Consumable products can be purchased multiple time where as Non-Consumable products can be bought only once. To unlock the content purchased with non-consumable product you can check if its already bought or not with **IsProductPurchased**
+Consumable products can be purchased multiple time where as Non-Consumable or Subscription products can be bought only once lifetime or for a period of time. To unlock the content purchased with non-consumable or subscription product you can check if its already bought or not with **IsProductPurchased**
 
 ```csharp
 //product => "Product you got from OnInitializeStoreComplete event (result.Products)" 
 BillingServices.IsProductPurchased(product);
 ```
 
-If the product is not purchased or if its a consumable product you can proceed with the purchase by calling **BuyProduct**. BuyProduct takes the BillingProduct instance you got from **OnInitializeStoreComplete** event.
+If the product is not purchased or if its a consumable product you can proceed with the purchase by calling **BuyProduct**. BuyProduct takes the IBillingProduct instance along with BuyProductOptions(optional).
+
+BuyProductOptions instance can be created as below
+
+```csharp
+BuyProductOptions options = new BuyProductOptions.Builder().SetQuantity(1)
+                                                           .SetTag("uuid-identifier")
+                                                           //.SetOfferRedeemDetails(offerDetails)     
+                                                           .Build();
+```
 
 ```csharp
 //product => "Product you got from OnInitializeStoreComplete event (result.Products)" 
-BillingServices.BuyProduct(product);
+BillingServices.BuyProduct(product, options);
 ```
+
+{% hint style="info" %}
+If you only have the Id of the product, you can get IBillingProduct instance with BillingServices.GetBillingProductWithId method
+{% endhint %}
 
 **BuyProduct** shows native purchase dialogs to proceed with the purchase and fires **BillingServices.OnTransactionStateChange** event callback  during the purchase process.
 
@@ -147,6 +196,59 @@ Once you **BillingServices.OnTransactionStateChange** event fired, you will get 
 
 If its **Purchased** state, you can proceed with unlocking the content to the user. If **Failed,** It could be because the user cancelled the payment or due a failed transaction. You can get more details from Error property of a transaction.
 
+
+
+### Redeem an available offer
+
+Offers that can be applied to a product(IBillingProduct) are fetched after a call to InitializeStore.
+
+Once you have the offers, you can select an offer based on the user profile and redeem it when purchasing.&#x20;
+
+To pass which offer to apply for redemption, you can set it in options(BuyProductOptions) you pass to BuyProduct call.&#x20;
+
+1. Create Offer redeem details based on the platform
+
+{% code title="Create Offer Details" fullWidth="false" %}
+```csharp
+private BillingProductOfferRedeemDetails GetOfferRedeemDetails(string offerId)
+{            
+    if(string.IsNullOrEmpty(offerId))
+    {
+        return null;
+    }
+
+    BillingProductOfferRedeemDetails.Builder builder = new BillingProductOfferRedeemDetails.Builder();
+
+    if (Application.platform == RuntimePlatform.Android)
+    {
+        builder.SetAndroidPlatformProperties(offerId);
+    }
+    else if (Application.platform == RuntimePlatform.IPhonePlayer)
+    {
+        builder.SetIosPlatformProperties(offerId, keyId: null, nonce: null, signature: null, timestamp: 0);//Fill in the details here by injecting the values
+    }
+
+    return builder.Build();
+}
+```
+{% endcode %}
+
+2. Set the redeem details when building BuyProductOptions
+
+{% code title="Purchase with Offer" fullWidth="false" %}
+```csharp
+IBillingProduct billingProduct;
+//...
+BillingProductOfferRedeemDetails offerDetails = GetOfferRedeemDetails("offer-id");
+//...
+BuyProductOptions options = new BuyProductOptions.Builder().SetQuantity(1)
+                                                           .SetOfferRedeemDetails(offerDetails)     
+                                                           .Build();
+//...                                                           
+BillingServices.BuyProduct(billingProduct, options); 
+```
+{% endcode %}
+
 ### Get previous purchases (Restore Purchases)
 
 There are scenarios where&#x20;
@@ -154,7 +256,7 @@ There are scenarios where&#x20;
 * The user uninstalls your game and re-installs later
 * The user installs the game on multiple devices
 
-As **Non-Consumable product purchases** need to be maintained across devices and installs, you need a way to fetch the old purchases of the user so that you can unlock the content for the user.
+As **Non-Consumable** or **Subscription purchases** need to be maintained across devices and installs, you need a way to fetch the old purchases of the user so that you can unlock the content for the user.
 
 This can be achieved through **RestorePurchases** call.
 
@@ -193,6 +295,22 @@ On iOS, it's required to have an explicit button to restore purchases as per App
 
 > It's always good to call Restore Purchases once you are done with **InitializeStore** call as the user will be available with unlocked content if he/she has purchased any earlier.
 
+#### Force fetch restore purchases
+
+On some native platforms, restore purchases are cached/synced internally. So calling Restore Purchases will return that cached data.&#x20;
+
+But if you have a button to restore purchases (a requirement on iOS) and user clicks it multiple times, chances are that he/she finds some data missing. So, to make sure the data is the exact copy of his purchases, plugin offers option to force fetch the details.
+
+```csharp
+BillingServices.RestorePurchases(forceFetch: true);
+```
+
+{% hint style="info" %}
+On iOS, passing forceFetch as true will ask the user to login into his account.&#x20;
+
+In many cases, data cached/synced by native platforms is up-to date. But if the user intentionally clicks on restore UI, it's good to pass forceFetch as true when requesting restore purchases.
+{% endhint %}
+
 ### Manually handling transactions (Auto Finish Transactions disabled)
 
 There are scenarios where you want to validate a purchase receipt on your server and unlock the content to the user. If you have such requirement, you need to **disable** **"Auto Finish Transactions"** in Billing Services settings and close the transactions manually.
@@ -221,6 +339,19 @@ foreach (var each in transactions)
 // Call Finish Transactions to clear the pending transaction queue
 BillingServices.FinishTransactions(transactions);
 ```
+
+## Subscriptions
+
+Subscriptions are a type of Billing Products which are bounded to time. The time period unit can be either week or month or year.
+
+#### Fetch Subscription Info (for presentation)
+
+Once you call BillingServices.InitializeStore, if you have subscription billing products, the result in the event callback contains IBillingProduct's with SubscriptionInfo property value.
+
+SubscriptionInfo gives details about&#x20;
+
+* Title - Title of this subscription (if available)
+* Period - Period for which this subscription is valid
 
 ## Platform Specific (Advanced)
 
