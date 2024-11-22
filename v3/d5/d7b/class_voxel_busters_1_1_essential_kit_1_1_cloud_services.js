@@ -7,6 +7,7 @@ var class_voxel_busters_1_1_essential_kit_1_1_cloud_services =
     [ "GetDouble", "d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services.html#a9350f8eeb1a405eaf403c0a2eda90391", null ],
     [ "GetString", "d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services.html#ac984a5da1e145ef9494a2d2d7cd968ac", null ],
     [ "GetByteArray", "d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services.html#a1b536ec77117a3f1c3b6bd66ccf6c3b2", null ],
+    [ "HasKey", "d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services.html#a21989a600bac52cf570cba4e0b5f85e8", null ],
     [ "SetBool", "d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services.html#adc998578d58aa52f2f5efeaec6a380ba", null ],
     [ "SetInt", "d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services.html#a95a4fd58b0d7f700aea99c47aa841650", null ],
     [ "SetLong", "d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services.html#a840eededc0c7294ed04208fec769899a", null ],
