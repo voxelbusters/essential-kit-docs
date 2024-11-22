@@ -311,6 +311,31 @@ On iOS, passing forceFetch as true will ask the user to login into his account.&
 In many cases, data cached/synced by native platforms is up-to date. But if the user intentionally clicks on restore UI, it's good to pass forceFetch as true when requesting restore purchases.
 {% endhint %}
 
+## Subscriptions
+
+Subscriptions are a type of Billing Products which are bounded to time. The time period unit can be either week or month or year.
+
+### Fetch Subscription Info (for presentation)
+
+Once you call BillingServices.InitializeStore, if you have subscription billing products, the result in the event callback contains IBillingProduct's with SubscriptionInfo property value.
+
+SubscriptionInfo gives details about&#x20;
+
+* Title - Title of this subscription (if available)
+* Period - Period for which this subscription is valid
+
+### Subscription Status Details
+
+Once after purchasing a subscription with BuyProduct, you receive a transaction(IBillingTransaction) which contains SubscriptionStatus.
+
+Status details offers option to fetch RenewalInfo to know if the product is auto renewed or not.
+
+{% hint style="info" %}
+Unfortunately, due to lots of limited api's on Android for getting the subscription status, the status details offerings are much limited.
+{% endhint %}
+
+## Advanced
+
 ### Manually handling transactions (Auto Finish Transactions disabled)
 
 There are scenarios where you want to validate a purchase receipt on your server and unlock the content to the user. If you have such requirement, you need to **disable** **"Auto Finish Transactions"** in Billing Services settings and close the transactions manually.
@@ -340,18 +365,9 @@ foreach (var each in transactions)
 BillingServices.FinishTransactions(transactions);
 ```
 
-## Subscriptions
 
-Subscriptions are a type of Billing Products which are bounded to time. The time period unit can be either week or month or year.
 
-#### Fetch Subscription Info (for presentation)
-
-Once you call BillingServices.InitializeStore, if you have subscription billing products, the result in the event callback contains IBillingProduct's with SubscriptionInfo property value.
-
-SubscriptionInfo gives details about&#x20;
-
-* Title - Title of this subscription (if available)
-* Period - Period for which this subscription is valid
+####
 
 ## Platform Specific (Advanced)
 
