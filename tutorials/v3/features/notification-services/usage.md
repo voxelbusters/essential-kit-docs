@@ -81,7 +81,19 @@ INotification notification = NotificationBuilder.CreateNotification("notif-id-1"
     .Create();
 ```
 
-### Repeat Notifications
+#### Triggers
+
+Scheduling a notification needs to specify at what time it needs to trigger. Plugin offers currently two ways to trigger a notification
+
+* **Time Interval** Notification Trigger
+* **Calendar** Notification Trigger\
+
+
+Time Interval trigger can be used if you know the exact time in seconds if you want to schedule a notification. This offers repeat option as well where it repeats for every scheduled interval seconds.
+
+Calendar trigger can be used if you want to schedule a notification at a specific time of the day or week or month or an year. This is very useful for better control and for timely notifications like daily rewards or birthday offers etc.&#x20;
+
+#### Repeat Notifications
 
 When setting the time interval notification you can pass additionally repeat status to repeat the notification. The below notification repeats every 10 seconds.
 

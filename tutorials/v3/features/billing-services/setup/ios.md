@@ -12,8 +12,8 @@ Configure  in‑app purchases in[ App Store Connect](https://appstoreconnect.app
 
 1. From My Apps, select your app.
 2. In the sidebar under In-App Purchases, click Manage.
-3. To add an in-app purchase, go to In-App Purchases and click the Add button (+).
-4. Select Consumable, Non-Consumable, or Non-Renewing Subscriptions and click Create.
+3. To add an in-app purchase, go to In-App Purchases (for subscriptions, go to Subscriptions section) and click the Add button (+).
+4. Select Consumable, Non-Consumable, or Non-Renewing Subscriptions (for subscriptions, create a group and add subscriptions) and click Create.
 5. Add the reference name, product Id, and a localized display name.
 6. Click Save, or Submit for Review.
 

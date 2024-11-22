@@ -29,25 +29,38 @@ So, its wise to prompt the user only when it's the right time. For ex: Showing t
 
 {% hint style="danger" %}
 On iOS, there is a max cap of 3 times per year.\
-On Android limited quota do exists and the information is not public about how many times it's allowed.
+On Android limited quota do exists and the information is not publicly available.
 {% endhint %}
 
-### Ask for Review
+## Workflow #1 (Default) - Auto Show Rate Dialog
 
-If you don't want to wait for the default controller timings set in  [settings](setup.md#properties), you can anytime call the rate app with **AskForReviewNow** method.
+Once you setup the required conditions to show in settings, on every app launch plug-in detects if conditions are met.
+
+On app launch, If the conditions are satisfied it shows up the rate dialog automatically.
+
+Note that rate dialog presentation is subjected to a [quota](usage.md#limitations).
+
+## Workflow #2 - Custom Show Rate Dialog
+
+Automatically showing a popup may not be designed in some scenarios as it may showup before the main splash or home screen. To handle this you can show the rate dialog as per your choice by doing the following
+
+* Disable "Auto Show" in settings
+* Use IsAllowedToRate and AskForReviewNow
+
+### Is Allowed to Rate
+
+This method returns true if the settings set in Essential Kit settings conditions are met. Now you are allowed to show the rate dialog in the game.
+
+### Ask for Review Now
+
+This method allows you to show the rate dialog bypassing the conditions set in the settings. This can be used along with IsAllowedToRate or directly as per your requirement.
+
+Additionally, this offers you to show a pre-confirmation dialog before actually showing the rate dialog as it's subjected to quota.
 
 ```csharp
 using VoxelBusters.EssentialKit;
 
 //...
 
-RateMyApp.AskForReviewNow();
+RateMyApp.AskForReviewNow(skipConfirmation:false);
 ```
-
-### Custom Controller for scheduling Rate Dialog
-
-By default, Rate prompt will be scheduled to prompt automatically based on the default control settings setup in [settings](setup.md#properties). But, if you want to have more control, you can add a component which implements **IRateMyAppController(doc)** interface.
-
-By implementing **IRateMyAppController,**  you can control when to show the prompt and get callbacks to the user clicks for confirmation dialog.
-
-Have a look at **RateMyAppDefaultController** for getting an idea on how to implement your own **IRateMyAppController.**
