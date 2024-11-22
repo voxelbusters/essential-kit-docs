@@ -47,15 +47,15 @@ On Android, normal testers(who opt-in through test track url) are charged and wi
 
 ```csharp
 IBillingTransaction transaction; //Get this value from the Transaction Change callback
-
-IDictionary rawData =  ExternalServiceProvider.JsonServiceProvider.FromJson(transaction.RawData);
+//...
+IDictionary rawData =  (IDictionary)ExternalServiceProvider.JsonServiceProvider.FromJson(transaction.RawData);
 var originalTransaction = rawData != null ? rawData["transaction"] : null;
 var signature = rawData != null ? rawData["signature"] : null;
 
 #if UNITY_ANDROID
     var additionalParams = new Dictionary<string, string> { { "key1", "value1" }, { "key2", "value2" } };
 
-    var purchase = new PlayStoreInAppPurchase.Builder(PlayStorePurchaseType.Subs)
+    var purchase = new PlayStoreInAppPurchase.Builder(transaction.Product.Type == BillingProductType.Subscription ? PlayStorePurchaseType.Subs : PlayStorePurchaseType.InApp)
         .WithAdditionalParameters(additionalParams)
         .WithPurchaseTimestamp(new DateTimeOffset(transaction.DateUTC).ToUnixTimeSeconds())
         .WithDeveloperPayload("payload")
@@ -73,7 +73,7 @@ var signature = rawData != null ? rawData["signature"] : null;
 #elif UNITY_IOS
     var additionalParams = new Dictionary<string, string> { { "key1", "value1" }, { "key2", "value2" } };
 
-    var purchase = new AppStoreInAppPurchase.Builder(AppStorePurchaseType.Consumable)
+    var purchase = new AppStoreInAppPurchase.Builder(transaction.Product.Type == BillingProductType.Subscription ? AppStorePurchaseType.AutoRenewableSubscription : transaction.Product.Type == BillingProductType.Consumable ? AppStorePurchaseType.Consumable : AppStorePurchaseType.NonConsumable)
         .WithAdditionalParameters(additionalParams)
         .WithTransactionId(transaction.Id)
         .WithProductId(transaction.Product.PlatformId)
