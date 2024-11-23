@@ -88,7 +88,7 @@
 
 • Works with Unity Cloud Build.
 
-• You need to add "com.unity.nuget.**newtonsoft**-json": "2.0.0" in Packages/manifest.json
+• You need to add "com.unity.nuget.**newtonsoft**-json": "2.0.0" or higher in Packages/manifest.json
 
 ### Upgrade Strategy & Pricing Overview
 
@@ -96,14 +96,14 @@ We provide ongoing updates to ensure the plugin stays in line with evolving plat
 
 1. **V1 (Released 2015, Deprecated 2020)**&#x20;
    1. Lifespan: 5 years of support and free upgrades&#x20;
-   2. Upgrade to V2: $50&#x20;
+   2. Upgrade to V2: \~$50&#x20;
    3. [V2 vs V1](https://assetstore.essentialkit.voxelbusters.com/v2/version-2-vs-version-1)&#x20;
    4. Approx. cost breakdown: $10 per year based on the 5-year lifespan of V1.
 2. **V2 (Released 2020, Deprecated 2024)**
    1. Lifespan: 4 years of support and free upgrades&#x20;
-   2. Upgrade to V3: $40&#x20;
+   2. Upgrade to V3: \~$40&#x20;
    3. [V3 vs V1](https://assetstore.essentialkit.voxelbusters.com/whats-new-in-v3/version-3-vs-version-2)&#x20;
-   4. Approx. cost breakdown: $10 per year based on the 4-year lifespan of V2.
+   4. Approx. cost breakdown: \~$10 per year based on the 4-year lifespan of V2.
 
 #### How the Upgrade Fee Works:
 
@@ -117,6 +117,12 @@ We provide ongoing updates to ensure the plugin stays in line with evolving plat
 * Fast updates: We’re often the first to integrate updates for native libraries (e.g., StoreKit 2, Billing Client V6, V7).
 * Extensive automation: Includes features like manifest generation, dependency handling, and build post-processing.
 * Future plans: We’re working on open-sourcing major parts of the plugin to avoid vendor lock-in and ensure long-term flexibility.
+
+**If you are upgrading from version 2.x, please follow** [**this guide**](whats-new-in-v3/upgrade-from-v2.md)**.**
+
+**Third Party Plugins Compatibility**
+
+• Plays nicely with [Anti-Cheat Toolkit](https://assetstore.unity.com/packages/slug/202695)
 
 ***
 
@@ -134,11 +140,7 @@ We provide ongoing updates to ensure the plugin stays in line with evolving plat
 
 [Cross Platform **Story Kit(Instagram)**](http://u3d.as/1pMn)
 
-**If you are upgrading from version 2.x, please follow** [**this guide**](whats-new-in-v3/upgrade-from-v2.md)**.**
 
-**Third Party Plugins Compatibility**
-
-• Plays nicely with [Anti-Cheat Toolkit](https://assetstore.unity.com/packages/slug/202695)
 
 ###
 
