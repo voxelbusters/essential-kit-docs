@@ -96,18 +96,18 @@ We provide ongoing updates to ensure the plugin stays in line with evolving plat
 
 1. **V1 (Released 2015, Deprecated 2020)**&#x20;
    1. Lifespan: 5 years of support and free upgrades&#x20;
-   2. Upgrade to V2: \~$50&#x20;
+   2. Upgrade to V2: <=$50&#x20;
    3. [V2 vs V1](https://assetstore.essentialkit.voxelbusters.com/v2/version-2-vs-version-1)&#x20;
    4. Approx. cost breakdown: $10 per year based on the 5-year lifespan of V1.
 2. **V2 (Released 2020, Deprecated 2024)**
    1. Lifespan: 4 years of support and free upgrades&#x20;
-   2. Upgrade to V3: \~$40&#x20;
+   2. Upgrade to V3: <=$40&#x20;
    3. [V3 vs V1](https://assetstore.essentialkit.voxelbusters.com/whats-new-in-v3/version-3-vs-version-2)&#x20;
    4. Approx. cost breakdown: \~$10 per year based on the 4-year lifespan of V2.
 
 #### How the Upgrade Fee Works:
 
-* The $10 per year is an average cost for the lifespan of each major version.
+* The $10 per year is an average upgrade cost for the lifespan of each major version.
 * For example, when upgrading from V1 to V2, the $50 upgrade fee covers the full 5-year lifespan of V1 + additional features in V2, averaging $10 per year.
 * When upgrading from V2 to V3, the $40 upgrade fee covers the 4-year lifespan of V2, averaging $10 per year.
 
