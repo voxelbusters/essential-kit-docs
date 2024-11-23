@@ -163,6 +163,8 @@ BuyProductOptions options = new BuyProductOptions.Builder().SetQuantity(1)
 ```csharp
 //product => "Product you got from OnInitializeStoreComplete event (result.Products)" 
 BillingServices.BuyProduct(product, options);
+
+//BillingServices.BuyProduct(product, options:null); //If you want to purchase 1 quantity which is default.
 ```
 
 {% hint style="info" %}
@@ -386,7 +388,7 @@ The details that you may require for your external server can be as follows
 
 ### Android
 
-Have a look at the below table for the BillingTransaction to [Google Play purchase response](https://developer.android.com/google/play/billing/billing\_reference#getBuyIntent) mapping.
+Have a look at the below table for the BillingTransaction to [Google Play purchase response](https://developer.android.com/google/play/billing/billing_reference#getBuyIntent) mapping.
 
 | Property Name of BillingTransaction | Mapped Property on Native Platform  |
 | ----------------------------------- | ----------------------------------- |
