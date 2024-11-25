@@ -59,9 +59,9 @@ INotification notification = NotificationBuilder.CreateNotification("notifId")
 For scheduling a notification, you need to have an instance of **INotification** which contains the details required for a notification. Use **ScheduleNotification** for scheduling the notification.
 
 ```csharp
-NotificationServices.ScheduleNotification(notification, (error) =>
+NotificationServices.ScheduleNotification(notification, (success, error) =>
 {
-    if (error == null)
+    if (success)
     {
         Debug.Log("Request to schedule notification finished successfully.");
     }
