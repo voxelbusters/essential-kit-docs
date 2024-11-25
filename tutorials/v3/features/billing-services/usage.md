@@ -151,6 +151,18 @@ BillingServices.IsProductPurchased(product);
 
 If the product is not purchased or if its a consumable product you can proceed with the purchase by calling **BuyProduct**. BuyProduct takes the IBillingProduct instance along with BuyProductOptions(optional).
 
+**BuyProductOptions** is for passing additional info for the purchase. It has&#x20;
+
+* Quantity&#x20;
+* Tag&#x20;
+* Offer Redeem Details
+
+**Quantity** : This how much quantity you want to buy. Let's say you want to purchase 10 ammo packs of same iap, you pass 10 as quantity. However, while iOS supports this, android ignores it and only user need to select in their purchase popup ui.&#x20;
+
+**Tag** : This is a unique id you can give to the purchase which can be retrieved in the purchased Transaction (IBillingTransaction). This is optional and usually used by native platforms to fightback fraud.&#x20;
+
+**Offer Redeem details** : Details required to redeem an offer. Please check [#redeem-an-available-offer](usage.md#redeem-an-available-offer "mention")
+
 BuyProductOptions instance can be created as below
 
 ```csharp
@@ -164,6 +176,7 @@ BuyProductOptions options = new BuyProductOptions.Builder().SetQuantity(1)
 //product => "Product you got from OnInitializeStoreComplete event (result.Products)" 
 BillingServices.BuyProduct(product, options);
 
+//Below usage is fixed in 3.1.0
 //BillingServices.BuyProduct(product, options:null); //If you want to purchase 1 quantity which is default.
 ```
 
