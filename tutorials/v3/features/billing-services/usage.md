@@ -297,14 +297,14 @@ On iOS, it's required to have an explicit button to restore purchases as per App
 
 > It's always good to call Restore Purchases once you are done with **InitializeStore** call as the user will be available with unlocked content if he/she has purchased any earlier.
 
-#### Force fetch restore purchases
+#### Force refresh restore purchases
 
 On some native platforms, restore purchases are cached/synced internally. So calling Restore Purchases will return that cached data.&#x20;
 
-But if you have a button to restore purchases (a requirement on iOS) and user clicks it multiple times, chances are that he/she finds some data missing. So, to make sure the data is the exact copy of his purchases, plugin offers option to force fetch the details.
+But if you have a button to restore purchases (a requirement on iOS) and user clicks it multiple times, chances are that he/she finds some data missing. So, to make sure the data is the exact copy of his purchases, plugin offers option to force refresh the details.
 
 ```csharp
-BillingServices.RestorePurchases(forceFetch: true);
+BillingServices.RestorePurchases(forceRefresh: true);
 ```
 
 {% hint style="info" %}
