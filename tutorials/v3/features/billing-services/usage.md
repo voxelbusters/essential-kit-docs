@@ -196,11 +196,11 @@ private void OnTransactionStateChange(BillingServicesTransactionStateChangeResul
         switch (transaction.TransactionState)
         {
             case BillingTransactionState.Purchased:
-                Debug.Log(string.Format("Buy product with id:{0} finished successfully.", transaction.Payment.ProductId));
+                Debug.Log(string.Format("Buy product with id:{0} finished successfully.", transaction.Product.Id));
                 break;
 
             case BillingTransactionState.Failed:
-                Debug.Log(string.Format("Buy product with id:{0} failed with error. Error: {1}", transaction.Payment.ProductId, transaction.Error));
+                Debug.Log(string.Format("Buy product with id:{0} failed with error. Error: {1}", transaction.Product.Id, transaction.Error));
                 break;
         }
     }
@@ -292,7 +292,7 @@ private void OnRestorePurchasesComplete(BillingServicesRestorePurchasesResult re
         for (int iter = 0; iter < transactions.Length; iter++)
         {
             var     transaction = transactions[iter];
-            Debug.Log(string.Format("[{0}]: {1}", iter, transaction.Payment.ProductId));
+            Debug.Log(string.Format("[{0}]: {1}", iter, transaction.Product.Id));
         }
     }
     else
@@ -403,11 +403,11 @@ The details that you may require for your external server can be as follows
 
 Have a look at the below table for the BillingTransaction to [Google Play purchase response](https://developer.android.com/google/play/billing/billing_reference#getBuyIntent) mapping.
 
-| Property Name of BillingTransaction | Mapped Property on Native Platform  |
-| ----------------------------------- | ----------------------------------- |
-| Id                                  | INAPP\_PURCHASE\_DATA.orderId       |
-| Receipt                             | INAPP\_PURCHASE\_DATA.purchaseToken |
-| Payment.ProductId                   | INAPP\_PURCHASE\_DATA.productId     |
-| AndroidProperties.PurchaseData      | INAPP\_PURCHASE\_DATA               |
-| AndroidProperties.Signature         | INAPP\_DATA\_SIGNATURE              |
+| Property Name of BillingTransaction                     | Mapped Property on Native Platform  |
+| ------------------------------------------------------- | ----------------------------------- |
+| Id                                                      | INAPP\_PURCHASE\_DATA.orderId       |
+| Receipt                                                 | INAPP\_PURCHASE\_DATA.purchaseToken |
+| Product.Id                                              | INAPP\_PURCHASE\_DATA.productId     |
+| RawData\["transaction"] (covert RawData to IDictionary) | INAPP\_PURCHASE\_DATA               |
+| RawData\["signature"] (covert RawData to IDictionary)   | INAPP\_DATA\_SIGNATURE              |
 
