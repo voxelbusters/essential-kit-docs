@@ -21,7 +21,7 @@ Get the latest update info if a new update exists\
 > Note that the callback will have update status as  Available only if an update exists and user hasn't updated yet.
 
 ```
-AppUpdater.RequestUpdateInfo((AppUpdaterUpdateInfo result, error) => 
+AppUpdater.RequestUpdateInfo((AppUpdaterUpdateInfo result, Error error) => 
 {
     if(result.Status == AppUpdaterUpdateStatus.Available)
     {
