@@ -49,8 +49,8 @@ On Android, normal testers(who opt-in through test track url) are charged and wi
 IBillingTransaction transaction; //Get this value from the Transaction Change callback
 //...
 IDictionary rawData =  (IDictionary)ExternalServiceProvider.JsonServiceProvider.FromJson(transaction.RawData);
-var originalTransaction = rawData != null ? rawData["transaction"] : null;
-var signature = rawData != null ? rawData["signature"] : null;
+var originalTransaction = rawData != null ? rawData["transaction"] as string : null;
+var signature = rawData != null ? rawData["signature"] as string : null;
 
 #if UNITY_ANDROID
     var additionalParams = new Dictionary<string, string> { { "key1", "value1" }, { "key2", "value2" } };

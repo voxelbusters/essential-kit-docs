@@ -151,6 +151,18 @@ BillingServices.IsProductPurchased(product);
 
 If the product is not purchased or if its a consumable product you can proceed with the purchase by calling **BuyProduct**. BuyProduct takes the IBillingProduct instance along with BuyProductOptions(optional).
 
+**BuyProductOptions** is for passing additional info for the purchase. It has&#x20;
+
+* Quantity&#x20;
+* Tag&#x20;
+* Offer Redeem Details
+
+**Quantity** : This how much quantity you want to buy. Let's say you want to purchase 10 ammo packs of same iap, you pass 10 as quantity. However, while iOS supports this, android ignores it and only user need to select in their purchase popup ui.&#x20;
+
+**Tag** : This is a unique id you can give to the purchase which can be retrieved in the purchased Transaction (IBillingTransaction). This is optional and usually used by native platforms to fightback fraud.&#x20;
+
+**Offer Redeem details** : Details required to redeem an offer. Please check [#redeem-an-available-offer](usage.md#redeem-an-available-offer "mention")
+
 BuyProductOptions instance can be created as below
 
 ```csharp
@@ -163,6 +175,9 @@ BuyProductOptions options = new BuyProductOptions.Builder().SetQuantity(1)
 ```csharp
 //product => "Product you got from OnInitializeStoreComplete event (result.Products)" 
 BillingServices.BuyProduct(product, options);
+
+//Below usage is fixed in 3.1.0
+//BillingServices.BuyProduct(product, options:null); //If you want to purchase 1 quantity which is default.
 ```
 
 {% hint style="info" %}
@@ -181,11 +196,11 @@ private void OnTransactionStateChange(BillingServicesTransactionStateChangeResul
         switch (transaction.TransactionState)
         {
             case BillingTransactionState.Purchased:
-                Debug.Log(string.Format("Buy product with id:{0} finished successfully.", transaction.Payment.ProductId));
+                Debug.Log(string.Format("Buy product with id:{0} finished successfully.", transaction.Product.Id));
                 break;
 
             case BillingTransactionState.Failed:
-                Debug.Log(string.Format("Buy product with id:{0} failed with error. Error: {1}", transaction.Payment.ProductId, transaction.Error));
+                Debug.Log(string.Format("Buy product with id:{0} failed with error. Error: {1}", transaction.Product.Id, transaction.Error));
                 break;
         }
     }
@@ -277,7 +292,7 @@ private void OnRestorePurchasesComplete(BillingServicesRestorePurchasesResult re
         for (int iter = 0; iter < transactions.Length; iter++)
         {
             var     transaction = transactions[iter];
-            Debug.Log(string.Format("[{0}]: {1}", iter, transaction.Payment.ProductId));
+            Debug.Log(string.Format("[{0}]: {1}", iter, transaction.Product.Id));
         }
     }
     else
@@ -295,14 +310,14 @@ On iOS, it's required to have an explicit button to restore purchases as per App
 
 > It's always good to call Restore Purchases once you are done with **InitializeStore** call as the user will be available with unlocked content if he/she has purchased any earlier.
 
-#### Force fetch restore purchases
+#### Force refresh restore purchases
 
 On some native platforms, restore purchases are cached/synced internally. So calling Restore Purchases will return that cached data.&#x20;
 
-But if you have a button to restore purchases (a requirement on iOS) and user clicks it multiple times, chances are that he/she finds some data missing. So, to make sure the data is the exact copy of his purchases, plugin offers option to force fetch the details.
+But if you have a button to restore purchases (a requirement on iOS) and user clicks it multiple times, chances are that he/she finds some data missing. So, to make sure the data is the exact copy of his purchases, plugin offers option to force refresh the details.
 
 ```csharp
-BillingServices.RestorePurchases(forceFetch: true);
+BillingServices.RestorePurchases(forceRefresh: true);
 ```
 
 {% hint style="info" %}
@@ -386,13 +401,13 @@ The details that you may require for your external server can be as follows
 
 ### Android
 
-Have a look at the below table for the BillingTransaction to [Google Play purchase response](https://developer.android.com/google/play/billing/billing\_reference#getBuyIntent) mapping.
+Have a look at the below table for the BillingTransaction to [Google Play purchase response](https://developer.android.com/google/play/billing/billing_reference#getBuyIntent) mapping.
 
-| Property Name of BillingTransaction | Mapped Property on Native Platform  |
-| ----------------------------------- | ----------------------------------- |
-| Id                                  | INAPP\_PURCHASE\_DATA.orderId       |
-| Receipt                             | INAPP\_PURCHASE\_DATA.purchaseToken |
-| Payment.ProductId                   | INAPP\_PURCHASE\_DATA.productId     |
-| AndroidProperties.PurchaseData      | INAPP\_PURCHASE\_DATA               |
-| AndroidProperties.Signature         | INAPP\_DATA\_SIGNATURE              |
+| Property Name of BillingTransaction                     | Mapped Property on Native Platform  |
+| ------------------------------------------------------- | ----------------------------------- |
+| Id                                                      | INAPP\_PURCHASE\_DATA.orderId       |
+| Receipt                                                 | INAPP\_PURCHASE\_DATA.purchaseToken |
+| Product.Id                                              | INAPP\_PURCHASE\_DATA.productId     |
+| RawData\["transaction"] (covert RawData to IDictionary) | INAPP\_PURCHASE\_DATA               |
+| RawData\["signature"] (covert RawData to IDictionary)   | INAPP\_DATA\_SIGNATURE              |
 

@@ -14,13 +14,13 @@
 
 ***
 
-**Important links**
+### **Important links**
 
 [Unity Forum Thread](https://link.voxelbusters.com/essential-kit-unity-forum) | [Tutorials](https://link.voxelbusters.com/essential-kit-tutorials) | [Support](https://link.voxelbusters.com/essential-kit-support)
 
 
 
-**Highlights:**
+### **Highlights**
 
 • **Unified** API design | **Never write** code **per platform**
 
@@ -46,7 +46,7 @@
 
 • Actively supported **since 2015**
 
-**Feature set**
+### **Feature set**
 
 • Address Book - Access contacts of the user
 
@@ -88,11 +88,45 @@
 
 • Works with Unity Cloud Build.
 
-• You need to add "com.unity.nuget.**newtonsoft**-json": "2.0.0" in Packages/manifest.json
+• You need to add "com.unity.nuget.**newtonsoft**-json": "2.0.0" or higher in Packages/manifest.json
+
+### Upgrade Strategy & Pricing Overview
+
+We provide ongoing updates to ensure the plugin stays in line with evolving platform guidelines, OS requirements, and industry standards. To keep your product current and supported, we charge a minimal upgrade fee for each major version release.Upgrade Pricing History:
+
+1. **V1 (Released 2015, Deprecated 2020)**&#x20;
+   1. Lifespan: 5 years of support and free upgrades&#x20;
+   2. Upgrade to V2: <=$50&#x20;
+   3. [V2 vs V1](https://assetstore.essentialkit.voxelbusters.com/v2/version-2-vs-version-1)&#x20;
+   4. Approx. cost breakdown: $10 per year based on the 5-year lifespan of V1.
+2. **V2 (Released 2020, Deprecated 2024)**
+   1. Lifespan: 4 years of support and free upgrades&#x20;
+   2. Upgrade to V3: <=$40&#x20;
+   3. [V3 vs V1](https://assetstore.essentialkit.voxelbusters.com/whats-new-in-v3/version-3-vs-version-2)&#x20;
+   4. Approx. cost breakdown: \~$10 per year based on the 4-year lifespan of V2.
+
+#### How the Upgrade Fee Works:
+
+* The $10 per year is an average upgrade cost for the lifespan of each major version.
+* For example, when upgrading from V1 to V2, the $50 upgrade fee covers the full 5-year lifespan of V1 + additional features in V2, averaging $10 per year.
+* When upgrading from V2 to V3, the $40 upgrade fee covers the 4-year lifespan of V2, averaging $10 per year.
+
+### Why Choose Us?
+
+* Custom-coded and privacy-first: We don’t rely on third-party plugins, ensuring full control over your product’s functionality and privacy.
+* Fast updates: We’re often the first to integrate updates for native libraries (e.g., StoreKit 2, Billing Client V6, V7).
+* Extensive automation: Includes features like manifest generation, dependency handling, and build post-processing.
+* Future plans: We’re working on open-sourcing major parts of the plugin to avoid vendor lock-in and ensure long-term flexibility.
+
+**If you are upgrading from version 2.x, please follow** [**this guide**](whats-new-in-v3/upgrade-from-v2.md)**.**
+
+**Third Party Plugins Compatibility**
+
+• Plays nicely with [Anti-Cheat Toolkit](https://assetstore.unity.com/packages/slug/202695)
 
 ***
 
-**You might be interested in our other products**
+### **Our other products**
 
 [Cross Platform **Ads Kit**](https://u3d.as/37du) **(FREE with Essential Kit)**
 
@@ -106,15 +140,10 @@
 
 [Cross Platform **Story Kit(Instagram)**](http://u3d.as/1pMn)
 
-**If you are upgrading from version 2.x, please follow** [**this guide**](whats-new-in-v3/upgrade-from-v2.md)**.**
-
-**Third Party Plugins Compatibility**
-
-• Plays nicely with [Anti-Cheat Toolkit](https://assetstore.unity.com/packages/slug/202695)
 
 
+###
 
 ```
 * In-progress
 ```
-

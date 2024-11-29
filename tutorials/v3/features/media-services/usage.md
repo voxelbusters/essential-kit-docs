@@ -170,7 +170,7 @@ MediaServices.CaptureMediaContent(captureOptions, (IMediaContent content, Error 
 
 ### Save Media Content
 
-To save media content to device whether it could be image or video or any other media, MediaContentSavesOptions instance need to be passed to SaveMediaContent.
+To save media content to device whether it could be image or video or any other media, MediaContentSaveOptions instance need to be passed to SaveMediaContent.
 
 Through options you can&#x20;
 
@@ -180,10 +180,10 @@ Through options you can&#x20;
 Options can be created as follows
 
 ```csharp
-MediaContentSavesOptions saveOptions = new MediaContentSavesOptions(directoryName: "Essential Kit Album", fileName: "image");
+MediaContentSaveOptions saveOptions = new MediaContentSaveOptions(directoryName: "Essential Kit Album", fileName: "image");
 ```
 
-Once after creating MediaContentSavesOptions instance, call MediaServices.SaveMediaContent with the options and a callback which gets called after the action is complete.
+Once after creating MediaContentSaveOptions instance, call MediaServices.SaveMediaContent with the options and a callback which gets called after the action is complete.
 
 ```csharp
 MediaServices.SaveMediaContent(image.EncodeToPNG(), MimeType.kPNGImage, saveOptions, 

@@ -10,6 +10,7 @@ Before using any of the plugin's features, you need to import the namespace.
 
 ```
 using VoxelBusters.EssentialKit;
+using VoxelBusters.CoreLibrary;
 ```
 
 After importing the namespace, AddressBook class is available for accessing all of the Address Book's features.
@@ -24,30 +25,42 @@ Get the contacts access status to see if it's allowed to access or denied by the
 AddressBookContactsAccessStatus status = AddressBook.GetContactsAccessStatus();
 ```
 
-## Request Contact Access
-
-Request the permission if the contact access is not determined yet. Calling RequestContactsAccess might show up a permission dialog on the mobile devices allowing the user to take an action.
-
-You need to pass a callback method to get the status of the user action.
-
-```csharp
-AddressBook.RequestContactsAccess(callback: OnRequestContactsAccessFinish);
-```
-
-```csharp
-private void OnRequestContactsAccessFinish(AddressBookRequestContactsAccessResult result, Error error)
-{
-    Debug.Log("Request for contacts access finished.");
-    Debug.Log("Address book contacts access status: " + result.AccessStatus);
-}
-```
-
 ## Read Contacts
 
-Fetch the contacts available for the user by calling ReadContacts method. You need to pass a callback to get the list of **IAddressBookContact** instances.
+Fetch the contacts available for the user by calling ReadContacts method.&#x20;
 
+{% hint style="info" %}
+This method automatically handles the permission on first call. If user denies the permission, corresponding error with error code is returned in the callback.
+{% endhint %}
+
+ReadContacts take ReadContactsOptions where you can configure on the what and how to fetch. It provides the following options
+
+* Limit - How many contacts to fetch from the provided offset
+* Offset - Offset from which contacts need to be read
+* Constraints - If you want to fetch contacts only with name or email or phone number or any combination of those
+
+```csharp
+//For implementing paging
+ReadContactsOptions options = new ReadContactsOptions.Builder()
+                                                .WithLimit(10)
+                                                .WithOffset(0)
+                                                .WithConstraints(ReadContactsConstraint.Name | ReadContactsConstraint.MustIncludeEmail) //Or ReadContactsConstraint.None to retrieve all or ReadContactsConstraint.Name to retrieve contacts which have name
+                                                .Build();
+
+//For retrieving all contacts
+ReadContactsOptions options = new ReadContactsOptions.Builder()
+                                                .Build();
+                                                                                                .Build();
 ```
-AddressBook.ReadContacts(OnReadContactsFinish);
+
+Along with options, you need to pass a callback to get the list of **IAddressBookContact** instances.
+
+```csharp
+ReadContactsOptions options;
+//...
+//Build options with ReadContactsOptions.Builder()
+//...
+AddressBook.ReadContacts(options, OnReadContactsFinish);
 ```
 
 ```csharp
@@ -58,41 +71,14 @@ private void OnReadContactsFinish(AddressBookReadContactsResult result, Error er
         var     contacts    = result.Contacts;
         Debug.Log("Request to read contacts finished successfully.");
         Debug.Log("Total contacts fetched: " + contacts.Length);
-        Debug.Log("Below are the contact details (capped to first 10 results only):");
+        Debug.Log("Next offset : " + result.NextOffset);
         for (int iter = 0; iter < contacts.Length && iter < 10; iter++)
         {
             Debug.Log(string.Format("[{0}]: {1}", iter, contacts[iter]));
-        }
-    }
-    else
-    {
-        Debug.Log("Request to read contacts failed with error. Error: " + error);
-    }
-}
-```
-
-## Read Contacts with User Permission
-
-If you don't need much control on the permission access status but just want to go ahead with reading the contacts, you can call **ReadContactsWithUserPermission**. \
-\
-This call requests the permission internally and returns the contacts details if authorized or an error if user deny the permission.
-
-```
-AddressBook.ReadContactsWithUserPermission(OnReadContactsFinish);
-```
-
-```csharp
-private void OnReadContactsFinish(AddressBookReadContactsResult result, Error error)
-{
-    if (error == null)
-    {
-        var     contacts    = result.Contacts;
-        Debug.Log("Request to read contacts finished successfully.");
-        Debug.Log("Total contacts fetched: " + contacts.Length);
-        Debug.Log("Below are the contact details (capped to first 10 results only):");
-        for (int iter = 0; iter < contacts.Length && iter < 10; iter++)
-        {
-            Debug.Log(string.Format("[{0}]: {1}", iter, contacts[iter]));
+            /*
+                IAddressBookContact contact = contacts[iter];
+                Debug.Log($"Name: {contact.Name}, Email: {contact.Email});
+            */
         }
     }
     else
