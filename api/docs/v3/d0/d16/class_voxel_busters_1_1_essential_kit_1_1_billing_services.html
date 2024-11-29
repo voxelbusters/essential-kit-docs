@@ -136,12 +136,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a82d631a049791efdac53cc9deabdc1f8" id="r_a82d631a049791efdac53cc9deabdc1f8"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82d631a049791efdac53cc9deabdc1f8">IsProductPurchased</a> (<a class="el" href="../../d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product.html">IBillingProduct</a> product)</td></tr>
 <tr class="memdesc:a82d631a049791efdac53cc9deabdc1f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether specified billing product is already purchased.  <br /></td></tr>
 <tr class="separator:a82d631a049791efdac53cc9deabdc1f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf2b409ab054568ae069e3eb0d60901c" id="r_adf2b409ab054568ae069e3eb0d60901c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf2b409ab054568ae069e3eb0d60901c">BuyProduct</a> (string productId, int quantity=1, string applicationUsername=null)</td></tr>
-<tr class="memdesc:adf2b409ab054568ae069e3eb0d60901c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initiates purchase process for the specified billing product.  <br /></td></tr>
-<tr class="separator:adf2b409ab054568ae069e3eb0d60901c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcb2a730e6fab8ae4edaf061491368c8" id="r_afcb2a730e6fab8ae4edaf061491368c8"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcb2a730e6fab8ae4edaf061491368c8">BuyProduct</a> (<a class="el" href="../../d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product.html">IBillingProduct</a> product, int quantity=1, string applicationUsername=null)</td></tr>
-<tr class="memdesc:afcb2a730e6fab8ae4edaf061491368c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initiates purchase process for the specified billing product.  <br /></td></tr>
-<tr class="separator:afcb2a730e6fab8ae4edaf061491368c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37170d40ec5925e5c3db8ae190cda3aa" id="r_a37170d40ec5925e5c3db8ae190cda3aa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37170d40ec5925e5c3db8ae190cda3aa">BuyProduct</a> (string productId, <a class="el" href="../../d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options.html">BuyProductOptions</a> options=null)</td></tr>
 <tr class="memdesc:a37170d40ec5925e5c3db8ae190cda3aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initiates purchase process for the specified billing product.  <br /></td></tr>
 <tr class="separator:a37170d40ec5925e5c3db8ae190cda3aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,12 +149,21 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2f0e3c49ac61146bc2e8f21bb0eebed7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Completes the pending transactions and removes it from transaction queue.  <br /></td></tr>
 <tr class="separator:a2f0e3c49ac61146bc2e8f21bb0eebed7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2d89aff47dbcaed7a59cfee1b1088e9" id="r_ae2d89aff47dbcaed7a59cfee1b1088e9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2d89aff47dbcaed7a59cfee1b1088e9">RestorePurchases</a> (bool forceRefresh=false, string tag=null)</td></tr>
-<tr class="memdesc:ae2d89aff47dbcaed7a59cfee1b1088e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a request to restore completed purchases.  <br /></td></tr>
 <tr class="separator:ae2d89aff47dbcaed7a59cfee1b1088e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Advanced Usage</div></td></tr>
 <tr class="memitem:a34079c625aa29c08d7dd319333ceaa89" id="r_a34079c625aa29c08d7dd319333ceaa89"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34079c625aa29c08d7dd319333ceaa89">Initialize</a> (<a class="el" href="../../d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings.html">BillingServicesUnitySettings</a> settings)</td></tr>
 <tr class="memdesc:a34079c625aa29c08d7dd319333ceaa89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the billing services module with the given settings. This call is optional and only need to be called if you have custom settings to initialize this feature.  <br /></td></tr>
 <tr class="separator:a34079c625aa29c08d7dd319333ceaa89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Obsolete methods</div></td></tr>
+<tr class="memitem:adf2b409ab054568ae069e3eb0d60901c" id="r_adf2b409ab054568ae069e3eb0d60901c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf2b409ab054568ae069e3eb0d60901c">BuyProduct</a> (string productId, int quantity=1, string applicationUsername=null)</td></tr>
+<tr class="memdesc:adf2b409ab054568ae069e3eb0d60901c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initiates purchase process for the specified billing product.  <br /></td></tr>
+<tr class="separator:adf2b409ab054568ae069e3eb0d60901c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcb2a730e6fab8ae4edaf061491368c8" id="r_afcb2a730e6fab8ae4edaf061491368c8"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcb2a730e6fab8ae4edaf061491368c8">BuyProduct</a> (<a class="el" href="../../d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product.html">IBillingProduct</a> product, int quantity=1, string applicationUsername=null)</td></tr>
+<tr class="memdesc:afcb2a730e6fab8ae4edaf061491368c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initiates purchase process for the specified billing product.  <br /></td></tr>
+<tr class="separator:afcb2a730e6fab8ae4edaf061491368c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24212c37e0c5277eba61fa76a2cf6a3b" id="r_a24212c37e0c5277eba61fa76a2cf6a3b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24212c37e0c5277eba61fa76a2cf6a3b">RestorePurchases</a> (string tag=null)</td></tr>
+<tr class="memdesc:a24212c37e0c5277eba61fa76a2cf6a3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initiates purchase process for the specified billing product.  <br /></td></tr>
+<tr class="separator:a24212c37e0c5277eba61fa76a2cf6a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -420,98 +423,8 @@ static EventCallback&lt; <a class="el" href="../../dc/d81/class_voxel_busters_1_
 
 </div>
 </div>
-<a id="adf2b409ab054568ae069e3eb0d60901c" name="adf2b409ab054568ae069e3eb0d60901c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf2b409ab054568ae069e3eb0d60901c">&#9670;&#160;</a></span>BuyProduct() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static bool BuyProduct </td>
-          <td>(</td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>productId</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>quantity</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>applicationUsername</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd><code>true</code>, if request was initiated, <code>false</code> otherwise failed. This can happen if product is not found</dd></dl>
-<dl class="section note"><dt>Note</dt><dd>The payment request must have a product identifier registered with the Store. </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">productId</td><td>The product you want to purchase.</td></tr>
-    <tr><td class="paramname">quantity</td><td>The number of units you want to purchase. Default quantity value is 1.</td></tr>
-    <tr><td class="paramname">applicationUsername</td><td>Application provided username that initiated this request. (optional)</td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="reference">Referenced by <a class="el" href="#a37170d40ec5925e5c3db8ae190cda3aa">BillingServices.BuyProduct()</a>.</p>
-
-</div>
-</div>
-<a id="afcb2a730e6fab8ae4edaf061491368c8" name="afcb2a730e6fab8ae4edaf061491368c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afcb2a730e6fab8ae4edaf061491368c8">&#9670;&#160;</a></span>BuyProduct() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static bool BuyProduct </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product.html">IBillingProduct</a></td>          <td class="paramname"><span class="paramname"><em>product</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>quantity</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>applicationUsername</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd><code>true</code>, if request was initiated, <code>false</code> otherwise failed. This can happen if product is not found</dd></dl>
-<dl class="section note"><dt>Note</dt><dd>The payment request must have a product identifier registered with the Store. </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">product</td><td>The product you want to purchase.</td></tr>
-    <tr><td class="paramname">quantity</td><td>The number of units you want to purchase. Default quantity value is 1.</td></tr>
-    <tr><td class="paramname">applicationUsername</td><td>Specify user data associated with the purchase. Eg: Application provided username that initiated this request. (optional)</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="a37170d40ec5925e5c3db8ae190cda3aa" name="a37170d40ec5925e5c3db8ae190cda3aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37170d40ec5925e5c3db8ae190cda3aa">&#9670;&#160;</a></span>BuyProduct() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a37170d40ec5925e5c3db8ae190cda3aa">&#9670;&#160;</a></span>BuyProduct() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -544,12 +457,14 @@ static EventCallback&lt; <a class="el" href="../../dc/d81/class_voxel_busters_1_
   </dd>
 </dl>
 
-<p class="reference">References <a class="el" href="#adf2b409ab054568ae069e3eb0d60901c">BillingServices.BuyProduct()</a>, and <a class="el" href="#afe3c02e2a5e7c24771bcca3c25f5c6ca">BillingServices.GetProductWithId()</a>.</p>
+<p class="reference">References <a class="el" href="#a37170d40ec5925e5c3db8ae190cda3aa">BillingServices.BuyProduct()</a>, and <a class="el" href="#afe3c02e2a5e7c24771bcca3c25f5c6ca">BillingServices.GetProductWithId()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="#a37170d40ec5925e5c3db8ae190cda3aa">BillingServices.BuyProduct()</a>.</p>
 
 </div>
 </div>
 <a id="a41ba9d465032dde888e5579cd0880cf2" name="a41ba9d465032dde888e5579cd0880cf2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41ba9d465032dde888e5579cd0880cf2">&#9670;&#160;</a></span>BuyProduct() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a41ba9d465032dde888e5579cd0880cf2">&#9670;&#160;</a></span>BuyProduct() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -647,7 +562,7 @@ static EventCallback&lt; <a class="el" href="../../dc/d81/class_voxel_busters_1_
 </div>
 </div>
 <a id="ae2d89aff47dbcaed7a59cfee1b1088e9" name="ae2d89aff47dbcaed7a59cfee1b1088e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2d89aff47dbcaed7a59cfee1b1088e9">&#9670;&#160;</a></span>RestorePurchases()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2d89aff47dbcaed7a59cfee1b1088e9">&#9670;&#160;</a></span>RestorePurchases() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -672,12 +587,136 @@ static EventCallback&lt; <a class="el" href="../../dc/d81/class_voxel_busters_1_
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Sends a request to restore completed purchases.</p>
 <p>Your application calls this method to restore transactions that were previously purchased so that you can process them again.  </p>
 <dl class="section note"><dt>Note</dt><dd>Internally this feature requires non-consumable product information. So ensure that <a class="el" href="#a6be3615afd37c01b4129b56d7a5ce597" title="Sends a request to retrieve localized information about the billing products from the Store.">InitializeStore</a> is called prior to this. </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">forceRefresh</td><td>If set to <code>true</code> force refresh by contacting server. On iOS this will trigger a login prompt to let user signin. So set this to true only if user clicks manually "Restore" option in IAP screens.</td></tr>
     <tr><td class="paramname">tag</td><td>This can be a unique identifier which was passed in <a class="el" href="../../d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options.html" title="Represents options for purchasing a IBillingProduct.">BuyProductOptions</a> when purchasing a product. Usually, this can be the application username or any unique identifier for which you want to restore purchases for. (optional)</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="adf2b409ab054568ae069e3eb0d60901c" name="adf2b409ab054568ae069e3eb0d60901c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf2b409ab054568ae069e3eb0d60901c">&#9670;&#160;</a></span>BuyProduct() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool BuyProduct </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>productId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>quantity</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>applicationUsername</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd><code>true</code>, if request was initiated, <code>false</code> otherwise failed. This can happen if product is not found</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The payment request must have a product identifier registered with the Store. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">productId</td><td>The product you want to purchase.</td></tr>
+    <tr><td class="paramname">quantity</td><td>The number of units you want to purchase. Default quantity value is 1.</td></tr>
+    <tr><td class="paramname">applicationUsername</td><td>Application provided username that initiated this request. (optional)</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afcb2a730e6fab8ae4edaf061491368c8" name="afcb2a730e6fab8ae4edaf061491368c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcb2a730e6fab8ae4edaf061491368c8">&#9670;&#160;</a></span>BuyProduct() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool BuyProduct </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product.html">IBillingProduct</a></td>          <td class="paramname"><span class="paramname"><em>product</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>quantity</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>applicationUsername</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd><code>true</code>, if request was initiated, <code>false</code> otherwise failed. This can happen if product is not found</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The payment request must have a product identifier registered with the Store. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">product</td><td>The product you want to purchase.</td></tr>
+    <tr><td class="paramname">quantity</td><td>The number of units you want to purchase. Default quantity value is 1.</td></tr>
+    <tr><td class="paramname">applicationUsername</td><td>Specify user data associated with the purchase. Eg: Application provided username that initiated this request. (optional)</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a24212c37e0c5277eba61fa76a2cf6a3b" name="a24212c37e0c5277eba61fa76a2cf6a3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24212c37e0c5277eba61fa76a2cf6a3b">&#9670;&#160;</a></span>RestorePurchases() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RestorePurchases </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>tag</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd><code>true</code>, if request was initiated, <code>false</code> otherwise failed. This can happen if product is not found</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The payment request must have a product identifier registered with the Store. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">productId</td><td>The product you want to purchase.</td></tr>
+    <tr><td class="paramname">quantity</td><td>The number of units you want to purchase. Default quantity value is 1.</td></tr>
+    <tr><td class="paramname">applicationUsername</td><td>Application provided username that initiated this request. (optional)</td></tr>
   </table>
   </dd>
 </dl>
@@ -716,7 +755,7 @@ static EventCallback&lt; <a class="el" href="../../dc/d81/class_voxel_busters_1_
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/daf/namespace_voxel_busters.html">VoxelBusters</a></li><li class="navelem"><a class="el" href="../../da/d57/namespace_voxel_busters_1_1_essential_kit.html">EssentialKit</a></li><li class="navelem"><a class="el" href="../../d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html">BillingServices</a></li>
-    <li class="footer">Generated on Fri Nov 22 2024 for Essential Kit by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">Generated on Fri Nov 29 2024 for Essential Kit by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>
 </body>
