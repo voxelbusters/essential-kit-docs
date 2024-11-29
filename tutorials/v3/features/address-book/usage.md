@@ -39,12 +39,18 @@ ReadContacts take ReadContactsOptions where you can configure on the what and ho
 * Offset - Offset from which contacts need to be read
 * Constraints - If you want to fetch contacts only with name or email or phone number or any combination of those
 
-```
+```csharp
+//For implementing paging
 ReadContactsOptions options = new ReadContactsOptions.Builder()
-                                                .WithLimit(limit)
-                                                .WithOffset(offset)
+                                                .WithLimit(10)
+                                                .WithOffset(0)
                                                 .WithConstraints(ReadContactsConstraint.Name | ReadContactsConstraint.MustIncludeEmail) //Or ReadContactsConstraint.None to retrieve all or ReadContactsConstraint.Name to retrieve contacts which have name
                                                 .Build();
+
+//For retrieving all contacts
+ReadContactsOptions options = new ReadContactsOptions.Builder()
+                                                .Build();
+                                                                                                .Build();
 ```
 
 Along with options, you need to pass a callback to get the list of **IAddressBookContact** instances.
