@@ -46,8 +46,8 @@ For calling PromptUpdate, you need to pass PromptUpdateOptions instance.
 
 ```csharp
 PromptUpdateOptions.Builder optionsBuilder = new PromptUpdateOptions.Builder().
-optionsBuilder.SetTitle("Update available");
-optionsBuilder.SetMessage("A new version of this app is available.");
+optionsBuilder.SetPromptTitle("Update available");
+optionsBuilder.SetPromptMessage("A new version of this app is available.");
 optionsBuilder.SetIsForceUpdate(isForceUpdate: false); //Passing true will not let user to dismiss this prompt.
 optionsBuilder.SetAllowInstallationIfDownloaded(false);//If you don't want to install as soon as its downloaded. Default value is true
 
