@@ -74,6 +74,8 @@
     * [iOS](features/notification-services/setup/ios.md)
     * [Android](features/notification-services/setup/android.md)
   * [Usage](features/notification-services/usage.md)
+  * [Examples](features/notification-services/examples/README.md)
+    * [Nudge to come-back to the game](features/notification-services/examples/nudge-to-come-back-to-the-game.md)
   * [FAQ](features/notification-services/faq.md)
 * [⭐ Rate My App](features/rate-my-app/README.md)
   * [Setup](features/rate-my-app/setup.md)
