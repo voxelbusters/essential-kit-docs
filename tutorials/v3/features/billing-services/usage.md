@@ -176,12 +176,11 @@ BuyProductOptions options = new BuyProductOptions.Builder().SetQuantity(1)
 //product => "Product you got from OnInitializeStoreComplete event (result.Products)" 
 BillingServices.BuyProduct(product, options);
 
-//Below usage is fixed in 3.1.0
 //BillingServices.BuyProduct(product, options:null); //If you want to purchase 1 quantity which is default.
 ```
 
 {% hint style="info" %}
-If you only have the Id of the product, you can get IBillingProduct instance with BillingServices.GetBillingProductWithId method
+If you only have the Id of the product, you can get IBillingProduct instance with BillingServices.**GetBillingProductWithId** method
 {% endhint %}
 
 **BuyProduct** shows native purchase dialogs to proceed with the purchase and fires **BillingServices.OnTransactionStateChange** event callback  during the purchase process.
