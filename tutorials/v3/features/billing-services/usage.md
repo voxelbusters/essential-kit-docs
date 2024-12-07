@@ -197,6 +197,12 @@ private void OnTransactionStateChange(BillingServicesTransactionStateChangeResul
         {
             case BillingTransactionState.Purchased:
                 Debug.Log(string.Format("Buy product with id:{0} finished successfully.", transaction.Product.Id));
+                  /*
+                      if(transaction.Product.Id.Equals("REMOVE_ADS")) //Note we used Equals instead of "==" which is always safe!
+                      {
+                          Debug.Log("REMOVE_ADS product purchased. Proceed with removing ads");
+                      }
+                  */               
                 break;
 
             case BillingTransactionState.Failed:
