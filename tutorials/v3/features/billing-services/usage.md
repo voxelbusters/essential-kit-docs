@@ -396,11 +396,19 @@ If you would like to validate a receipt externally and allocate the entitlements
 
 The details that you may require for your external server can be as follows
 
+* iOS
+  * JwsRepresentation - <mark style="color:green;">Get from</mark> <mark style="color:green;"></mark><mark style="color:green;">**IBillingTransaction.Receipt**</mark>
 * Android
-  * Purchase Token - <mark style="color:green;">Get from IBillingTransaction.Receipt</mark>
-  * Signature - <mark style="color:green;">Get from IBillingTransaction.RawData</mark> (contains signature key and value)
-  * Product Identifier - <mark style="color:green;">Get from IBillingTransaction.Product.PlatformId</mark>
-  * Purchase Data - Get from IBillingTransaction.RawData (contains transaction key and value)
+  * Purchase Token - <mark style="color:green;">Get from</mark> <mark style="color:green;"></mark><mark style="color:green;">**IBillingTransaction.Receipt**</mark>
+  * Signature - <mark style="color:green;">Get from</mark> <mark style="color:green;"></mark><mark style="color:green;">**IBillingTransaction.RawData**</mark> (contains signature key and value)
+  * Product Identifier - <mark style="color:green;">Get from</mark> <mark style="color:green;"></mark><mark style="color:green;">**IBillingTransaction.Product.PlatformId**</mark>
+  * Purchase Data - <mark style="color:green;">Get from</mark> <mark style="color:green;"></mark><mark style="color:green;">**IBillingTransaction.RawData**</mark> (contains transaction key and value)
+
+{% hint style="info" %}
+Have a look at how to integrate with Appodeal receipt verification [here](faq.md#how-to-do-receipt-verification-with-appodeal).
+{% endhint %}
+
+
 
 ## Platform Specific (Advanced)
 
