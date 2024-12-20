@@ -34,7 +34,6 @@ var group___billing_services =
     ] ],
     [ "BillingProductOfferRedeemDetails", "d6/ddd/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details.html", [
       [ "AndroidProperties", "d3/da7/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_android_properties.html", [
-        [ "AndroidProperties", "d3/da7/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_android_properties.html#abc5189eb4ad620791723a0395bc632ef", null ],
         [ "OfferId", "d3/da7/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_android_properties.html#a176ccbd661a78c99444e637ed0af4c6e", null ]
       ] ],
       [ "Builder", "d9/d34/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_builder.html", [
@@ -42,7 +41,6 @@ var group___billing_services =
         [ "SetAndroidPlatformProperties", "d9/d34/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_builder.html#ad3b1b9ee09ad287eafc30006c6c644cc", null ]
       ] ],
       [ "IosProperties", "db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties.html", [
-        [ "IosProperties", "db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties.html#a605da5c202612e16b434d20f39156beb", null ],
         [ "OfferId", "db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties.html#a176ccbd661a78c99444e637ed0af4c6e", null ],
         [ "KeyId", "db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties.html#aabb05215d875a2dc24082fdb8d781f59", null ],
         [ "Nonce", "db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties.html#aa8994b3ce618a21c9d6b97a5e1aec5a5", null ],
