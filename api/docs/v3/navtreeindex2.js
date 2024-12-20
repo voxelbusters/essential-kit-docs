@@ -1,6 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"da/d96/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_transaction.html#ae7577aa5055f716a3d04393bb07ab50a":[2,2,17,5],
 "da/d96/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_transaction.html#ae8088582d38228c2d8a0d6fd559b6d96":[2,2,17,1],
 "da/d96/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_transaction.html#af994f1f43a91359d2bb996f01bf87a1e":[2,2,17,9],
 "da/d97/class_voxel_busters_1_1_essential_kit_1_1_notification_services.html":[2,9,6],
@@ -80,12 +79,11 @@ var NAVTREEINDEX2 =
 "db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services.html#a11e1d862e4fb56daf43d534575ebfb9e":[2,11,7,0],
 "db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services.html#ad413aaf59f4fef89fbd0610116544305":[2,11,7,1],
 "db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties.html":[2,2,5,2],
-"db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties.html#a176ccbd661a78c99444e637ed0af4c6e":[2,2,5,2,1],
-"db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties.html#a605da5c202612e16b434d20f39156beb":[2,2,5,2,0],
-"db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties.html#aa8994b3ce618a21c9d6b97a5e1aec5a5":[2,2,5,2,3],
-"db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties.html#aabb05215d875a2dc24082fdb8d781f59":[2,2,5,2,2],
-"db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties.html#ab1a27bc669d041fe23ec05792737849f":[2,2,5,2,4],
-"db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties.html#aba2d1a5b4584a540b0e4bb6faa636cc4":[2,2,5,2,5],
+"db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties.html#a176ccbd661a78c99444e637ed0af4c6e":[2,2,5,2,0],
+"db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties.html#aa8994b3ce618a21c9d6b97a5e1aec5a5":[2,2,5,2,2],
+"db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties.html#aabb05215d875a2dc24082fdb8d781f59":[2,2,5,2,1],
+"db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties.html#ab1a27bc669d041fe23ec05792737849f":[2,2,5,2,3],
+"db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties.html#aba2d1a5b4584a540b0e4bb6faa636cc4":[2,2,5,2,4],
 "db/d8d/class_voxel_busters_1_1_essential_kit_1_1_game_services_view_result.html":[2,5,8],
 "db/daf/group___app_updater.html":[2,1],
 "db/db6/group___media_services.html":[2,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX2 =
 "functions_f.html":[4,3,0,5],
 "functions_func.html":[4,3,1],
 "functions_func.html":[4,3,1,0],
-"functions_func_b.html":[4,3,1,1]
+"functions_func_b.html":[4,3,1,1],
+"functions_func_c.html":[4,3,1,2],
+"functions_func_d.html":[4,3,1,3]
 };

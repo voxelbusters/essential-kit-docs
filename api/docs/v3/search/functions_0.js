@@ -12,10 +12,9 @@ var searchData=
   ['addurlscheme_9',['AddURLScheme',['../dd/db4/class_voxel_busters_1_1_essential_kit_1_1_web_view.html#ac4fc8c6e98249384505af6184353e3d5',1,'VoxelBusters::EssentialKit::WebView']]],
   ['alertdialogbuilder_10',['AlertDialogBuilder',['../d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder.html#a764ecc8c65c5dcb927f4603435d0da4c',1,'VoxelBusters::EssentialKit::AlertDialogBuilder']]],
   ['android_11',['Android',['../db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant.html#ae24a8a296040c247f27d9d5aaaffc56a',1,'VoxelBusters::CoreLibrary::RuntimePlatformConstant']]],
-  ['androidproperties_12',['AndroidProperties',['../d3/da7/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_android_properties.html#abc5189eb4ad620791723a0395bc632ef',1,'VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails::AndroidProperties']]],
-  ['asfilepath_13',['AsFilePath',['../d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content.html#ae63090d353221f3249d1bca269bb2d3b',1,'VoxelBusters::EssentialKit::IMediaContent']]],
-  ['askforreviewnow_14',['AskForReviewNow',['../d2/d13/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app.html#a376750c717b11f2687300067f0c2192e',1,'VoxelBusters::EssentialKit::RateMyApp']]],
-  ['asrawmediadata_15',['AsRawMediaData',['../d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content.html#a5a32c18308c48e2d407fd5b3ff348330',1,'VoxelBusters::EssentialKit::IMediaContent']]],
-  ['astexture2d_16',['AsTexture2D',['../d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content.html#affc48083f8a795b4789224a3e4bfd996',1,'VoxelBusters::EssentialKit::IMediaContent']]],
-  ['authenticate_17',['Authenticate',['../d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services.html#a022cd9cdef83d5ab5590fe66fa6b52a7',1,'VoxelBusters::EssentialKit::GameServices']]]
+  ['asfilepath_12',['AsFilePath',['../d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content.html#ae63090d353221f3249d1bca269bb2d3b',1,'VoxelBusters::EssentialKit::IMediaContent']]],
+  ['askforreviewnow_13',['AskForReviewNow',['../d2/d13/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app.html#a376750c717b11f2687300067f0c2192e',1,'VoxelBusters::EssentialKit::RateMyApp']]],
+  ['asrawmediadata_14',['AsRawMediaData',['../d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content.html#a5a32c18308c48e2d407fd5b3ff348330',1,'VoxelBusters::EssentialKit::IMediaContent']]],
+  ['astexture2d_15',['AsTexture2D',['../d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content.html#affc48083f8a795b4789224a3e4bfd996',1,'VoxelBusters::EssentialKit::IMediaContent']]],
+  ['authenticate_16',['Authenticate',['../d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services.html#a022cd9cdef83d5ab5590fe66fa6b52a7',1,'VoxelBusters::EssentialKit::GameServices']]]
 ];
