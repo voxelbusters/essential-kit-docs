@@ -4,12 +4,17 @@
 
 Open [Essential Kit Settings](../../plugin-overview/settings.md) and enable Rate App feature in the inspector.
 
-![Enable Rate App](../../.gitbook/assets/EnableRateApp.gif)
+<figure><img src="../../.gitbook/assets/rate-my-app-settings.gif" alt=""><figcaption></figcaption></figure>
 
 ### Properties
 
 {% tabs %}
 {% tab title="Rate My App" %}
+| Name                           | Description                                                                                         |
+| ------------------------------ | --------------------------------------------------------------------------------------------------- |
+| Auto Show                      | Auto shows the rating prompt (post confirmation dialog if enabled) when prompt constraints are met. |
+| Allow Re-rating in New Version | Enabling this will ask your users to rate for a new version even they rated for older one.          |
+
 #### Confirmation Dialog Settings
 
 Confirmation dialog asks the user if he wants to rate or not. This is an optional setting.

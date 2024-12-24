@@ -60,7 +60,9 @@ Path : essentialkit
 
 Open [Essential Kit Settings](../../../plugin-overview/settings.md) and enable Deep Link Services feature in the inspector.
 
-![Enable Deep Link Services](../../../.gitbook/assets/EnableDeepLinkServices.gif)
+<figure><img src="../../../.gitbook/assets/deep-link-services-settings.gif" alt=""><figcaption><p>Deep Link Services Settings</p></figcaption></figure>
+
+
 
 {% tabs %}
 {% tab title="Settings" %}

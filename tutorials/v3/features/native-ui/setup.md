@@ -4,5 +4,5 @@
 
 Open [Essential Kit Settings](../../plugin-overview/settings.md) and enable Native UI feature in the inspector.
 
-![Enable Native UI feature](../../.gitbook/assets/EnableNativeUI.gif)
+<figure><img src="../../.gitbook/assets/native-ui-settings.gif" alt=""><figcaption><p>Native UI Settings</p></figcaption></figure>
 

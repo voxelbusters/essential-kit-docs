@@ -12,6 +12,8 @@ Add the following dependencies in YOUR\_PROJECT\_ROOT/Packages/manifest.json und
 "com.unity.nuget.newtonsoft-json": "2.0.0"
 ```
 
+> Any version ≥ 2.0.0 is fine.
+
 ### I see this error when making Android build - "Failed to install the following Android SDK packages as some licences have not been accepted.". How to resolve this?
 
 This happens because of not accepting licenses when installing the sdk. Let me get you the steps to accept the license.\

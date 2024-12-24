@@ -6,7 +6,7 @@ Before using any of the Cloud services, we need to configure them in the [Essent
 
 Open [Essential Kit Settings](../../../plugin-overview/settings.md) and enable Cloud Services feature in the inspector.
 
-![Enable Cloud Services feature from Essential Kit Settings](../../../.gitbook/assets/EnableCloudServices.gif)
+<figure><img src="../../../.gitbook/assets/cloud-services-settings.gif" alt=""><figcaption><p>Cloud Services Settings</p></figcaption></figure>
 
 {% hint style="warning" %}
 If you are NOT planning to use Game Services along with Cloud Services, you still need to fill the **Play Services Application Id** entry in Game Services settings (and can  disable it).\
@@ -14,16 +14,12 @@ If you are NOT planning to use Game Services along with Cloud Services, you stil
 This is because, on Android, Cloud services is internally dependent on Google play services.
 {% endhint %}
 
-###
-
 ### Properties
 
-| Name                | Description                                                                                                 |
-| ------------------- | ----------------------------------------------------------------------------------------------------------- |
-| Synchronize On Load | Enabling this lets cloud services to connect as soon as app is launched.                                    |
-| Sync Interval       | Setting this value allows you to control how frequent you want your data to get in sync with cloud servers. |
+| Name                                             | Description                                                                                         |
+| ------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| <p>(Android)<br>Play Services Application Id</p> | This value gets auto filled once you set the value of Play Services Application Id in Game Services |
 
-{% hint style="danger" %}
-Enabling Synchronize on load, on Android, may open google play services login if user isn't logged at-least once. So, it's good to call first **Synchronize** call as per your game requirements.
+{% hint style="success" %}
+To have similar behaviour across iOS and Android, we auto sync internally in Android on major events (when app state changes). This makes sure your data is up to date.
 {% endhint %}
-

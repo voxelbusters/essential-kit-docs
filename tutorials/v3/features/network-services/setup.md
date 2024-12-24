@@ -4,7 +4,9 @@
 
 Open [Essential Kit Settings](../../plugin-overview/settings.md) and enable Network Services feature in the inspector.
 
-![Enable Network Services](../../.gitbook/assets/EnableNetworkServices.gif)
+<figure><img src="../../.gitbook/assets/network-services-settings.gif" alt=""><figcaption><p>Network Services</p></figcaption></figure>
+
+
 
 ### Properties
 

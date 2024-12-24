@@ -4,7 +4,9 @@
 
 Open [Essential Kit Settings](../../plugin-overview/settings.md) and enable Media Services feature in the inspector.
 
-![Enable Media Services](../../.gitbook/assets/EnableMediaServices.gif)
+<figure><img src="../../.gitbook/assets/media-services-settings.gif" alt=""><figcaption><p>Media Services Settings</p></figcaption></figure>
+
+
 
 ### Properties
 
@@ -15,5 +17,5 @@ Open [Essential Kit Settings](../../plugin-overview/settings.md) and enable Medi
 | Saves Files to Custom Directories | Enable this if you are saving files to device custom folders/albums |
 
 {% hint style="success" %}
-You need to enable the required properties as per the usage as these automatically add the required permissions on the native platforms.
+You need to enable the required properties only if you use them. Enabling these will automatically add the required permissions on the native platforms.
 {% endhint %}

@@ -49,7 +49,7 @@ If there are no changes between Cloud Copy and Local Copy, no event will be fire
 |            [Store and Retrieve Data](usage.md#store-and-retrieve-data)           |
 | [Data Consistency](usage.md#handling-data-consistency-and-external-data-changes) |
 
-###
+
 
 ### Import Namespace
 

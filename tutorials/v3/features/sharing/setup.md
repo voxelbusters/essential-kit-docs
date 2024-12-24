@@ -4,4 +4,4 @@
 
 Open [Essential Kit Settings](../../plugin-overview/settings.md) and enable Sharing Services in the inspector.
 
-![Enable Sharing Services](../../.gitbook/assets/EnableSharingServices.gif)
+<figure><img src="../../.gitbook/assets/sharing-services-settings.gif" alt=""><figcaption><p>Sharing Services Settings</p></figcaption></figure>

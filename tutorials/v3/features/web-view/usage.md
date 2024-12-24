@@ -274,7 +274,7 @@ So first you need to add the scheme
 webview.AddURLScheme("unity");
 ```
 
-Once after adding the scheme you can get all of the url's which are getting loaded with unity as scheme. The url's to unity are passed through **OnURLSchemeMatchFound** event. So, make sure you register to **WebView.OnURLSchemeMatchFound** ahead**.**
+Once after adding the scheme you can get all of the url's which are getting loaded with unity as scheme. The url's to unity are passed through **OnURLSchemeMatchFound** event. So, make sure you register to **WebView.OnURLSchemeMatchFound** ahea&#x64;**.**
 
 ```
 private void OnEnable()

@@ -4,7 +4,7 @@
 
 Open [Essential Kit Settings](../../../plugin-overview/settings.md) and enable Game Services feature in the inspector.
 
-![Enable Game Services](../../../.gitbook/assets/EnableGameServices.gif)
+<figure><img src="../../../.gitbook/assets/game-services-settings.gif" alt="" width="563"><figcaption><p>Game Services Settings</p></figcaption></figure>
 
 ### Properties
 
@@ -53,7 +53,6 @@ Open [Essential Kit Settings](../../../plugin-overview/settings.md) and enable G
 | **Play Services Application Id** | <p>This is the project id mentioned for your app in Google Play Console ->  Grow section -> Play Games Services -> Setup and Management -> Configuration</p><p>ex: 113386462231</p>                                                                                                                                                                                                                                                                                                                                                                                      |
 | Server Client Id                 | <p>In Google Play Console ->  Grow section -> Play Games Services -> Setup and Management -> Configuration, Add a credential for web and set the value of Authorization -> OAuth Client id here.</p><p></p><p>This is optional and is <strong>only required</strong> if you access play services from your backend. <br><br> <span data-gb-custom-inline data-tag="emoji" data-code="26a0">⚠️</span> If you set this id from non-web app oauth client, <strong>sign-in fails</strong>.</p><p></p><p>ex: 113386462231-pn0ikkcmrxxxxup8gben.apps.googleusercontent.com</p> |
 | Show Alert Dialogs               | Enabling this will show alerts UI related to sign in failure and other possible errors.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Display Popups at Top            | Enabling this will show all banners (Achievement revealed, unlocked) at top. Else at bottom.                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 {% endtab %}
 {% endtabs %}
 

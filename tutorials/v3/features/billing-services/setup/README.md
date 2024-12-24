@@ -10,7 +10,7 @@ Before using any of the billing products, we need to configure them in the [Esse
 
 Open [Essential Kit Settings](../../../plugin-overview/settings.md) and enable Billing Services feature in the inspector.
 
-![Enable Billing Services feature from Essential Kit Settings](../../../.gitbook/assets/EnableBillingServices.gif)
+<figure><img src="../../../.gitbook/assets/billing-services-settings.gif" alt=""><figcaption><p>Billing Services Settings</p></figcaption></figure>
 
 ### Properties
 
@@ -24,7 +24,7 @@ Open [Essential Kit Settings](../../../plugin-overview/settings.md) and enable B
 
 Billing product is a container to hold your in-app purchase identifiers for different platforms. Each billing product has a unique **Id** to identify them. Id helps in referring an in-app purchase from your code irrespective of the platform you are on and this can be any string of your choice.
 
-Platform Id on the other hand, is the actual platform specific identifier and usually varies per platform. Specify the value in platform overrides, if you don't have a common identifier among platforms.&#x20;
+Platform Id on the other hand, is the actual platform specific identifier and usually varies per platform. Specify the value in platform overrides, if you don't have a common identifier value across platforms.&#x20;
 
 {% hint style="info" %}
 You can get **platform id** value from [iTunes Connect](ios.md#create-an-in-app-purchase) and [Google Play console](android.md#create-in-app-products) on  iOS and Android respectively.&#x20;
@@ -32,7 +32,7 @@ You can get **platform id** value from [iTunes Connect](ios.md#create-an-in-app-
 
 ### Types
 
-You can have your purchasable items both Consumable and Non-Consumable.
+You can have your purchasable items Consumable, Non-Consumable and Subscriptions.
 
 | Product Type   | Description                                                                                                    |
 | -------------- | -------------------------------------------------------------------------------------------------------------- |
