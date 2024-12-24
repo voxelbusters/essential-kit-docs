@@ -19,7 +19,9 @@ Add the following dependencies in manifest.json (if not added)
 
 Access the settings from **Window -> Voxel Busters -> Essential Kit -> Open Settings**
 
-![Open Essential Kit Settings](../.gitbook/assets/OpenEssentialKitSettings.gif)
+
+
+<figure><img src="https://raw.githubusercontent.com/voxelbusters/essential-kit-docs/refs/heads/master/tutorials/v3/.gitbook/assets/open-settings.gif" alt=""><figcaption><p>Open Essential Kit Settings</p></figcaption></figure>
 
 {% hint style="success" %}
 Once you import the plugin for the first time, you need to access the Essential Kit Settings for enabling the features you want to use.
@@ -32,6 +34,8 @@ Disabling the features that you don't use will let the plugin to not export the 
 {% endhint %}
 
 General section is common to all features and the values need to be set before you publish the app to app stores.
+
+
 
 ![Application Settings](../.gitbook/assets/ApplicationSettings.gif)
 
