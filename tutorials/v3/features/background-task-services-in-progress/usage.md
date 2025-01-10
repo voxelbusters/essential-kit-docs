@@ -124,7 +124,42 @@ As you are allowed to schedule multiple tasks with different task ids, you can c
 BackgroundTaskServices.CancelAllTasks();
 ```
 
+***
 
+## Events
+
+Register to OnScheduleTaskComplete event to know if your task gets started or fails with an error.
+
+```csharp
+private void OnEnable()
+{
+    BackgroundTaskServices.OnScheduleTaskComplete += OnScheduleTaskComplete;
+}
+
+private void OnDisable()
+{
+    BackgroundTaskServices.OnScheduleTaskComplete -= OnScheduleTaskComplete;
+}
+
+private void OnScheduleTaskComplete(string taskId, Error error)
+{
+    if (error == null)
+    {
+        Debug.Log("Successfully scheduled task with id: " + taskId);
+    }
+    else
+    {
+        Debug.Log($"Failed completing task id : {taskId} with error : {error}");
+    }
+}
+
+```
+
+
+
+{% hint style="info" %}
+Note that as the tasks that are invoked can be asynchronous, it's not possible to call OnScheduleTaskComplete event after completion of your task. The event will be triggered as soon as it gets called.
+{% endhint %}
 
 
 
