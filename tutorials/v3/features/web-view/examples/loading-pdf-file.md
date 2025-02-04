@@ -13,8 +13,8 @@ Just prefix your url with "[http://docs.google.com/gview?embedded=true\&url=](ht
 
 
 ```csharp
-string yourPdfUrl  = "https://yourwebsite.com/sample.pdf
-string urlPath     = "http://docs.google.com/gview?embedded=true&url=" + yourPdfUrl
+string yourPdfUrl  = "https://yourwebsite.com/sample.pdf"
+string urlPath     = "http://docs.google.com/gview?embedded=true&url=" + yourPdfUrl;
 
 //...
 
