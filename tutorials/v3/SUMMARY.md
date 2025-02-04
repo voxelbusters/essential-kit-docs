@@ -100,6 +100,8 @@
   * [Setup](features/web-view/setup.md)
   * [Usage](features/web-view/usage.md)
   * [FAQ](features/web-view/faq.md)
+  * [Examples](features/web-view/examples/README.md)
+    * [Loading Pdf File](features/web-view/examples/loading-pdf-file.md)
 
 ## Notes
 
