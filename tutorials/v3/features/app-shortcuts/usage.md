@@ -44,20 +44,21 @@ Once you create an App Shortcut Item instance, you can pass it to Add method as 
 ```csharp
 using VoxelBusters.EssentialKit;
 using VoxelBusters.CoreLibrary;
+
 public void AddShortcut()
 {
     AppShortcutItem shortcutItem = CreateAppShortcutItem();
-    AppShorcuts.Add(dailyRewardShortcutItem);
+    AppShortcuts.Add(shortcutItem);
 }
 
 private AppShortcutItem CreateAppShortcutItem()
 {
-   AppShortcutItem dailyRewardShortcutItem = new AppShortcutItem.Builder("daily-reward-id", "Daily Reward")
-                        .SetSubtitle("Your rewards are waiting!")
-                        .SetIconFileName("daily-reward.png")//Make sure you refer the same icon texture in AppShortcuts settings inspector.
-                        .Build();
-                        
-   return dailyRewardShortcutItem;
+    AppShortcutItem dailyRewardShortcutItem = new AppShortcutItem.Builder("daily-reward-id", "Daily Reward")
+        .SetSubtitle("Your rewards are waiting!")
+        .SetIconFileName("daily-reward.png")//Make sure you refer the same icon texture in AppShortcuts settings inspector.
+        .Build();
+                
+    return dailyRewardShortcutItem;
 }
 ```
 
@@ -96,12 +97,9 @@ private void OnShortcutClicked(string shortcutIdentifier)
 ```
 
 {% hint style="success" %}
-Once a user clicks on app icon shortcut, it opens the app.&#x20;
+Once a user clicks on app icon shortcut, it opens the app. It may not be possible to register the events at very start of your game.&#x20;
 
-It's not required or possible to register the events at very start of your game.&#x20;
-
-So, we do cache it and fire them as soon as you register the event. \
-Cool right? 👏👏👏
+So, we do cache the event internally and only fire it once you register to AppShortcuts.OnShortcutClicked event. Cool right? 👏👏👏
 {% endhint %}
 
 
