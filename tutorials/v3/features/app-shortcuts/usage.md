@@ -17,10 +17,10 @@ using VoxelBusters.CoreLibrary;
 
 To add a shortcut, create an unique id to identify the shortcut. Along with it, it's possible to pass few more configuration options like
 
-* Identifier (Required)
-* Title (Required)
-* SubTitle
-* IconFileName
+* **Identifier** (Required) - Unique identifier to identify this shortcut item
+* **Title** (Required) - Title displayed for the shortcut item
+* **SubTitle** - Subtitle to be displayed for the shortcut (May not be supported on all platforms)
+* **IconFileName** - File name with extension which will be shown in the shortcut item
 
 To pass these properties, you can **create an AppShortcutItem** with AppShortcutItem.Builder.
 
