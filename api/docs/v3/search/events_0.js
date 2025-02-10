@@ -11,10 +11,11 @@ var searchData=
   ['onloadstart_8',['OnLoadStart',['../dd/db4/class_voxel_busters_1_1_essential_kit_1_1_web_view.html#a3578083c951a98313dccca654bdc3cb2',1,'VoxelBusters::EssentialKit::WebView']]],
   ['onrestorepurchasescomplete_9',['OnRestorePurchasesComplete',['../d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#ac1cd4538761d81c93c380af38362c7f1',1,'VoxelBusters::EssentialKit::BillingServices']]],
   ['onsaveddatachange_10',['OnSavedDataChange',['../d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services.html#a4f945a1da7e68c2734db84daeca272ed',1,'VoxelBusters::EssentialKit::CloudServices']]],
-  ['onshow_11',['OnShow',['../dd/db4/class_voxel_busters_1_1_essential_kit_1_1_web_view.html#a70b0d5f05f89e02d738134bf5f3c78c3',1,'VoxelBusters::EssentialKit::WebView']]],
-  ['onsynchronizecomplete_12',['OnSynchronizeComplete',['../d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services.html#a4c7ac48183ba83c6cba1947e197c3049',1,'VoxelBusters::EssentialKit::CloudServices']]],
-  ['ontransactionstatechange_13',['OnTransactionStateChange',['../d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#aab6295ca48645407097f0f276845ab13',1,'VoxelBusters::EssentialKit::BillingServices']]],
-  ['onuniversallinkopen_14',['OnUniversalLinkOpen',['../de/df5/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services.html#a5c59a18d64ab4c8b3ec60a41ec6d71b9',1,'VoxelBusters::EssentialKit::DeepLinkServices']]],
-  ['onurlschemematchfound_15',['OnURLSchemeMatchFound',['../dd/db4/class_voxel_busters_1_1_essential_kit_1_1_web_view.html#a009b252a6739191f5061f3e5add270d3',1,'VoxelBusters::EssentialKit::WebView']]],
-  ['onuserchange_16',['OnUserChange',['../d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services.html#af65e09cf64cf7de11c21995b02a18767',1,'VoxelBusters::EssentialKit::CloudServices']]]
+  ['onshortcutclicked_11',['OnShortcutClicked',['../da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts.html#aeda9556f93c10da8dc386abce029a3d0',1,'VoxelBusters::EssentialKit::AppShortcuts']]],
+  ['onshow_12',['OnShow',['../dd/db4/class_voxel_busters_1_1_essential_kit_1_1_web_view.html#a70b0d5f05f89e02d738134bf5f3c78c3',1,'VoxelBusters::EssentialKit::WebView']]],
+  ['onsynchronizecomplete_13',['OnSynchronizeComplete',['../d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services.html#a4c7ac48183ba83c6cba1947e197c3049',1,'VoxelBusters::EssentialKit::CloudServices']]],
+  ['ontransactionstatechange_14',['OnTransactionStateChange',['../d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#aab6295ca48645407097f0f276845ab13',1,'VoxelBusters::EssentialKit::BillingServices']]],
+  ['onuniversallinkopen_15',['OnUniversalLinkOpen',['../de/df5/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services.html#a5c59a18d64ab4c8b3ec60a41ec6d71b9',1,'VoxelBusters::EssentialKit::DeepLinkServices']]],
+  ['onurlschemematchfound_16',['OnURLSchemeMatchFound',['../dd/db4/class_voxel_busters_1_1_essential_kit_1_1_web_view.html#a009b252a6739191f5061f3e5add270d3',1,'VoxelBusters::EssentialKit::WebView']]],
+  ['onuserchange_17',['OnUserChange',['../d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services.html#af65e09cf64cf7de11c21995b02a18767',1,'VoxelBusters::EssentialKit::CloudServices']]]
 ];
