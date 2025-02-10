@@ -1,8 +1,8 @@
 # Introduction
 
-**Essential Kit** (V3) a true cross platform tool for Unity which provides unique and unified way to access native functionality on mobile platforms.
+[**Essential Kit**](https://link.voxelbusters.com/essentialkit) (V3) a true cross platform tool for Unity which provides unique and unified way to access native functionality on mobile platforms.
 
-> Supports **mobile** platforms **iOS 15+ (till iOS 18\*)** | **Android 21+ (till API 35)**
+> Supports **mobile** platforms **iOS 15+ (till iOS 18)** | **Android 21+ (till API 35)**
 
 > **450+** 🌟🌟🌟🌟🌟 | Used by **25,000+ developers** world-wide
 
@@ -134,7 +134,7 @@ Upgrade Pricing History:
 
 ### **Our other products**
 
-[Cross Platform **Ads Kit**](https://u3d.as/37du) **(FREE with Essential Kit)**
+[Cross Platform **Ads Kit**](https://link.voxelbusters.com/adskit) **(FREE with Essential Kit)**
 
 [Cross Platform **Screen Recorder Kit**](http://u3d.as/1nN3)
 
@@ -146,10 +146,3 @@ Upgrade Pricing History:
 
 [Cross Platform **Story Kit(Instagram)**](http://u3d.as/1pMn)
 
-
-
-###
-
-```
-* In-progress
-```
