@@ -51,9 +51,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d5/d40/class_voxel_busters_1_1_essential_kit_1_1_media_content_save_options.html",
-"da/d96/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_transaction.html#a121d9cb485fa9e23380cb8c883e46c9c",
-"df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options.html#ade7ba8bc357b6127c097ba83a8371b85"
+"d5/d14/interface_voxel_busters_1_1_essential_kit_1_1_i_cloud_user.html#a8ff27d6c74535c8cd3c1863f89743d4f",
+"da/d58/deprecated.html",
+"df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options.html#a9650eb3f856fbc908eba5d86545a64c0"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
