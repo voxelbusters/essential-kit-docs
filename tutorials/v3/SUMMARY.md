@@ -14,6 +14,7 @@
 * [Settings](plugin-overview/settings.md)
 * [Folder Structure](plugin-overview/folder-structure.md)
 * [Installation FAQ](plugin-overview/installation-faq.md)
+* [Upgrade Guide](plugin-overview/upgrade-guide.md)
 * [Localisation](plugin-overview/localisation.md)
 
 ## Features
