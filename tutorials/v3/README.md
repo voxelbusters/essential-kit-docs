@@ -50,6 +50,8 @@
 
 • Address Book - Access contacts of the user
 
+• App Shortcuts - Utility for adding dynamic shortcuts to app icon for quick access of content
+
 • App Updater - Prompt version updates to user
 
 • Billing - Privacy First In-App purchases (Consumables/Non-Consumables/Subscriptions)
@@ -80,6 +82,8 @@
 
 • Share Sheet - Share images and urls
 
+• Task Services - Allows to run app in background
+
 • WebView - Access browser within Unity
 
 **Note**
@@ -92,7 +96,9 @@
 
 ### Upgrade Strategy & Pricing Overview
 
-We provide ongoing updates to ensure the plugin stays in line with evolving platform guidelines, OS requirements, and industry standards. To keep your product current and supported, we charge a minimal upgrade fee for each major version release.Upgrade Pricing History:
+We provide ongoing updates to ensure the plugin stays in line with evolving platform guidelines, OS requirements, and industry standards. To keep the product latest and supported, we charge a minimal upgrade fee for each major version release.
+
+Upgrade Pricing History:
 
 1. **V1 (Released 2015, Deprecated 2020)**&#x20;
    1. Lifespan: 5 years of support and free upgrades&#x20;
@@ -107,7 +113,7 @@ We provide ongoing updates to ensure the plugin stays in line with evolving plat
 
 #### How the Upgrade Fee Works:
 
-* The $10 per year is an average upgrade cost for the lifespan of each major version.
+* The $10-$15 per year is an average upgrade cost for the lifespan of each major version.
 * For example, when upgrading from V1 to V2, the $50 upgrade fee covers the full 5-year lifespan of V1 + additional features in V2, averaging $10 per year.
 * When upgrading from V2 to V3, the $40 upgrade fee covers the 4-year lifespan of V2, averaging $10 per year.
 
