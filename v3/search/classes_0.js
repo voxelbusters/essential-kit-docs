@@ -9,6 +9,8 @@ var searchData=
   ['alertdialogbuilder_6',['AlertDialogBuilder',['../d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder.html',1,'VoxelBusters::EssentialKit']]],
   ['androidplatformproperties_7',['AndroidPlatformProperties',['../dc/dc5/class_voxel_busters_1_1_essential_kit_1_1_server_credentials_1_1_android_platform_properties.html',1,'VoxelBusters::EssentialKit::ServerCredentials']]],
   ['androidproperties_8',['AndroidProperties',['../d3/da7/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_android_properties.html',1,'VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails']]],
-  ['appupdater_9',['AppUpdater',['../d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater.html',1,'VoxelBusters::EssentialKit']]],
-  ['appupdaterupdateinfo_10',['AppUpdaterUpdateInfo',['../dd/d74/class_voxel_busters_1_1_essential_kit_1_1_app_updater_update_info.html',1,'VoxelBusters::EssentialKit']]]
+  ['appshortcutitem_9',['AppShortcutItem',['../dd/d0b/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item.html',1,'VoxelBusters::EssentialKit']]],
+  ['appshortcuts_10',['AppShortcuts',['../da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts.html',1,'VoxelBusters::EssentialKit']]],
+  ['appupdater_11',['AppUpdater',['../d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater.html',1,'VoxelBusters::EssentialKit']]],
+  ['appupdaterupdateinfo_12',['AppUpdaterUpdateInfo',['../dd/d74/class_voxel_busters_1_1_essential_kit_1_1_app_updater_update_info.html',1,'VoxelBusters::EssentialKit']]]
 ];
