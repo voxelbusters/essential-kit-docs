@@ -68,6 +68,8 @@
   * [Setup](features/native-ui/setup.md)
   * [Usage](features/native-ui/usage.md)
   * [FAQ](features/native-ui/faq.md)
+  * [Examples](features/native-ui/examples/README.md)
+    * [Login Dialog](features/native-ui/examples/login-dialog.md)
 * [Network Services](features/network-services/README.md)
   * [Setup](features/network-services/setup.md)
   * [Usage](features/network-services/usage.md)

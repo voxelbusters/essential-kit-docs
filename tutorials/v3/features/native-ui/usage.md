@@ -14,6 +14,7 @@ You can have the following for an Alert Dialog
 
 * Title
 * Message
+* Add Text Input Fields (New)
 * Add buttons
 
 ```csharp
@@ -23,6 +24,7 @@ dialog.Message = "Message";
 dialog.AddButton("Yes", () => {
     Debug.Log("Yes button clicked");
 });
+dialog.AddTextInputField();//Can pass options too to configure placeholder text and others.
 dialog.AddCancelButton("No", () => {
     Debug.Log("Cancel button clicked");
 });
