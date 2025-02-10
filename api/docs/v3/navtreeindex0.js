@@ -95,12 +95,14 @@ var NAVTREEINDEX0 =
 "d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer.html#af2de392c1947c60fd58ebec02b352a65":[2,12,2,2],
 "d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer.html#af6024815787428d310254eff861a251b":[2,12,2,6],
 "d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder.html":[4,0,0,1,6],
-"d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder.html#a09ec99f591185d74ef9b741f8b985080":[4,0,0,1,6,5],
-"d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder.html#a0eb43e7d687eab8ece4149070bf1247a":[4,0,0,1,6,3],
+"d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder.html#a09ec99f591185d74ef9b741f8b985080":[4,0,0,1,6,7],
+"d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder.html#a0eb43e7d687eab8ece4149070bf1247a":[4,0,0,1,6,4],
 "d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder.html#a1a62602bdb23f0b60e3d2b6410ac7794":[4,0,0,1,6,2],
-"d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder.html#a24b9a8e3508e5d3cd7ac5ab97cb86d56":[4,0,0,1,6,4],
+"d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder.html#a24b9a8e3508e5d3cd7ac5ab97cb86d56":[4,0,0,1,6,6],
 "d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder.html#a764ecc8c65c5dcb927f4603435d0da4c":[4,0,0,1,6,0],
 "d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder.html#ac800990cac045a8bd042b26d7e6dba4d":[4,0,0,1,6,1],
+"d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder.html#ad79a603c34e0fed7114b76b468d92984":[4,0,0,1,6,5],
+"d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder.html#af1d799dcd4125232f7d470a218fe4735":[4,0,0,1,6,3],
 "d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater.html":[2,2,0],
 "d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater.html#a09d545801bbca0b5037cd632b10ad0ce":[2,2,0,0],
 "d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater.html#a1c856bf1fe91c6b4c22d36a208d94885":[2,2,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "d4/dc9/class_voxel_busters_1_1_essential_kit_1_1_mail_composer.html#ae07801a790031f50c43d63e59a2b20e7":[2,12,0,9],
 "d4/de4/group___task_services.html":[2,13],
 "d4/dee/group___cloud_services.html":[2,4],
-"d5/d14/interface_voxel_busters_1_1_essential_kit_1_1_i_cloud_user.html":[2,4,5],
-"d5/d14/interface_voxel_busters_1_1_essential_kit_1_1_i_cloud_user.html#a8ff27d6c74535c8cd3c1863f89743d4f":[2,4,5,1],
-"d5/d14/interface_voxel_busters_1_1_essential_kit_1_1_i_cloud_user.html#abc7e824d07fb4b7efdef6498d7c99e63":[2,4,5,0]
+"d5/d14/interface_voxel_busters_1_1_essential_kit_1_1_i_cloud_user.html":[2,4,5]
 };
