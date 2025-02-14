@@ -4,6 +4,7 @@
 
 * \[<mark style="color:green;">Enhancement</mark>] \[Address Book] Implemented page based access
 * \[<mark style="color:green;">Enhancement</mark>] \[Address Book] Added API to access based on constraints (MustIncludeName, MustIncludePhoneNumber, MustIncludeEmail)
+* \[<mark style="color:purple;">Feature</mark>] \[App Shortcuts] Add app shortcuts to your application icon
 * \[<mark style="color:purple;">Feature</mark>] \[App Updater] Seamless access of app updates across supported platforms
 * \[<mark style="color:purple;">Feature</mark>] \[Billing Services] Added Subscriptions
 * \[<mark style="color:purple;">Feature</mark>] \[Billing Services] Added Multi-offer support and redemption (Introductory, Promotional offer types)
@@ -34,7 +35,8 @@
 * \[<mark style="color:green;">Enhancement</mark>] \[Notification Services] Past time scheduled notifications will throw error now
 * \[<mark style="color:green;">Enhancement</mark>] \[Rate My App] Added option to control auto show rate dialog (Now you can just set the settings, disable auto show and check if conditions are satisfied with IsAllowedToRate method)
 * \[<mark style="color:green;">Enhancement</mark>] \[Rate My App] Added option to instantly rate by optionally showing a pre-confirmation dialog
-* \[<mark style="color:green;">Enhancement</mark>] \[Social Sharing] Now share more generic content with attachements (compared to only images earlier)
+* \[<mark style="color:green;">Enhancement</mark>] \[Social Sharing] Now share more generic content with attachments (compared to only images earlier)
+* \[<mark style="color:purple;">Feature</mark>] \[Task Services] Allow your app tasks to finish in background
 
 ### Breaking
 

@@ -8,7 +8,7 @@ description: Improvements and other changes in Version3 compared to Version 2
 
 #### Free Ads Kit (v1)
 
-Get a <mark style="background-color:green;">free copy</mark> of [Ads Kit](https://link.voxelbusters.com/ads-kit) (v1) with V3. Ads Kit offer single api for adding any supported ad network. It has no-code work flow too and very limited api calls for supporting different ad types.
+Get a <mark style="background-color:green;">free copy</mark> of [Ads Kit](https://link.voxelbusters.com/ads-kit) with V3. Ads Kit offer single api for adding any supported ad network. It has no-code work flow too and very limited api calls for supporting different ad types.
 
 #### Complete Custom Implementation
 
@@ -22,7 +22,7 @@ Now we have zero dependencies despite added new features. Have a look at our [re
 
 #### New Features
 
-We added two main new features **App Updater** and **Subscriptions** with multi-offer support along with serval other enhancements in terms of feature functionalities.
+We added four main new features **App Shortcuts**, **App Updater, Task Services(Background Processing)** and **Subscriptions** with multi-offer support along with serval other enhancements in terms of feature functionalities.
 
 #### Better Error Handling
 
@@ -47,4 +47,8 @@ V3 throws errors at build time if any expected configuration is not setup correc
 #### Follows Latest Recommended Guidelines
 
 V3 aims to follow latest native recommended guidelines and implemented accordingly where ever applicable (Photo picker, Store Kit 2, Permission-less access etc...)
+
+
+
+You can check the complete [release notes](release-notes.md) here for the list of all changes in V3.
 
