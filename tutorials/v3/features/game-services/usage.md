@@ -17,6 +17,16 @@ For submitting a score, you can either create a Leaderboard instance or use util
 
 For reporting progress, create an achievement instance or use utility method of Game Services.
 
+
+
+{% hint style="info" %}
+<mark style="color:green;background-color:red;">\[Updated from V2?]</mark>&#x20;
+
+<mark style="color:red;background-color:red;">If you are using LocalPlayer.Id to identify your account, make sure you handle it carefully as it returns gameScopeId instead of old Id(teamScopeId ≥ 2.7.3, legacyId < 2.7.3).</mark>&#x20;
+
+<mark style="color:red;background-color:red;">If you want to still use old id, please use legacyId or teamScopeId as per the version you are from.</mark>
+{% endhint %}
+
 ## Register for Events
 
 You need to register for **GameServices.OnAuthStatusChange** event for getting the updates on auth status once you attempt logging in.
@@ -54,6 +64,14 @@ If service is available, we can move on to Authenticating user.
 ```csharp
 GameServices.Authenticate();
 ```
+
+{% hint style="info" %}
+<mark style="color:green;background-color:red;">\[Updated from V2?]</mark>&#x20;
+
+<mark style="color:red;background-color:red;">\[Game Services] If you are using LocalPlayer.Id to identify your account, make sure you handle it carefully as it returns gameScopeId instead of old Id(teamScopeId ≥ 2.7.3, legacyId < 2.7.3).</mark>&#x20;
+
+<mark style="color:red;background-color:red;">If you want to still use old id, please use legacyId or teamScopeId as per the version you are from.</mark>
+{% endhint %}
 
 Authenticate method may open a dialog to let user enter the credentials for logging in.&#x20;
 
