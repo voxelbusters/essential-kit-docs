@@ -95,6 +95,8 @@
     * [Social Share Composer](features/sharing/usage/social-sharing-composer.md)
     * [Share Sheet](features/sharing/usage/share-sheet.md)
   * [FAQ](features/sharing/faq.md)
+  * [Examples](features/sharing/examples/README.md)
+    * [Add Attachment Example](features/sharing/examples/add-attachment-example.md)
 * [Task Services](features/task-services/README.md)
   * [Setup](features/task-services/setup.md)
   * [Usage](features/task-services/usage.md)
