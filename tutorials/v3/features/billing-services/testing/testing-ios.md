@@ -27,3 +27,12 @@ Additionally you can test interrupted purchases. For more details, check the doc
 If you see **InitializeStore** call doesn't return any billing products in the callback, make sure you finish accepting all pending updated terms and conditions and also finish your **tax agreements** on iTunes connect.
 {% endhint %}
 
+### Test App Store Promoted In-App Products
+
+To test App Store promoted in-app products, use the following URL format:
+
+```
+itms-services://?action=purchaseIntent&bundleId=com.example.app&productIdentifier=product_name
+```
+
+Replace `com.example.app` with your app's bundle identifier and `product_name` with your native billing product identifier. This will simulate the purchase intent for the promoted in-app product in your app.
