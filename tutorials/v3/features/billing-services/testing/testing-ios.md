@@ -36,3 +36,7 @@ itms-services://?action=purchaseIntent&bundleId=com.example.app&productIdentifie
 ```
 
 Replace `com.example.app` with your app's bundle identifier and `product_name` with your native billing product identifier. This will simulate the purchase intent for the promoted in-app product in your app.
+
+Open the above url with your product details in Safari browser and it opens your app. Once after Billing Services InitializeStore call is successful, it prompts user to purchase the specified billing product.\
+
+
