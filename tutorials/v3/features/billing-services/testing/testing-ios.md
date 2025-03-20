@@ -32,11 +32,16 @@ If you see **InitializeStore** call doesn't return any billing products in the c
 To test App Store promoted in-app products, use the following URL format:
 
 ```
-itms-services://?action=purchaseIntent&bundleId=com.example.app&productIdentifier=product_name
+itms-services://?action=purchaseIntent&bundleId=BUNDLE_IDENTIFIER&productIdentifier=NATIVE_BILLING_PRODUCT_PLATFORM_IDENTIFIER
 ```
 
-Replace `com.example.app` with your app's bundle identifier and `product_name` with your native billing product identifier. This will simulate the purchase intent for the promoted in-app product in your app.
+Replace [<mark style="color:green;">BUNDLE\_IDENTIFIER</mark>](#user-content-fn-1)[^1] with your app's bundle identifier and [<mark style="color:green;">NATIVE\_BILLING\_PRODUCT\_PLATFORM\_IDENTIFIER</mark>](#user-content-fn-2)[^2] with your native billing product identifier. This will simulate the purchase intent for the promoted in-app product in your app.
 
 Open the above url with your product details in Safari browser and it opens your app. Once after Billing Services InitializeStore call is successful, it prompts user to purchase the specified billing product.\
 
 
+
+
+[^1]: App's Bundle Identifier
+
+[^2]: Native Product Identifier of the testing Billing Product (the one on Appstore dashboards)
