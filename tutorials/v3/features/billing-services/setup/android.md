@@ -14,6 +14,12 @@ Once after  uploading the app and publish in any of the tracks, you will get an 
 
 ![Create in-app product from Monetise -> Products -> In-App products](../../../.gitbook/assets/BillingServicesInAppAndroidCreate.gif)
 
+
+
+<figure><img src="../../../.gitbook/assets/android-platform-identifiers.jpg" alt=""><figcaption><p>Identifiers you need to fill for Platform Id's in Essential Kit</p></figcaption></figure>
+
+
+
 ## Public Key
 
 > ### Public key needs to be set in the [Essential Kit Settings](./#properties) and can be obtained from Monetisation Setup of Monetise section.

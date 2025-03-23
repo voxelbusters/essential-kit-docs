@@ -23,6 +23,8 @@ Configure  in‑app purchases in[ App Store Connect](https://appstoreconnect.app
 
 ![Creating In-App purchases in App Store Connect](../../../.gitbook/assets/InAppAppStoreConnect.png)
 
+<figure><img src="../../../.gitbook/assets/ios-platform-identifiers.jpg" alt=""><figcaption><p>Identifiers you need to fill for Platform Id's in Essential Kit</p></figcaption></figure>
+
 ### **Publish your app and in-app purchase on the App Store**
 
 When you are done testing your in-app purchases, you'll be able to submit for review. Check its in-app purchase status to make sure you aren't missing information and ensure that you've selected your in-app purchase pricing. Products are reviewed when you submit your app as part of the app review process.

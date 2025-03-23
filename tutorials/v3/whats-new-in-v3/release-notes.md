@@ -43,7 +43,7 @@
 * \[Billing Services] Use Product, RequestedQuantity, PurchasedQuantity properties in IBillingTransaction instead of Payment property
 * \[Media Services] Permission request calls are removed for ease. Instead directly use SelectMediaContent, CaptureMediaContent and SaveMediaContent with options.
 * \[Notification Services] Earlier HIGH was the priority set by default. **Now** it's configurable and **default value is Medium.**
-* <mark style="color:red;background-color:red;">\[Game Services] If you are using LocalPlayer.Id to identify your account, make sure you handle it carefully as it returns gameScopeId instead of old Id. If you want to still use old id, please use legacyId.</mark>
+* <mark style="color:red;background-color:red;">\[Game Services] If you are using LocalPlayer.Id to identify your account, make sure you handle it carefully as it returns gameScopeId instead of old Id(teamScopeId ≥ 2.7.3, legacyId < 2.7.3). If you want to still use old id, please use legacyId or teamScopeId as per the version you are from.</mark>
 
 ### Misc
 
