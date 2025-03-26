@@ -1,7 +1,9 @@
 # FAQ
 
 {% hint style="success" %}
-If you are not yet using [Essential Kit](https://link.voxelbusters.com/essential-kit), why don't you give a try! Plugin offers Consumables, Non-Consumables, Subscriptions with <mark style="color:orange;">multiple offers</mark>, Store <mark style="color:orange;">Promotions</mark> with a unified api for iOS and Android. And the best part is it's from from analytics and <mark style="color:orange;">privacy focused</mark>!
+If you haven't tried [**Essential Kit**](https://link.voxelbusters.com/essential-kit) yet, now's the perfect time! Our plugin simplifies **in-app purchases** with support for **Consumables, Non-Consumables, Subscriptions (with multiple offers), and Store Promotions**—all through a **unified API** for **iOS and Android**.
+
+And the best part? **No analytics, no tracking—just a privacy-focused solution built for game developers.** 🚀 [Give it a try today](https://link.voxelbusters.com/essential-kit)!
 {% endhint %}
 
 ## Why InitializeStore call returns empty product list in the callback :man\_tipping\_hand:?
