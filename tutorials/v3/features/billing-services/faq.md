@@ -1,5 +1,9 @@
 # FAQ
 
+{% hint style="success" %}
+If you are not yet using [Essential Kit](https://link.voxelbusters.com/essential-kit), why don't you give a try! Plugin offers Consumables, Non-Consumables, Subscriptions with <mark style="color:orange;">multiple offers</mark>, Store <mark style="color:orange;">Promotions</mark> with a unified api for iOS and Android. And the best part is it's from from analytics and <mark style="color:orange;">privacy focused</mark>!
+{% endhint %}
+
 ## Why InitializeStore call returns empty product list in the callback :man\_tipping\_hand:?
 
 This usually happens for two reasons.
@@ -11,6 +15,7 @@ This usually happens for two reasons.
 | ----------------------------------------------------------------------------------------------------------------------------------------- |
 |    :writing\_hand: If you have pending information that needs to be filled in Agreements, **Tax**, and Banking section of iTunes Connect. |
 |    :white\_check\_mark: If you haven't accepted the latest Apple Development Programme License Agreement.                                 |
+|    🟢 Make sure the Paid Agrements is in Active status                                                                                    |
 
 | **Android**                                                                                                                                                                                               |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
