@@ -16,7 +16,7 @@
 
 ### **Important links**
 
-[Unity Forum Thread](https://link.voxelbusters.com/essential-kit-unity-forum) | [Tutorials](https://link.voxelbusters.com/essential-kit-tutorials) | [Support](https://link.voxelbusters.com/essential-kit-support)
+[Unity Forum Thread](https://link.voxelbusters.com/essential-kit-unity-forum) | [Tutorials](plugin-overview/settings.md) | [Support](https://link.voxelbusters.com/essential-kit-support)
 
 
 
