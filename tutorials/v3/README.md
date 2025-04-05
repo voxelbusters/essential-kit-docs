@@ -248,11 +248,13 @@
 
 ### **Our other products**
 
-[Cross Platform **Ads Kit**](https://www.github.com/voxelbusters/ads-kit) **(FREE with Essential Kit)**
-
 [Cross Platform **Screen Recorder Kit**](http://u3d.as/1nN3)
 
 [**Easy ML Kit**](https://u3d.as/2PMe)
+
+[**Ads Kit**](https://www.github.com/voxelbusters/ads-kit) **(Free & Open Source)**
+
+[**Permissions Kit**](https://www.github.com/permissions-kit) **(Free & Open Source)**
 
 [Reporting Kit](https://u3d.as/2Q6p)
 
