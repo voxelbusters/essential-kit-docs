@@ -183,9 +183,10 @@
 * Save offline and sync when online returns
 * Delay IAP flow until stable connection
 * Notify users about server reconnection
-* Warn during multiplayer lobbies
+* Warn during multiplayer lobbies\
 
-🔔 Push & Local Notifications: Schedule notifications with calendar/time triggers, repeat, and reboot persistence.🧩 Common Game Design Scenarios:
+
+🔔 Push & Local Notifications: Schedule notifications with calendar/time triggers, repeat, and reboot persistence.
 
 * Daily login reminder at 9AM
 * Notify when energy refills
@@ -207,8 +208,7 @@
 
 * Share win screen or high score
 * Post screenshots to Instagram or Twitter
-* Send in-game messages via WhatsApp
-
+* Send in-game messages via WhatsApp\
 
 
 🔄 Background Task Execution: Execute important background tasks even when the game is minimized or the device is locked. Supports time-limited operations to keep your game state up-to-date without requiring the app to be active.
@@ -293,7 +293,7 @@ Upgrade Pricing History:
 2. **V2 (Released 2020, Deprecated 2024)**
    1. Lifespan: 4 years of support and free upgrades&#x20;
    2. Upgrade to V3: <=$40&#x20;
-   3. [V3 vs V1](https://assetstore.essentialkit.voxelbusters.com/whats-new-in-v3/version-3-vs-version-2)&#x20;
+   3. [V3 vs V2](https://assetstore.essentialkit.voxelbusters.com/whats-new-in-v3/version-3-vs-version-2)&#x20;
    4. Approx. cost breakdown: \~$10 per year based on the 4-year lifespan of V2.
 
 #### How the Upgrade Fee Works:
