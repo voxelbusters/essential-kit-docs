@@ -89,8 +89,7 @@
 ### Feature Details and Game-Centric Use Cases
 
 \
-📇 Address Book Access : Fetch device contacts using filters (e.g., only contacts with email or phone), with support for pagination.\
-🧩 Common Game Design Scenarios:
+📇 Address Book Access : Fetch device contacts using filters (e.g., only contacts with email or phone), with support for pagination.
 
 * Invite-a-friend features using player contact lists
 * Send rewards when friends install the game
@@ -98,8 +97,9 @@
 * Create guilds or teams from real-world friends
 * Share referral codes through known contacts
 
-⚡ Creating Dynamic App Shortcuts: Add or remove custom app icon shortcuts that deep link into specific app content.\
-🧩 Common Game Design Scenarios:
+
+
+⚡ Creating Dynamic App Shortcuts: Add or remove custom app icon shortcuts that deep link into specific app content.
 
 * Shortcut to “Daily Rewards” or time-limited challenges
 * Instant launch into multiplayer mode or last level
@@ -107,8 +107,9 @@
 * One-tap entry into co-op events or clan war
 * Feature newly unlocked mode directly from home screen
 
-🔄 App Updater Integration: Detect if a newer version of the app is available and prompt players (optional or forced).\
-🧩 Common Game Design Scenarios:
+
+
+🔄 App Updater Integration: Detect if a newer version of the app is available and prompt players (optional or forced).
 
 * Enforce version upgrade before online play
 * Prompt update after login during major patches
@@ -116,8 +117,9 @@
 * Support content version compatibility for multiplayer
 * Announce and enforce seasonal updates or new maps
 
-💰 In-App Purchases (Billing Services / IAP): Uses StoreKit 2 (iOS) and Google Billing 7.x (Android). Supports consumables, non-consumables, subscriptions with multiple offers.\
-🧩 Common Game Design Scenarios:
+
+
+💰 In-App Purchases (Billing Services / IAP): Uses StoreKit 2 (iOS) and Google Billing 7.x (Android). Supports consumables, non-consumables, subscriptions with multiple offers.
 
 * Selling skins, coins, or ad-free upgrades
 * Battle pass or season ticket subscriptions
@@ -125,17 +127,18 @@
 * Time-limited offers during events
 * One-time purchase for special characters
 
-☁️ Cloud Save for Unity Mobile Games: Cross-device player data sync using iCloud (iOS) and Google Play Saved Games (Android).\
-🧩 Common Game Design Scenarios:
+
+
+☁️ Cloud Save for Unity Mobile Games: Cross-device player data sync using iCloud (iOS) and Google Play Saved Games (Android).
 
 * Sync progress across devices
 * Cloud backup for offline/online games
 * Allow iPhone users to switch to iPad
 * Resume levels across reinstalls
-* Support shared progress in family account scenarios
+* Support shared progress in family account scenarios\
 
-🔗 Deep Link Handling in Unity: Support Universal Links and App Links with payload delivery.\
-🧩 Common Game Design Scenarios:
+
+🔗 Deep Link Handling in Unity: Support Universal Links and App Links with payload delivery.
 
 * Invite links to a specific level or match
 * Launch into in-game promotions or reward flows
@@ -143,8 +146,9 @@
 * Referral codes encoded in deep links
 * Return players to last session with context
 
-🏆 Game Center & Google Play Game Services Integration: Full support for leaderboards, achievements, and player login.\
-🧩 Common Game Design Scenarios:
+
+
+🏆 Game Center & Google Play Game Services Integration: Full support for leaderboards, achievements, and player login.
 
 * Show global leaderboards with score filters
 * Progress-based achievements to reward milestones
@@ -152,7 +156,9 @@
 * Friends-only scores for casual competition
 * Reward unlocks tied to achievements
 
-🎥 Unity Media Picker & Capture Integration: Select or capture media (images, videos) for gameplay, avatars, or sharing.🧩 Common Game Design Scenarios:
+
+
+🎥 Unity Media Picker & Capture Integration: Select or capture media (images, videos) for gameplay, avatars, or sharing.
 
 * Avatar creation using player camera
 * Screenshot sharing of in-game achievements
@@ -160,15 +166,18 @@
 * Record short clips for social bragging
 * Use photos as level textures or objects
 
-🗓️ Native UI Dialogs and Pickers in Unity: Use platform-native alerts, confirmations, and pickers (date/time).🧩 Common Game Design Scenarios:
+
+
+🗓️ Native UI Dialogs and Pickers in Unity: Use platform-native alerts, confirmations, and pickers (date/time).
 
 * Choose time for battle match scheduling
 * Pick a farming cycle (plant/harvest dates)
 * Alert players for irreversible choices
 * Confirm restart of tough levels
-* Plan weekly events with calendar picker
+* Plan weekly events with calendar picker\
 
-🌐 Network Connectivity Monitor: Monitor real-time online status with event callbacks.🧩 Common Game Design Scenarios:
+
+🌐 Network Connectivity Monitor: Monitor real-time online status with event callbacks.
 
 * Auto-pause online matches on disconnect
 * Save offline and sync when online returns
@@ -182,25 +191,27 @@
 * Notify when energy refills
 * Remind of upcoming boss fight
 * Push promo offers near expiration
-* Alert for ranked match open window
+* Alert for ranked match open window\
 
-⭐ App Rating Prompt: Native rating dialog, optional pre-check logic (e.g., after positive event).🧩 Common Game Design Scenarios:
+
+⭐ App Rating Prompt: Native rating dialog, optional pre-check logic (e.g., after positive event).
 
 * After completing a hard level
 * After a streak of wins
 * After purchase or reward unlock
 * Periodic prompt after active sessions
-* Trigger based on happy in-game behavior
+* Trigger based on happy in-game behavior\
 
-📤 Social Sharing Support: Native OS share sheet with support for media, text, and custom messages.🧩 Common Game Design Scenarios:
+
+📤 Social Sharing Support: Native OS share sheet with support for media, text, and urls.
 
 * Share win screen or high score
 * Post screenshots to Instagram or Twitter
-* Share custom character or level build
 * Send in-game messages via WhatsApp
-* Promote co-op sessions via chat
 
-🔄 Background Task Execution: Execute important background tasks even when the game is minimized or the device is locked. Supports time-limited operations to keep your game state up-to-date without requiring the app to be active.🧩 Common Game Design Scenarios:
+
+
+🔄 Background Task Execution: Execute important background tasks even when the game is minimized or the device is locked. Supports time-limited operations to keep your game state up-to-date without requiring the app to be active.
 
 * Synchronize player progress with backend
 * Persist crafting/building timers in real-time even when the player switches apps.
@@ -209,19 +220,21 @@
 * Perform final save encryption or checkpoint sync before app sent to background.
 
 \
-⚙️ Utilities – Settings & Store Links: Quickly open app settings or direct users to your store page.🧩 Common Game Design Scenarios:
+⚙️ Utilities – Settings & Store Links: Quickly open app settings or direct users to your store page.
 
 * Open app permissions for camera/mic
 * Take users to update/download page
-* Link to companion app or spin-off game
+* Link to companion app or spin-off game\
 
-🌍 Web View Integration: Load local or remote webpages inside your game with messaging and JS support.🧩 Common Game Design Scenarios:
+
+🌍 Web View Integration: Load local or remote webpages inside your game with messaging and JS support.
 
 * Show patch notes or event calendars
 * Link to player profile on community hub
 * Host user-generated levels in HTML
 * Run surveys or feedback forms
-* Display marketplace listings or DLC
+* Display marketplace listings or DLC\
+
 
 **Note**
 
@@ -237,6 +250,8 @@
 * Fast updates: We’re often the first to integrate updates for native libraries (e.g., StoreKit 2, Billing Client V6, V7).
 * Extensive automation: Includes features like manifest generation, dependency handling, and build post-processing.
 * Future plans: We’re working on open-sourcing major parts of the plugin to avoid vendor lock-in and ensure long-term flexibility.
+
+***
 
 **If you are upgrading from version 2.x, please follow** [**this guide**](whats-new-in-v3/upgrade-from-v2.md)**.**
 
@@ -289,5 +304,5 @@ Upgrade Pricing History:
 
 ***
 
-###
+
 
