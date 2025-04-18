@@ -2,7 +2,7 @@
 
 [**Essential Kit**](https://link.voxelbusters.com/essentialkit) (V3) a true cross platform tool for Unity which provides unique and unified way to access native functionality on mobile platforms.
 
-> Supports **mobile** platforms **iOS 15+ (till iOS 18)** | **Android 21+ (till API 35)**
+> Supported platforms : **iOS 15+ (till iOS 18)** | **Android 21+ (till API 35) | tvOS (Beta)**
 
 > **450+** 🌟🌟🌟🌟🌟 | Used by **25,000+ developers** world-wide
 
@@ -32,7 +32,7 @@
 
 • Generate Android **manifest** and **permissions** **as per** feature **usage**
 
-• Automatically adds required **capabilities** on iOS
+• Automatically adds required **capabilities** on iOS and tvOS
 
 • Only **select features** you need
 
@@ -86,6 +86,16 @@
 
 • WebView - Access browser within Unity
 
+
+
+{% hint style="warning" %}
+tvOS platform doesn't support features like Address Book, App Shortcuts, Media Library, Web View, Date Picker and Sharing - As these are natively not supported or allowed by tvOS platform.&#x20;
+
+
+
+However, rest of the features are supported and unsupported features has null implementations ready.
+{% endhint %}
+
 ### Feature Details and Game-Centric Use Cases
 
 \
@@ -119,7 +129,7 @@
 
 
 
-💰 In-App Purchases (Billing Services / IAP): Uses StoreKit 2 (iOS) and Google Billing 7.x (Android). Supports consumables, non-consumables, subscriptions with multiple offers.
+💰 In-App Purchases (Billing Services / IAP): Uses StoreKit 2 (iOS, tvOS) and Google Billing 7.x (Android). Supports consumables, non-consumables, subscriptions with multiple offers.
 
 * Selling skins, coins, or ad-free upgrades
 * Battle pass or season ticket subscriptions
@@ -129,7 +139,7 @@
 
 
 
-☁️ Cloud Save for Unity Mobile Games: Cross-device player data sync using iCloud (iOS) and Google Play Saved Games (Android).
+☁️ Cloud Save for Unity Mobile Games: Cross-device player data sync using iCloud (iOS, tvOS) and Google Play Saved Games (Android).
 
 * Sync progress across devices
 * Cloud backup for offline/online games
