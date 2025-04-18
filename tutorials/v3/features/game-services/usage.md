@@ -24,7 +24,7 @@ For reporting progress, create an achievement instance or use utility method of 
 
 <mark style="color:red;background-color:red;">If you are using LocalPlayer.Id to identify your account, make sure you handle it carefully as it returns gameScopeId instead of old Id(teamScopeId ≥ 2.7.3, legacyId < 2.7.3).</mark>&#x20;
 
-<mark style="color:red;background-color:red;">If you want to still use old id, please use legacyId or teamScopeId as per the version you are from.</mark>
+<mark style="color:red;background-color:red;">If you want to still use old id, please use IPlayer.LegacyIdentifier or IPlayer.DeveloperScopeIdentifier as per the version you are from.</mark>
 {% endhint %}
 
 ## Register for Events
@@ -70,7 +70,7 @@ GameServices.Authenticate();
 
 <mark style="color:red;background-color:red;">\[Game Services] If you are using LocalPlayer.Id to identify your account, make sure you handle it carefully as it returns gameScopeId instead of old Id(teamScopeId ≥ 2.7.3, legacyId < 2.7.3).</mark>&#x20;
 
-<mark style="color:red;background-color:red;">If you want to still use old id, please use legacyId or teamScopeId as per the version you are from.</mark>
+<mark style="color:red;background-color:red;">If you want to still use old id, please use IPlayer.LegacyIdentifier or IPlayer.DeveloperScopeIdentifier as per the version you are from.</mark>
 {% endhint %}
 
 Authenticate method may open a dialog to let user enter the credentials for logging in.&#x20;
