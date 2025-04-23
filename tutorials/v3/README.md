@@ -1,5 +1,7 @@
 # Introduction
 
+> Want to know which games are using Essential Kit? Click [here](https://42matters.com/sdks/ios/voxelbusters-essential-kit).
+
 [**Essential Kit**](https://link.voxelbusters.com/essentialkit) (V3) a true cross platform tool for Unity which provides unique and unified way to access native functionality on mobile platforms.
 
 > Supported platforms : **iOS 15+ (till iOS 18)** | **Android 21+ (till API 35) | tvOS (Beta)**
