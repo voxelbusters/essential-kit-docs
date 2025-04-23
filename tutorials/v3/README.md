@@ -1,6 +1,8 @@
 # Introduction
 
-> <mark style="color:green;">Want to know which games are using Essential Kit? Click</mark> [<mark style="color:blue;">here</mark>](https://42matters.com/sdks/ios/voxelbusters-essential-kit)<mark style="color:green;">. Includes</mark> <mark style="color:purple;background-color:orange;">**Voodoo, Azur Games, BoomBox**</mark> <mark style="color:green;">and more!</mark>
+> <mark style="color:green;">Want to know which games are using Essential Kit? Click</mark> [<mark style="color:blue;">here</mark>](https://42matters.com/sdks/ios/voxelbusters-essential-kit)<mark style="color:green;">.</mark>&#x20;
+>
+> <mark style="color:green;">Includes games from</mark> [<mark style="color:purple;background-color:orange;">**Voodoo**</mark>](https://www.boomboxgames.net/)<mark style="color:purple;background-color:orange;">**,**</mark> [<mark style="color:purple;background-color:orange;">**Azur Games**</mark>](https://azurgames.com/)<mark style="color:purple;background-color:orange;">**,**</mark> [<mark style="color:purple;background-color:orange;">**BoomBox**</mark>](https://www.boomboxgames.net/) <mark style="color:green;">and more!</mark>
 
 [**Essential Kit**](https://link.voxelbusters.com/essentialkit) (V3) a true cross platform tool for Unity which provides unique and unified way to access native functionality on mobile platforms.
 
