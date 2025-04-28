@@ -112,3 +112,4 @@
 * [Resolving Android Gradle Build Errors](notes/resolving-android-gradle-build-errors.md)
 * [Google Play Services Authentication](notes/google-play-services-authentication.md)
 * [Target API Level vs Min API Level](notes/target-api-level-vs-min-api-level.md)
+* [Handling Refunds for In-App Purchases (Billing Services)](notes/handling-refunds-for-in-app-purchases-billing-services.md)
