@@ -24,6 +24,8 @@ Now we have zero dependencies despite added new features. Have a look at our [re
 
 We added four main new features **App Shortcuts**, **App Updater, Task Services(Background Processing)** and **Subscriptions** with multi-offer support along with serval other enhancements in terms of feature functionalities.
 
+Added tvOS and Android PC(In progress) support.
+
 #### Better Error Handling
 
 V3 now sends error codes along with the error message for all features. This helps in communicating and debugging the errors easily.
