@@ -32,7 +32,7 @@ V3 now sends error codes along with the error message for all features. This hel
 
 #### Latest Compatibility
 
-V3 is currently compatible with Android API 35 and iOS 18\* (18 in progress, tested till iOS 17)
+V3 is currently compatible with Android API 35 and iOS 18
 
 {% hint style="success" %}
 Billing Services on iOS uses **Store Kit 2** and latest **Google Billing Client** **v7** (at the time of this writing), **Unity 6** compatible

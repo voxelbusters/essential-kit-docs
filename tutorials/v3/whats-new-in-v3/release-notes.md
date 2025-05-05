@@ -37,6 +37,7 @@
 * \[<mark style="color:green;">Enhancement</mark>] \[Rate My App] Added option to instantly rate by optionally showing a pre-confirmation dialog
 * \[<mark style="color:green;">Enhancement</mark>] \[Social Sharing] Now share more generic content with attachments (compared to only images earlier)
 * \[<mark style="color:purple;">Feature</mark>] \[Task Services] Allow your app tasks to finish in background
+* \[<mark style="color:green;">Enhancement</mark>] tvOS Support
 
 ### Breaking
 
