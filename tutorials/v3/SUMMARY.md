@@ -30,6 +30,7 @@
 * [🆕 App Updater](features/app-updater/README.md)
   * [Setup](features/app-updater/setup.md)
   * [Usage](features/app-updater/usage.md)
+  * [Testing](features/app-updater/testing.md)
 * [💲 Billing Services](features/billing-services/README.md)
   * [Setup](features/billing-services/setup/README.md)
     * [iOS](features/billing-services/setup/ios.md)
