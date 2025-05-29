@@ -93,7 +93,7 @@ private void OnDisable()
 ### Synchronize
 
 {% hint style="success" %}
-### You need to call **Synchronize** manually for the first time after the launch of your app (if [Synchronize On Load](setup/#properties) property is off).
+### You need to call **Synchronize** manually for the first time after the launch of your application. This may initiate a login prompt as per the platform.
 {% endhint %}
 
 **Synchronize** initiates authentication login prompt for the user if required and downloads the latest copy from cloud servers.&#x20;
