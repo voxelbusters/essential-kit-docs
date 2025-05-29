@@ -16,9 +16,7 @@ Plugin uses iCloud on iOS and Google Play Services Saved games on Android. These
 
 On iOS, you can store a max of **1 MB** and on Android you can store a max of **3 MB**.
 
-## What is the use of [Sync Interval](setup/#properties) in settings?
 
-On  iOS, iCloud libraries by default sync with the cloud servers multiple times automatically. Where as on Android, thats not the case. So, Plugin uses the sync timer to schedule a sync so that you don't need to do it in your code frequently.
 
 ## Why I can't see the data I set when [OnSavedDataChange](usage.md#register-for-events) event is triggered?
 
