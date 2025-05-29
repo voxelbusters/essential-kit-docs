@@ -102,7 +102,7 @@ private void OnAuthStatusChange(GameServicesAuthStatusChangeResult result, Error
 }
 ```
 
-You can access **ILocalUser** Instance any time through GameServices. However, you will get it null if the authentication is not successful.
+You can access **ILocalPlayer** Instance any time through GameServices. However, you will get it null if the authentication is not successful.
 
 ```csharp
 ILocalPlayer localPlayer = GameServices.LocalUser;

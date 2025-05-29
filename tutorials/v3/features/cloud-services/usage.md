@@ -33,7 +33,7 @@ As soon as you get **CloudServices.OnSavedDataChange** event, compare the cloud 
 
 Once you update the correct data with setters in the **OnSavedDataChange** callback, this data will be pushed to the cloud servers in the next Synchronize call.
 
-You can call **Synchronize** any time to initiate a sync between Cloud and Local copies. However, plugin provides an option to set the [Sync Interval](setup/#properties) to do this sync automatically. You just need to call **Synchronize** only once at start to initiate the first sync.
+You can call **Synchronize** any time to initiate a sync between Cloud and Local copies.&#x20;
 
 {% hint style="success" %}
 If there are no changes between Cloud Copy and Local Copy, no event will be fired and it means your data is in sync with the cloud servers!
@@ -106,7 +106,7 @@ So, call this method in the main menu or at the time of loading so that you will
 CloudServices.Synchronize();
 ```
 
-This call triggers a callback **CloudServices.OnSynchronizeComplete** and it returns success flag as true  if synchronize succeds. If will be false if user deny the authentication or due to network error.
+This call triggers a callback **CloudServices.OnSynchronizeComplete** and it returns success flag as true  if synchronize succeeds. If will be false if user deny the authentication or due to network error.
 
 ```csharp
 // Register for the CloudServices.OnSynchronizeComplete event
