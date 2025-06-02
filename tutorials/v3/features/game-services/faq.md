@@ -91,6 +91,10 @@ Nearly 99% of the sign in errors are due to not adding the correct credential fo
 
 For logging in successfully, you need to create the credential by setting the right SHA fingerprint on google play console. Please check setup [here](setup/android.md#configuring-credentials-sha-fingerprint-authentication).
 
+{% hint style="warning" %}
+If you are sure the SHA fingerprints are setup correctly, make sure your testing email account is listed in the play services testers list in google play console.
+{% endhint %}
+
 ### How to get SHA fingerprint from an APK?
 
 You can use the below command for getting the SHA fingerprint quickly
