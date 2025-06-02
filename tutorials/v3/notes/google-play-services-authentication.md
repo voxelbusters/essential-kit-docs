@@ -8,6 +8,10 @@
 
 For Google Play Services to sign in successfully, you need to make sure the apk from where you are logging in should be allowed to make requests to google servers.
 
+{% hint style="danger" %}
+If you are sure the SHA fingerprints are setup correctly, make sure your testing email account is listed in the play services testers list in google play console.
+{% endhint %}
+
 ### How to make the APK authorized to make requests to google servers?&#x20;
 
 Each apk built with a keystore has a SHA fingerprint. You need to make sure the SHA fingerprint is added in the google cloud.&#x20;
