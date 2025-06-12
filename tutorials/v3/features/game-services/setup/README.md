@@ -62,3 +62,8 @@ On iOS, there is a feature to move leaderboards and achievements to groups. Cons
 Achievements/Leaderboards  in groups need to start with "grp." prefix and should be unique. We suggest to follow something like **"grp.com.companyname.gamename.leaderboardname"**. Ex: "grp.com.voxelbusters.flappybird.highscoreleaderboard"
 {% endhint %}
 
+{% hint style="success" %}
+On Android, If you set **ServerClientId** value in Essential Kit Settings for accessing player details on your server and still unable to access, make sure you created OAuth credential for **Web Platform(or Game Server) - Not Android Platform** when creating the credentials on Google Cloud.\
+\
+Note that you only need to set **ServerClientId** if you want to access play services profile on your server. Else, just keep the entry empty in the Essential Kit Settings.
+{% endhint %}
