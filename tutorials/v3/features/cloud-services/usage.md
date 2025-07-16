@@ -192,9 +192,17 @@ object dictObject = serializer.FromJson(stringValueFromCloud);
 
 ### Handling data consistency and external data changes
 
+> Check the detailed notes on how this works with an example from below link.
+
+{% content-ref url="examples/handling-conflicts-and-synchronization.md" %}
+[handling-conflicts-and-synchronization.md](examples/handling-conflicts-and-synchronization.md)
+{% endcontent-ref %}
+
 If the user plays your game on different devices, there is a possibility to shift from one device to another during the game play progress. They do expect the latest data on the current device they are on. To handle these kind of situations, we provide **CloudServices.OnSavedDataChange** which informs the data changes if any with a reason and changed keys.
 
 **CloudServices.OnSavedDataChange** event is triggered when ever there is a change in the data that is accessed by Getter functions (GetBool, GetString etc..). This callback gives you the required information to handle the data state. It gives a reason (CloudSavedDataChangeReasonCode)  and also the changedKeys array to find out the keys that got changed from the current copy.
+
+
 
 **CloudServices.OnSavedDataChange** event gets fired for the following reasons:
 

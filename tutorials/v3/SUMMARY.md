@@ -47,6 +47,8 @@
   * [Usage](features/cloud-services/usage.md)
   * [Testing](features/cloud-services/testing.md)
   * [FAQ](features/cloud-services/faq.md)
+  * [Examples](features/cloud-services/examples/README.md)
+    * [Handling Conflicts & Synchronization](features/cloud-services/examples/handling-conflicts-and-synchronization.md)
 * [🔗 Deep Link Services](features/deep-link-services/README.md)
   * [Setup](features/deep-link-services/setup/README.md)
     * [iOS](features/deep-link-services/setup/ios.md)
