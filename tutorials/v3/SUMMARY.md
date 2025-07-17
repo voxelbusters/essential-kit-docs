@@ -40,6 +40,8 @@
     * [iOS](features/billing-services/testing/testing-ios.md)
     * [Android](features/billing-services/testing/testing-android.md)
   * [FAQ](features/billing-services/faq.md)
+  * [Notes](features/billing-services/notes/README.md)
+    * [How Non-Consumable and Subscription product statuses are maintained?](features/billing-services/notes/how-non-consumable-and-subscription-product-statuses-are-maintained.md)
 * [☁️ Cloud Services](features/cloud-services/README.md)
   * [Setup](features/cloud-services/setup/README.md)
     * [iOS](features/cloud-services/setup/ios.md)

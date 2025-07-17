@@ -94,7 +94,9 @@ var signature = rawData != null ? rawData["signature"] as string : null;
 
 
 
-&#x20;   &#x20;
+## How Essential Kit Tracks Non-Consumable/Subscription Purchases?
+
+
 
 
 
