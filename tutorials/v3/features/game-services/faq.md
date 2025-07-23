@@ -83,7 +83,7 @@ This usually happens for one of the 3 main reasons.
 
 2. Your Play Services Application Id was incorrectly entered in [Essential Kit Settings](setup/#properties)\
 
-3. In sandbox mode, the user you are trying to login is not added as a tester in your App's google play console under Play Games Services -> Setup and Management -> Testers
+3. In non-live mode, the user you are trying to login is **not added as a tester** in your App's google play console under Grow Users (on left side section) -> Play Games Services -> Setup and Management -> Testers
 
 {% hint style="danger" %}
 Nearly 99% of the sign in errors are due to not adding the correct credential for the keystore that is used in Google Play Console-> Your App -> Play Games Services -> Setup and Management -> Configuration.&#x20;
