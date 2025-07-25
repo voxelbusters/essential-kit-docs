@@ -66,6 +66,8 @@
     * [Android](features/game-services/setup/android.md)
   * [Usage](features/game-services/usage.md)
   * [FAQ](features/game-services/faq.md)
+  * [Notes](features/game-services/notes/README.md)
+    * [Migration Guide: From Google Play Games Plugin for Unity to Essential Kit Game Services](features/game-services/notes/migration-guide-from-google-play-games-plugin-for-unity-to-essential-kit-game-services.md)
 * [📸 Media Services](features/media-services/README.md)
   * [Setup](features/media-services/setup.md)
   * [Usage](features/media-services/usage.md)
