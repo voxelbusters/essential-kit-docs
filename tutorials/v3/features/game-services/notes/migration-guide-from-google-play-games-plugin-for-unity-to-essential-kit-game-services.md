@@ -501,11 +501,7 @@ if (GameServices.IsAvailable())
 #endif
 ```
 
-### Migration Timeline Estimate
 
-* **Small Project** (< 5 leaderboards/achievements): 2-4 hours
-* **Medium Project** (5-15 leaderboards/achievements): 4-8 hours
-* **Large Project** (15+ leaderboards/achievements): 8-16 hours
 
 ### Benefits After Migration
 
