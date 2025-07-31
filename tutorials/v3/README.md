@@ -312,8 +312,8 @@ Upgrade Pricing History:
 
 #### How the Upgrade Fee Works:
 
-* The $10-$15 per year is an average upgrade cost for the lifespan of each major version.
-* For example, when upgrading from V1 to V2, the $50 upgrade fee covers the full 5-year lifespan of V1 + additional features in V2, averaging $10 per year.
+* Use your current version as long as you like. Upgrade only if you need new features or fixes—existing users always get 60%+ off.
+* When upgrading from V1 to V2, the $50 upgrade fee covers the full 5-year lifespan of V1 + additional features in V2, averaging $10 per year.
 * When upgrading from V2 to V3, the $40 upgrade fee covers the 4-year lifespan of V2, averaging $10 per year.
 
 ***
