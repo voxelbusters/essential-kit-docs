@@ -1,18 +1,16 @@
 # Introduction
 
-> <mark style="color:green;">Want to know which games are using Essential Kit? Click</mark> [<mark style="color:blue;">here</mark>](https://42matters.com/sdks/ios/voxelbusters-essential-kit)<mark style="color:green;">.</mark>&#x20;
+> <mark style="color:green;">Want to know which games are using Essential Kit? Click</mark> [<mark style="color:blue;">here</mark>](https://42matters.com/sdks/ios/voxelbusters-essential-kit)<mark style="color:green;">.</mark>
 >
-> <mark style="color:green;">Includes games from</mark> [<mark style="color:purple;background-color:orange;">**Voodoo**</mark>](https://www.boomboxgames.net/)<mark style="color:purple;background-color:orange;">**,**</mark> [<mark style="color:purple;background-color:orange;">**Azur Games**</mark>](https://azurgames.com/)<mark style="color:purple;background-color:orange;">**,**</mark> [<mark style="color:purple;background-color:orange;">**BoomBox**</mark>](https://www.boomboxgames.net/) <mark style="color:green;">and more!</mark>
+> <mark style="color:green;">Includes games from</mark> [**Voodoo**](https://www.boomboxgames.net/)**,** [**Azur Games**](https://azurgames.com/)**,** [**BoomBox**](https://www.boomboxgames.net/) <mark style="color:green;">and more!</mark>
 
 [**Essential Kit**](https://link.voxelbusters.com/essentialkit) (V3) a true cross platform tool for Unity which provides unique and unified way to access native functionality on mobile platforms.
 
-> Supported platforms : **iOS 15+ (till iOS 18)** | **Android 21+ (till API 35) | tvOS (Beta)**
+> Supported platforms : **iOS 15+ (till iOS 18)** | **Android 21+ (till API 35) | tvOS (Beta) | Android PC (Beta)**
 
 > **450+** 🌟🌟🌟🌟🌟 | Used by **25,000+ developers** world-wide
 
 > As promised, all customers get [Ads Kit](https://link.voxelbusters.com/ads-kit) for Free - No Code Required!
-
-
 
 ![](https://api.essentialkit.voxelbusters.com/v3/cover.png)
 
@@ -21,8 +19,6 @@
 ### **Important links**
 
 [Unity Forum Thread](https://link.voxelbusters.com/essential-kit-unity-forum) | [Tutorials](plugin-overview/settings.md) | [Support](https://link.voxelbusters.com/essential-kit-support)
-
-
 
 ### **Highlights**
 
@@ -90,12 +86,8 @@
 
 • WebView - Access browser within Unity
 
-
-
 {% hint style="warning" %}
-tvOS platform doesn't support features like Address Book, App Shortcuts, Media Library, Web View, Date Picker and Sharing - As these are natively not supported or allowed by tvOS platform.&#x20;
-
-
+tvOS platform doesn't support features like Address Book, App Shortcuts, Media Library, Web View, Date Picker and Sharing - As these are natively not supported or allowed by tvOS platform.
 
 However, rest of the features are supported and unsupported features has null implementations ready.
 {% endhint %}
@@ -111,8 +103,6 @@ However, rest of the features are supported and unsupported features has null im
 * Create guilds or teams from real-world friends
 * Share referral codes through known contacts
 
-
-
 ⚡ Creating Dynamic App Shortcuts: Add or remove custom app icon shortcuts that deep link into specific app content.
 
 * Shortcut to “Daily Rewards” or time-limited challenges
@@ -120,8 +110,6 @@ However, rest of the features are supported and unsupported features has null im
 * Quick open for character customization or guild chat
 * One-tap entry into co-op events or clan war
 * Feature newly unlocked mode directly from home screen
-
-
 
 🔄 App Updater Integration: Detect if a newer version of the app is available and prompt players (optional or forced).
 
@@ -131,8 +119,6 @@ However, rest of the features are supported and unsupported features has null im
 * Support content version compatibility for multiplayer
 * Announce and enforce seasonal updates or new maps
 
-
-
 💰 In-App Purchases (Billing Services / IAP): Uses StoreKit 2 (iOS, tvOS) and Google Billing 7.x (Android). Supports consumables, non-consumables, subscriptions with multiple offers.
 
 * Selling skins, coins, or ad-free upgrades
@@ -141,16 +127,13 @@ However, rest of the features are supported and unsupported features has null im
 * Time-limited offers during events
 * One-time purchase for special characters
 
-
-
 ☁️ Cloud Save for Unity Mobile Games: Cross-device player data sync using iCloud (iOS, tvOS) and Google Play Saved Games (Android).
 
 * Sync progress across devices
 * Cloud backup for offline/online games
 * Allow iPhone users to switch to iPad
 * Resume levels across reinstalls
-* Support shared progress in family account scenarios\
-
+* Support shared progress in family account scenarios\\
 
 🔗 Deep Link Handling in Unity: Support Universal Links and App Links with payload delivery.
 
@@ -160,8 +143,6 @@ However, rest of the features are supported and unsupported features has null im
 * Referral codes encoded in deep links
 * Return players to last session with context
 
-
-
 🏆 Game Center & Google Play Game Services Integration: Full support for leaderboards, achievements, and player login.
 
 * Show global leaderboards with score filters
@@ -169,8 +150,6 @@ However, rest of the features are supported and unsupported features has null im
 * Weekly reset leaderboards for retention
 * Friends-only scores for casual competition
 * Reward unlocks tied to achievements
-
-
 
 🎥 Unity Media Picker & Capture Integration: Select or capture media (images, videos) for gameplay, avatars, or sharing.
 
@@ -180,16 +159,13 @@ However, rest of the features are supported and unsupported features has null im
 * Record short clips for social bragging
 * Use photos as level textures or objects
 
-
-
 🗓️ Native UI Dialogs and Pickers in Unity: Use platform-native alerts, confirmations, and pickers (date/time).
 
 * Choose time for battle match scheduling
 * Pick a farming cycle (plant/harvest dates)
 * Alert players for irreversible choices
 * Confirm restart of tough levels
-* Plan weekly events with calendar picker\
-
+* Plan weekly events with calendar picker\\
 
 🌐 Network Connectivity Monitor: Monitor real-time online status with event callbacks.
 
@@ -197,8 +173,7 @@ However, rest of the features are supported and unsupported features has null im
 * Save offline and sync when online returns
 * Delay IAP flow until stable connection
 * Notify users about server reconnection
-* Warn during multiplayer lobbies\
-
+* Warn during multiplayer lobbies\\
 
 🔔 Push & Local Notifications: Schedule notifications with calendar/time triggers, repeat, and reboot persistence.
 
@@ -206,8 +181,7 @@ However, rest of the features are supported and unsupported features has null im
 * Notify when energy refills
 * Remind of upcoming boss fight
 * Push promo offers near expiration
-* Alert for ranked match open window\
-
+* Alert for ranked match open window\\
 
 ⭐ App Rating Prompt: Native rating dialog, optional pre-check logic (e.g., after positive event).
 
@@ -215,15 +189,13 @@ However, rest of the features are supported and unsupported features has null im
 * After a streak of wins
 * After purchase or reward unlock
 * Periodic prompt after active sessions
-* Trigger based on happy in-game behavior\
-
+* Trigger based on happy in-game behavior\\
 
 📤 Social Sharing Support: Native OS share sheet with support for media, text, and urls.
 
 * Share win screen or high score
 * Post screenshots to Instagram or Twitter
-* Send in-game messages via WhatsApp\
-
+* Send in-game messages via WhatsApp\\
 
 🔄 Background Task Execution: Execute important background tasks even when the game is minimized or the device is locked. Supports time-limited operations to keep your game state up-to-date without requiring the app to be active.
 
@@ -238,8 +210,7 @@ However, rest of the features are supported and unsupported features has null im
 
 * Open app permissions for camera/mic
 * Take users to update/download page
-* Link to companion app or spin-off game\
-
+* Link to companion app or spin-off game\\
 
 🌍 Web View Integration: Load local or remote webpages inside your game with messaging and JS support.
 
@@ -247,8 +218,7 @@ However, rest of the features are supported and unsupported features has null im
 * Link to player profile on community hub
 * Host user-generated levels in HTML
 * Run surveys or feedback forms
-* Display marketplace listings or DLC\
-
+* Display marketplace listings or DLC\\
 
 **Note**
 
@@ -294,6 +264,3 @@ However, rest of the features are supported and unsupported features has null im
 ***
 
 ### [Upgrade Strategy & Pricing Overview](https://www.voxelbusters.com/essential-kit.html#upgrade-strategy)
-
-
-

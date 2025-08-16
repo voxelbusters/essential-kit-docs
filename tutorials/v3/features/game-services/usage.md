@@ -59,12 +59,6 @@ This returns true if feature is enabled in essential kit settings.
 
 ## Authenticate Player
 
-If service is available, we can move on to Authenticating user.
-
-```csharp
-GameServices.Authenticate();
-```
-
 {% hint style="info" %}
 <mark style="color:green;background-color:red;">\[Updated from V2?]</mark>&#x20;
 
@@ -73,12 +67,22 @@ GameServices.Authenticate();
 <mark style="color:red;background-color:red;">If you want to still use old id, please use IPlayer.LegacyIdentifier or IPlayer.DeveloperScopeIdentifier as per the version you are from.</mark>
 {% endhint %}
 
+If service is available, we can move on to Authenticating user.
+
+```csharp
+GameServices.Authenticate();
+```
+
+```csharp
+GameServices.Authenticate(interactive: false); // For silent sign-in
+```
+
 Authenticate method may open a dialog to let user enter the credentials for logging in.&#x20;
 
 > #### On iOS, it may open Game Center login dialog and on Android, it can open a dialog for Game Play Services login.
 
 {% hint style="success" %}
-On Android, we try first with the silent login and if it fails, it opens a login dialog. If silent login is successful, it won't show up any login dialog.
+For silent sign-in functionality, pass interactive as false to Authenticate method. If already user signed in, it returns else no interactive login dialog is shown. If you want to let user sign-in explicitly, give option for your user from settings to sign-in.
 {% endhint %}
 
 You can listen to the status of the login through the event **GameServices.OnAuthStatusChange** and on successful login, you get an instance of **ILocalPlayer** or an error on failure.
