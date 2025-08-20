@@ -18,7 +18,7 @@ var group___game_services =
       [ "ReportAchievementProgress", "d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services.html#ab1909e5b1f574235af3a053786b40492", null ],
       [ "LoadFriends", "d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services.html#ae9be309fe87dbe471eee825c41812631", null ],
       [ "AddFriend", "d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services.html#a729618d66f5e1ad8b6f96347bc82bae6", null ],
-      [ "Authenticate", "d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services.html#a022cd9cdef83d5ab5590fe66fa6b52a7", null ],
+      [ "Authenticate", "d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services.html#af07e8fb2787008eb17fa1d53b4c9e2cd", null ],
       [ "Signout", "d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services.html#ab1acac5d45d176bec3c9b87880dff579", null ],
       [ "ReportScore", "d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services.html#a4c9ccbc229ec160600b5139f9ccafb8f", null ],
       [ "ReportScore", "d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services.html#a48154d3511195aff3bae74395629e09e", null ],
@@ -27,6 +27,7 @@ var group___game_services =
       [ "ShowLeaderboard", "d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services.html#a0c0d821ed68a4ede0cb47b12551ad77c", null ],
       [ "ShowAchievements", "d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services.html#ad39ff6e8ded3ad3e5f50ee4ce83800da", null ],
       [ "LoadServerCredentials", "d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services.html#a1e8d6e3ff864d9746c5599f009ab5311", null ],
+      [ "LoadServerCredentials", "d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services.html#a6569d5d9a99554bcba79ee70f83143be", null ],
       [ "LoadPlayers", "d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services.html#a0e00c1da79668bb7d2dc2a36dd5a3b15", null ],
       [ "CreateScore", "d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services.html#a4891ec2f09f2fe223475511a0b4bb6dc", null ],
       [ "CreateScore", "d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services.html#a4e8b6349240d1c3f1c54d16e8c1fcd37", null ],
@@ -54,7 +55,8 @@ var group___game_services =
       [ "Players", "d7/d5d/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_player_friends_result.html#a2bc4b22cf9ec77cbefc0a0387c2012e1", null ]
     ] ],
     [ "GameServicesLoadServerCredentialsResult", "d0/dbf/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_server_credentials_result.html", [
-      [ "ServerCredentials", "d0/dbf/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_server_credentials_result.html#a16f20c6c9c174b55f41089574c8a3e35", null ]
+      [ "ServerCredentials", "d0/dbf/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_server_credentials_result.html#a16f20c6c9c174b55f41089574c8a3e35", null ],
+      [ "AdditionalGrantedScopes", "d0/dbf/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_server_credentials_result.html#a6cb0a5fe2898c2621400e9ff6445e8b4", null ]
     ] ],
     [ "GameServicesViewResult", "db/d8d/class_voxel_busters_1_1_essential_kit_1_1_game_services_view_result.html", null ],
     [ "IAchievement", "d0/d60/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement.html", [
@@ -114,6 +116,9 @@ var group___game_services =
       [ "Id", "db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player.html#a186291c875988107b7ace745ea84d4ec", null ],
       [ "DeveloperScopeId", "db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player.html#acb49756bb1e0cde63867c7c1fbecec5e", null ],
       [ "LegacyId", "db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player.html#aa0cbc31942d14d6c3e7ac461b42388a8", null ],
+      [ "Identifier", "db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player.html#a4df71ed6bf05109e86a43738e8f9898a", null ],
+      [ "DeveloperScopeIdentifier", "db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player.html#a79058db2ed94f4241d163657bcce788c", null ],
+      [ "LegacyIdentifier", "db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player.html#abde07ef8de541da9829605a7f3d25a2c", null ],
       [ "Alias", "db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player.html#ab2ebdabf1f5b5afb170cd94ea4d28d52", null ],
       [ "DisplayName", "db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player.html#aba0e038e9b973f3ba4ca520a2fb057dc", null ]
     ] ],
@@ -146,5 +151,6 @@ var group___game_services =
       [ "ShowAchievementCompletionBanner", "d7/dee/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings.html#a8240ee3d7411a619646c89fef41b0bb5", null ],
       [ "AllowFriendsAccess", "d7/dee/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings.html#a1903f555bafd518ce066c3c98313c2e6", null ],
       [ "AndroidProperties", "d7/dee/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings.html#a43ee530d504628390660ed6ec9f35a11", null ]
-    ] ]
+    ] ],
+    [ "VoxelBusters.EssentialKit.ServerCredentialAdditionalScope", "d7/d93/group___game_services.html#gacdfa6f09422eb91f2f542a21d6780705", null ]
 ];
