@@ -1,6 +1,33 @@
-# Installation FAQ
+---
+description: Steps to install the plugin
+---
+
+# Installation
+
+1. Open Package Manager from Unity Editor
+2. Under My Assets category, Search for "Essential Kit"
+3. Import the plugin into your project
+4. If you don't have Newtonsoft's Json package installed in your project, else jump to step 5.
+   1. Open manifest.json file in Packages folder
+   2.  Add below line in the dependencies block (any version ≥ 2.0.0 is fine)
+
+       ```json
+       "com.unity.nuget.newtonsoft-json": "2.0.0"
+       ```
+5. Do a force resolve from top menu bar -> Assets -> External Dependency Manager -> Android -> Settings
+6. Configure the features you want in [Essential Kit Settings](plugin-overview/settings.md#essential-kit-settings)
 
 
+
+{% hint style="warning" %}
+If you already have an earlier version of the plugin installed, check the [upgrade guide](upgrade-guide.md).
+{% endhint %}
+
+{% hint style="danger" %}
+If you have an error related to iOS/XCode assemblies from External Dependency Manager, make sure you have iOS module installed in Unity Editor.
+{% endhint %}
+
+## FAQs
 
 ### I see this error on installation - The type or namespace name 'Newtonsoft' could not be found (are you missing a using directive or an assembly reference?
 

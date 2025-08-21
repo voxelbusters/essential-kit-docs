@@ -2,20 +2,20 @@
 
 * [Introduction](README.md)
 * [Features Overview](features-overview.md)
+* [Installation](installation.md)
+* [Upgrade Guide](upgrade-guide.md)
+
+## Plugin Overview
+
+* [Settings](plugin-overview/settings.md)
+* [Folder Structure](plugin-overview/folder-structure.md)
+* [Localisation](plugin-overview/localisation.md)
 
 ## Whats new in v3
 
 * [Version 3 vs Version 2](whats-new-in-v3/version-3-vs-version-2.md)
 * [Release Notes](whats-new-in-v3/release-notes.md)
 * [Upgrade from V2](whats-new-in-v3/upgrade-from-v2.md)
-
-## Plugin Overview
-
-* [Settings](plugin-overview/settings.md)
-* [Folder Structure](plugin-overview/folder-structure.md)
-* [Installation FAQ](plugin-overview/installation-faq.md)
-* [Upgrade Guide](plugin-overview/upgrade-guide.md)
-* [Localisation](plugin-overview/localisation.md)
 
 ## Features
 

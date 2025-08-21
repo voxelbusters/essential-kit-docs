@@ -1,16 +1,5 @@
 ---
 description: Access user's address book
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # 📒 Address Book

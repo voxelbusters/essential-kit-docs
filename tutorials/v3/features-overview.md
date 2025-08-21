@@ -2,7 +2,7 @@
 description: List of available features in Essential Kit (V3)
 ---
 
-# Features
+# Features Overview
 
 ***
 
@@ -15,6 +15,12 @@ description: List of available features in Essential Kit (V3)
 * Read <mark style="color:purple;">contacts</mark> from user's address book
 * Apply <mark style="color:purple;">constraints</mark> to have certain attributes like email, phone number etc
 * Supports <mark style="color:purple;">pagination</mark>
+
+#### App Shortcuts
+
+* Add dynamic shortcuts to the app icon
+* Quick access to specific in-app content or actions
+* Supports multiple shortcuts with custom labels and icons
 
 #### App Updater
 
