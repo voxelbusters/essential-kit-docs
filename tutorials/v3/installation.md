@@ -7,7 +7,7 @@ description: Steps to install the plugin
 1. Open Package Manager from Unity Editor
 2. Under My Assets category, Search for "Essential Kit"
 3. Import the plugin into your project
-4. If you don't have Newtonsoft's Json package installed in your project, else jump to step 5.
+4. If you don't have Newtonsoft's Json package installed in your project then follow below additional steps. Else, jump to step 5.
    1. Open manifest.json file in Packages folder
    2.  Add below line in the dependencies block (any version ≥ 2.0.0 is fine)
 
