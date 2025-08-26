@@ -1,10 +1,10 @@
 # Contacts Permissions
 
-## What is Contacts Permission Management?
+## Understanding Contacts Permissions in Unity Mobile Games
 
-Contacts permission management is the process of checking and handling user authorization to access device contact data. Why use it in a Unity mobile game? Both iOS and Android require explicit user permission before apps can read contact information, and managing these permissions properly ensures a smooth user experience while maintaining privacy compliance.
+Contacts permission management is essential for accessing device contact data in your Unity mobile games. Both iOS and Android require explicit user permission before apps can read contact information. Proper permission handling ensures smooth user experience while maintaining privacy compliance.
 
-## Permission Status API
+## Checking Permission Status
 
 Essential Kit provides the `GetContactsAccessStatus()` method to check current permission state:
 
@@ -18,7 +18,7 @@ void CheckContactsPermission()
 }
 ```
 
-This snippet checks the current permission status and logs it to the console. The status helps determine if you can directly access contacts or need to request permission first.
+This code checks the current permission status and logs it to the console. The status helps determine if you can directly access contacts or need to request permission first.
 
 ## Permission Status Values
 
@@ -33,30 +33,77 @@ void HandlePermissionStatus()
     {
         case AddressBookContactsAccessStatus.NotDetermined:
             Debug.Log("User hasn't been asked yet");
+            // First time - request permission
+            RequestContactsPermission();
             break;
         case AddressBookContactsAccessStatus.Authorized:
             Debug.Log("Full access granted");
+            // Proceed with contact reading
+            ReadContacts();
             break;
         case AddressBookContactsAccessStatus.Limited:
             Debug.Log("Limited access granted");
+            // Proceed with limited contact access
+            ReadContacts();
             break;
         case AddressBookContactsAccessStatus.Denied:
             Debug.Log("User denied access");
+            // Show alternative UI or guidance
+            ShowPermissionDeniedDialog();
             break;
         case AddressBookContactsAccessStatus.Restricted:
             Debug.Log("Access restricted by system");
+            // Handle system restrictions
+            ShowRestrictedAccessDialog();
             break;
     }
 }
 ```
 
-This snippet demonstrates how to handle different permission states. Each status indicates whether you can proceed with contact operations or need to guide the user accordingly.
+## Requesting Contacts Permission
 
-📌 **Video Note**: Show Unity demo clip of permission status checking in action, displaying different status values.
+When permission is not determined, use the `RequestContactsAccess()` method:
 
-## Key Points
+```csharp
+void RequestContactsPermission()
+{
+    AddressBook.RequestContactsAccess((result, error) =>
+    {
+        if (error == null)
+        {
+            Debug.Log($"Permission request result: {result.AccessStatus}");
+            if (result.AccessStatus == AddressBookContactsAccessStatus.Authorized)
+            {
+                ReadContacts(); // Proceed with contact reading
+            }
+        }
+        else
+        {
+            Debug.LogError("Permission request failed: " + error);
+        }
+    });
+}
+```
 
-- Always check permission status before attempting to read contacts
-- `NotDetermined` means the user hasn't been prompted yet - calling `ReadContacts()` will automatically request permission
-- `Denied` and `Restricted` states require directing users to device settings to change permissions
-- Permission handling is automatically managed by Essential Kit across iOS and Android platforms
+## Best Practices for Unity Mobile Game Development
+
+### 1. Check Before Request
+Always check current status before requesting permission to avoid unnecessary prompts.
+
+### 2. Provide Context
+Explain to players why your game needs contact access before requesting permission.
+
+### 3. Handle All States
+Implement proper handling for all permission states to maintain good user experience.
+
+### 4. Graceful Degradation
+Design your game to work without contact access if permission is denied.
+
+## Common Unity Mobile Game Use Cases
+
+- **Friend Finding**: Check if contacts are already playing your game
+- **Social Features**: Enable contact-based multiplayer invitations  
+- **Leaderboards**: Create social leaderboards with friends
+- **Referral Systems**: Implement contact-based referral programs
+
+![Contacts Permission Flow](../../.gitbook/assets/AddressBookPermissions.png)
