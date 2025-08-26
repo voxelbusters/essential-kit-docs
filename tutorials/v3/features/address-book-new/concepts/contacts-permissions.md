@@ -1,7 +1,3 @@
----
-description: Managing contacts permissions in Unity mobile games
----
-
 # Contacts Permissions
 
 ## What is Contacts Permission Management?
@@ -55,6 +51,8 @@ void HandlePermissionStatus()
 ```
 
 This snippet demonstrates how to handle different permission states. Each status indicates whether you can proceed with contact operations or need to guide the user accordingly.
+
+📌 **Video Note**: Show Unity demo clip of permission status checking in action, displaying different status values.
 
 ## Key Points
 

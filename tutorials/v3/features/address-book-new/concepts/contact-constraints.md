@@ -1,7 +1,3 @@
----
-description: Filtering contacts with constraints in Unity mobile games
----
-
 # Contact Constraints
 
 ## What are Contact Constraints?
@@ -64,10 +60,4 @@ void ReadContactsWithNameAndPhone()
 
 This snippet retrieves contacts that have both names and phone numbers. Multiple constraints ensure higher data quality for Unity iOS and Android game features requiring complete contact information.
 
-## Key Points
-
-- Use constraints to filter contacts by available data fields
-- `MustIncludeName` ensures contacts have first or last name
-- `MustIncludeEmail` filters for contacts with email addresses  
-- `MustIncludePhoneNumber` requires contacts to have phone numbers
-- Combine constraints with bitwise OR (|) for multiple requirements
+📌 **Video Note**: Show Unity demo clip of constraint filtering in action, comparing results with and without constraints applied.

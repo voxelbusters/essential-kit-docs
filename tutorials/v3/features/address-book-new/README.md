@@ -2,11 +2,11 @@
 description: Access user's address book for social features in Unity mobile games
 ---
 
-# 📒 Address Book
+# 📒 Address Book Tutorial
 
 *This tutorial is part of the Essential Kit tutorial series from Voxel Busters.*
 
-Address Book provides cross-platform access to device contact information, enabling social features in Unity mobile games.
+Welcome to the Address Book feature tutorial! This comprehensive guide will teach you how to integrate contact access functionality into your Unity mobile games using Essential Kit's cross-platform Address Book API.
 
 {% embed url="https://www.youtube.com/watch?v=Tv85rRIYY_4" %}
 Address Book Video Tutorial
@@ -14,40 +14,46 @@ Address Book Video Tutorial
 
 ## What You'll Learn
 
-In this tutorial series, you'll master:
+- How to check and request contacts access permissions on iOS and Android
+- Reading contacts from the device address book with filtering options
+- Working with contact properties like names, phone numbers, emails, and profile images
+- Implementing pagination for large contact lists
+- Advanced scenarios including custom initialization and error handling
 
-- Managing contacts permissions on iOS and Android
-- Reading device contacts with filtering and pagination
-- Working with contact properties (names, emails, phone numbers, images)
-- Implementing social features using contact data
-- Advanced usage patterns and error handling
+## Why Address Books Matter for Unity Mobile Game Developers
 
-## Why Address Book Matters for Unity Mobile Game Developers
-
-Address Book functionality enables Unity mobile games to access device contacts, opening possibilities for social gameplay features. Essential Kit provides a unified API that works seamlessly across Unity iOS and Unity Android builds, eliminating platform-specific contact access code.
-
-Common use cases include finding friends already playing your game, creating social leaderboards, implementing referral systems, and building multiplayer invitation features.
+The Address Book feature enables Unity mobile games to access device contacts, opening possibilities for social gameplay features, friend invitations, and enhanced user engagement. Common use cases include finding friends already playing your game, creating social leaderboards based on contacts, and implementing referral systems.
 
 ## Prerequisites
 
 - Unity 2021.3 or newer
-- Essential Kit installed and configured in your project  
-- Basic understanding of Unity mobile game development
+- Essential Kit installed and configured in your project
+- Target platforms: iOS and/or Android
 
-## Platform Setup - The Essential Kit Advantage
+## Platform Setup
 
-**Essential Kit handles most native setup automatically!** This includes:
-- iOS Contacts framework integration and privacy permissions
-- Android contacts provider permissions and manifest entries
-- Cross-platform permission handling and error management
+Essential Kit handles most native setup automatically, including:
+- **iOS**: Automatically configures required frameworks and privacy permissions
+- **Android**: Manages required permissions in AndroidManifest.xml
+- **Cross-platform**: Provides unified API across both platforms
 
-You only need to configure:
-- Usage descriptions in Essential Kit Settings for privacy compliance
-- App store compliance for contact access features
+You only need to:
+- Provide appropriate usage descriptions in Essential Kit Settings for privacy compliance
+- Ensure your app store listings mention contact access features for approval
 
-## Learning Path
+📌 **Video Note**: Show Essential Kit Settings in Unity Editor, highlighting Address Book configuration options.
 
-This tutorial follows a progressive structure:
+## Tutorial Structure
+
+This tutorial covers five core concepts in logical progression:
+
+1. **Contacts Permissions** - Managing user authorization for contact access
+2. **Reading Contacts** - Basic contact retrieval functionality  
+3. **Contact Constraints** - Filtering contacts based on available data
+4. **Contact Properties** - Working with names, emails, phone numbers, and images
+5. **Advanced Usage** - Pagination, custom initialization, and error handling
+
+## Getting Started
 
 {% content-ref url="concepts/" %}
 [concepts](concepts/)
@@ -55,6 +61,10 @@ This tutorial follows a progressive structure:
 
 {% content-ref url="setup.md" %}
 [setup.md](setup.md)
+{% endcontent-ref %}
+
+{% content-ref url="usage.md" %}
+[usage.md](usage.md)
 {% endcontent-ref %}
 
 {% content-ref url="testing.md" %}

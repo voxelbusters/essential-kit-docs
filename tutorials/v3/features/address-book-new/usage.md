@@ -1,59 +1,215 @@
 ---
-description: Learn Address Book concepts progressively through structured tutorials
+description: Complete Address Book usage guide for Unity mobile games
 ---
 
 # Address Book Usage Guide
 
-{% hint style="info" %}
-**New Structure!** Address Book documentation has been reorganized into progressive, beginner-friendly concepts. Each topic is now covered in focused, easy-to-follow sections.
-{% endhint %}
+## Getting Started
 
-## Learning Path
+Before using Address Book features, ensure you've completed the setup:
 
-The Address Book functionality is now organized into clear concepts that build upon each other:
+1. **Enable Feature**: Address Book is enabled in Essential Kit Settings
+2. **Configure Permissions**: Usage descriptions are set for privacy compliance
+3. **Import Namespace**: Include `using VoxelBusters.EssentialKit;`
 
-{% content-ref url="concepts/" %}
-[concepts](concepts/)
-{% endcontent-ref %}
+## Basic Usage Pattern
 
-## Quick Reference
+Here's the typical workflow for using Address Book in your Unity mobile game:
 
-For experienced developers, here's a quick overview of the main APIs:
+### 1. Check Permission Status
 
-### Basic Setup
 ```csharp
 using VoxelBusters.EssentialKit;
-using VoxelBusters.CoreLibrary;
-```
 
-### Check Permissions
-```csharp
-var status = AddressBook.GetContactsAccessStatus();
-```
-
-### Read Contacts
-```csharp
-var options = new ReadContactsOptions.Builder()
-    .WithLimit(10)
-    .WithConstraints(ReadContactsConstraint.MustIncludeName)
-    .Build();
+void CheckContactsAccess()
+{
+    var status = AddressBook.GetContactsAccessStatus();
+    Debug.Log($"Contacts access status: {status}");
     
-AddressBook.ReadContacts(options, OnContactsRead);
+    if (status == AddressBookContactsAccessStatus.Authorized)
+    {
+        // Permission granted - can read contacts
+        ReadContacts();
+    }
+    else if (status == AddressBookContactsAccessStatus.NotDetermined)
+    {
+        // Permission not asked yet - ReadContacts() will request it
+        ReadContacts();
+    }
+    else
+    {
+        // Permission denied or restricted
+        Debug.Log("Contacts access not available");
+    }
+}
 ```
 
-## Detailed Learning
+### 2. Read Contacts with Options
 
-For step-by-step guidance, follow the progressive concept structure:
+```csharp
+void ReadContacts()
+{
+    var options = new ReadContactsOptions.Builder()
+        .WithLimit(20)  // Load 20 contacts at a time
+        .WithConstraints(ReadContactsConstraint.MustIncludeName)  // Only contacts with names
+        .Build();
+        
+    AddressBook.ReadContacts(options, OnContactsLoaded);
+}
 
-1. **[Contacts Permissions](concepts/contacts-permissions.md)** - Managing user authorization
-2. **[Reading Contacts](concepts/reading-contacts.md)** - Basic contact retrieval
-3. **[Contact Constraints](concepts/contact-constraints.md)** - Filtering contacts by data fields
-4. **[Contact Properties](concepts/contact-properties.md)** - Working with names, emails, phones, images
-5. **[Advanced Usage](concepts/advanced-usage.md)** - Pagination, error handling, optimization
-
-Each concept includes:
-- Clear explanations written for Unity mobile game developers
-- Short, focused code examples (5-10 lines)
-- Game-specific use cases and context
-- Progressive difficulty from beginner to advanced
+void OnContactsLoaded(AddressBookReadContactsResult result, Error error)
+{
+    if (error == null)
+    {
+        Debug.Log($"Loaded {result.Contacts.Length} contacts");
+        ProcessContacts(result.Contacts);
+    }
+    else
+    {
+        Debug.LogError($"Failed to read contacts: {error}");
+    }
+}
 ```
+
+### 3. Work with Contact Data
+
+```csharp
+void ProcessContacts(IAddressBookContact[] contacts)
+{
+    foreach (var contact in contacts)
+    {
+        // Display basic info
+        string displayName = $"{contact.FirstName} {contact.LastName}";
+        Debug.Log($"Contact: {displayName}");
+        
+        // Access communication details
+        if (contact.EmailAddresses?.Length > 0)
+        {
+            Debug.Log($"Email: {contact.EmailAddresses[0]}");
+        }
+        
+        if (contact.PhoneNumbers?.Length > 0)
+        {
+            Debug.Log($"Phone: {contact.PhoneNumbers[0]}");
+        }
+        
+        // Load profile image (async)
+        LoadContactImage(contact);
+    }
+}
+
+void LoadContactImage(IAddressBookContact contact)
+{
+    contact.LoadImage((textureData, error) =>
+    {
+        if (error == null && textureData != null)
+        {
+            // Use textureData.Texture in your UI
+            Debug.Log($"Image loaded for {contact.FirstName}");
+        }
+    });
+}
+```
+
+## Advanced Scenarios
+
+### Pagination for Large Contact Lists
+
+```csharp
+private int currentOffset = 0;
+
+void LoadNextPage()
+{
+    var options = new ReadContactsOptions.Builder()
+        .WithLimit(10)
+        .WithOffset(currentOffset)
+        .Build();
+        
+    AddressBook.ReadContacts(options, OnPageLoaded);
+}
+
+void OnPageLoaded(AddressBookReadContactsResult result, Error error)
+{
+    if (error == null)
+    {
+        currentOffset = result.NextOffset;
+        // Process this page of contacts
+    }
+}
+```
+
+### Filter Contacts by Available Data
+
+```csharp
+void ReadContactsWithEmailsAndPhones()
+{
+    var constraints = ReadContactsConstraint.MustIncludeEmail | 
+                     ReadContactsConstraint.MustIncludePhoneNumber;
+                     
+    var options = new ReadContactsOptions.Builder()
+        .WithConstraints(constraints)
+        .Build();
+        
+    AddressBook.ReadContacts(options, OnFilteredContactsLoaded);
+}
+```
+
+## Complete Example
+
+Here's a complete example for a friend invitation feature:
+
+```csharp
+using VoxelBusters.EssentialKit;
+using UnityEngine;
+
+public class FriendInvitation : MonoBehaviour
+{
+    void Start()
+    {
+        LoadContactsForInvitation();
+    }
+    
+    void LoadContactsForInvitation()
+    {
+        // Only get contacts with names and emails for invitations
+        var options = new ReadContactsOptions.Builder()
+            .WithLimit(50)
+            .WithConstraints(ReadContactsConstraint.MustIncludeName | ReadContactsConstraint.MustIncludeEmail)
+            .Build();
+            
+        AddressBook.ReadContacts(options, OnInvitationContactsLoaded);
+    }
+    
+    void OnInvitationContactsLoaded(AddressBookReadContactsResult result, Error error)
+    {
+        if (error == null)
+        {
+            Debug.Log($"Found {result.Contacts.Length} contacts for invitations");
+            
+            foreach (var contact in result.Contacts)
+            {
+                CreateInvitationOption(contact);
+            }
+        }
+        else
+        {
+            var errorCode = (AddressBookErrorCode)error.Code;
+            if (errorCode == AddressBookErrorCode.PermissionDenied)
+            {
+                Debug.Log("Permission denied - show manual invitation option");
+            }
+        }
+    }
+    
+    void CreateInvitationOption(IAddressBookContact contact)
+    {
+        string displayName = $"{contact.FirstName} {contact.LastName}";
+        string email = contact.EmailAddresses[0];
+        
+        // Create UI button for this contact invitation
+        Debug.Log($"Invitation option: {displayName} ({email})");
+    }
+}
+```
+
+For detailed explanations of each concept, see the [Concepts](concepts/) section which provides step-by-step tutorials for all Address Book features.

@@ -1,7 +1,3 @@
----
-description: Working with contact properties in Unity mobile games
----
-
 # Contact Properties
 
 ## What are Contact Properties?
@@ -13,8 +9,6 @@ Contact properties are the individual data fields available for each contact, su
 Access fundamental contact data through the `IAddressBookContact` interface:
 
 ```csharp
-using VoxelBusters.EssentialKit;
-
 void DisplayContactInfo(IAddressBookContact contact)
 {
     Debug.Log($"First Name: {contact.FirstName}");
@@ -58,7 +52,7 @@ void LoadContactImage(IAddressBookContact contact)
         if (error == null && textureData != null)
         {
             Debug.Log("Contact image loaded successfully");
-            // Use textureData.Texture for UI display in Unity
+            // Use textureData.Texture for UI display
         }
         else
         {
@@ -70,32 +64,4 @@ void LoadContactImage(IAddressBookContact contact)
 
 This snippet demonstrates asynchronous image loading for contact profile pictures. The loaded texture can be used in Unity UI elements to create personalized game interfaces.
 
-## Complete Contact Display
-
-Combine all properties for comprehensive contact display:
-
-```csharp
-void ShowCompleteContactInfo(IAddressBookContact contact)
-{
-    Debug.Log($"Contact: {contact.FirstName} {contact.LastName}");
-    
-    if (!string.IsNullOrEmpty(contact.CompanyName))
-        Debug.Log($"Company: {contact.CompanyName}");
-        
-    if (contact.EmailAddresses?.Length > 0)
-        Debug.Log($"Email: {contact.EmailAddresses[0]}");
-        
-    if (contact.PhoneNumbers?.Length > 0)
-        Debug.Log($"Phone: {contact.PhoneNumbers[0]}");
-}
-```
-
-This snippet shows how to create a comprehensive contact display by checking for available properties and displaying them appropriately.
-
-## Key Points
-
-- Always check for null/empty values before using contact properties
-- Contacts may have multiple emails and phone numbers - access via arrays
-- Profile image loading is asynchronous and may fail if no image exists
-- Use contact properties to create rich social features in Unity mobile games
-- All properties work consistently across Unity iOS and Unity Android builds
+📌 **Video Note**: Show Unity demo of contact properties in action, displaying names, emails, phones, and profile images in the game interface.

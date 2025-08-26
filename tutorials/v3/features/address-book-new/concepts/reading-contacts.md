@@ -1,7 +1,3 @@
----
-description: Reading device contacts in Unity mobile games
----
-
 # Reading Contacts
 
 ## What is Contact Reading?
@@ -34,8 +30,6 @@ void OnContactsRead(AddressBookReadContactsResult result, Error error)
     if (error == null)
     {
         Debug.Log($"Retrieved {result.Contacts.Length} contacts");
-        Debug.Log($"Next offset: {result.NextOffset}");
-        
         foreach (var contact in result.Contacts)
         {
             Debug.Log($"Contact: {contact.FirstName} {contact.LastName}");
@@ -59,7 +53,6 @@ void ReadLimitedContacts()
 {
     var options = new ReadContactsOptions.Builder()
         .WithLimit(10)
-        .WithOffset(0)
         .Build();
     AddressBook.ReadContacts(options, OnContactsRead);
 }
@@ -67,9 +60,4 @@ void ReadLimitedContacts()
 
 This snippet requests only the first 10 contacts from the address book. This approach is useful for performance optimization and pagination scenarios in Unity mobile games.
 
-## Key Points
-
-- `ReadContacts()` automatically handles permission requests on first call
-- Use `WithLimit()` and `WithOffset()` for pagination in large contact lists
-- Always handle both success and error cases in your callback
-- The `NextOffset` property helps implement pagination for additional contacts
+📌 **Video Note**: Show Unity demo clip of contact reading in action, displaying the contact list output in the console.
