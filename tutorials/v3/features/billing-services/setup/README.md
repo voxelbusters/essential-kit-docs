@@ -1,54 +1,172 @@
 ---
-description: Configuring Billing Services Feature
+description: "Configuring Billing Services"
 ---
 
 # Setup
 
-Before using any of the billing products, we need to configure them in the [Essential Kit Settings](../../../plugin-overview/settings.md) under billing services.
+## Prerequisites
+- Essential Kit imported into the project from My Assets section of Package Manager
+- **iOS**: App Store Connect account with Tax and Banking Information completed
+- **Android**: Google Play Console account with signed APK/AAB uploaded for testing
+- Product IDs created in both platform stores (use matching IDs for cross-platform consistency)
 
-## Enable Feature
+## Platform Store Setup
 
-Open [Essential Kit Settings](../../../plugin-overview/settings.md) and enable Billing Services feature in the inspector.
+Before configuring Essential Kit, you must create products in your platform stores. Detailed platform-specific instructions:
+
+{% content-ref url="ios.md" %}
+[iOS Setup](ios.md)
+{% endcontent-ref %}
+
+{% content-ref url="android.md" %}
+[Android Setup](android.md)
+{% endcontent-ref %}
+
+### Quick Overview
+
+**iOS App Store Connect:**
+1. Complete Tax and Banking Information
+2. Create products in **Features > In-App Purchases**
+3. Use unique identifiers like `com.yourgame.coins_100`
+4. Set localized pricing tiers
+
+**Google Play Console:**
+1. Upload signed APK/AAB (required for testing)
+2. Create products in **Monetization > In-app products**
+3. Use matching IDs from iOS for consistency
+4. Configure local currency pricing
+
+{% hint style="warning" %}
+Product IDs must match exactly between iOS, Android, and Essential Kit Settings. Use reverse domain notation (e.g., `com.yourgame.product_name`) for uniqueness.
+{% endhint %}
+
+## Essential Kit Configuration
+
+### Enable Feature
+
+Open **Essential Kit Settings** (`Window > Voxel Busters > Essential Kit > Open Settings`), switch to the **Services** tab, and enable **Billing Services**.
 
 <figure><img src="../../../.gitbook/assets/billing-services-settings.gif" alt=""><figcaption><p>Billing Services Settings</p></figcaption></figure>
 
-### Properties
+### Configuration Properties
 
-| Name                            | Description                                                                                                                        |
-| ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Products                        | <p>Collection of In-App purchase Billing products <br>(Billing Products - See below)</p>                                           |
-| Auto Finish Transactions        | Automatically close the transaction once the purchase is done. Disabling this requires you to manually call **FinishTransactions** |
-| Android Properties (Public Key) | Enter the public key from google play console ([reference](android.md))                                                            |
+| Setting | Platform | Required? | Notes |
+| --- | --- | --- | --- |
+| Enable Billing Services | All | Yes | Toggles the feature in builds; disabling strips related native code |
+| Products | All | Yes | Array of product definitions with platform-specific IDs |
+| Auto Finish Transactions | All | Optional | Default: true. Set to false only for server-side receipt verification (advanced) |
+| Android Public Key | Android | Yes | Base64-encoded public key from Google Play Console |
 
-## Billing Products
+### Adding Billing Products
 
-Billing product is a container to hold your in-app purchase identifiers for different platforms. Each billing product has a unique **Id** to identify them. Id helps in referring an in-app purchase from your code irrespective of the platform you are on and this can be any string of your choice.
+Click **Add Product** to create a new billing product entry:
 
-Platform Id on the other hand, is the actual platform specific identifier and usually varies per platform. Specify the value in platform overrides, if you don't have a common identifier value across platforms.&#x20;
+#### Billing Product Properties
 
-{% hint style="info" %}
-You can get **platform id** value from [iTunes Connect](ios.md#create-an-in-app-purchase) and [Google Play console](android.md#create-in-app-products) on  iOS and Android respectively.&#x20;
+| Property | Description | Example |
+| --- | --- | --- |
+| Id | Unique identifier used in code | `coins_100` |
+| Platform Id | Common platform ID (if same across platforms) | `com.yourgame.coins_100` |
+| Platform Id Overrides | Platform-specific IDs (iOS/Android) | iOS: `com.yourgame.coins_100`<br>Android: `coins_100` |
+| Product Type | Consumable / NonConsumable / Subscription | Consumable |
+| Title | Display title (fallback if store fetch fails) | 100 Gold Coins |
+| Description | Display description (fallback if store fetch fails) | Get 100 gold coins |
+| Payouts | Metadata for currency grants (advanced) | See Multi-Currency section below |
+
+#### Product Types
+
+| Type | Description | Examples |
+| --- | --- | --- |
+| Consumable | Can be purchased multiple times | Coins, lives, power-ups |
+| NonConsumable | One-time permanent purchase | Ad removal, premium features |
+| Subscription | Time-bound recurring billing | VIP membership, battle pass |
+
+#### Example Configuration
+
+```
+Product 1:
+  Id: coins_100
+  Type: Consumable
+  iOS ID: com.yourgame.coins_100
+  Android ID: com.yourgame.coins_100
+
+Product 2:
+  Id: remove_ads
+  Type: NonConsumable
+  iOS ID: com.yourgame.remove_ads
+  Android ID: com.yourgame.remove_ads
+
+Product 3:
+  Id: vip_monthly
+  Type: Subscription
+  iOS ID: com.yourgame.vip_monthly
+  Android ID: com.yourgame.vip_monthly
+```
+
+### Auto Finish Transactions
+
+**Default: Enabled** - Essential Kit automatically completes transactions after the `OnTransactionStateChange` event fires.
+
+**When to disable:**
+- You need server-side receipt verification (recommended for Android apps with significant user base)
+- You want manual control over when transactions are marked complete
+- You're implementing custom verification flows
+
+If disabled, you must call `BillingServices.FinishTransactions()` after granting purchased content to the user.
+
+{% hint style="success" %}
+For most games, keep Auto Finish Transactions enabled. iOS uses StoreKit2 with built-in local verification. Only disable for advanced server verification scenarios.
 {% endhint %}
 
-### Types
+### Multi-Currency Systems (Advanced)
 
-You can have your purchasable items Consumable, Non-Consumable and Subscriptions.
+Use payouts to grant multiple virtual currencies from a single purchase:
 
-| Product Type   | Description                                                                                                    |
-| -------------- | -------------------------------------------------------------------------------------------------------------- |
-| Consumable     | <p>In-App products which can be purchased multiple times</p><p>ex: Virtual coins pack, Bullets pack etc...</p> |
-| Non-Consumable | <p>In-App products which can be purchased only once</p><p>ex: Ad-Free offering, Level packs etc...</p>         |
-| Subscription   | <p>In-App products which are time bound.<br>ex: Ad-Free for a week or month, Battle pass etc</p>               |
+```
+Product: mega_pack
+Payouts:
+  - Type: coins, Quantity: 500
+  - Type: gems, Quantity: 100
+  - Type: tickets, Quantity: 25
+```
 
-### Properties
+In your code, process payouts when granting content:
 
-| Billing Product Property Name | Description                                                                                                                                                  |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Id                            | Identifier given to refer the billing product from code                                                                                                      |
-| Platform Id                   | Common native platform id, if any                                                                                                                            |
-| Platform Id Overrides         | If you have specific billing product id's on each platform, set them here.                                                                                   |
-| Product Type                  | <p>Consumable : In-App products which can be purchased multiple times</p><p></p><p>Non-Consumable : In-App products which can be purchased only one time</p> |
-| Title                         | Title for this In-App billing product (will be useful for displaying available billing products)                                                             |
-| Description                   | Description for this In-App billing product (will be useful for displaying available billing products)                                                       |
-| Payouts                       | Meta data that can be used to store what are offered for a purchase. Ex: 30 primary currency coins on purchase of a product                                  |
+```csharp
+var product = BillingServices.GetProductWithId("mega_pack");
+foreach (var payout in product.PayoutDefinitions)
+{
+    switch (payout.Type)
+    {
+        case "coins": PlayerData.AddCoins(payout.Quantity); break;
+        case "gems": PlayerData.AddGems(payout.Quantity); break;
+        case "tickets": PlayerData.AddTickets(payout.Quantity); break;
+    }
+}
+```
 
+### Android Public Key
+
+For Android builds, you must add your app's Base64-encoded public key:
+
+1. Open Google Play Console
+2. Navigate to **Monetization Setup > Licensing**
+3. Copy the **Base64-encoded RSA public key**
+4. Paste into **Android Properties > Public Key** in Essential Kit Settings
+
+{% hint style="info" %}
+Changes to the settings asset are saved automatically. If you use source control, commit the updated `Resources/EssentialKitSettings.asset` file.
+{% endhint %}
+
+## Verification
+
+Before proceeding to usage:
+
+1. Verify all product IDs match exactly between platform stores and Essential Kit Settings
+2. Confirm product types (Consumable/NonConsumable/Subscription) are correct
+3. Test the demo scene (`BillingServicesDemo.unity`) to confirm basic configuration works
+4. Check that products are approved and active in App Store Connect and Google Play Console
+
+{% hint style="info" %}
+Need a working baseline? Run the sample at `Assets/Plugins/VoxelBusters/EssentialKit/Examples/Scenes/BillingServicesDemo.unity` to confirm your settings before wiring the feature into production screens.
+{% endhint %}

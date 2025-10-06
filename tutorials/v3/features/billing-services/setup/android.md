@@ -22,7 +22,7 @@ Once after  uploading the app and publish in any of the tracks, you will get an 
 
 ## Public Key
 
-> ### Public key needs to be set in the [Essential Kit Settings](./#properties) and can be obtained from Monetisation Setup of Monetise section.
+> ### Public key needs to be set in the [Essential Kit Settings](../README.md#configuration-properties) and can be obtained from Monetisation Setup of Monetise section.
 
 ###
 
@@ -31,4 +31,3 @@ Once after  uploading the app and publish in any of the tracks, you will get an 
 {% hint style="info" %}
 Public key is used internally by the plugin to validate a purchased receipt on Android
 {% endhint %}
-

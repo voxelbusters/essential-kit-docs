@@ -1,228 +1,494 @@
 ---
-description: Cloud services allows to save player data on both iOS and Android seamlessly
+description: "Cloud Services allows cross-device game data synchronization on iOS and Android."
 ---
 
 # Usage
 
-Once you are done with [Setup](setup/#enable-feature) on both [iOS](setup/ios.md) and [Android](setup/android.md#enable-saved-games-on-play-console), you can start implementing cloud services in your application. Cloud services allows you to store your game data on cloud so that your users can access their progress from anywhere.
+Essential Kit wraps native iOS (iCloud Key-Value Store) and Android (Google Play Saved Games) APIs into a single Unity interface. Cloud Services automatically initializes with your Essential Kit settings and is ready to use.
 
-### How the data sync works
+## Table of Contents
 
-There are two kinds of data copies based on where they are available.
+- [Understanding Cloud Services](#understanding-cloud-services)
+- [Import Namespaces](#import-namespaces)
+- [Event Registration](#event-registration)
+- [Local-Only Storage (No Cloud Sync)](#local-only-storage-no-cloud-sync)
+- [Cloud Synchronization](#cloud-synchronization)
+- [Storing and Retrieving Data](#storing-and-retrieving-data)
+- [Handling Data Conflicts](#handling-data-conflicts)
+- [Core APIs Reference](#core-apis-reference)
+- [Error Handling](#error-handling)
+- [Advanced: Runtime Settings Override](#advanced-runtime-settings-override)
+- [Related Guides](#related-guides)
 
-* [Cloud Copy](faq.md#what-is-cloud-copy)
-* [Local Copy](faq.md#what-is-local-copy)
+## Understanding Cloud Services
 
-**Cloud Copy** always stays remotely on cloud servers. Where as **Local Copy** is "nearly the latest" copy downloaded on the user's device.
+Cloud Services keeps game data in two places:
 
-When you try to sync data with cloud, as soon as user's device connects to the cloud servers (When you call **Synchronize** for the first time), plugin communicates with the cloud servers and fetches the latest copy available on server and this is our **Local Copy**.
+- **Cloud copy** – Lives in iCloud (iOS) or Google Play Saved Games (Android) and is shared across devices.
+- **Device copy** – Stored locally as a JSON cache; all `CloudServices` getters and setters read and write this copy instantly.
 
-If there is no **Local Copy** available on device, plugin replaces the **Local Copy** with the latest **Cloud Copy** just downloaded and fires **CloudServices.OnSavedDataChange** event with **InitialSyncChange** as the reason along with the changed keys(available in cloud copy). &#x20;
+Synchronization keeps both copies in step. When you call `Synchronize()` the plugin uploads device changes, downloads cloud updates, and raises change events if the platform copy was newer.
 
-> ## Irrespective of data differences between "Cloud Copy" and "Local Copy", always plugin "overwrites" your device's "Local Copy" with the latest downloaded "Cloud Copy" on Synchronize.
+```
+Your Scripts ── Get*/Set* ──▶ Device Copy (local cache file)
+      │                              │
+      └── Synchronize() ◀────────────┤
+                                      ▼
+                          Cloud Copy (iCloud / Play)
+                                      │
+                   OnSavedDataChange ─┘ via CloudServicesUtility
+```
 
-**Once after overwriting**, it fires the event with the changed keys with the related reason.&#x20;
+**Key characteristics:**
+- All `Get*/Set*` calls update the device copy immediately
+- `Synchronize()` is the only way to push or pull the cloud copy
+- If the cloud copy is newer, it overwrites the device copy and fires `OnSavedDataChange`
 
 {% hint style="success" %}
-As plugin overrides the local copy with cloud copy when there is a difference in the data, you may loss the data which you already set. For this reason we maintain local cache data for facilitating conflict resolution.
+**Two modes of operation:**
+- **Local-only storage**: Never call `Synchronize()` - works like enhanced PlayerPrefs
+- **Cloud sync**: Call `Synchronize()` to keep data in sync across devices
 {% endhint %}
 
-Once you get **OnSavedDataChange** with the list of **changed keys,** you need to update the data of the Local Copy with the setter functions if you have any updated data in your cache.&#x20;
-
-As soon as you get **CloudServices.OnSavedDataChange** event, compare the cloud values and local cache values with **CloudServicesUtility.TryGetCloudAndLocalCacheValues,** pick the right value and set it back for the key via CloudServices setters.
-
-Once you update the correct data with setters in the **OnSavedDataChange** callback, this data will be pushed to the cloud servers in the next Synchronize call.
-
-You can call **Synchronize** any time to initiate a sync between Cloud and Local copies.&#x20;
-
-{% hint style="success" %}
-If there are no changes between Cloud Copy and Local Copy, no event will be fired and it means your data is in sync with the cloud servers!
-{% endhint %}
-
-
-
-|                                        TOC                                       |
-| :------------------------------------------------------------------------------: |
-|                   [Import Namespace](usage.md#import-namespace)                  |
-|                [Register for Events](usage.md#register-for-events)               |
-|                         [Sync Data](usage.md#syncronize)                         |
-|            [Store and Retrieve Data](usage.md#store-and-retrieve-data)           |
-| [Data Consistency](usage.md#handling-data-consistency-and-external-data-changes) |
-
-
-
-### Import Namespace
-
-Before using Cloud Services feature, you need to import the namespace.
+## Import Namespaces
 
 ```csharp
-using VoxelBusters.CoreLibrary;
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using VoxelBusters.EssentialKit;
+using VoxelBusters.CoreLibrary;
 ```
 
-Including the above namespace gives access to **CloudServices** class which is the class responsible for providing cloud services features.
+## Event Registration
 
-### Register for Events
-
-For getting the callbacks, you need to first register the events in OnEnable of your MonoBehaviour.
+Register for events in `OnEnable` and unregister in `OnDisable`:
 
 ```csharp
-private void OnEnable()
+void OnEnable()
 {
-    // register for events
-    CloudServices.OnUserChange              += OnUserChange;
-    CloudServices.OnSavedDataChange         += OnSavedDataChange;
-    CloudServices.OnSynchronizeComplete     += OnSynchronizeComplete;
+    CloudServices.OnUserChange += OnUserChange;
+    CloudServices.OnSavedDataChange += OnSavedDataChange;
+    CloudServices.OnSynchronizeComplete += OnSynchronizeComplete;
 }
 
-private void OnDisable()
+void OnDisable()
 {
-    // unregister from events
-    CloudServices.OnUserChange              -= OnUserChange;
-    CloudServices.OnSavedDataChange         -= OnSavedDataChange;
-    CloudServices.OnSynchronizeComplete     -= OnSynchronizeComplete;
+    CloudServices.OnUserChange -= OnUserChange;
+    CloudServices.OnSavedDataChange -= OnSavedDataChange;
+    CloudServices.OnSynchronizeComplete -= OnSynchronizeComplete;
 }
 ```
 
-| Event Name                              | Description                                                                                                                                                                                           |
-| --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **CloudServices.OnUserChange**          | This event gets triggered once if there is a change in the underlying cloud account                                                                                                                   |
-| **CloudServices.OnSavedDataChange**     | This event gets triggered when there is a change in current cloud data you have access to and provides the reason(CloudSavedDataChangeReasonCode) behind the data change along with the changed keys. |
-| **CloudServices.OnSynchronizeComplete** | This event gets triggered in response to **Synchronize** call with **CloudServicesSynchronizeResult** status.                                                                                         |
+| Event | Trigger |
+| --- | --- |
+| `OnUserChange` | Cloud account changes (user logs in/out, switches accounts) |
+| `OnSavedDataChange` | Cloud data differs from local data during sync (provides changed keys) |
+| `OnSynchronizeComplete` | Synchronization request finishes (success or failure) |
 
-### Synchronize
+## Local-Only Storage (No Cloud Sync)
 
-{% hint style="success" %}
-### You need to call **Synchronize** manually for the first time after the launch of your application. This may initiate a login prompt as per the platform.
+Use Cloud Services as enhanced PlayerPrefs without any cloud synchronization:
+
+```csharp
+void SavePlayerData()
+{
+    // Saves to local storage only - no cloud involved
+    CloudServices.SetLong("high_score", newHighScore);
+    CloudServices.SetBool("tutorial_complete", true);
+    CloudServices.SetString("player_name", playerName);
+
+    // DON'T call Synchronize() - keeps data local only
+}
+
+void LoadPlayerData()
+{
+    // Loads from local storage - always works offline
+    long highScore = CloudServices.GetLong("high_score");
+    bool tutorialDone = CloudServices.GetBool("tutorial_complete");
+    string name = CloudServices.GetString("player_name");
+
+    Debug.Log($"High Score: {highScore}, Tutorial: {tutorialDone}, Name: {name}");
+}
+```
+
+{% hint style="info" %}
+Perfect for offline games or games that don't need cross-device sync. Data persists locally across sessions but won't sync to other devices.
 {% endhint %}
 
-**Synchronize** initiates authentication login prompt for the user if required and downloads the latest copy from cloud servers.&#x20;
+## Cloud Synchronization
 
-&#x20;This is required as the initial step as once a user installs the app freshly or once user is back to the app after sometime, we need to make sure he/she has the latest data to proceed.
+### Why Synchronization is Needed
 
-So, call this method in the main menu or at the time of loading so that you will be ready with the data once your user starts the game. Note that the first call to **Synchronize** may show up a pop up on android for google play services login.
+Synchronization downloads the latest cloud data and uploads local changes. This ensures:
+- Fresh installs get saved progress from cloud
+- Players switching devices see their latest data
+- Concurrent device usage detects and resolves conflicts
+
+### First Sync (Authentication)
+
+Call `Synchronize()` when your app starts to authenticate and download cloud data:
 
 ```csharp
-CloudServices.Synchronize();
-```
-
-This call triggers a callback **CloudServices.OnSynchronizeComplete** and it returns success flag as true  if synchronize succeeds. If will be false if user deny the authentication or due to network error.
-
-```csharp
-// Register for the CloudServices.OnSynchronizeComplete event
-// ...
-private void OnSynchronizeComplete(CloudServicesSynchronizeResult result)
+void Start()
 {
-    Debug.Log("Received synchronize finish callback.");
-    Debug.Log("Status: " + result.Success);
-    // By this time, you have the latest data from cloud and you can start reading.
+    // First call may show login dialog on Android
+    CloudServices.Synchronize((result) =>
+    {
+        if (result.Success)
+        {
+            Debug.Log("Cloud sync complete - data is current");
+        }
+        else
+        {
+            Debug.Log("Sync failed - using local data only");
+        }
+    });
 }
 ```
 
-### Store and Retrieve Data
+{% hint style="warning" %}
+**First call behavior:**
+- **iOS**: Uses device-level iCloud settings, no login prompt typically shown
+- **Android**: May show Google Play sign-in dialog if user not authenticated
+{% endhint %}
 
-Plugin offers to save your data in the form of Key-Value pairs. So, for each data item you want to store on cloud, you need to set a unique key. Currently, we support all commonly used data types to save on cloud.
+### Checkpoint-Based Sync
 
-* Bool
-* Long
-* Double
-* String
-
-Here are some examples on how to set and get different data types.
-
-> Saving and reading a **bool** value
+Sync only at appropriate game checkpoints for performance:
 
 ```csharp
-bool boolValue;
-// ... Update the boolValue as per your code
-// Start saving it to cloud
-CloudServices.SetBool("bool-unique-key", boolValue);
+void OnLevelComplete()
+{
+    SaveGameProgress();
 
-// ....
-// Get the value of the above saved bool value later
-bool boolValueFromCloud = CloudServices.GetBool("bool-unique-key");
+    // Show syncing UI for better UX
+    ShowSyncingIndicator();
+
+    CloudServices.Synchronize((result) =>
+    {
+        HideSyncingIndicator();
+
+        if (result.Success)
+        {
+            Debug.Log("Progress synced to cloud");
+        }
+        else
+        {
+            Debug.Log("Sync failed - will retry later");
+        }
+    });
+}
 ```
 
-> Saving and reading a **long** value
+{% hint style="success" %}
+**Best practices:**
+- Sync at level completion, major milestones, or app pause
+- Show UI feedback during sync operations
+- Avoid frequent sync calls during active gameplay
+{% endhint %}
+
+## Storing and Retrieving Data
+
+Cloud Services supports primitive types and binary data as key-value pairs.
+
+### Supported Data Types
 
 ```csharp
-long longValue;
+// Boolean
+CloudServices.SetBool("sound_enabled", true);
+bool soundEnabled = CloudServices.GetBool("sound_enabled"); // false if not found
 
-// Start saving it to cloud
-CloudServices.SetLong("long-unique-key", longValue);
+// Integer (stored as long internally)
+CloudServices.SetInt("player_level", 10);
+int level = CloudServices.GetInt("player_level"); // 0 if not found
 
-// ....
-// Get the value of the above saved long value later
-long longValueFromCloud = CloudServices.GetLong("long-unique-key");
+// Long
+CloudServices.SetLong("total_coins", 1000000L);
+long coins = CloudServices.GetLong("total_coins"); // 0 if not found
+
+// Float (stored as double internally)
+CloudServices.SetFloat("volume", 0.75f);
+float volume = CloudServices.GetFloat("volume"); // 0.0 if not found
+
+// Double
+CloudServices.SetDouble("completion_percentage", 87.5);
+double completion = CloudServices.GetDouble("completion_percentage"); // 0.0 if not found
+
+// String
+CloudServices.SetString("player_name", "Hero123");
+string name = CloudServices.GetString("player_name"); // null if not found
+
+// Byte Array (for serialized objects)
+byte[] saveData = SerializeGameState();
+CloudServices.SetByteArray("game_save", saveData);
+byte[] loadedData = CloudServices.GetByteArray("game_save"); // null if not found
 ```
 
-> Saving and reading a **string** value
+### Storing Complex Data
+
+Use a single serialized class for all save data to simplify versioning:
 
 ```csharp
-string stringValue;
+[Serializable]
+public class GameSaveData
+{
+    public int level;
+    public float[] playerPosition;
+    public List<string> unlockedItems;
+    public long coins;
+    public string version = "1.0";
+}
 
-// Start saving it to cloud
-CloudServices.SetString("string-unique-key", stringValue);
+void SaveGame()
+{
+    GameSaveData saveData = new GameSaveData
+    {
+        level = currentLevel,
+        playerPosition = new float[] { transform.position.x, transform.position.y, transform.position.z },
+        unlockedItems = GetUnlockedItems(),
+        coins = playerCoins
+    };
 
-// ....
-// Get the value of the above saved string value later
-string stringValueFromCloud = CloudServices.GetString("string-unique-key");
+    // Serialize to JSON
+    string json = JsonUtility.ToJson(saveData);
+    CloudServices.SetString("complete_save_data", json);
+
+    // Optional: sync to cloud at checkpoints
+    CloudServices.Synchronize();
+}
+
+void LoadGame()
+{
+    string json = CloudServices.GetString("complete_save_data");
+
+    if (!string.IsNullOrEmpty(json))
+    {
+        GameSaveData saveData = JsonUtility.FromJson<GameSaveData>(json);
+        currentLevel = saveData.level;
+        // Restore other game state
+        Debug.Log($"Loaded game at level {saveData.level}");
+    }
+    else
+    {
+        Debug.Log("No save data found - starting fresh");
+    }
+}
 ```
 
-> Saving a reading a **Dictionary** value\
-> When saving Dictionary or List kind of containers, you can just convert to json string and use SetString method.
+### Key Management
 
 ```csharp
-Dictionary<string, string> dictionaryValue;
+// Check if key exists
+if (CloudServices.HasKey("player_name"))
+{
+    string name = CloudServices.GetString("player_name");
+}
 
-// Convert to json (you can make use of our Json service provider available in VoxelBusters.EssentialKit or use your own serializer)
-IJsonServiceProvider serializer = new DefaultJsonServiceProvider();
-string json = serializer.ToJson(dictionaryValue);
+// Remove key
+CloudServices.RemoveKey("temp_data");
 
-// Start saving it to cloud
-CloudServices.SetString("dictionary-unique-key", json);
-
-// ....
-// Get the value of the above saved string value later
-string stringValueFromCloud = CloudServices.GetString("string-unique-key");
-// Convert the jsonString back to dictionary
-IJsonServiceProvider serializer = new DefaultJsonServiceProvider();
-object dictObject = serializer.FromJson(stringValueFromCloud);
+// Get all data snapshot
+IDictionary snapshot = CloudServices.GetSnapshot();
+foreach (DictionaryEntry entry in snapshot)
+{
+    Debug.Log($"Key: {entry.Key}, Value: {entry.Value}");
+}
 ```
 
-### Handling data consistency and external data changes
+{% hint style="warning" %}
+**Storage limits:**
+- **iOS**: 64-byte max key length, 1MB per key, 1MB total, 1024 keys max
+- **Android**: 3MB total per user
+{% endhint %}
 
-> Check the detailed notes on how this works with an example from below link.
+## Handling Data Conflicts
 
-{% content-ref url="examples/handling-conflicts-and-synchronization.md" %}
-[handling-conflicts-and-synchronization.md](examples/handling-conflicts-and-synchronization.md)
-{% endcontent-ref %}
+When the same data is modified on multiple devices, Cloud Services detects conflicts and fires `OnSavedDataChange`.
 
-If the user plays your game on different devices, there is a possibility to shift from one device to another during the game play progress. They do expect the latest data on the current device they are on. To handle these kind of situations, we provide **CloudServices.OnSavedDataChange** which informs the data changes if any with a reason and changed keys.
+### Understanding Conflict Resolution
 
-**CloudServices.OnSavedDataChange** event is triggered when ever there is a change in the data that is accessed by Getter functions (GetBool, GetString etc..). This callback gives you the required information to handle the data state. It gives a reason (CloudSavedDataChangeReasonCode)  and also the changedKeys array to find out the keys that got changed from the current copy.
+Behind the scenes the plugin keeps a snapshot of the previous device values to help you compare changes:
 
+1. Player makes changes on Device A and syncs
+2. Player switches to Device B (has old data)
+3. Device B calls `Synchronize()` - cloud copy has newer data
+4. Local copy is overwritten with cloud copy
+5. `OnSavedDataChange` fires with changed keys and reason
+6. Your code compares the latest cloud values vs. the previous snapshot using `CloudServicesUtility`
+7. Choose winning value and set it back
+8. Next sync uploads the resolved data
 
+Use `CloudServicesUtility.TryGetCloudAndLocalCacheValues` inside the event to fetch both values without manually caching them.
 
-**CloudServices.OnSavedDataChange** event gets fired for the following reasons:
+### Example: Conflict Resolution
 
-| Reason                                               | Description                                                                                                                                                |
-| ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **CloudSavedDataChangeReasonCode.ServerChange**      | This reason is returned when there is a difference between the local copy that is currently used and the latest cloud copy on cloud server.                |
-| **CloudSavedDataChangeReasonCode.InitialSyncChange** | This is triggered initially when a new copy is downloaded from the cloud server for the first time.                                                        |
-| **CloudSavedDataChangeReasonCode.QuotaViolation**    | This is the reason when excess data is being stored and it resets to the cloud copy available on the server                                                |
-| **CloudSavedDataChangeReasonCode.AccountChange**     | This is the reason when user shifts the account that is being used on the device and as the current data is no more valid, it returns all the key changes. |
+```csharp
+void OnEnable()
+{
+    CloudServices.OnSavedDataChange += OnSavedDataChange;
+}
 
-{% tabs %}
-{% tab title="Sequence of events" %}
-1. Plugin trying to sync the data
-2. Downloaded latest copy from cloud
-3. Finds the keys which got changed from cloud copy by comparing with local copy
-4. Overwrites the complete Local copy with latest Cloud Copy data
-5. If there are any key-value changes in step 3, then fires **CloudServices.OnSavedDataChange** event with changed the changed keys
-6. In the callback, you need to check the cloud value with Getters and check the values with your cache
-7. If you see the local copy got overwritten with cloud copy and not reflecting your changes, you need to use setters to update it.
-8. Data updated in step 7 will be pushed to cloud on next sync.
-{% endtab %}
-{% endtabs %}
+void OnSavedDataChange(CloudServicesSavedDataChangeResult result)
+{
+    if (result.ChangedKeys == null)
+    {
+        return;
+    }
 
+    Debug.Log($"Data changed - Reason: {result.ChangeReason}");
+
+    foreach (string key in result.ChangedKeys)
+    {
+        // Use utility to compare the cloud value vs the previous device snapshot
+        if (CloudServicesUtility.TryGetCloudAndLocalCacheValues<long>(key, out long cloudValue, out long localValue))
+        {
+            if (key == "high_score")
+            {
+                // Keep highest score
+                long winnerScore = Math.Max(cloudValue, localValue);
+                CloudServices.SetLong(key, winnerScore);
+                Debug.Log($"Resolved high_score conflict: cloud={cloudValue}, local={localValue}, winner={winnerScore}");
+            }
+            else if (key == "total_playtime")
+            {
+                // Sum playtime from both devices
+                long combinedTime = cloudValue + localValue;
+                CloudServices.SetLong(key, combinedTime);
+                Debug.Log($"Combined playtime: {combinedTime}");
+            }
+        }
+    }
+}
+```
+
+### Change Reasons
+
+| Reason | Description |
+| --- | --- |
+| `ServerChange` | Cloud data differs from local data during sync |
+| `InitialSyncChange` | First sync after fresh install (cloud data downloaded) |
+| `QuotaViolation` | Exceeded storage limits - data reset to cloud copy |
+| `AccountChange` | User switched cloud accounts - all keys invalidated |
+
+{% hint style="danger" %}
+**Critical**: If you don't handle `OnSavedDataChange`, local changes may be lost when cloud data overwrites the local copy. Always maintain a cache and resolve conflicts.
+{% endhint %}
+
+### Conflict Resolution Pattern
+
+```csharp
+void OnSavedDataChange(CloudServicesSavedDataChangeResult result)
+{
+    switch (result.ChangeReason)
+    {
+        case CloudSavedDataChangeReasonCode.ServerChange:
+            // Merge changes from another device
+            ResolveConflicts(result.ChangedKeys);
+            break;
+
+        case CloudSavedDataChangeReasonCode.InitialSyncChange:
+            // First sync - cloud data loaded
+            LoadCloudData();
+            break;
+
+        case CloudSavedDataChangeReasonCode.AccountChange:
+            // User switched accounts - reset local data
+            ClearLocalGameData();
+            LoadCloudData();
+            break;
+
+        case CloudSavedDataChangeReasonCode.QuotaViolation:
+            // Exceeded storage - compress data
+            Debug.LogWarning("Storage quota exceeded - consider data compression");
+            break;
+    }
+}
+```
+
+## Core APIs Reference
+
+| API | Purpose | Returns |
+| --- | --- | --- |
+| `CloudServices.SetBool(key, value)` | Store boolean value locally | Void - syncs to cloud on next `Synchronize()` |
+| `CloudServices.GetBool(key)` | Retrieve boolean value | `bool` (false if not found) |
+| `CloudServices.SetInt(key, value)` | Store integer value locally | Void |
+| `CloudServices.GetInt(key)` | Retrieve integer value | `int` (0 if not found) |
+| `CloudServices.SetLong(key, value)` | Store long value locally | Void |
+| `CloudServices.GetLong(key)` | Retrieve long value | `long` (0 if not found) |
+| `CloudServices.SetFloat(key, value)` | Store float value locally | Void |
+| `CloudServices.GetFloat(key)` | Retrieve float value | `float` (0.0 if not found) |
+| `CloudServices.SetDouble(key, value)` | Store double value locally | Void |
+| `CloudServices.GetDouble(key)` | Retrieve double value | `double` (0.0 if not found) |
+| `CloudServices.SetString(key, value)` | Store string value locally | Void |
+| `CloudServices.GetString(key)` | Retrieve string value | `string` (null if not found) |
+| `CloudServices.SetByteArray(key, value)` | Store binary data locally | Void |
+| `CloudServices.GetByteArray(key)` | Retrieve binary data | `byte[]` (null if not found) |
+| `CloudServices.HasKey(key)` | Check if key exists | `bool` |
+| `CloudServices.RemoveKey(key)` | Delete key-value pair | Void |
+| `CloudServices.GetSnapshot()` | Get all data as dictionary | `IDictionary` |
+| `CloudServices.Synchronize(callback)` | Sync local and cloud data | `CloudServicesSynchronizeResult` via callback |
+| `CloudServices.ActiveUser` | Get current cloud user info | `CloudUser` (account status and user ID) |
+| `CloudServicesUtility.TryGetCloudAndLocalCacheValues<T>(key, out cloud, out local)` | Compare cloud vs cache for conflicts | `bool` (true if both values exist) |
+
+## Error Handling
+
+| Error Code | Trigger | Recommended Action |
+| --- | --- | --- |
+| Sync failure (result.Success = false) | Network error, user denied authentication | Retry later or continue with local-only data |
+| `QuotaViolation` reason | Exceeded storage limits | Compress data or remove unnecessary keys |
+| `AccountChange` reason | User switched cloud accounts | Clear local data and reload from new account |
+| Null/empty key | Invalid key parameter | Validate keys before calling Get/Set |
+
+```csharp
+void OnSynchronizeComplete(CloudServicesSynchronizeResult result)
+{
+    if (!result.Success)
+    {
+        Debug.LogWarning("Cloud sync failed - game will continue with local data");
+        // Show optional retry UI
+        return;
+    }
+
+    Debug.Log("Cloud sync successful");
+}
+```
+
+## Advanced: Runtime Settings Override
+
+{% hint style="danger" %}
+Advanced initialization is for server-driven configuration or runtime feature flags only. For standard usage, configure via [Essential Kit Settings](setup.md).
+{% endhint %}
+
+### Understanding Advanced Initialization
+
+**Default Behavior:**
+Essential Kit automatically initializes Cloud Services with settings from the ScriptableObject asset.
+
+**Advanced Usage:**
+Override settings programmatically for:
+- Server-driven feature configuration
+- A/B testing different sync strategies
+- Dynamic platform-specific settings
+- Runtime feature flags
+
+### Implementation
+
+```csharp
+void Awake()
+{
+    var settings = ScriptableObject.CreateInstance<CloudServicesUnitySettings>();
+    // Configure runtime settings as needed
+    CloudServices.Initialize(settings);
+}
+```
+
+{% hint style="warning" %}
+Calling `Initialize()` resets all event listeners and clears cached data. Only use for advanced scenarios requiring runtime configuration.
+{% endhint %}
+
+## Related Guides
+- Demo scene: `Assets/Plugins/VoxelBusters/EssentialKit/Examples/Scenes/CloudServicesDemo.unity`
+- Pair with **Game Services** for player authentication and leaderboards
+- See [FAQ](faq.md#why-cant-i-see-my-local-changes-after-sync) for common conflict resolution issues
+- Check [Testing](testing.md) for cross-device validation procedures

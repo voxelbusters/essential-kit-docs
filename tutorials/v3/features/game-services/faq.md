@@ -1,119 +1,361 @@
-# FAQ
+---
+description: "Common issues and solutions for Game Services integration"
+---
 
-## Common
+# FAQ & Troubleshooting
 
-### What are settings required for making Game Services to work?
+## General Questions
 
-#### Android
+### Do I need to manually configure AndroidManifest.xml or Info.plist?
 
-* Play Services Application Id
-* [Add SHA Fingerprint for the APK in Google Play Console](setup/android.md#configuring-credentials-sha-fingerprint-authentication)
+No. Essential Kit automatically injects required permissions and platform entries during build. You only need to configure settings in Essential Kit Settings inspector.
 
-#### iOS
+### Can I test Game Services without publishing my app?
 
-* Make sure Game Services capability is enabled when you create your app id manually in iOS developer portal
+Yes. Both platforms support testing before release:
+- **iOS**: Use Sandbox environment with test Apple IDs
+- **Android**: Add test accounts in Play Console under Play Games Services → Testers
 
-## Android
+### What are the minimum settings required for Game Services to work?
 
-### What are different SHA fingerprints that needs to be used for logging in successfully on different environments and how to create them?
+**iOS:**
+- Game Center enabled in App Store Connect
+- Leaderboards and achievements configured in App Store Connect
+- Leaderboard/achievement definitions added in Essential Kit Settings
 
-Each keystore is linked to a SHA fingerprint. Please check below for creating SHA fingerprints on each environment (Debug, Release and Google play)
+**Android:**
+- Play Services Application ID set in Essential Kit Settings
+- [SHA fingerprint added in Google Play Console](setup/android.md#configuring-credentials-sha-fingerprint-authentication)
+- Leaderboards and achievements configured in Play Console
+- Leaderboard/achievement definitions added in Essential Kit Settings
+
+### How do platform-specific IDs work?
+
+Each leaderboard/achievement has:
+- **Common ID**: Used in your code (e.g., "high_score")
+- **iOS Platform ID**: Game Center ID from App Store Connect
+- **Android Platform ID**: Play Games ID from Play Console
+
+Essential Kit automatically uses the correct platform ID based on the build target.
+
+## Authentication Issues
+
+### Authentication doesn't work in my game, what should I check?
+
+1. Verify Game Services is enabled in Essential Kit Settings
+2. Register for `OnAuthStatusChange` event before calling `Authenticate()`
+3. Call `GameServices.Authenticate()` (silent first, then interactive if needed)
+4. Check error callback for specific error details
+5. Verify platform configuration (see platform-specific sections below)
+
+### Player cancelled authentication, how do I let them sign in again?
+
+Call `GameServices.Authenticate(interactive: true)` when player clicks a "Sign In" button. The `interactive: true` parameter shows the platform login UI.
+
+### Can I check if player is authenticated without showing login UI?
+
+Yes, use `GameServices.IsAuthenticated` property or check `GameServices.LocalPlayer.IsAuthenticated`. For silent authentication attempt, call `GameServices.Authenticate(interactive: false)`.
+
+### How do I handle authentication in production?
+
+Use this pattern:
+1. On app start, call `GameServices.Authenticate(interactive: false)` for silent sign-in
+2. If silent auth fails, show a "Sign In" button
+3. When user clicks button, call `GameServices.Authenticate(interactive: true)` to show login UI
+
+## Leaderboard Issues
+
+### My score submission returns InvalidParameter error, what's wrong?
+
+Check these common causes:
+1. Leaderboard ID in code doesn't match ID in Essential Kit Settings
+2. Leaderboard definition missing iOS or Android platform ID
+3. Platform ID in settings doesn't match dashboard configuration (App Store Connect / Play Console)
+
+### Scores don't appear in the leaderboard, but submission succeeds
+
+Scores may be cached offline and upload later. Check:
+1. Device has internet connection
+2. Score appears in native Game Center / Play Games app
+3. Wait a few minutes for server processing
+4. Platform may keep highest score, not latest (check leaderboard configuration)
+
+### How do I display weekly or daily leaderboards?
+
+Use `LeaderboardTimeScope` when showing or loading leaderboards:
+
+```csharp
+// Show weekly scores
+GameServices.ShowLeaderboard("high_score", LeaderboardTimeScope.Week);
+
+// Load today's scores
+leaderboard.TimeScope = LeaderboardTimeScope.Today;
+leaderboard.LoadTopScores(callback);
+```
+
+### Can I create custom leaderboard UI instead of native UI?
+
+Yes. Use `ILeaderboard.LoadTopScores()` or `LoadPlayerCenteredScores()` to get score data, then display in your own UI. Native UI is optional.
+
+## Achievement Issues
+
+### Achievement progress doesn't update, what should I check?
+
+1. Verify player is authenticated before reporting progress
+2. Check achievement ID in code matches Essential Kit Settings
+3. Verify platform ID in settings matches dashboard (App Store Connect / Play Console)
+4. Confirm percentage is between 0.0 and 100.0
+5. Check error callback for specific failure reason
+
+### How do incremental achievements work?
+
+Set the percentage based on progress:
+
+```csharp
+// Example: Player won 45 out of 100 games
+double percentage = (45.0 / 100.0) * 100.0; // = 45%
+GameServices.ReportAchievementProgress("win_100_games", percentage, callback);
+```
+
+Platform tracks progress and unlocks when you report 100%.
+
+### Achievement unlocked but banner doesn't show on iOS
+
+Check "Show Achievement Completion Banner" is enabled in Game Services settings. This is iOS-only and must be enabled for automatic banners.
+
+### Can I query player's current achievement progress?
+
+Yes, use `GameServices.LoadAchievements()` to get all achievements with current progress:
+
+```csharp
+GameServices.LoadAchievements((result, error) =>
+{
+    foreach (IAchievement achievement in result.Achievements)
+    {
+        Debug.Log($"{achievement.Id}: {achievement.PercentageCompleted}%");
+    }
+});
+```
+
+## iOS (Game Center) Specific
+
+### Why doesn't the sign-in dialog appear a second time after user cancelled it?
+
+This is a Game Center limitation. After cancelling, the player must manually sign in through iOS Settings → Game Center. Your app cannot show the dialog again until they sign in via Settings.
+
+**Solution**: Show an in-app message directing users to Settings when authentication fails after cancellation.
+
+### Game Center sandbox doesn't work, what should I check?
+
+1. Sign out of production Game Center in iOS Settings
+2. Sign in with a Sandbox test Apple ID
+3. Ensure device is connected to internet
+4. Test Apple ID must be created in App Store Connect → Users and Access → Sandbox Testers
+
+### Leaderboards and achievements don't appear in Game Center app
+
+1. Verify leaderboards/achievements are approved in App Store Connect
+2. Check they're in "Ready to Submit" or "Live" state
+3. For sandbox testing, they should at least be in "Waiting for Review" state
+
+### How do I create leaderboard groups on iOS?
+
+1. In App Store Connect, go to Game Center → Leaderboard Groups
+2. Create a group with ID starting with "grp." (e.g., "grp.com.yourcompany.game.scores")
+3. Add individual leaderboards to the group
+4. Use group ID in Essential Kit Settings
+
+{% hint style="danger" %}
+If you plan to deploy to multiple Apple platforms (macOS, tvOS), use leaderboard/achievement groups from the start. Changing from individual to group IDs later requires all players to reset progress.
+{% endhint %}
+
+## Android (Play Games) Specific
+
+### What are SHA fingerprints and why do I need them?
+
+SHA fingerprints authenticate your app with Play Games. Each keystore (debug, release, Play Store signing) has a unique SHA-1 fingerprint that must be added to Play Console credentials.
+
+### What are different SHA fingerprints for different build types?
 
 {% tabs %}
-{% tab title="Debug (Development Mode)" %}
-When development mode is enabled in Build Settings on Unity, it always uses defualt debug.keystore.\
+{% tab title="Debug (Development)" %}
+When Development Build is enabled in Unity Build Settings, Android uses the default debug keystore.
 
-
-{% code title="Command for getting SHA fingerprint" %}
+**Get SHA-1 fingerprint:**
 ```bash
-  keytool -list -v -keystore "PATH_TO_DEBUG_KEYSTORE" -alias androiddebugkey -storepass android -keypass android
+keytool -list -v -keystore "PATH_TO_DEBUG_KEYSTORE" -alias androiddebugkey -storepass android -keypass android
 ```
-{% endcode %}
 
-Check the below table to get  **PATH\_TO\_DEBUG\_KEYSTORE** (debug.keystore)
+**Debug keystore locations:**
 
-| Platform | Path                                                                                                  |
-| -------- | ----------------------------------------------------------------------------------------------------- |
-| Windows  | <p>C:\Users\USERNAME\.android\debug.keystore</p><p>(Replace with your username in the above path)</p> |
-| MacOSX   | \~/.android/debug.keystore                                                                            |
+| Platform | Path |
+| --- | --- |
+| Windows | `C:\Users\USERNAME\.android\debug.keystore` |
+| macOS | `~/.android/debug.keystore` |
 
-![SHA fingerprint to consider finishing the configuration on google play console](../../.gitbook/assets/GetSHAFingerPrint.png)
+![SHA fingerprint output](../../.gitbook/assets/GetSHAFingerPrint.png)
 
-
+Add this SHA-1 to [Play Console credentials](setup/android.md#configuring-credentials-sha-fingerprint-authentication).
 {% endtab %}
 
-{% tab title="Release (Release Mode)" %}
-When development mode is **OFF** its considered to be in release mode. And unity uses the keystore you set in the player settings.
+{% tab title="Release (Production)" %}
+When Development Build is OFF, Unity uses your custom keystore from Player Settings.
 
-{% code title="Command for getting SHA fingerprint" %}
+**Get SHA-1 fingerprint:**
 ```bash
 keytool -list -v -keystore "PATH_TO_KEYSTORE" -alias ALIAS_NAME -storepass STORE_PASSWORD -keypass KEY_PASSWORD
 ```
-{% endcode %}
 
-**PATH\_TO\_KEYSTORE** : This is the path of the keystore you created for your app.
+Replace:
+- **PATH_TO_KEYSTORE**: Path to your release keystore
+- **ALIAS_NAME**: Keystore alias name
+- **STORE_PASSWORD**: Keystore password
+- **KEY_PASSWORD**: Key password
 
-![Use your release keystore along with providing. ALIAS\_NAME,  STORE\_PASS and KEY\_PASS](../../.gitbook/assets/GetSHAFingerPrint.png)
+![Release keystore SHA fingerprint](../../.gitbook/assets/GetSHAFingerPrint.png)
 
-
+Add this SHA-1 to [Play Console credentials](setup/android.md#configuring-credentials-sha-fingerprint-authentication).
 {% endtab %}
 
-{% tab title="Google Play Store (Alpha/Beta/Production)" %}
-Once you upload your apk to play console, you are given an option to let google sign your apk. This is usually called google play signing and its **recommended** to enable it.\
-\
-Once your app is ready for testing through testing tracks(Alpha/Beta) or production, you need to add the SHA fingerprint once your app signs with google play signing. You can fetch this fingerprint by following below steps
+{% tab title="Google Play Store (Play App Signing)" %}
+Once you upload your APK to Play Console and enable Google Play App Signing, Google re-signs your app with a new certificate.
 
-1. Navigate to [Google Play Console](https://play.google.com/apps/publish) and select your app
-2. Select Setup and click on App Signing. Under **App signing key certificate** copy the value of SHA-1 certificate fingerprint
-3. Use this fingerprint value in the [credentials section to create a new oauth client id](setup/android.md#configuring-credentials-sha-fingerprint-authentication).\
-   \
-   &#x20;&#x20;
+**Get Play App Signing SHA-1:**
+1. Open [Google Play Console](https://play.google.com/apps/publish)
+2. Select your app
+3. Go to **Setup** → **App Signing**
+4. Under "App signing key certificate", copy the SHA-1 certificate fingerprint
+5. Add this fingerprint to [Play Console credentials](setup/android.md#configuring-credentials-sha-fingerprint-authentication)
 
-![Google play app signing SHA fingerprint](../../.gitbook/assets/GooglePlayAppSigningSHAFingerprint.png)
+![Google Play App Signing SHA fingerprint](../../.gitbook/assets/GooglePlayAppSigningSHAFingerprint.png)
 {% endtab %}
 {% endtabs %}
 
-### Why is sign-in failing? **Or**
+### Why is sign-in failing? "APP NOT CORRECTLY CONFIGURED TO USE GOOGLE PLAY GAME SERVICES"
 
-### **In the logs I see "**_**APP NOT CORRECTLY CONFIGURED TO USE GOOGLE PLAY GAME SERVICES**_**". How to solve this?**
+This error has three main causes:
 
-This usually happens for one of the 3 main reasons.
+1. **Wrong SHA fingerprint**: Package name and certificate fingerprint don't match OAuth client credentials
+   - Copy SHA-1 from logcat and [add to Play Console credentials](setup/android.md#adding-a-sha-fingerprint)
+   - Verify you added the SHA-1 for the keystore you're using (debug/release/Play signing)
 
-1. Your package name and certificate fingerprint do not match the client ID you registered in Developer Console. **This means you haven't added the required SHA fingerprint correctly. You need to copy the printed SHA1 fingerprint  in the logcat log and** [**add it in the credentials section of google play console.**](setup/android.md#adding-a-sha-fingerprint)\
+2. **Wrong Play Services Application ID**: ID in Essential Kit Settings doesn't match Play Console
+   - Check Play Console → Play Games Services → Setup and Management → Configuration
+   - Copy the Project ID exactly into Essential Kit Settings
 
-2. Your Play Services Application Id was incorrectly entered in [Essential Kit Settings](setup/#properties)\
-
-3. In non-live mode, the user you are trying to login is **not added as a tester** in your App's google play console under Grow Users (on left side section) -> Play Games Services -> Setup and Management -> Testers
+3. **Test account not added**: For unpublished apps, test account must be added as tester
+   - Play Console → Your App → Play Games Services → Setup and Management → Testers
+   - Add your Google account email to the testers list
 
 {% hint style="danger" %}
-Nearly 99% of the sign in errors are due to not adding the correct credential for the keystore that is used in Google Play Console-> Your App -> Play Games Services -> Setup and Management -> Configuration.&#x20;
+99% of Android sign-in failures are caused by incorrect SHA fingerprint in Play Console credentials. Always verify you added the correct fingerprint for your current keystore.
 {% endhint %}
-
-For logging in successfully, you need to create the credential by setting the right SHA fingerprint on google play console. Please check setup [here](setup/android.md#configuring-credentials-sha-fingerprint-authentication).
 
 {% hint style="warning" %}
-If you are sure the SHA fingerprints are setup correctly, make sure your testing email account is listed in the play services testers list in google play console.
+Even with correct SHA fingerprints, test accounts must be added to the testers list in Play Console for unpublished apps.
 {% endhint %}
 
-### How to get SHA fingerprint from an APK?
-
-You can use the below command for getting the SHA fingerprint quickly
+### How do I get SHA fingerprint from an APK file?
 
 ```bash
 keytool -printcert -jarfile PATH_TO_APK_FILE
 ```
 
-### Why am I getting "keytool command not found"?
+### I get "keytool command not found" error
 
-You need to have your **JAVA\_HOME** environment variable set on windows or java should be in the PATH on mac.
+`keytool` is part of the Java SDK. You need Java installed and:
+- **Windows**: Set `JAVA_HOME` environment variable
+- **macOS/Linux**: Add Java to PATH
 
-**keytool** is a program from java sdk and you need to have java setup correctly to get it detected. Its used for getting SHA fingerprint from keystore or an APK.
+`keytool` is located in the `bin` folder of your Java installation.
 
-## iOS
+### Server Client ID causes sign-in to fail
 
-### Why the sign-in dialog doesn't come up second time post user cancelling the sign-in first time?
+Make sure you created the OAuth client for **Web Application**, NOT Android. Android Play Games integration requires Web OAuth client ID for server access.
 
-This is an issue at iOS level which we don't have control. It's a limitation with Game Center and it won't show up the sign-in prompt once user cancels it earlier.
+**To create:**
+1. Google Cloud Console → Credentials
+2. Create OAuth Client → **Web Application** (not Android)
+3. Copy Web client ID to Essential Kit Settings → Android Properties → Server Client Id
 
-To resolve, user needs to manually sign-in from the settings of his device.
+{% hint style="success" %}
+Server Client ID is only needed if you access Play Games profile data from your backend. For basic Game Services (leaderboards/achievements only), leave it empty.
+{% endhint %}
 
+## Error Handling
+
+### My operations fail with "NotAuthenticated" error
+
+Player must be authenticated before using leaderboards or achievements. Check:
+1. Call `GameServices.Authenticate()` before game services operations
+2. Wait for `OnAuthStatusChange` event with authenticated status
+3. Use `GameServices.IsAuthenticated` to check state before operations
+
+### How do I handle offline scenarios?
+
+Both Game Center and Play Games cache data when offline:
+- Scores and achievement progress are queued and uploaded when online
+- Loading operations may fail with network errors
+- Native UI requires internet connection
+
+**Best practice**: Check errors and show appropriate offline message to users.
+
+### Where can I see full error details?
+
+Check the `Error` object in callbacks:
+
+```csharp
+void OnComplete(CompletionResult result)
+{
+    if (!result.Success)
+    {
+        Error error = result.Error;
+        Debug.Log($"Error code: {error.Code}");
+        Debug.Log($"Error message: {error.LocalizedDescription}");
+    }
+}
+```
+
+## Demo Scene & Comparison
+
+### How can I verify Essential Kit behavior versus my implementation?
+
+Run the demo scene at `Assets/Plugins/VoxelBusters/EssentialKit/Examples/Scenes/GameServicesDemo.unity`:
+
+1. If demo works but your scene doesn't, compare:
+   - Essential Kit Settings configuration
+   - Event registration in `OnEnable`/`OnDisable`
+   - Error handling in callbacks
+   - Authentication flow
+
+2. Check `GameServicesDemo.cs` for reference implementation
+
+### What if the demo scene also fails?
+
+1. Verify platform configuration (App Store Connect / Play Console)
+2. Check leaderboard/achievement platform IDs match dashboards exactly
+3. Review [Setup Guide](setup/) for missing steps
+4. For Android, verify SHA fingerprints are correct
+
+## Platform Permissions
+
+### Do I need to request permissions for Game Services?
+
+No explicit permissions needed. Game Services handles authentication through platform SDKs:
+- **iOS**: Game Center uses system-level authentication
+- **Android**: Play Games uses Google account authentication
+
+### Friends access requires permissions, how do I enable it?
+
+Enable "Allow Friends Access" in Game Services settings. Essential Kit adds required permissions automatically:
+- **iOS**: Adds NSGKFriendListUsageDescription to Info.plist
+- **Android**: Adds necessary Play Games permissions
+
+Provide clear privacy descriptions for App Store / Play Store review.
+
+## Related Resources
+
+- [Setup Guide](setup/) - Complete platform configuration
+- [Usage Guide](usage.md) - API reference and examples
+- [Testing Guide](testing.md) - Device testing checklist
+- Demo scene: `GameServicesDemo.unity` - Working reference implementation
