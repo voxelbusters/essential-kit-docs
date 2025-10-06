@@ -127,9 +127,10 @@
 
 ## Migrations
 
-* [Gley Easy IAP → Essential Kit Billing Services](migrations/gley/easy-iap/README.md)
-  * [Migration Guide](migrations/gley/easy-iap/migration-guide.md)
-  * [FAQ](migrations/gley/easy-iap/faq.md)
+* [Gley](migrations/gley/README.md)
+  * [Easy IAP → Essential Kit Billing Services](migrations/gley/easy-iap/README.md)
+    * [Migration Guide](migrations/gley/easy-iap/migration-guide.md)
+    * [FAQ](migrations/gley/easy-iap/faq.md)
 
 ## Notes
 

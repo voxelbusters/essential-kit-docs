@@ -7,8 +7,7 @@ Use this folder when you are ready to swap your project from Gley Easy IAP to [E
 - **[faq.md](faq.md)** – quick answers for the questions we see most often during this migration.
 
 ## Need A Hand?
-- Chat with the team and other adopters on Discord: [discord.gg/Rw5SAec4Md](https://discord.gg/Rw5SAec4Md)
-- Browse the full Billing Services usage guide in the main docs: `tutorials/v3/features/billing-services/usage.md`
-- If you require direct assistance email support@voxelbusters.com
+- Chat with the team and other adopters on [Discord](https://discord.gg/Rw5SAec4Md)
+- Browse the full Billing Services usage guide in the [main docs](../../../features/billing-services/usage.md)
 
 Happy shipping!

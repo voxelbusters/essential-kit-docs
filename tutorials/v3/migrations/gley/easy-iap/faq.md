@@ -16,7 +16,7 @@ Yes. Essential Kit talks to the same App Store / Google Play back ends. Run `Bil
 The canonical samples live in `tutorials/v3/features/billing-services/usage.md` (see the *Server-Side Receipt Verification* section). The migration guide links back to those snippets so you stay aligned with the main documentation.
 
 ### Who can I talk to if I get stuck?
-Join the Essential Kit community on [Discord](https://discord.gg/Rw5SAec4Md). You can also review the product overview at [Essential Kit](https://www.voxelbusters.com/products/essential-kit) and [Email us](mailto:support@voxelbusters.com) for direct help.
+Join the Essential Kit community on [Discord](https://discord.gg/Rw5SAec4Md). You can also review the product overview at [Essential Kit](https://www.voxelbusters.com/products/essential-kit).
 
 ### Is there a checklist I can follow?
 Yes. Work through the checklist that closes [migration-guide.md](migration-guide.md). It covers settings, code updates, testing, and cleanup.

@@ -301,6 +301,5 @@ private void HandleTransactions(BillingServicesTransactionStateChangeResult resu
 * Review the [Essential Kit](https://www.voxelbusters.com/products/essential-kit) product overview
 * Chat with the team and other adopters on [Discord](https://discord.gg/Rw5SAec4Md)
 * Browse the full [Billing Services usage guide](../../../features/billing-services/usage.md)
-* [Email](mailto:support@voxelbusters.com) for direct assistance
 
 You are now running on Essential Kit’s native billing system. For advanced features (pending transactions, subscription status, offers) can refer [main tutorial](../../../features/billing-services/usage.md).&#x20;
