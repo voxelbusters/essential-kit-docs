@@ -125,14 +125,14 @@
   * [Examples](features/web-view/examples/README.md)
     * [Loading Pdf File](features/web-view/examples/loading-pdf-file.md)
 
+## Migrations
+
+* [Gley Easy IAP → Essential Kit Billing Services](migrations/gley/easy-iap/migration-guide.md)
+  * [FAQ](migrations/gley/easy-iap/faq.md)
+
 ## Notes
 
 * [Resolving Android Gradle Build Errors](notes/resolving-android-gradle-build-errors.md)
 * [Google Play Services Authentication](notes/google-play-services-authentication.md)
 * [Target API Level vs Min API Level](notes/target-api-level-vs-min-api-level.md)
 * [Handling Refunds for In-App Purchases (Billing Services)](notes/handling-refunds-for-in-app-purchases-billing-services.md)
-
-## Migrations
-
-* [Gley Easy IAP → Essential Kit Billing Services](migrations/gley/easy-iap/migration-guide.md)
-  * [FAQ](migrations/gley/easy-iap/faq.md)
