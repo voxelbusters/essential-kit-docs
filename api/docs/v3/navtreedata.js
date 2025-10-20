@@ -52,8 +52,8 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "d4/dee/group___cloud_services.html",
-"da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel.html#a7ee9065718e6628dc7791b756fa6c0f9",
-"df/d49/class_voxel_busters_1_1_essential_kit_1_1_social_share_composer.html#a4ef94737dd4b7a20d2ccad4fdaf0bf42"
+"da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel.html#a4052b0e2f40a18eea4a51a1b1fcca55d",
+"df/d49/class_voxel_busters_1_1_essential_kit_1_1_social_share_composer.html#a4be331fbb173c40a84c282a89e2705e0"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
