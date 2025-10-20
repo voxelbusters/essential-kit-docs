@@ -101,6 +101,7 @@ var hierarchy =
     [ "NetworkServicesInternetConnectivityStatusChangeResult", "d0/d1d/class_voxel_busters_1_1_essential_kit_1_1_network_services_internet_connectivity_status_change_result.html", null ],
     [ "NotificationAndroidProperties", "d2/da4/class_voxel_busters_1_1_essential_kit_1_1_notification_android_properties.html", null ],
     [ "NotificationBuilder", "da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder.html", null ],
+    [ "NotificationChannel", "da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel.html", null ],
     [ "NotificationIosProperties", "dc/d6b/class_voxel_busters_1_1_essential_kit_1_1_notification_ios_properties.html", null ],
     [ "NotificationServices", "da/d97/class_voxel_busters_1_1_essential_kit_1_1_notification_services.html", null ],
     [ "NotificationServicesGetDeliveredNotificationsResult", "d1/d63/class_voxel_busters_1_1_essential_kit_1_1_notification_services_get_delivered_notifications_result.html", null ],

@@ -26,7 +26,8 @@ var group___notification_services =
     [ "NotificationAndroidProperties", "d2/da4/class_voxel_busters_1_1_essential_kit_1_1_notification_android_properties.html", [
       [ "Tag", "d2/da4/class_voxel_busters_1_1_essential_kit_1_1_notification_android_properties.html#a121d9cb485fa9e23380cb8c883e46c9c", null ],
       [ "LargeIcon", "d2/da4/class_voxel_busters_1_1_essential_kit_1_1_notification_android_properties.html#adcbc8416bde8c3807df00a5c696b12c1", null ],
-      [ "BigPicture", "d2/da4/class_voxel_busters_1_1_essential_kit_1_1_notification_android_properties.html#af48527e1b6e750e7a019b908b3acbcc3", null ]
+      [ "BigPicture", "d2/da4/class_voxel_busters_1_1_essential_kit_1_1_notification_android_properties.html#af48527e1b6e750e7a019b908b3acbcc3", null ],
+      [ "Channel", "d2/da4/class_voxel_busters_1_1_essential_kit_1_1_notification_android_properties.html#a463b4f79512c1d441ad0876f82d1ca96", null ]
     ] ],
     [ "NotificationBuilder", "da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder.html", [
       [ "CreateNotification", "da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder.html#a696ed50c32387186638debf326da9630", null ],
@@ -44,6 +45,12 @@ var group___notification_services =
       [ "SetLocationNotificationTrigger", "da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder.html#aa5ec68f2f95f49e0b594070e518083f0", null ],
       [ "SetPriority", "da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder.html#a322b104a1b06436f36e1ce1a972e6534", null ],
       [ "Create", "da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder.html#a14216b8e4bc614c899dec5515aaf9444", null ]
+    ] ],
+    [ "NotificationChannel", "da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel.html", [
+      [ "Id", "da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel.html#a186291c875988107b7ace745ea84d4ec", null ],
+      [ "Name", "da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel.html#a7ee9065718e6628dc7791b756fa6c0f9", null ],
+      [ "Description", "da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel.html#a34409fed9d39281ada2d7ec172a52f9b", null ],
+      [ "OldId", "da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel.html#a4052b0e2f40a18eea4a51a1b1fcca55d", null ]
     ] ],
     [ "NotificationIosProperties", "dc/d6b/class_voxel_busters_1_1_essential_kit_1_1_notification_ios_properties.html", [
       [ "NotificationIosProperties", "dc/d6b/class_voxel_busters_1_1_essential_kit_1_1_notification_ios_properties.html#ad24efaee80dd1bfd730c4c77bbf82c53", null ],

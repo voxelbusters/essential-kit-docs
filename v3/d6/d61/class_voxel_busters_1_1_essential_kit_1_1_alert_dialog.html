@@ -121,6 +121,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0d747e821d05934209c34004aec84052" id="r_a0d747e821d05934209c34004aec84052"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d747e821d05934209c34004aec84052">AddButton</a> (string title, Callback callback)</td></tr>
 <tr class="memdesc:a0d747e821d05934209c34004aec84052"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an action button to the alert. Here, the default style is used.  <br /></td></tr>
 <tr class="separator:a0d747e821d05934209c34004aec84052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5edf0dff88ef94acdfccab0150197d71" id="r_a5edf0dff88ef94acdfccab0150197d71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5edf0dff88ef94acdfccab0150197d71">AddButton</a> (string title, Callback&lt; string[]&gt; callback)</td></tr>
+<tr class="memdesc:a5edf0dff88ef94acdfccab0150197d71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an action button to the alert. Here, the default style is used.  <br /></td></tr>
+<tr class="separator:a5edf0dff88ef94acdfccab0150197d71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94f5bedaa1564443f3a71ee998c3121f" id="r_a94f5bedaa1564443f3a71ee998c3121f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94f5bedaa1564443f3a71ee998c3121f">AddCancelButton</a> (string title, Callback callback)</td></tr>
 <tr class="memdesc:a94f5bedaa1564443f3a71ee998c3121f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds action button to the alert. This style type indicates the action cancels the operation and leaves things unchanged.  <br /></td></tr>
 <tr class="separator:a94f5bedaa1564443f3a71ee998c3121f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,7 +175,7 @@ Properties</h2></td></tr>
 <div class="ttc" id="aclass_voxel_busters_1_1_essential_kit_1_1_alert_dialog_html"><div class="ttname"><a href="../../d6/d61/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog.html">VoxelBusters.EssentialKit.AlertDialog</a></div><div class="ttdoc">The AlertDialog class provides an interface to display an alert message to the user.</div><div class="ttdef"><b>Definition</b> AlertDialog.cs:46</div></div>
 <div class="ttc" id="aclass_voxel_busters_1_1_essential_kit_1_1_alert_dialog_html_a0d747e821d05934209c34004aec84052"><div class="ttname"><a href="#a0d747e821d05934209c34004aec84052">VoxelBusters.EssentialKit.AlertDialog.AddButton</a></div><div class="ttdeci">void AddButton(string title, Callback callback)</div><div class="ttdoc">Adds an action button to the alert. Here, the default style is used.</div><div class="ttdef"><b>Definition</b> AlertDialog.cs:186</div></div>
 <div class="ttc" id="aclass_voxel_busters_1_1_essential_kit_1_1_alert_dialog_html_a6700b6126f39be22315639612fdfb26c"><div class="ttname"><a href="#a6700b6126f39be22315639612fdfb26c">VoxelBusters.EssentialKit.AlertDialog.CreateInstance</a></div><div class="ttdeci">static AlertDialog CreateInstance(AlertDialogStyle alertStyle=AlertDialogStyle.Default)</div><div class="ttdoc">Creates a new instance of the AlertDialog class.</div><div class="ttdef"><b>Definition</b> AlertDialog.cs:113</div></div>
-<div class="ttc" id="aclass_voxel_busters_1_1_essential_kit_1_1_alert_dialog_html_ace79e5f49885e486e8e1d48ff0666476"><div class="ttname"><a href="#ace79e5f49885e486e8e1d48ff0666476">VoxelBusters.EssentialKit.AlertDialog.Show</a></div><div class="ttdeci">void Show()</div><div class="ttdoc">Shows the alert dialog to the user.</div><div class="ttdef"><b>Definition</b> AlertDialog.cs:212</div></div>
+<div class="ttc" id="aclass_voxel_busters_1_1_essential_kit_1_1_alert_dialog_html_ace79e5f49885e486e8e1d48ff0666476"><div class="ttname"><a href="#ace79e5f49885e486e8e1d48ff0666476">VoxelBusters.EssentialKit.AlertDialog.Show</a></div><div class="ttdeci">void Show()</div><div class="ttdoc">Shows the alert dialog to the user.</div><div class="ttdef"><b>Definition</b> AlertDialog.cs:217</div></div>
 <div class="ttc" id="anamespace_voxel_busters_1_1_essential_kit_html"><div class="ttname"><a href="../../da/d57/namespace_voxel_busters_1_1_essential_kit.html">VoxelBusters.EssentialKit</a></div><div class="ttdoc">Namespace for essential kit features. You need to import this namespace along with VoxelBusters....</div><div class="ttdef"><b>Definition</b> AddressBook.cs:8</div></div>
 </div><!-- fragment --> </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a6700b6126f39be22315639612fdfb26c" name="a6700b6126f39be22315639612fdfb26c"></a>
@@ -229,10 +232,12 @@ Properties</h2></td></tr>
   </dd>
 </dl>
 
+<p class="reference">Referenced by <a class="el" href="../../d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder.html#af1d799dcd4125232f7d470a218fe4735">AlertDialogBuilder.AddTextInputField()</a>.</p>
+
 </div>
 </div>
 <a id="a0d747e821d05934209c34004aec84052" name="a0d747e821d05934209c34004aec84052"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d747e821d05934209c34004aec84052">&#9670;&#160;</a></span>AddButton()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d747e821d05934209c34004aec84052">&#9670;&#160;</a></span>AddButton() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -257,7 +262,35 @@ Properties</h2></td></tr>
   </dd>
 </dl>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder.html#a0eb43e7d687eab8ece4149070bf1247a">AlertDialogBuilder.AddButton()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder.html#a0eb43e7d687eab8ece4149070bf1247a">AlertDialogBuilder.AddButton()</a>, and <a class="el" href="../../d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder.html#ad79a603c34e0fed7114b76b468d92984">AlertDialogBuilder.AddButton()</a>.</p>
+
+</div>
+</div>
+<a id="a5edf0dff88ef94acdfccab0150197d71" name="a5edf0dff88ef94acdfccab0150197d71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5edf0dff88ef94acdfccab0150197d71">&#9670;&#160;</a></span>AddButton() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AddButton </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>title</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Callback&lt; string[]&gt;</td>          <td class="paramname"><span class="paramname"><em>callback</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">title</td><td>The title of the button.</td></tr>
+    <tr><td class="paramname">callback</td><td>The method to execute when the user selects this button which returns array of input text values, if any.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -344,7 +377,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/daf/namespace_voxel_busters.html">VoxelBusters</a></li><li class="navelem"><a class="el" href="../../da/d57/namespace_voxel_busters_1_1_essential_kit.html">EssentialKit</a></li><li class="navelem"><a class="el" href="../../d6/d61/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog.html">AlertDialog</a></li>
-    <li class="footer">Generated on Mon Feb 10 2025 for Essential Kit by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">Generated on Wed Aug 20 2025 for Essential Kit by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>
 </body>

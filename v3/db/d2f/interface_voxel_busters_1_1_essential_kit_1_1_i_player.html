@@ -141,6 +141,15 @@ string&#160;</td><td class="memItemRight" valign="bottom"><b>Id</b><code> [get]<
 <tr class="memitem:aa0cbc31942d14d6c3e7ac461b42388a8" id="r_aa0cbc31942d14d6c3e7ac461b42388a8"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0cbc31942d14d6c3e7ac461b42388a8">LegacyId</a><code> [get]</code></td></tr>
 <tr class="memdesc:aa0cbc31942d14d6c3e7ac461b42388a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Legacy identifier for backward compatibility. Use <a class="el" href="#a186291c875988107b7ace745ea84d4ec" title="A string assigned by game service to uniquely identify a player. (read-only)">Id</a> or <a class="el" href="#acb49756bb1e0cde63867c7c1fbecec5e" title="A unique identifier for a player of all the games that you distribute using your developer account.">DeveloperScopeId</a> instead.  <br /></td></tr>
 <tr class="separator:aa0cbc31942d14d6c3e7ac461b42388a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4df71ed6bf05109e86a43738e8f9898a" id="r_a4df71ed6bf05109e86a43738e8f9898a"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4df71ed6bf05109e86a43738e8f9898a">Identifier</a><code> [get]</code></td></tr>
+<tr class="memdesc:a4df71ed6bf05109e86a43738e8f9898a"><td class="mdescLeft">&#160;</td><td class="mdescRight">A string assigned by game service to uniquely identify a player. (read-only) On iOS, this is equivalent to game scope identifier.  <br /></td></tr>
+<tr class="separator:a4df71ed6bf05109e86a43738e8f9898a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79058db2ed94f4241d163657bcce788c" id="r_a79058db2ed94f4241d163657bcce788c"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79058db2ed94f4241d163657bcce788c">DeveloperScopeIdentifier</a><code> [get]</code></td></tr>
+<tr class="memdesc:a79058db2ed94f4241d163657bcce788c"><td class="mdescLeft">&#160;</td><td class="mdescRight">A unique identifier for a player of all the games that you distribute using your developer account.  <br /></td></tr>
+<tr class="separator:a79058db2ed94f4241d163657bcce788c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abde07ef8de541da9829605a7f3d25a2c" id="r_abde07ef8de541da9829605a7f3d25a2c"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abde07ef8de541da9829605a7f3d25a2c">LegacyIdentifier</a><code> [get]</code></td></tr>
+<tr class="memdesc:abde07ef8de541da9829605a7f3d25a2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Legacy identifier for backward compatibility. Use <a class="el" href="#a4df71ed6bf05109e86a43738e8f9898a" title="A string assigned by game service to uniquely identify a player. (read-only) On iOS,...">Identifier</a> or <a class="el" href="#a79058db2ed94f4241d163657bcce788c" title="A unique identifier for a player of all the games that you distribute using your developer account.">DeveloperScopeIdentifier</a> instead.  <br /></td></tr>
+<tr class="separator:abde07ef8de541da9829605a7f3d25a2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2ebdabf1f5b5afb170cd94ea4d28d52" id="r_ab2ebdabf1f5b5afb170cd94ea4d28d52"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2ebdabf1f5b5afb170cd94ea4d28d52">Alias</a><code> [get]</code></td></tr>
 <tr class="memdesc:ab2ebdabf1f5b5afb170cd94ea4d28d52"><td class="mdescLeft">&#160;</td><td class="mdescRight">A string chosen by the player to identify themselves to others. (read-only)  <br /></td></tr>
 <tr class="separator:ab2ebdabf1f5b5afb170cd94ea4d28d52"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -220,6 +229,76 @@ string&#160;</td><td class="memItemRight" valign="bottom"><b>Id</b><code> [get]<
 
 </div>
 </div>
+<a id="a4df71ed6bf05109e86a43738e8f9898a" name="a4df71ed6bf05109e86a43738e8f9898a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4df71ed6bf05109e86a43738e8f9898a">&#9670;&#160;</a></span>Identifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Identifier</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section note"><dt>Note</dt><dd>If you are migrating from V2 and still want to use the same identifier as in v2 you need to use LegacyIdentifier instead. </dd></dl>
+
+</div>
+</div>
+<a id="a79058db2ed94f4241d163657bcce788c" name="a79058db2ed94f4241d163657bcce788c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79058db2ed94f4241d163657bcce788c">&#9670;&#160;</a></span>DeveloperScopeIdentifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string DeveloperScopeIdentifier</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This property is used to identify a player across all the games that you develop and distribute with the same developer account. </p>
+<dl class="section note"><dt>Note</dt><dd>This is currently available for iOS only. </dd></dl>
+
+</div>
+</div>
+<a id="abde07ef8de541da9829605a7f3d25a2c" name="abde07ef8de541da9829605a7f3d25a2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abde07ef8de541da9829605a7f3d25a2c">&#9670;&#160;</a></span>LegacyIdentifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string LegacyIdentifier</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This property is used for legacy purposes and should not be used in new code. Please use <a class="el" href="#a4df71ed6bf05109e86a43738e8f9898a" title="A string assigned by game service to uniquely identify a player. (read-only) On iOS,...">Identifier</a> or <a class="el" href="#a79058db2ed94f4241d163657bcce788c" title="A unique identifier for a player of all the games that you distribute using your developer account.">DeveloperScopeIdentifier</a> instead. </p>
+
+</div>
+</div>
 <a id="ab2ebdabf1f5b5afb170cd94ea4d28d52" name="ab2ebdabf1f5b5afb170cd94ea4d28d52"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab2ebdabf1f5b5afb170cd94ea4d28d52">&#9670;&#160;</a></span>Alias</h2>
 
@@ -272,7 +351,7 @@ string&#160;</td><td class="memItemRight" valign="bottom"><b>Id</b><code> [get]<
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/daf/namespace_voxel_busters.html">VoxelBusters</a></li><li class="navelem"><a class="el" href="../../da/d57/namespace_voxel_busters_1_1_essential_kit.html">EssentialKit</a></li><li class="navelem"><a class="el" href="../../db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player.html">IPlayer</a></li>
-    <li class="footer">Generated on Mon Feb 10 2025 for Essential Kit by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">Generated on Wed Aug 20 2025 for Essential Kit by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>
 </body>
