@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_83559809ec978f72feb8d721179a133e" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup</compoundname>
+    <innerfile refid="de/d87/_core_library_settings_8cs">CoreLibrarySettings.cs</innerfile>
+    <innerfile refid="d8/d76/_settings_object_8cs">SettingsObject.cs</innerfile>
+    <innerfile refid="d1/d86/_settings_property_group_8cs">SettingsPropertyGroup.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/"/>
+  </compounddef>
+</doxygen>

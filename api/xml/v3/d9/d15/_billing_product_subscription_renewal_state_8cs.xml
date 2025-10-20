@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/d15/_billing_product_subscription_renewal_state_8cs" kind="file" language="C#">
+    <compoundname>BillingProductSubscriptionRenewalState.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4fe4cf71a855612966d19f8dff53149d" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>BillingProductSubscriptionRenewalState</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductSubscriptionRenewalState</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4fe4cf71a855612966d19f8dff53149da88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>Unknown state of the subscription renewal. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4fe4cf71a855612966d19f8dff53149da808c7457c768423c5651cbf676d9f6d7" prot="public">
+          <name>Subscribed</name>
+          <briefdescription>
+<para>User is currently subscribed to the product. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4fe4cf71a855612966d19f8dff53149da24fe48030f7d3097d5882535b04c3fa8" prot="public">
+          <name>Expired</name>
+          <briefdescription>
+<para>User&apos;s subscription to the product has expired. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4fe4cf71a855612966d19f8dff53149dab5dca45a58dc577dd1428f2c9a74fdc0" prot="public">
+          <name>InBillingRetryPeriod</name>
+          <briefdescription>
+<para>The App Store is attempting to renew a subscription on behalf of the user. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4fe4cf71a855612966d19f8dff53149da201a4991bdf8daaaba00e075442b49e3" prot="public">
+          <name>InGracePeriod</name>
+          <briefdescription>
+<para>User&apos;s subscription is in the process of being canceled and will terminate at the end of the current billing cycle. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4fe4cf71a855612966d19f8dff53149daefb216eb79453b9aab85cee34f38c055" prot="public">
+          <name>Revoked</name>
+          <briefdescription>
+<para>User explicitly revoked the subscription. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>State of the subscription renewal. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionRenewalState.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionRenewalState.cs" bodystart="11" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionRenewalState.cs"/>
+  </compounddef>
+</doxygen>

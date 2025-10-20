@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d6/dd4/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_domain" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::EssentialKitDomain</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d6/dd4/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_domain_1a57818ca0924f9791fd2e538c3e12ccd7" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Default</definition>
+        <argsstring></argsstring>
+        <name>Default</name>
+        <qualifiedname>VoxelBusters.EssentialKit.EssentialKitDomain.Default</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="12" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="11" bodyend="13"/>
+    <listofallmembers>
+      <member refid="d6/dd4/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_domain_1a57818ca0924f9791fd2e538c3e12ccd7" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::EssentialKitDomain</scope><name>Default</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

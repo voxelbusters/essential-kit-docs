@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d0/d6d/class_voxel_busters_1_1_core_library_1_1_interface_field_attribute" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::InterfaceFieldAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">PropertyAttribute</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d0/d6d/class_voxel_busters_1_1_core_library_1_1_interface_field_attribute_1a2f5f412b60a35ceef133f5b64a6cc877" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>Type</type>
+        <definition>Type InterfaceType</definition>
+        <argsstring></argsstring>
+        <name>InterfaceType</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.InterfaceFieldAttribute.InterfaceType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/InterfaceFieldAttribute.cs" line="12" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/InterfaceFieldAttribute.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d6d/class_voxel_busters_1_1_core_library_1_1_interface_field_attribute_1aa0cce7d13f89aa6e67eaf31056230656" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InterfaceFieldAttribute</definition>
+        <argsstring>(Type interfaceType)</argsstring>
+        <name>InterfaceFieldAttribute</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.InterfaceFieldAttribute.InterfaceFieldAttribute</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>interfaceType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/InterfaceFieldAttribute.cs" line="22" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/InterfaceFieldAttribute.cs" bodystart="22" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/InterfaceFieldAttribute.cs" line="8" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/InterfaceFieldAttribute.cs" bodystart="9" bodyend="29"/>
+    <listofallmembers>
+      <member refid="d0/d6d/class_voxel_busters_1_1_core_library_1_1_interface_field_attribute_1aa0cce7d13f89aa6e67eaf31056230656" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::InterfaceFieldAttribute</scope><name>InterfaceFieldAttribute</name></member>
+      <member refid="d0/d6d/class_voxel_busters_1_1_core_library_1_1_interface_field_attribute_1a2f5f412b60a35ceef133f5b64a6cc877" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::InterfaceFieldAttribute</scope><name>InterfaceType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dc/d92/_billing_services_error_code_8cs" kind="file" language="C#">
+    <compoundname>BillingServicesErrorCode.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>BillingServicesErrorCode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesErrorCode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>Unknown error occurred. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903a47423b8444592efbe331550c5620e821" prot="public">
+          <name>NetworkError</name>
+          <briefdescription>
+<para>Network error occurred. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903ab932b91f686c2aa588adfd9a407155ca" prot="public">
+          <name>SystemError</name>
+          <briefdescription>
+<para>System error occurred. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903aad5f8b24cdcecf7e873a0fe2b434454c" prot="public">
+          <name>BillingNotAvailable</name>
+          <briefdescription>
+<para>Billing service is not available. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903aa1c5e6502ca662f4bd67e5ddad598ed7" prot="public">
+          <name>StoreNotInitialized</name>
+          <briefdescription>
+<para>Store is not initialized. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903a4c24ee8a26129f8d22a93d68afa83574" prot="public">
+          <name>StoreIsBusy</name>
+          <briefdescription>
+<para>Store is busy processing another request. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903abbfe96b896eba6b2bff34fcf6b1086c6" prot="public">
+          <name>UserCancelled</name>
+          <briefdescription>
+<para>User cancelled the payment. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903a7dc54a3147456489040816c21372aff4" prot="public">
+          <name>OfferNotApplicable</name>
+          <briefdescription>
+<para>Offer is not applicable. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903a46a1a8603feecdb7ceb58d0272b5d222" prot="public">
+          <name>OfferNotValid</name>
+          <briefdescription>
+<para>Offer is not valid. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903a61b6e357e51cdc09d33482342199e760" prot="public">
+          <name>QuantityNotValid</name>
+          <briefdescription>
+<para>Quantity is not valid. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903ad14b86399d5e888778749b5c52add16b" prot="public">
+          <name>ProductNotAvailable</name>
+          <briefdescription>
+<para>Product is not available. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903a876a2a65fd5cf4ab2a093e135a58a81a" prot="public">
+          <name>ProductOwned</name>
+          <briefdescription>
+<para>Product is already owned. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903afb12ff30441dbc154f6d2591169f012c" prot="public">
+          <name>FeatureNotAvailable</name>
+          <briefdescription>
+<para>Feature is not available. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Describes the error code which can occur when requesting for payment. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesErrorCode.cs" line="9" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesErrorCode.cs" bodystart="10" bodyend="63"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesErrorCode.cs"/>
+  </compounddef>
+</doxygen>

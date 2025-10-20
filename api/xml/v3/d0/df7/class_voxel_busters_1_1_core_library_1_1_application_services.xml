@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d0/df7/class_voxel_busters_1_1_core_library_1_1_application_services" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::ApplicationServices</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d0/df7/class_voxel_busters_1_1_core_library_1_1_application_services_1acc04f0542c3933731804c5869c2eb8f0" prot="private" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float s_originalTimeScale</definition>
+        <argsstring></argsstring>
+        <name>s_originalTimeScale</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ApplicationServices.s_originalTimeScale</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationServices.cs" line="14" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationServices.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d0/df7/class_voxel_busters_1_1_core_library_1_1_application_services_1a4af6f152969ea4c7033594e53ea290d0" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static ApplicationServices</definition>
+        <argsstring>()</argsstring>
+        <name>ApplicationServices</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ApplicationServices.ApplicationServices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationServices.cs" line="20" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationServices.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/df7/class_voxel_busters_1_1_core_library_1_1_application_services_1a3b4e25ab4bd05797f543b6f7551fee48" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ApplicationServices.Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationServices.cs" line="30" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationServices.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d0/df7/class_voxel_busters_1_1_core_library_1_1_application_services_1ab315983151c7d308652b293ded8db0f5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SetApplicationPaused</definition>
+        <argsstring>(bool pause)</argsstring>
+        <name>SetApplicationPaused</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ApplicationServices.SetApplicationPaused</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>pause</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationServices.cs" line="35" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationServices.cs" bodystart="35" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/df7/class_voxel_busters_1_1_core_library_1_1_application_services_1a5878be28b8a9452148c7e459bd689266" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>RuntimePlatform</type>
+        <definition>static RuntimePlatform GetActivePlatform</definition>
+        <argsstring>()</argsstring>
+        <name>GetActivePlatform</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ApplicationServices.GetActivePlatform</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationServices.cs" line="53" column="39" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationServices.cs" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/df7/class_voxel_busters_1_1_core_library_1_1_application_services_1a46f6b75d9f0389f70a6259b73e4bb36a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>RuntimePlatform</type>
+        <definition>static RuntimePlatform GetActiveOrSimulationPlatform</definition>
+        <argsstring>()</argsstring>
+        <name>GetActiveOrSimulationPlatform</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ApplicationServices.GetActiveOrSimulationPlatform</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationServices.cs" line="58" column="39" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationServices.cs" bodystart="58" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/df7/class_voxel_busters_1_1_core_library_1_1_application_services_1a946fbc8c80105c1afdbe0eb959081da5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IsPlayingOrSimulatingMobilePlatform</definition>
+        <argsstring>()</argsstring>
+        <name>IsPlayingOrSimulatingMobilePlatform</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ApplicationServices.IsPlayingOrSimulatingMobilePlatform</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationServices.cs" line="67" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationServices.cs" bodystart="67" bodyend="75"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationServices.cs" line="9" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationServices.cs" bodystart="10" bodyend="108"/>
+    <listofallmembers>
+      <member refid="d0/df7/class_voxel_busters_1_1_core_library_1_1_application_services_1a4af6f152969ea4c7033594e53ea290d0" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationServices</scope><name>ApplicationServices</name></member>
+      <member refid="d0/df7/class_voxel_busters_1_1_core_library_1_1_application_services_1a46f6b75d9f0389f70a6259b73e4bb36a" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationServices</scope><name>GetActiveOrSimulationPlatform</name></member>
+      <member refid="d0/df7/class_voxel_busters_1_1_core_library_1_1_application_services_1a5878be28b8a9452148c7e459bd689266" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationServices</scope><name>GetActivePlatform</name></member>
+      <member refid="d0/df7/class_voxel_busters_1_1_core_library_1_1_application_services_1a3b4e25ab4bd05797f543b6f7551fee48" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationServices</scope><name>Initialize</name></member>
+      <member refid="d0/df7/class_voxel_busters_1_1_core_library_1_1_application_services_1a946fbc8c80105c1afdbe0eb959081da5" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationServices</scope><name>IsPlayingOrSimulatingMobilePlatform</name></member>
+      <member refid="d0/df7/class_voxel_busters_1_1_core_library_1_1_application_services_1acc04f0542c3933731804c5869c2eb8f0" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationServices</scope><name>s_originalTimeScale</name></member>
+      <member refid="d0/df7/class_voxel_busters_1_1_core_library_1_1_application_services_1ab315983151c7d308652b293ded8db0f5" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationServices</scope><name>SetApplicationPaused</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

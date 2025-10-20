@@ -1,0 +1,596 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::ReflectionUtility</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1ad183a0f6a507d4d26828f94e82720ee9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Type</type>
+        <definition>static Type GetTypeFromCSharpAssembly</definition>
+        <argsstring>(string typeName)</argsstring>
+        <name>GetTypeFromCSharpAssembly</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReflectionUtility.GetTypeFromCSharpAssembly</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>typeName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="21" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a59b79e4ed2d3d5c501a6400f6ced5091" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Type</type>
+        <definition>static Type GetTypeFromCSharpFirstPassAssembly</definition>
+        <argsstring>(string typeName)</argsstring>
+        <name>GetTypeFromCSharpFirstPassAssembly</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReflectionUtility.GetTypeFromCSharpFirstPassAssembly</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>typeName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="27" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a6d08fcc6490f47da3ba9fc2f66353b3b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Type</type>
+        <definition>static Type GetTypeFromAssemblyCSharp</definition>
+        <argsstring>(string typeName, bool includeFirstPass=false)</argsstring>
+        <name>GetTypeFromAssemblyCSharp</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReflectionUtility.GetTypeFromAssemblyCSharp</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>typeName</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>includeFirstPass</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="32" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="32" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a53cb6279eb214999e0ec0047abd54613" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Type</type>
+        <definition>static Type GetType</definition>
+        <argsstring>(string assemblyName, string typeName)</argsstring>
+        <name>GetType</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReflectionUtility.GetType</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>assemblyName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>typeName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="46" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="46" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a0943d46a96a2714154f354450518bb95" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Assembly</type>
+        <definition>static Assembly FindAssemblyWithName</definition>
+        <argsstring>(string assemblyName)</argsstring>
+        <name>FindAssemblyWithName</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReflectionUtility.FindAssemblyWithName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>assemblyName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="57" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="57" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a2b8ac6af8f6c7f55a232de3739caad6f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Type[]</type>
+        <definition>static Type[] FindAllTypes</definition>
+        <argsstring>(Predicate&lt; Type &gt; predicate=null)</argsstring>
+        <name>FindAllTypes</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReflectionUtility.FindAllTypes</qualifiedname>
+        <param>
+          <type>Predicate&lt; Type &gt;</type>
+          <declname>predicate</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="65" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="65" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a0c8490e091baf7946969e17e8b54d412" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool TryGetCustomAttriute</definition>
+        <argsstring>(this MethodInfo methodInfo, Type attributeType, out Attribute attribute, bool inherit=false)</argsstring>
+        <name>TryGetCustomAttriute</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReflectionUtility.TryGetCustomAttriute</qualifiedname>
+        <param>
+          <type>this MethodInfo</type>
+          <declname>methodInfo</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>attributeType</declname>
+        </param>
+        <param>
+          <type>out Attribute</type>
+          <declname>attribute</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>inherit</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="81" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="81" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a0854039211e996d7d1a36d0bcc37feaf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool TryGetCustomAttriute&lt; TAttribute &gt;</definition>
+        <argsstring>(this MethodInfo methodInfo, out TAttribute attribute, bool inherit=false)</argsstring>
+        <name>TryGetCustomAttriute&lt; TAttribute &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReflectionUtility.TryGetCustomAttriute&lt; TAttribute &gt;</qualifiedname>
+        <param>
+          <type>this MethodInfo</type>
+          <declname>methodInfo</declname>
+        </param>
+        <param>
+          <type>out TAttribute</type>
+          <declname>attribute</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>inherit</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="99" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="99" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1ad59cda15cc87404e442f88eee33fd47b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object CreateInstance</definition>
+        <argsstring>(Type type, bool nonPublic=true)</argsstring>
+        <name>CreateInstance</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReflectionUtility.CreateInstance</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>nonPublic</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="115" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="115" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1ae4e61518fb155e6585c7d5450725cd5b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object CreateInstance</definition>
+        <argsstring>(Type type, params object[] args)</argsstring>
+        <name>CreateInstance</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReflectionUtility.CreateInstance</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="120" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="120" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a408b21e29c21ee73b79dacd9534fe0da" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; Type, Attribute[]&gt;</type>
+        <definition>static Dictionary&lt; Type, Attribute[]&gt; FindTypesWithAttribute</definition>
+        <argsstring>(Type attributeType, bool inherit=false)</argsstring>
+        <name>FindTypesWithAttribute</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReflectionUtility.FindTypesWithAttribute</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>attributeType</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>inherit</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="129" column="26" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="129" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1afa3544a9ba072702b2fe64f056e890d2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object InvokeStaticMethod</definition>
+        <argsstring>(this Type type, string method, params object[] parameters)</argsstring>
+        <name>InvokeStaticMethod</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReflectionUtility.InvokeStaticMethod</qualifiedname>
+        <param>
+          <type>this Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>parameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="174" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="174" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a083763e96eb4c59d8e0efe4f76edce2f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T InvokeStaticMethod&lt; T &gt;</definition>
+        <argsstring>(this Type type, string method, params object[] parameters)</argsstring>
+        <name>InvokeStaticMethod&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReflectionUtility.InvokeStaticMethod&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>parameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="179" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="179" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a10a74275693c993e8f20b2b75bae3b1a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SetPropertyValue</definition>
+        <argsstring>(this object obj, string name, object value)</argsstring>
+        <name>SetPropertyValue</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReflectionUtility.SetPropertyValue</qualifiedname>
+        <param>
+          <type>this object</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="188" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="188" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a5dc3081ce7a6bd319f8b82ca5288f6ac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetFieldName&lt; TInstance, TProperty &gt;</definition>
+        <argsstring>(Expression&lt; Func&lt; TInstance, TProperty &gt; &gt; fieldAccess)</argsstring>
+        <name>GetFieldName&lt; TInstance, TProperty &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReflectionUtility.GetFieldName&lt; TInstance, TProperty &gt;</qualifiedname>
+        <param>
+          <type>Expression&lt; Func&lt; TInstance, TProperty &gt; &gt;</type>
+          <declname>fieldAccess</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="211" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="211" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1ad1468e0c340708e60f48ba0c81047517" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FieldInfo</type>
+        <definition>static FieldInfo GetField</definition>
+        <argsstring>(Type type, string fieldName)</argsstring>
+        <name>GetField</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReflectionUtility.GetField</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fieldName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="221" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="221" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a9abde20a987d3e5992e26d16b2914416" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TAttribute</type>
+        <definition>static TAttribute GetAttribute&lt; TAttribute &gt;</definition>
+        <argsstring>(FieldInfo field)</argsstring>
+        <name>GetAttribute&lt; TAttribute &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReflectionUtility.GetAttribute&lt; TAttribute &gt;</qualifiedname>
+        <param>
+          <type>FieldInfo</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="226" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="226" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1ac4b4aea4db100cf1edfb64795c31ba8e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ConstrainMin&lt; TInstance, TProperty &gt;</definition>
+        <argsstring>(TInstance instance, Expression&lt; Func&lt; TInstance, TProperty &gt; &gt; fieldAccess, float value)</argsstring>
+        <name>ConstrainMin&lt; TInstance, TProperty &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReflectionUtility.ConstrainMin&lt; TInstance, TProperty &gt;</qualifiedname>
+        <param>
+          <type>TInstance</type>
+          <declname>instance</declname>
+        </param>
+        <param>
+          <type>Expression&lt; Func&lt; TInstance, TProperty &gt; &gt;</type>
+          <declname>fieldAccess</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="232" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="232" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a5a61052e02e8937e0afd32dd84cb2193" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ConstrainMin&lt; TInstance, TProperty &gt;</definition>
+        <argsstring>(TInstance instance, Expression&lt; Func&lt; TInstance, TProperty &gt; &gt; fieldAccess, int value)</argsstring>
+        <name>ConstrainMin&lt; TInstance, TProperty &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReflectionUtility.ConstrainMin&lt; TInstance, TProperty &gt;</qualifiedname>
+        <param>
+          <type>TInstance</type>
+          <declname>instance</declname>
+        </param>
+        <param>
+          <type>Expression&lt; Func&lt; TInstance, TProperty &gt; &gt;</type>
+          <declname>fieldAccess</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="239" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="239" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a046fff50e23d373ae7540ebc0bc5b508" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ConstrainRange&lt; TInstance, TProperty &gt;</definition>
+        <argsstring>(TInstance instance, Expression&lt; Func&lt; TInstance, TProperty &gt; &gt; fieldAccess, float value)</argsstring>
+        <name>ConstrainRange&lt; TInstance, TProperty &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReflectionUtility.ConstrainRange&lt; TInstance, TProperty &gt;</qualifiedname>
+        <param>
+          <type>TInstance</type>
+          <declname>instance</declname>
+        </param>
+        <param>
+          <type>Expression&lt; Func&lt; TInstance, TProperty &gt; &gt;</type>
+          <declname>fieldAccess</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="247" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="247" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a33edca58c5fea8c5e8691c7f0f968e33" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ConstrainRange&lt; TInstance, TProperty &gt;</definition>
+        <argsstring>(TInstance instance, Expression&lt; Func&lt; TInstance, TProperty &gt; &gt; fieldAccess, int value)</argsstring>
+        <name>ConstrainRange&lt; TInstance, TProperty &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReflectionUtility.ConstrainRange&lt; TInstance, TProperty &gt;</qualifiedname>
+        <param>
+          <type>TInstance</type>
+          <declname>instance</declname>
+        </param>
+        <param>
+          <type>Expression&lt; Func&lt; TInstance, TProperty &gt; &gt;</type>
+          <declname>fieldAccess</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="255" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="255" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a17fe4f52a42fb54b7afcd305c2a51581" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ConstrainDefault&lt; TInstance, TProperty &gt;</definition>
+        <argsstring>(TInstance instance, Expression&lt; Func&lt; TInstance, TProperty &gt; &gt; fieldAccess, Func&lt; bool &gt; condition=null)</argsstring>
+        <name>ConstrainDefault&lt; TInstance, TProperty &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReflectionUtility.ConstrainDefault&lt; TInstance, TProperty &gt;</qualifiedname>
+        <param>
+          <type>TInstance</type>
+          <declname>instance</declname>
+        </param>
+        <param>
+          <type>Expression&lt; Func&lt; TInstance, TProperty &gt; &gt;</type>
+          <declname>fieldAccess</declname>
+        </param>
+        <param>
+          <type>Func&lt; bool &gt;</type>
+          <declname>condition</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="263" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="263" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a9fd530fe44736ab81fe376e0854d8b26" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ConstrainDefault&lt; TInstance, TProperty &gt;</definition>
+        <argsstring>(TInstance instance, Expression&lt; Func&lt; TInstance, TProperty &gt; &gt; fieldAccess, string value)</argsstring>
+        <name>ConstrainDefault&lt; TInstance, TProperty &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReflectionUtility.ConstrainDefault&lt; TInstance, TProperty &gt;</qualifiedname>
+        <param>
+          <type>TInstance</type>
+          <declname>instance</declname>
+        </param>
+        <param>
+          <type>Expression&lt; Func&lt; TInstance, TProperty &gt; &gt;</type>
+          <declname>fieldAccess</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="276" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="276" bodyend="281"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1af1e4f839800b267e2db1f55e3312b9c0" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; Type &gt;</type>
+        <definition>static IEnumerable&lt; Type &gt; GetLoadableTypes</definition>
+        <argsstring>(Assembly assembly)</argsstring>
+        <name>GetLoadableTypes</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReflectionUtility.GetLoadableTypes</qualifiedname>
+        <param>
+          <type>Assembly</type>
+          <declname>assembly</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="287" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="287" bodyend="294"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="16" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="17" bodyend="297"/>
+    <listofallmembers>
+      <member refid="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a17fe4f52a42fb54b7afcd305c2a51581" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReflectionUtility</scope><name>ConstrainDefault&lt; TInstance, TProperty &gt;</name></member>
+      <member refid="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a9fd530fe44736ab81fe376e0854d8b26" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReflectionUtility</scope><name>ConstrainDefault&lt; TInstance, TProperty &gt;</name></member>
+      <member refid="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1ac4b4aea4db100cf1edfb64795c31ba8e" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReflectionUtility</scope><name>ConstrainMin&lt; TInstance, TProperty &gt;</name></member>
+      <member refid="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a5a61052e02e8937e0afd32dd84cb2193" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReflectionUtility</scope><name>ConstrainMin&lt; TInstance, TProperty &gt;</name></member>
+      <member refid="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a046fff50e23d373ae7540ebc0bc5b508" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReflectionUtility</scope><name>ConstrainRange&lt; TInstance, TProperty &gt;</name></member>
+      <member refid="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a33edca58c5fea8c5e8691c7f0f968e33" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReflectionUtility</scope><name>ConstrainRange&lt; TInstance, TProperty &gt;</name></member>
+      <member refid="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1ad59cda15cc87404e442f88eee33fd47b" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReflectionUtility</scope><name>CreateInstance</name></member>
+      <member refid="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1ae4e61518fb155e6585c7d5450725cd5b" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReflectionUtility</scope><name>CreateInstance</name></member>
+      <member refid="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a2b8ac6af8f6c7f55a232de3739caad6f" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReflectionUtility</scope><name>FindAllTypes</name></member>
+      <member refid="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a0943d46a96a2714154f354450518bb95" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReflectionUtility</scope><name>FindAssemblyWithName</name></member>
+      <member refid="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a408b21e29c21ee73b79dacd9534fe0da" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReflectionUtility</scope><name>FindTypesWithAttribute</name></member>
+      <member refid="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a9abde20a987d3e5992e26d16b2914416" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReflectionUtility</scope><name>GetAttribute&lt; TAttribute &gt;</name></member>
+      <member refid="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1ad1468e0c340708e60f48ba0c81047517" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReflectionUtility</scope><name>GetField</name></member>
+      <member refid="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a5dc3081ce7a6bd319f8b82ca5288f6ac" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReflectionUtility</scope><name>GetFieldName&lt; TInstance, TProperty &gt;</name></member>
+      <member refid="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1af1e4f839800b267e2db1f55e3312b9c0" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReflectionUtility</scope><name>GetLoadableTypes</name></member>
+      <member refid="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a53cb6279eb214999e0ec0047abd54613" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReflectionUtility</scope><name>GetType</name></member>
+      <member refid="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a6d08fcc6490f47da3ba9fc2f66353b3b" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReflectionUtility</scope><name>GetTypeFromAssemblyCSharp</name></member>
+      <member refid="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1ad183a0f6a507d4d26828f94e82720ee9" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReflectionUtility</scope><name>GetTypeFromCSharpAssembly</name></member>
+      <member refid="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a59b79e4ed2d3d5c501a6400f6ced5091" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReflectionUtility</scope><name>GetTypeFromCSharpFirstPassAssembly</name></member>
+      <member refid="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1afa3544a9ba072702b2fe64f056e890d2" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReflectionUtility</scope><name>InvokeStaticMethod</name></member>
+      <member refid="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a083763e96eb4c59d8e0efe4f76edce2f" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReflectionUtility</scope><name>InvokeStaticMethod&lt; T &gt;</name></member>
+      <member refid="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a10a74275693c993e8f20b2b75bae3b1a" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReflectionUtility</scope><name>SetPropertyValue</name></member>
+      <member refid="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a0c8490e091baf7946969e17e8b54d412" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReflectionUtility</scope><name>TryGetCustomAttriute</name></member>
+      <member refid="dd/ddd/class_voxel_busters_1_1_core_library_1_1_reflection_utility_1a0854039211e996d7d1a36d0bcc37feaf" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReflectionUtility</scope><name>TryGetCustomAttriute&lt; TAttribute &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

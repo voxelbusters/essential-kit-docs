@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d8/d94/class_voxel_busters_1_1_essential_kit_1_1_app_updater_error" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::AppUpdaterError</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d8/d94/class_voxel_busters_1_1_essential_kit_1_1_app_updater_error_1a668bf88ae885d93a4da7609b8ecdd28e" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string kDomain</definition>
+        <argsstring></argsstring>
+        <name>kDomain</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdaterError.kDomain</qualifiedname>
+        <initializer>= &quot;App Updater&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterError.cs" line="8" column="31" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterError.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d8/d94/class_voxel_busters_1_1_essential_kit_1_1_app_updater_error_1ab83e6cfa400d4d654b2d172a49f358a3" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Error</type>
+        <definition>Error Unknown</definition>
+        <argsstring></argsstring>
+        <name>Unknown</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdaterError.Unknown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterError.cs" line="10" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterError.cs" bodystart="11" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d94/class_voxel_busters_1_1_essential_kit_1_1_app_updater_error_1a61cd9a1dcacba6ec273bc3ecaa2b8dcd" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Error</type>
+        <definition>Error NetworkIssue</definition>
+        <argsstring></argsstring>
+        <name>NetworkIssue</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdaterError.NetworkIssue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterError.cs" line="18" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterError.cs" bodystart="19" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d94/class_voxel_busters_1_1_essential_kit_1_1_app_updater_error_1ab50a4c823536349dda0d06cbbf35b39e" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Error</type>
+        <definition>Error UpdateNotCompatible</definition>
+        <argsstring></argsstring>
+        <name>UpdateNotCompatible</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdaterError.UpdateNotCompatible</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterError.cs" line="26" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterError.cs" bodystart="27" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d94/class_voxel_busters_1_1_essential_kit_1_1_app_updater_error_1a6b9f3cc69d95bac6490992a582080d65" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Error</type>
+        <definition>Error UpdateInfoNotAvailable</definition>
+        <argsstring></argsstring>
+        <name>UpdateInfoNotAvailable</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdaterError.UpdateInfoNotAvailable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterError.cs" line="34" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterError.cs" bodystart="35" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d94/class_voxel_busters_1_1_essential_kit_1_1_app_updater_error_1a48250d13a81e0c03d7a843b6c3df1ca8" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Error</type>
+        <definition>Error UpdateNotAvailable</definition>
+        <argsstring></argsstring>
+        <name>UpdateNotAvailable</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdaterError.UpdateNotAvailable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterError.cs" line="42" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterError.cs" bodystart="43" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d94/class_voxel_busters_1_1_essential_kit_1_1_app_updater_error_1a9999890c2d0a4497c81f4c5d6cddb70b" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Error</type>
+        <definition>Error UpdateInProgress</definition>
+        <argsstring></argsstring>
+        <name>UpdateInProgress</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdaterError.UpdateInProgress</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterError.cs" line="50" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterError.cs" bodystart="51" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d94/class_voxel_busters_1_1_essential_kit_1_1_app_updater_error_1aa6607b6ebbd621910a1c8200f6ece1f9" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Error</type>
+        <definition>Error UpdateCancelled</definition>
+        <argsstring></argsstring>
+        <name>UpdateCancelled</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdaterError.UpdateCancelled</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterError.cs" line="58" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterError.cs" bodystart="59" bodyend="64"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d8/d94/class_voxel_busters_1_1_essential_kit_1_1_app_updater_error_1aa8a02dbb6f658fbea0c1d809e5487899" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error CreateError</definition>
+        <argsstring>(AppUpdaterErrorCode code, string description)</argsstring>
+        <name>CreateError</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdaterError.CreateError</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a28cf169ada28d5a4e5ff5fb1e93f5857" kindref="member">AppUpdaterErrorCode</ref></type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterError.cs" line="66" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterError.cs" bodystart="66" bodyend="69"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterError.cs" line="5" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterError.cs" bodystart="6" bodyend="70"/>
+    <listofallmembers>
+      <member refid="d8/d94/class_voxel_busters_1_1_essential_kit_1_1_app_updater_error_1aa8a02dbb6f658fbea0c1d809e5487899" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppUpdaterError</scope><name>CreateError</name></member>
+      <member refid="d8/d94/class_voxel_busters_1_1_essential_kit_1_1_app_updater_error_1a668bf88ae885d93a4da7609b8ecdd28e" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppUpdaterError</scope><name>kDomain</name></member>
+      <member refid="d8/d94/class_voxel_busters_1_1_essential_kit_1_1_app_updater_error_1a61cd9a1dcacba6ec273bc3ecaa2b8dcd" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppUpdaterError</scope><name>NetworkIssue</name></member>
+      <member refid="d8/d94/class_voxel_busters_1_1_essential_kit_1_1_app_updater_error_1ab83e6cfa400d4d654b2d172a49f358a3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppUpdaterError</scope><name>Unknown</name></member>
+      <member refid="d8/d94/class_voxel_busters_1_1_essential_kit_1_1_app_updater_error_1aa6607b6ebbd621910a1c8200f6ece1f9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppUpdaterError</scope><name>UpdateCancelled</name></member>
+      <member refid="d8/d94/class_voxel_busters_1_1_essential_kit_1_1_app_updater_error_1a6b9f3cc69d95bac6490992a582080d65" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppUpdaterError</scope><name>UpdateInfoNotAvailable</name></member>
+      <member refid="d8/d94/class_voxel_busters_1_1_essential_kit_1_1_app_updater_error_1a9999890c2d0a4497c81f4c5d6cddb70b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppUpdaterError</scope><name>UpdateInProgress</name></member>
+      <member refid="d8/d94/class_voxel_busters_1_1_essential_kit_1_1_app_updater_error_1a48250d13a81e0c03d7a843b6c3df1ca8" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppUpdaterError</scope><name>UpdateNotAvailable</name></member>
+      <member refid="d8/d94/class_voxel_busters_1_1_essential_kit_1_1_app_updater_error_1ab50a4c823536349dda0d06cbbf35b39e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppUpdaterError</scope><name>UpdateNotCompatible</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

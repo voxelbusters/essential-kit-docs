@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/df0/class_voxel_busters_1_1_essential_kit_1_1_web_view_run_java_script_result" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::WebViewRunJavaScriptResult</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d9/df0/class_voxel_busters_1_1_essential_kit_1_1_web_view_run_java_script_result_1a79fc88f18f1b34aeddb552f04ed3c9e3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Result</definition>
+        <argsstring></argsstring>
+        <name>Result</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewRunJavaScriptResult.Result</qualifiedname>
+        <briefdescription>
+<para>The result returned on completing js code. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewRunJavaScriptResult.cs" line="19" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewRunJavaScriptResult.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="d9/df0/class_voxel_busters_1_1_essential_kit_1_1_web_view_run_java_script_result_1a3abbea0d68d2356e07842d8cf8851216" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WebViewRunJavaScriptResult</definition>
+        <argsstring>(string result)</argsstring>
+        <name>WebViewRunJavaScriptResult</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewRunJavaScriptResult.WebViewRunJavaScriptResult</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewRunJavaScriptResult.cs" line="25" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewRunJavaScriptResult.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class contains the information retrieved when <ref refid="dd/db4/class_voxel_busters_1_1_essential_kit_1_1_web_view_1a3c45f7ea90f6da218c5387510d313eba" kindref="member">WebView.RunJavaScript(string, EventCallback&lt;WebViewRunJavaScriptResult&gt;)</ref> operation is completed. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewRunJavaScriptResult.cs" line="12" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewRunJavaScriptResult.cs" bodystart="13" bodyend="32"/>
+    <listofallmembers>
+      <member refid="d9/df0/class_voxel_busters_1_1_essential_kit_1_1_web_view_run_java_script_result_1a79fc88f18f1b34aeddb552f04ed3c9e3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewRunJavaScriptResult</scope><name>Result</name></member>
+      <member refid="d9/df0/class_voxel_busters_1_1_essential_kit_1_1_web_view_run_java_script_result_1a3abbea0d68d2356e07842d8cf8851216" prot="package" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewRunJavaScriptResult</scope><name>WebViewRunJavaScriptResult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

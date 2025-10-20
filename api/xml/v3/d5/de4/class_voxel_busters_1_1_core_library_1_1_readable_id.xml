@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d5/de4/class_voxel_busters_1_1_core_library_1_1_readable_id" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::ReadableId</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d5/de4/class_voxel_busters_1_1_core_library_1_1_readable_id_1ab76434042ddfc9d5e703e038f0ad0b1f" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_name</definition>
+        <argsstring></argsstring>
+        <name>m_name</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReadableId.m_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ReadableId.cs" line="13" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ReadableId.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/de4/class_voxel_busters_1_1_core_library_1_1_readable_id_1aaf217350cb1ae633b3b18fbcb7e14b9b" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_id</definition>
+        <argsstring></argsstring>
+        <name>m_id</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReadableId.m_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ReadableId.cs" line="16" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ReadableId.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d5/de4/class_voxel_busters_1_1_core_library_1_1_readable_id_1a7ee9065718e6628dc7791b756fa6c0f9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReadableId.Name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ReadableId.cs" line="22" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ReadableId.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/de4/class_voxel_busters_1_1_core_library_1_1_readable_id_1a186291c875988107b7ace745ea84d4ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReadableId.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ReadableId.cs" line="24" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ReadableId.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/de4/class_voxel_busters_1_1_core_library_1_1_readable_id_1ac0142af5c7e07ca0cfd458487617dca6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ReadableId</definition>
+        <argsstring>(string name, string id)</argsstring>
+        <name>ReadableId</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReadableId.ReadableId</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ReadableId.cs" line="30" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ReadableId.cs" bodystart="30" bodyend="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ReadableId.cs" line="8" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ReadableId.cs" bodystart="9" bodyend="38"/>
+    <listofallmembers>
+      <member refid="d5/de4/class_voxel_busters_1_1_core_library_1_1_readable_id_1a186291c875988107b7ace745ea84d4ec" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReadableId</scope><name>Id</name></member>
+      <member refid="d5/de4/class_voxel_busters_1_1_core_library_1_1_readable_id_1aaf217350cb1ae633b3b18fbcb7e14b9b" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReadableId</scope><name>m_id</name></member>
+      <member refid="d5/de4/class_voxel_busters_1_1_core_library_1_1_readable_id_1ab76434042ddfc9d5e703e038f0ad0b1f" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReadableId</scope><name>m_name</name></member>
+      <member refid="d5/de4/class_voxel_busters_1_1_core_library_1_1_readable_id_1a7ee9065718e6628dc7791b756fa6c0f9" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReadableId</scope><name>Name</name></member>
+      <member refid="d5/de4/class_voxel_busters_1_1_core_library_1_1_readable_id_1ac0142af5c7e07ca0cfd458487617dca6" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReadableId</scope><name>ReadableId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

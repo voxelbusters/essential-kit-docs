@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/d80/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::CloudServicesUnitySettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SettingsPropertyGroup</basecompoundref>
+    <innerclass refid="d5/d74/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings_1_1_android_platform_properties" prot="public">VoxelBusters::EssentialKit::CloudServicesUnitySettings::AndroidPlatformProperties</innerclass>
+    <innerclass refid="d8/d68/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings_1_1_ios_platform_properties" prot="public">VoxelBusters::EssentialKit::CloudServicesUnitySettings::IosPlatformProperties</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="db/d80/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings_1a75cde8e55eba608a7c09cbbd8a3b591a" prot="private" static="no" mutable="no">
+        <type>IosPlatformProperties</type>
+        <definition>IosPlatformProperties m_iosProperties</definition>
+        <argsstring></argsstring>
+        <name>m_iosProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesUnitySettings.m_iosProperties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/CloudServicesUnitySettings.cs" line="16" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/CloudServicesUnitySettings.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d80/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings_1a336579bd5fe8d5a6c406adea5f33d141" prot="private" static="no" mutable="no">
+        <type>AndroidPlatformProperties</type>
+        <definition>AndroidPlatformProperties m_androidProperties</definition>
+        <argsstring></argsstring>
+        <name>m_androidProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesUnitySettings.m_androidProperties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/CloudServicesUnitySettings.cs" line="21" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/CloudServicesUnitySettings.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="db/d80/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings_1ac85bf8879a7bfb347b77062f1f062603" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>IosPlatformProperties</type>
+        <definition>IosPlatformProperties IosProperties</definition>
+        <argsstring></argsstring>
+        <name>IosProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesUnitySettings.IosProperties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/CloudServicesUnitySettings.cs" line="27" column="38" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/CloudServicesUnitySettings.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="db/d80/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings_1a43ee530d504628390660ed6ec9f35a11" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>AndroidPlatformProperties</type>
+        <definition>AndroidPlatformProperties AndroidProperties</definition>
+        <argsstring></argsstring>
+        <name>AndroidProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesUnitySettings.AndroidProperties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/CloudServicesUnitySettings.cs" line="29" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/CloudServicesUnitySettings.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d80/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings_1a1cbca1f20ed3bccc53def4405404ea2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CloudServicesUnitySettings</definition>
+        <argsstring>(bool isEnabled=true, IosPlatformProperties iosProperties=null, AndroidPlatformProperties androidProperties=null)</argsstring>
+        <name>CloudServicesUnitySettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesUnitySettings.CloudServicesUnitySettings</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isEnabled</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>IosPlatformProperties</type>
+          <declname>iosProperties</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>AndroidPlatformProperties</type>
+          <declname>androidProperties</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/CloudServicesUnitySettings.cs" line="35" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/CloudServicesUnitySettings.cs" bodystart="35" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/CloudServicesUnitySettings.AndroidPlatformProperties.cs" line="9" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/CloudServicesUnitySettings.IosPlatformProperties.cs" bodystart="7" bodyend="45"/>
+    <listofallmembers>
+      <member refid="db/d80/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings_1a43ee530d504628390660ed6ec9f35a11" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesUnitySettings</scope><name>AndroidProperties</name></member>
+      <member refid="db/d80/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings_1a1cbca1f20ed3bccc53def4405404ea2c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesUnitySettings</scope><name>CloudServicesUnitySettings</name></member>
+      <member refid="db/d80/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings_1ac85bf8879a7bfb347b77062f1f062603" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesUnitySettings</scope><name>IosProperties</name></member>
+      <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1a45f8df3acbb2721c2df8462f1cd8f14b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesUnitySettings</scope><name>IsEnabled</name></member>
+      <member refid="db/d80/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings_1a336579bd5fe8d5a6c406adea5f33d141" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesUnitySettings</scope><name>m_androidProperties</name></member>
+      <member refid="db/d80/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings_1a75cde8e55eba608a7c09cbbd8a3b591a" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesUnitySettings</scope><name>m_iosProperties</name></member>
+      <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1a7ee9065718e6628dc7791b756fa6c0f9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesUnitySettings</scope><name>Name</name></member>
+      <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1ac9b0727cd904077f21637b8cbe0b139d" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesUnitySettings</scope><name>SettingsPropertyGroup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

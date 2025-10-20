@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_2f03818565e81c1c84c877e27eb5aa00" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes</compoundname>
+    <innerfile refid="dd/d16/_clear_on_reload_attribute_8cs">ClearOnReloadAttribute.cs</innerfile>
+    <innerfile refid="d3/db2/_default_attribute_8cs">DefaultAttribute.cs</innerfile>
+    <innerfile refid="d5/d81/_enum_mask_field_attribute_8cs">EnumMaskFieldAttribute.cs</innerfile>
+    <innerfile refid="d0/d22/_execute_on_reload_attribute_8cs">ExecuteOnReloadAttribute.cs</innerfile>
+    <innerfile refid="de/df9/_file_browser_attribute_8cs">FileBrowserAttribute.cs</innerfile>
+    <innerfile refid="df/d6c/_folder_browser_attribute_8cs">FolderBrowserAttribute.cs</innerfile>
+    <innerfile refid="dd/da2/_include_in_docs_attribute_8cs">IncludeInDocsAttribute.cs</innerfile>
+    <innerfile refid="d3/d23/_interface_field_attribute_8cs">InterfaceFieldAttribute.cs</innerfile>
+    <innerfile refid="d2/da8/_read_only_attribute_8cs">ReadOnlyAttribute.cs</innerfile>
+    <innerfile refid="d7/d60/_string_popup_attribute_8cs">StringPopupAttribute.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/"/>
+  </compounddef>
+</doxygen>

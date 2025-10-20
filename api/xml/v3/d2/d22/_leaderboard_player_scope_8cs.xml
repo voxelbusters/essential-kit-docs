@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d2/d22/_leaderboard_player_scope_8cs" kind="file" language="C#">
+    <compoundname>LeaderboardPlayerScope.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2d6e7bb307f10474d7f44ca36ffed55f" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>LeaderboardPlayerScope</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardPlayerScope</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2d6e7bb307f10474d7f44ca36ffed55fa4cc6684df7b4a92b1dec6fce3264fac8" prot="public">
+          <name>Global</name>
+          <briefdescription>
+<para>All the players are considered for search. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2d6e7bb307f10474d7f44ca36ffed55faf98de2598c00a8e10bdce048fa0c4604" prot="public">
+          <name>FriendsOnly</name>
+          <briefdescription>
+<para>Only friends of local player are considered for search. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The scope of player to be searched for scores. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardPlayerScope.cs" line="11" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardPlayerScope.cs" bodystart="12" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardPlayerScope.cs"/>
+  </compounddef>
+</doxygen>

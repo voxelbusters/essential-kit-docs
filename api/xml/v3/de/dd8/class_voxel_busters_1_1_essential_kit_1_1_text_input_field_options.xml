@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="de/dd8/class_voxel_busters_1_1_essential_kit_1_1_text_input_field_options" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::TextInputFieldOptions</compoundname>
+    <innerclass refid="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_text_input_field_options_1_1_builder" prot="public">VoxelBusters::EssentialKit::TextInputFieldOptions::Builder</innerclass>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="de/dd8/class_voxel_busters_1_1_essential_kit_1_1_text_input_field_options_1ab4726c7c06ae41233e679361293b4173" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Text</definition>
+        <argsstring></argsstring>
+        <name>Text</name>
+        <qualifiedname>VoxelBusters.EssentialKit.TextInputFieldOptions.Text</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/TextInputFieldOptions.cs" line="5" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/TextInputFieldOptions.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="property" id="de/dd8/class_voxel_busters_1_1_essential_kit_1_1_text_input_field_options_1ac757f1acc256d63ff2d3bbdcbf1af3ef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string PlaceholderText</definition>
+        <argsstring></argsstring>
+        <name>PlaceholderText</name>
+        <qualifiedname>VoxelBusters.EssentialKit.TextInputFieldOptions.PlaceholderText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/TextInputFieldOptions.cs" line="6" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/TextInputFieldOptions.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="property" id="de/dd8/class_voxel_busters_1_1_essential_kit_1_1_text_input_field_options_1a77e8a851f2055ae5d550bf4c79310046" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool IsSecured</definition>
+        <argsstring></argsstring>
+        <name>IsSecured</name>
+        <qualifiedname>VoxelBusters.EssentialKit.TextInputFieldOptions.IsSecured</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/TextInputFieldOptions.cs" line="7" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/TextInputFieldOptions.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="property" id="de/dd8/class_voxel_busters_1_1_essential_kit_1_1_text_input_field_options_1aa881666fe7fb6398b5c089fb2635c47b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>KeyboardInputType</type>
+        <definition>KeyboardInputType KeyboardInputType</definition>
+        <argsstring></argsstring>
+        <name>KeyboardInputType</name>
+        <qualifiedname>VoxelBusters.EssentialKit.TextInputFieldOptions.KeyboardInputType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/TextInputFieldOptions.cs" line="8" column="34" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/TextInputFieldOptions.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/TextInputFieldOptions.cs" line="3" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/TextInputFieldOptions.cs" bodystart="4" bodyend="43"/>
+    <listofallmembers>
+      <member refid="de/dd8/class_voxel_busters_1_1_essential_kit_1_1_text_input_field_options_1a77e8a851f2055ae5d550bf4c79310046" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::TextInputFieldOptions</scope><name>IsSecured</name></member>
+      <member refid="de/dd8/class_voxel_busters_1_1_essential_kit_1_1_text_input_field_options_1aa881666fe7fb6398b5c089fb2635c47b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::TextInputFieldOptions</scope><name>KeyboardInputType</name></member>
+      <member refid="de/dd8/class_voxel_busters_1_1_essential_kit_1_1_text_input_field_options_1ac757f1acc256d63ff2d3bbdcbf1af3ef" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::TextInputFieldOptions</scope><name>PlaceholderText</name></member>
+      <member refid="de/dd8/class_voxel_busters_1_1_essential_kit_1_1_text_input_field_options_1ab4726c7c06ae41233e679361293b4173" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::TextInputFieldOptions</scope><name>Text</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

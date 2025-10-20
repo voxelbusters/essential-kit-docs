@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d3/d3f/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_message_composer" kind="class" language="C#" prot="public" sealed="yes">
+    <compoundname>VoxelBusters::EssentialKit::SharingServicesCore::NullMessageComposer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NativeMessageComposerBase</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INativeMessageComposer</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d3f/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_message_composer_1a072baf9fd55394c54c1cc420cbc83a65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NullMessageComposer</definition>
+        <argsstring>()</argsstring>
+        <name>NullMessageComposer</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullMessageComposer.NullMessageComposer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullMessageComposer.cs" line="12" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullMessageComposer.cs" bodystart="12" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3f/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_message_composer_1a996dfefd32a6fed259a9620e140072ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void SetRecipients</definition>
+        <argsstring>(params string[] values)</argsstring>
+        <name>SetRecipients</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullMessageComposer.SetRecipients</qualifiedname>
+        <param>
+          <type>params string[]</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullMessageComposer.cs" line="28" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullMessageComposer.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3f/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_message_composer_1a2c6f9cbc4ec4c17b640f010e28c76102" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void SetSubject</definition>
+        <argsstring>(string value)</argsstring>
+        <name>SetSubject</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullMessageComposer.SetSubject</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullMessageComposer.cs" line="33" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullMessageComposer.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3f/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_message_composer_1ab5ee8547ad8b936f0cbccfc18529907b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void SetBody</definition>
+        <argsstring>(string value)</argsstring>
+        <name>SetBody</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullMessageComposer.SetBody</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullMessageComposer.cs" line="38" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullMessageComposer.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3f/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_message_composer_1a092f086158f789bb752b2dea8ad3a86f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void AddScreenshot</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>AddScreenshot</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullMessageComposer.AddScreenshot</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullMessageComposer.cs" line="43" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullMessageComposer.cs" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3f/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_message_composer_1abc3cbf8c5cb01afeacc5ce3d3c5bd1c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void AddImage</definition>
+        <argsstring>(Texture2D image, string fileName)</argsstring>
+        <name>AddImage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullMessageComposer.AddImage</qualifiedname>
+        <param>
+          <type>Texture2D</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullMessageComposer.cs" line="48" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullMessageComposer.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3f/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_message_composer_1ab716617daff2b17fdb292c9c8909161a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void AddAttachmentData</definition>
+        <argsstring>(byte[] data, string mimeType, string fileName)</argsstring>
+        <name>AddAttachmentData</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullMessageComposer.AddAttachmentData</qualifiedname>
+        <param>
+          <type>byte[]</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>mimeType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullMessageComposer.cs" line="53" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullMessageComposer.cs" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3f/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_message_composer_1accf383118946aaf8a037e9533c0d129c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Show</definition>
+        <argsstring>()</argsstring>
+        <name>Show</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullMessageComposer.Show</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullMessageComposer.cs" line="58" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullMessageComposer.cs" bodystart="58" bodyend="64"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d3/d3f/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_message_composer_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogNotSupported</definition>
+        <argsstring>()</argsstring>
+        <name>LogNotSupported</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullMessageComposer.LogNotSupported</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullMessageComposer.cs" line="19" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullMessageComposer.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullMessageComposer.cs" line="8" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullMessageComposer.cs" bodystart="9" bodyend="67"/>
+    <listofallmembers>
+      <member refid="d3/d3f/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_message_composer_1ab716617daff2b17fdb292c9c8909161a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullMessageComposer</scope><name>AddAttachmentData</name></member>
+      <member refid="d3/d3f/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_message_composer_1abc3cbf8c5cb01afeacc5ce3d3c5bd1c1" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullMessageComposer</scope><name>AddImage</name></member>
+      <member refid="d3/d3f/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_message_composer_1a092f086158f789bb752b2dea8ad3a86f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullMessageComposer</scope><name>AddScreenshot</name></member>
+      <member refid="d3/d3f/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_message_composer_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullMessageComposer</scope><name>LogNotSupported</name></member>
+      <member refid="d3/d3f/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_message_composer_1a072baf9fd55394c54c1cc420cbc83a65" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullMessageComposer</scope><name>NullMessageComposer</name></member>
+      <member refid="d7/dae/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_native_message_composer_base_1a6ff1e74feecb5f81aa6db80105e3fb71" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullMessageComposer</scope><name>OnClose</name></member>
+      <member refid="d7/dae/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_native_message_composer_base_1a2d1bc8f7fc07038a8276fbfc50514df0" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullMessageComposer</scope><name>SendCloseEvent</name></member>
+      <member refid="d3/d3f/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_message_composer_1ab5ee8547ad8b936f0cbccfc18529907b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullMessageComposer</scope><name>SetBody</name></member>
+      <member refid="d3/d3f/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_message_composer_1a996dfefd32a6fed259a9620e140072ee" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullMessageComposer</scope><name>SetRecipients</name></member>
+      <member refid="d3/d3f/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_message_composer_1a2c6f9cbc4ec4c17b640f010e28c76102" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullMessageComposer</scope><name>SetSubject</name></member>
+      <member refid="d3/d3f/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_message_composer_1accf383118946aaf8a037e9533c0d129c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullMessageComposer</scope><name>Show</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

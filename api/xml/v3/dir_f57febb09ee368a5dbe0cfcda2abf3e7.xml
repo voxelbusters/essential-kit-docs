@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_f57febb09ee368a5dbe0cfcda2abf3e7" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts</compoundname>
+    <innerfile refid="d4/d5b/_app_shortcut_item_8cs">AppShortcutItem.cs</innerfile>
+    <innerfile refid="d2/d67/_app_shortcuts_8cs">AppShortcuts.cs</innerfile>
+    <innerfile refid="dc/d4a/_app_shortcuts_error_8cs">AppShortcutsError.cs</innerfile>
+    <innerfile refid="d5/dc5/_app_shortcuts_error_code_8cs">AppShortcutsErrorCode.cs</innerfile>
+    <innerfile refid="d7/d36/_app_shortcuts_2_delegates_8cs">Delegates.cs</innerfile>
+    <innerfile refid="df/d96/_i_native_app_shortcuts_interface_8cs">INativeAppShortcutsInterface.cs</innerfile>
+    <innerfile refid="d9/d87/_null_app_shortcuts_interface_8cs">NullAppShortcutsInterface.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/"/>
+  </compounddef>
+</doxygen>

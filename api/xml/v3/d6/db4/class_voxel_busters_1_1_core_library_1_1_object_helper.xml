@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d6/db4/class_voxel_busters_1_1_core_library_1_1_object_helper" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::ObjectHelper</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d6/db4/class_voxel_busters_1_1_core_library_1_1_object_helper_1aa1aba0cc2d4588de59e4486c7b7c4e1a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T CreateInstanceIfNull&lt; T &gt;</definition>
+        <argsstring>(ref T reference, System.Func&lt; T &gt; createFunc)</argsstring>
+        <name>CreateInstanceIfNull&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ObjectHelper.CreateInstanceIfNull&lt; T &gt;</qualifiedname>
+        <param>
+          <type>ref T</type>
+          <declname>reference</declname>
+        </param>
+        <param>
+          <type>System.Func&lt; T &gt;</type>
+          <declname>createFunc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ObjectHelper.cs" line="11" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ObjectHelper.cs" bodystart="11" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ObjectHelper.cs" line="7" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ObjectHelper.cs" bodystart="8" bodyend="21"/>
+    <listofallmembers>
+      <member refid="d6/db4/class_voxel_busters_1_1_core_library_1_1_object_helper_1aa1aba0cc2d4588de59e4486c7b7c4e1a" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ObjectHelper</scope><name>CreateInstanceIfNull&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

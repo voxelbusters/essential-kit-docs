@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d0/dcd/_address_book_error_code_8cs" kind="file" language="C#">
+    <compoundname>AddressBookErrorCode.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ae0ad5baac99b8f2f6491b3ca6bace08e" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>AddressBookErrorCode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AddressBookErrorCode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ae0ad5baac99b8f2f6491b3ca6bace08ea88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>Unknown error occurred. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ae0ad5baac99b8f2f6491b3ca6bace08ea4b33a686be73bb172407d73b26356275" prot="public">
+          <name>PermissionDenied</name>
+          <briefdescription>
+<para>Permission to access the address book was denied. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Contains the list of errors codes that can occur during address book operations. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookErrorCode.cs" line="9" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookErrorCode.cs" bodystart="10" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookErrorCode.cs"/>
+  </compounddef>
+</doxygen>

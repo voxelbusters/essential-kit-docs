@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d1/d63/class_voxel_busters_1_1_essential_kit_1_1_notification_services_get_delivered_notifications_result" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::NotificationServicesGetDeliveredNotificationsResult</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d1/d63/class_voxel_busters_1_1_essential_kit_1_1_notification_services_get_delivered_notifications_result_1aaabfc2bd489edef2fa165066916593db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification" kindref="compound">INotification</ref>[]</type>
+        <definition>INotification [] Notifications</definition>
+        <argsstring></argsstring>
+        <name>Notifications</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesGetDeliveredNotificationsResult.Notifications</qualifiedname>
+        <briefdescription>
+<para>An array of delivered notifications. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationServicesGetDeliveredNotificationsResult.cs" line="19" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationServicesGetDeliveredNotificationsResult.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="d1/d63/class_voxel_busters_1_1_essential_kit_1_1_notification_services_get_delivered_notifications_result_1a0de860864dec9274a003ba5b2bb3b7eb" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NotificationServicesGetDeliveredNotificationsResult</definition>
+        <argsstring>(INotification[] notifications)</argsstring>
+        <name>NotificationServicesGetDeliveredNotificationsResult</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesGetDeliveredNotificationsResult.NotificationServicesGetDeliveredNotificationsResult</qualifiedname>
+        <param>
+          <type><ref refid="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification" kindref="compound">INotification</ref>[]</type>
+          <declname>notifications</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationServicesGetDeliveredNotificationsResult.cs" line="25" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationServicesGetDeliveredNotificationsResult.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class contains the information retrieved when <ref refid="da/d97/class_voxel_busters_1_1_essential_kit_1_1_notification_services_1a66562696a0055f322ce08a90b00da593" kindref="member">NotificationServices.GetDeliveredNotifications(EventCallback&lt;NotificationServicesGetDeliveredNotificationsResult&gt;)</ref> request is completed. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationServicesGetDeliveredNotificationsResult.cs" line="12" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationServicesGetDeliveredNotificationsResult.cs" bodystart="13" bodyend="32"/>
+    <listofallmembers>
+      <member refid="d1/d63/class_voxel_busters_1_1_essential_kit_1_1_notification_services_get_delivered_notifications_result_1aaabfc2bd489edef2fa165066916593db" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesGetDeliveredNotificationsResult</scope><name>Notifications</name></member>
+      <member refid="d1/d63/class_voxel_busters_1_1_essential_kit_1_1_notification_services_get_delivered_notifications_result_1a0de860864dec9274a003ba5b2bb3b7eb" prot="package" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesGetDeliveredNotificationsResult</scope><name>NotificationServicesGetDeliveredNotificationsResult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

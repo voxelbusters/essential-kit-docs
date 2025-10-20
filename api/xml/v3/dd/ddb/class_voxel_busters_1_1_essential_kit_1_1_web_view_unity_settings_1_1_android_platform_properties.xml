@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dd/ddb/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings_1_1_android_platform_properties" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::WebViewUnitySettings::AndroidPlatformProperties</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="dd/ddb/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings_1_1_android_platform_properties_1ad4dbac9139606c6c7723cbd0b5a6d7ea" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_usesCamera</definition>
+        <argsstring></argsstring>
+        <name>m_usesCamera</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewUnitySettings.AndroidPlatformProperties.m_usesCamera</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.AndroidPlatformProperties.cs" line="17" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.AndroidPlatformProperties.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/ddb/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings_1_1_android_platform_properties_1af5b32897cd5b9263c874d03dbf9a846a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_usesMicrophone</definition>
+        <argsstring></argsstring>
+        <name>m_usesMicrophone</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewUnitySettings.AndroidPlatformProperties.m_usesMicrophone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.AndroidPlatformProperties.cs" line="21" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.AndroidPlatformProperties.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/ddb/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings_1_1_android_platform_properties_1a4bffa400873649bd486b5b3e5f1cd011" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_allowBackNavigationKey</definition>
+        <argsstring></argsstring>
+        <name>m_allowBackNavigationKey</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewUnitySettings.AndroidPlatformProperties.m_allowBackNavigationKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.AndroidPlatformProperties.cs" line="25" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.AndroidPlatformProperties.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="dd/ddb/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings_1_1_android_platform_properties_1ac5b0c56d018d8e4c37a8d005fb3d3f40" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool UsesCamera</definition>
+        <argsstring></argsstring>
+        <name>UsesCamera</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewUnitySettings.AndroidPlatformProperties.UsesCamera</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.AndroidPlatformProperties.cs" line="31" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.AndroidPlatformProperties.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/ddb/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings_1_1_android_platform_properties_1aac0034babe4914381750c16276a410c0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool UsesMicrophone</definition>
+        <argsstring></argsstring>
+        <name>UsesMicrophone</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewUnitySettings.AndroidPlatformProperties.UsesMicrophone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.AndroidPlatformProperties.cs" line="33" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.AndroidPlatformProperties.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/ddb/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings_1_1_android_platform_properties_1afd1fc31bc6c1f7097b2c5f216ed5495b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool AllowBackNavigationKey</definition>
+        <argsstring></argsstring>
+        <name>AllowBackNavigationKey</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewUnitySettings.AndroidPlatformProperties.AllowBackNavigationKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.AndroidPlatformProperties.cs" line="35" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.AndroidPlatformProperties.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/ddb/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings_1_1_android_platform_properties_1a8f6d14c7cc87439ff62cb16fa0aa0351" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AndroidPlatformProperties</definition>
+        <argsstring>(bool usesCamera=false, bool usesMicrophone=false, bool allowBackNavigationKey=true)</argsstring>
+        <name>AndroidPlatformProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewUnitySettings.AndroidPlatformProperties.AndroidPlatformProperties</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>usesCamera</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>usesMicrophone</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>allowBackNavigationKey</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.AndroidPlatformProperties.cs" line="41" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.AndroidPlatformProperties.cs" bodystart="41" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.AndroidPlatformProperties.cs" line="11" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.AndroidPlatformProperties.cs" bodystart="12" bodyend="51"/>
+    <listofallmembers>
+      <member refid="dd/ddb/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings_1_1_android_platform_properties_1afd1fc31bc6c1f7097b2c5f216ed5495b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewUnitySettings::AndroidPlatformProperties</scope><name>AllowBackNavigationKey</name></member>
+      <member refid="dd/ddb/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings_1_1_android_platform_properties_1a8f6d14c7cc87439ff62cb16fa0aa0351" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewUnitySettings::AndroidPlatformProperties</scope><name>AndroidPlatformProperties</name></member>
+      <member refid="dd/ddb/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings_1_1_android_platform_properties_1a4bffa400873649bd486b5b3e5f1cd011" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewUnitySettings::AndroidPlatformProperties</scope><name>m_allowBackNavigationKey</name></member>
+      <member refid="dd/ddb/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings_1_1_android_platform_properties_1ad4dbac9139606c6c7723cbd0b5a6d7ea" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewUnitySettings::AndroidPlatformProperties</scope><name>m_usesCamera</name></member>
+      <member refid="dd/ddb/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings_1_1_android_platform_properties_1af5b32897cd5b9263c874d03dbf9a846a" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewUnitySettings::AndroidPlatformProperties</scope><name>m_usesMicrophone</name></member>
+      <member refid="dd/ddb/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings_1_1_android_platform_properties_1ac5b0c56d018d8e4c37a8d005fb3d3f40" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewUnitySettings::AndroidPlatformProperties</scope><name>UsesCamera</name></member>
+      <member refid="dd/ddb/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings_1_1_android_platform_properties_1aac0034babe4914381750c16276a410c0" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewUnitySettings::AndroidPlatformProperties</scope><name>UsesMicrophone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dd/d2e/class_voxel_busters_1_1_essential_kit_1_1_media_services_select_media_content_result" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::MediaServicesSelectMediaContentResult</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="dd/d2e/class_voxel_busters_1_1_essential_kit_1_1_media_services_select_media_content_result_1a570569aad523830c386a53ac62da0e1f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content" kindref="compound">IMediaContent</ref>[]</type>
+        <definition>IMediaContent [] Contents</definition>
+        <argsstring></argsstring>
+        <name>Contents</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesSelectMediaContentResult.Contents</qualifiedname>
+        <briefdescription>
+<para>The list of media contents selected by the user. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The list of media contents.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesSelectMediaContentResult.cs" line="18" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesSelectMediaContentResult.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="dd/d2e/class_voxel_busters_1_1_essential_kit_1_1_media_services_select_media_content_result_1ab651adc50534d78a3d18bd492ff7a8a7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaServicesSelectMediaContentResult</definition>
+        <argsstring>(List&lt; IMediaContent &gt; contents)</argsstring>
+        <name>MediaServicesSelectMediaContentResult</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesSelectMediaContentResult.MediaServicesSelectMediaContentResult</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content" kindref="compound">IMediaContent</ref> &gt;</type>
+          <declname>contents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesSelectMediaContentResult.cs" line="28" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesSelectMediaContentResult.cs" bodystart="28" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Contains information about the media content selected by the user. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesSelectMediaContentResult.cs" line="9" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesSelectMediaContentResult.cs" bodystart="10" bodyend="35"/>
+    <listofallmembers>
+      <member refid="dd/d2e/class_voxel_busters_1_1_essential_kit_1_1_media_services_select_media_content_result_1a570569aad523830c386a53ac62da0e1f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesSelectMediaContentResult</scope><name>Contents</name></member>
+      <member refid="dd/d2e/class_voxel_busters_1_1_essential_kit_1_1_media_services_select_media_content_result_1ab651adc50534d78a3d18bd492ff7a8a7" prot="package" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesSelectMediaContentResult</scope><name>MediaServicesSelectMediaContentResult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

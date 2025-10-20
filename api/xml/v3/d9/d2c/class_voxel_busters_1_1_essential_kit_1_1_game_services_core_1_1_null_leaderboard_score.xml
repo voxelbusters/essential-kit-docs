@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/d2c/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_leaderboard_score" kind="class" language="C#" prot="package" sealed="yes">
+    <compoundname>VoxelBusters::EssentialKit::GameServicesCore::NullLeaderboardScore</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">LeaderboardScoreBase</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d2c/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_leaderboard_score_1a9cbda24e34abc67bec751d50be5c2fa2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NullLeaderboardScore</definition>
+        <argsstring>(string leaderboardId, string leaderboardPlatformId)</argsstring>
+        <name>NullLeaderboardScore</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullLeaderboardScore.NullLeaderboardScore</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>leaderboardId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>leaderboardPlatformId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullLeaderboardScore.cs" line="10" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullLeaderboardScore.cs" bodystart="10" bodyend="11"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d9/d2c/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_leaderboard_score_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogNotSupported</definition>
+        <argsstring>()</argsstring>
+        <name>LogNotSupported</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullLeaderboardScore.LogNotSupported</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullLeaderboardScore.cs" line="17" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullLeaderboardScore.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d9/d2c/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_leaderboard_score_1ad18c381698a722c584dbd353895494a9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override <ref refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player" kindref="compound">IPlayer</ref></type>
+        <definition>override IPlayer GetPlayerInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetPlayerInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullLeaderboardScore.GetPlayerInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullLeaderboardScore.cs" line="26" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullLeaderboardScore.cs" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d2c/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_leaderboard_score_1a92ac672aa3331605c71396700f3e5504" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override long</type>
+        <definition>override long GetRankInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetRankInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullLeaderboardScore.GetRankInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullLeaderboardScore.cs" line="33" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullLeaderboardScore.cs" bodystart="33" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d2c/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_leaderboard_score_1a12a657fcd563bccd99341f9dadb3fc3a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override long</type>
+        <definition>override long GetValueInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetValueInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullLeaderboardScore.GetValueInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullLeaderboardScore.cs" line="40" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullLeaderboardScore.cs" bodystart="40" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d2c/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_leaderboard_score_1a1c40fe25a5e7c5c8798deb7c1b9392c6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override DateTime</type>
+        <definition>override DateTime GetLastReportedDateInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetLastReportedDateInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullLeaderboardScore.GetLastReportedDateInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullLeaderboardScore.cs" line="47" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullLeaderboardScore.cs" bodystart="47" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d2c/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_leaderboard_score_1a5853200622029ae7ed4973a81fe63ae1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string GetTagInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetTagInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullLeaderboardScore.GetTagInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullLeaderboardScore.cs" line="54" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullLeaderboardScore.cs" bodystart="54" bodyend="57"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullLeaderboardScore.cs" line="6" column="13" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullLeaderboardScore.cs" bodystart="7" bodyend="60"/>
+    <listofallmembers>
+      <member refid="d7/d05/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_score_base_1a927be2e76d2ddfcec0f05bc0a7867112" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullLeaderboardScore</scope><name>FormattedValue</name></member>
+      <member refid="d9/d2c/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_leaderboard_score_1a1c40fe25a5e7c5c8798deb7c1b9392c6" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullLeaderboardScore</scope><name>GetLastReportedDateInternal</name></member>
+      <member refid="d9/d2c/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_leaderboard_score_1ad18c381698a722c584dbd353895494a9" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullLeaderboardScore</scope><name>GetPlayerInternal</name></member>
+      <member refid="d9/d2c/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_leaderboard_score_1a92ac672aa3331605c71396700f3e5504" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullLeaderboardScore</scope><name>GetRankInternal</name></member>
+      <member refid="d9/d2c/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_leaderboard_score_1a5853200622029ae7ed4973a81fe63ae1" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullLeaderboardScore</scope><name>GetTagInternal</name></member>
+      <member refid="d9/d2c/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_leaderboard_score_1a12a657fcd563bccd99341f9dadb3fc3a" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullLeaderboardScore</scope><name>GetValueInternal</name></member>
+      <member refid="d7/d05/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_score_base_1ad529323ce21c8ad3696e8662464b9369" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullLeaderboardScore</scope><name>LastReportedDate</name></member>
+      <member refid="d7/d05/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_score_base_1ab163c9e27d18b54ff2ba727d1d129eea" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullLeaderboardScore</scope><name>LeaderboardId</name></member>
+      <member refid="d7/d05/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_score_base_1af5722f7c2c501f6e2fd65951521e8e2a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullLeaderboardScore</scope><name>LeaderboardPlatformId</name></member>
+      <member refid="d7/d05/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_score_base_1ac70dd146f78bc65e2b84a20f0f632f6e" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullLeaderboardScore</scope><name>LeaderboardScoreBase</name></member>
+      <member refid="d7/d05/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_score_base_1ab3e1144a81dc10a0f4ce535ffeb96176" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullLeaderboardScore</scope><name>LeaderboardScoreBase</name></member>
+      <member refid="d9/d2c/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_leaderboard_score_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullLeaderboardScore</scope><name>LogNotSupported</name></member>
+      <member refid="d9/d2c/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_leaderboard_score_1a9cbda24e34abc67bec751d50be5c2fa2" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullLeaderboardScore</scope><name>NullLeaderboardScore</name></member>
+      <member refid="d7/d05/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_score_base_1a76ff158189c532465f808ffa5897f53b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullLeaderboardScore</scope><name>Player</name></member>
+      <member refid="d7/d05/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_score_base_1aaf907b2caf084a1a5c7a3ecf24c5dc68" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullLeaderboardScore</scope><name>Rank</name></member>
+      <member refid="d7/d05/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_score_base_1a121d9cb485fa9e23380cb8c883e46c9c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullLeaderboardScore</scope><name>Tag</name></member>
+      <member refid="d7/d05/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_score_base_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullLeaderboardScore</scope><name>ToString</name></member>
+      <member refid="d7/d05/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_score_base_1a1a41a8f9efeaea2d1bfa259f006a53d3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullLeaderboardScore</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

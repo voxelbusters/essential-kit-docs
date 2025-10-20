@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::UnityPackagePathResolver</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1a7f090e75f9240986d3eda783535fef0b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IsInstalledWithinAssets</definition>
+        <argsstring>(this UnityPackageDefinition package)</argsstring>
+        <name>IsInstalledWithinAssets</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackagePathResolver.IsInstalledWithinAssets</qualifiedname>
+        <param>
+          <type>this UnityPackageDefinition</type>
+          <declname>package</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" line="12" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" bodystart="12" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1a6af26feda947407889b21a721b4e588a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetInstallPath</definition>
+        <argsstring>(this UnityPackageDefinition package)</argsstring>
+        <name>GetInstallPath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackagePathResolver.GetInstallPath</qualifiedname>
+        <param>
+          <type>this UnityPackageDefinition</type>
+          <declname>package</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" line="18" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" bodystart="18" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1a660d59d39c319ec1863e1ad8a4051875" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetRuntimeScriptsPath</definition>
+        <argsstring>(this UnityPackageDefinition package)</argsstring>
+        <name>GetRuntimeScriptsPath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackagePathResolver.GetRuntimeScriptsPath</qualifiedname>
+        <param>
+          <type>this UnityPackageDefinition</type>
+          <declname>package</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" line="27" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1af75dd7b15873feb331825d67d556d04e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetEditorScriptsPath</definition>
+        <argsstring>(this UnityPackageDefinition package)</argsstring>
+        <name>GetEditorScriptsPath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackagePathResolver.GetEditorScriptsPath</qualifiedname>
+        <param>
+          <type>this UnityPackageDefinition</type>
+          <declname>package</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" line="32" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1abb3be58afc8575b4d59c45b3282d1e28" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetEditorResourcesPath</definition>
+        <argsstring>(this UnityPackageDefinition package)</argsstring>
+        <name>GetEditorResourcesPath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackagePathResolver.GetEditorResourcesPath</qualifiedname>
+        <param>
+          <type>this UnityPackageDefinition</type>
+          <declname>package</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" line="37" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1aebe15e6f8b0794e48cb0224a6e096e4c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetMutableResourcesPath</definition>
+        <argsstring>(this UnityPackageDefinition package)</argsstring>
+        <name>GetMutableResourcesPath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackagePathResolver.GetMutableResourcesPath</qualifiedname>
+        <param>
+          <type>this UnityPackageDefinition</type>
+          <declname>package</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" line="42" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1a30a8ecd74cb6800b3e3afca77c46acac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetImmutableResourcesPath</definition>
+        <argsstring>(this UnityPackageDefinition package)</argsstring>
+        <name>GetImmutableResourcesPath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackagePathResolver.GetImmutableResourcesPath</qualifiedname>
+        <param>
+          <type>this UnityPackageDefinition</type>
+          <declname>package</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" line="47" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1a6182eed3e0a73086d7b5b88b0b051c33" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetPackageResourcesPath</definition>
+        <argsstring>(this UnityPackageDefinition package)</argsstring>
+        <name>GetPackageResourcesPath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackagePathResolver.GetPackageResourcesPath</qualifiedname>
+        <param>
+          <type>this UnityPackageDefinition</type>
+          <declname>package</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" line="52" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1aed98d5d87a649b4aeb92981d7e3f19b9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetFullPath</definition>
+        <argsstring>(this UnityPackageDefinition package, string relativePath)</argsstring>
+        <name>GetFullPath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackagePathResolver.GetFullPath</qualifiedname>
+        <param>
+          <type>this UnityPackageDefinition</type>
+          <declname>package</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>relativePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" line="57" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1ab4a97f86b733cbc1c9a8ffd97bc0a082" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetMutableResourceRelativePath</definition>
+        <argsstring>(this UnityPackageDefinition package, string name)</argsstring>
+        <name>GetMutableResourceRelativePath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackagePathResolver.GetMutableResourceRelativePath</qualifiedname>
+        <param>
+          <type>this UnityPackageDefinition</type>
+          <declname>package</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" line="62" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1a1abd3ebf4197912fbc59614bc29d821c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetExtrasPath</definition>
+        <argsstring>(this UnityPackageDefinition package)</argsstring>
+        <name>GetExtrasPath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackagePathResolver.GetExtrasPath</qualifiedname>
+        <param>
+          <type>this UnityPackageDefinition</type>
+          <declname>package</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" line="67" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1aa8c93981cae364afb60807b4af337f19" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetEssentialsPath</definition>
+        <argsstring>(this UnityPackageDefinition package)</argsstring>
+        <name>GetEssentialsPath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackagePathResolver.GetEssentialsPath</qualifiedname>
+        <param>
+          <type>this UnityPackageDefinition</type>
+          <declname>package</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" line="72" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1a71ba1e63bc0ab816a77a1650abebfce5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetGeneratedPath</definition>
+        <argsstring>(this UnityPackageDefinition package)</argsstring>
+        <name>GetGeneratedPath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackagePathResolver.GetGeneratedPath</qualifiedname>
+        <param>
+          <type>this UnityPackageDefinition</type>
+          <declname>package</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" line="77" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" bodystart="77" bodyend="80"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1afa46817e5caa6453d7e44149f7249828" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IsSupported</definition>
+        <argsstring>()</argsstring>
+        <name>IsSupported</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackagePathResolver.IsSupported</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" line="82" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1a45fa45d11c11e1476624d5af611fb912" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string CombinePath</definition>
+        <argsstring>(string pathA, string pathB)</argsstring>
+        <name>CombinePath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackagePathResolver.CombinePath</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>pathA</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>pathB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" line="84" column="31" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" bodystart="84" bodyend="98"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" line="8" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs" bodystart="9" bodyend="101"/>
+    <listofallmembers>
+      <member refid="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1a45fa45d11c11e1476624d5af611fb912" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackagePathResolver</scope><name>CombinePath</name></member>
+      <member refid="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1abb3be58afc8575b4d59c45b3282d1e28" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackagePathResolver</scope><name>GetEditorResourcesPath</name></member>
+      <member refid="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1af75dd7b15873feb331825d67d556d04e" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackagePathResolver</scope><name>GetEditorScriptsPath</name></member>
+      <member refid="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1aa8c93981cae364afb60807b4af337f19" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackagePathResolver</scope><name>GetEssentialsPath</name></member>
+      <member refid="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1a1abd3ebf4197912fbc59614bc29d821c" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackagePathResolver</scope><name>GetExtrasPath</name></member>
+      <member refid="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1aed98d5d87a649b4aeb92981d7e3f19b9" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackagePathResolver</scope><name>GetFullPath</name></member>
+      <member refid="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1a71ba1e63bc0ab816a77a1650abebfce5" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackagePathResolver</scope><name>GetGeneratedPath</name></member>
+      <member refid="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1a30a8ecd74cb6800b3e3afca77c46acac" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackagePathResolver</scope><name>GetImmutableResourcesPath</name></member>
+      <member refid="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1a6af26feda947407889b21a721b4e588a" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackagePathResolver</scope><name>GetInstallPath</name></member>
+      <member refid="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1ab4a97f86b733cbc1c9a8ffd97bc0a082" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackagePathResolver</scope><name>GetMutableResourceRelativePath</name></member>
+      <member refid="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1aebe15e6f8b0794e48cb0224a6e096e4c" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackagePathResolver</scope><name>GetMutableResourcesPath</name></member>
+      <member refid="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1a6182eed3e0a73086d7b5b88b0b051c33" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackagePathResolver</scope><name>GetPackageResourcesPath</name></member>
+      <member refid="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1a660d59d39c319ec1863e1ad8a4051875" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackagePathResolver</scope><name>GetRuntimeScriptsPath</name></member>
+      <member refid="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1a7f090e75f9240986d3eda783535fef0b" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackagePathResolver</scope><name>IsInstalledWithinAssets</name></member>
+      <member refid="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver_1afa46817e5caa6453d7e44149f7249828" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackagePathResolver</scope><name>IsSupported</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

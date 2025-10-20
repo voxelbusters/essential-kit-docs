@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d4/d51/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contact" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::IAddressBookContact</compoundname>
+    <derivedcompoundref refid="db/d84/class_voxel_busters_1_1_essential_kit_1_1_address_book_core_1_1_address_book_contact_base" prot="public" virt="non-virtual">AddressBookContactBase</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d4/d51/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contact_1a46bbdda148e2dc15aaa4ffb8d0015430" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string FirstName</definition>
+        <argsstring></argsstring>
+        <name>FirstName</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IAddressBookContact.FirstName</qualifiedname>
+        <briefdescription>
+<para>The first name of the contact. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/IAddressBookContact.cs" line="20" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/IAddressBookContact.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d51/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contact_1a0e35db215749ff442d1a37c6ecc8f3fa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MiddleName</definition>
+        <argsstring></argsstring>
+        <name>MiddleName</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IAddressBookContact.MiddleName</qualifiedname>
+        <briefdescription>
+<para>The middle name of the contact. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/IAddressBookContact.cs" line="25" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/IAddressBookContact.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d51/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contact_1afe43a1e86c660582c37e3b84039ca83c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LastName</definition>
+        <argsstring></argsstring>
+        <name>LastName</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IAddressBookContact.LastName</qualifiedname>
+        <briefdescription>
+<para>The last name of the contact. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/IAddressBookContact.cs" line="30" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/IAddressBookContact.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d51/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contact_1a7c8d49491aec664efa281edb102cb92a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string[]</type>
+        <definition>string [] PhoneNumbers</definition>
+        <argsstring></argsstring>
+        <name>PhoneNumbers</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IAddressBookContact.PhoneNumbers</qualifiedname>
+        <briefdescription>
+<para>An array of phone numbers of the contact. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/IAddressBookContact.cs" line="35" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/IAddressBookContact.cs" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d51/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contact_1a5072c6e4b06c61c222e69173a2490961" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string[]</type>
+        <definition>string [] EmailAddresses</definition>
+        <argsstring></argsstring>
+        <name>EmailAddresses</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IAddressBookContact.EmailAddresses</qualifiedname>
+        <briefdescription>
+<para>An array of email addresses of the contact. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/IAddressBookContact.cs" line="40" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/IAddressBookContact.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d51/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contact_1af81bd89259546fbcda13efcd07811dea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string CompanyName</definition>
+        <argsstring></argsstring>
+        <name>CompanyName</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IAddressBookContact.CompanyName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/IAddressBookContact.cs" line="42" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/IAddressBookContact.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d51/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contact_1a33542b43cd72bbdbcacf9801f9bef643" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoadImage</definition>
+        <argsstring>(EventCallback&lt; TextureData &gt; callback)</argsstring>
+        <name>LoadImage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IAddressBookContact.LoadImage</qualifiedname>
+        <param>
+          <type>EventCallback&lt; TextureData &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Asynchronously loads the profile picture of a contact. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The callback to be executed when request is completed.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/IAddressBookContact.cs" line="52" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Provides a cross-platform interface to access contact properties, such as contact’s name, image, phone numbers etc. <linebreak/>
+ </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/IAddressBookContact.cs" line="13" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/IAddressBookContact.cs" bodystart="14" bodyend="55"/>
+    <listofallmembers>
+      <member refid="d4/d51/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contact_1af81bd89259546fbcda13efcd07811dea" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IAddressBookContact</scope><name>CompanyName</name></member>
+      <member refid="d4/d51/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contact_1a5072c6e4b06c61c222e69173a2490961" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IAddressBookContact</scope><name>EmailAddresses</name></member>
+      <member refid="d4/d51/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contact_1a46bbdda148e2dc15aaa4ffb8d0015430" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IAddressBookContact</scope><name>FirstName</name></member>
+      <member refid="d4/d51/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contact_1afe43a1e86c660582c37e3b84039ca83c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IAddressBookContact</scope><name>LastName</name></member>
+      <member refid="d4/d51/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contact_1a33542b43cd72bbdbcacf9801f9bef643" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IAddressBookContact</scope><name>LoadImage</name></member>
+      <member refid="d4/d51/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contact_1a0e35db215749ff442d1a37c6ecc8f3fa" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IAddressBookContact</scope><name>MiddleName</name></member>
+      <member refid="d4/d51/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contact_1a7c8d49491aec664efa281edb102cb92a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IAddressBookContact</scope><name>PhoneNumbers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

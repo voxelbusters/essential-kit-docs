@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d7/d56/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_status" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::BillingProductSubscriptionStatus</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d7/d56/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_status_1a5c9e58a845d59641a098c5d1e5873314" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string GroupId</definition>
+        <argsstring></argsstring>
+        <name>GroupId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductSubscriptionStatus.GroupId</qualifiedname>
+        <briefdescription>
+<para>Gets the group ID of the subscription. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionStatus.cs" line="15" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionStatus.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="d7/d56/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_status_1aa7f92f885655a00553aea18d901ca036" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="dd/d36/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_renewal_info" kindref="compound">BillingProductSubscriptionRenewalInfo</ref></type>
+        <definition>BillingProductSubscriptionRenewalInfo RenewalInfo</definition>
+        <argsstring></argsstring>
+        <name>RenewalInfo</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductSubscriptionStatus.RenewalInfo</qualifiedname>
+        <briefdescription>
+<para>Gets the renewal information of the subscription. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionStatus.cs" line="20" column="54" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionStatus.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="d7/d56/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_status_1ae50c9571939cc8854a82c48d3df826c7" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ExpirationDate</definition>
+        <argsstring></argsstring>
+        <name>ExpirationDate</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductSubscriptionStatus.ExpirationDate</qualifiedname>
+        <briefdescription>
+<para>Gets or sets the expiration date of the subscription. Note: On Android, it&apos;s not possible to get the last renewal date, so this is skipped until provided. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionStatus.cs" line="26" column="26" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionStatus.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="d7/d56/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_status_1acb69b280de64d99d13238901e444731c" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool IsUpgraded</definition>
+        <argsstring></argsstring>
+        <name>IsUpgraded</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductSubscriptionStatus.IsUpgraded</qualifiedname>
+        <briefdescription>
+<para>Gets or sets a value indicating whether the subscription is upgraded. Note: On Android, this can be determined by checking all available subscriptions in the group sorted by time. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionStatus.cs" line="32" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionStatus.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="d7/d56/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_status_1ad91a01493a0185407a7610bb162e6c41" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string AppliedOfferId</definition>
+        <argsstring></argsstring>
+        <name>AppliedOfferId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductSubscriptionStatus.AppliedOfferId</qualifiedname>
+        <briefdescription>
+<para>Gets or sets the applied offer ID for the subscription. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionStatus.cs" line="37" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionStatus.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="property" id="d7/d56/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_status_1a00f865feda317f0e32cde4ae725e50a5" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a596df4f276c2c3f4f321e43906d5e97d" kindref="member">BillingProductOfferCategory</ref>?</type>
+        <definition>BillingProductOfferCategory? AppliedOfferCategory</definition>
+        <argsstring></argsstring>
+        <name>AppliedOfferCategory</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductSubscriptionStatus.AppliedOfferCategory</qualifiedname>
+        <briefdescription>
+<para>Gets or sets the category of the applied offer for the subscription. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionStatus.cs" line="42" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionStatus.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="d7/d56/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_status_1a3c2158ded2c41d30b2da2c23f564a232" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BillingProductSubscriptionStatus</definition>
+        <argsstring>(string groupId, BillingProductSubscriptionRenewalInfo renewalInfo=null, DateTime? expirationDate=null, bool isUpgraded=false, string appliedOfferIdentifier=null, BillingProductOfferCategory? appliedOfferCategory=null)</argsstring>
+        <name>BillingProductSubscriptionStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductSubscriptionStatus.BillingProductSubscriptionStatus</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>groupId</declname>
+        </param>
+        <param>
+          <type><ref refid="dd/d36/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_renewal_info" kindref="compound">BillingProductSubscriptionRenewalInfo</ref></type>
+          <declname>renewalInfo</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>DateTime?</type>
+          <declname>expirationDate</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isUpgraded</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>appliedOfferIdentifier</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a596df4f276c2c3f4f321e43906d5e97d" kindref="member">BillingProductOfferCategory</ref>?</type>
+          <declname>appliedOfferCategory</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionStatus.cs" line="44" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionStatus.cs" bodystart="44" bodyend="52"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d56/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_status_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductSubscriptionStatus.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionStatus.cs" line="54" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionStatus.cs" bodystart="54" bodyend="64"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents the subscription status of a billing product. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionStatus.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionStatus.cs" bodystart="11" bodyend="65"/>
+    <listofallmembers>
+      <member refid="d7/d56/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_status_1a00f865feda317f0e32cde4ae725e50a5" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductSubscriptionStatus</scope><name>AppliedOfferCategory</name></member>
+      <member refid="d7/d56/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_status_1ad91a01493a0185407a7610bb162e6c41" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductSubscriptionStatus</scope><name>AppliedOfferId</name></member>
+      <member refid="d7/d56/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_status_1a3c2158ded2c41d30b2da2c23f564a232" prot="package" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductSubscriptionStatus</scope><name>BillingProductSubscriptionStatus</name></member>
+      <member refid="d7/d56/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_status_1ae50c9571939cc8854a82c48d3df826c7" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductSubscriptionStatus</scope><name>ExpirationDate</name></member>
+      <member refid="d7/d56/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_status_1a5c9e58a845d59641a098c5d1e5873314" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductSubscriptionStatus</scope><name>GroupId</name></member>
+      <member refid="d7/d56/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_status_1acb69b280de64d99d13238901e444731c" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductSubscriptionStatus</scope><name>IsUpgraded</name></member>
+      <member refid="d7/d56/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_status_1aa7f92f885655a00553aea18d901ca036" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductSubscriptionStatus</scope><name>RenewalInfo</name></member>
+      <member refid="d7/d56/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_status_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductSubscriptionStatus</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

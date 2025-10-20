@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dd/db4/_cloud_user_account_status_8cs" kind="file" language="C#">
+    <compoundname>CloudUserAccountStatus.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aefe11402bb283517184f81be3f2e4445" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>CloudUserAccountStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudUserAccountStatus</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aefe11402bb283517184f81be3f2e4445ac74536030cea5b108c0288e6534b1b0c" prot="public">
+          <name>CouldNotDetermine</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>Indicates that an error occurred during an attempt to retrieve the account status. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aefe11402bb283517184f81be3f2e4445a78945de8de090e90045d299651a68a9b" prot="public">
+          <name>Available</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>The user’s iCloud account is available and may be used by this app. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aefe11402bb283517184f81be3f2e4445aecdee5de15af6876cfab0801bb36f445" prot="public">
+          <name>Restricted</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>The user’s iCloud account is not available. Access was denied due to Parental Controls. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aefe11402bb283517184f81be3f2e4445a6b58e04cd72f6ef92173e833e80a6af3" prot="public">
+          <name>NoAccount</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>The user’s iCloud account is not available because no account information has been provided for this device. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enumeration indicating the availability of the user’s cloud account. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudUserAccountStatus.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudUserAccountStatus.cs" bodystart="11" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudUserAccountStatus.cs"/>
+  </compounddef>
+</doxygen>

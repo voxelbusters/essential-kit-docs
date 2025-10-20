@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::NativeUICore::NullDatePickerInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NativeDatePickerInterfaceBase</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1a3a5859b56fa97f469c1b8ee3ab0ff2d5" prot="private" static="no" mutable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? m_minDate</definition>
+        <argsstring></argsstring>
+        <name>m_minDate</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.NullDatePickerInterface.m_minDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" line="12" column="26" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1a66d3d5f0a0183e999485a7f55b32db44" prot="private" static="no" mutable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? m_maxDate</definition>
+        <argsstring></argsstring>
+        <name>m_maxDate</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.NullDatePickerInterface.m_maxDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" line="14" column="26" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1a9bdcbe0b43ee01c256b6620d35c03337" prot="private" static="no" mutable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? m_initialDate</definition>
+        <argsstring></argsstring>
+        <name>m_initialDate</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.NullDatePickerInterface.m_initialDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" line="16" column="26" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1a15e43c169d23b93383a6d00657dbc716" prot="private" static="no" mutable="no">
+        <type>DateTimeKind</type>
+        <definition>DateTimeKind m_kind</definition>
+        <argsstring></argsstring>
+        <name>m_kind</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.NullDatePickerInterface.m_kind</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" line="18" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1af63f81fc551fd38d3960f570493b5023" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NullDatePickerInterface</definition>
+        <argsstring>(DatePickerMode mode)</argsstring>
+        <name>NullDatePickerInterface</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.NullDatePickerInterface.NullDatePickerInterface</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a3c684be76fc389f509b5926f69d1d67b" kindref="member">DatePickerMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" line="24" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" bodystart="24" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1a584afb33f86efa296ba7777a78c001d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void SetKind</definition>
+        <argsstring>(DateTimeKind value)</argsstring>
+        <name>SetKind</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.NullDatePickerInterface.SetKind</qualifiedname>
+        <param>
+          <type>DateTimeKind</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" line="51" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1aec055991c9a694631350459ab7ce853c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void SetMinimumDate</definition>
+        <argsstring>(DateTime? value)</argsstring>
+        <name>SetMinimumDate</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.NullDatePickerInterface.SetMinimumDate</qualifiedname>
+        <param>
+          <type>DateTime?</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" line="56" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1a75d2a1bcc39f6913792bf77d774b3eee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void SetMaximumDate</definition>
+        <argsstring>(DateTime? value)</argsstring>
+        <name>SetMaximumDate</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.NullDatePickerInterface.SetMaximumDate</qualifiedname>
+        <param>
+          <type>DateTime?</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" line="61" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" bodystart="61" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1a2ff02279f129bdf174cad03474d6048f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void SetInitialDate</definition>
+        <argsstring>(DateTime? value)</argsstring>
+        <name>SetInitialDate</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.NullDatePickerInterface.SetInitialDate</qualifiedname>
+        <param>
+          <type>DateTime?</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" line="66" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1accf383118946aaf8a037e9533c0d129c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Show</definition>
+        <argsstring>()</argsstring>
+        <name>Show</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.NullDatePickerInterface.Show</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" line="71" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" bodystart="71" bodyend="75"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1a1cb26d6b3e85a5e77b3d684016a9991a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>~NullDatePickerInterface</definition>
+        <argsstring>()</argsstring>
+        <name>~NullDatePickerInterface</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.NullDatePickerInterface.~NullDatePickerInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" line="33" column="9" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogNotSupported</definition>
+        <argsstring>()</argsstring>
+        <name>LogNotSupported</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.NullDatePickerInterface.LogNotSupported</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" line="42" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1a849c3c7f8d08104f0cdb46bee9fe6389" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.NullDatePickerInterface.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" line="77" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" bodystart="77" bodyend="86"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" line="8" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NullDatePickerInterface.cs" bodystart="9" bodyend="89"/>
+    <listofallmembers>
+      <member refid="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1a849c3c7f8d08104f0cdb46bee9fe6389" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::NullDatePickerInterface</scope><name>Dispose</name></member>
+      <member refid="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::NullDatePickerInterface</scope><name>LogNotSupported</name></member>
+      <member refid="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1a9bdcbe0b43ee01c256b6620d35c03337" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::NullDatePickerInterface</scope><name>m_initialDate</name></member>
+      <member refid="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1a15e43c169d23b93383a6d00657dbc716" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::NullDatePickerInterface</scope><name>m_kind</name></member>
+      <member refid="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1a66d3d5f0a0183e999485a7f55b32db44" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::NullDatePickerInterface</scope><name>m_maxDate</name></member>
+      <member refid="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1a3a5859b56fa97f469c1b8ee3ab0ff2d5" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::NullDatePickerInterface</scope><name>m_minDate</name></member>
+      <member refid="d3/def/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_native_date_picker_interface_base_1ac2ef80de1e7f6840f5df28ff1d83beec" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::NullDatePickerInterface</scope><name>Mode</name></member>
+      <member refid="d3/def/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_native_date_picker_interface_base_1a37ec452cbf9c9a42d22a9aea12fabc96" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::NullDatePickerInterface</scope><name>NativeDatePickerInterfaceBase</name></member>
+      <member refid="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1af63f81fc551fd38d3960f570493b5023" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::NullDatePickerInterface</scope><name>NullDatePickerInterface</name></member>
+      <member refid="d3/def/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_native_date_picker_interface_base_1a0914512d2f32b908ff6e503cd2a54dd5" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::NullDatePickerInterface</scope><name>OnClose</name></member>
+      <member refid="d3/def/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_native_date_picker_interface_base_1afef295f4f2e01f61084dd25b1545ead1" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::NullDatePickerInterface</scope><name>SendCloseEvent</name></member>
+      <member refid="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1a2ff02279f129bdf174cad03474d6048f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::NullDatePickerInterface</scope><name>SetInitialDate</name></member>
+      <member refid="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1a584afb33f86efa296ba7777a78c001d7" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::NullDatePickerInterface</scope><name>SetKind</name></member>
+      <member refid="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1a75d2a1bcc39f6913792bf77d774b3eee" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::NullDatePickerInterface</scope><name>SetMaximumDate</name></member>
+      <member refid="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1aec055991c9a694631350459ab7ce853c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::NullDatePickerInterface</scope><name>SetMinimumDate</name></member>
+      <member refid="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1accf383118946aaf8a037e9533c0d129c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::NullDatePickerInterface</scope><name>Show</name></member>
+      <member refid="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface_1a1cb26d6b3e85a5e77b3d684016a9991a" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::NullDatePickerInterface</scope><name>~NullDatePickerInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

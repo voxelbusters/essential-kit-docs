@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="de/dee/namespace_voxel_busters_1_1_essential_kit_1_1_notification_services_core" kind="namespace" language="C#">
+    <compoundname>VoxelBusters::EssentialKit::NotificationServicesCore</compoundname>
+    <innerclass refid="d9/dbd/interface_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_i_mutable_notification" prot="public">VoxelBusters::EssentialKit::NotificationServicesCore::IMutableNotification</innerclass>
+    <innerclass refid="dc/da3/interface_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_i_native_notification_center_interface" prot="public">VoxelBusters::EssentialKit::NotificationServicesCore::INativeNotificationCenterInterface</innerclass>
+    <innerclass refid="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base" prot="public">VoxelBusters::EssentialKit::NotificationServicesCore::NativeNotificationCenterInterfaceBase</innerclass>
+    <innerclass refid="d0/dd3/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_notification_base" prot="public">VoxelBusters::EssentialKit::NotificationServicesCore::NotificationBase</innerclass>
+    <innerclass refid="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification" prot="package">VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</innerclass>
+    <innerclass refid="d5/d53/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_notification_center_interface" prot="package">VoxelBusters::EssentialKit::NotificationServicesCore::NullNotificationCenterInterface</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="de/dee/namespace_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1ad47b82fa0721ca704849cdb56394709b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void RequestPermissionInternalCallback</definition>
+        <argsstring>(NotificationPermissionStatus permissionStatus, Error error)</argsstring>
+        <name>RequestPermissionInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.RequestPermissionInternalCallback</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1adb9431b7e4d0a8718ef362bb9c9fdc97" kindref="member">NotificationPermissionStatus</ref></type>
+          <declname>permissionStatus</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/Delegates.cs" line="8" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/Delegates.cs" declline="8" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dee/namespace_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1a1bf9ae3343376d7e55ba3c30c057a447" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void GetSettingsInternalCallback</definition>
+        <argsstring>(NotificationSettingsInternal settings)</argsstring>
+        <name>GetSettingsInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.GetSettingsInternalCallback</qualifiedname>
+        <param>
+          <type>NotificationSettingsInternal</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/Delegates.cs" line="10" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/Delegates.cs" declline="10" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dee/namespace_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1a57c3fcf5d5a43384c43bdd83cb411c56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void ScheduleNotificationInternalCallback</definition>
+        <argsstring>(bool success, Error error)</argsstring>
+        <name>ScheduleNotificationInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.ScheduleNotificationInternalCallback</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>success</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/Delegates.cs" line="12" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/Delegates.cs" declline="12" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dee/namespace_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1ace0972612a5bd9f8942d353608705855" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void GetNotificationsInternalCallback</definition>
+        <argsstring>(INotification[] notifications, Error error)</argsstring>
+        <name>GetNotificationsInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.GetNotificationsInternalCallback</qualifiedname>
+        <param>
+          <type><ref refid="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification" kindref="compound">INotification</ref>[]</type>
+          <declname>notifications</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/Delegates.cs" line="14" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/Delegates.cs" declline="14" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dee/namespace_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1a668711065032a35f09b6319738477afc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void NotificationReceivedInternalCallback</definition>
+        <argsstring>(INotification notification)</argsstring>
+        <name>NotificationReceivedInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NotificationReceivedInternalCallback</qualifiedname>
+        <param>
+          <type><ref refid="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification" kindref="compound">INotification</ref></type>
+          <declname>notification</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/Delegates.cs" line="16" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/Delegates.cs" declline="16" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dee/namespace_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1a0879623f3c0570320d6f8e6c07c2b2f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void RegisterForPushNotificationsInternalCallback</definition>
+        <argsstring>(string deviceToken, Error error)</argsstring>
+        <name>RegisterForPushNotificationsInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.RegisterForPushNotificationsInternalCallback</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>deviceToken</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/Delegates.cs" line="18" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/Delegates.cs" declline="18" declcolumn="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/Delegates.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

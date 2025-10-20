@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_a6ce59ab2b492e764af7665e5010192e" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices</compoundname>
+    <innerfile refid="d1/dc2/_camera_access_status_8cs">CameraAccessStatus.cs</innerfile>
+    <innerfile refid="dd/dc0/_media_services_2_delegates_8cs">Delegates.cs</innerfile>
+    <innerfile refid="d0/d86/_gallery_access_mode_8cs">GalleryAccessMode.cs</innerfile>
+    <innerfile refid="d5/d44/_gallery_access_status_8cs">GalleryAccessStatus.cs</innerfile>
+    <innerfile refid="d0/d23/_i_media_content_8cs">IMediaContent.cs</innerfile>
+    <innerfile refid="da/dd5/_i_native_media_services_interface_8cs">INativeMediaServicesInterface.cs</innerfile>
+    <innerfile refid="da/d9f/_media_content_8cs">MediaContent.cs</innerfile>
+    <innerfile refid="d0/db3/_media_content_capture_options_8cs">MediaContentCaptureOptions.cs</innerfile>
+    <innerfile refid="de/dd5/_media_content_capture_source_8cs">MediaContentCaptureSource.cs</innerfile>
+    <innerfile refid="d1/daa/_media_content_capture_type_8cs">MediaContentCaptureType.cs</innerfile>
+    <innerfile refid="d5/d1e/_media_content_save_options_8cs">MediaContentSaveOptions.cs</innerfile>
+    <innerfile refid="d5/d2e/_media_content_select_options_8cs">MediaContentSelectOptions.cs</innerfile>
+    <innerfile refid="d0/d25/_media_services_8cs">MediaServices.cs</innerfile>
+    <innerfile refid="da/d5b/_media_services_error_8cs">MediaServicesError.cs</innerfile>
+    <innerfile refid="d7/d4d/_media_services_error_code_8cs">MediaServicesErrorCode.cs</innerfile>
+    <innerfile refid="d8/d97/_media_services_request_camera_access_result_8cs">MediaServicesRequestCameraAccessResult.cs</innerfile>
+    <innerfile refid="d3/de4/_media_services_request_gallery_access_result_8cs">MediaServicesRequestGalleryAccessResult.cs</innerfile>
+    <innerfile refid="d1/dc9/_media_services_save_image_to_gallery_result_8cs">MediaServicesSaveImageToGalleryResult.cs</innerfile>
+    <innerfile refid="dc/d18/_media_services_select_media_content_result_8cs">MediaServicesSelectMediaContentResult.cs</innerfile>
+    <innerfile refid="df/d96/_native_media_services_interface_base_8cs">NativeMediaServicesInterfaceBase.cs</innerfile>
+    <innerfile refid="d4/d96/_null_media_services_interface_8cs">NullMediaServicesInterface.cs</innerfile>
+    <innerfile refid="da/d0b/_raw_media_data_8cs">RawMediaData.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/"/>
+  </compounddef>
+</doxygen>

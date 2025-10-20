@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d7/d56/class_voxel_busters_1_1_core_library_1_1_runtime_scheduler" kind="class" language="C#" prot="package">
+    <compoundname>VoxelBusters::CoreLibrary::RuntimeScheduler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">VoxelBusters::CoreLibrary::PrivateSingletonBehaviour&lt; RuntimeScheduler &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IScheduler</basecompoundref>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="d7/d56/class_voxel_busters_1_1_core_library_1_1_runtime_scheduler_1a5206c19c806b45c355583f1078b93ebc" prot="private" static="no" add="no" remove="no" raise="no">
+        <type><ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a7aad06b84eedaea282efda0972c4197b" kindref="member">Callback</ref></type>
+        <definition>Callback UpdateEvent</definition>
+        <argsstring></argsstring>
+        <name>UpdateEvent</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimeScheduler.UpdateEvent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/RuntimeScheduler.cs" line="11" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/RuntimeScheduler.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="d7/d56/class_voxel_busters_1_1_core_library_1_1_runtime_scheduler_1a3ec5d656342fc7e5205de7c9dec815d3" prot="private" static="no" add="yes" remove="yes" raise="no">
+        <type><ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a7aad06b84eedaea282efda0972c4197b" kindref="member">Callback</ref> IScheduler.</type>
+        <definition>Callback IScheduler. Update</definition>
+        <argsstring></argsstring>
+        <name>Update</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimeScheduler.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/RuntimeScheduler.cs" line="44" column="34" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/RuntimeScheduler.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d7/d56/class_voxel_busters_1_1_core_library_1_1_runtime_scheduler_1a4426b8adfd58bc1babbdaa74ef4d584e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>RuntimeScheduler</type>
+        <definition>static RuntimeScheduler Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimeScheduler.Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/RuntimeScheduler.cs" line="17" column="40" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/RuntimeScheduler.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d7/d56/class_voxel_busters_1_1_core_library_1_1_runtime_scheduler_1aec0783b5a136e042adcc47bae4fe5291" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimeScheduler.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/RuntimeScheduler.cs" line="26" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/RuntimeScheduler.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d56/class_voxel_busters_1_1_core_library_1_1_runtime_scheduler_1a24f7ae84c18b180e511188800a9292dd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SendUpdateEvent</definition>
+        <argsstring>()</argsstring>
+        <name>SendUpdateEvent</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimeScheduler.SendUpdateEvent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/RuntimeScheduler.cs" line="35" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/RuntimeScheduler.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d56/class_voxel_busters_1_1_core_library_1_1_runtime_scheduler_1aa3e49a2bb4809260b1f9ba519056c167" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void IScheduler.</type>
+        <definition>void IScheduler. StartCoroutine</definition>
+        <argsstring>(IEnumerator routine)</argsstring>
+        <name>StartCoroutine</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimeScheduler.StartCoroutine</qualifiedname>
+        <param>
+          <type>IEnumerator</type>
+          <declname>routine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/RuntimeScheduler.cs" line="50" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/RuntimeScheduler.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d56/class_voxel_busters_1_1_core_library_1_1_runtime_scheduler_1a63be85c90989af8ab166e88fada122ed" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void IScheduler.</type>
+        <definition>void IScheduler. StopCoroutine</definition>
+        <argsstring>(IEnumerator routine)</argsstring>
+        <name>StopCoroutine</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimeScheduler.StopCoroutine</qualifiedname>
+        <param>
+          <type>IEnumerator</type>
+          <declname>routine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/RuntimeScheduler.cs" line="55" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/RuntimeScheduler.cs" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d56/class_voxel_busters_1_1_core_library_1_1_runtime_scheduler_1a85e970edda9450902fa80378c9485e1c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void IScheduler.</type>
+        <definition>void IScheduler. StopAllCoroutines</definition>
+        <argsstring>()</argsstring>
+        <name>StopAllCoroutines</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimeScheduler.StopAllCoroutines</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/RuntimeScheduler.cs" line="60" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/RuntimeScheduler.cs" bodystart="60" bodyend="63"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/RuntimeScheduler.cs" line="7" column="13" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/RuntimeScheduler.cs" bodystart="8" bodyend="66"/>
+    <listofallmembers>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a6a50039c56e42ecc20d5de7aa56ab5e6" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimeScheduler</scope><name>DestorySingleton</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a7f36640d267f36fcbac6d736fb9456d6" prot="protected" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimeScheduler</scope><name>GetSingleton</name></member>
+      <member refid="d7/d56/class_voxel_busters_1_1_core_library_1_1_runtime_scheduler_1a4426b8adfd58bc1babbdaa74ef4d584e" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimeScheduler</scope><name>Initialize</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a4c99c6dc56675d38d2fbc282cbd64d09" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimeScheduler</scope><name>IsPersistent</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1ac51aabcdcc13271b1c7f1bbb249f0321" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimeScheduler</scope><name>IsSingletonActive</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a5fdaf276406a70b875624da347c33765" prot="protected" virt="virtual"><scope>VoxelBusters::CoreLibrary::RuntimeScheduler</scope><name>OnSingletonAwake</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a44bde1142ce6a850a18aa9d61e1338ec" prot="protected" virt="virtual"><scope>VoxelBusters::CoreLibrary::RuntimeScheduler</scope><name>OnSingletonDestroy</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a4343e94eeb9392419970f25f0d8c2f7a" prot="protected" virt="virtual"><scope>VoxelBusters::CoreLibrary::RuntimeScheduler</scope><name>OnSingletonStart</name></member>
+      <member refid="d7/d56/class_voxel_busters_1_1_core_library_1_1_runtime_scheduler_1a24f7ae84c18b180e511188800a9292dd" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimeScheduler</scope><name>SendUpdateEvent</name></member>
+      <member refid="d7/d56/class_voxel_busters_1_1_core_library_1_1_runtime_scheduler_1aa3e49a2bb4809260b1f9ba519056c167" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimeScheduler</scope><name>StartCoroutine</name></member>
+      <member refid="d7/d56/class_voxel_busters_1_1_core_library_1_1_runtime_scheduler_1a85e970edda9450902fa80378c9485e1c" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimeScheduler</scope><name>StopAllCoroutines</name></member>
+      <member refid="d7/d56/class_voxel_busters_1_1_core_library_1_1_runtime_scheduler_1a63be85c90989af8ab166e88fada122ed" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimeScheduler</scope><name>StopCoroutine</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1adc4b27bf21ae03f5295e34e316904e2d" prot="protected" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimeScheduler</scope><name>TryGetSingleton</name></member>
+      <member refid="d7/d56/class_voxel_busters_1_1_core_library_1_1_runtime_scheduler_1a3ec5d656342fc7e5205de7c9dec815d3" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimeScheduler</scope><name>Update</name></member>
+      <member refid="d7/d56/class_voxel_busters_1_1_core_library_1_1_runtime_scheduler_1aec0783b5a136e042adcc47bae4fe5291" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimeScheduler</scope><name>Update</name></member>
+      <member refid="d7/d56/class_voxel_busters_1_1_core_library_1_1_runtime_scheduler_1a5206c19c806b45c355583f1078b93ebc" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimeScheduler</scope><name>UpdateEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

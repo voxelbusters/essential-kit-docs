@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::StringPopupAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">PropertyAttribute</basecompoundref>
+    <derivedcompoundref refid="da/d15/class_voxel_busters_1_1_essential_kit_1_1_achievement_id_attribute" prot="public" virt="non-virtual">AchievementIdAttribute</derivedcompoundref>
+    <derivedcompoundref refid="db/d57/class_voxel_busters_1_1_essential_kit_1_1_billing_product_id_attribute" prot="public" virt="non-virtual">BillingProductIdAttribute</derivedcompoundref>
+    <derivedcompoundref refid="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_id_attribute" prot="public" virt="non-virtual">LeaderboardIdAttribute</derivedcompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute_1a423348c52c051995c7f7ad1c5e6addfc" prot="private" static="yes" mutable="no">
+        <type>readonly string[]</type>
+        <definition>readonly string [] s_emptyOptions</definition>
+        <argsstring></argsstring>
+        <name>s_emptyOptions</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.StringPopupAttribute.s_emptyOptions</qualifiedname>
+        <initializer>= new string[0]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/StringPopupAttribute.cs" line="15" column="51" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/StringPopupAttribute.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute_1a9a42d6cae0590de606c0fc71ae8b6d7b" prot="private" static="no" mutable="no">
+        <type>readonly string[]</type>
+        <definition>readonly string [] m_fixedOptions</definition>
+        <argsstring></argsstring>
+        <name>m_fixedOptions</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.StringPopupAttribute.m_fixedOptions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/StringPopupAttribute.cs" line="21" column="39" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/StringPopupAttribute.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute_1a2d5c0a2f3705d4f0254b3b7056ac8664" prot="private" static="no" mutable="no">
+        <type>readonly bool</type>
+        <definition>readonly bool m_usesFixedOptions</definition>
+        <argsstring></argsstring>
+        <name>m_usesFixedOptions</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.StringPopupAttribute.m_usesFixedOptions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/StringPopupAttribute.cs" line="23" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/StringPopupAttribute.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute_1a977d4b55127b3c15e52191f670ff8122" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string PreferencePropertyName</definition>
+        <argsstring></argsstring>
+        <name>PreferencePropertyName</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.StringPopupAttribute.PreferencePropertyName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/StringPopupAttribute.cs" line="29" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/StringPopupAttribute.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute_1aab18fadb9f38f6412f7498d880b2e146" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool PreferencePropertyValue</definition>
+        <argsstring></argsstring>
+        <name>PreferencePropertyValue</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.StringPopupAttribute.PreferencePropertyValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/StringPopupAttribute.cs" line="31" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/StringPopupAttribute.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute_1ae368b3f0287fe9169dfc417e2def58cf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string[]</type>
+        <definition>string [] Options</definition>
+        <argsstring></argsstring>
+        <name>Options</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.StringPopupAttribute.Options</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/StringPopupAttribute.cs" line="33" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/StringPopupAttribute.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute_1a259f888b8c9a57b4334e7e0b3ab7a3c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>StringPopupAttribute</definition>
+        <argsstring>(string preferencePropertyName=null, bool preferencePropertyValue=true, params string[] fixedOptions)</argsstring>
+        <name>StringPopupAttribute</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.StringPopupAttribute.StringPopupAttribute</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>preferencePropertyName</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>preferencePropertyValue</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>params string[]</type>
+          <declname>fixedOptions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/StringPopupAttribute.cs" line="39" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/StringPopupAttribute.cs" bodystart="39" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute_1a445fe77696be34ab43864b35f5ac1dfb" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>string[]</type>
+        <definition>virtual string[] GetDynamicOptions</definition>
+        <argsstring>()</argsstring>
+        <name>GetDynamicOptions</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.StringPopupAttribute.GetDynamicOptions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/StringPopupAttribute.cs" line="54" column="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Base class to create custom string popup field in the inspector. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/StringPopupAttribute.cs" line="11" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/StringPopupAttribute.cs" bodystart="12" bodyend="57"/>
+    <listofallmembers>
+      <member refid="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute_1a445fe77696be34ab43864b35f5ac1dfb" prot="protected" virt="virtual"><scope>VoxelBusters::CoreLibrary::StringPopupAttribute</scope><name>GetDynamicOptions</name></member>
+      <member refid="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute_1a9a42d6cae0590de606c0fc71ae8b6d7b" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::StringPopupAttribute</scope><name>m_fixedOptions</name></member>
+      <member refid="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute_1a2d5c0a2f3705d4f0254b3b7056ac8664" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::StringPopupAttribute</scope><name>m_usesFixedOptions</name></member>
+      <member refid="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute_1ae368b3f0287fe9169dfc417e2def58cf" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::StringPopupAttribute</scope><name>Options</name></member>
+      <member refid="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute_1a977d4b55127b3c15e52191f670ff8122" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::StringPopupAttribute</scope><name>PreferencePropertyName</name></member>
+      <member refid="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute_1aab18fadb9f38f6412f7498d880b2e146" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::StringPopupAttribute</scope><name>PreferencePropertyValue</name></member>
+      <member refid="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute_1a423348c52c051995c7f7ad1c5e6addfc" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::StringPopupAttribute</scope><name>s_emptyOptions</name></member>
+      <member refid="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute_1a259f888b8c9a57b4334e7e0b3ab7a3c1" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::StringPopupAttribute</scope><name>StringPopupAttribute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

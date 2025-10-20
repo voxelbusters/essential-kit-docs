@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="df/d1d/class_voxel_busters_1_1_core_library_1_1_settings_object" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::SettingsObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+    <derivedcompoundref refid="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings" prot="public" virt="non-virtual">EssentialKitSettings</derivedcompoundref>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="df/d1d/class_voxel_busters_1_1_core_library_1_1_settings_object_1ad200cf904fd8c05651f0a628b619dd6c" prot="public" static="no" add="no" remove="no" raise="no">
+        <type><ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a7aad06b84eedaea282efda0972c4197b" kindref="member">Callback</ref></type>
+        <definition>Callback OnSettingsUpdated</definition>
+        <argsstring></argsstring>
+        <name>OnSettingsUpdated</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.SettingsObject.OnSettingsUpdated</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/SettingsObject.cs" line="11" column="31" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/SettingsObject.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="df/d1d/class_voxel_busters_1_1_core_library_1_1_settings_object_1ad6f3426582ec127d8e7fb06cdea121df" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void OnValidate</definition>
+        <argsstring>()</argsstring>
+        <name>OnValidate</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.SettingsObject.OnValidate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/SettingsObject.cs" line="17" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/SettingsObject.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d1d/class_voxel_busters_1_1_core_library_1_1_settings_object_1ae4720d42fb15f81a10b0e0b88c579580" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void UpdateLoggerSettings</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateLoggerSettings</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.SettingsObject.UpdateLoggerSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/SettingsObject.cs" line="26" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/SettingsObject.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="df/d1d/class_voxel_busters_1_1_core_library_1_1_settings_object_1a44799bf0955d9540b472665270fdb384" prot="package" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void OnEditorReload</definition>
+        <argsstring>()</argsstring>
+        <name>OnEditorReload</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.SettingsObject.OnEditorReload</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/SettingsObject.cs" line="28" column="31" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/SettingsObject.cs" bodystart="28" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/SettingsObject.cs" line="7" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/SettingsObject.cs" bodystart="8" bodyend="33"/>
+    <listofallmembers>
+      <member refid="df/d1d/class_voxel_busters_1_1_core_library_1_1_settings_object_1a44799bf0955d9540b472665270fdb384" prot="package" virt="virtual"><scope>VoxelBusters::CoreLibrary::SettingsObject</scope><name>OnEditorReload</name></member>
+      <member refid="df/d1d/class_voxel_busters_1_1_core_library_1_1_settings_object_1ad200cf904fd8c05651f0a628b619dd6c" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::SettingsObject</scope><name>OnSettingsUpdated</name></member>
+      <member refid="df/d1d/class_voxel_busters_1_1_core_library_1_1_settings_object_1ad6f3426582ec127d8e7fb06cdea121df" prot="protected" virt="virtual"><scope>VoxelBusters::CoreLibrary::SettingsObject</scope><name>OnValidate</name></member>
+      <member refid="df/d1d/class_voxel_busters_1_1_core_library_1_1_settings_object_1ae4720d42fb15f81a10b0e0b88c579580" prot="protected" virt="virtual"><scope>VoxelBusters::CoreLibrary::SettingsObject</scope><name>UpdateLoggerSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,384 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::NotificationServicesUnitySettings::AndroidPlatformProperties::Keys</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1af0ad70b8ff3bf22e38b322a3f98c6ce7" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_contentTitle</definition>
+        <argsstring></argsstring>
+        <name>m_contentTitle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.Keys.m_contentTitle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" line="121" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1a1d2f2329a7daba44bf3100fd30d5d721" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_contentText</definition>
+        <argsstring></argsstring>
+        <name>m_contentText</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.Keys.m_contentText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" line="125" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1a75b31c2853a8f530ae482ed173b0e982" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_tickerText</definition>
+        <argsstring></argsstring>
+        <name>m_tickerText</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.Keys.m_tickerText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" line="129" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1add08381985472f5e8a40568100b4cba8" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_userInfo</definition>
+        <argsstring></argsstring>
+        <name>m_userInfo</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.Keys.m_userInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" line="133" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1a4af26028abc5466d6d64ed53eca0ca10" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_tag</definition>
+        <argsstring></argsstring>
+        <name>m_tag</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.Keys.m_tag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" line="137" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1a492998245dfa2b7bc4e4b2c44e173b85" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_badge</definition>
+        <argsstring></argsstring>
+        <name>m_badge</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.Keys.m_badge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" line="141" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1adb33905e91cc3f7c7069f456f2ebc7bc" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_priority</definition>
+        <argsstring></argsstring>
+        <name>m_priority</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.Keys.m_priority</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" line="145" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1ae19b911687d2fd44dd3caac426eafd54" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_sound</definition>
+        <argsstring></argsstring>
+        <name>m_sound</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.Keys.m_sound</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" line="149" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1a2990e0b20860f178afb0be1f7b28ea31" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_bigPicture</definition>
+        <argsstring></argsstring>
+        <name>m_bigPicture</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.Keys.m_bigPicture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" line="153" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1ad2793baf556e71d2a7ac103a57e9d347" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_largeIcon</definition>
+        <argsstring></argsstring>
+        <name>m_largeIcon</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.Keys.m_largeIcon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" line="157" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="157" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1a4fa7d8c826b9a9ed9549bf8ef8668e6c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string TickerTextKey</definition>
+        <argsstring></argsstring>
+        <name>TickerTextKey</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.Keys.TickerTextKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" line="163" column="31" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1a03807a971a4d892c9d970f09ef67aa69" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ContentTitleKey</definition>
+        <argsstring></argsstring>
+        <name>ContentTitleKey</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.Keys.ContentTitleKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" line="168" column="31" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1a055563fe8a2b67b2683ca7ae10ae817c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ContentTextKey</definition>
+        <argsstring></argsstring>
+        <name>ContentTextKey</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.Keys.ContentTextKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" line="173" column="31" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1ad699b1df7fea4928c313b2a6cf90a1a7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string UserInfoKey</definition>
+        <argsstring></argsstring>
+        <name>UserInfoKey</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.Keys.UserInfoKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" line="178" column="31" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1a0051a810f2402a2ceaac14c1e58dc3a3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string TagKey</definition>
+        <argsstring></argsstring>
+        <name>TagKey</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.Keys.TagKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" line="183" column="31" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1a14ed4a1d0208a4114bfa229726be5811" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BadgeKey</definition>
+        <argsstring></argsstring>
+        <name>BadgeKey</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.Keys.BadgeKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" line="188" column="31" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1ae8d39067bd5749e6249fec9cc42c75c6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string PriorityKey</definition>
+        <argsstring></argsstring>
+        <name>PriorityKey</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.Keys.PriorityKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" line="193" column="31" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1ade22f8c09d3a35e2855ac9dfe4cb979c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string SoundFileNameKey</definition>
+        <argsstring></argsstring>
+        <name>SoundFileNameKey</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.Keys.SoundFileNameKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" line="198" column="31" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1ac7b5e3aa8b2e868f9cf470a752b8ce4e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BigPictureKey</definition>
+        <argsstring></argsstring>
+        <name>BigPictureKey</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.Keys.BigPictureKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" line="203" column="31" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1a4a25950ae9632284a046b011388483ea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LargeIconKey</definition>
+        <argsstring></argsstring>
+        <name>LargeIconKey</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.Keys.LargeIconKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" line="208" column="31" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="208" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1aa07d23ef7e71456fa80444f24ee10273" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Keys</definition>
+        <argsstring>(string tickerText=null, string contentTitle=null, string contentText=null, string userInfo=null, string tag=null, string badge=null, string priority=null, string sound=null, string bigPicture=null, string largeIcon=null)</argsstring>
+        <name>Keys</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesUnitySettings.AndroidPlatformProperties.Keys.Keys</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tickerText</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>contentTitle</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>contentText</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>userInfo</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>badge</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>priority</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>sound</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>bigPicture</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>largeIcon</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" line="217" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="217" bodyend="263"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" line="115" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="116" bodyend="266"/>
+    <listofallmembers>
+      <member refid="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1a14ed4a1d0208a4114bfa229726be5811" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesUnitySettings::AndroidPlatformProperties::Keys</scope><name>BadgeKey</name></member>
+      <member refid="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1ac7b5e3aa8b2e868f9cf470a752b8ce4e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesUnitySettings::AndroidPlatformProperties::Keys</scope><name>BigPictureKey</name></member>
+      <member refid="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1a055563fe8a2b67b2683ca7ae10ae817c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesUnitySettings::AndroidPlatformProperties::Keys</scope><name>ContentTextKey</name></member>
+      <member refid="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1a03807a971a4d892c9d970f09ef67aa69" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesUnitySettings::AndroidPlatformProperties::Keys</scope><name>ContentTitleKey</name></member>
+      <member refid="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1aa07d23ef7e71456fa80444f24ee10273" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesUnitySettings::AndroidPlatformProperties::Keys</scope><name>Keys</name></member>
+      <member refid="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1a4a25950ae9632284a046b011388483ea" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesUnitySettings::AndroidPlatformProperties::Keys</scope><name>LargeIconKey</name></member>
+      <member refid="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1a492998245dfa2b7bc4e4b2c44e173b85" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesUnitySettings::AndroidPlatformProperties::Keys</scope><name>m_badge</name></member>
+      <member refid="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1a2990e0b20860f178afb0be1f7b28ea31" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesUnitySettings::AndroidPlatformProperties::Keys</scope><name>m_bigPicture</name></member>
+      <member refid="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1a1d2f2329a7daba44bf3100fd30d5d721" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesUnitySettings::AndroidPlatformProperties::Keys</scope><name>m_contentText</name></member>
+      <member refid="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1af0ad70b8ff3bf22e38b322a3f98c6ce7" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesUnitySettings::AndroidPlatformProperties::Keys</scope><name>m_contentTitle</name></member>
+      <member refid="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1ad2793baf556e71d2a7ac103a57e9d347" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesUnitySettings::AndroidPlatformProperties::Keys</scope><name>m_largeIcon</name></member>
+      <member refid="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1adb33905e91cc3f7c7069f456f2ebc7bc" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesUnitySettings::AndroidPlatformProperties::Keys</scope><name>m_priority</name></member>
+      <member refid="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1ae19b911687d2fd44dd3caac426eafd54" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesUnitySettings::AndroidPlatformProperties::Keys</scope><name>m_sound</name></member>
+      <member refid="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1a4af26028abc5466d6d64ed53eca0ca10" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesUnitySettings::AndroidPlatformProperties::Keys</scope><name>m_tag</name></member>
+      <member refid="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1a75b31c2853a8f530ae482ed173b0e982" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesUnitySettings::AndroidPlatformProperties::Keys</scope><name>m_tickerText</name></member>
+      <member refid="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1add08381985472f5e8a40568100b4cba8" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesUnitySettings::AndroidPlatformProperties::Keys</scope><name>m_userInfo</name></member>
+      <member refid="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1ae8d39067bd5749e6249fec9cc42c75c6" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesUnitySettings::AndroidPlatformProperties::Keys</scope><name>PriorityKey</name></member>
+      <member refid="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1ade22f8c09d3a35e2855ac9dfe4cb979c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesUnitySettings::AndroidPlatformProperties::Keys</scope><name>SoundFileNameKey</name></member>
+      <member refid="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1a0051a810f2402a2ceaac14c1e58dc3a3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesUnitySettings::AndroidPlatformProperties::Keys</scope><name>TagKey</name></member>
+      <member refid="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1a4fa7d8c826b9a9ed9549bf8ef8668e6c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesUnitySettings::AndroidPlatformProperties::Keys</scope><name>TickerTextKey</name></member>
+      <member refid="d6/d7c/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties_1_1_keys_1ad699b1df7fea4928c313b2a6cf90a1a7" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesUnitySettings::AndroidPlatformProperties::Keys</scope><name>UserInfoKey</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

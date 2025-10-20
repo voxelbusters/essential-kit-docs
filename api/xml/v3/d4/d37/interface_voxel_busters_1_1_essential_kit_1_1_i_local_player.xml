@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d4/d37/interface_voxel_busters_1_1_essential_kit_1_1_i_local_player" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::ILocalPlayer</compoundname>
+    <basecompoundref refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player" prot="public" virt="non-virtual">IPlayer</basecompoundref>
+    <derivedcompoundref refid="d9/d16/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_local_player" prot="public" virt="non-virtual">NullLocalPlayer</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d4/d37/interface_voxel_busters_1_1_essential_kit_1_1_i_local_player_1a113748123407c45ee6c5faed4bd20edd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool IsAuthenticated</definition>
+        <argsstring></argsstring>
+        <name>IsAuthenticated</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ILocalPlayer.IsAuthenticated</qualifiedname>
+        <briefdescription>
+<para>A bool value that indicates whether a local player is currently signed in to game service. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/ILocalPlayer.cs" line="23" column="14" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/ILocalPlayer.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d37/interface_voxel_busters_1_1_essential_kit_1_1_i_local_player_1ab840642f1e46930a164a367e2c1417ca" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool IsUnderAge</definition>
+        <argsstring></argsstring>
+        <name>IsUnderAge</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ILocalPlayer.IsUnderAge</qualifiedname>
+        <briefdescription>
+<para>A bool value that indicates whether a local player is underage. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>true</computeroutput> if is under age; otherwise, <computeroutput>false</computeroutput>.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/ILocalPlayer.cs" line="29" column="14" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/ILocalPlayer.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d37/interface_voxel_busters_1_1_essential_kit_1_1_i_local_player_1a84620b98036e230ebd21e89f360841c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoadFriends</definition>
+        <argsstring>(EventCallback&lt; GameServicesLoadPlayerFriendsResult &gt; callback)</argsstring>
+        <name>LoadFriends</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ILocalPlayer.LoadFriends</qualifiedname>
+        <param>
+          <type>EventCallback&lt; <ref refid="d7/d5d/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_player_friends_result" kindref="compound">GameServicesLoadPlayerFriendsResult</ref> &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Loads the list of friends for the authenticated local player. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The callback that will be called after operation is completed. If successful, it will contain the list of friends.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/ILocalPlayer.cs" line="40" column="14"/>
+        <referencedby refid="d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services_1ae9be309fe87dbe471eee825c41812631" compoundref="d5/d70/_game_services_8cs" startline="324" endline="335">GameServices.LoadFriends</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d4/d37/interface_voxel_busters_1_1_essential_kit_1_1_i_local_player_1af854d3ac7409bc3b36fced11e8b61d53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddFriend</definition>
+        <argsstring>(string playerId, EventCallback&lt; bool &gt; callback)</argsstring>
+        <name>AddFriend</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ILocalPlayer.AddFriend</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>playerId</declname>
+        </param>
+        <param>
+          <type>EventCallback&lt; bool &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Initiates a friend request to the specified player. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>playerId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The id of the player to send the request to.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The callback that will be called after operation is completed. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/ILocalPlayer.cs" line="48" column="14"/>
+        <referencedby refid="d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services_1a729618d66f5e1ad8b6f96347bc82bae6" compoundref="d5/d70/_game_services_8cs" startline="344" endline="355">GameServices.AddFriend</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Provides interface to access information about the authenticated player running your game on the device. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>At any given time, only one user may be authenticated on the device, this user must log out before another user can log in.  <simplesect kind="remark"><para>Your game must authenticate the local user before using any features. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ILocalPlayer</label>
+        <link refid="d4/d37/interface_voxel_busters_1_1_essential_kit_1_1_i_local_player"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IPlayer</label>
+        <link refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ILocalPlayer</label>
+        <link refid="d4/d37/interface_voxel_busters_1_1_essential_kit_1_1_i_local_player"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IPlayer</label>
+        <link refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/ILocalPlayer.cs" line="16" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/ILocalPlayer.cs" bodystart="17" bodyend="51"/>
+    <listofallmembers>
+      <member refid="d4/d37/interface_voxel_busters_1_1_essential_kit_1_1_i_local_player_1af854d3ac7409bc3b36fced11e8b61d53" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ILocalPlayer</scope><name>AddFriend</name></member>
+      <member refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1ab2ebdabf1f5b5afb170cd94ea4d28d52" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ILocalPlayer</scope><name>Alias</name></member>
+      <member refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1acb49756bb1e0cde63867c7c1fbecec5e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ILocalPlayer</scope><name>DeveloperScopeId</name></member>
+      <member refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1a79058db2ed94f4241d163657bcce788c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ILocalPlayer</scope><name>DeveloperScopeIdentifier</name></member>
+      <member refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1aba0e038e9b973f3ba4ca520a2fb057dc" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ILocalPlayer</scope><name>DisplayName</name></member>
+      <member refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1a186291c875988107b7ace745ea84d4ec" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ILocalPlayer</scope><name>Id</name></member>
+      <member refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1a4df71ed6bf05109e86a43738e8f9898a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ILocalPlayer</scope><name>Identifier</name></member>
+      <member refid="d4/d37/interface_voxel_busters_1_1_essential_kit_1_1_i_local_player_1a113748123407c45ee6c5faed4bd20edd" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ILocalPlayer</scope><name>IsAuthenticated</name></member>
+      <member refid="d4/d37/interface_voxel_busters_1_1_essential_kit_1_1_i_local_player_1ab840642f1e46930a164a367e2c1417ca" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ILocalPlayer</scope><name>IsUnderAge</name></member>
+      <member refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1aa0cbc31942d14d6c3e7ac461b42388a8" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ILocalPlayer</scope><name>LegacyId</name></member>
+      <member refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1abde07ef8de541da9829605a7f3d25a2c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ILocalPlayer</scope><name>LegacyIdentifier</name></member>
+      <member refid="d4/d37/interface_voxel_busters_1_1_essential_kit_1_1_i_local_player_1a84620b98036e230ebd21e89f360841c9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ILocalPlayer</scope><name>LoadFriends</name></member>
+      <member refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1a33542b43cd72bbdbcacf9801f9bef643" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ILocalPlayer</scope><name>LoadImage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

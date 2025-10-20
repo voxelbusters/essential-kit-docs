@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_de75cfe0dcbfa964acea4f1473963103" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants</compoundname>
+    <innerfile refid="dc/d28/_consent_status_8cs">ConsentStatus.cs</innerfile>
+    <innerfile refid="de/d40/_content_rating_8cs">ContentRating.cs</innerfile>
+    <innerfile refid="d9/d79/_core_library_domain_8cs">CoreLibraryDomain.cs</innerfile>
+    <innerfile refid="d3/ddf/_mime_type_8cs">MimeType.cs</innerfile>
+    <innerfile refid="de/d50/_text_encoding_format_8cs">TextEncodingFormat.cs</innerfile>
+    <innerfile refid="dd/d4e/_texture_encoding_format_8cs">TextureEncodingFormat.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/"/>
+  </compounddef>
+</doxygen>

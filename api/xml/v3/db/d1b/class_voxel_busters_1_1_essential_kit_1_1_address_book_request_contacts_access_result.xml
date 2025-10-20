@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/d1b/class_voxel_busters_1_1_essential_kit_1_1_address_book_request_contacts_access_result" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::AddressBookRequestContactsAccessResult</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="db/d1b/class_voxel_busters_1_1_essential_kit_1_1_address_book_request_contacts_access_result_1a3d5d127f4c2a030e35b882da40843e69" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1aab9cbb2e4dad38d49083c84e587abac5" kindref="member">AddressBookContactsAccessStatus</ref></type>
+        <definition>AddressBookContactsAccessStatus AccessStatus</definition>
+        <argsstring></argsstring>
+        <name>AccessStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AddressBookRequestContactsAccessResult.AccessStatus</qualifiedname>
+        <briefdescription>
+<para>Returns the permission granted to access address book. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookRequestContactsAccessResult.cs" line="19" column="48" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookRequestContactsAccessResult.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="db/d1b/class_voxel_busters_1_1_essential_kit_1_1_address_book_request_contacts_access_result_1a0d5c3fa3958b761221eaa68a4a24cced" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AddressBookRequestContactsAccessResult</definition>
+        <argsstring>(AddressBookContactsAccessStatus accessStatus)</argsstring>
+        <name>AddressBookRequestContactsAccessResult</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AddressBookRequestContactsAccessResult.AddressBookRequestContactsAccessResult</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1aab9cbb2e4dad38d49083c84e587abac5" kindref="member">AddressBookContactsAccessStatus</ref></type>
+          <declname>accessStatus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookRequestContactsAccessResult.cs" line="25" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookRequestContactsAccessResult.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class contains the information retrieved when AddressBook.RequestContactsAccess(bool, EventCallback&lt;AddressBookRequestContactsAccessResult&gt;) operation is completed. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookRequestContactsAccessResult.cs" line="12" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookRequestContactsAccessResult.cs" bodystart="13" bodyend="32"/>
+    <listofallmembers>
+      <member refid="db/d1b/class_voxel_busters_1_1_essential_kit_1_1_address_book_request_contacts_access_result_1a3d5d127f4c2a030e35b882da40843e69" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AddressBookRequestContactsAccessResult</scope><name>AccessStatus</name></member>
+      <member refid="db/d1b/class_voxel_busters_1_1_essential_kit_1_1_address_book_request_contacts_access_result_1a0d5c3fa3958b761221eaa68a4a24cced" prot="package" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AddressBookRequestContactsAccessResult</scope><name>AddressBookRequestContactsAccessResult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_27a4aaa6fa6452085fe305040fa51a40" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/TaskServices</compoundname>
+    <innerfile refid="dd/d2d/_i_native_task_services_interface_8cs">INativeTaskServicesInterface.cs</innerfile>
+    <innerfile refid="de/dea/_null_task_services_interface_8cs">NullTaskServicesInterface.cs</innerfile>
+    <innerfile refid="d2/d4e/_task_services_8cs">TaskServices.cs</innerfile>
+    <innerfile refid="db/dd0/_task_services_error_8cs">TaskServicesError.cs</innerfile>
+    <innerfile refid="de/d27/_task_services_error_code_8cs">TaskServicesErrorCode.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/TaskServices/"/>
+  </compounddef>
+</doxygen>

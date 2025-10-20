@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dc/d16/class_voxel_busters_1_1_core_library_1_1_async_operation_manager" kind="class" language="C#" prot="package">
+    <compoundname>VoxelBusters::CoreLibrary::AsyncOperationManager</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="dc/d16/class_voxel_busters_1_1_core_library_1_1_async_operation_manager_1a81261d94e8b127c62a985c5357886216" prot="private" static="yes" mutable="no">
+        <type>List&lt; IAsyncOperationUpdateHandler &gt;</type>
+        <definition>List&lt;IAsyncOperationUpdateHandler&gt; s_targets</definition>
+        <argsstring></argsstring>
+        <name>s_targets</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.AsyncOperationManager.s_targets</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/AsyncOperationManager.cs" line="12" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/AsyncOperationManager.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dc/d16/class_voxel_busters_1_1_core_library_1_1_async_operation_manager_1a680f5bcc95054a701ad163b82bcf4b65" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ScheduleUpdate</definition>
+        <argsstring>(IAsyncOperationUpdateHandler target)</argsstring>
+        <name>ScheduleUpdate</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.AsyncOperationManager.ScheduleUpdate</qualifiedname>
+        <param>
+          <type>IAsyncOperationUpdateHandler</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/AsyncOperationManager.cs" line="18" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/AsyncOperationManager.cs" bodystart="18" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d16/class_voxel_busters_1_1_core_library_1_1_async_operation_manager_1adaec7abcdc49ea894cdda3a365205d53" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnscheduleUpdate</definition>
+        <argsstring>(IAsyncOperationUpdateHandler target)</argsstring>
+        <name>UnscheduleUpdate</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.AsyncOperationManager.UnscheduleUpdate</qualifiedname>
+        <param>
+          <type>IAsyncOperationUpdateHandler</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/AsyncOperationManager.cs" line="27" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/AsyncOperationManager.cs" bodystart="27" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="dc/d16/class_voxel_busters_1_1_core_library_1_1_async_operation_manager_1a554d0f30ae93d2787435dca9a46c6c5d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.AsyncOperationManager.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/AsyncOperationManager.cs" line="40" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/AsyncOperationManager.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d16/class_voxel_busters_1_1_core_library_1_1_async_operation_manager_1acdcdd0476cb75e90c82adbd806a47537" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void EnsureInitialised</definition>
+        <argsstring>()</argsstring>
+        <name>EnsureInitialised</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.AsyncOperationManager.EnsureInitialised</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/AsyncOperationManager.cs" line="49" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/AsyncOperationManager.cs" bodystart="49" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d16/class_voxel_busters_1_1_core_library_1_1_async_operation_manager_1a55865a452d2cc26a10e9cf8bdebc1e58" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UpdateTargets</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateTargets</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.AsyncOperationManager.UpdateTargets</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/AsyncOperationManager.cs" line="60" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/AsyncOperationManager.cs" bodystart="60" bodyend="70"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/AsyncOperationManager.cs" line="7" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/AsyncOperationManager.cs" bodystart="8" bodyend="73"/>
+    <listofallmembers>
+      <member refid="dc/d16/class_voxel_busters_1_1_core_library_1_1_async_operation_manager_1acdcdd0476cb75e90c82adbd806a47537" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::AsyncOperationManager</scope><name>EnsureInitialised</name></member>
+      <member refid="dc/d16/class_voxel_busters_1_1_core_library_1_1_async_operation_manager_1a81261d94e8b127c62a985c5357886216" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::AsyncOperationManager</scope><name>s_targets</name></member>
+      <member refid="dc/d16/class_voxel_busters_1_1_core_library_1_1_async_operation_manager_1a680f5bcc95054a701ad163b82bcf4b65" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::AsyncOperationManager</scope><name>ScheduleUpdate</name></member>
+      <member refid="dc/d16/class_voxel_busters_1_1_core_library_1_1_async_operation_manager_1adaec7abcdc49ea894cdda3a365205d53" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::AsyncOperationManager</scope><name>UnscheduleUpdate</name></member>
+      <member refid="dc/d16/class_voxel_busters_1_1_core_library_1_1_async_operation_manager_1a554d0f30ae93d2787435dca9a46c6c5d" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::AsyncOperationManager</scope><name>Update</name></member>
+      <member refid="dc/d16/class_voxel_busters_1_1_core_library_1_1_async_operation_manager_1a55865a452d2cc26a10e9cf8bdebc1e58" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::AsyncOperationManager</scope><name>UpdateTargets</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

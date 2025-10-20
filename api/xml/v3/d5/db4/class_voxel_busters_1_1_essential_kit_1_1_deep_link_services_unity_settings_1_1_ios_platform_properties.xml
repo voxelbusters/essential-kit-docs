@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d5/db4/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1_1_ios_platform_properties" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::DeepLinkServicesUnitySettings::IosPlatformProperties</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d5/db4/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1_1_ios_platform_properties_1a884e20bc652f549fbbce08d7574889c6" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition" kindref="compound">DeepLinkDefinition</ref> &gt;</type>
+        <definition>List&lt;DeepLinkDefinition&gt; m_customSchemeUrls</definition>
+        <argsstring></argsstring>
+        <name>m_customSchemeUrls</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkServicesUnitySettings.IosPlatformProperties.m_customSchemeUrls</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.IosPlatformProperties.cs" line="18" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.IosPlatformProperties.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/db4/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1_1_ios_platform_properties_1a7bf19f8dc511595f6e1928de516266d5" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition" kindref="compound">DeepLinkDefinition</ref> &gt;</type>
+        <definition>List&lt;DeepLinkDefinition&gt; m_universalLinks</definition>
+        <argsstring></argsstring>
+        <name>m_universalLinks</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkServicesUnitySettings.IosPlatformProperties.m_universalLinks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.IosPlatformProperties.cs" line="21" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.IosPlatformProperties.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d5/db4/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1_1_ios_platform_properties_1a33a1c9b443610fb720635b21529de864" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition" kindref="compound">DeepLinkDefinition</ref>[]</type>
+        <definition>DeepLinkDefinition [] CustomSchemeUrls</definition>
+        <argsstring></argsstring>
+        <name>CustomSchemeUrls</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkServicesUnitySettings.IosPlatformProperties.CustomSchemeUrls</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.IosPlatformProperties.cs" line="27" column="39" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.IosPlatformProperties.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/db4/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1_1_ios_platform_properties_1a586f19bd3956e0ee16dde439cb92c2f9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition" kindref="compound">DeepLinkDefinition</ref>[]</type>
+        <definition>DeepLinkDefinition [] UniversalLinks</definition>
+        <argsstring></argsstring>
+        <name>UniversalLinks</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkServicesUnitySettings.IosPlatformProperties.UniversalLinks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.IosPlatformProperties.cs" line="29" column="39" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.IosPlatformProperties.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/db4/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1_1_ios_platform_properties_1af2d54e152267175b84e503e45f96761b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>IosPlatformProperties</definition>
+        <argsstring>(DeepLinkDefinition[] customSchemeUrls=null, DeepLinkDefinition[] universalLinks=null)</argsstring>
+        <name>IosPlatformProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkServicesUnitySettings.IosPlatformProperties.IosPlatformProperties</qualifiedname>
+        <param>
+          <type><ref refid="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition" kindref="compound">DeepLinkDefinition</ref>[]</type>
+          <declname>customSchemeUrls</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition" kindref="compound">DeepLinkDefinition</ref>[]</type>
+          <declname>universalLinks</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.IosPlatformProperties.cs" line="35" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.IosPlatformProperties.cs" bodystart="35" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/db4/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1_1_ios_platform_properties_1a84c70fe23c708dc8a76e7368544b4776" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddCustomSchemeUrl</definition>
+        <argsstring>(DeepLinkDefinition definition)</argsstring>
+        <name>AddCustomSchemeUrl</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkServicesUnitySettings.IosPlatformProperties.AddCustomSchemeUrl</qualifiedname>
+        <param>
+          <type><ref refid="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition" kindref="compound">DeepLinkDefinition</ref></type>
+          <declname>definition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.IosPlatformProperties.cs" line="46" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.IosPlatformProperties.cs" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/db4/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1_1_ios_platform_properties_1aa48d260be3f662af81fe73373a403cbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddUniversalLink</definition>
+        <argsstring>(DeepLinkDefinition definition)</argsstring>
+        <name>AddUniversalLink</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkServicesUnitySettings.IosPlatformProperties.AddUniversalLink</qualifiedname>
+        <param>
+          <type><ref refid="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition" kindref="compound">DeepLinkDefinition</ref></type>
+          <declname>definition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.IosPlatformProperties.cs" line="51" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.IosPlatformProperties.cs" bodystart="51" bodyend="54"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.IosPlatformProperties.cs" line="13" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.IosPlatformProperties.cs" bodystart="14" bodyend="57"/>
+    <listofallmembers>
+      <member refid="d5/db4/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1_1_ios_platform_properties_1a84c70fe23c708dc8a76e7368544b4776" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkServicesUnitySettings::IosPlatformProperties</scope><name>AddCustomSchemeUrl</name></member>
+      <member refid="d5/db4/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1_1_ios_platform_properties_1aa48d260be3f662af81fe73373a403cbc" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkServicesUnitySettings::IosPlatformProperties</scope><name>AddUniversalLink</name></member>
+      <member refid="d5/db4/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1_1_ios_platform_properties_1a33a1c9b443610fb720635b21529de864" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkServicesUnitySettings::IosPlatformProperties</scope><name>CustomSchemeUrls</name></member>
+      <member refid="d5/db4/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1_1_ios_platform_properties_1af2d54e152267175b84e503e45f96761b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkServicesUnitySettings::IosPlatformProperties</scope><name>IosPlatformProperties</name></member>
+      <member refid="d5/db4/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1_1_ios_platform_properties_1a884e20bc652f549fbbce08d7574889c6" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkServicesUnitySettings::IosPlatformProperties</scope><name>m_customSchemeUrls</name></member>
+      <member refid="d5/db4/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1_1_ios_platform_properties_1a7bf19f8dc511595f6e1928de516266d5" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkServicesUnitySettings::IosPlatformProperties</scope><name>m_universalLinks</name></member>
+      <member refid="d5/db4/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1_1_ios_platform_properties_1a586f19bd3956e0ee16dde439cb92c2f9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkServicesUnitySettings::IosPlatformProperties</scope><name>UniversalLinks</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

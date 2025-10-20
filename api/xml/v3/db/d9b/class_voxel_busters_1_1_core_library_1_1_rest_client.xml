@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/d9b/class_voxel_busters_1_1_core_library_1_1_rest_client" kind="class" language="C#" prot="package">
+    <compoundname>VoxelBusters::CoreLibrary::RestClient</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="db/d9b/class_voxel_busters_1_1_core_library_1_1_rest_client_1a7bc39601c07fc17cc9604d3a8852aed3" prot="private" static="yes" mutable="no">
+        <type>RestClient</type>
+        <definition>RestClient s_sharedInstance</definition>
+        <argsstring></argsstring>
+        <name>s_sharedInstance</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RestClient.s_sharedInstance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Networking/RestClient.cs" line="14" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Networking/RestClient.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="db/d9b/class_voxel_busters_1_1_core_library_1_1_rest_client_1aa7107c3d433de79ac1f17f64b61e6a7c" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>RestClient</type>
+        <definition>RestClient SharedInstance</definition>
+        <argsstring></argsstring>
+        <name>SharedInstance</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RestClient.SharedInstance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Networking/RestClient.cs" line="20" column="34" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Networking/RestClient.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d9b/class_voxel_busters_1_1_core_library_1_1_rest_client_1ab9b37bd2ec8bb423945e7b78ba7d71f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RestClient</definition>
+        <argsstring>()</argsstring>
+        <name>RestClient</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RestClient.RestClient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Networking/RestClient.cs" line="28" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Networking/RestClient.cs" bodystart="28" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d9b/class_voxel_busters_1_1_core_library_1_1_rest_client_1a37bdb867d3e8da7f1bf73afd6439e4c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void StartWebRequest&lt; TResult &gt;</definition>
+        <argsstring>(UnityWebRequest request, System.Action&lt; TResult &gt; onSuccess, System.Action&lt; string &gt; onError)</argsstring>
+        <name>StartWebRequest&lt; TResult &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RestClient.StartWebRequest&lt; TResult &gt;</qualifiedname>
+        <param>
+          <type>UnityWebRequest</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>System.Action&lt; TResult &gt;</type>
+          <declname>onSuccess</declname>
+        </param>
+        <param>
+          <type>System.Action&lt; string &gt;</type>
+          <declname>onError</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Networking/RestClient.cs" line="52" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Networking/RestClient.cs" bodystart="52" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d9b/class_voxel_busters_1_1_core_library_1_1_rest_client_1a0f913bb566601f1abdf23455866b305e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>byte[] ConvertObjectToBytes&lt; TData &gt;</definition>
+        <argsstring>(TData data)</argsstring>
+        <name>ConvertObjectToBytes&lt; TData &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RestClient.ConvertObjectToBytes&lt; TData &gt;</qualifiedname>
+        <param>
+          <type>TData</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Networking/RestClient.cs" line="74" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Networking/RestClient.cs" bodystart="74" bodyend="78"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/d9b/class_voxel_busters_1_1_core_library_1_1_rest_client_1a08cab011d204f0ab16c7a2aa61705f76" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string EscapeUrl</definition>
+        <argsstring>(string url)</argsstring>
+        <name>EscapeUrl</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RestClient.EscapeUrl</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Networking/RestClient.cs" line="43" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Networking/RestClient.cs" bodystart="43" bodyend="46"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Networking/RestClient.cs" line="9" column="13" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Networking/RestClient.cs" bodystart="10" bodyend="81"/>
+    <listofallmembers>
+      <member refid="db/d9b/class_voxel_busters_1_1_core_library_1_1_rest_client_1a0f913bb566601f1abdf23455866b305e" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RestClient</scope><name>ConvertObjectToBytes&lt; TData &gt;</name></member>
+      <member refid="db/d9b/class_voxel_busters_1_1_core_library_1_1_rest_client_1a08cab011d204f0ab16c7a2aa61705f76" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RestClient</scope><name>EscapeUrl</name></member>
+      <member refid="db/d9b/class_voxel_busters_1_1_core_library_1_1_rest_client_1ab9b37bd2ec8bb423945e7b78ba7d71f7" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RestClient</scope><name>RestClient</name></member>
+      <member refid="db/d9b/class_voxel_busters_1_1_core_library_1_1_rest_client_1a7bc39601c07fc17cc9604d3a8852aed3" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RestClient</scope><name>s_sharedInstance</name></member>
+      <member refid="db/d9b/class_voxel_busters_1_1_core_library_1_1_rest_client_1aa7107c3d433de79ac1f17f64b61e6a7c" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RestClient</scope><name>SharedInstance</name></member>
+      <member refid="db/d9b/class_voxel_busters_1_1_core_library_1_1_rest_client_1a37bdb867d3e8da7f1bf73afd6439e4c4" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RestClient</scope><name>StartWebRequest&lt; TResult &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

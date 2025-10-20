@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d5/d5a/class_voxel_busters_1_1_core_library_1_1_system_utility" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::SystemUtility</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d5/d5a/class_voxel_busters_1_1_core_library_1_1_system_utility_1ac202cc9594d483ab736aded7f17bd0f0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string EscapeString</definition>
+        <argsstring>(string value)</argsstring>
+        <name>EscapeString</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.SystemUtility.EscapeString</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/SystemUtility.cs" line="14" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/SystemUtility.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d5a/class_voxel_busters_1_1_core_library_1_1_system_utility_1a5027a32dd76466e03190f9b21332687f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object[]</type>
+        <definition>static object[] ConvertListToArray</definition>
+        <argsstring>(IList list)</argsstring>
+        <name>ConvertListToArray</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.SystemUtility.ConvertListToArray</qualifiedname>
+        <param>
+          <type>IList</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/SystemUtility.cs" line="23" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/SystemUtility.cs" bodystart="23" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d5a/class_voxel_busters_1_1_core_library_1_1_system_utility_1a5246fa6c91e0b290dca50759a11d20a4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TOutput[]</type>
+        <definition>static TOutput[] ConvertEnumeratorItems&lt; TInput, TOutput &gt;</definition>
+        <argsstring>(IEnumerator&lt; TInput &gt; enumerator, Converter&lt; TInput, TOutput &gt; converter, bool includeNullObjects)</argsstring>
+        <name>ConvertEnumeratorItems&lt; TInput, TOutput &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.SystemUtility.ConvertEnumeratorItems&lt; TInput, TOutput &gt;</qualifiedname>
+        <param>
+          <type>IEnumerator&lt; TInput &gt;</type>
+          <declname>enumerator</declname>
+        </param>
+        <param>
+          <type>Converter&lt; TInput, TOutput &gt;</type>
+          <declname>converter</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>includeNullObjects</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/SystemUtility.cs" line="35" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/SystemUtility.cs" bodystart="35" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/SystemUtility.cs" line="10" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/SystemUtility.cs" bodystart="11" bodyend="59"/>
+    <listofallmembers>
+      <member refid="d5/d5a/class_voxel_busters_1_1_core_library_1_1_system_utility_1a5246fa6c91e0b290dca50759a11d20a4" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::SystemUtility</scope><name>ConvertEnumeratorItems&lt; TInput, TOutput &gt;</name></member>
+      <member refid="d5/d5a/class_voxel_busters_1_1_core_library_1_1_system_utility_1a5027a32dd76466e03190f9b21332687f" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::SystemUtility</scope><name>ConvertListToArray</name></member>
+      <member refid="d5/d5a/class_voxel_busters_1_1_core_library_1_1_system_utility_1ac202cc9594d483ab736aded7f17bd0f0" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::SystemUtility</scope><name>EscapeString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

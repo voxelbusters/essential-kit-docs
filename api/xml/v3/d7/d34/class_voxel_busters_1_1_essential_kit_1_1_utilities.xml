@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::Utilities</compoundname>
+    <sectiondef kind="user-defined">
+      <header>Advanced Usage</header>
+      <memberdef kind="function" id="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1a85a289b5f583bd3697c417a1861c4278" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Initialize</definition>
+        <argsstring>(UtilityUnitySettings settings)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>VoxelBusters.EssentialKit.Utilities.Initialize</qualifiedname>
+        <param>
+          <type>UtilityUnitySettings</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>Initializes the utilities module with the given settings. This call is optional and only need to be called if you have custom settings to initialize this feature. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>settings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The settings to be used for initialization.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para>The settings configure the utilities module. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" line="39" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" bodystart="39" bodyend="43"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1aa7ad7258768eea02f2017a87294ca86a" prot="private" static="yes" mutable="no">
+        <type>INativeUtilityInterface</type>
+        <definition>INativeUtilityInterface s_nativeInterface</definition>
+        <argsstring></argsstring>
+        <name>s_nativeInterface</name>
+        <qualifiedname>VoxelBusters.EssentialKit.Utilities.s_nativeInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" line="23" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1a4762977ab68072fc0ad870c3b4674996" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void OpenAppStorePage</definition>
+        <argsstring>()</argsstring>
+        <name>OpenAppStorePage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.Utilities.OpenAppStorePage</qualifiedname>
+        <briefdescription>
+<para>Opens the app store website page associated with this app. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" line="49" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" bodystart="49" bodyend="55"/>
+        <references refid="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1a4762977ab68072fc0ad870c3b4674996" compoundref="d8/d16/_utilities_8cs" startline="49" endline="55">Utilities.OpenAppStorePage</references>
+        <referencedby refid="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1a4762977ab68072fc0ad870c3b4674996" compoundref="d8/d16/_utilities_8cs" startline="49" endline="55">Utilities.OpenAppStorePage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1a9f050ac2f0aee36f061ec624fc3b8074" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void OpenAppStorePage</definition>
+        <argsstring>(params RuntimePlatformConstant[] applicationIds)</argsstring>
+        <name>OpenAppStorePage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.Utilities.OpenAppStorePage</qualifiedname>
+        <param>
+          <type>params <ref refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant" kindref="compound">RuntimePlatformConstant</ref>[]</type>
+          <declname>applicationIds</declname>
+        </param>
+        <briefdescription>
+<para>Opens the app store page associated with the specified application id. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>For iOS platform, id is the value that identifies your app on App Store. And on Android, it will be same as app&apos;s bundle identifier (com.example.test).  <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>applicationIds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of string values, that holds app id&apos;s of each supported platform.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para>The following code example shows how to open store link. <programlisting filename=".cs"><codeline><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections;</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit" kindref="compound">VoxelBusters.EssentialKit</ref>;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ExampleClass<sp/>:<sp/>MonoBehaviour<sp/></highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OpenStorePage<sp/>()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities" kindref="compound">Utilities</ref>.OpenStoreLink(PlatformValue.Android(</highlight><highlight class="stringliteral">&quot;com.example.app&quot;</highlight><highlight class="normal">),<sp/>PlatformValue.IOS(</highlight><highlight class="stringliteral">&quot;ios-app-id&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" line="82" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" bodystart="82" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1a0d0ba6f1036c8e9801f520a9f372c470" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void OpenAppStorePage</definition>
+        <argsstring>(string applicationId)</argsstring>
+        <name>OpenAppStorePage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.Utilities.OpenAppStorePage</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>applicationId</declname>
+        </param>
+        <briefdescription>
+<para>Opens the app store website page associated with the specified application id. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>applicationId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Application id.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" line="108" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" bodystart="108" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1abc8021a2d00879e17d4d0881eae74599" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void OpenApplicationSettings</definition>
+        <argsstring>()</argsstring>
+        <name>OpenApplicationSettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.Utilities.OpenApplicationSettings</qualifiedname>
+        <briefdescription>
+<para>Opens the app settings page associated with this app. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>For iOS platform, this will open the settings app to the app&apos;s custom settings page. On Android, this will open app&apos;s settings page in the device&apos;s settings app.  </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" line="130" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" bodystart="130" bodyend="140"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Provides a cross-platform interface to access commonly used native features. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" line="18" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" bodystart="19" bodyend="143"/>
+    <listofallmembers>
+      <member refid="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1a85a289b5f583bd3697c417a1861c4278" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::Utilities</scope><name>Initialize</name></member>
+      <member refid="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1abc8021a2d00879e17d4d0881eae74599" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::Utilities</scope><name>OpenApplicationSettings</name></member>
+      <member refid="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1a4762977ab68072fc0ad870c3b4674996" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::Utilities</scope><name>OpenAppStorePage</name></member>
+      <member refid="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1a9f050ac2f0aee36f061ec624fc3b8074" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::Utilities</scope><name>OpenAppStorePage</name></member>
+      <member refid="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1a0d0ba6f1036c8e9801f520a9f372c470" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::Utilities</scope><name>OpenAppStorePage</name></member>
+      <member refid="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1aa7ad7258768eea02f2017a87294ca86a" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::Utilities</scope><name>s_nativeInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_cee887b67bf0007e15938f0deaee168a" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices</compoundname>
+    <innerfile refid="d8/d0c/_achievement_base_8cs">AchievementBase.cs</innerfile>
+    <innerfile refid="dd/d66/_achievement_definition_8_android_platform_properties_8cs">AchievementDefinition.AndroidPlatformProperties.cs</innerfile>
+    <innerfile refid="d7/d82/_achievement_definition_8cs">AchievementDefinition.cs</innerfile>
+    <innerfile refid="dd/d91/_achievement_definition_8_ios_platform_properties_8cs">AchievementDefinition.IosPlatformProperties.cs</innerfile>
+    <innerfile refid="d5/d86/_achievement_description_base_8cs">AchievementDescriptionBase.cs</innerfile>
+    <innerfile refid="d4/d3d/_achievement_id_attribute_8cs">AchievementIdAttribute.cs</innerfile>
+    <innerfile refid="d4/d91/_achievement_progress_reporter_8cs">AchievementProgressReporter.cs</innerfile>
+    <innerfile refid="de/daa/_game_services_2_delegates_8cs">Delegates.cs</innerfile>
+    <innerfile refid="d5/d70/_game_services_8cs">GameServices.cs</innerfile>
+    <innerfile refid="d2/d56/_game_services_auth_status_change_result_8cs">GameServicesAuthStatusChangeResult.cs</innerfile>
+    <innerfile refid="de/d7a/_game_services_error_8cs">GameServicesError.cs</innerfile>
+    <innerfile refid="dd/d1b/_game_services_error_code_8cs">GameServicesErrorCode.cs</innerfile>
+    <innerfile refid="d6/dd6/_game_services_load_achievement_descriptions_result_8cs">GameServicesLoadAchievementDescriptionsResult.cs</innerfile>
+    <innerfile refid="d7/d3a/_game_services_load_achievements_result_8cs">GameServicesLoadAchievementsResult.cs</innerfile>
+    <innerfile refid="db/de9/_game_services_load_leaderboards_result_8cs">GameServicesLoadLeaderboardsResult.cs</innerfile>
+    <innerfile refid="d9/dc1/_game_services_load_player_friends_result_8cs">GameServicesLoadPlayerFriendsResult.cs</innerfile>
+    <innerfile refid="dc/d44/_game_services_load_players_result_8cs">GameServicesLoadPlayersResult.cs</innerfile>
+    <innerfile refid="d0/d74/_game_services_load_server_credentials_result_8cs">GameServicesLoadServerCredentialsResult.cs</innerfile>
+    <innerfile refid="d5/d64/_game_services_view_result_8cs">GameServicesViewResult.cs</innerfile>
+    <innerfile refid="d6/df7/_game_services_view_result_code_8cs">GameServicesViewResultCode.cs</innerfile>
+    <innerfile refid="d8/df2/_i_achievement_8cs">IAchievement.cs</innerfile>
+    <innerfile refid="df/d77/_i_achievement_description_8cs">IAchievementDescription.cs</innerfile>
+    <innerfile refid="d8/df3/_i_leaderboard_8cs">ILeaderboard.cs</innerfile>
+    <innerfile refid="d9/dc6/_i_leaderboard_score_8cs">ILeaderboardScore.cs</innerfile>
+    <innerfile refid="d2/de3/_i_local_player_8cs">ILocalPlayer.cs</innerfile>
+    <innerfile refid="d9/d6b/_i_native_game_services_interface_8cs">INativeGameServicesInterface.cs</innerfile>
+    <innerfile refid="d6/d2c/_i_player_8cs">IPlayer.cs</innerfile>
+    <innerfile refid="d8/d42/_i_score_8cs">IScore.cs</innerfile>
+    <innerfile refid="da/d2c/_leaderboard_base_8cs">LeaderboardBase.cs</innerfile>
+    <innerfile refid="d0/d59/_leaderboard_definition_8_android_platform_properties_8cs">LeaderboardDefinition.AndroidPlatformProperties.cs</innerfile>
+    <innerfile refid="da/d30/_leaderboard_definition_8cs">LeaderboardDefinition.cs</innerfile>
+    <innerfile refid="d3/d4c/_leaderboard_definition_8_ios_platform_properties_8cs">LeaderboardDefinition.IosPlatformProperties.cs</innerfile>
+    <innerfile refid="de/d02/_leaderboard_id_attribute_8cs">LeaderboardIdAttribute.cs</innerfile>
+    <innerfile refid="d9/d75/_leaderboard_load_scores_result_8cs">LeaderboardLoadScoresResult.cs</innerfile>
+    <innerfile refid="d2/d22/_leaderboard_player_scope_8cs">LeaderboardPlayerScope.cs</innerfile>
+    <innerfile refid="d0/d34/_leaderboard_score_base_8cs">LeaderboardScoreBase.cs</innerfile>
+    <innerfile refid="d5/df9/_leaderboard_score_reporter_8cs">LeaderboardScoreReporter.cs</innerfile>
+    <innerfile refid="dd/ddb/_leaderboard_time_scope_8cs">LeaderboardTimeScope.cs</innerfile>
+    <innerfile refid="de/d5b/_local_player_auth_status_8cs">LocalPlayerAuthStatus.cs</innerfile>
+    <innerfile refid="d5/d63/_native_game_services_interface_base_8cs">NativeGameServicesInterfaceBase.cs</innerfile>
+    <innerfile refid="d7/daa/_null_achievement_8cs">NullAchievement.cs</innerfile>
+    <innerfile refid="d9/d7d/_null_achievement_description_8cs">NullAchievementDescription.cs</innerfile>
+    <innerfile refid="db/df2/_null_game_services_interface_8cs">NullGameServicesInterface.cs</innerfile>
+    <innerfile refid="df/d09/_null_leaderboard_8cs">NullLeaderboard.cs</innerfile>
+    <innerfile refid="d9/da8/_null_leaderboard_score_8cs">NullLeaderboardScore.cs</innerfile>
+    <innerfile refid="dc/dda/_null_local_player_8cs">NullLocalPlayer.cs</innerfile>
+    <innerfile refid="d3/d25/_null_player_8cs">NullPlayer.cs</innerfile>
+    <innerfile refid="de/d25/_player_base_8cs">PlayerBase.cs</innerfile>
+    <innerfile refid="dd/deb/_server_credential_additional_scope_8cs">ServerCredentialAdditionalScope.cs</innerfile>
+    <innerfile refid="dd/dd0/_server_credentials_8_android_platform_properties_8cs">ServerCredentials.AndroidPlatformProperties.cs</innerfile>
+    <innerfile refid="dc/d8c/_server_credentials_8cs">ServerCredentials.cs</innerfile>
+    <innerfile refid="d9/d4f/_server_credentials_8_ios_platform_properties_8cs">ServerCredentials.IosPlatformProperties.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/"/>
+  </compounddef>
+</doxygen>

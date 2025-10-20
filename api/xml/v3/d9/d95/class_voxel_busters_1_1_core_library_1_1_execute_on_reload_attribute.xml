@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/d95/class_voxel_busters_1_1_core_library_1_1_execute_on_reload_attribute" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::ExecuteOnReloadAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d95/class_voxel_busters_1_1_core_library_1_1_execute_on_reload_attribute_1ad9ce539f0719b34323f5a152cdbc3006" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ExecuteOnReloadAttribute</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteOnReloadAttribute</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ExecuteOnReloadAttribute.ExecuteOnReloadAttribute</qualifiedname>
+        <briefdescription>
+<para>Marks method to be executed on reload. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ExecuteOnReloadAttribute.cs" line="12" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ExecuteOnReloadAttribute.cs" bodystart="12" bodyend="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ExecuteOnReloadAttribute.cs" line="7" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ExecuteOnReloadAttribute.cs" bodystart="8" bodyend="14"/>
+    <listofallmembers>
+      <member refid="d9/d95/class_voxel_busters_1_1_core_library_1_1_execute_on_reload_attribute_1ad9ce539f0719b34323f5a152cdbc3006" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ExecuteOnReloadAttribute</scope><name>ExecuteOnReloadAttribute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

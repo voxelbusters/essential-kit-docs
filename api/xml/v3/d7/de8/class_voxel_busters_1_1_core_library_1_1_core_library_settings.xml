@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d7/de8/class_voxel_busters_1_1_core_library_1_1_core_library_settings" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::CoreLibrarySettings</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d7/de8/class_voxel_busters_1_1_core_library_1_1_core_library_settings_1abb27e76bdc3c5a70ff17bdb5afa0e42f" prot="private" static="yes" mutable="no">
+        <type>UnityPackageDefinition</type>
+        <definition>UnityPackageDefinition s_package</definition>
+        <argsstring></argsstring>
+        <name>s_package</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CoreLibrarySettings.s_package</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/CoreLibrarySettings.cs" line="14" column="61" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/CoreLibrarySettings.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d7/de8/class_voxel_busters_1_1_core_library_1_1_core_library_settings_1a182d781cdfe443a1b36d5f712699c2d1" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>UnityPackageDefinition</type>
+        <definition>UnityPackageDefinition Package</definition>
+        <argsstring></argsstring>
+        <name>Package</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CoreLibrarySettings.Package</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/CoreLibrarySettings.cs" line="20" column="48" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/CoreLibrarySettings.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d7/de8/class_voxel_busters_1_1_core_library_1_1_core_library_settings_1a7ee9065718e6628dc7791b756fa6c0f9" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CoreLibrarySettings.Name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/CoreLibrarySettings.cs" line="31" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/CoreLibrarySettings.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d7/de8/class_voxel_busters_1_1_core_library_1_1_core_library_settings_1aba0e038e9b973f3ba4ca520a2fb057dc" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string DisplayName</definition>
+        <argsstring></argsstring>
+        <name>DisplayName</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CoreLibrarySettings.DisplayName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/CoreLibrarySettings.cs" line="33" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/CoreLibrarySettings.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d7/de8/class_voxel_busters_1_1_core_library_1_1_core_library_settings_1a8ca1a1a001dc102637530f1a11a83224" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Version</definition>
+        <argsstring></argsstring>
+        <name>Version</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CoreLibrarySettings.Version</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/CoreLibrarySettings.cs" line="35" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/CoreLibrarySettings.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/CoreLibrarySettings.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/CoreLibrarySettings.cs" bodystart="11" bodyend="38"/>
+    <listofallmembers>
+      <member refid="d7/de8/class_voxel_busters_1_1_core_library_1_1_core_library_settings_1aba0e038e9b973f3ba4ca520a2fb057dc" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CoreLibrarySettings</scope><name>DisplayName</name></member>
+      <member refid="d7/de8/class_voxel_busters_1_1_core_library_1_1_core_library_settings_1a7ee9065718e6628dc7791b756fa6c0f9" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CoreLibrarySettings</scope><name>Name</name></member>
+      <member refid="d7/de8/class_voxel_busters_1_1_core_library_1_1_core_library_settings_1a182d781cdfe443a1b36d5f712699c2d1" prot="package" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CoreLibrarySettings</scope><name>Package</name></member>
+      <member refid="d7/de8/class_voxel_busters_1_1_core_library_1_1_core_library_settings_1abb27e76bdc3c5a70ff17bdb5afa0e42f" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CoreLibrarySettings</scope><name>s_package</name></member>
+      <member refid="d7/de8/class_voxel_busters_1_1_core_library_1_1_core_library_settings_1a8ca1a1a001dc102637530f1a11a83224" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CoreLibrarySettings</scope><name>Version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

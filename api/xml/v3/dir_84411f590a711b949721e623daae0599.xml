@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_84411f590a711b949721e623daae0599" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities</compoundname>
+    <innerfile refid="d5/da7/_application_lifecycle_observer_8cs">ApplicationLifecycleObserver.cs</innerfile>
+    <innerfile refid="d9/d98/_application_services_8cs">ApplicationServices.cs</innerfile>
+    <innerfile refid="d1/d7c/_collection_utility_8cs">CollectionUtility.cs</innerfile>
+    <innerfile refid="dc/da8/_component_utility_8cs">ComponentUtility.cs</innerfile>
+    <innerfile refid="de/d3e/_enum_utility_8cs">EnumUtility.cs</innerfile>
+    <innerfile refid="d5/d98/_game_object_utility_8cs">GameObjectUtility.cs</innerfile>
+    <innerfile refid="db/dab/_i_application_lifecycle_listener_8cs">IApplicationLifecycleListener.cs</innerfile>
+    <innerfile refid="df/d93/_i_o_services_8cs">IOServices.cs</innerfile>
+    <innerfile refid="d7/d6f/_object_helper_8cs">ObjectHelper.cs</innerfile>
+    <innerfile refid="d8/db7/_property_helper_8cs">PropertyHelper.cs</innerfile>
+    <innerfile refid="d1/daa/_reflection_utility_8cs">ReflectionUtility.cs</innerfile>
+    <innerfile refid="da/d73/_resources_utility_8cs">ResourcesUtility.cs</innerfile>
+    <innerfile refid="d8/d67/_runtime_platform_constant_utility_8cs">RuntimePlatformConstantUtility.cs</innerfile>
+    <innerfile refid="da/d0f/_runtime_platform_utility_8cs">RuntimePlatformUtility.cs</innerfile>
+    <innerfile refid="d0/dbf/_screen_utility_8cs">ScreenUtility.cs</innerfile>
+    <innerfile refid="d5/d53/_system_utility_8cs">SystemUtility.cs</innerfile>
+    <innerfile refid="d7/d40/_texture_utility_8cs">TextureUtility.cs</innerfile>
+    <innerfile refid="d1/d6c/_transform_utility_8cs">TransformUtility.cs</innerfile>
+    <innerfile refid="d1/d42/_unity_engine_utility_8cs">UnityEngineUtility.cs</innerfile>
+    <innerfile refid="dd/d0b/_unity_package_path_resolver_8cs">UnityPackagePathResolver.cs</innerfile>
+    <innerfile refid="d3/d9f/_unity_web_request_utility_8cs">UnityWebRequestUtility.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/"/>
+  </compounddef>
+</doxygen>

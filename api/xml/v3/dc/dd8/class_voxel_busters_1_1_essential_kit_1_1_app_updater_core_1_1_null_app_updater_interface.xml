@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dc/dd8/class_voxel_busters_1_1_essential_kit_1_1_app_updater_core_1_1_null_app_updater_interface" kind="class" language="C#" prot="package">
+    <compoundname>VoxelBusters::EssentialKit::AppUpdaterCore::NullAppUpdaterInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NativeFeatureInterfaceBase</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INativeAppUpdaterInterface</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/dd8/class_voxel_busters_1_1_essential_kit_1_1_app_updater_core_1_1_null_app_updater_interface_1a67dde2308540c2c4755ca2a8dba2494e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NullAppUpdaterInterface</definition>
+        <argsstring>()</argsstring>
+        <name>NullAppUpdaterInterface</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdaterCore.NullAppUpdaterInterface.NullAppUpdaterInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/NullAppUpdaterInterface.cs" line="14" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/NullAppUpdaterInterface.cs" bodystart="14" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/dd8/class_voxel_busters_1_1_essential_kit_1_1_app_updater_core_1_1_null_app_updater_interface_1a83b3d582c67185006ba32e18965c84d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RequestUpdateInfo</definition>
+        <argsstring>(EventCallback&lt; AppUpdaterUpdateInfo &gt; callback)</argsstring>
+        <name>RequestUpdateInfo</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdaterCore.NullAppUpdaterInterface.RequestUpdateInfo</qualifiedname>
+        <param>
+          <type>EventCallback&lt; <ref refid="dd/d74/class_voxel_busters_1_1_essential_kit_1_1_app_updater_update_info" kindref="compound">AppUpdaterUpdateInfo</ref> &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/NullAppUpdaterInterface.cs" line="30" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/NullAppUpdaterInterface.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/dd8/class_voxel_busters_1_1_essential_kit_1_1_app_updater_core_1_1_null_app_updater_interface_1ac691a631edb4e06de29b0e9e755a85e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PromptUpdate</definition>
+        <argsstring>(PromptUpdateOptions options, EventCallback&lt; float &gt; callback)</argsstring>
+        <name>PromptUpdate</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdaterCore.NullAppUpdaterInterface.PromptUpdate</qualifiedname>
+        <param>
+          <type><ref refid="d5/d7f/class_voxel_busters_1_1_essential_kit_1_1_prompt_update_options" kindref="compound">PromptUpdateOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>EventCallback&lt; float &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/NullAppUpdaterInterface.cs" line="35" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/NullAppUpdaterInterface.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="dc/dd8/class_voxel_busters_1_1_essential_kit_1_1_app_updater_core_1_1_null_app_updater_interface_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogNotSupported</definition>
+        <argsstring>()</argsstring>
+        <name>LogNotSupported</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdaterCore.NullAppUpdaterInterface.LogNotSupported</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/NullAppUpdaterInterface.cs" line="21" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/NullAppUpdaterInterface.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/NullAppUpdaterInterface.cs" line="10" column="13" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/NullAppUpdaterInterface.cs" bodystart="11" bodyend="41"/>
+    <listofallmembers>
+      <member refid="dc/dd8/class_voxel_busters_1_1_essential_kit_1_1_app_updater_core_1_1_null_app_updater_interface_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppUpdaterCore::NullAppUpdaterInterface</scope><name>LogNotSupported</name></member>
+      <member refid="dc/dd8/class_voxel_busters_1_1_essential_kit_1_1_app_updater_core_1_1_null_app_updater_interface_1a67dde2308540c2c4755ca2a8dba2494e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppUpdaterCore::NullAppUpdaterInterface</scope><name>NullAppUpdaterInterface</name></member>
+      <member refid="dc/dd8/class_voxel_busters_1_1_essential_kit_1_1_app_updater_core_1_1_null_app_updater_interface_1ac691a631edb4e06de29b0e9e755a85e3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppUpdaterCore::NullAppUpdaterInterface</scope><name>PromptUpdate</name></member>
+      <member refid="dc/dd8/class_voxel_busters_1_1_essential_kit_1_1_app_updater_core_1_1_null_app_updater_interface_1a83b3d582c67185006ba32e18965c84d2" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppUpdaterCore::NullAppUpdaterInterface</scope><name>RequestUpdateInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

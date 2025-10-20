@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="da/de0/class_voxel_busters_1_1_core_library_1_1_mono_behaviour_z" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::MonoBehaviourZ</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="da/de0/class_voxel_busters_1_1_core_library_1_1_mono_behaviour_z_1a2930484b7ba3dfdef0adbc03b8581252" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_isInitialisedInternal</definition>
+        <argsstring></argsstring>
+        <name>m_isInitialisedInternal</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.MonoBehaviourZ.m_isInitialisedInternal</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/MonoBehaviourZ.cs" line="11" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/MonoBehaviourZ.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="da/de0/class_voxel_busters_1_1_core_library_1_1_mono_behaviour_z_1ae4b513cddd594f1c359e4f0a3e79a8c6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.MonoBehaviourZ.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/MonoBehaviourZ.cs" line="17" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/MonoBehaviourZ.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="da/de0/class_voxel_busters_1_1_core_library_1_1_mono_behaviour_z_1aacba56eb2495b7374d62dfc7dc783b79" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.MonoBehaviourZ.Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/MonoBehaviourZ.cs" line="22" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/MonoBehaviourZ.cs" bodystart="22" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="da/de0/class_voxel_busters_1_1_core_library_1_1_mono_behaviour_z_1a34316462014f78aba29c389590f6b104" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.MonoBehaviourZ.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/MonoBehaviourZ.cs" line="25" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/MonoBehaviourZ.cs" bodystart="25" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="da/de0/class_voxel_busters_1_1_core_library_1_1_mono_behaviour_z_1a1aac1c9a4ae04ef3e2fbf26b0aa570cc" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.MonoBehaviourZ.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/MonoBehaviourZ.cs" line="28" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/MonoBehaviourZ.cs" bodystart="28" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="da/de0/class_voxel_busters_1_1_core_library_1_1_mono_behaviour_z_1a1be5f5b23715843a7bfc4f2ebd6c7894" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.MonoBehaviourZ.OnDestroy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/MonoBehaviourZ.cs" line="31" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/MonoBehaviourZ.cs" bodystart="31" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="da/de0/class_voxel_busters_1_1_core_library_1_1_mono_behaviour_z_1a930415e1b057511c77d47db6cfdd629a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnsureInitialised</definition>
+        <argsstring>()</argsstring>
+        <name>EnsureInitialised</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.MonoBehaviourZ.EnsureInitialised</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/MonoBehaviourZ.cs" line="38" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/MonoBehaviourZ.cs" bodystart="38" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="da/de0/class_voxel_busters_1_1_core_library_1_1_mono_behaviour_z_1a3e0b39e1326de703012f81ac2be7feba" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.MonoBehaviourZ.Init</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/MonoBehaviourZ.cs" line="47" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/MonoBehaviourZ.cs" bodystart="47" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/MonoBehaviourZ.cs" line="7" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/MonoBehaviourZ.cs" bodystart="8" bodyend="51"/>
+    <listofallmembers>
+      <member refid="da/de0/class_voxel_busters_1_1_core_library_1_1_mono_behaviour_z_1ae4b513cddd594f1c359e4f0a3e79a8c6" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::MonoBehaviourZ</scope><name>Awake</name></member>
+      <member refid="da/de0/class_voxel_busters_1_1_core_library_1_1_mono_behaviour_z_1a930415e1b057511c77d47db6cfdd629a" prot="protected" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::MonoBehaviourZ</scope><name>EnsureInitialised</name></member>
+      <member refid="da/de0/class_voxel_busters_1_1_core_library_1_1_mono_behaviour_z_1a3e0b39e1326de703012f81ac2be7feba" prot="protected" virt="virtual"><scope>VoxelBusters::CoreLibrary::MonoBehaviourZ</scope><name>Init</name></member>
+      <member refid="da/de0/class_voxel_busters_1_1_core_library_1_1_mono_behaviour_z_1a2930484b7ba3dfdef0adbc03b8581252" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::MonoBehaviourZ</scope><name>m_isInitialisedInternal</name></member>
+      <member refid="da/de0/class_voxel_busters_1_1_core_library_1_1_mono_behaviour_z_1a1be5f5b23715843a7bfc4f2ebd6c7894" prot="protected" virt="virtual"><scope>VoxelBusters::CoreLibrary::MonoBehaviourZ</scope><name>OnDestroy</name></member>
+      <member refid="da/de0/class_voxel_busters_1_1_core_library_1_1_mono_behaviour_z_1a1aac1c9a4ae04ef3e2fbf26b0aa570cc" prot="protected" virt="virtual"><scope>VoxelBusters::CoreLibrary::MonoBehaviourZ</scope><name>OnDisable</name></member>
+      <member refid="da/de0/class_voxel_busters_1_1_core_library_1_1_mono_behaviour_z_1a34316462014f78aba29c389590f6b104" prot="protected" virt="virtual"><scope>VoxelBusters::CoreLibrary::MonoBehaviourZ</scope><name>OnEnable</name></member>
+      <member refid="da/de0/class_voxel_busters_1_1_core_library_1_1_mono_behaviour_z_1aacba56eb2495b7374d62dfc7dc783b79" prot="protected" virt="virtual"><scope>VoxelBusters::CoreLibrary::MonoBehaviourZ</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

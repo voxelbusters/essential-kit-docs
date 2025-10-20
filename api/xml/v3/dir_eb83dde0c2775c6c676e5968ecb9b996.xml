@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_eb83dde0c2775c6c676e5968ecb9b996" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DesignPatterns</compoundname>
+    <innerfile refid="dc/d43/_private_singleton_behaviour_8cs">PrivateSingletonBehaviour.cs</innerfile>
+    <innerfile refid="dd/db7/_singleton_behaviour_8cs">SingletonBehaviour.cs</innerfile>
+    <innerfile refid="de/d25/_singleton_object_8cs">SingletonObject.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DesignPatterns/"/>
+  </compounddef>
+</doxygen>

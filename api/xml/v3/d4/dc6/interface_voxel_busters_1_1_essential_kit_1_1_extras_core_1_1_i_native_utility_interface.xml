@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d4/dc6/interface_voxel_busters_1_1_essential_kit_1_1_extras_core_1_1_i_native_utility_interface" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::ExtrasCore::INativeUtilityInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">INativeFeatureInterface</basecompoundref>
+    <derivedcompoundref refid="dc/d92/class_voxel_busters_1_1_essential_kit_1_1_extras_core_1_1_native_utility_interface_base" prot="public" virt="non-virtual">NativeUtilityInterfaceBase</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/dc6/interface_voxel_busters_1_1_essential_kit_1_1_extras_core_1_1_i_native_utility_interface_1a8ed4df28f6455a230665b6de60ce7deb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void OpenAppStorePage</definition>
+        <argsstring>(string applicationId)</argsstring>
+        <name>OpenAppStorePage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ExtrasCore.INativeUtilityInterface.OpenAppStorePage</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>applicationId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/INativeUtilityInterface.cs" line="12" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dc6/interface_voxel_busters_1_1_essential_kit_1_1_extras_core_1_1_i_native_utility_interface_1abd53881cec85ee7844f85d8f6e785e4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void OpenApplicationSettings</definition>
+        <argsstring>()</argsstring>
+        <name>OpenApplicationSettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ExtrasCore.INativeUtilityInterface.OpenApplicationSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/INativeUtilityInterface.cs" line="14" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/INativeUtilityInterface.cs" line="8" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/INativeUtilityInterface.cs" bodystart="9" bodyend="17"/>
+    <listofallmembers>
+      <member refid="d4/dc6/interface_voxel_busters_1_1_essential_kit_1_1_extras_core_1_1_i_native_utility_interface_1abd53881cec85ee7844f85d8f6e785e4a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ExtrasCore::INativeUtilityInterface</scope><name>OpenApplicationSettings</name></member>
+      <member refid="d4/dc6/interface_voxel_busters_1_1_essential_kit_1_1_extras_core_1_1_i_native_utility_interface_1a8ed4df28f6455a230665b6de60ce7deb" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ExtrasCore::INativeUtilityInterface</scope><name>OpenAppStorePage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

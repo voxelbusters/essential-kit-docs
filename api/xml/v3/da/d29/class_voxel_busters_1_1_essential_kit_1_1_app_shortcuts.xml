@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::AppShortcuts</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_1a9f3900c24d18a5b4bd89de761377a357" prot="private" static="yes" mutable="no">
+        <type>INativeAppShortcutsInterface</type>
+        <definition>INativeAppShortcutsInterface s_nativeInterface</definition>
+        <argsstring></argsstring>
+        <name>s_nativeInterface</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppShortcuts.s_nativeInterface</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcuts.cs" line="31" column="61" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcuts.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_1a81e93c1d08cbfe82e69b4375d26b15fb" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>AppShortcutsUnitySettings</type>
+        <definition>AppShortcutsUnitySettings UnitySettings</definition>
+        <argsstring></argsstring>
+        <name>UnitySettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppShortcuts.UnitySettings</qualifiedname>
+        <briefdescription>
+<para>The settings used for initialization. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcuts.cs" line="40" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcuts.cs" bodystart="40" bodyend="40"/>
+        <referencedby refid="da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_1a47151cba88d995da7305648033c499b0" compoundref="d2/d67/_app_shortcuts_8cs" startline="69" endline="90">AppShortcuts.Initialize</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_1aeda9556f93c10da8dc386abce029a3d0" prot="public" static="yes" add="no" remove="no" raise="no">
+        <type>Callback&lt; string &gt;</type>
+        <definition>Callback&lt;string&gt; OnShortcutClicked</definition>
+        <argsstring></argsstring>
+        <name>OnShortcutClicked</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppShortcuts.OnShortcutClicked</qualifiedname>
+        <briefdescription>
+<para>Fired when a shortcut is clicked and provides the shortcut identifier to identify the shortcut. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcuts.cs" line="49" column="38" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcuts.cs" bodystart="49" bodyend="-1"/>
+        <referencedby refid="da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_1a47151cba88d995da7305648033c499b0" compoundref="d2/d67/_app_shortcuts_8cs" startline="69" endline="90">AppShortcuts.Initialize</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_1ab2736f418ea7cd1b1cbc2a4ff4acec31" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IsAvailable</definition>
+        <argsstring>()</argsstring>
+        <name>IsAvailable</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppShortcuts.IsAvailable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcuts.cs" line="55" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcuts.cs" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_1a47151cba88d995da7305648033c499b0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Initialize</definition>
+        <argsstring>(AppShortcutsUnitySettings settings)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppShortcuts.Initialize</qualifiedname>
+        <param>
+          <type>AppShortcutsUnitySettings</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>Initialize the App Shortcuts module with the given settings. This call is optional and only need to be called if you have custom settings to initialize this feature. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>settings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The settings to be used for initialization.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para>The settings configure the behavior of the App Shortcuts module. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcuts.cs" line="69" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcuts.cs" bodystart="69" bodyend="90"/>
+        <references refid="da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_1aeda9556f93c10da8dc386abce029a3d0" compoundref="d2/d67/_app_shortcuts_8cs" startline="49">AppShortcuts.OnShortcutClicked</references>
+        <references refid="da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_1a81e93c1d08cbfe82e69b4375d26b15fb" compoundref="d2/d67/_app_shortcuts_8cs" startline="40" endline="40">AppShortcuts.UnitySettings</references>
+      </memberdef>
+      <memberdef kind="function" id="da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_1a8a59ee025cd2039de42c0ef6ee412574" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Add</definition>
+        <argsstring>(AppShortcutItem item)</argsstring>
+        <name>Add</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppShortcuts.Add</qualifiedname>
+        <param>
+          <type><ref refid="dd/d0b/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item" kindref="compound">AppShortcutItem</ref></type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+<para>Adds an app shortcut. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>item</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The item to be added. Pass an instance of <ref refid="dd/d0b/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item" kindref="compound">AppShortcutItem</ref> class which is created with <ref refid="d7/d48/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item_1_1_builder" kindref="compound">AppShortcutItem.Builder</ref>.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcuts.cs" line="96" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcuts.cs" bodystart="96" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_1a285903f3fdf14d4c45137d95dfc1a05d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Remove</definition>
+        <argsstring>(string shortcutItemId)</argsstring>
+        <name>Remove</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppShortcuts.Remove</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>shortcutItemId</declname>
+        </param>
+        <briefdescription>
+<para>Removes an app shortcut. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shortcutItemId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The identifier of the shortcut to be removed.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcuts.cs" line="106" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcuts.cs" bodystart="106" bodyend="109"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts" kindref="compound">AppShortcuts</ref> feature allowes to create shortcuts for the application. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>It uses Quick Actions and App Shortcuts libraries internally on iOS and Android platforms respectively. </para>
+<para><linebreak/>
+ </para>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcuts.cs" line="26" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcuts.cs" bodystart="27" bodyend="113"/>
+    <listofallmembers>
+      <member refid="da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_1a8a59ee025cd2039de42c0ef6ee412574" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppShortcuts</scope><name>Add</name></member>
+      <member refid="da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_1a47151cba88d995da7305648033c499b0" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppShortcuts</scope><name>Initialize</name></member>
+      <member refid="da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_1ab2736f418ea7cd1b1cbc2a4ff4acec31" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppShortcuts</scope><name>IsAvailable</name></member>
+      <member refid="da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_1aeda9556f93c10da8dc386abce029a3d0" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppShortcuts</scope><name>OnShortcutClicked</name></member>
+      <member refid="da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_1a285903f3fdf14d4c45137d95dfc1a05d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppShortcuts</scope><name>Remove</name></member>
+      <member refid="da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_1a9f3900c24d18a5b4bd89de761377a357" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppShortcuts</scope><name>s_nativeInterface</name></member>
+      <member refid="da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_1a81e93c1d08cbfe82e69b4375d26b15fb" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppShortcuts</scope><name>UnitySettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

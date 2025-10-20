@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d0/d5c/class_voxel_busters_1_1_core_library_1_1_manual_player_loop_system" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::ManualPlayerLoopSystem</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d0/d5c/class_voxel_busters_1_1_core_library_1_1_manual_player_loop_system_1a19d6d5cfbd8edfbd8af97a9284c33a20" prot="private" static="no" mutable="no">
+        <type>readonly PlayerLoopSystem</type>
+        <definition>readonly PlayerLoopSystem m_playerLoopSystem</definition>
+        <argsstring></argsstring>
+        <name>m_playerLoopSystem</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ManualPlayerLoopSystem.m_playerLoopSystem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ManualPlayerLoopSystem.cs" line="10" column="43" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ManualPlayerLoopSystem.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d5c/class_voxel_busters_1_1_core_library_1_1_manual_player_loop_system_1ad138ebf65e72e782da2134fc1c8ca0db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ManualPlayerLoopSystem</definition>
+        <argsstring>(List&lt; object &gt; requiredSubSystems)</argsstring>
+        <name>ManualPlayerLoopSystem</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ManualPlayerLoopSystem.ManualPlayerLoopSystem</qualifiedname>
+        <param>
+          <type>List&lt; object &gt;</type>
+          <declname>requiredSubSystems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ManualPlayerLoopSystem.cs" line="12" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ManualPlayerLoopSystem.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d5c/class_voxel_busters_1_1_core_library_1_1_manual_player_loop_system_1adc95ed7b2ed00267008a4582165481f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Process</definition>
+        <argsstring>()</argsstring>
+        <name>Process</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ManualPlayerLoopSystem.Process</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ManualPlayerLoopSystem.cs" line="17" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ManualPlayerLoopSystem.cs" bodystart="17" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d0/d5c/class_voxel_busters_1_1_core_library_1_1_manual_player_loop_system_1a1ca5481e60632f16703e5ce852425878" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate uint</type>
+        <definition>delegate uint PlayerLoopDelegate</definition>
+        <argsstring>()</argsstring>
+        <name>PlayerLoopDelegate</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ManualPlayerLoopSystem.PlayerLoopDelegate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ManualPlayerLoopSystem.cs" line="29" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d5c/class_voxel_busters_1_1_core_library_1_1_manual_player_loop_system_1a37463adceda7d7aed8e94717b863a733" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PlayerLoopSystem</type>
+        <definition>PlayerLoopSystem GetPlayerLoopSystemWithRequiredSubSystems</definition>
+        <argsstring>(List&lt; object &gt; requiredSubSystems)</argsstring>
+        <name>GetPlayerLoopSystemWithRequiredSubSystems</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ManualPlayerLoopSystem.GetPlayerLoopSystemWithRequiredSubSystems</qualifiedname>
+        <param>
+          <type>List&lt; object &gt;</type>
+          <declname>requiredSubSystems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ManualPlayerLoopSystem.cs" line="30" column="34" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ManualPlayerLoopSystem.cs" bodystart="30" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d5c/class_voxel_busters_1_1_core_library_1_1_manual_player_loop_system_1ac0bf5eddb3fbc556badce8673a0601dd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PlayerLoopSystem</type>
+        <definition>PlayerLoopSystem GetPlayerLoopSystemForType</definition>
+        <argsstring>(Type type)</argsstring>
+        <name>GetPlayerLoopSystemForType</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ManualPlayerLoopSystem.GetPlayerLoopSystemForType</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ManualPlayerLoopSystem.cs" line="57" column="34" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ManualPlayerLoopSystem.cs" bodystart="57" bodyend="76"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ManualPlayerLoopSystem.cs" line="8" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ManualPlayerLoopSystem.cs" bodystart="9" bodyend="79"/>
+    <listofallmembers>
+      <member refid="d0/d5c/class_voxel_busters_1_1_core_library_1_1_manual_player_loop_system_1ac0bf5eddb3fbc556badce8673a0601dd" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ManualPlayerLoopSystem</scope><name>GetPlayerLoopSystemForType</name></member>
+      <member refid="d0/d5c/class_voxel_busters_1_1_core_library_1_1_manual_player_loop_system_1a37463adceda7d7aed8e94717b863a733" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ManualPlayerLoopSystem</scope><name>GetPlayerLoopSystemWithRequiredSubSystems</name></member>
+      <member refid="d0/d5c/class_voxel_busters_1_1_core_library_1_1_manual_player_loop_system_1a19d6d5cfbd8edfbd8af97a9284c33a20" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ManualPlayerLoopSystem</scope><name>m_playerLoopSystem</name></member>
+      <member refid="d0/d5c/class_voxel_busters_1_1_core_library_1_1_manual_player_loop_system_1ad138ebf65e72e782da2134fc1c8ca0db" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ManualPlayerLoopSystem</scope><name>ManualPlayerLoopSystem</name></member>
+      <member refid="d0/d5c/class_voxel_busters_1_1_core_library_1_1_manual_player_loop_system_1a1ca5481e60632f16703e5ce852425878" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ManualPlayerLoopSystem</scope><name>PlayerLoopDelegate</name></member>
+      <member refid="d0/d5c/class_voxel_busters_1_1_core_library_1_1_manual_player_loop_system_1adc95ed7b2ed00267008a4582165481f7" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ManualPlayerLoopSystem</scope><name>Process</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

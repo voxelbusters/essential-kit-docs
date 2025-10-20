@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::GameServicesError</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error_1a2ce8aded798d92d44580ceaefabf2d82" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kDomain</definition>
+        <argsstring></argsstring>
+        <name>kDomain</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesError.kDomain</qualifiedname>
+        <initializer>= &quot;[Essential Kit] Game Services&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesError.cs" line="9" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesError.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error_1a25d6f9257e8b8e1aa55898430f23d35b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error Unknown</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>Unknown</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesError.Unknown</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesError.cs" line="15" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error_1a4bf311a95e78eb7b14d2963f1897183f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error SystemError</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>SystemError</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesError.SystemError</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesError.cs" line="20" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error_1aedb72d932ff1bc465b7ce5de27df7793" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error NetworkError</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>NetworkError</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesError.NetworkError</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesError.cs" line="25" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error_1a8af1254cbf0d08c6a0535849a68553ee" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error NotAllowed</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>NotAllowed</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesError.NotAllowed</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesError.cs" line="30" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error_1ab99d651b4aa1b368b1854acebfebe84c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error DataNotAvailable</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>DataNotAvailable</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesError.DataNotAvailable</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesError.cs" line="35" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error_1abadd3668ddb8a5cce017228c21ce2cfc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error NotSupported</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>NotSupported</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesError.NotSupported</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesError.cs" line="40" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error_1abc7115dceeed72e8d3600086db321137" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error ConfigurationError</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>ConfigurationError</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesError.ConfigurationError</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesError.cs" line="45" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error_1af191dbfab046af4a116dedbf7f930782" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error InvalidInput</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>InvalidInput</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesError.InvalidInput</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesError.cs" line="50" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error_1a048d4470bbf5f3f69f341af9839724db" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error NotAuthenticated</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>NotAuthenticated</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesError.NotAuthenticated</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesError.cs" line="55" column="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error_1a1f4966d82f43a08da1cdddb4a786ace8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error CreateError</definition>
+        <argsstring>(int code, string description)</argsstring>
+        <name>CreateError</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesError.CreateError</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesError.cs" line="64" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesError.cs" line="5" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesError.cs" bodystart="6" bodyend="70"/>
+    <listofallmembers>
+      <member refid="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error_1abc7115dceeed72e8d3600086db321137" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesError</scope><name>ConfigurationError</name></member>
+      <member refid="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error_1a1f4966d82f43a08da1cdddb4a786ace8" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesError</scope><name>CreateError</name></member>
+      <member refid="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error_1ab99d651b4aa1b368b1854acebfebe84c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesError</scope><name>DataNotAvailable</name></member>
+      <member refid="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error_1af191dbfab046af4a116dedbf7f930782" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesError</scope><name>InvalidInput</name></member>
+      <member refid="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error_1a2ce8aded798d92d44580ceaefabf2d82" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesError</scope><name>kDomain</name></member>
+      <member refid="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error_1aedb72d932ff1bc465b7ce5de27df7793" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesError</scope><name>NetworkError</name></member>
+      <member refid="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error_1a8af1254cbf0d08c6a0535849a68553ee" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesError</scope><name>NotAllowed</name></member>
+      <member refid="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error_1a048d4470bbf5f3f69f341af9839724db" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesError</scope><name>NotAuthenticated</name></member>
+      <member refid="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error_1abadd3668ddb8a5cce017228c21ce2cfc" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesError</scope><name>NotSupported</name></member>
+      <member refid="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error_1a4bf311a95e78eb7b14d2963f1897183f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesError</scope><name>SystemError</name></member>
+      <member refid="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error_1a25d6f9257e8b8e1aa55898430f23d35b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesError</scope><name>Unknown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

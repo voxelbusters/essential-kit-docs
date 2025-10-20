@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_0124278198928eb39cba2f86ae8a76e5" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices</compoundname>
+    <innerfile refid="da/dc7/_calendar_notification_trigger_8cs">CalendarNotificationTrigger.cs</innerfile>
+    <innerfile refid="d6/d40/_notification_services_2_delegates_8cs">Delegates.cs</innerfile>
+    <innerfile refid="de/dfc/_i_mutable_notification_8cs">IMutableNotification.cs</innerfile>
+    <innerfile refid="da/d14/_i_native_notification_center_interface_8cs">INativeNotificationCenterInterface.cs</innerfile>
+    <innerfile refid="d9/dcb/_i_notification_8cs">INotification.cs</innerfile>
+    <innerfile refid="d4/d10/_i_notification_trigger_8cs">INotificationTrigger.cs</innerfile>
+    <innerfile refid="dc/d42/_location_notification_trigger_8cs">LocationNotificationTrigger.cs</innerfile>
+    <innerfile refid="d9/dab/_native_notification_center_interface_base_8cs">NativeNotificationCenterInterfaceBase.cs</innerfile>
+    <innerfile refid="d2/d9a/_notification_alert_style_8cs">NotificationAlertStyle.cs</innerfile>
+    <innerfile refid="d9/d28/_notification_android_properties_8cs">NotificationAndroidProperties.cs</innerfile>
+    <innerfile refid="dd/dd6/_notification_base_8cs">NotificationBase.cs</innerfile>
+    <innerfile refid="d9/dcd/_notification_builder_8cs">NotificationBuilder.cs</innerfile>
+    <innerfile refid="d6/dac/_notification_channel_8cs">NotificationChannel.cs</innerfile>
+    <innerfile refid="d0/d5a/_notification_ios_properties_8cs">NotificationIosProperties.cs</innerfile>
+    <innerfile refid="da/dd2/_notification_permission_options_8cs">NotificationPermissionOptions.cs</innerfile>
+    <innerfile refid="d0/dc0/_notification_permission_status_8cs">NotificationPermissionStatus.cs</innerfile>
+    <innerfile refid="da/dde/_notification_presentation_options_8cs">NotificationPresentationOptions.cs</innerfile>
+    <innerfile refid="d5/dc3/_notification_preview_style_8cs">NotificationPreviewStyle.cs</innerfile>
+    <innerfile refid="da/d90/_notification_priority_8cs">NotificationPriority.cs</innerfile>
+    <innerfile refid="df/d27/_notification_services_8cs">NotificationServices.cs</innerfile>
+    <innerfile refid="d4/da3/_notification_services_error_8cs">NotificationServicesError.cs</innerfile>
+    <innerfile refid="de/de6/_notification_services_error_code_8cs">NotificationServicesErrorCode.cs</innerfile>
+    <innerfile refid="d9/d8b/_notification_services_get_delivered_notifications_result_8cs">NotificationServicesGetDeliveredNotificationsResult.cs</innerfile>
+    <innerfile refid="d5/d60/_notification_services_get_scheduled_notifications_result_8cs">NotificationServicesGetScheduledNotificationsResult.cs</innerfile>
+    <innerfile refid="da/d5f/_notification_services_get_settings_result_8cs">NotificationServicesGetSettingsResult.cs</innerfile>
+    <innerfile refid="d3/d26/_notification_services_notification_received_result_8cs">NotificationServicesNotificationReceivedResult.cs</innerfile>
+    <innerfile refid="d6/d86/_notification_services_register_for_push_notifications_result_8cs">NotificationServicesRegisterForPushNotificationsResult.cs</innerfile>
+    <innerfile refid="da/d7f/_notification_services_request_permission_result_8cs">NotificationServicesRequestPermissionResult.cs</innerfile>
+    <innerfile refid="d7/d8b/_notification_settings_8cs">NotificationSettings.cs</innerfile>
+    <innerfile refid="da/d31/_notification_settings_internal_8cs">NotificationSettingsInternal.cs</innerfile>
+    <innerfile refid="d5/db5/_notification_setting_status_8cs">NotificationSettingStatus.cs</innerfile>
+    <innerfile refid="d3/d55/_notification_trigger_type_8cs">NotificationTriggerType.cs</innerfile>
+    <innerfile refid="d6/d39/_null_mutable_notification_8cs">NullMutableNotification.cs</innerfile>
+    <innerfile refid="db/d37/_null_notification_center_interface_8cs">NullNotificationCenterInterface.cs</innerfile>
+    <innerfile refid="d2/d2b/_push_notification_service_type_8cs">PushNotificationServiceType.cs</innerfile>
+    <innerfile refid="d8/deb/_push_notification_trigger_8cs">PushNotificationTrigger.cs</innerfile>
+    <innerfile refid="d2/d39/_time_interval_notification_trigger_8cs">TimeIntervalNotificationTrigger.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/"/>
+  </compounddef>
+</doxygen>

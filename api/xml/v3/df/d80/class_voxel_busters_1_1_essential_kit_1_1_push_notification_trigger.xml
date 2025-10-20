@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="df/d80/class_voxel_busters_1_1_essential_kit_1_1_push_notification_trigger" kind="class" language="C#" prot="public" sealed="yes">
+    <compoundname>VoxelBusters::EssentialKit::PushNotificationTrigger</compoundname>
+    <basecompoundref refid="d2/df5/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_trigger" prot="public" virt="non-virtual">INotificationTrigger</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="df/d80/class_voxel_busters_1_1_essential_kit_1_1_push_notification_trigger_1a7959e7b7e552b87138b95df80f13c9d8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Repeats</definition>
+        <argsstring></argsstring>
+        <name>Repeats</name>
+        <qualifiedname>VoxelBusters.EssentialKit.PushNotificationTrigger.Repeats</qualifiedname>
+        <reimplements refid="d2/df5/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_trigger_1a7959e7b7e552b87138b95df80f13c9d8">Repeats</reimplements>
+        <briefdescription>
+<para>A Boolean value indicating whether the system reschedules the notification after it is delivered. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/PushNotificationTrigger.cs" line="29" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/PushNotificationTrigger.cs" bodystart="29" bodyend="29"/>
+        <referencedby refid="df/d80/class_voxel_busters_1_1_essential_kit_1_1_push_notification_trigger_1a82edfeb0cac8fb3ae92e2f8571cec0aa" compoundref="d8/deb/_push_notification_trigger_8cs" startline="19" endline="23">PushNotificationTrigger.PushNotificationTrigger</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d80/class_voxel_busters_1_1_essential_kit_1_1_push_notification_trigger_1a82edfeb0cac8fb3ae92e2f8571cec0aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PushNotificationTrigger</definition>
+        <argsstring>()</argsstring>
+        <name>PushNotificationTrigger</name>
+        <qualifiedname>VoxelBusters.EssentialKit.PushNotificationTrigger.PushNotificationTrigger</qualifiedname>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="df/d80/class_voxel_busters_1_1_essential_kit_1_1_push_notification_trigger" kindref="compound">PushNotificationTrigger</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/PushNotificationTrigger.cs" line="19" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/PushNotificationTrigger.cs" bodystart="19" bodyend="23"/>
+        <references refid="df/d80/class_voxel_busters_1_1_essential_kit_1_1_push_notification_trigger_1a7959e7b7e552b87138b95df80f13c9d8" compoundref="d8/deb/_push_notification_trigger_8cs" startline="29" endline="29">PushNotificationTrigger.Repeats</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A trigger condition that indicates the notification was using a Push Notification Service. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>INotificationTrigger</label>
+        <link refid="d2/df5/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_trigger"/>
+      </node>
+      <node id="1">
+        <label>PushNotificationTrigger</label>
+        <link refid="df/d80/class_voxel_busters_1_1_essential_kit_1_1_push_notification_trigger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>INotificationTrigger</label>
+        <link refid="d2/df5/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_trigger"/>
+      </node>
+      <node id="1">
+        <label>PushNotificationTrigger</label>
+        <link refid="df/d80/class_voxel_busters_1_1_essential_kit_1_1_push_notification_trigger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/PushNotificationTrigger.cs" line="12" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/PushNotificationTrigger.cs" bodystart="13" bodyend="32"/>
+    <listofallmembers>
+      <member refid="df/d80/class_voxel_busters_1_1_essential_kit_1_1_push_notification_trigger_1a82edfeb0cac8fb3ae92e2f8571cec0aa" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::PushNotificationTrigger</scope><name>PushNotificationTrigger</name></member>
+      <member refid="df/d80/class_voxel_busters_1_1_essential_kit_1_1_push_notification_trigger_1a7959e7b7e552b87138b95df80f13c9d8" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::PushNotificationTrigger</scope><name>Repeats</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

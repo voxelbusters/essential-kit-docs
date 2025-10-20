@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d2/dd7/_billing_services_offer_payment_mode_8cs" kind="file" language="C#">
+    <compoundname>BillingServicesOfferPaymentMode.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a10b6038d73203f406be834f7c50ca2fb" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>BillingProductOfferPaymentMode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductOfferPaymentMode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a10b6038d73203f406be834f7c50ca2fba88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>Unknown payment mode. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a10b6038d73203f406be834f7c50ca2fba252f9ed79a6214b988efeda0a0e1820e" prot="public">
+          <name>FreeTrial</name>
+          <briefdescription>
+<para>Payment mode for a free trial. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a10b6038d73203f406be834f7c50ca2fba5a91229c1688793bf4091ee357a8daf6" prot="public">
+          <name>PayAsYouGo</name>
+          <briefdescription>
+<para>Payment mode for pay as you go subscriptions. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a10b6038d73203f406be834f7c50ca2fbafbb5da4279f39ea1b1d172b33be8c526" prot="public">
+          <name>PayUpFront</name>
+          <briefdescription>
+<para>Payment mode for pay up front subscriptions. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Payment mode of Billing Product Subscription. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesOfferPaymentMode.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesOfferPaymentMode.cs" bodystart="7" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesOfferPaymentMode.cs"/>
+  </compounddef>
+</doxygen>

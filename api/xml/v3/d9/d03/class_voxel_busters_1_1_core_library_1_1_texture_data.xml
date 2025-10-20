@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/d03/class_voxel_busters_1_1_core_library_1_1_texture_data" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::TextureData</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d9/d03/class_voxel_busters_1_1_core_library_1_1_texture_data_1aefeb6cc53d5d905b8af8a0bcf5c9fef6" prot="private" static="no" mutable="no">
+        <type>byte[]</type>
+        <definition>byte [] m_rawData</definition>
+        <argsstring></argsstring>
+        <name>m_rawData</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.TextureData.m_rawData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/TextureData.cs" line="10" column="31" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/TextureData.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d03/class_voxel_busters_1_1_core_library_1_1_texture_data_1aea99c0a6f57dd2e52dfef02bbe853168" prot="private" static="no" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D m_texture</definition>
+        <argsstring></argsstring>
+        <name>m_texture</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.TextureData.m_texture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/TextureData.cs" line="12" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/TextureData.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d03/class_voxel_busters_1_1_core_library_1_1_texture_data_1a028367c2ff98d1993147ab90cfccceb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TextureData</definition>
+        <argsstring>(byte[] rawData)</argsstring>
+        <name>TextureData</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.TextureData.TextureData</qualifiedname>
+        <param>
+          <type>byte[]</type>
+          <declname>rawData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/TextureData.cs" line="18" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/TextureData.cs" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d03/class_voxel_busters_1_1_core_library_1_1_texture_data_1a42d9465ea793bfa6200789db602b2248" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TextureData</definition>
+        <argsstring>(Texture2D texture)</argsstring>
+        <name>TextureData</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.TextureData.TextureData</qualifiedname>
+        <param>
+          <type>Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/TextureData.cs" line="25" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/TextureData.cs" bodystart="25" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d03/class_voxel_busters_1_1_core_library_1_1_texture_data_1adb99d31254a1160a61c563928c6561a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>byte[] GetBytes</definition>
+        <argsstring>(TextureEncodingFormat format)</argsstring>
+        <name>GetBytes</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.TextureData.GetBytes</qualifiedname>
+        <param>
+          <type><ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a533c2670f0a8893cf58661a4784b2c9f" kindref="member">TextureEncodingFormat</ref></type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/TextureData.cs" line="36" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/TextureData.cs" bodystart="36" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d03/class_voxel_busters_1_1_core_library_1_1_texture_data_1afcf536d4e66429a0ffdb468f4772277e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>Texture2D GetTexture</definition>
+        <argsstring>()</argsstring>
+        <name>GetTexture</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.TextureData.GetTexture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/TextureData.cs" line="57" column="26" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/TextureData.cs" bodystart="57" bodyend="70"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d9/d03/class_voxel_busters_1_1_core_library_1_1_texture_data_1a5c6d6511efc7456e737fcce465e64ef2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>Texture2D CreateTexture</definition>
+        <argsstring>(byte[] data)</argsstring>
+        <name>CreateTexture</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.TextureData.CreateTexture</qualifiedname>
+        <param>
+          <type>byte[]</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/TextureData.cs" line="72" column="27" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/TextureData.cs" bodystart="72" bodyend="79"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/TextureData.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/TextureData.cs" bodystart="7" bodyend="82"/>
+    <listofallmembers>
+      <member refid="d9/d03/class_voxel_busters_1_1_core_library_1_1_texture_data_1a5c6d6511efc7456e737fcce465e64ef2" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::TextureData</scope><name>CreateTexture</name></member>
+      <member refid="d9/d03/class_voxel_busters_1_1_core_library_1_1_texture_data_1adb99d31254a1160a61c563928c6561a8" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::TextureData</scope><name>GetBytes</name></member>
+      <member refid="d9/d03/class_voxel_busters_1_1_core_library_1_1_texture_data_1afcf536d4e66429a0ffdb468f4772277e" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::TextureData</scope><name>GetTexture</name></member>
+      <member refid="d9/d03/class_voxel_busters_1_1_core_library_1_1_texture_data_1aefeb6cc53d5d905b8af8a0bcf5c9fef6" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::TextureData</scope><name>m_rawData</name></member>
+      <member refid="d9/d03/class_voxel_busters_1_1_core_library_1_1_texture_data_1aea99c0a6f57dd2e52dfef02bbe853168" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::TextureData</scope><name>m_texture</name></member>
+      <member refid="d9/d03/class_voxel_busters_1_1_core_library_1_1_texture_data_1a028367c2ff98d1993147ab90cfccceb2" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::TextureData</scope><name>TextureData</name></member>
+      <member refid="d9/d03/class_voxel_busters_1_1_core_library_1_1_texture_data_1a42d9465ea793bfa6200789db602b2248" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::TextureData</scope><name>TextureData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

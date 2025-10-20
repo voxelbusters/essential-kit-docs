@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="da/d6a/class_voxel_busters_1_1_core_library_1_1_list_pool" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::ListPool</compoundname>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="da/d6a/class_voxel_busters_1_1_core_library_1_1_list_pool_1af26aef0f173ed4da9d5c2a52fd5ea360" prot="private" static="yes" mutable="no">
+        <type>ObjectPool&lt; List&lt; T &gt; &gt;</type>
+        <definition>ObjectPool&lt;List&lt;T&gt; &gt; s_listObjectPool</definition>
+        <argsstring></argsstring>
+        <name>s_listObjectPool</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ListPool.s_listObjectPool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ListPool{T}.cs" line="11" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ListPool{T}.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="da/d6a/class_voxel_busters_1_1_core_library_1_1_list_pool_1a908034cb2b7be6086033b22dce33926b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; T &gt;</type>
+        <definition>static List&lt; T &gt; Get</definition>
+        <argsstring>()</argsstring>
+        <name>Get</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ListPool.Get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ListPool{T}.cs" line="17" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ListPool{T}.cs" bodystart="17" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d6a/class_voxel_busters_1_1_core_library_1_1_list_pool_1a366eada640241b408c4d4303dfb1f8a9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Release</definition>
+        <argsstring>(List&lt; T &gt; obj)</argsstring>
+        <name>Release</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ListPool.Release</qualifiedname>
+        <param>
+          <type>List&lt; T &gt;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ListPool{T}.cs" line="24" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ListPool{T}.cs" bodystart="24" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="da/d6a/class_voxel_busters_1_1_core_library_1_1_list_pool_1a4e14ded9973d908561b2bbf2f04ef78c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void EnsureInitialized</definition>
+        <argsstring>()</argsstring>
+        <name>EnsureInitialized</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ListPool.EnsureInitialized</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ListPool{T}.cs" line="35" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ListPool{T}.cs" bodystart="35" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d6a/class_voxel_busters_1_1_core_library_1_1_list_pool_1ad34f9cfe0090c3d54cf6791e09c60549" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; T &gt;</type>
+        <definition>static List&lt; T &gt; OnCreateItem</definition>
+        <argsstring>()</argsstring>
+        <name>OnCreateItem</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ListPool.OnCreateItem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ListPool{T}.cs" line="45" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ListPool{T}.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d6a/class_voxel_busters_1_1_core_library_1_1_list_pool_1a8a2707e1da863e7aa613eef7713ca1e0" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void OnReleaseItem</definition>
+        <argsstring>(List&lt; T &gt; item)</argsstring>
+        <name>OnReleaseItem</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ListPool.OnReleaseItem</qualifiedname>
+        <param>
+          <type>List&lt; T &gt;</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ListPool{T}.cs" line="50" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ListPool{T}.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ListPool{T}.cs" line="7" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ListPool{T}.cs" bodystart="8" bodyend="56"/>
+    <listofallmembers>
+      <member refid="da/d6a/class_voxel_busters_1_1_core_library_1_1_list_pool_1a4e14ded9973d908561b2bbf2f04ef78c" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ListPool</scope><name>EnsureInitialized</name></member>
+      <member refid="da/d6a/class_voxel_busters_1_1_core_library_1_1_list_pool_1a908034cb2b7be6086033b22dce33926b" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ListPool</scope><name>Get</name></member>
+      <member refid="da/d6a/class_voxel_busters_1_1_core_library_1_1_list_pool_1ad34f9cfe0090c3d54cf6791e09c60549" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ListPool</scope><name>OnCreateItem</name></member>
+      <member refid="da/d6a/class_voxel_busters_1_1_core_library_1_1_list_pool_1a8a2707e1da863e7aa613eef7713ca1e0" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ListPool</scope><name>OnReleaseItem</name></member>
+      <member refid="da/d6a/class_voxel_busters_1_1_core_library_1_1_list_pool_1a366eada640241b408c4d4303dfb1f8a9" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ListPool</scope><name>Release</name></member>
+      <member refid="da/d6a/class_voxel_busters_1_1_core_library_1_1_list_pool_1af26aef0f173ed4da9d5c2a52fd5ea360" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ListPool</scope><name>s_listObjectPool</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

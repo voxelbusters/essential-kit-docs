@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="df/d2b/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_info" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::BillingProductSubscriptionInfo</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="df/d2b/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_info_1a5c9e58a845d59641a098c5d1e5873314" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string GroupId</definition>
+        <argsstring></argsstring>
+        <name>GroupId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductSubscriptionInfo.GroupId</qualifiedname>
+        <briefdescription>
+<para>Gets the group identifier of the product. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionInfo.cs" line="12" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionInfo.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="df/d2b/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_info_1ad68e3fecf707a842bdeee0e1b928a46e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string LocalizedGroupTitle</definition>
+        <argsstring></argsstring>
+        <name>LocalizedGroupTitle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductSubscriptionInfo.LocalizedGroupTitle</qualifiedname>
+        <briefdescription>
+<para>Gets the localized group title of the product. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The localized group title is the title of the product that is displayed to the user. It should be used when displaying the product information to the user. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionInfo.cs" line="21" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionInfo.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="df/d2b/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_info_1a879a93f9d2ab803bb4ca7f9bd55e52f8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int Level</definition>
+        <argsstring></argsstring>
+        <name>Level</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductSubscriptionInfo.Level</qualifiedname>
+        <briefdescription>
+<para>Gets the level of the product. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The level of the product is used to distinguish between different products in the same group. For example, if a product is a subscription, the level can be used to identify the different tiers of the subscription, such as a basic, premium, or enterprise tier. </para>
+<para><simplesect kind="note"><para>This property is not relevant on Android platform. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionInfo.cs" line="31" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionInfo.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="df/d2b/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_info_1aaf4b19eb0b5b040804f59dbe5571a07d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="d3/d4a/class_voxel_busters_1_1_essential_kit_1_1_billing_period" kindref="compound">BillingPeriod</ref></type>
+        <definition>BillingPeriod Period</definition>
+        <argsstring></argsstring>
+        <name>Period</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductSubscriptionInfo.Period</qualifiedname>
+        <briefdescription>
+<para>Gets the billing period of the product. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The billing period defines the duration of the subscription cycle. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionInfo.cs" line="40" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionInfo.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d2b/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_info_1a194eddcb553fe66abac906da1144c0cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BillingProductSubscriptionInfo</definition>
+        <argsstring>(string groupId, string localizedGroupTitle, int level, BillingPeriod period)</argsstring>
+        <name>BillingProductSubscriptionInfo</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductSubscriptionInfo.BillingProductSubscriptionInfo</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>groupId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>localizedGroupTitle</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d4a/class_voxel_busters_1_1_essential_kit_1_1_billing_period" kindref="compound">BillingPeriod</ref></type>
+          <declname>period</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionInfo.cs" line="42" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionInfo.cs" bodystart="42" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d2b/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_info_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductSubscriptionInfo.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionInfo.cs" line="50" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionInfo.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents the information about the billing product subscription. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionInfo.cs" line="7" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionInfo.cs" bodystart="8" bodyend="54"/>
+    <listofallmembers>
+      <member refid="df/d2b/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_info_1a194eddcb553fe66abac906da1144c0cf" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductSubscriptionInfo</scope><name>BillingProductSubscriptionInfo</name></member>
+      <member refid="df/d2b/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_info_1a5c9e58a845d59641a098c5d1e5873314" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductSubscriptionInfo</scope><name>GroupId</name></member>
+      <member refid="df/d2b/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_info_1a879a93f9d2ab803bb4ca7f9bd55e52f8" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductSubscriptionInfo</scope><name>Level</name></member>
+      <member refid="df/d2b/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_info_1ad68e3fecf707a842bdeee0e1b928a46e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductSubscriptionInfo</scope><name>LocalizedGroupTitle</name></member>
+      <member refid="df/d2b/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_info_1aaf4b19eb0b5b040804f59dbe5571a07d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductSubscriptionInfo</scope><name>Period</name></member>
+      <member refid="df/d2b/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_info_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductSubscriptionInfo</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

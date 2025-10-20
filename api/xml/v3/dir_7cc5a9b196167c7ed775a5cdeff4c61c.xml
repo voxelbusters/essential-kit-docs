@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_7cc5a9b196167c7ed775a5cdeff4c61c" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal</compoundname>
+    <innerfile refid="df/d2e/_internal_2_delegates_8cs">Delegates.cs</innerfile>
+    <innerfile refid="d4/d58/_implementation_schema_8cs">ImplementationSchema.cs</innerfile>
+    <innerfile refid="d6/dd2/_native_feature_type_8cs">NativeFeatureType.cs</innerfile>
+    <innerfile refid="d6/de3/_native_feature_usage_permission_type_8cs">NativeFeatureUsagePermissionType.cs</innerfile>
+    <innerfile refid="df/def/_product_resources_8cs">ProductResources.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/"/>
+  </compounddef>
+</doxygen>

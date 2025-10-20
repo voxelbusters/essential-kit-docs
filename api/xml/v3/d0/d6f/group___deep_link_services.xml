@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d0/d6f/group___deep_link_services" kind="group">
+    <compoundname>DeepLinkServices</compoundname>
+    <title>Deep Link Services</title>
+    <innerclass refid="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition" prot="public">VoxelBusters::EssentialKit::DeepLinkDefinition</innerclass>
+    <innerclass refid="de/df5/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services" prot="public">VoxelBusters::EssentialKit::DeepLinkServices</innerclass>
+    <innerclass refid="d4/d05/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_dynamic_link_open_result" prot="public">VoxelBusters::EssentialKit::DeepLinkServicesDynamicLinkOpenResult</innerclass>
+    <briefdescription>
+<para>Cross-platform interface to handle deep links. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

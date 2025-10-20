@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dd/d16/_clear_on_reload_attribute_8cs" kind="file" language="C#">
+    <compoundname>ClearOnReloadAttribute.cs</compoundname>
+    <innerclass refid="dc/d56/class_voxel_busters_1_1_core_library_1_1_clear_on_reload_attribute" prot="public">VoxelBusters::CoreLibrary::ClearOnReloadAttribute</innerclass>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="d7/d45/namespace_voxel_busters_1_1_core_library">VoxelBusters::CoreLibrary</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="d7/d45/namespace_voxel_busters_1_1_core_library_1ada38f027e21f0b4ac01ed93e16018f38" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ClearOnReloadOption</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ClearOnReloadOption</qualifiedname>
+        <enumvalue id="d7/d45/namespace_voxel_busters_1_1_core_library_1ada38f027e21f0b4ac01ed93e16018f38a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d45/namespace_voxel_busters_1_1_core_library_1ada38f027e21f0b4ac01ed93e16018f38a7a1920d61156abc05a60135aefe8bc67" prot="public">
+          <name>Default</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d45/namespace_voxel_busters_1_1_core_library_1ada38f027e21f0b4ac01ed93e16018f38a90589c47f06eb971d548591f23c285af" prot="public">
+          <name>Custom</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ClearOnReloadAttribute.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ClearOnReloadAttribute.cs" bodystart="7" bodyend="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ClearOnReloadAttribute.cs"/>
+  </compounddef>
+</doxygen>

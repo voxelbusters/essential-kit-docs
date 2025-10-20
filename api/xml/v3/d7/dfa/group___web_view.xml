@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d7/dfa/group___web_view" kind="group">
+    <compoundname>WebView</compoundname>
+    <title>Web View</title>
+    <innerclass refid="dd/db4/class_voxel_busters_1_1_essential_kit_1_1_web_view" prot="public">VoxelBusters::EssentialKit::WebView</innerclass>
+    <innerclass refid="d5/db7/class_voxel_busters_1_1_essential_kit_1_1_web_view_extensions" prot="public">VoxelBusters::EssentialKit::WebViewExtensions</innerclass>
+    <innerclass refid="d9/df0/class_voxel_busters_1_1_essential_kit_1_1_web_view_run_java_script_result" prot="public">VoxelBusters::EssentialKit::WebViewRunJavaScriptResult</innerclass>
+    <briefdescription>
+<para>Provides a cross-platform interface to display web contents inside your application. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

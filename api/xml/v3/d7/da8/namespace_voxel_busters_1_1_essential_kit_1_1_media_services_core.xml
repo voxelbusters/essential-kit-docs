@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d7/da8/namespace_voxel_busters_1_1_essential_kit_1_1_media_services_core" kind="namespace" language="C#">
+    <compoundname>VoxelBusters::EssentialKit::MediaServicesCore</compoundname>
+    <innerclass refid="de/d07/interface_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_i_native_media_services_interface" prot="public">VoxelBusters::EssentialKit::MediaServicesCore::INativeMediaServicesInterface</innerclass>
+    <innerclass refid="d1/dc6/class_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_native_media_services_interface_base" prot="public">VoxelBusters::EssentialKit::MediaServicesCore::NativeMediaServicesInterfaceBase</innerclass>
+    <innerclass refid="db/d3a/class_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_null_media_services_interface" prot="package">VoxelBusters::EssentialKit::MediaServicesCore::NullMediaServicesInterface</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="d7/da8/namespace_voxel_busters_1_1_essential_kit_1_1_media_services_core_1a69b6bd35e27c3517c0ad4797757b2453" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void RequestGalleryAccessInternalCallback</definition>
+        <argsstring>(GalleryAccessStatus status, Error error)</argsstring>
+        <name>RequestGalleryAccessInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesCore.RequestGalleryAccessInternalCallback</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a07b567b6d38e197ddb5cf23daa492866" kindref="member">GalleryAccessStatus</ref></type>
+          <declname>status</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/Delegates.cs" line="8" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/Delegates.cs" declline="8" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/da8/namespace_voxel_busters_1_1_essential_kit_1_1_media_services_core_1a190b5b083d35949e8f2618cc0c808c58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void RequestCameraAccessInternalCallback</definition>
+        <argsstring>(CameraAccessStatus status, Error error)</argsstring>
+        <name>RequestCameraAccessInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesCore.RequestCameraAccessInternalCallback</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1aafd2f4506631462ce3394fb96b7eab0c" kindref="member">CameraAccessStatus</ref></type>
+          <declname>status</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/Delegates.cs" line="10" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/Delegates.cs" declline="10" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/da8/namespace_voxel_busters_1_1_essential_kit_1_1_media_services_core_1ae093622cade3d83ae7f6b38232c81599" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void SelectImageInternalCallback</definition>
+        <argsstring>(byte[] imageData, Error error)</argsstring>
+        <name>SelectImageInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesCore.SelectImageInternalCallback</qualifiedname>
+        <param>
+          <type>byte[]</type>
+          <declname>imageData</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/Delegates.cs" line="12" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/Delegates.cs" declline="12" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/da8/namespace_voxel_busters_1_1_essential_kit_1_1_media_services_core_1ad11562d3db73baa8f58405875a8b6215" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void SelectMediaContentInternalCallback</definition>
+        <argsstring>(IMediaContent[] contents, Error error)</argsstring>
+        <name>SelectMediaContentInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesCore.SelectMediaContentInternalCallback</qualifiedname>
+        <param>
+          <type><ref refid="d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content" kindref="compound">IMediaContent</ref>[]</type>
+          <declname>contents</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/Delegates.cs" line="14" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/Delegates.cs" declline="14" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/da8/namespace_voxel_busters_1_1_essential_kit_1_1_media_services_core_1aa3148d5e92bfd022c09b6fc23b1f70ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void CaptureMediaContentInternalCallback</definition>
+        <argsstring>(IMediaContent content, Error error)</argsstring>
+        <name>CaptureMediaContentInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesCore.CaptureMediaContentInternalCallback</qualifiedname>
+        <param>
+          <type><ref refid="d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content" kindref="compound">IMediaContent</ref></type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/Delegates.cs" line="16" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/Delegates.cs" declline="16" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/da8/namespace_voxel_busters_1_1_essential_kit_1_1_media_services_core_1aee576160b72e6db69845ee764e617fbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void SaveImageToGalleryInternalCallback</definition>
+        <argsstring>(bool success, Error error)</argsstring>
+        <name>SaveImageToGalleryInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesCore.SaveImageToGalleryInternalCallback</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>success</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/Delegates.cs" line="18" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/Delegates.cs" declline="18" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/da8/namespace_voxel_busters_1_1_essential_kit_1_1_media_services_core_1ab332a6a3d85221ee716396898aa6008f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void SaveMediaContentInternalCallback</definition>
+        <argsstring>(bool success, Error error)</argsstring>
+        <name>SaveMediaContentInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesCore.SaveMediaContentInternalCallback</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>success</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/Delegates.cs" line="20" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/Delegates.cs" declline="20" declcolumn="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/Delegates.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

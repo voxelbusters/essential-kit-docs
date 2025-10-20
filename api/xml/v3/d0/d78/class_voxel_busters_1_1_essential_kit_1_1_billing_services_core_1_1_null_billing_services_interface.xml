@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d0/d78/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_null_billing_services_interface" kind="class" language="C#" prot="package">
+    <compoundname>VoxelBusters::EssentialKit::BillingServicesCore::NullBillingServicesInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NativeBillingServicesInterfaceBase</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d78/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_null_billing_services_interface_1abcbfdab16b8ed00c3a322c4cc098c33a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NullBillingServicesInterface</definition>
+        <argsstring>()</argsstring>
+        <name>NullBillingServicesInterface</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.NullBillingServicesInterface.NullBillingServicesInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/NullBillingServicesInterface.cs" line="14" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/NullBillingServicesInterface.cs" bodystart="14" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d78/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_null_billing_services_interface_1a6d5209190946a65e1831bdf8dc17bc8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool CanMakePayments</definition>
+        <argsstring>()</argsstring>
+        <name>CanMakePayments</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.NullBillingServicesInterface.CanMakePayments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/NullBillingServicesInterface.cs" line="31" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/NullBillingServicesInterface.cs" bodystart="31" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d78/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_null_billing_services_interface_1a8a8da224966a4da5ec0a84e035c1ab56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void RetrieveProducts</definition>
+        <argsstring>(BillingProductDefinition[] productDefinitions)</argsstring>
+        <name>RetrieveProducts</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.NullBillingServicesInterface.RetrieveProducts</qualifiedname>
+        <param>
+          <type><ref refid="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition" kindref="compound">BillingProductDefinition</ref>[]</type>
+          <declname>productDefinitions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/NullBillingServicesInterface.cs" line="38" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/NullBillingServicesInterface.cs" bodystart="38" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d78/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_null_billing_services_interface_1ad9f276c3e58930b66e3e6b0dfdb29498" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool IsProductPurchased</definition>
+        <argsstring>(IBillingProduct product)</argsstring>
+        <name>IsProductPurchased</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.NullBillingServicesInterface.IsProductPurchased</qualifiedname>
+        <param>
+          <type><ref refid="d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product" kindref="compound">IBillingProduct</ref></type>
+          <declname>product</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/NullBillingServicesInterface.cs" line="45" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/NullBillingServicesInterface.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d78/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_null_billing_services_interface_1aefa5d1ad373150eb01170db9c26d8b28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void BuyProduct</definition>
+        <argsstring>(string productId, string productPlatformId, BuyProductOptions options)</argsstring>
+        <name>BuyProduct</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.NullBillingServicesInterface.BuyProduct</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>productId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>productPlatformId</declname>
+        </param>
+        <param>
+          <type><ref refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options" kindref="compound">BuyProductOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/NullBillingServicesInterface.cs" line="50" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/NullBillingServicesInterface.cs" bodystart="50" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d78/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_null_billing_services_interface_1a95e8288f899ac98548b532e88a64190d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override <ref refid="da/d96/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_transaction" kindref="compound">IBillingTransaction</ref>[]</type>
+        <definition>override IBillingTransaction[] GetTransactions</definition>
+        <argsstring>()</argsstring>
+        <name>GetTransactions</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.NullBillingServicesInterface.GetTransactions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/NullBillingServicesInterface.cs" line="56" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/NullBillingServicesInterface.cs" bodystart="56" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d78/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_null_billing_services_interface_1abfdaf59818a62043d342ef137d38ab59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FinishTransactions</definition>
+        <argsstring>(IBillingTransaction[] transactions)</argsstring>
+        <name>FinishTransactions</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.NullBillingServicesInterface.FinishTransactions</qualifiedname>
+        <param>
+          <type><ref refid="da/d96/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_transaction" kindref="compound">IBillingTransaction</ref>[]</type>
+          <declname>transactions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/NullBillingServicesInterface.cs" line="63" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/NullBillingServicesInterface.cs" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d78/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_null_billing_services_interface_1a46973f1a105386019d438a5142d6f008" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void RestorePurchases</definition>
+        <argsstring>(bool forceRefresh, string tag)</argsstring>
+        <name>RestorePurchases</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.NullBillingServicesInterface.RestorePurchases</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>forceRefresh</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/NullBillingServicesInterface.cs" line="68" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/NullBillingServicesInterface.cs" bodystart="68" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d78/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_null_billing_services_interface_1af1f99d0d9b944ff362030d4788d0a68c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void TryClearingUnfinishedTransactions</definition>
+        <argsstring>()</argsstring>
+        <name>TryClearingUnfinishedTransactions</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.NullBillingServicesInterface.TryClearingUnfinishedTransactions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/NullBillingServicesInterface.cs" line="75" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/NullBillingServicesInterface.cs" bodystart="75" bodyend="78"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d0/d78/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_null_billing_services_interface_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogNotSupported</definition>
+        <argsstring>()</argsstring>
+        <name>LogNotSupported</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.NullBillingServicesInterface.LogNotSupported</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/NullBillingServicesInterface.cs" line="22" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/NullBillingServicesInterface.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/NullBillingServicesInterface.cs" line="10" column="13" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/NullBillingServicesInterface.cs" bodystart="11" bodyend="81"/>
+    <listofallmembers>
+      <member refid="d0/d78/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_null_billing_services_interface_1aefa5d1ad373150eb01170db9c26d8b28" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::NullBillingServicesInterface</scope><name>BuyProduct</name></member>
+      <member refid="d0/d78/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_null_billing_services_interface_1a6d5209190946a65e1831bdf8dc17bc8d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::NullBillingServicesInterface</scope><name>CanMakePayments</name></member>
+      <member refid="d0/d78/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_null_billing_services_interface_1abfdaf59818a62043d342ef137d38ab59" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::NullBillingServicesInterface</scope><name>FinishTransactions</name></member>
+      <member refid="d0/d78/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_null_billing_services_interface_1a95e8288f899ac98548b532e88a64190d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::NullBillingServicesInterface</scope><name>GetTransactions</name></member>
+      <member refid="d0/d78/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_null_billing_services_interface_1ad9f276c3e58930b66e3e6b0dfdb29498" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::NullBillingServicesInterface</scope><name>IsProductPurchased</name></member>
+      <member refid="d0/d78/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_null_billing_services_interface_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::NullBillingServicesInterface</scope><name>LogNotSupported</name></member>
+      <member refid="d4/df2/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_native_billing_services_interface_base_1af1a8df39d46dc462970f8f97fc61e059" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::NullBillingServicesInterface</scope><name>NativeBillingServicesInterfaceBase</name></member>
+      <member refid="d0/d78/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_null_billing_services_interface_1abcbfdab16b8ed00c3a322c4cc098c33a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::NullBillingServicesInterface</scope><name>NullBillingServicesInterface</name></member>
+      <member refid="d4/df2/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_native_billing_services_interface_base_1a4616b3d9498523307f1699996d907499" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::NullBillingServicesInterface</scope><name>OnExternalProductPurchaseAction</name></member>
+      <member refid="d4/df2/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_native_billing_services_interface_base_1aca37ce850fe3edc02b03f6988ab547a2" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::NullBillingServicesInterface</scope><name>OnRestorePurchasesComplete</name></member>
+      <member refid="d4/df2/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_native_billing_services_interface_base_1a2484485fccd115809c64b82343a35171" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::NullBillingServicesInterface</scope><name>OnRetrieveProductsComplete</name></member>
+      <member refid="d4/df2/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_native_billing_services_interface_base_1a45ab2480c50ccc90116ec5b0477b8770" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::NullBillingServicesInterface</scope><name>OnTransactionStateChange</name></member>
+      <member refid="d0/d78/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_null_billing_services_interface_1a46973f1a105386019d438a5142d6f008" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::NullBillingServicesInterface</scope><name>RestorePurchases</name></member>
+      <member refid="d0/d78/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_null_billing_services_interface_1a8a8da224966a4da5ec0a84e035c1ab56" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::NullBillingServicesInterface</scope><name>RetrieveProducts</name></member>
+      <member refid="d4/df2/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_native_billing_services_interface_base_1ab463ce03143fe3f2c39f75db9d2f7ad5" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::NullBillingServicesInterface</scope><name>SendExternalProductPurchaseActionEvent</name></member>
+      <member refid="d4/df2/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_native_billing_services_interface_base_1a0887976aaedba27b8e2fd1139e353a11" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::NullBillingServicesInterface</scope><name>SendPaymentStateChangeEvent</name></member>
+      <member refid="d4/df2/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_native_billing_services_interface_base_1a25e7b295717d9f5537019903aab4b770" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::NullBillingServicesInterface</scope><name>SendRestorePurchasesCompleteEvent</name></member>
+      <member refid="d4/df2/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_native_billing_services_interface_base_1adbf7bd27624f27c37eed4edd156ac507" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::NullBillingServicesInterface</scope><name>SendRetrieveProductsCompleteEvent</name></member>
+      <member refid="d0/d78/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_null_billing_services_interface_1af1f99d0d9b944ff362030d4788d0a68c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::NullBillingServicesInterface</scope><name>TryClearingUnfinishedTransactions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

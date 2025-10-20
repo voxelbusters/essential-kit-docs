@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/d3a/class_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_null_media_services_interface" kind="class" language="C#" prot="package" sealed="yes">
+    <compoundname>VoxelBusters::EssentialKit::MediaServicesCore::NullMediaServicesInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NativeMediaServicesInterfaceBase</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d3a/class_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_null_media_services_interface_1ad9ba34545756ba87da9818e4fe887a03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NullMediaServicesInterface</definition>
+        <argsstring>()</argsstring>
+        <name>NullMediaServicesInterface</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesCore.NullMediaServicesInterface.NullMediaServicesInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/NullMediaServicesInterface.cs" line="12" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/NullMediaServicesInterface.cs" bodystart="12" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d3a/class_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_null_media_services_interface_1a614a1290267b966727944a894340a05d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override <ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a07b567b6d38e197ddb5cf23daa492866" kindref="member">GalleryAccessStatus</ref></type>
+        <definition>override GalleryAccessStatus GetGalleryAccessStatus</definition>
+        <argsstring>(GalleryAccessMode mode)</argsstring>
+        <name>GetGalleryAccessStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesCore.NullMediaServicesInterface.GetGalleryAccessStatus</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a5af6d9ef7e26e40ab9a97445485856a8" kindref="member">GalleryAccessMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/NullMediaServicesInterface.cs" line="29" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/NullMediaServicesInterface.cs" bodystart="29" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d3a/class_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_null_media_services_interface_1a2c1951366949bd0ba0ffa539b8d07b98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override <ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1aafd2f4506631462ce3394fb96b7eab0c" kindref="member">CameraAccessStatus</ref></type>
+        <definition>override CameraAccessStatus GetCameraAccessStatus</definition>
+        <argsstring>()</argsstring>
+        <name>GetCameraAccessStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesCore.NullMediaServicesInterface.GetCameraAccessStatus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/NullMediaServicesInterface.cs" line="36" column="44" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/NullMediaServicesInterface.cs" bodystart="36" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d3a/class_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_null_media_services_interface_1af5380ceb0118158a0c3ced00282f5fdf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void SelectMediaContent</definition>
+        <argsstring>(MediaContentSelectOptions options, SelectMediaContentInternalCallback callback)</argsstring>
+        <name>SelectMediaContent</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesCore.NullMediaServicesInterface.SelectMediaContent</qualifiedname>
+        <param>
+          <type><ref refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options" kindref="compound">MediaContentSelectOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>SelectMediaContentInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/NullMediaServicesInterface.cs" line="43" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/NullMediaServicesInterface.cs" bodystart="43" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d3a/class_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_null_media_services_interface_1a85b581ba2f57557196cfef1c01c71086" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void CaptureMediaContent</definition>
+        <argsstring>(MediaContentCaptureOptions options, CaptureMediaContentInternalCallback callback)</argsstring>
+        <name>CaptureMediaContent</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesCore.NullMediaServicesInterface.CaptureMediaContent</qualifiedname>
+        <param>
+          <type><ref refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options" kindref="compound">MediaContentCaptureOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>CaptureMediaContentInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/NullMediaServicesInterface.cs" line="50" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/NullMediaServicesInterface.cs" bodystart="50" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d3a/class_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_null_media_services_interface_1afc6aa35dbee35a1a64ae533e1a8d015d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void SaveMediaContent</definition>
+        <argsstring>(byte[] data, string mimeType, MediaContentSaveOptions options, SaveMediaContentInternalCallback callback)</argsstring>
+        <name>SaveMediaContent</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesCore.NullMediaServicesInterface.SaveMediaContent</qualifiedname>
+        <param>
+          <type>byte[]</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>mimeType</declname>
+        </param>
+        <param>
+          <type><ref refid="d5/d40/class_voxel_busters_1_1_essential_kit_1_1_media_content_save_options" kindref="compound">MediaContentSaveOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>SaveMediaContentInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/NullMediaServicesInterface.cs" line="57" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/NullMediaServicesInterface.cs" bodystart="57" bodyend="62"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="db/d3a/class_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_null_media_services_interface_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogNotSupported</definition>
+        <argsstring>()</argsstring>
+        <name>LogNotSupported</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesCore.NullMediaServicesInterface.LogNotSupported</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/NullMediaServicesInterface.cs" line="20" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/NullMediaServicesInterface.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/NullMediaServicesInterface.cs" line="8" column="13" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/NullMediaServicesInterface.cs" bodystart="9" bodyend="65"/>
+    <listofallmembers>
+      <member refid="db/d3a/class_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_null_media_services_interface_1a85b581ba2f57557196cfef1c01c71086" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesCore::NullMediaServicesInterface</scope><name>CaptureMediaContent</name></member>
+      <member refid="db/d3a/class_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_null_media_services_interface_1a2c1951366949bd0ba0ffa539b8d07b98" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesCore::NullMediaServicesInterface</scope><name>GetCameraAccessStatus</name></member>
+      <member refid="db/d3a/class_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_null_media_services_interface_1a614a1290267b966727944a894340a05d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesCore::NullMediaServicesInterface</scope><name>GetGalleryAccessStatus</name></member>
+      <member refid="db/d3a/class_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_null_media_services_interface_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesCore::NullMediaServicesInterface</scope><name>LogNotSupported</name></member>
+      <member refid="d1/dc6/class_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_native_media_services_interface_base_1afc352dd8c1f7539c02d2cce843282d80" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesCore::NullMediaServicesInterface</scope><name>NativeMediaServicesInterfaceBase</name></member>
+      <member refid="db/d3a/class_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_null_media_services_interface_1ad9ba34545756ba87da9818e4fe887a03" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesCore::NullMediaServicesInterface</scope><name>NullMediaServicesInterface</name></member>
+      <member refid="db/d3a/class_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_null_media_services_interface_1afc6aa35dbee35a1a64ae533e1a8d015d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesCore::NullMediaServicesInterface</scope><name>SaveMediaContent</name></member>
+      <member refid="db/d3a/class_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_null_media_services_interface_1af5380ceb0118158a0c3ced00282f5fdf" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesCore::NullMediaServicesInterface</scope><name>SelectMediaContent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

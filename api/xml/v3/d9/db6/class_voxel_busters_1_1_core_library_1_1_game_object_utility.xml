@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/db6/class_voxel_busters_1_1_core_library_1_1_game_object_utility" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::GameObjectUtility</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d9/db6/class_voxel_busters_1_1_core_library_1_1_game_object_utility_1a2dc717be4f26dd01d9d7a127a2c31b48" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>static GameObject Instantiate</definition>
+        <argsstring>(GameObject prefab, Transform parent=null)</argsstring>
+        <name>Instantiate</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.GameObjectUtility.Instantiate</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>prefab</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>parent</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/GameObjectUtility.cs" line="9" column="34" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/GameObjectUtility.cs" bodystart="9" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/db6/class_voxel_busters_1_1_core_library_1_1_game_object_utility_1acdfeaae251e20292612d19905d4f1fa5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>static GameObject Instantiate</definition>
+        <argsstring>(GameObject prefab, System.Action&lt; GameObject &gt; onBeforeAwake)</argsstring>
+        <name>Instantiate</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.GameObjectUtility.Instantiate</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>prefab</declname>
+        </param>
+        <param>
+          <type>System.Action&lt; GameObject &gt;</type>
+          <declname>onBeforeAwake</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/GameObjectUtility.cs" line="17" column="34" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/GameObjectUtility.cs" bodystart="17" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/db6/class_voxel_busters_1_1_core_library_1_1_game_object_utility_1ad3087099414298f7b7e55c1b0a11eb12" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>static GameObject CreateChild</definition>
+        <argsstring>(string childName, Transform parent)</argsstring>
+        <name>CreateChild</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.GameObjectUtility.CreateChild</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>childName</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/GameObjectUtility.cs" line="42" column="34" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/GameObjectUtility.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/db6/class_voxel_busters_1_1_core_library_1_1_game_object_utility_1a98f981ab2a3d2d1f6841a65275abd1d7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>static GameObject CreateChild</definition>
+        <argsstring>(string childName, Vector3 localPosition, Quaternion localRotation, Vector3 localScale, Transform parent)</argsstring>
+        <name>CreateChild</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.GameObjectUtility.CreateChild</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>childName</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>localPosition</declname>
+        </param>
+        <param>
+          <type>Quaternion</type>
+          <declname>localRotation</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>localScale</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/GameObjectUtility.cs" line="47" column="34" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/GameObjectUtility.cs" bodystart="47" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/db6/class_voxel_busters_1_1_core_library_1_1_game_object_utility_1ac84cf14810f9c21d5af1da938d1ef088" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>static GameObject CreateGameObject</definition>
+        <argsstring>(string name, System.Action&lt; GameObject &gt; onBeforeActive=null)</argsstring>
+        <name>CreateGameObject</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.GameObjectUtility.CreateGameObject</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>System.Action&lt; GameObject &gt;</type>
+          <declname>onBeforeActive</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/GameObjectUtility.cs" line="61" column="34" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/GameObjectUtility.cs" bodystart="61" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/db6/class_voxel_busters_1_1_core_library_1_1_game_object_utility_1a728f0a086b252f6e3256023612fa7e19" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T CreateGameObjectWithComponent&lt; T &gt;</definition>
+        <argsstring>(string name, System.Action&lt; T &gt; onBeforeAwake=null)</argsstring>
+        <name>CreateGameObjectWithComponent&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.GameObjectUtility.CreateGameObjectWithComponent&lt; T &gt;</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>System.Action&lt; T &gt;</type>
+          <declname>onBeforeAwake</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/GameObjectUtility.cs" line="82" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/GameObjectUtility.cs" bodystart="82" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/db6/class_voxel_busters_1_1_core_library_1_1_game_object_utility_1a2e2fb7040ea6763634fe51b1b53c4da0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SetActive</definition>
+        <argsstring>(this GameObject[] gameObjects, bool value)</argsstring>
+        <name>SetActive</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.GameObjectUtility.SetActive</qualifiedname>
+        <param>
+          <type>this GameObject[]</type>
+          <declname>gameObjects</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/GameObjectUtility.cs" line="99" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/GameObjectUtility.cs" bodystart="99" bodyend="105"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/GameObjectUtility.cs" line="5" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/GameObjectUtility.cs" bodystart="6" bodyend="108"/>
+    <listofallmembers>
+      <member refid="d9/db6/class_voxel_busters_1_1_core_library_1_1_game_object_utility_1ad3087099414298f7b7e55c1b0a11eb12" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GameObjectUtility</scope><name>CreateChild</name></member>
+      <member refid="d9/db6/class_voxel_busters_1_1_core_library_1_1_game_object_utility_1a98f981ab2a3d2d1f6841a65275abd1d7" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GameObjectUtility</scope><name>CreateChild</name></member>
+      <member refid="d9/db6/class_voxel_busters_1_1_core_library_1_1_game_object_utility_1ac84cf14810f9c21d5af1da938d1ef088" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GameObjectUtility</scope><name>CreateGameObject</name></member>
+      <member refid="d9/db6/class_voxel_busters_1_1_core_library_1_1_game_object_utility_1a728f0a086b252f6e3256023612fa7e19" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GameObjectUtility</scope><name>CreateGameObjectWithComponent&lt; T &gt;</name></member>
+      <member refid="d9/db6/class_voxel_busters_1_1_core_library_1_1_game_object_utility_1a2dc717be4f26dd01d9d7a127a2c31b48" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GameObjectUtility</scope><name>Instantiate</name></member>
+      <member refid="d9/db6/class_voxel_busters_1_1_core_library_1_1_game_object_utility_1acdfeaae251e20292612d19905d4f1fa5" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GameObjectUtility</scope><name>Instantiate</name></member>
+      <member refid="d9/db6/class_voxel_busters_1_1_core_library_1_1_game_object_utility_1a2e2fb7040ea6763634fe51b1b53c4da0" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GameObjectUtility</scope><name>SetActive</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info" kind="class" language="C#" prot="package">
+    <compoundname>VoxelBusters::EssentialKit::RateMyAppControllerStateInfo</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1ae29d1c57da9bb49112ce7f2fcc95e19f" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_versionLastRated</definition>
+        <argsstring></argsstring>
+        <name>m_versionLastRated</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppControllerStateInfo.m_versionLastRated</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" line="13" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1ac8c82d565e6a78295c1a16f55253de69" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int m_appLaunchCount</definition>
+        <argsstring></argsstring>
+        <name>m_appLaunchCount</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppControllerStateInfo.m_appLaunchCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" line="16" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1a62a6f9dcbdf265114ad31e622008ec1f" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_promptLastShown</definition>
+        <argsstring></argsstring>
+        <name>m_promptLastShown</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppControllerStateInfo.m_promptLastShown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" line="19" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1ac74537a7f1e64fa7272a3a94ea88b1e2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int m_promptCount</definition>
+        <argsstring></argsstring>
+        <name>m_promptCount</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppControllerStateInfo.m_promptCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" line="22" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1ad05ecd05ddd56e529164d6561389ef70" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_isActive</definition>
+        <argsstring></argsstring>
+        <name>m_isActive</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppControllerStateInfo.m_isActive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" line="25" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1a8190024a20210a8018b33ebde6a7c35b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string VersionLastRated</definition>
+        <argsstring></argsstring>
+        <name>VersionLastRated</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppControllerStateInfo.VersionLastRated</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" line="31" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" bodystart="32" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1ae7006b1d3c4e43b20c519f6dd98f4fae" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int AppLaunchCount</definition>
+        <argsstring></argsstring>
+        <name>AppLaunchCount</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppControllerStateInfo.AppLaunchCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" line="43" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" bodystart="44" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1ad3a4c02194eb054422733e798d8f5c7f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? PromptLastShown</definition>
+        <argsstring></argsstring>
+        <name>PromptLastShown</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppControllerStateInfo.PromptLastShown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" line="55" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" bodystart="56" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1a95feb8ae60631c132106a00015d7db78" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int PromptCount</definition>
+        <argsstring></argsstring>
+        <name>PromptCount</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppControllerStateInfo.PromptCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" line="67" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" bodystart="68" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1a92c6b1cf703f9e064f5efc0907f80379" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool IsActive</definition>
+        <argsstring></argsstring>
+        <name>IsActive</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppControllerStateInfo.IsActive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" line="79" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" bodystart="80" bodyend="89"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1adb27c6e6a5dc98897cdafbbf722bd106" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RateMyAppControllerStateInfo</definition>
+        <argsstring>()</argsstring>
+        <name>RateMyAppControllerStateInfo</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppControllerStateInfo.RateMyAppControllerStateInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" line="95" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" bodystart="95" bodyend="103"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1a3c0caa864eed99a1b420bfab81be5935" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string SerializeDateTime</definition>
+        <argsstring>(DateTime dateTime)</argsstring>
+        <name>SerializeDateTime</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppControllerStateInfo.SerializeDateTime</qualifiedname>
+        <param>
+          <type>DateTime</type>
+          <declname>dateTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" line="109" column="31" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" bodystart="109" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1a500c98371b869a0369f35305ef662099" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>? DateTime</type>
+        <definition>static ? DateTime DeserializeDateTime</definition>
+        <argsstring>(string dateTimeStr)</argsstring>
+        <name>DeserializeDateTime</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppControllerStateInfo.DeserializeDateTime</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>dateTimeStr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" line="114" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" bodystart="114" bodyend="123"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" line="8" column="13" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppControllerStateInfo.cs" bodystart="9" bodyend="126"/>
+    <listofallmembers>
+      <member refid="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1ae7006b1d3c4e43b20c519f6dd98f4fae" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppControllerStateInfo</scope><name>AppLaunchCount</name></member>
+      <member refid="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1a500c98371b869a0369f35305ef662099" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppControllerStateInfo</scope><name>DeserializeDateTime</name></member>
+      <member refid="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1a92c6b1cf703f9e064f5efc0907f80379" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppControllerStateInfo</scope><name>IsActive</name></member>
+      <member refid="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1ac8c82d565e6a78295c1a16f55253de69" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppControllerStateInfo</scope><name>m_appLaunchCount</name></member>
+      <member refid="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1ad05ecd05ddd56e529164d6561389ef70" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppControllerStateInfo</scope><name>m_isActive</name></member>
+      <member refid="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1ac74537a7f1e64fa7272a3a94ea88b1e2" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppControllerStateInfo</scope><name>m_promptCount</name></member>
+      <member refid="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1a62a6f9dcbdf265114ad31e622008ec1f" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppControllerStateInfo</scope><name>m_promptLastShown</name></member>
+      <member refid="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1ae29d1c57da9bb49112ce7f2fcc95e19f" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppControllerStateInfo</scope><name>m_versionLastRated</name></member>
+      <member refid="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1a95feb8ae60631c132106a00015d7db78" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppControllerStateInfo</scope><name>PromptCount</name></member>
+      <member refid="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1ad3a4c02194eb054422733e798d8f5c7f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppControllerStateInfo</scope><name>PromptLastShown</name></member>
+      <member refid="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1adb27c6e6a5dc98897cdafbbf722bd106" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppControllerStateInfo</scope><name>RateMyAppControllerStateInfo</name></member>
+      <member refid="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1a3c0caa864eed99a1b420bfab81be5935" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppControllerStateInfo</scope><name>SerializeDateTime</name></member>
+      <member refid="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info_1a8190024a20210a8018b33ebde6a7c35b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppControllerStateInfo</scope><name>VersionLastRated</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

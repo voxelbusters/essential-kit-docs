@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d0/d9d/class_voxel_busters_1_1_essential_kit_1_1_billing_transaction_android_properties" kind="class" language="C#" prot="public" sealed="yes">
+    <compoundname>VoxelBusters::EssentialKit::BillingTransactionAndroidProperties</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d0/d9d/class_voxel_busters_1_1_essential_kit_1_1_billing_transaction_android_properties_1acc1f79ea1e0e28dfd4fadd55ec9f4179" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string PurchaseData</definition>
+        <argsstring></argsstring>
+        <name>PurchaseData</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingTransactionAndroidProperties.PurchaseData</qualifiedname>
+        <briefdescription>
+<para>Json string data that is received from google billing servers post purchase and is equal to INAPP_PURCHASE_DATA. This is useful for server verification. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionAndroidProperties.cs" line="14" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionAndroidProperties.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="d0/d9d/class_voxel_busters_1_1_essential_kit_1_1_billing_transaction_android_properties_1ab1a27bc669d041fe23ec05792737849f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Signature</definition>
+        <argsstring></argsstring>
+        <name>Signature</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingTransactionAndroidProperties.Signature</qualifiedname>
+        <briefdescription>
+<para>Signature of the purchase made and is equal to INAPP_DATA_SIGNATURE useful for validating a purchase. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionAndroidProperties.cs" line="19" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionAndroidProperties.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d9d/class_voxel_busters_1_1_essential_kit_1_1_billing_transaction_android_properties_1a708023a45b042f41ce49a499769fa701" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BillingTransactionAndroidProperties</definition>
+        <argsstring>(string purchaseData, string signature)</argsstring>
+        <name>BillingTransactionAndroidProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingTransactionAndroidProperties.BillingTransactionAndroidProperties</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>purchaseData</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>signature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionAndroidProperties.cs" line="25" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionAndroidProperties.cs" bodystart="25" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionAndroidProperties.cs" line="7" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionAndroidProperties.cs" bodystart="8" bodyend="33"/>
+    <listofallmembers>
+      <member refid="d0/d9d/class_voxel_busters_1_1_essential_kit_1_1_billing_transaction_android_properties_1a708023a45b042f41ce49a499769fa701" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingTransactionAndroidProperties</scope><name>BillingTransactionAndroidProperties</name></member>
+      <member refid="d0/d9d/class_voxel_busters_1_1_essential_kit_1_1_billing_transaction_android_properties_1acc1f79ea1e0e28dfd4fadd55ec9f4179" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingTransactionAndroidProperties</scope><name>PurchaseData</name></member>
+      <member refid="d0/d9d/class_voxel_busters_1_1_essential_kit_1_1_billing_transaction_android_properties_1ab1a27bc669d041fe23ec05792737849f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingTransactionAndroidProperties</scope><name>Signature</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

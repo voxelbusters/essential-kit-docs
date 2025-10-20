@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::NativeFeatureType</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1aad31f10aca2ba79a5d8b51dc39e366ba" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kAddressBook</definition>
+        <argsstring></argsstring>
+        <name>kAddressBook</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureType.kAddressBook</qualifiedname>
+        <initializer>= &quot;AddressBook&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" line="12" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1ad34745e2697d743ffa1d0e8cccbdf957" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kAppShortcuts</definition>
+        <argsstring></argsstring>
+        <name>kAppShortcuts</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureType.kAppShortcuts</qualifiedname>
+        <initializer>= &quot;AppShortcuts&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" line="14" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a4bad737bcc5e572e5e02c90cf946281d" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kAppUpdater</definition>
+        <argsstring></argsstring>
+        <name>kAppUpdater</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureType.kAppUpdater</qualifiedname>
+        <initializer>= &quot;AppUpdater&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" line="16" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a81557a9a7d2aa9f1c24b3fb0a60df04d" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kBillingServices</definition>
+        <argsstring></argsstring>
+        <name>kBillingServices</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureType.kBillingServices</qualifiedname>
+        <initializer>= &quot;BillingServices&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" line="18" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a36ae60782e378add36b312eb1da1c310" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kCloudServices</definition>
+        <argsstring></argsstring>
+        <name>kCloudServices</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureType.kCloudServices</qualifiedname>
+        <initializer>= &quot;CloudServices&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" line="20" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a521d7cbb2bffaa2515c4875a9c864b83" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kDeepLinkServices</definition>
+        <argsstring></argsstring>
+        <name>kDeepLinkServices</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureType.kDeepLinkServices</qualifiedname>
+        <initializer>= &quot;DeepLinkServices&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" line="22" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a395f5739286dedb976a2c7d69b1e75e9" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kExtras</definition>
+        <argsstring></argsstring>
+        <name>kExtras</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureType.kExtras</qualifiedname>
+        <initializer>= &quot;Extras&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" line="24" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a199a7836b9aab1c0546bcc5b2d35902b" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kGameServices</definition>
+        <argsstring></argsstring>
+        <name>kGameServices</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureType.kGameServices</qualifiedname>
+        <initializer>= &quot;GameServices&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" line="26" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a3ecbf5babfe086755f47bfeabbc34832" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kMediaServices</definition>
+        <argsstring></argsstring>
+        <name>kMediaServices</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureType.kMediaServices</qualifiedname>
+        <initializer>= &quot;MediaServices&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" line="28" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a00a09ff8e0210e703fa708b050eaf5a4" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kNativeUI</definition>
+        <argsstring></argsstring>
+        <name>kNativeUI</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureType.kNativeUI</qualifiedname>
+        <initializer>= &quot;NativeUI&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" line="30" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a723416fe4c9f5d1a254fd42421b1ca01" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kNetworkServices</definition>
+        <argsstring></argsstring>
+        <name>kNetworkServices</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureType.kNetworkServices</qualifiedname>
+        <initializer>= &quot;NetworkServices&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" line="32" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1ad89c99faac0672839154f748659edcc7" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kNotificationServices</definition>
+        <argsstring></argsstring>
+        <name>kNotificationServices</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureType.kNotificationServices</qualifiedname>
+        <initializer>= &quot;NotificationServices&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" line="34" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a23ad8e99e1917b5b963acde1f57032ec" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kRateMyApp</definition>
+        <argsstring></argsstring>
+        <name>kRateMyApp</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureType.kRateMyApp</qualifiedname>
+        <initializer>= &quot;RateMyApp&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" line="36" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a12eae23e63ed11261d59222bc0a64c74" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kSharingServices</definition>
+        <argsstring></argsstring>
+        <name>kSharingServices</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureType.kSharingServices</qualifiedname>
+        <initializer>= &quot;SharingServices&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" line="38" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a582b29bcb99719b3c5915d16310f193d" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kTaskServices</definition>
+        <argsstring></argsstring>
+        <name>kTaskServices</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureType.kTaskServices</qualifiedname>
+        <initializer>= &quot;TaskServices&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" line="40" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a5fbf4bca8f45b80f2d1161e943da0265" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kWebView</definition>
+        <argsstring></argsstring>
+        <name>kWebView</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureType.kWebView</qualifiedname>
+        <initializer>= &quot;WebView&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" line="42" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" line="7" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureType.cs" bodystart="8" bodyend="44"/>
+    <listofallmembers>
+      <member refid="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1aad31f10aca2ba79a5d8b51dc39e366ba" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureType</scope><name>kAddressBook</name></member>
+      <member refid="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1ad34745e2697d743ffa1d0e8cccbdf957" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureType</scope><name>kAppShortcuts</name></member>
+      <member refid="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a4bad737bcc5e572e5e02c90cf946281d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureType</scope><name>kAppUpdater</name></member>
+      <member refid="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a81557a9a7d2aa9f1c24b3fb0a60df04d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureType</scope><name>kBillingServices</name></member>
+      <member refid="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a36ae60782e378add36b312eb1da1c310" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureType</scope><name>kCloudServices</name></member>
+      <member refid="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a521d7cbb2bffaa2515c4875a9c864b83" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureType</scope><name>kDeepLinkServices</name></member>
+      <member refid="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a395f5739286dedb976a2c7d69b1e75e9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureType</scope><name>kExtras</name></member>
+      <member refid="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a199a7836b9aab1c0546bcc5b2d35902b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureType</scope><name>kGameServices</name></member>
+      <member refid="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a3ecbf5babfe086755f47bfeabbc34832" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureType</scope><name>kMediaServices</name></member>
+      <member refid="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a00a09ff8e0210e703fa708b050eaf5a4" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureType</scope><name>kNativeUI</name></member>
+      <member refid="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a723416fe4c9f5d1a254fd42421b1ca01" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureType</scope><name>kNetworkServices</name></member>
+      <member refid="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1ad89c99faac0672839154f748659edcc7" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureType</scope><name>kNotificationServices</name></member>
+      <member refid="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a23ad8e99e1917b5b963acde1f57032ec" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureType</scope><name>kRateMyApp</name></member>
+      <member refid="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a12eae23e63ed11261d59222bc0a64c74" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureType</scope><name>kSharingServices</name></member>
+      <member refid="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a582b29bcb99719b3c5915d16310f193d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureType</scope><name>kTaskServices</name></member>
+      <member refid="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type_1a5fbf4bca8f45b80f2d1161e943da0265" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureType</scope><name>kWebView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

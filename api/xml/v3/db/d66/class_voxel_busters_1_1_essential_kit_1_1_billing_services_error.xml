@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::BillingServicesError</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1a2ce8aded798d92d44580ceaefabf2d82" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kDomain</definition>
+        <argsstring></argsstring>
+        <name>kDomain</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesError.kDomain</qualifiedname>
+        <initializer>= &quot;[Essential Kit] Billing Services&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesError.cs" line="9" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesError.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1a25d6f9257e8b8e1aa55898430f23d35b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error Unknown</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>Unknown</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesError.Unknown</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesError.cs" line="15" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1aedb72d932ff1bc465b7ce5de27df7793" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error NetworkError</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>NetworkError</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesError.NetworkError</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesError.cs" line="20" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1a4bf311a95e78eb7b14d2963f1897183f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error SystemError</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>SystemError</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesError.SystemError</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesError.cs" line="25" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1aa6a15ff22e47d0e54668449db16fbda0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error StoreNotInitialized</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>StoreNotInitialized</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesError.StoreNotInitialized</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesError.cs" line="30" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1a60972f9e004b5392ee1db0fa624fc68b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error StoreIsBusy</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>StoreIsBusy</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesError.StoreIsBusy</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesError.cs" line="35" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1ae8a9178036c57067990882d89ede5e79" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error UserCancelled</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>UserCancelled</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesError.UserCancelled</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesError.cs" line="40" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1ae2d8f34cab97210e18a589da1de489e5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error OfferNotApplicable</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>OfferNotApplicable</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesError.OfferNotApplicable</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesError.cs" line="45" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1a85b0698471f53b6991fa74b51cd85157" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error OfferNotValid</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>OfferNotValid</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesError.OfferNotValid</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesError.cs" line="50" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1ae729728eeb6eaf4893d24081f62c2a52" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error QuantityNotValid</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>QuantityNotValid</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesError.QuantityNotValid</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesError.cs" line="55" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1aa914edda5a7cad9adb22ce09815d1c93" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error ProductNotAvailable</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>ProductNotAvailable</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesError.ProductNotAvailable</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesError.cs" line="60" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1ab5f28a844a7b0ba403cb71040cf25c53" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error ProductOwned</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>ProductOwned</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesError.ProductOwned</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesError.cs" line="65" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1ab66044d797e9483cdac2ec8894bdfe8d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error FeatureNotAvailable</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>FeatureNotAvailable</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesError.FeatureNotAvailable</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesError.cs" line="70" column="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1a1f4966d82f43a08da1cdddb4a786ace8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error CreateError</definition>
+        <argsstring>(int code, string description)</argsstring>
+        <name>CreateError</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesError.CreateError</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesError.cs" line="79" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesError.cs" line="5" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesError.cs" bodystart="6" bodyend="85"/>
+    <listofallmembers>
+      <member refid="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1a1f4966d82f43a08da1cdddb4a786ace8" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesError</scope><name>CreateError</name></member>
+      <member refid="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1ab66044d797e9483cdac2ec8894bdfe8d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesError</scope><name>FeatureNotAvailable</name></member>
+      <member refid="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1a2ce8aded798d92d44580ceaefabf2d82" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesError</scope><name>kDomain</name></member>
+      <member refid="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1aedb72d932ff1bc465b7ce5de27df7793" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesError</scope><name>NetworkError</name></member>
+      <member refid="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1ae2d8f34cab97210e18a589da1de489e5" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesError</scope><name>OfferNotApplicable</name></member>
+      <member refid="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1a85b0698471f53b6991fa74b51cd85157" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesError</scope><name>OfferNotValid</name></member>
+      <member refid="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1aa914edda5a7cad9adb22ce09815d1c93" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesError</scope><name>ProductNotAvailable</name></member>
+      <member refid="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1ab5f28a844a7b0ba403cb71040cf25c53" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesError</scope><name>ProductOwned</name></member>
+      <member refid="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1ae729728eeb6eaf4893d24081f62c2a52" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesError</scope><name>QuantityNotValid</name></member>
+      <member refid="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1a60972f9e004b5392ee1db0fa624fc68b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesError</scope><name>StoreIsBusy</name></member>
+      <member refid="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1aa6a15ff22e47d0e54668449db16fbda0" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesError</scope><name>StoreNotInitialized</name></member>
+      <member refid="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1a4bf311a95e78eb7b14d2963f1897183f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesError</scope><name>SystemError</name></member>
+      <member refid="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1a25d6f9257e8b8e1aa55898430f23d35b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesError</scope><name>Unknown</name></member>
+      <member refid="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error_1ae8a9178036c57067990882d89ede5e79" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesError</scope><name>UserCancelled</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

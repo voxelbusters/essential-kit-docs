@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/dec/group___address_book" kind="group">
+    <compoundname>AddressBook</compoundname>
+    <title>AddressBook</title>
+    <innerclass refid="da/db1/class_voxel_busters_1_1_essential_kit_1_1_address_book" prot="public">VoxelBusters::EssentialKit::AddressBook</innerclass>
+    <innerclass refid="d6/de4/class_voxel_busters_1_1_essential_kit_1_1_address_book_read_contacts_result" prot="public">VoxelBusters::EssentialKit::AddressBookReadContactsResult</innerclass>
+    <innerclass refid="db/d1b/class_voxel_busters_1_1_essential_kit_1_1_address_book_request_contacts_access_result" prot="public">VoxelBusters::EssentialKit::AddressBookRequestContactsAccessResult</innerclass>
+    <innerclass refid="d4/d51/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contact" prot="public">VoxelBusters::EssentialKit::IAddressBookContact</innerclass>
+    <innerclass refid="d8/d39/class_voxel_busters_1_1_essential_kit_1_1_read_contacts_options" prot="public">VoxelBusters::EssentialKit::ReadContactsOptions</innerclass>
+    <briefdescription>
+<para>Provides cross-platform interface to access the contact information. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

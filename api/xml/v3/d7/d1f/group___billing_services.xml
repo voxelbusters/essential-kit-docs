@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d7/d1f/group___billing_services" kind="group">
+    <compoundname>BillingServices</compoundname>
+    <title>BillingServices</title>
+    <innerclass refid="d3/d4a/class_voxel_busters_1_1_essential_kit_1_1_billing_period" prot="public">VoxelBusters::EssentialKit::BillingPeriod</innerclass>
+    <innerclass refid="df/df5/class_voxel_busters_1_1_essential_kit_1_1_billing_price" prot="public">VoxelBusters::EssentialKit::BillingPrice</innerclass>
+    <innerclass refid="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition" prot="public">VoxelBusters::EssentialKit::BillingProductDefinition</innerclass>
+    <innerclass refid="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer" prot="public">VoxelBusters::EssentialKit::BillingProductOffer</innerclass>
+    <innerclass refid="d3/dd9/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_pricing_phase" prot="public">VoxelBusters::EssentialKit::BillingProductOfferPricingPhase</innerclass>
+    <innerclass refid="d6/ddd/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details" prot="public">VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails</innerclass>
+    <innerclass refid="d7/d25/class_voxel_busters_1_1_essential_kit_1_1_billing_product_payout_definition" prot="public">VoxelBusters::EssentialKit::BillingProductPayoutDefinition</innerclass>
+    <innerclass refid="de/d7f/class_voxel_busters_1_1_essential_kit_1_1_billing_product_revocation_info" prot="public">VoxelBusters::EssentialKit::BillingProductRevocationInfo</innerclass>
+    <innerclass refid="df/d2b/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_info" prot="public">VoxelBusters::EssentialKit::BillingProductSubscriptionInfo</innerclass>
+    <innerclass refid="dd/d36/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_renewal_info" prot="public">VoxelBusters::EssentialKit::BillingProductSubscriptionRenewalInfo</innerclass>
+    <innerclass refid="d7/d56/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_status" prot="public">VoxelBusters::EssentialKit::BillingProductSubscriptionStatus</innerclass>
+    <innerclass refid="d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services" prot="public">VoxelBusters::EssentialKit::BillingServices</innerclass>
+    <innerclass refid="d6/dd4/class_voxel_busters_1_1_essential_kit_1_1_billing_services_initialize_store_result" prot="public">VoxelBusters::EssentialKit::BillingServicesInitializeStoreResult</innerclass>
+    <innerclass refid="dc/d81/class_voxel_busters_1_1_essential_kit_1_1_billing_services_restore_purchases_result" prot="public">VoxelBusters::EssentialKit::BillingServicesRestorePurchasesResult</innerclass>
+    <innerclass refid="dd/dc2/class_voxel_busters_1_1_essential_kit_1_1_billing_services_transaction_state_change_result" prot="public">VoxelBusters::EssentialKit::BillingServicesTransactionStateChangeResult</innerclass>
+    <innerclass refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options" prot="public">VoxelBusters::EssentialKit::BuyProductOptions</innerclass>
+    <innerclass refid="d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product" prot="public">VoxelBusters::EssentialKit::IBillingProduct</innerclass>
+    <innerclass refid="da/d96/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_transaction" prot="public">VoxelBusters::EssentialKit::IBillingTransaction</innerclass>
+    <briefdescription>
+<para>Provides cross-platform interface to request payment from a user for additional functionality or content that your application delivers. <linebreak/>
+ </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

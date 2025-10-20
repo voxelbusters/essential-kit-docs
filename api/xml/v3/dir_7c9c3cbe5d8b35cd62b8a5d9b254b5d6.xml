@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_7c9c3cbe5d8b35cd62b8a5d9b254b5d6" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc</compoundname>
+    <innerfile refid="d1/d2e/_assert_8cs">Assert.cs</innerfile>
+    <innerfile refid="d6/dda/_debug_logger_8cs">DebugLogger.cs</innerfile>
+    <innerfile refid="de/d67/_list_pool_02_t_03_8cs">ListPool{T}.cs</innerfile>
+    <innerfile refid="da/d02/_manual_player_loop_system_8cs">ManualPlayerLoopSystem.cs</innerfile>
+    <innerfile refid="db/d6e/_object_pool_02_t_03_8cs">ObjectPool{T}.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/"/>
+  </compounddef>
+</doxygen>

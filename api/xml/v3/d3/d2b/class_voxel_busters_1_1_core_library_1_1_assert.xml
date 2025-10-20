@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::Assert</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert_1abf47d7ee90982f770f76d160443a6aa4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IsNotNull</definition>
+        <argsstring>(object obj, string message)</argsstring>
+        <name>IsNotNull</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.Assert.IsNotNull</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" line="11" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" bodystart="11" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert_1ae34fe9dc0fc9fa7f85b9c35057fcdcd3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IsNull</definition>
+        <argsstring>(object obj, string message)</argsstring>
+        <name>IsNull</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.Assert.IsNull</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" line="19" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" bodystart="19" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert_1a66023d4ccd58b1dfa25cbf0f08f2eab0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IsPropertyNotNull</definition>
+        <argsstring>(object obj, string property)</argsstring>
+        <name>IsPropertyNotNull</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.Assert.IsPropertyNotNull</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" line="27" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" bodystart="27" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert_1a0f870a3f8393dac9327a9d9c0c9ed97e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IsArgNotNull</definition>
+        <argsstring>(object obj, string argName)</argsstring>
+        <name>IsArgNotNull</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.Assert.IsArgNotNull</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>argName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" line="35" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" bodystart="35" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert_1a9f3a88ec3617d35022dc4704dc2d0a76" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AreNotEqual</definition>
+        <argsstring>(object obj1, object obj2, string message)</argsstring>
+        <name>AreNotEqual</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.Assert.AreNotEqual</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>obj1</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>obj2</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" line="43" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" bodystart="43" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert_1ab07e0c364cd2d21e60cfd0747c8e2dfe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AreNotEqual&lt; T &gt;</definition>
+        <argsstring>(T value, T target, string message)</argsstring>
+        <name>AreNotEqual&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.Assert.AreNotEqual&lt; T &gt;</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" line="51" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" bodystart="51" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert_1a76b20e57182061ccc0a7ee43fbaea179" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AreEqual&lt; T &gt;</definition>
+        <argsstring>(T value, T target, string message)</argsstring>
+        <name>AreEqual&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.Assert.AreEqual&lt; T &gt;</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" line="59" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" bodystart="59" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert_1a13e11af548cecadb1074f25ef8cdc919" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IsTrue</definition>
+        <argsstring>(bool status, string message)</argsstring>
+        <name>IsTrue</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.Assert.IsTrue</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>status</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" line="67" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" bodystart="67" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert_1abd1d2fbf493404b10ae3ddd678be49fb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IsFalse</definition>
+        <argsstring>(bool status, string message)</argsstring>
+        <name>IsFalse</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.Assert.IsFalse</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>status</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" line="75" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" bodystart="75" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert_1ade9c245f968328dcbd440c738a06d0fa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IsNotZero</definition>
+        <argsstring>(int value, string message)</argsstring>
+        <name>IsNotZero</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.Assert.IsNotZero</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" line="83" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" bodystart="83" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert_1a321d64b96bb1441144e243d81b45314c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IsNotNullOrEmpty</definition>
+        <argsstring>(string value, string message)</argsstring>
+        <name>IsNotNullOrEmpty</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.Assert.IsNotNullOrEmpty</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" line="88" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" bodystart="88" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert_1ac3603e7a016fb830fcbe58e4f382d563" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void IsNotNullOrEmpty&lt; T &gt;</definition>
+        <argsstring>(T[] array, string name)</argsstring>
+        <name>IsNotNullOrEmpty&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.Assert.IsNotNullOrEmpty&lt; T &gt;</qualifiedname>
+        <param>
+          <type>T[]</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" line="93" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" bodystart="93" bodyend="103"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" line="7" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/Assert.cs" bodystart="8" bodyend="106"/>
+    <listofallmembers>
+      <member refid="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert_1a76b20e57182061ccc0a7ee43fbaea179" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::Assert</scope><name>AreEqual&lt; T &gt;</name></member>
+      <member refid="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert_1a9f3a88ec3617d35022dc4704dc2d0a76" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::Assert</scope><name>AreNotEqual</name></member>
+      <member refid="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert_1ab07e0c364cd2d21e60cfd0747c8e2dfe" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::Assert</scope><name>AreNotEqual&lt; T &gt;</name></member>
+      <member refid="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert_1a0f870a3f8393dac9327a9d9c0c9ed97e" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::Assert</scope><name>IsArgNotNull</name></member>
+      <member refid="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert_1abd1d2fbf493404b10ae3ddd678be49fb" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::Assert</scope><name>IsFalse</name></member>
+      <member refid="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert_1abf47d7ee90982f770f76d160443a6aa4" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::Assert</scope><name>IsNotNull</name></member>
+      <member refid="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert_1a321d64b96bb1441144e243d81b45314c" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::Assert</scope><name>IsNotNullOrEmpty</name></member>
+      <member refid="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert_1ac3603e7a016fb830fcbe58e4f382d563" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::Assert</scope><name>IsNotNullOrEmpty&lt; T &gt;</name></member>
+      <member refid="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert_1ade9c245f968328dcbd440c738a06d0fa" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::Assert</scope><name>IsNotZero</name></member>
+      <member refid="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert_1ae34fe9dc0fc9fa7f85b9c35057fcdcd3" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::Assert</scope><name>IsNull</name></member>
+      <member refid="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert_1a66023d4ccd58b1dfa25cbf0f08f2eab0" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::Assert</scope><name>IsPropertyNotNull</name></member>
+      <member refid="d3/d2b/class_voxel_busters_1_1_core_library_1_1_assert_1a13e11af548cecadb1074f25ef8cdc919" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::Assert</scope><name>IsTrue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

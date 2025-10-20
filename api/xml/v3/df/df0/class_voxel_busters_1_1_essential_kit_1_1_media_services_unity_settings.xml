@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::MediaServicesUnitySettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SettingsPropertyGroup</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings_1a74d5d6c5840c8933d53916746d6fb595" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_usesCameraForImageCapture</definition>
+        <argsstring></argsstring>
+        <name>m_usesCameraForImageCapture</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesUnitySettings.m_usesCameraForImageCapture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/MediaServicesUnitySettings.cs" line="18" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/MediaServicesUnitySettings.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings_1ac7d93bfb734bee2d189c12ac0cee05c0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_usesCameraForVideoCapture</definition>
+        <argsstring></argsstring>
+        <name>m_usesCameraForVideoCapture</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesUnitySettings.m_usesCameraForVideoCapture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/MediaServicesUnitySettings.cs" line="22" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/MediaServicesUnitySettings.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings_1a61d9491165bd4f76feb9cb6030381558" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_savesFilesToPhotoGallery</definition>
+        <argsstring></argsstring>
+        <name>m_savesFilesToPhotoGallery</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesUnitySettings.m_savesFilesToPhotoGallery</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/MediaServicesUnitySettings.cs" line="29" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/MediaServicesUnitySettings.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings_1a9a11e928ce2a76ba9576887e4793ffc8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_savesFilesToCustomDirectories</definition>
+        <argsstring></argsstring>
+        <name>m_savesFilesToCustomDirectories</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesUnitySettings.m_savesFilesToCustomDirectories</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/MediaServicesUnitySettings.cs" line="33" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/MediaServicesUnitySettings.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings_1af5206628b973b362f183a2c2972d9d12" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool UsesCameraForImageCapture</definition>
+        <argsstring></argsstring>
+        <name>UsesCameraForImageCapture</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesUnitySettings.UsesCameraForImageCapture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/MediaServicesUnitySettings.cs" line="39" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/MediaServicesUnitySettings.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings_1adb951863a29d2411b31b4201ea852e5e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool UsesCameraForVideoCapture</definition>
+        <argsstring></argsstring>
+        <name>UsesCameraForVideoCapture</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesUnitySettings.UsesCameraForVideoCapture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/MediaServicesUnitySettings.cs" line="40" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/MediaServicesUnitySettings.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings_1abf52fc2c810d3c9305ee39f645146377" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool SavesFilesToPhotoGallery</definition>
+        <argsstring></argsstring>
+        <name>SavesFilesToPhotoGallery</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesUnitySettings.SavesFilesToPhotoGallery</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/MediaServicesUnitySettings.cs" line="42" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/MediaServicesUnitySettings.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings_1a599d40578c11404fda4fa0bc1686b577" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool SavesFilesToCustomDirectories</definition>
+        <argsstring></argsstring>
+        <name>SavesFilesToCustomDirectories</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesUnitySettings.SavesFilesToCustomDirectories</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/MediaServicesUnitySettings.cs" line="44" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/MediaServicesUnitySettings.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings_1ab0a6bcb5f17ea9ddf3ed62d982944959" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaServicesUnitySettings</definition>
+        <argsstring>(bool isEnabled=true, bool usesCameraForImageCapture=true, bool usesCameraForVideoCapture=false, bool savesFilesToGallery=true, bool savesFilesToCustomAlbums=true)</argsstring>
+        <name>MediaServicesUnitySettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesUnitySettings.MediaServicesUnitySettings</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isEnabled</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>usesCameraForImageCapture</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>usesCameraForVideoCapture</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>savesFilesToGallery</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>savesFilesToCustomAlbums</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/MediaServicesUnitySettings.cs" line="50" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/MediaServicesUnitySettings.cs" bodystart="50" bodyend="59"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/MediaServicesUnitySettings.cs" line="11" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/MediaServicesUnitySettings.cs" bodystart="12" bodyend="62"/>
+    <listofallmembers>
+      <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1a45f8df3acbb2721c2df8462f1cd8f14b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesUnitySettings</scope><name>IsEnabled</name></member>
+      <member refid="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings_1a9a11e928ce2a76ba9576887e4793ffc8" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesUnitySettings</scope><name>m_savesFilesToCustomDirectories</name></member>
+      <member refid="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings_1a61d9491165bd4f76feb9cb6030381558" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesUnitySettings</scope><name>m_savesFilesToPhotoGallery</name></member>
+      <member refid="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings_1a74d5d6c5840c8933d53916746d6fb595" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesUnitySettings</scope><name>m_usesCameraForImageCapture</name></member>
+      <member refid="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings_1ac7d93bfb734bee2d189c12ac0cee05c0" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesUnitySettings</scope><name>m_usesCameraForVideoCapture</name></member>
+      <member refid="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings_1ab0a6bcb5f17ea9ddf3ed62d982944959" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesUnitySettings</scope><name>MediaServicesUnitySettings</name></member>
+      <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1a7ee9065718e6628dc7791b756fa6c0f9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesUnitySettings</scope><name>Name</name></member>
+      <member refid="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings_1a599d40578c11404fda4fa0bc1686b577" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesUnitySettings</scope><name>SavesFilesToCustomDirectories</name></member>
+      <member refid="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings_1abf52fc2c810d3c9305ee39f645146377" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesUnitySettings</scope><name>SavesFilesToPhotoGallery</name></member>
+      <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1ac9b0727cd904077f21637b8cbe0b139d" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesUnitySettings</scope><name>SettingsPropertyGroup</name></member>
+      <member refid="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings_1af5206628b973b362f183a2c2972d9d12" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesUnitySettings</scope><name>UsesCameraForImageCapture</name></member>
+      <member refid="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings_1adb951863a29d2411b31b4201ea852e5e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesUnitySettings</scope><name>UsesCameraForVideoCapture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

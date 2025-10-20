@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/d40/group___sharing_services" kind="group">
+    <compoundname>SharingServices</compoundname>
+    <title>Sharing Services</title>
+    <innerclass refid="d4/dc9/class_voxel_busters_1_1_essential_kit_1_1_mail_composer" prot="public">VoxelBusters::EssentialKit::MailComposer</innerclass>
+    <innerclass refid="d4/d58/class_voxel_busters_1_1_essential_kit_1_1_mail_composer_result" prot="public">VoxelBusters::EssentialKit::MailComposerResult</innerclass>
+    <innerclass refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer" prot="public">VoxelBusters::EssentialKit::MessageComposer</innerclass>
+    <innerclass refid="d7/d02/class_voxel_busters_1_1_essential_kit_1_1_message_composer_result" prot="public">VoxelBusters::EssentialKit::MessageComposerResult</innerclass>
+    <innerclass refid="d8/d32/class_voxel_busters_1_1_essential_kit_1_1_share_item" prot="public">VoxelBusters::EssentialKit::ShareItem</innerclass>
+    <innerclass refid="d3/d77/class_voxel_busters_1_1_essential_kit_1_1_share_sheet" prot="public">VoxelBusters::EssentialKit::ShareSheet</innerclass>
+    <innerclass refid="d3/d86/class_voxel_busters_1_1_essential_kit_1_1_share_sheet_result" prot="public">VoxelBusters::EssentialKit::ShareSheetResult</innerclass>
+    <innerclass refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services" prot="public">VoxelBusters::EssentialKit::SharingServices</innerclass>
+    <innerclass refid="df/d49/class_voxel_busters_1_1_essential_kit_1_1_social_share_composer" prot="public">VoxelBusters::EssentialKit::SocialShareComposer</innerclass>
+    <innerclass refid="d9/d6e/class_voxel_busters_1_1_essential_kit_1_1_social_share_composer_result" prot="public">VoxelBusters::EssentialKit::SocialShareComposerResult</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="d9/d40/group___sharing_services_1ga80527fbff6347e8d1acb9ec527c72afd" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ShareSheetResultCode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ShareSheetResultCode</qualifiedname>
+        <enumvalue id="d9/d40/group___sharing_services_1gga80527fbff6347e8d1acb9ec527c72afda88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>The user action could not be determined. This occurs in platforms where there is no provision to find result. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d40/group___sharing_services_1gga80527fbff6347e8d1acb9ec527c72afdaa149e85a44aeec9140e92733d9ed694e" prot="public">
+          <name>Cancelled</name>
+          <briefdescription>
+<para>The user cancelled the operation. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d40/group___sharing_services_1gga80527fbff6347e8d1acb9ec527c72afdaf92965e2c8a7afb3c1b9a5c09a263636" prot="public">
+          <name>Done</name>
+          <briefdescription>
+<para>The user has completed action by selecting one of the service. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Result codes returned when the <ref refid="d3/d77/class_voxel_busters_1_1_essential_kit_1_1_share_sheet" kindref="compound">ShareSheet</ref> interface is dismissed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/ShareSheetResultCode.cs" line="11" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/ShareSheetResultCode.cs" bodystart="12" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Provides a cross-platform interface to access sharing services. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

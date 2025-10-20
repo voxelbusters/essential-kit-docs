@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::LeaderboardDefinition</compoundname>
+    <innerclass refid="df/d2a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1_1_android_platform_properties" prot="public">VoxelBusters::EssentialKit::LeaderboardDefinition::AndroidPlatformProperties</innerclass>
+    <innerclass refid="d2/d9a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1_1_ios_platform_properties" prot="public">VoxelBusters::EssentialKit::LeaderboardDefinition::IosPlatformProperties</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1aaf217350cb1ae633b3b18fbcb7e14b9b" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_id</definition>
+        <argsstring></argsstring>
+        <name>m_id</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardDefinition.m_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.cs" line="20" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1a77679921da34d0fe0d6f8f3e94b4de98" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_platformId</definition>
+        <argsstring></argsstring>
+        <name>m_platformId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardDefinition.m_platformId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.cs" line="23" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1af3b73f6086e61a9465b387709e125fb0" prot="private" static="no" mutable="no">
+        <type>RuntimePlatformConstantSet</type>
+        <definition>RuntimePlatformConstantSet m_platformIdOverrides</definition>
+        <argsstring></argsstring>
+        <name>m_platformIdOverrides</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardDefinition.m_platformIdOverrides</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.cs" line="26" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1a9051e9e6563f1ae490194450f524989a" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_title</definition>
+        <argsstring></argsstring>
+        <name>m_title</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardDefinition.m_title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.cs" line="29" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1a75cde8e55eba608a7c09cbbd8a3b591a" prot="private" static="no" mutable="no">
+        <type>IosPlatformProperties</type>
+        <definition>IosPlatformProperties m_iosProperties</definition>
+        <argsstring></argsstring>
+        <name>m_iosProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardDefinition.m_iosProperties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.cs" line="32" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1a336579bd5fe8d5a6c406adea5f33d141" prot="private" static="no" mutable="no">
+        <type>AndroidPlatformProperties</type>
+        <definition>AndroidPlatformProperties m_androidProperties</definition>
+        <argsstring></argsstring>
+        <name>m_androidProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardDefinition.m_androidProperties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.cs" line="35" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1a186291c875988107b7ace745ea84d4ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardDefinition.Id</qualifiedname>
+        <briefdescription>
+<para>The string that identifies the leaderboard within Unity environment. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.cs" line="44" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1aa7b633091e7820b835d04d0d5fc197c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardDefinition.Title</qualifiedname>
+        <briefdescription>
+<para>The name of the leaderboard. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.cs" line="49" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1ac85bf8879a7bfb347b77062f1f062603" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>IosPlatformProperties</type>
+        <definition>IosPlatformProperties IosProperties</definition>
+        <argsstring></argsstring>
+        <name>IosProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardDefinition.IosProperties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.cs" line="51" column="38" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1a43ee530d504628390660ed6ec9f35a11" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>AndroidPlatformProperties</type>
+        <definition>AndroidPlatformProperties AndroidProperties</definition>
+        <argsstring></argsstring>
+        <name>AndroidProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardDefinition.AndroidProperties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.cs" line="53" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1ac2f78508edd271a3445af5002f1efd60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LeaderboardDefinition</definition>
+        <argsstring>(string id=null, string platformId=null, RuntimePlatformConstantSet platformIdOverrides=null, string title=null, IosPlatformProperties iosProperties=null, AndroidPlatformProperties androidProperties=null)</argsstring>
+        <name>LeaderboardDefinition</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardDefinition.LeaderboardDefinition</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>platformId</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>RuntimePlatformConstantSet</type>
+          <declname>platformIdOverrides</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>IosPlatformProperties</type>
+          <declname>iosProperties</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>AndroidPlatformProperties</type>
+          <declname>androidProperties</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition" kindref="compound">LeaderboardDefinition</ref> with specified properties. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string that identifies the leaderboard within Unity environment.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>platformId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The leaderboard identifier for active platform.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>platformIdOverrides</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The set of platform-specific leaderboard identifiers which overrides <emphasis>platformId</emphasis> .</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the leaderboard.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>iosProperties</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The leaderboard identifier for iOS platform.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>androidProperties</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The leaderboard identifier for Android platform.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.cs" line="68" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.cs" bodystart="68" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1ac93913b0974856cbfcce4b4678f5666f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetPlatformIdForActivePlatform</definition>
+        <argsstring>()</argsstring>
+        <name>GetPlatformIdForActivePlatform</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardDefinition.GetPlatformIdForActivePlatform</qualifiedname>
+        <briefdescription>
+<para>Returns the leaderboard identifier for active platform. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.cs" line="88" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.cs" bodystart="88" bodyend="91"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents an object containing additional information related to game leaderboard. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.AndroidPlatformProperties.cs" line="8" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.IosPlatformProperties.cs" bodystart="9" bodyend="20"/>
+    <listofallmembers>
+      <member refid="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1a43ee530d504628390660ed6ec9f35a11" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardDefinition</scope><name>AndroidProperties</name></member>
+      <member refid="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1ac93913b0974856cbfcce4b4678f5666f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardDefinition</scope><name>GetPlatformIdForActivePlatform</name></member>
+      <member refid="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1a186291c875988107b7ace745ea84d4ec" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardDefinition</scope><name>Id</name></member>
+      <member refid="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1ac85bf8879a7bfb347b77062f1f062603" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardDefinition</scope><name>IosProperties</name></member>
+      <member refid="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1ac2f78508edd271a3445af5002f1efd60" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardDefinition</scope><name>LeaderboardDefinition</name></member>
+      <member refid="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1a336579bd5fe8d5a6c406adea5f33d141" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardDefinition</scope><name>m_androidProperties</name></member>
+      <member refid="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1aaf217350cb1ae633b3b18fbcb7e14b9b" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardDefinition</scope><name>m_id</name></member>
+      <member refid="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1a75cde8e55eba608a7c09cbbd8a3b591a" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardDefinition</scope><name>m_iosProperties</name></member>
+      <member refid="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1a77679921da34d0fe0d6f8f3e94b4de98" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardDefinition</scope><name>m_platformId</name></member>
+      <member refid="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1af3b73f6086e61a9465b387709e125fb0" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardDefinition</scope><name>m_platformIdOverrides</name></member>
+      <member refid="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1a9051e9e6563f1ae490194450f524989a" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardDefinition</scope><name>m_title</name></member>
+      <member refid="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1aa7b633091e7820b835d04d0d5fc197c7" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardDefinition</scope><name>Title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

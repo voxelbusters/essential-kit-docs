@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::ApplicationSettings</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings_1a1699b4187d898f73b72d0ed8a010f23d" prot="private" static="no" mutable="no">
+        <type>DebugLogger.LogLevel</type>
+        <definition>DebugLogger.LogLevel m_logLevel</definition>
+        <argsstring></argsstring>
+        <name>m_logLevel</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ApplicationSettings.m_logLevel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" line="41" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings_1a1a894bfbfd455b7ae43979684e182f94" prot="private" static="no" mutable="no">
+        <type>RuntimePlatformConstantSet</type>
+        <definition>RuntimePlatformConstantSet m_appStoreIds</definition>
+        <argsstring></argsstring>
+        <name>m_appStoreIds</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ApplicationSettings.m_appStoreIds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" line="45" column="44" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings_1a4310078ede50bd4e6d0e1872b4b9f16c" prot="private" static="no" mutable="no">
+        <type>NativeFeatureUsagePermissionSettings</type>
+        <definition>NativeFeatureUsagePermissionSettings m_usagePermissionSettings</definition>
+        <argsstring></argsstring>
+        <name>m_usagePermissionSettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ApplicationSettings.m_usagePermissionSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" line="49" column="54" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings_1a55037f402db77b41b70cfe5bb2530117" prot="private" static="no" mutable="no">
+        <type>AdditionalPlatformSupportSettings</type>
+        <definition>AdditionalPlatformSupportSettings m_additionalPlatformSupportSettings</definition>
+        <argsstring></argsstring>
+        <name>m_additionalPlatformSupportSettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ApplicationSettings.m_additionalPlatformSupportSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" line="53" column="51" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings_1a987df77f2c8be46db1c9dd61ac5bdf1c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>DebugLogger.LogLevel</type>
+        <definition>DebugLogger.LogLevel LogLevel</definition>
+        <argsstring></argsstring>
+        <name>LogLevel</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ApplicationSettings.LogLevel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" line="59" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings_1a0a0b4aaebf1a1f19e59b1907bc333296" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>NativeFeatureUsagePermissionSettings</type>
+        <definition>NativeFeatureUsagePermissionSettings UsagePermissionSettings</definition>
+        <argsstring></argsstring>
+        <name>UsagePermissionSettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ApplicationSettings.UsagePermissionSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" line="61" column="53" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings_1a41f547a9253af8ce52f962d93bbd141c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ApplicationSettings</definition>
+        <argsstring>(RuntimePlatformConstantSet appStoreIds=null, NativeFeatureUsagePermissionSettings usagePermissionSettings=null, DebugLogger.LogLevel logLevel=DebugLogger.LogLevel.Critical, AdditionalPlatformSupportSettings additionalPlatformSupportSettings=null)</argsstring>
+        <name>ApplicationSettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ApplicationSettings.ApplicationSettings</qualifiedname>
+        <param>
+          <type>RuntimePlatformConstantSet</type>
+          <declname>appStoreIds</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>NativeFeatureUsagePermissionSettings</type>
+          <declname>usagePermissionSettings</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>DebugLogger.LogLevel</type>
+          <declname>logLevel</declname>
+          <defval>DebugLogger.LogLevel.Critical</defval>
+        </param>
+        <param>
+          <type>AdditionalPlatformSupportSettings</type>
+          <declname>additionalPlatformSupportSettings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" line="67" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" bodystart="67" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings_1acab20dc7e1b6adbb93b2fd8b13e156ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetAppStoreIdForPlatform</definition>
+        <argsstring>(RuntimePlatform platform)</argsstring>
+        <name>GetAppStoreIdForPlatform</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ApplicationSettings.GetAppStoreIdForPlatform</qualifiedname>
+        <param>
+          <type>RuntimePlatform</type>
+          <declname>platform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" line="81" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" bodystart="81" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings_1a8e77493ff52ad45c8d1ca4f3f25883be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetAppStoreIdForActivePlatform</definition>
+        <argsstring>()</argsstring>
+        <name>GetAppStoreIdForActivePlatform</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ApplicationSettings.GetAppStoreIdForActivePlatform</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" line="86" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings_1aef5266d775f5d06a3303b2125c15f785" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetAppStoreIdForActiveOrSimulationPlatform</definition>
+        <argsstring>()</argsstring>
+        <name>GetAppStoreIdForActiveOrSimulationPlatform</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ApplicationSettings.GetAppStoreIdForActiveOrSimulationPlatform</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" line="91" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings_1a25fc0aafba639ff570730688a807059e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IsAndroidPcSupported</definition>
+        <argsstring>()</argsstring>
+        <name>IsAndroidPcSupported</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ApplicationSettings.IsAndroidPcSupported</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" line="96" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" bodystart="96" bodyend="99"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" line="36" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" bodystart="37" bodyend="102"/>
+    <listofallmembers>
+      <member refid="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings_1a41f547a9253af8ce52f962d93bbd141c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ApplicationSettings</scope><name>ApplicationSettings</name></member>
+      <member refid="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings_1aef5266d775f5d06a3303b2125c15f785" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ApplicationSettings</scope><name>GetAppStoreIdForActiveOrSimulationPlatform</name></member>
+      <member refid="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings_1a8e77493ff52ad45c8d1ca4f3f25883be" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ApplicationSettings</scope><name>GetAppStoreIdForActivePlatform</name></member>
+      <member refid="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings_1acab20dc7e1b6adbb93b2fd8b13e156ef" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ApplicationSettings</scope><name>GetAppStoreIdForPlatform</name></member>
+      <member refid="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings_1a25fc0aafba639ff570730688a807059e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ApplicationSettings</scope><name>IsAndroidPcSupported</name></member>
+      <member refid="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings_1a987df77f2c8be46db1c9dd61ac5bdf1c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ApplicationSettings</scope><name>LogLevel</name></member>
+      <member refid="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings_1a55037f402db77b41b70cfe5bb2530117" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ApplicationSettings</scope><name>m_additionalPlatformSupportSettings</name></member>
+      <member refid="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings_1a1a894bfbfd455b7ae43979684e182f94" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ApplicationSettings</scope><name>m_appStoreIds</name></member>
+      <member refid="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings_1a1699b4187d898f73b72d0ed8a010f23d" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ApplicationSettings</scope><name>m_logLevel</name></member>
+      <member refid="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings_1a4310078ede50bd4e6d0e1872b4b9f16c" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ApplicationSettings</scope><name>m_usagePermissionSettings</name></member>
+      <member refid="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings_1a0a0b4aaebf1a1f19e59b1907bc333296" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ApplicationSettings</scope><name>UsagePermissionSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

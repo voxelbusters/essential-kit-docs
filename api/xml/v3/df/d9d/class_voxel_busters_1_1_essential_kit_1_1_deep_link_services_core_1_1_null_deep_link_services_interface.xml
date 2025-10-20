@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="df/d9d/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_core_1_1_null_deep_link_services_interface" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::DeepLinkServicesCore::NullDeepLinkServicesInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NativeDeepLinkServicesInterfaceBase</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INativeDeepLinkServicesInterface</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d9d/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_core_1_1_null_deep_link_services_interface_1a9fa0750ac458d6ccc4a6306cee47157f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NullDeepLinkServicesInterface</definition>
+        <argsstring>()</argsstring>
+        <name>NullDeepLinkServicesInterface</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkServicesCore.NullDeepLinkServicesInterface.NullDeepLinkServicesInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/NullDeepLinkServicesInterface.cs" line="12" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/NullDeepLinkServicesInterface.cs" bodystart="12" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d9d/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_core_1_1_null_deep_link_services_interface_1a8045e088b31fe0754fb20cb0a5ff0dc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkServicesCore.NullDeepLinkServicesInterface.Init</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/NullDeepLinkServicesInterface.cs" line="20" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/NullDeepLinkServicesInterface.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/NullDeepLinkServicesInterface.cs" line="8" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/NullDeepLinkServicesInterface.cs" bodystart="9" bodyend="26"/>
+    <listofallmembers>
+      <member refid="d8/d17/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_core_1_1_native_deep_link_services_interface_base_1a0ba354bba23c2a9d4e958f708aafd7e0" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkServicesCore::NullDeepLinkServicesInterface</scope><name>CanHandleCustomSchemeUrl</name></member>
+      <member refid="d8/d17/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_core_1_1_native_deep_link_services_interface_base_1ad911d469188a92116b87b4300b2af702" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkServicesCore::NullDeepLinkServicesInterface</scope><name>CanHandleUniversalLink</name></member>
+      <member refid="df/d9d/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_core_1_1_null_deep_link_services_interface_1a8045e088b31fe0754fb20cb0a5ff0dc9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkServicesCore::NullDeepLinkServicesInterface</scope><name>Init</name></member>
+      <member refid="d8/d17/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_core_1_1_native_deep_link_services_interface_base_1adc9df6b8941d9d24eef6eab550173080" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkServicesCore::NullDeepLinkServicesInterface</scope><name>NativeDeepLinkServicesInterfaceBase</name></member>
+      <member refid="df/d9d/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_core_1_1_null_deep_link_services_interface_1a9fa0750ac458d6ccc4a6306cee47157f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkServicesCore::NullDeepLinkServicesInterface</scope><name>NullDeepLinkServicesInterface</name></member>
+      <member refid="d8/d17/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_core_1_1_native_deep_link_services_interface_base_1a9350aa72895c2774200f1c5f46bc8206" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkServicesCore::NullDeepLinkServicesInterface</scope><name>OnCustomSchemeUrlOpen</name></member>
+      <member refid="d8/d17/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_core_1_1_native_deep_link_services_interface_base_1a8eb94858773a28850009ff29d4a88cb2" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkServicesCore::NullDeepLinkServicesInterface</scope><name>OnUniversalLinkOpen</name></member>
+      <member refid="d8/d17/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_core_1_1_native_deep_link_services_interface_base_1a189012855039b3c0fa787b7e0ee467f5" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkServicesCore::NullDeepLinkServicesInterface</scope><name>SendCustomSchemeUrlOpenEvent</name></member>
+      <member refid="d8/d17/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_core_1_1_native_deep_link_services_interface_base_1af7635045809b0610211a8e4ee96062c7" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkServicesCore::NullDeepLinkServicesInterface</scope><name>SendUniversalLinkOpenEvent</name></member>
+      <member refid="d8/d17/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_core_1_1_native_deep_link_services_interface_base_1a4139aa52863163ca0d7fda01e9b781de" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkServicesCore::NullDeepLinkServicesInterface</scope><name>SetCanHandleCustomSchemeUrl</name></member>
+      <member refid="d8/d17/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_core_1_1_native_deep_link_services_interface_base_1a024e85af8330afb0c5032be048697cd8" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkServicesCore::NullDeepLinkServicesInterface</scope><name>SetCanHandleUniversalLink</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::ChainedOperation</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">VoxelBusters::CoreLibrary::AsyncOperation&lt; object &gt;</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1a8096479de57f4cbeaa580ec9393c5b76" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int m_operationCount</definition>
+        <argsstring></argsstring>
+        <name>m_operationCount</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ChainedOperation.m_operationCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" line="11" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1ad52d4e8cf9b5545d9b631c5e265504c6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_abortOnError</definition>
+        <argsstring></argsstring>
+        <name>m_abortOnError</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ChainedOperation.m_abortOnError</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" line="13" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1aa1c3e54743b6427c468059d387e961aa" prot="private" static="no" mutable="no">
+        <type>IAsyncOperation</type>
+        <definition>IAsyncOperation m_activeOperation</definition>
+        <argsstring></argsstring>
+        <name>m_activeOperation</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ChainedOperation.m_activeOperation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" line="15" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1a72330baff3b6d89c95ca01d50a312a96" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int m_activeOperationIndex</definition>
+        <argsstring></argsstring>
+        <name>m_activeOperationIndex</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ChainedOperation.m_activeOperationIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" line="17" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1a3bf45177c83666b34a98d61407cae954" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>IAsyncOperation[]</type>
+        <definition>IAsyncOperation [] Operations</definition>
+        <argsstring></argsstring>
+        <name>Operations</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ChainedOperation.Operations</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" line="23" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1ab5820fc80e0e117a11405d7b2aadbdd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ChainedOperation</definition>
+        <argsstring>(bool abortOnError=false, params IAsyncOperation[] operations)</argsstring>
+        <name>ChainedOperation</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ChainedOperation.ChainedOperation</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>abortOnError</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>params IAsyncOperation[]</type>
+          <declname>operations</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" line="29" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" bodystart="29" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1a298cb68f7f3fb7f40595f4302af4ae25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ChainedOperation.Reset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" line="47" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" bodystart="47" bodyend="58"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1a391480a9619c0448b5e567e2bca0a894" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OnStart</definition>
+        <argsstring>()</argsstring>
+        <name>OnStart</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ChainedOperation.OnStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" line="60" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" bodystart="60" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1a9cb3a79127469ae664cab1e68b0f624f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OnUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>OnUpdate</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ChainedOperation.OnUpdate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" line="68" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" bodystart="68" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1a86ff1a8cbc4455535522b0428344442e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void SetIsCompleted</definition>
+        <argsstring>(object result)</argsstring>
+        <name>SetIsCompleted</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ChainedOperation.SetIsCompleted</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" line="99" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" bodystart="99" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1a9ade6e0aa5e299a9f648ca520856bda3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void SetIsCompleted</definition>
+        <argsstring>(Error error)</argsstring>
+        <name>SetIsCompleted</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ChainedOperation.SetIsCompleted</qualifiedname>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" line="107" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" bodystart="107" bodyend="113"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1ab86d25448dc86f8fabf5b70fcd4f54ce" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool StartOperation</definition>
+        <argsstring>(int index)</argsstring>
+        <name>StartOperation</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ChainedOperation.StartOperation</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" line="119" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" bodystart="119" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1a8525240aba61bab32b576676f470d9f0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UpdateProgress</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateProgress</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ChainedOperation.UpdateProgress</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" line="133" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" bodystart="133" bodyend="144"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" line="7" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/ChainedOperation.cs" bodystart="8" bodyend="147"/>
+    <listofallmembers>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1a12b9283f52eaf7610afe4b04fbca2ff0" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>Abort</name></member>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1ab5dbf3797aebab5f7be841e24bff3d08" prot="protected" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>AsyncOperation</name></member>
+      <member refid="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1ab5820fc80e0e117a11405d7b2aadbdd5" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>ChainedOperation</name></member>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1a2659af8ee1cc7ca00d1fe018036acc10" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>Error</name></member>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1abec26bb991e10a2dfa2b418499274ee1" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>IsDone</name></member>
+      <member refid="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1ad52d4e8cf9b5545d9b631c5e265504c6" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>m_abortOnError</name></member>
+      <member refid="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1aa1c3e54743b6427c468059d387e961aa" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>m_activeOperation</name></member>
+      <member refid="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1a72330baff3b6d89c95ca01d50a312a96" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>m_activeOperationIndex</name></member>
+      <member refid="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1a8096479de57f4cbeaa580ec9393c5b76" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>m_operationCount</name></member>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1a58c390c8c2a0b88f1eb435e6bc23285c" prot="protected" virt="virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>OnAbort</name></member>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1aabe26dac0e3f986530aff869122aa073" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>OnComplete</name></member>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1adc322f0c4ff4c923d2d04dd602d9b503" prot="protected" virt="virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>OnEnd</name></member>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1a121ed979623af7a55623f15b1461326d" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>OnProgress</name></member>
+      <member refid="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1a391480a9619c0448b5e567e2bca0a894" prot="protected" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>OnStart</name></member>
+      <member refid="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1a9cb3a79127469ae664cab1e68b0f624f" prot="protected" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>OnUpdate</name></member>
+      <member refid="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1a3bf45177c83666b34a98d61407cae954" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>Operations</name></member>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1a044696972e1444b38c42de6952a8a18a" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>Progress</name></member>
+      <member refid="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1a298cb68f7f3fb7f40595f4302af4ae25" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>Reset</name></member>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1a2cbe4b9f1691701bd4507eeb63399fb9" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>Result</name></member>
+      <member refid="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1a86ff1a8cbc4455535522b0428344442e" prot="protected" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>SetIsCompleted</name></member>
+      <member refid="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1a9ade6e0aa5e299a9f648ca520856bda3" prot="protected" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>SetIsCompleted</name></member>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1a1c0fbbab8abae22c2312c0459c7d2bc1" prot="protected" virt="virtual" ambiguityscope="VoxelBusters::CoreLibrary::AsyncOperation."><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>SetIsCompleted</name></member>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1a07aaf1227e4d645f15e0a964f54ef291" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>Start</name></member>
+      <member refid="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1ab86d25448dc86f8fabf5b70fcd4f54ce" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>StartOperation</name></member>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1a906e382cb9c5cebd1667fe7cf3973e32" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>Status</name></member>
+      <member refid="db/dcb/class_voxel_busters_1_1_core_library_1_1_chained_operation_1a8525240aba61bab32b576676f470d9f0" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ChainedOperation</scope><name>UpdateProgress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="de/d10/class_voxel_busters_1_1_core_library_1_1_system_assembly_name" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::SystemAssemblyName</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="de/d10/class_voxel_busters_1_1_core_library_1_1_system_assembly_name_1a7bef47cdce3631b700cb4d27e5a2b9ce" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kCSharpFirstPass</definition>
+        <argsstring></argsstring>
+        <name>kCSharpFirstPass</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.SystemAssemblyName.kCSharpFirstPass</qualifiedname>
+        <initializer>= &quot;Assembly-CSharp-firstpass&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="12" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d10/class_voxel_busters_1_1_core_library_1_1_system_assembly_name_1a54d3b2a221988750eb1b25fa36c981bb" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kCSharp</definition>
+        <argsstring></argsstring>
+        <name>kCSharp</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.SystemAssemblyName.kCSharp</qualifiedname>
+        <initializer>= &quot;Assembly-CSharp&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="13" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" line="10" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ReflectionUtility.cs" bodystart="11" bodyend="14"/>
+    <listofallmembers>
+      <member refid="de/d10/class_voxel_busters_1_1_core_library_1_1_system_assembly_name_1a54d3b2a221988750eb1b25fa36c981bb" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::SystemAssemblyName</scope><name>kCSharp</name></member>
+      <member refid="de/d10/class_voxel_busters_1_1_core_library_1_1_system_assembly_name_1a7bef47cdce3631b700cb4d27e5a2b9ce" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::SystemAssemblyName</scope><name>kCSharpFirstPass</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

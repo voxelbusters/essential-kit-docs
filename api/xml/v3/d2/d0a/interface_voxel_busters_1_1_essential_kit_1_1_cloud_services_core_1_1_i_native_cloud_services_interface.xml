@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::CloudServicesCore::INativeCloudServicesInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">INativeFeatureInterface</basecompoundref>
+    <derivedcompoundref refid="db/dad/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_native_cloud_services_interface_base" prot="public" virt="non-virtual">NativeCloudServicesInterfaceBase</derivedcompoundref>
+    <derivedcompoundref refid="d3/d0e/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_null_cloud_services_interface" prot="public" virt="non-virtual">NullCloudServicesInterface</derivedcompoundref>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1a6a386fdb58803718ff8014f75b615f9b" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>UserChangeInternalCallback</type>
+        <definition>UserChangeInternalCallback OnUserChange</definition>
+        <argsstring></argsstring>
+        <name>OnUserChange</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesCore.INativeCloudServicesInterface.OnUserChange</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/INativeCloudServicesInterface.cs" line="13" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/INativeCloudServicesInterface.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1acff1936452e664d7978409172bf3b1d2" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>SavedDataChangeInternalCallback</type>
+        <definition>SavedDataChangeInternalCallback OnSavedDataChange</definition>
+        <argsstring></argsstring>
+        <name>OnSavedDataChange</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesCore.INativeCloudServicesInterface.OnSavedDataChange</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/INativeCloudServicesInterface.cs" line="15" column="47" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/INativeCloudServicesInterface.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1aa82c864d8812e9daac23134bb19aa416" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GetBool</definition>
+        <argsstring>(string key)</argsstring>
+        <name>GetBool</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesCore.INativeCloudServicesInterface.GetBool</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/INativeCloudServicesInterface.cs" line="21" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1a6c4995364330e416cb9e9f6d054c3ae0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long GetLong</definition>
+        <argsstring>(string key)</argsstring>
+        <name>GetLong</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesCore.INativeCloudServicesInterface.GetLong</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/INativeCloudServicesInterface.cs" line="23" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1a5f1c1a9783de79b8abd6600500aeab8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double GetDouble</definition>
+        <argsstring>(string key)</argsstring>
+        <name>GetDouble</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesCore.INativeCloudServicesInterface.GetDouble</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/INativeCloudServicesInterface.cs" line="25" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1adbe992dd246d4883b617f61938730b74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetString</definition>
+        <argsstring>(string key)</argsstring>
+        <name>GetString</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesCore.INativeCloudServicesInterface.GetString</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/INativeCloudServicesInterface.cs" line="27" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1a9a19cb47ba908478e55a42955f1a75fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>byte[] GetByteArray</definition>
+        <argsstring>(string key)</argsstring>
+        <name>GetByteArray</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesCore.INativeCloudServicesInterface.GetByteArray</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/INativeCloudServicesInterface.cs" line="29" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1a5d287fbf7722e35d4f309be100a1255e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool HasKey</definition>
+        <argsstring>(string key)</argsstring>
+        <name>HasKey</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesCore.INativeCloudServicesInterface.HasKey</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/INativeCloudServicesInterface.cs" line="35" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1a691c82fd00a90fff5e7554b4393d7ca9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetBool</definition>
+        <argsstring>(string key, bool value)</argsstring>
+        <name>SetBool</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesCore.INativeCloudServicesInterface.SetBool</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/INativeCloudServicesInterface.cs" line="41" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1aff2f1d4f2369beb352f837d378ae2a08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetLong</definition>
+        <argsstring>(string key, long value)</argsstring>
+        <name>SetLong</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesCore.INativeCloudServicesInterface.SetLong</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/INativeCloudServicesInterface.cs" line="43" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1adb6dd48bd289e834844e12f2ca1eac0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetDouble</definition>
+        <argsstring>(string key, double value)</argsstring>
+        <name>SetDouble</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesCore.INativeCloudServicesInterface.SetDouble</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/INativeCloudServicesInterface.cs" line="45" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1ae870ef904ae29e7b220d7fbadff193ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetString</definition>
+        <argsstring>(string key, string value)</argsstring>
+        <name>SetString</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesCore.INativeCloudServicesInterface.SetString</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/INativeCloudServicesInterface.cs" line="47" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1a1e35ec08d87e62f189c57f0c12fe1183" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetByteArray</definition>
+        <argsstring>(string key, byte[] value)</argsstring>
+        <name>SetByteArray</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesCore.INativeCloudServicesInterface.SetByteArray</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/INativeCloudServicesInterface.cs" line="49" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1a2c50358d147daaf88a3b32be823df2e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RemoveKey</definition>
+        <argsstring>(string key)</argsstring>
+        <name>RemoveKey</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesCore.INativeCloudServicesInterface.RemoveKey</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/INativeCloudServicesInterface.cs" line="55" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1aa2bf07d5cb6a9d8878d2249d2ab061ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Synchronize</definition>
+        <argsstring>(SynchronizeInternalCallback callback)</argsstring>
+        <name>Synchronize</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesCore.INativeCloudServicesInterface.Synchronize</qualifiedname>
+        <param>
+          <type>SynchronizeInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/INativeCloudServicesInterface.cs" line="61" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1aeb78c878af8e4c0b54b6b78947975623" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IDictionary</type>
+        <definition>IDictionary GetSnapshot</definition>
+        <argsstring>()</argsstring>
+        <name>GetSnapshot</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesCore.INativeCloudServicesInterface.GetSnapshot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/INativeCloudServicesInterface.cs" line="63" column="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/INativeCloudServicesInterface.cs" line="9" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/INativeCloudServicesInterface.cs" bodystart="10" bodyend="66"/>
+    <listofallmembers>
+      <member refid="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1aa82c864d8812e9daac23134bb19aa416" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesCore::INativeCloudServicesInterface</scope><name>GetBool</name></member>
+      <member refid="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1a9a19cb47ba908478e55a42955f1a75fe" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesCore::INativeCloudServicesInterface</scope><name>GetByteArray</name></member>
+      <member refid="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1a5f1c1a9783de79b8abd6600500aeab8f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesCore::INativeCloudServicesInterface</scope><name>GetDouble</name></member>
+      <member refid="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1a6c4995364330e416cb9e9f6d054c3ae0" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesCore::INativeCloudServicesInterface</scope><name>GetLong</name></member>
+      <member refid="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1aeb78c878af8e4c0b54b6b78947975623" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesCore::INativeCloudServicesInterface</scope><name>GetSnapshot</name></member>
+      <member refid="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1adbe992dd246d4883b617f61938730b74" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesCore::INativeCloudServicesInterface</scope><name>GetString</name></member>
+      <member refid="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1a5d287fbf7722e35d4f309be100a1255e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesCore::INativeCloudServicesInterface</scope><name>HasKey</name></member>
+      <member refid="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1acff1936452e664d7978409172bf3b1d2" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesCore::INativeCloudServicesInterface</scope><name>OnSavedDataChange</name></member>
+      <member refid="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1a6a386fdb58803718ff8014f75b615f9b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesCore::INativeCloudServicesInterface</scope><name>OnUserChange</name></member>
+      <member refid="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1a2c50358d147daaf88a3b32be823df2e5" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesCore::INativeCloudServicesInterface</scope><name>RemoveKey</name></member>
+      <member refid="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1a691c82fd00a90fff5e7554b4393d7ca9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesCore::INativeCloudServicesInterface</scope><name>SetBool</name></member>
+      <member refid="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1a1e35ec08d87e62f189c57f0c12fe1183" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesCore::INativeCloudServicesInterface</scope><name>SetByteArray</name></member>
+      <member refid="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1adb6dd48bd289e834844e12f2ca1eac0c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesCore::INativeCloudServicesInterface</scope><name>SetDouble</name></member>
+      <member refid="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1aff2f1d4f2369beb352f837d378ae2a08" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesCore::INativeCloudServicesInterface</scope><name>SetLong</name></member>
+      <member refid="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1ae870ef904ae29e7b220d7fbadff193ae" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesCore::INativeCloudServicesInterface</scope><name>SetString</name></member>
+      <member refid="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface_1aa2bf07d5cb6a9d8878d2249d2ab061ee" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesCore::INativeCloudServicesInterface</scope><name>Synchronize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

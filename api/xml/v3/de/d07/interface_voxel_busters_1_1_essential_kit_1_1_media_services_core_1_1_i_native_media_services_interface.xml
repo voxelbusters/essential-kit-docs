@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="de/d07/interface_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_i_native_media_services_interface" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::MediaServicesCore::INativeMediaServicesInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">INativeFeatureInterface</basecompoundref>
+    <derivedcompoundref refid="d1/dc6/class_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_native_media_services_interface_base" prot="public" virt="non-virtual">NativeMediaServicesInterfaceBase</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d07/interface_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_i_native_media_services_interface_1a7d9d777d8b79db58657ff3e89158929a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a07b567b6d38e197ddb5cf23daa492866" kindref="member">GalleryAccessStatus</ref></type>
+        <definition>GalleryAccessStatus GetGalleryAccessStatus</definition>
+        <argsstring>(GalleryAccessMode mode)</argsstring>
+        <name>GetGalleryAccessStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesCore.INativeMediaServicesInterface.GetGalleryAccessStatus</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a5af6d9ef7e26e40ab9a97445485856a8" kindref="member">GalleryAccessMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/INativeMediaServicesInterface.cs" line="14" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d07/interface_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_i_native_media_services_interface_1ad486028f3a915b4e1d72593c380266d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1aafd2f4506631462ce3394fb96b7eab0c" kindref="member">CameraAccessStatus</ref></type>
+        <definition>CameraAccessStatus GetCameraAccessStatus</definition>
+        <argsstring>()</argsstring>
+        <name>GetCameraAccessStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesCore.INativeMediaServicesInterface.GetCameraAccessStatus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/INativeMediaServicesInterface.cs" line="15" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d07/interface_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_i_native_media_services_interface_1a5844b71e9de234c1870536b6782a6d12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SelectMediaContent</definition>
+        <argsstring>(MediaContentSelectOptions options, SelectMediaContentInternalCallback callback)</argsstring>
+        <name>SelectMediaContent</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesCore.INativeMediaServicesInterface.SelectMediaContent</qualifiedname>
+        <param>
+          <type><ref refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options" kindref="compound">MediaContentSelectOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>SelectMediaContentInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/INativeMediaServicesInterface.cs" line="18" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d07/interface_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_i_native_media_services_interface_1a042fa2662aa0ea7066ba7809d584fad4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CaptureMediaContent</definition>
+        <argsstring>(MediaContentCaptureOptions options, CaptureMediaContentInternalCallback callback)</argsstring>
+        <name>CaptureMediaContent</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesCore.INativeMediaServicesInterface.CaptureMediaContent</qualifiedname>
+        <param>
+          <type><ref refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options" kindref="compound">MediaContentCaptureOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>CaptureMediaContentInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/INativeMediaServicesInterface.cs" line="19" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d07/interface_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_i_native_media_services_interface_1a3d1e2acb58b7d234ca98917d6323ae2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SaveMediaContent</definition>
+        <argsstring>(byte[] data, string mimeType, MediaContentSaveOptions options, SaveMediaContentInternalCallback callback)</argsstring>
+        <name>SaveMediaContent</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesCore.INativeMediaServicesInterface.SaveMediaContent</qualifiedname>
+        <param>
+          <type>byte[]</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>mimeType</declname>
+        </param>
+        <param>
+          <type><ref refid="d5/d40/class_voxel_busters_1_1_essential_kit_1_1_media_content_save_options" kindref="compound">MediaContentSaveOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>SaveMediaContentInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/INativeMediaServicesInterface.cs" line="20" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/INativeMediaServicesInterface.cs" line="10" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/INativeMediaServicesInterface.cs" bodystart="11" bodyend="23"/>
+    <listofallmembers>
+      <member refid="de/d07/interface_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_i_native_media_services_interface_1a042fa2662aa0ea7066ba7809d584fad4" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesCore::INativeMediaServicesInterface</scope><name>CaptureMediaContent</name></member>
+      <member refid="de/d07/interface_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_i_native_media_services_interface_1ad486028f3a915b4e1d72593c380266d7" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesCore::INativeMediaServicesInterface</scope><name>GetCameraAccessStatus</name></member>
+      <member refid="de/d07/interface_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_i_native_media_services_interface_1a7d9d777d8b79db58657ff3e89158929a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesCore::INativeMediaServicesInterface</scope><name>GetGalleryAccessStatus</name></member>
+      <member refid="de/d07/interface_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_i_native_media_services_interface_1a3d1e2acb58b7d234ca98917d6323ae2f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesCore::INativeMediaServicesInterface</scope><name>SaveMediaContent</name></member>
+      <member refid="de/d07/interface_voxel_busters_1_1_essential_kit_1_1_media_services_core_1_1_i_native_media_services_interface_1a5844b71e9de234c1870536b6782a6d12" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesCore::INativeMediaServicesInterface</scope><name>SelectMediaContent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

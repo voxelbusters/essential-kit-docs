@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::MediaContentCaptureOptions</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1af62327ea104178daa8befb040b7eb9f8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1ac1a99dc147705403cf723a869f3242ec" kindref="member">MediaContentCaptureType</ref></type>
+        <definition>MediaContentCaptureType CaptureType</definition>
+        <argsstring></argsstring>
+        <name>CaptureType</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContentCaptureOptions.CaptureType</qualifiedname>
+        <briefdescription>
+<para>Gets the type of media content. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The type of media content.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentCaptureOptions.cs" line="15" column="40" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentCaptureOptions.cs" bodystart="15" bodyend="15"/>
+        <referencedby refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1a266d53444cd54ba236c56ed88d6ea454" compoundref="d0/db3/_media_content_capture_options_8cs" startline="44" endline="50">MediaContentCaptureOptions.MediaContentCaptureOptions</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1aa7b633091e7820b835d04d0d5fc197c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContentCaptureOptions.Title</qualifiedname>
+        <briefdescription>
+<para>Gets the title of the capture. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The title of the capture.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentCaptureOptions.cs" line="21" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentCaptureOptions.cs" bodystart="21" bodyend="21"/>
+        <referencedby refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1a266d53444cd54ba236c56ed88d6ea454" compoundref="d0/db3/_media_content_capture_options_8cs" startline="44" endline="50">MediaContentCaptureOptions.MediaContentCaptureOptions</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1ac56689c3ac56ce5bcecabd9b090880f8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string FileName</definition>
+        <argsstring></argsstring>
+        <name>FileName</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContentCaptureOptions.FileName</qualifiedname>
+        <briefdescription>
+<para>Gets the file name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The file name without extension.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentCaptureOptions.cs" line="27" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentCaptureOptions.cs" bodystart="27" bodyend="27"/>
+        <referencedby refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1a266d53444cd54ba236c56ed88d6ea454" compoundref="d0/db3/_media_content_capture_options_8cs" startline="44" endline="50">MediaContentCaptureOptions.MediaContentCaptureOptions</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1a0ad1ca9df4e38f731065b59fe4d9e73a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1af533e815e7977d2543ebee00b2228411" kindref="member">MediaContentCaptureSource</ref></type>
+        <definition>MediaContentCaptureSource Source</definition>
+        <argsstring></argsstring>
+        <name>Source</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContentCaptureOptions.Source</qualifiedname>
+        <briefdescription>
+<para>Gets the source of media content. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The source of media content.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentCaptureOptions.cs" line="33" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentCaptureOptions.cs" bodystart="33" bodyend="33"/>
+        <referencedby refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1a266d53444cd54ba236c56ed88d6ea454" compoundref="d0/db3/_media_content_capture_options_8cs" startline="44" endline="50">MediaContentCaptureOptions.MediaContentCaptureOptions</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1a266d53444cd54ba236c56ed88d6ea454" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaContentCaptureOptions</definition>
+        <argsstring>(MediaContentCaptureType captureType, string title, string fileName, MediaContentCaptureSource source=MediaContentCaptureSource.Camera)</argsstring>
+        <name>MediaContentCaptureOptions</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContentCaptureOptions.MediaContentCaptureOptions</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1ac1a99dc147705403cf723a869f3242ec" kindref="member">MediaContentCaptureType</ref></type>
+          <declname>captureType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1af533e815e7977d2543ebee00b2228411" kindref="member">MediaContentCaptureSource</ref></type>
+          <declname>source</declname>
+          <defval><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1af533e815e7977d2543ebee00b2228411a967d35e40f3f95b1f538bd248640bf3b" kindref="member">MediaContentCaptureSource.Camera</ref></defval>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options" kindref="compound">MediaContentCaptureOptions</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>captureType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the capture.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Title of the capture.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>File name without extension.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source of media content.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentCaptureOptions.cs" line="44" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentCaptureOptions.cs" bodystart="44" bodyend="50"/>
+        <references refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1af62327ea104178daa8befb040b7eb9f8" compoundref="d0/db3/_media_content_capture_options_8cs" startline="15" endline="15">MediaContentCaptureOptions.CaptureType</references>
+        <references refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1ac56689c3ac56ce5bcecabd9b090880f8" compoundref="d0/db3/_media_content_capture_options_8cs" startline="27" endline="27">MediaContentCaptureOptions.FileName</references>
+        <references refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1a0ad1ca9df4e38f731065b59fe4d9e73a" compoundref="d0/db3/_media_content_capture_options_8cs" startline="33" endline="33">MediaContentCaptureOptions.Source</references>
+        <references refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1aa7b633091e7820b835d04d0d5fc197c7" compoundref="d0/db3/_media_content_capture_options_8cs" startline="21" endline="21">MediaContentCaptureOptions.Title</references>
+        <referencedby refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1a898142a08ea3b4246818392a440572f1" compoundref="d0/db3/_media_content_capture_options_8cs" startline="58" endline="61">MediaContentCaptureOptions.CreateForImage</referencedby>
+        <referencedby refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1a7b410d261be9a439d32c82f5cc4a854f" compoundref="d0/db3/_media_content_capture_options_8cs" startline="67" endline="70">MediaContentCaptureOptions.CreateForVideo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContentCaptureOptions.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentCaptureOptions.cs" line="72" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentCaptureOptions.cs" bodystart="72" bodyend="75"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1a898142a08ea3b4246818392a440572f1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options" kindref="compound">MediaContentCaptureOptions</ref></type>
+        <definition>static MediaContentCaptureOptions CreateForImage</definition>
+        <argsstring>()</argsstring>
+        <name>CreateForImage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContentCaptureOptions.CreateForImage</qualifiedname>
+        <briefdescription>
+<para>Creates the options for image capture. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The options for image capture.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentCaptureOptions.cs" line="58" column="50" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentCaptureOptions.cs" bodystart="58" bodyend="61"/>
+        <references refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1a266d53444cd54ba236c56ed88d6ea454" compoundref="d0/db3/_media_content_capture_options_8cs" startline="44" endline="50">MediaContentCaptureOptions.MediaContentCaptureOptions</references>
+      </memberdef>
+      <memberdef kind="function" id="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1a7b410d261be9a439d32c82f5cc4a854f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options" kindref="compound">MediaContentCaptureOptions</ref></type>
+        <definition>static MediaContentCaptureOptions CreateForVideo</definition>
+        <argsstring>()</argsstring>
+        <name>CreateForVideo</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContentCaptureOptions.CreateForVideo</qualifiedname>
+        <briefdescription>
+<para>Creates the options for video capture. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The options for video capture.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentCaptureOptions.cs" line="67" column="50" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentCaptureOptions.cs" bodystart="67" bodyend="70"/>
+        <references refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1a266d53444cd54ba236c56ed88d6ea454" compoundref="d0/db3/_media_content_capture_options_8cs" startline="44" endline="50">MediaContentCaptureOptions.MediaContentCaptureOptions</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Contains options which customize the behavior of the <ref refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a9a74354e0d7f4d5664ab54ca4c41ac53" kindref="member">MediaServices.CaptureMediaContent</ref> method. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentCaptureOptions.cs" line="7" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentCaptureOptions.cs" bodystart="8" bodyend="78"/>
+    <listofallmembers>
+      <member refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1af62327ea104178daa8befb040b7eb9f8" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContentCaptureOptions</scope><name>CaptureType</name></member>
+      <member refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1a898142a08ea3b4246818392a440572f1" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContentCaptureOptions</scope><name>CreateForImage</name></member>
+      <member refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1a7b410d261be9a439d32c82f5cc4a854f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContentCaptureOptions</scope><name>CreateForVideo</name></member>
+      <member refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1ac56689c3ac56ce5bcecabd9b090880f8" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContentCaptureOptions</scope><name>FileName</name></member>
+      <member refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1a266d53444cd54ba236c56ed88d6ea454" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContentCaptureOptions</scope><name>MediaContentCaptureOptions</name></member>
+      <member refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1a0ad1ca9df4e38f731065b59fe4d9e73a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContentCaptureOptions</scope><name>Source</name></member>
+      <member refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1aa7b633091e7820b835d04d0d5fc197c7" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContentCaptureOptions</scope><name>Title</name></member>
+      <member refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContentCaptureOptions</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

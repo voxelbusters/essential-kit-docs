@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dc/d56/class_voxel_busters_1_1_core_library_1_1_clear_on_reload_attribute" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::ClearOnReloadAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="dc/d56/class_voxel_busters_1_1_core_library_1_1_clear_on_reload_attribute_1a74123434751c1da228d5686d58ef791b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>ClearOnReloadOption</type>
+        <definition>ClearOnReloadOption Option</definition>
+        <argsstring></argsstring>
+        <name>Option</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ClearOnReloadAttribute.Option</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ClearOnReloadAttribute.cs" line="20" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ClearOnReloadAttribute.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="dc/d56/class_voxel_busters_1_1_core_library_1_1_clear_on_reload_attribute_1ad79895415bf112e1685d8e871eb23cde" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>object</type>
+        <definition>object CustomValue</definition>
+        <argsstring></argsstring>
+        <name>CustomValue</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ClearOnReloadAttribute.CustomValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ClearOnReloadAttribute.cs" line="22" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ClearOnReloadAttribute.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d56/class_voxel_busters_1_1_core_library_1_1_clear_on_reload_attribute_1a52f3147163288521b09eee8ca3d67ccc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ClearOnReloadAttribute</definition>
+        <argsstring>()</argsstring>
+        <name>ClearOnReloadAttribute</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ClearOnReloadAttribute.ClearOnReloadAttribute</qualifiedname>
+        <briefdescription>
+<para>Marks field of property to be cleared and assigned given value on reload. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ClearOnReloadAttribute.cs" line="31" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ClearOnReloadAttribute.cs" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d56/class_voxel_busters_1_1_core_library_1_1_clear_on_reload_attribute_1a6b8a9fc9425edf25fc8c496447283c92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ClearOnReloadAttribute</definition>
+        <argsstring>(object customValue)</argsstring>
+        <name>ClearOnReloadAttribute</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ClearOnReloadAttribute.ClearOnReloadAttribute</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>customValue</declname>
+        </param>
+        <briefdescription>
+<para>Marks field of property to be cleared and assigned given value on reload. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>customValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Explicit value which will be assigned to field/property on reload.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ClearOnReloadAttribute.cs" line="39" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ClearOnReloadAttribute.cs" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d56/class_voxel_busters_1_1_core_library_1_1_clear_on_reload_attribute_1a1b5e960fc057383b1e6b2c63ca10b5cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ClearOnReloadAttribute</definition>
+        <argsstring>(ClearOnReloadOption option, object customValue=null)</argsstring>
+        <name>ClearOnReloadAttribute</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ClearOnReloadAttribute.ClearOnReloadAttribute</qualifiedname>
+        <param>
+          <type>ClearOnReloadOption</type>
+          <declname>option</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>customValue</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Marks field of property to be cleared and assigned given value on reload. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>option</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Option to be used.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>customValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Explicit value which will be assigned to field/property on reload.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ClearOnReloadAttribute.cs" line="48" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ClearOnReloadAttribute.cs" bodystart="48" bodyend="52"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ClearOnReloadAttribute.cs" line="16" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ClearOnReloadAttribute.cs" bodystart="17" bodyend="55"/>
+    <listofallmembers>
+      <member refid="dc/d56/class_voxel_busters_1_1_core_library_1_1_clear_on_reload_attribute_1a52f3147163288521b09eee8ca3d67ccc" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ClearOnReloadAttribute</scope><name>ClearOnReloadAttribute</name></member>
+      <member refid="dc/d56/class_voxel_busters_1_1_core_library_1_1_clear_on_reload_attribute_1a6b8a9fc9425edf25fc8c496447283c92" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ClearOnReloadAttribute</scope><name>ClearOnReloadAttribute</name></member>
+      <member refid="dc/d56/class_voxel_busters_1_1_core_library_1_1_clear_on_reload_attribute_1a1b5e960fc057383b1e6b2c63ca10b5cc" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ClearOnReloadAttribute</scope><name>ClearOnReloadAttribute</name></member>
+      <member refid="dc/d56/class_voxel_busters_1_1_core_library_1_1_clear_on_reload_attribute_1ad79895415bf112e1685d8e871eb23cde" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ClearOnReloadAttribute</scope><name>CustomValue</name></member>
+      <member refid="dc/d56/class_voxel_busters_1_1_core_library_1_1_clear_on_reload_attribute_1a74123434751c1da228d5686d58ef791b" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ClearOnReloadAttribute</scope><name>Option</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

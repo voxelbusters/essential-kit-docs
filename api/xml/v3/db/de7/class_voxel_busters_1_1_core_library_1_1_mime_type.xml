@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::MimeType</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1a264238e62e31e0c2ceaa9256befa56d3" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kAny</definition>
+        <argsstring></argsstring>
+        <name>kAny</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.MimeType.kAny</qualifiedname>
+        <initializer>= &quot;*/*&quot;</initializer>
+        <briefdescription>
+<para>The MIME value used to determine any file. (Readonly) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" line="19" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1ade7ba8bc357b6127c097ba83a8371b85" compoundref="d5/d2e/_media_content_select_options_8cs" startline="98" endline="101">MediaContentSelectOptions.CreateForAny</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1affd1303569062ace8a1e21853f2b8bb0" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kPlainText</definition>
+        <argsstring></argsstring>
+        <name>kPlainText</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.MimeType.kPlainText</qualifiedname>
+        <initializer>= &quot;text/plain&quot;</initializer>
+        <briefdescription>
+<para>The MIME value used to determine plain text file. (Readonly) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" line="22" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1a31af405b30d5eac6ba6b24b85f1ff373" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kHtmlText</definition>
+        <argsstring></argsstring>
+        <name>kHtmlText</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.MimeType.kHtmlText</qualifiedname>
+        <initializer>= &quot;text/html&quot;</initializer>
+        <briefdescription>
+<para>The MIME value used to determine normal web pages. (Readonly) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" line="25" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1adf07872d6b800da8c910163f689643ba" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kJavaScriptText</definition>
+        <argsstring></argsstring>
+        <name>kJavaScriptText</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.MimeType.kJavaScriptText</qualifiedname>
+        <initializer>= &quot;text/javascript&quot;</initializer>
+        <briefdescription>
+<para>The MIME value used to determine javascript content. (Readonly) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" line="28" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1ab60844ca3fca62a733c88c7d9b27c841" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kAllImages</definition>
+        <argsstring></argsstring>
+        <name>kAllImages</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.MimeType.kAllImages</qualifiedname>
+        <initializer>= &quot;image/*&quot;</initializer>
+        <briefdescription>
+<para>The MIME value used to determine all image files. (Readonly) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" line="31" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1a5a3d8e3b0025e5b242bba52016aacedd" compoundref="d5/d2e/_media_content_select_options_8cs" startline="68" endline="71">MediaContentSelectOptions.CreateForImage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1a9d3ec792d428f2bc50baa45dcfddf0b8" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kJPGImage</definition>
+        <argsstring></argsstring>
+        <name>kJPGImage</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.MimeType.kJPGImage</qualifiedname>
+        <initializer>= &quot;image/jpeg&quot;</initializer>
+        <briefdescription>
+<para>The MIME value used to determine jpg image file. (Readonly) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" line="34" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1ad8f7c7cf2b6b25df98bd5ea9644741a1" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kPNGImage</definition>
+        <argsstring></argsstring>
+        <name>kPNGImage</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.MimeType.kPNGImage</qualifiedname>
+        <initializer>= &quot;image/png&quot;</initializer>
+        <briefdescription>
+<para>The MIME value used to determine png image file. (Readonly) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" line="37" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1aa7caa76b290d4fe021f2ab95112906b4" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kGIFImage</definition>
+        <argsstring></argsstring>
+        <name>kGIFImage</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.MimeType.kGIFImage</qualifiedname>
+        <initializer>= &quot;image/gif&quot;</initializer>
+        <briefdescription>
+<para>The MIME value used to determine gif image file. (Readonly) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" line="40" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1a446a8c0c7320c43d7422c2931e5ef51a" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kPDF</definition>
+        <argsstring></argsstring>
+        <name>kPDF</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.MimeType.kPDF</qualifiedname>
+        <initializer>= &quot;application/pdf&quot;</initializer>
+        <briefdescription>
+<para>The MIME value used to determine Adobe® PDF documents. (Readonly) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" line="43" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1a7ea17ea0abd6fb385882e8da0008be0f" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kAllVideos</definition>
+        <argsstring></argsstring>
+        <name>kAllVideos</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.MimeType.kAllVideos</qualifiedname>
+        <initializer>= &quot;video/*&quot;</initializer>
+        <briefdescription>
+<para>The MIME value used to determine all video files. (Readonly) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" line="47" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" bodystart="47" bodyend="-1"/>
+        <referencedby refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1ac593208a0a92ff5ea79097b1d724518b" compoundref="d5/d2e/_media_content_select_options_8cs" startline="78" endline="81">MediaContentSelectOptions.CreateForVideo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1a15b0e375a0ee48052a51b4ca5e8c52cb" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kMP4Video</definition>
+        <argsstring></argsstring>
+        <name>kMP4Video</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.MimeType.kMP4Video</qualifiedname>
+        <initializer>= &quot;video/mp4&quot;</initializer>
+        <briefdescription>
+<para>The MIME value used to determine mp4 video. (Readonly) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" line="50" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1ae8441aa8268d7a4489bfa678420d2fdb" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kAllAudio</definition>
+        <argsstring></argsstring>
+        <name>kAllAudio</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.MimeType.kAllAudio</qualifiedname>
+        <initializer>= &quot;audio/*&quot;</initializer>
+        <briefdescription>
+<para>The MIME value used to determine all audio files. (Readonly) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" line="53" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" bodystart="53" bodyend="-1"/>
+        <referencedby refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1a51070a25afd0fca1ba77a0ee0187bcb4" compoundref="d5/d2e/_media_content_select_options_8cs" startline="88" endline="91">MediaContentSelectOptions.CreateForAudio</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1a8da04b661fcb359de880ea9ec9684430" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetTypeForExtension</definition>
+        <argsstring>(string extension)</argsstring>
+        <name>GetTypeForExtension</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.MimeType.GetTypeForExtension</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>extension</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" line="59" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" bodystart="59" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1ad85e4500ccde8805399f8c4411b8d97f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetExtensionForType</definition>
+        <argsstring>(string mimeType)</argsstring>
+        <name>GetExtensionForType</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.MimeType.GetExtensionForType</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>mimeType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" line="100" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" bodystart="100" bodyend="149"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type" kindref="compound">MimeType</ref> class is a collection of most commonly used MIME types. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>MIME types enable apps to recognize the filetype of a file.  </para>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" line="14" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/MimeType.cs" bodystart="15" bodyend="152"/>
+    <listofallmembers>
+      <member refid="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1ad85e4500ccde8805399f8c4411b8d97f" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::MimeType</scope><name>GetExtensionForType</name></member>
+      <member refid="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1a8da04b661fcb359de880ea9ec9684430" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::MimeType</scope><name>GetTypeForExtension</name></member>
+      <member refid="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1ae8441aa8268d7a4489bfa678420d2fdb" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::MimeType</scope><name>kAllAudio</name></member>
+      <member refid="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1ab60844ca3fca62a733c88c7d9b27c841" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::MimeType</scope><name>kAllImages</name></member>
+      <member refid="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1a7ea17ea0abd6fb385882e8da0008be0f" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::MimeType</scope><name>kAllVideos</name></member>
+      <member refid="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1a264238e62e31e0c2ceaa9256befa56d3" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::MimeType</scope><name>kAny</name></member>
+      <member refid="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1aa7caa76b290d4fe021f2ab95112906b4" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::MimeType</scope><name>kGIFImage</name></member>
+      <member refid="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1a31af405b30d5eac6ba6b24b85f1ff373" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::MimeType</scope><name>kHtmlText</name></member>
+      <member refid="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1adf07872d6b800da8c910163f689643ba" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::MimeType</scope><name>kJavaScriptText</name></member>
+      <member refid="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1a9d3ec792d428f2bc50baa45dcfddf0b8" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::MimeType</scope><name>kJPGImage</name></member>
+      <member refid="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1a15b0e375a0ee48052a51b4ca5e8c52cb" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::MimeType</scope><name>kMP4Video</name></member>
+      <member refid="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1a446a8c0c7320c43d7422c2931e5ef51a" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::MimeType</scope><name>kPDF</name></member>
+      <member refid="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1affd1303569062ace8a1e21853f2b8bb0" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::MimeType</scope><name>kPlainText</name></member>
+      <member refid="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1ad8f7c7cf2b6b25df98bd5ea9644741a1" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::MimeType</scope><name>kPNGImage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

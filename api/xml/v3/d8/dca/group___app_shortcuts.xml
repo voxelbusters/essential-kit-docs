@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d8/dca/group___app_shortcuts" kind="group">
+    <compoundname>AppShortcuts</compoundname>
+    <title>App Shortcuts</title>
+    <innerclass refid="dd/d0b/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item" prot="public">VoxelBusters::EssentialKit::AppShortcutItem</innerclass>
+    <innerclass refid="da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts" prot="public">VoxelBusters::EssentialKit::AppShortcuts</innerclass>
+    <briefdescription>
+<para>Provides cross-platform interface to facilitate updating the current version of the application. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

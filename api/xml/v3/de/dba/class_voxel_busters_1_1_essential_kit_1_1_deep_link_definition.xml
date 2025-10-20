@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::DeepLinkDefinition</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition_1ac43140ce88c75b5abb7949c2b8a47341" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_identifier</definition>
+        <argsstring></argsstring>
+        <name>m_identifier</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkDefinition.m_identifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkDefinition.cs" line="20" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkDefinition.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition_1a5bc91025f5ea5c6791a830d089bff881" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_serviceType</definition>
+        <argsstring></argsstring>
+        <name>m_serviceType</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkDefinition.m_serviceType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkDefinition.cs" line="23" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkDefinition.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition_1aaa66dbcf0fb9c9ff088ce99c4cbaac60" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_scheme</definition>
+        <argsstring></argsstring>
+        <name>m_scheme</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkDefinition.m_scheme</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkDefinition.cs" line="26" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkDefinition.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition_1a3c6791f34ff929c3c77f4e3f7664000a" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_host</definition>
+        <argsstring></argsstring>
+        <name>m_host</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkDefinition.m_host</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkDefinition.cs" line="29" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkDefinition.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition_1adb51dbb671f950fa6600dc35ed8a1673" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_path</definition>
+        <argsstring></argsstring>
+        <name>m_path</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkDefinition.m_path</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkDefinition.cs" line="32" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkDefinition.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition_1a4df71ed6bf05109e86a43738e8f9898a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Identifier</definition>
+        <argsstring></argsstring>
+        <name>Identifier</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkDefinition.Identifier</qualifiedname>
+        <briefdescription>
+<para>Gets the identifier for the deep link. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkDefinition.cs" line="40" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkDefinition.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition_1aa146ef1b2797a15c9224cf36d46d382b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ServiceType</definition>
+        <argsstring></argsstring>
+        <name>ServiceType</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkDefinition.ServiceType</qualifiedname>
+        <briefdescription>
+<para>Gets the service type for the deep link. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkDefinition.cs" line="48" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkDefinition.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition_1a99edc42f93bb3229d4b64e8ac7b07ff7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Scheme</definition>
+        <argsstring></argsstring>
+        <name>Scheme</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkDefinition.Scheme</qualifiedname>
+        <briefdescription>
+<para>Gets the scheme for the deep link. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkDefinition.cs" line="56" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkDefinition.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition_1abd5d02452d0753592d3ade6268727de8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Host</definition>
+        <argsstring></argsstring>
+        <name>Host</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkDefinition.Host</qualifiedname>
+        <briefdescription>
+<para>Gets the host for the deep link. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkDefinition.cs" line="61" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkDefinition.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition_1af331ba015acf9191899985a835008b9d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Path</definition>
+        <argsstring></argsstring>
+        <name>Path</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkDefinition.Path</qualifiedname>
+        <briefdescription>
+<para>Gets the path for the deep link. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkDefinition.cs" line="66" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkDefinition.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition_1ac0280dcfe47a583eb85c6c47711021e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DeepLinkDefinition</definition>
+        <argsstring>(string identifier=null, string serviceType=null, string scheme=null, string host=null, string path=null)</argsstring>
+        <name>DeepLinkDefinition</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkDefinition.DeepLinkDefinition</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>identifier</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>serviceType</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>scheme</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>host</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition" kindref="compound">DeepLinkDefinition</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>identifier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The identifier for the deep link.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>serviceType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The service type for the deep link.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>scheme</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The scheme for the deep link.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>host</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The host for the deep link.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The path for the deep link.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkDefinition.cs" line="80" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkDefinition.cs" bodystart="80" bodyend="96"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents definition of deep link which can be used to configure deep link services. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkDefinition.cs" line="15" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkDefinition.cs" bodystart="16" bodyend="99"/>
+    <listofallmembers>
+      <member refid="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition_1ac0280dcfe47a583eb85c6c47711021e1" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkDefinition</scope><name>DeepLinkDefinition</name></member>
+      <member refid="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition_1abd5d02452d0753592d3ade6268727de8" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkDefinition</scope><name>Host</name></member>
+      <member refid="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition_1a4df71ed6bf05109e86a43738e8f9898a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkDefinition</scope><name>Identifier</name></member>
+      <member refid="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition_1a3c6791f34ff929c3c77f4e3f7664000a" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkDefinition</scope><name>m_host</name></member>
+      <member refid="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition_1ac43140ce88c75b5abb7949c2b8a47341" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkDefinition</scope><name>m_identifier</name></member>
+      <member refid="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition_1adb51dbb671f950fa6600dc35ed8a1673" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkDefinition</scope><name>m_path</name></member>
+      <member refid="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition_1aaa66dbcf0fb9c9ff088ce99c4cbaac60" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkDefinition</scope><name>m_scheme</name></member>
+      <member refid="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition_1a5bc91025f5ea5c6791a830d089bff881" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkDefinition</scope><name>m_serviceType</name></member>
+      <member refid="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition_1af331ba015acf9191899985a835008b9d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkDefinition</scope><name>Path</name></member>
+      <member refid="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition_1a99edc42f93bb3229d4b64e8ac7b07ff7" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkDefinition</scope><name>Scheme</name></member>
+      <member refid="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition_1aa146ef1b2797a15c9224cf36d46d382b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkDefinition</scope><name>ServiceType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

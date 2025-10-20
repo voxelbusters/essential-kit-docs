@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d6/d40/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_core_1_1_null_rate_my_app_interface" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::RateMyAppCore::NullRateMyAppInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NativeRateMyAppInterfaceBase</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d40/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_core_1_1_null_rate_my_app_interface_1a5e821e2d9f8c3823a1e0f874937ecd11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NullRateMyAppInterface</definition>
+        <argsstring>()</argsstring>
+        <name>NullRateMyAppInterface</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppCore.NullRateMyAppInterface.NullRateMyAppInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/NullRateMyAppInterface.cs" line="9" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/NullRateMyAppInterface.cs" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d40/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_core_1_1_null_rate_my_app_interface_1ad69fc1aec457326dfa665b661dd7fc6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void RequestStoreReview</definition>
+        <argsstring>(string storeId=null)</argsstring>
+        <name>RequestStoreReview</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppCore.NullRateMyAppInterface.RequestStoreReview</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>storeId</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/NullRateMyAppInterface.cs" line="26" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/NullRateMyAppInterface.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d6/d40/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_core_1_1_null_rate_my_app_interface_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogNotSupported</definition>
+        <argsstring>()</argsstring>
+        <name>LogNotSupported</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppCore.NullRateMyAppInterface.LogNotSupported</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/NullRateMyAppInterface.cs" line="17" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/NullRateMyAppInterface.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/NullRateMyAppInterface.cs" line="5" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/NullRateMyAppInterface.cs" bodystart="6" bodyend="33"/>
+    <listofallmembers>
+      <member refid="d6/d40/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_core_1_1_null_rate_my_app_interface_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppCore::NullRateMyAppInterface</scope><name>LogNotSupported</name></member>
+      <member refid="df/d48/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_core_1_1_native_rate_my_app_interface_base_1a1d557c41210a1389819356ba21c8d65c" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppCore::NullRateMyAppInterface</scope><name>NativeRateMyAppInterfaceBase</name></member>
+      <member refid="d6/d40/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_core_1_1_null_rate_my_app_interface_1a5e821e2d9f8c3823a1e0f874937ecd11" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppCore::NullRateMyAppInterface</scope><name>NullRateMyAppInterface</name></member>
+      <member refid="d6/d40/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_core_1_1_null_rate_my_app_interface_1ad69fc1aec457326dfa665b661dd7fc6b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppCore::NullRateMyAppInterface</scope><name>RequestStoreReview</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

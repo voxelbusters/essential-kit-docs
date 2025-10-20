@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d6/dd3/class_voxel_busters_1_1_core_library_1_1_group_operation" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::GroupOperation</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">VoxelBusters::CoreLibrary::AsyncOperation&lt; object &gt;</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d6/dd3/class_voxel_busters_1_1_core_library_1_1_group_operation_1a8096479de57f4cbeaa580ec9393c5b76" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int m_operationCount</definition>
+        <argsstring></argsstring>
+        <name>m_operationCount</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.GroupOperation.m_operationCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/GroupOperation.cs" line="11" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/GroupOperation.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/dd3/class_voxel_busters_1_1_core_library_1_1_group_operation_1ad52d4e8cf9b5545d9b631c5e265504c6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_abortOnError</definition>
+        <argsstring></argsstring>
+        <name>m_abortOnError</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.GroupOperation.m_abortOnError</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/GroupOperation.cs" line="13" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/GroupOperation.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d6/dd3/class_voxel_busters_1_1_core_library_1_1_group_operation_1a3bf45177c83666b34a98d61407cae954" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>IAsyncOperation[]</type>
+        <definition>IAsyncOperation [] Operations</definition>
+        <argsstring></argsstring>
+        <name>Operations</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.GroupOperation.Operations</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/GroupOperation.cs" line="19" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/GroupOperation.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/dd3/class_voxel_busters_1_1_core_library_1_1_group_operation_1a08472b7306362a1b8879466651fbaa45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GroupOperation</definition>
+        <argsstring>(bool abortOnError=false, params IAsyncOperation[] operations)</argsstring>
+        <name>GroupOperation</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.GroupOperation.GroupOperation</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>abortOnError</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>params IAsyncOperation[]</type>
+          <declname>operations</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/GroupOperation.cs" line="25" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/GroupOperation.cs" bodystart="25" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/dd3/class_voxel_busters_1_1_core_library_1_1_group_operation_1a298cb68f7f3fb7f40595f4302af4ae25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.GroupOperation.Reset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/GroupOperation.cs" line="42" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/GroupOperation.cs" bodystart="42" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d6/dd3/class_voxel_busters_1_1_core_library_1_1_group_operation_1a391480a9619c0448b5e567e2bca0a894" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OnStart</definition>
+        <argsstring>()</argsstring>
+        <name>OnStart</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.GroupOperation.OnStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/GroupOperation.cs" line="53" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/GroupOperation.cs" bodystart="53" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/dd3/class_voxel_busters_1_1_core_library_1_1_group_operation_1a9cb3a79127469ae664cab1e68b0f624f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OnUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>OnUpdate</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.GroupOperation.OnUpdate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/GroupOperation.cs" line="65" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/GroupOperation.cs" bodystart="65" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/dd3/class_voxel_busters_1_1_core_library_1_1_group_operation_1a86ff1a8cbc4455535522b0428344442e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void SetIsCompleted</definition>
+        <argsstring>(object result)</argsstring>
+        <name>SetIsCompleted</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.GroupOperation.SetIsCompleted</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/GroupOperation.cs" line="114" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/GroupOperation.cs" bodystart="114" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/dd3/class_voxel_busters_1_1_core_library_1_1_group_operation_1a9ade6e0aa5e299a9f648ca520856bda3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void SetIsCompleted</definition>
+        <argsstring>(Error error)</argsstring>
+        <name>SetIsCompleted</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.GroupOperation.SetIsCompleted</qualifiedname>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/GroupOperation.cs" line="122" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/GroupOperation.cs" bodystart="122" bodyend="128"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d6/dd3/class_voxel_busters_1_1_core_library_1_1_group_operation_1a8525240aba61bab32b576676f470d9f0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UpdateProgress</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateProgress</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.GroupOperation.UpdateProgress</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/GroupOperation.cs" line="134" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/GroupOperation.cs" bodystart="134" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/dd3/class_voxel_busters_1_1_core_library_1_1_group_operation_1ab59c76f65946bb5309c0d0e14c2b2824" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AbortActiveOperations</definition>
+        <argsstring>()</argsstring>
+        <name>AbortActiveOperations</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.GroupOperation.AbortActiveOperations</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/GroupOperation.cs" line="147" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/GroupOperation.cs" bodystart="147" bodyend="157"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/GroupOperation.cs" line="7" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/GroupOperation.cs" bodystart="8" bodyend="160"/>
+    <listofallmembers>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1a12b9283f52eaf7610afe4b04fbca2ff0" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GroupOperation</scope><name>Abort</name></member>
+      <member refid="d6/dd3/class_voxel_busters_1_1_core_library_1_1_group_operation_1ab59c76f65946bb5309c0d0e14c2b2824" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GroupOperation</scope><name>AbortActiveOperations</name></member>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1ab5dbf3797aebab5f7be841e24bff3d08" prot="protected" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GroupOperation</scope><name>AsyncOperation</name></member>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1a2659af8ee1cc7ca00d1fe018036acc10" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GroupOperation</scope><name>Error</name></member>
+      <member refid="d6/dd3/class_voxel_busters_1_1_core_library_1_1_group_operation_1a08472b7306362a1b8879466651fbaa45" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GroupOperation</scope><name>GroupOperation</name></member>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1abec26bb991e10a2dfa2b418499274ee1" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GroupOperation</scope><name>IsDone</name></member>
+      <member refid="d6/dd3/class_voxel_busters_1_1_core_library_1_1_group_operation_1ad52d4e8cf9b5545d9b631c5e265504c6" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GroupOperation</scope><name>m_abortOnError</name></member>
+      <member refid="d6/dd3/class_voxel_busters_1_1_core_library_1_1_group_operation_1a8096479de57f4cbeaa580ec9393c5b76" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GroupOperation</scope><name>m_operationCount</name></member>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1a58c390c8c2a0b88f1eb435e6bc23285c" prot="protected" virt="virtual"><scope>VoxelBusters::CoreLibrary::GroupOperation</scope><name>OnAbort</name></member>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1aabe26dac0e3f986530aff869122aa073" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GroupOperation</scope><name>OnComplete</name></member>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1adc322f0c4ff4c923d2d04dd602d9b503" prot="protected" virt="virtual"><scope>VoxelBusters::CoreLibrary::GroupOperation</scope><name>OnEnd</name></member>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1a121ed979623af7a55623f15b1461326d" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GroupOperation</scope><name>OnProgress</name></member>
+      <member refid="d6/dd3/class_voxel_busters_1_1_core_library_1_1_group_operation_1a391480a9619c0448b5e567e2bca0a894" prot="protected" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GroupOperation</scope><name>OnStart</name></member>
+      <member refid="d6/dd3/class_voxel_busters_1_1_core_library_1_1_group_operation_1a9cb3a79127469ae664cab1e68b0f624f" prot="protected" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GroupOperation</scope><name>OnUpdate</name></member>
+      <member refid="d6/dd3/class_voxel_busters_1_1_core_library_1_1_group_operation_1a3bf45177c83666b34a98d61407cae954" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GroupOperation</scope><name>Operations</name></member>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1a044696972e1444b38c42de6952a8a18a" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GroupOperation</scope><name>Progress</name></member>
+      <member refid="d6/dd3/class_voxel_busters_1_1_core_library_1_1_group_operation_1a298cb68f7f3fb7f40595f4302af4ae25" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GroupOperation</scope><name>Reset</name></member>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1a2cbe4b9f1691701bd4507eeb63399fb9" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GroupOperation</scope><name>Result</name></member>
+      <member refid="d6/dd3/class_voxel_busters_1_1_core_library_1_1_group_operation_1a86ff1a8cbc4455535522b0428344442e" prot="protected" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GroupOperation</scope><name>SetIsCompleted</name></member>
+      <member refid="d6/dd3/class_voxel_busters_1_1_core_library_1_1_group_operation_1a9ade6e0aa5e299a9f648ca520856bda3" prot="protected" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GroupOperation</scope><name>SetIsCompleted</name></member>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1a1c0fbbab8abae22c2312c0459c7d2bc1" prot="protected" virt="virtual" ambiguityscope="VoxelBusters::CoreLibrary::AsyncOperation."><scope>VoxelBusters::CoreLibrary::GroupOperation</scope><name>SetIsCompleted</name></member>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1a07aaf1227e4d645f15e0a964f54ef291" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GroupOperation</scope><name>Start</name></member>
+      <member refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation_1a906e382cb9c5cebd1667fe7cf3973e32" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GroupOperation</scope><name>Status</name></member>
+      <member refid="d6/dd3/class_voxel_busters_1_1_core_library_1_1_group_operation_1a8525240aba61bab32b576676f470d9f0" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::GroupOperation</scope><name>UpdateProgress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_401c18ae0e187fea3e7d4ffcba7350cc" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook</compoundname>
+    <innerfile refid="d7/dfc/_address_book_8cs">AddressBook.cs</innerfile>
+    <innerfile refid="d2/dc4/_address_book_contact_base_8cs">AddressBookContactBase.cs</innerfile>
+    <innerfile refid="da/dc2/_address_book_contacts_access_status_8cs">AddressBookContactsAccessStatus.cs</innerfile>
+    <innerfile refid="d0/d59/_address_book_error_8cs">AddressBookError.cs</innerfile>
+    <innerfile refid="d0/dcd/_address_book_error_code_8cs">AddressBookErrorCode.cs</innerfile>
+    <innerfile refid="d5/d2c/_address_book_read_contacts_result_8cs">AddressBookReadContactsResult.cs</innerfile>
+    <innerfile refid="d1/d45/_address_book_request_contacts_access_result_8cs">AddressBookRequestContactsAccessResult.cs</innerfile>
+    <innerfile refid="d7/d1f/_address_book_2_delegates_8cs">Delegates.cs</innerfile>
+    <innerfile refid="d4/dfe/_i_address_book_contact_8cs">IAddressBookContact.cs</innerfile>
+    <innerfile refid="d8/dfc/_i_address_book_contacts_enumerator_8cs">IAddressBookContactsEnumerator.cs</innerfile>
+    <innerfile refid="d3/d19/_i_native_address_book_interface_8cs">INativeAddressBookInterface.cs</innerfile>
+    <innerfile refid="d2/d55/_native_address_book_contact_data_8cs">NativeAddressBookContactData.cs</innerfile>
+    <innerfile refid="d1/d9c/_native_address_book_interface_base_8cs">NativeAddressBookInterfaceBase.cs</innerfile>
+    <innerfile refid="d6/d68/_null_address_book_interface_8cs">NullAddressBookInterface.cs</innerfile>
+    <innerfile refid="d0/d84/_read_contacts_constraint_8cs">ReadContactsConstraint.cs</innerfile>
+    <innerfile refid="d3/d5a/_read_contacts_options_8cs">ReadContactsOptions.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/"/>
+  </compounddef>
+</doxygen>

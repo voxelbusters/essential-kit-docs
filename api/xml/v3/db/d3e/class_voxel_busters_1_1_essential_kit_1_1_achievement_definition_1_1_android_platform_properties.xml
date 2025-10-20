@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/d3e/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1_1_android_platform_properties" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::AchievementDefinition::AndroidPlatformProperties</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d3e/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1_1_android_platform_properties_1a5527586d8a460ad15ad884f5aac68ce5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AndroidPlatformProperties</definition>
+        <argsstring>()</argsstring>
+        <name>AndroidPlatformProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AchievementDefinition.AndroidPlatformProperties.AndroidPlatformProperties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.AndroidPlatformProperties.cs" line="15" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.AndroidPlatformProperties.cs" bodystart="15" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.AndroidPlatformProperties.cs" line="11" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.AndroidPlatformProperties.cs" bodystart="12" bodyend="19"/>
+    <listofallmembers>
+      <member refid="db/d3e/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1_1_android_platform_properties_1a5527586d8a460ad15ad884f5aac68ce5" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementDefinition::AndroidPlatformProperties</scope><name>AndroidPlatformProperties</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

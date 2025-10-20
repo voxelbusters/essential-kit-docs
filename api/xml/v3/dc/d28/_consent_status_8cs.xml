@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dc/d28/_consent_status_8cs" kind="file" language="C#">
+    <compoundname>ConsentStatus.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="d7/d45/namespace_voxel_busters_1_1_core_library">VoxelBusters::CoreLibrary</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="d7/d45/namespace_voxel_busters_1_1_core_library_1a80c482e730f2bc4c1222c0f4f5288d6a" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ConsentStatus</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ConsentStatus</qualifiedname>
+        <enumvalue id="d7/d45/namespace_voxel_busters_1_1_core_library_1a80c482e730f2bc4c1222c0f4f5288d6aabf6dbc731ea21f21b9bf8ed1cc3e7a1a" prot="public">
+          <name>NotDetermined</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d45/namespace_voxel_busters_1_1_core_library_1a80c482e730f2bc4c1222c0f4f5288d6aa58d036b9b7f0e7eb38cfb90f1cc70a73" prot="public">
+          <name>Denied</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d45/namespace_voxel_busters_1_1_core_library_1a80c482e730f2bc4c1222c0f4f5288d6aaa206428462686af481cb072b8db11784" prot="public">
+          <name>Authorized</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/ConsentStatus.cs" line="7" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/ConsentStatus.cs" bodystart="8" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/ConsentStatus.cs"/>
+  </compounddef>
+</doxygen>

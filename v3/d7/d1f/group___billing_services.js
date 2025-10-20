@@ -93,13 +93,11 @@ var group___billing_services =
       [ "GetTransactions", "d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#a41882dda3662550824b58c35e5454a5f", null ],
       [ "FinishTransactions", "d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#a2f0e3c49ac61146bc2e8f21bb0eebed7", null ],
       [ "RestorePurchases", "d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#ae2d89aff47dbcaed7a59cfee1b1088e9", null ],
-      [ "BuyProduct", "d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#adf2b409ab054568ae069e3eb0d60901c", null ],
-      [ "BuyProduct", "d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#afcb2a730e6fab8ae4edaf061491368c8", null ],
-      [ "RestorePurchases", "d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#a24212c37e0c5277eba61fa76a2cf6a3b", null ],
       [ "Products", "d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#a0348608165317345943fae4d7ba2835e", null ],
       [ "OnInitializeStoreComplete", "d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#ad487ce650880e3c88afd00d07647cff8", null ],
       [ "OnTransactionStateChange", "d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#aab6295ca48645407097f0f276845ab13", null ],
-      [ "OnRestorePurchasesComplete", "d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#ac1cd4538761d81c93c380af38362c7f1", null ]
+      [ "OnRestorePurchasesComplete", "d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#ac1cd4538761d81c93c380af38362c7f1", null ],
+      [ "OnExternalProductPurchaseAction", "d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#aae23d7eae5fdd4cfe49b090b0aaae8d6", null ]
     ] ],
     [ "BillingServicesInitializeStoreResult", "d6/dd4/class_voxel_busters_1_1_essential_kit_1_1_billing_services_initialize_store_result.html", [
       [ "Products", "d6/dd4/class_voxel_busters_1_1_essential_kit_1_1_billing_services_initialize_store_result.html#a0348608165317345943fae4d7ba2835e", null ],
@@ -117,12 +115,14 @@ var group___billing_services =
         [ "SetTag", "d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder.html#a47fb026c0633b397a41c4f01e83f75f0", null ],
         [ "SetQuantity", "d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder.html#ac1cf13e76763efe02c7554b94e8c9ad6", null ],
         [ "SetOfferRedeemDetails", "d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder.html#a8dd6904e73b175c8f3be2b40fad3649e", null ],
+        [ "SetPreviousProductIdentifier", "d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder.html#a506361a9735bcaf998e4d9e218b45cd0", null ],
         [ "Build", "d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder.html#a1f68c88a05351e965f4fd875e11f0e2f", null ]
       ] ],
       [ "Default", "d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options.html#a338e297ce7daa88c4ab465a097c3928e", null ],
       [ "Tag", "d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options.html#a121d9cb485fa9e23380cb8c883e46c9c", null ],
       [ "Quantity", "d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options.html#a8081d8fb9d8f51e49f80d612438324cf", null ],
-      [ "OfferRedeemDetails", "d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options.html#ade4f0560573c6ae75e951b37819c247f", null ]
+      [ "OfferRedeemDetails", "d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options.html#ade4f0560573c6ae75e951b37819c247f", null ],
+      [ "PreviousProductIdentifier", "d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options.html#a2e25e2b429f32c9fe649ed085bc09a2d", null ]
     ] ],
     [ "IBillingProduct", "d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product.html", [
       [ "Id", "d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product.html#a186291c875988107b7ace745ea84d4ec", null ],

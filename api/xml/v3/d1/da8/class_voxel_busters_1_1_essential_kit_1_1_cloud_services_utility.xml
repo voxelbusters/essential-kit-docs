@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d1/da8/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_utility" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::CloudServicesUtility</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d1/da8/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_utility_1ab99b23fd9918112e8be770a80deefb3e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool TryGetCloudAndLocalCacheValues&lt; T &gt;</definition>
+        <argsstring>(string key, out T cloudValue, out T localCacheValue, T localCacheDefaultValue=default)</argsstring>
+        <name>TryGetCloudAndLocalCacheValues&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesUtility.TryGetCloudAndLocalCacheValues&lt; T &gt;</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>out T</type>
+          <declname>cloudValue</declname>
+        </param>
+        <param>
+          <type>out T</type>
+          <declname>localCacheValue</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>localCacheDefaultValue</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Gets the cloud and local cache value associated with the specified key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Specify the type of the value stored in cloud.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string used to identify the value stored in the cloud data store.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cloudValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value available in Cloud storage.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>localCacheValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value available in local cache.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>localCacheDefaultValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The default value to be used when specified key doesn&apos;t exist in local cache.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServicesUtility.cs" line="23" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServicesUtility.cs" bodystart="23" bodyend="76"/>
+        <references refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a47a31504c00ff2ad7dcc50dad3f81b0c" compoundref="d7/db8/_cloud_services_8cs" startline="122" endline="141">CloudServices.GetBool</references>
+        <references refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a1b536ec77117a3f1c3b6bd66ccf6c3b2" compoundref="d7/db8/_cloud_services_8cs" startline="246" endline="265">CloudServices.GetByteArray</references>
+        <references refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a9350f8eeb1a405eaf403c0a2eda90391" compoundref="d7/db8/_cloud_services_8cs" startline="194" endline="213">CloudServices.GetDouble</references>
+        <references refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1aaf00cdc07a7e3e110bdac0642f302a38" compoundref="d7/db8/_cloud_services_8cs" startline="184" endline="187">CloudServices.GetFloat</references>
+        <references refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a0caa7d7e37b4f28cbe2b4039f73dfe54" compoundref="d7/db8/_cloud_services_8cs" startline="148" endline="151">CloudServices.GetInt</references>
+        <references refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1abbd36a9cc47288e0f334aebc484d8add" compoundref="d7/db8/_cloud_services_8cs" startline="158" endline="177">CloudServices.GetLong</references>
+        <references refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1ac984a5da1e145ef9494a2d2d7cd968ac" compoundref="d7/db8/_cloud_services_8cs" startline="220" endline="239">CloudServices.GetString</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Utility class for handling cloud services related operations. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServicesUtility.cs" line="12" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServicesUtility.cs" bodystart="13" bodyend="77"/>
+    <listofallmembers>
+      <member refid="d1/da8/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_utility_1ab99b23fd9918112e8be770a80deefb3e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesUtility</scope><name>TryGetCloudAndLocalCacheValues&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

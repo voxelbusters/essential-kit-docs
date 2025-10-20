@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d1/d60/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_sharing_interface" kind="class" language="C#" prot="public" sealed="yes">
+    <compoundname>VoxelBusters::EssentialKit::SharingServicesCore::NullSharingInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NativeSharingInterfaceBase</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INativeSharingInterface</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d60/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_sharing_interface_1a70239e574e855dd92b3e236d52fae21e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NullSharingInterface</definition>
+        <argsstring>()</argsstring>
+        <name>NullSharingInterface</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullSharingInterface.NullSharingInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSharingInterface.cs" line="11" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSharingInterface.cs" bodystart="11" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d60/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_sharing_interface_1ad9299e23549465065483b0bad37cdb61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool CanSendMail</definition>
+        <argsstring>()</argsstring>
+        <name>CanSendMail</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullSharingInterface.CanSendMail</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSharingInterface.cs" line="19" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSharingInterface.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d60/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_sharing_interface_1a0edfc3fb796c63964970fce65d8e5cf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override INativeMailComposer</type>
+        <definition>override INativeMailComposer CreateMailComposer</definition>
+        <argsstring>()</argsstring>
+        <name>CreateMailComposer</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullSharingInterface.CreateMailComposer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSharingInterface.cs" line="24" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSharingInterface.cs" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d60/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_sharing_interface_1a10058e9984419eeb921105415dc5ec26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool CanSendText</definition>
+        <argsstring>()</argsstring>
+        <name>CanSendText</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullSharingInterface.CanSendText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSharingInterface.cs" line="29" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSharingInterface.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d60/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_sharing_interface_1a4a463f0a8a86fa880b3493c530591cae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool CanSendAttachments</definition>
+        <argsstring>()</argsstring>
+        <name>CanSendAttachments</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullSharingInterface.CanSendAttachments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSharingInterface.cs" line="34" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSharingInterface.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d60/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_sharing_interface_1af690e84a7b046bed263fa6af1252221a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool CanSendSubject</definition>
+        <argsstring>()</argsstring>
+        <name>CanSendSubject</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullSharingInterface.CanSendSubject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSharingInterface.cs" line="39" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSharingInterface.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d60/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_sharing_interface_1a480d6de72087815c88a78e94f3d8dfd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override INativeMessageComposer</type>
+        <definition>override INativeMessageComposer CreateMessageComposer</definition>
+        <argsstring>()</argsstring>
+        <name>CreateMessageComposer</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullSharingInterface.CreateMessageComposer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSharingInterface.cs" line="44" column="48" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSharingInterface.cs" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d60/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_sharing_interface_1a6a58a4f11b15277020683fcffecbdb10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override INativeShareSheet</type>
+        <definition>override INativeShareSheet CreateShareSheet</definition>
+        <argsstring>()</argsstring>
+        <name>CreateShareSheet</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullSharingInterface.CreateShareSheet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSharingInterface.cs" line="49" column="43" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSharingInterface.cs" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d60/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_sharing_interface_1a256ef538bfc61ea9adf0658a0f5b2dc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool IsSocialShareComposerAvailable</definition>
+        <argsstring>(SocialShareComposerType composerType)</argsstring>
+        <name>IsSocialShareComposerAvailable</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullSharingInterface.IsSocialShareComposerAvailable</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1afdc794be6e025a649c9261e3e48b2e46" kindref="member">SocialShareComposerType</ref></type>
+          <declname>composerType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSharingInterface.cs" line="54" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSharingInterface.cs" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d60/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_sharing_interface_1a00de5b95d19bde1106bf1479103f089b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override INativeSocialShareComposer</type>
+        <definition>override INativeSocialShareComposer CreateSocialShareComposer</definition>
+        <argsstring>(SocialShareComposerType composerType)</argsstring>
+        <name>CreateSocialShareComposer</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullSharingInterface.CreateSocialShareComposer</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1afdc794be6e025a649c9261e3e48b2e46" kindref="member">SocialShareComposerType</ref></type>
+          <declname>composerType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSharingInterface.cs" line="59" column="52" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSharingInterface.cs" bodystart="59" bodyend="62"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSharingInterface.cs" line="7" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSharingInterface.cs" bodystart="8" bodyend="65"/>
+    <listofallmembers>
+      <member refid="d1/d60/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_sharing_interface_1a4a463f0a8a86fa880b3493c530591cae" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullSharingInterface</scope><name>CanSendAttachments</name></member>
+      <member refid="d1/d60/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_sharing_interface_1ad9299e23549465065483b0bad37cdb61" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullSharingInterface</scope><name>CanSendMail</name></member>
+      <member refid="d1/d60/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_sharing_interface_1af690e84a7b046bed263fa6af1252221a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullSharingInterface</scope><name>CanSendSubject</name></member>
+      <member refid="d1/d60/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_sharing_interface_1a10058e9984419eeb921105415dc5ec26" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullSharingInterface</scope><name>CanSendText</name></member>
+      <member refid="d1/d60/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_sharing_interface_1a0edfc3fb796c63964970fce65d8e5cf6" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullSharingInterface</scope><name>CreateMailComposer</name></member>
+      <member refid="d1/d60/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_sharing_interface_1a480d6de72087815c88a78e94f3d8dfd5" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullSharingInterface</scope><name>CreateMessageComposer</name></member>
+      <member refid="d1/d60/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_sharing_interface_1a6a58a4f11b15277020683fcffecbdb10" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullSharingInterface</scope><name>CreateShareSheet</name></member>
+      <member refid="d1/d60/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_sharing_interface_1a00de5b95d19bde1106bf1479103f089b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullSharingInterface</scope><name>CreateSocialShareComposer</name></member>
+      <member refid="d1/d60/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_sharing_interface_1a256ef538bfc61ea9adf0658a0f5b2dc5" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullSharingInterface</scope><name>IsSocialShareComposerAvailable</name></member>
+      <member refid="d3/d6a/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_native_sharing_interface_base_1ac2ef80852d0c993ea58e26790c0c96c6" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullSharingInterface</scope><name>NativeSharingInterfaceBase</name></member>
+      <member refid="d1/d60/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_sharing_interface_1a70239e574e855dd92b3e236d52fae21e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullSharingInterface</scope><name>NullSharingInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

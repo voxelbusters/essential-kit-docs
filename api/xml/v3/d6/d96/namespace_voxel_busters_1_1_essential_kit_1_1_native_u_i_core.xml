@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d6/d96/namespace_voxel_busters_1_1_essential_kit_1_1_native_u_i_core" kind="namespace" language="C#">
+    <compoundname>VoxelBusters::EssentialKit::NativeUICore</compoundname>
+    <innerclass refid="d1/df6/interface_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_i_native_alert_dialog_interface" prot="public">VoxelBusters::EssentialKit::NativeUICore::INativeAlertDialogInterface</innerclass>
+    <innerclass refid="da/d02/interface_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_i_native_date_picker_interface" prot="public">VoxelBusters::EssentialKit::NativeUICore::INativeDatePickerInterface</innerclass>
+    <innerclass refid="d5/dd7/interface_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_i_native_u_i_interface" prot="public">VoxelBusters::EssentialKit::NativeUICore::INativeUIInterface</innerclass>
+    <innerclass refid="dd/d8e/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_native_alert_dialog_interface_base" prot="public">VoxelBusters::EssentialKit::NativeUICore::NativeAlertDialogInterfaceBase</innerclass>
+    <innerclass refid="d3/def/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_native_date_picker_interface_base" prot="public">VoxelBusters::EssentialKit::NativeUICore::NativeDatePickerInterfaceBase</innerclass>
+    <innerclass refid="db/d80/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_native_u_i_interface_base" prot="public">VoxelBusters::EssentialKit::NativeUICore::NativeUIInterfaceBase</innerclass>
+    <innerclass refid="d1/d5c/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_null_date_picker_interface" prot="public">VoxelBusters::EssentialKit::NativeUICore::NullDatePickerInterface</innerclass>
+    <innerclass refid="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface" prot="public">VoxelBusters::EssentialKit::NativeUICore::UnityUIAlertDialogInterface</innerclass>
+    <innerclass refid="d7/de6/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_date_picker" prot="public">VoxelBusters::EssentialKit::NativeUICore::UnityUIDatePicker</innerclass>
+    <innerclass refid="db/dec/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_date_picker_interface" prot="public">VoxelBusters::EssentialKit::NativeUICore::UnityUIDatePickerInterface</innerclass>
+    <innerclass refid="d0/dd1/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_interface" prot="public">VoxelBusters::EssentialKit::NativeUICore::UnityUIInterface</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="d6/d96/namespace_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1a1c505433fe3b607e8a0d1651ed240977" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void AlertButtonClickInternalCallback</definition>
+        <argsstring>(int selectedButtonIndex, string[] inputValues)</argsstring>
+        <name>AlertButtonClickInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.AlertButtonClickInternalCallback</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>selectedButtonIndex</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>inputValues</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/Delegates.cs" line="8" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/Delegates.cs" declline="8" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d96/namespace_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1ac3f46b5c8f183cb23020d2163937ccae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void DatePickerClosedInternalCallback</definition>
+        <argsstring>(DateTime? selectedDate, Error error)</argsstring>
+        <name>DatePickerClosedInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.DatePickerClosedInternalCallback</qualifiedname>
+        <param>
+          <type>DateTime?</type>
+          <declname>selectedDate</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/Delegates.cs" line="10" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/Delegates.cs" declline="10" declcolumn="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/Delegates.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

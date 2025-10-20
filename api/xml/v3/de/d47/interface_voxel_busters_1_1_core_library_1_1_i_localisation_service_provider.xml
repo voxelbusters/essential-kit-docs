@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="de/d47/interface_voxel_busters_1_1_core_library_1_1_i_localisation_service_provider" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::ILocalisationServiceProvider</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d47/interface_voxel_busters_1_1_core_library_1_1_i_localisation_service_provider_1ae99a18bf6d8a9ffc6cbb7221474961f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetLocalisedString</definition>
+        <argsstring>(string key, string defaultValue)</argsstring>
+        <name>GetLocalisedString</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ILocalisationServiceProvider.GetLocalisedString</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>defaultValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ILocalisationServiceProvider.cs" line="9" column="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ILocalisationServiceProvider.cs" line="7" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ILocalisationServiceProvider.cs" bodystart="8" bodyend="10"/>
+    <listofallmembers>
+      <member refid="de/d47/interface_voxel_busters_1_1_core_library_1_1_i_localisation_service_provider_1ae99a18bf6d8a9ffc6cbb7221474961f2" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ILocalisationServiceProvider</scope><name>GetLocalisedString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

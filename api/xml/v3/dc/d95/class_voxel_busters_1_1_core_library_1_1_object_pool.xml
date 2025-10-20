@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::ObjectPool</compoundname>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool_1a0a62f032e5c5e8fa00c72a639d54c4c2" prot="private" static="no" mutable="no">
+        <type>readonly Stack&lt; T &gt;</type>
+        <definition>readonly Stack&lt;T&gt; m_stack</definition>
+        <argsstring></argsstring>
+        <name>m_stack</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ObjectPool.m_stack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" line="12" column="50" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool_1aa023c683827859d80989d7ce4b973a7e" prot="private" static="no" mutable="no">
+        <type>readonly System.Func&lt; T &gt;</type>
+        <definition>readonly System.Func&lt;T&gt; m_createFunc</definition>
+        <argsstring></argsstring>
+        <name>m_createFunc</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ObjectPool.m_createFunc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" line="14" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool_1a091e6eb84f648a3722c55cf3fc32b314" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a7aad06b84eedaea282efda0972c4197b" kindref="member">Callback</ref>&lt; T &gt;</type>
+        <definition>readonly Callback&lt;T&gt; m_actionOnGet</definition>
+        <argsstring></argsstring>
+        <name>m_actionOnGet</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ObjectPool.m_actionOnGet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" line="16" column="50" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool_1a9f91f2a987eb5e5ee68e8b641a332646" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a7aad06b84eedaea282efda0972c4197b" kindref="member">Callback</ref>&lt; T &gt;</type>
+        <definition>readonly Callback&lt;T&gt; m_actionOnAdd</definition>
+        <argsstring></argsstring>
+        <name>m_actionOnAdd</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ObjectPool.m_actionOnAdd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" line="18" column="50" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool_1a9d335796083dffe991a45d9e8b473515" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a7aad06b84eedaea282efda0972c4197b" kindref="member">Callback</ref>&lt; T &gt;</type>
+        <definition>readonly Callback&lt;T&gt; m_actionOnRelease</definition>
+        <argsstring></argsstring>
+        <name>m_actionOnRelease</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ObjectPool.m_actionOnRelease</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" line="20" column="50" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool_1a7b20ab8f87eadd6055af34b3750cbfb8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int CountAll</definition>
+        <argsstring></argsstring>
+        <name>CountAll</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ObjectPool.CountAll</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" line="26" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool_1ac41c27f7211379d0cd926ea63e9d6c1a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int CountActive</definition>
+        <argsstring></argsstring>
+        <name>CountActive</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ObjectPool.CountActive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" line="28" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool_1a7380db219b540b17d202af28f66a0129" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int CountInactive</definition>
+        <argsstring></argsstring>
+        <name>CountInactive</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ObjectPool.CountInactive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" line="30" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool_1ad8db2bebdb0afefa1f7ba77915ccbb61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjectPool</definition>
+        <argsstring>(System.Func&lt; T &gt; createFunc, Callback&lt; T &gt; actionOnGet=null, Callback&lt; T &gt; actionOnAdd=null, Callback&lt; T &gt; actionOnRelease=null)</argsstring>
+        <name>ObjectPool</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ObjectPool.ObjectPool</qualifiedname>
+        <param>
+          <type>System.Func&lt; T &gt;</type>
+          <declname>createFunc</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a7aad06b84eedaea282efda0972c4197b" kindref="member">Callback</ref>&lt; T &gt;</type>
+          <declname>actionOnGet</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a7aad06b84eedaea282efda0972c4197b" kindref="member">Callback</ref>&lt; T &gt;</type>
+          <declname>actionOnAdd</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a7aad06b84eedaea282efda0972c4197b" kindref="member">Callback</ref>&lt; T &gt;</type>
+          <declname>actionOnRelease</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" line="36" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" bodystart="36" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool_1ae25a8d58a6b45cb68029ab1a355e9a75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T Get</definition>
+        <argsstring>()</argsstring>
+        <name>Get</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ObjectPool.Get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" line="50" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" bodystart="50" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool_1a9c5831ad6d8d69db8e19944e2e29b557" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Add</definition>
+        <argsstring>(T element)</argsstring>
+        <name>Add</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ObjectPool.Add</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" line="70" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" bodystart="70" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool_1a372de693ad40b3f42839c8ec6ac845f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ObjectPool.Reset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" line="84" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" bodystart="84" bodyend="92"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" line="8" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/ObjectPool{T}.cs" bodystart="9" bodyend="95"/>
+    <listofallmembers>
+      <member refid="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool_1a9c5831ad6d8d69db8e19944e2e29b557" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ObjectPool</scope><name>Add</name></member>
+      <member refid="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool_1ac41c27f7211379d0cd926ea63e9d6c1a" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ObjectPool</scope><name>CountActive</name></member>
+      <member refid="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool_1a7b20ab8f87eadd6055af34b3750cbfb8" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ObjectPool</scope><name>CountAll</name></member>
+      <member refid="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool_1a7380db219b540b17d202af28f66a0129" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ObjectPool</scope><name>CountInactive</name></member>
+      <member refid="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool_1ae25a8d58a6b45cb68029ab1a355e9a75" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ObjectPool</scope><name>Get</name></member>
+      <member refid="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool_1a9f91f2a987eb5e5ee68e8b641a332646" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ObjectPool</scope><name>m_actionOnAdd</name></member>
+      <member refid="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool_1a091e6eb84f648a3722c55cf3fc32b314" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ObjectPool</scope><name>m_actionOnGet</name></member>
+      <member refid="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool_1a9d335796083dffe991a45d9e8b473515" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ObjectPool</scope><name>m_actionOnRelease</name></member>
+      <member refid="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool_1aa023c683827859d80989d7ce4b973a7e" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ObjectPool</scope><name>m_createFunc</name></member>
+      <member refid="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool_1a0a62f032e5c5e8fa00c72a639d54c4c2" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ObjectPool</scope><name>m_stack</name></member>
+      <member refid="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool_1ad8db2bebdb0afefa1f7ba77915ccbb61" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ObjectPool</scope><name>ObjectPool</name></member>
+      <member refid="dc/d95/class_voxel_busters_1_1_core_library_1_1_object_pool_1a372de693ad40b3f42839c8ec6ac845f4" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ObjectPool</scope><name>Reset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_a5a683b209f8eea6c60f07c9650fba4b" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary</compoundname>
+    <innerdir refid="dir_34b22fa79a26b1dbff2ca960de6aa18e">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations</innerdir>
+    <innerdir refid="dir_2f03818565e81c1c84c877e27eb5aa00">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes</innerdir>
+    <innerdir refid="dir_46ba987472c219c0210f8d0b0dc7fffc">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components</innerdir>
+    <innerdir refid="dir_de75cfe0dcbfa964acea4f1473963103">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants</innerdir>
+    <innerdir refid="dir_81cc4e9a3b0820de399cc0c83191a25a">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels</innerdir>
+    <innerdir refid="dir_eb83dde0c2775c6c676e5968ecb9b996">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DesignPatterns</innerdir>
+    <innerdir refid="dir_7b2d99e869a25cc04466b7d6bfb9f8c8">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Events</innerdir>
+    <innerdir refid="dir_79cf242be16f36f90fc55b520bb47736">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces</innerdir>
+    <innerdir refid="dir_4ddfb3fb698ab993c686c1f1c0a24f99">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers</innerdir>
+    <innerdir refid="dir_7c9c3cbe5d8b35cd62b8a5d9b254b5d6">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc</innerdir>
+    <innerdir refid="dir_da671b2f2a2319acb66a70a4195805da">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Networking</innerdir>
+    <innerdir refid="dir_83559809ec978f72feb8d721179a133e">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup</innerdir>
+    <innerdir refid="dir_84411f590a711b949721e623daae0599">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities</innerdir>
+    <innerfile refid="d7/d2f/_assembly_info_8cs">AssemblyInfo.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/"/>
+  </compounddef>
+</doxygen>

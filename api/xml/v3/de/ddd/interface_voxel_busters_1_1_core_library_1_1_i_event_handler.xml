@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="de/ddd/interface_voxel_busters_1_1_core_library_1_1_i_event_handler" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::IEventHandler</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="de/ddd/interface_voxel_busters_1_1_core_library_1_1_i_event_handler_1abd0122a696c05167707a7a9f3884f42d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int CallbackOrder</definition>
+        <argsstring></argsstring>
+        <name>CallbackOrder</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IEventHandler.CallbackOrder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Events/IEventHandler.cs" line="14" column="13" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Events/IEventHandler.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Base interface that all event handlers inherit from. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Events/IEventHandler.cs" line="12" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Events/IEventHandler.cs" bodystart="13" bodyend="15"/>
+    <listofallmembers>
+      <member refid="de/ddd/interface_voxel_busters_1_1_core_library_1_1_i_event_handler_1abd0122a696c05167707a7a9f3884f42d" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IEventHandler</scope><name>CallbackOrder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

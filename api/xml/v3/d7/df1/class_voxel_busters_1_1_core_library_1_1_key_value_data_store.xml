@@ -1,0 +1,628 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::KeyValueDataStore</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a682c1195ad304b81e4d95ad42284c5d9" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; string, object &gt;</type>
+        <definition>Dictionary&lt;string, object&gt; m_dataCollection</definition>
+        <argsstring></argsstring>
+        <name>m_dataCollection</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.KeyValueDataStore.m_dataCollection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="15" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1ad701de8fe61ff8f38ba302baabe23035" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_savePath</definition>
+        <argsstring></argsstring>
+        <name>m_savePath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.KeyValueDataStore.m_savePath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="17" column="53" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a5283b6f110e91801d57018f252e27ffc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KeyValueDataStore</definition>
+        <argsstring>(string savePath)</argsstring>
+        <name>KeyValueDataStore</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.KeyValueDataStore.KeyValueDataStore</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>savePath</declname>
+        </param>
+        <briefdescription>
+<para>Create a new instance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>savePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The file path to save contents.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="27" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="27" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a1629aa7357d754f083c7057be08c52a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GetBool</definition>
+        <argsstring>(string key, bool defaultValue=default)</argsstring>
+        <name>GetBool</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.KeyValueDataStore.GetBool</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>defaultValue</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Returns the boolean value associated with the specified key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string used to identify the value stored in the data store.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>defaultValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Default value.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="44" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="44" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a5a9e64296ecde773f7f251ba0f0917e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long GetLong</definition>
+        <argsstring>(string key, long defaultValue=default)</argsstring>
+        <name>GetLong</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.KeyValueDataStore.GetLong</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>defaultValue</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Returns the long value associated with the specified key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string used to identify the value stored in the data store.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>defaultValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Default value.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="59" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="59" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a96d493384a3a86fd42ef9e0705a00346" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double GetDouble</definition>
+        <argsstring>(string key, double defaultValue=default)</argsstring>
+        <name>GetDouble</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.KeyValueDataStore.GetDouble</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>defaultValue</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Returns the double value associated with the specified key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string used to identify the value stored in the data store.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>defaultValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Default value.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="74" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="74" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a748447f5212b852ef892d47acce0f0dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetString</definition>
+        <argsstring>(string key, string defaultValue=default)</argsstring>
+        <name>GetString</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.KeyValueDataStore.GetString</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>defaultValue</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Returns the string value associated with the specified key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string used to identify the value stored in the data store.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>defaultValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Default value.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="89" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="89" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1af27ba161f99b08b36ab39e2c7bbe4af0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>byte[] GetByteArray</definition>
+        <argsstring>(string key, byte[] defaultValue=default)</argsstring>
+        <name>GetByteArray</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.KeyValueDataStore.GetByteArray</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>defaultValue</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Returns the byte array object associated with the specified key. <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string used to identify the value stored in the data store.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>defaultValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Default value.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="104" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="104" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1aeb78c878af8e4c0b54b6b78947975623" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IDictionary</type>
+        <definition>IDictionary GetSnapshot</definition>
+        <argsstring>()</argsstring>
+        <name>GetSnapshot</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.KeyValueDataStore.GetSnapshot</qualifiedname>
+        <briefdescription>
+<para>Returns the complete snapshot of data. <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Returns IDictionary with snapshot data</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="117" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="117" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a691c82fd00a90fff5e7554b4393d7ca9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetBool</definition>
+        <argsstring>(string key, bool value)</argsstring>
+        <name>SetBool</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.KeyValueDataStore.SetBool</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets a boolean value for the specified key in the data store. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key under which to store the value.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The boolean value to store.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="131" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="131" bodyend="135"/>
+        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1adc998578d58aa52f2f5efeaec6a380ba" compoundref="d7/db8/_cloud_services_8cs" startline="302" endline="323">CloudServices.SetBool</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1aff2f1d4f2369beb352f837d378ae2a08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetLong</definition>
+        <argsstring>(string key, long value)</argsstring>
+        <name>SetLong</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.KeyValueDataStore.SetLong</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets a long value for the specified key in the data store. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key under which to store the value.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The long value to store.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="142" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="142" bodyend="146"/>
+        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a840eededc0c7294ed04208fec769899a" compoundref="d7/db8/_cloud_services_8cs" startline="340" endline="361">CloudServices.SetLong</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1adb6dd48bd289e834844e12f2ca1eac0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetDouble</definition>
+        <argsstring>(string key, double value)</argsstring>
+        <name>SetDouble</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.KeyValueDataStore.SetDouble</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets a double value for the specified key in the data store. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key under which to store the value.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The double value to store.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="153" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="153" bodyend="157"/>
+        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1aaac6f2b336bf35521015142d0404cb24" compoundref="d7/db8/_cloud_services_8cs" startline="378" endline="399">CloudServices.SetDouble</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1ae870ef904ae29e7b220d7fbadff193ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetString</definition>
+        <argsstring>(string key, string value)</argsstring>
+        <name>SetString</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.KeyValueDataStore.SetString</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets a string value for the specified key in the data store. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key under which to store the value.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string value to store.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="164" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="164" bodyend="168"/>
+        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1af42da4722e4c7718d43080ba3edb766e" compoundref="d7/db8/_cloud_services_8cs" startline="406" endline="427">CloudServices.SetString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a1e35ec08d87e62f189c57f0c12fe1183" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetByteArray</definition>
+        <argsstring>(string key, byte[] value)</argsstring>
+        <name>SetByteArray</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.KeyValueDataStore.SetByteArray</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets a byte array value for the specified key in the data store. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key under which to store the value.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The long value to store.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="175" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="175" bodyend="179"/>
+        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1aa88933e605d3cd67ec143e2bdcfa4ba6" compoundref="d7/db8/_cloud_services_8cs" startline="434" endline="455">CloudServices.SetByteArray</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a9ca5b99b3550503ca7bad8418e133156" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Synchronize</definition>
+        <argsstring>()</argsstring>
+        <name>Synchronize</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.KeyValueDataStore.Synchronize</qualifiedname>
+        <briefdescription>
+<para>Explicitly synchronizes in-memory data with those stored on disk. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="188" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="188" bodyend="192"/>
+        <references refid="d4/db5/class_voxel_busters_1_1_core_library_1_1_external_service_provider_1a6413c11580b05eb4401cf1ea0243e8e6" compoundref="d3/d2c/_external_service_provider_8cs" startline="29" endline="42">ExternalServiceProvider.JsonServiceProvider</references>
+        <references refid="d4/d8a/interface_voxel_busters_1_1_core_library_1_1_i_json_service_provider_1a5d91d552f664a8f18abc224121eaae4f">IJsonServiceProvider.ToJson</references>
+        <referencedby refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1aa71d36872f416feaa853788a7a7a7ef8" compoundref="db/dc3/_key_value_data_store_8cs" startline="197" endline="201">KeyValueDataStore.Clear</referencedby>
+        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1ac5fdc0063f43a370213502f228a36fde" compoundref="d7/db8/_cloud_services_8cs" startline="472" endline="492">CloudServices.Synchronize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1aa71d36872f416feaa853788a7a7a7ef8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.KeyValueDataStore.Clear</qualifiedname>
+        <briefdescription>
+<para>Removes all the entries from the data store. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="197" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="197" bodyend="201"/>
+        <references refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a9ca5b99b3550503ca7bad8418e133156" compoundref="db/dc3/_key_value_data_store_8cs" startline="188" endline="192">KeyValueDataStore.Synchronize</references>
+      </memberdef>
+      <memberdef kind="function" id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a238e438e2b03405741317bad0cd9da12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool RemoveKey</definition>
+        <argsstring>(string key)</argsstring>
+        <name>RemoveKey</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.KeyValueDataStore.RemoveKey</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>Removes the value associated with the specified key from the data store. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key corresponding to the value you want to remove.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="207" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="207" bodyend="210"/>
+        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1aa4bddd4e8a729aff19d716519e416364" compoundref="d7/db8/_cloud_services_8cs" startline="502" endline="519">CloudServices.RemoveKey</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1af3dd967c0a806bc466ae878a44e4f8d4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; string, object &gt;</type>
+        <definition>Dictionary&lt; string, object &gt; LoadDataFromPath</definition>
+        <argsstring>(string path)</argsstring>
+        <name>LoadDataFromPath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.KeyValueDataStore.LoadDataFromPath</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="216" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="216" bodyend="222"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Object represents a container to store key-value pairs. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="11" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="12" bodyend="225"/>
+    <listofallmembers>
+      <member refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1aa71d36872f416feaa853788a7a7a7ef8" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::KeyValueDataStore</scope><name>Clear</name></member>
+      <member refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a1629aa7357d754f083c7057be08c52a5" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::KeyValueDataStore</scope><name>GetBool</name></member>
+      <member refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1af27ba161f99b08b36ab39e2c7bbe4af0" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::KeyValueDataStore</scope><name>GetByteArray</name></member>
+      <member refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a96d493384a3a86fd42ef9e0705a00346" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::KeyValueDataStore</scope><name>GetDouble</name></member>
+      <member refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a5a9e64296ecde773f7f251ba0f0917e8" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::KeyValueDataStore</scope><name>GetLong</name></member>
+      <member refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1aeb78c878af8e4c0b54b6b78947975623" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::KeyValueDataStore</scope><name>GetSnapshot</name></member>
+      <member refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a748447f5212b852ef892d47acce0f0dd" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::KeyValueDataStore</scope><name>GetString</name></member>
+      <member refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a5283b6f110e91801d57018f252e27ffc" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::KeyValueDataStore</scope><name>KeyValueDataStore</name></member>
+      <member refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1af3dd967c0a806bc466ae878a44e4f8d4" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::KeyValueDataStore</scope><name>LoadDataFromPath</name></member>
+      <member refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a682c1195ad304b81e4d95ad42284c5d9" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::KeyValueDataStore</scope><name>m_dataCollection</name></member>
+      <member refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1ad701de8fe61ff8f38ba302baabe23035" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::KeyValueDataStore</scope><name>m_savePath</name></member>
+      <member refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a238e438e2b03405741317bad0cd9da12" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::KeyValueDataStore</scope><name>RemoveKey</name></member>
+      <member refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a691c82fd00a90fff5e7554b4393d7ca9" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::KeyValueDataStore</scope><name>SetBool</name></member>
+      <member refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a1e35ec08d87e62f189c57f0c12fe1183" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::KeyValueDataStore</scope><name>SetByteArray</name></member>
+      <member refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1adb6dd48bd289e834844e12f2ca1eac0c" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::KeyValueDataStore</scope><name>SetDouble</name></member>
+      <member refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1aff2f1d4f2369beb352f837d378ae2a08" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::KeyValueDataStore</scope><name>SetLong</name></member>
+      <member refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1ae870ef904ae29e7b220d7fbadff193ae" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::KeyValueDataStore</scope><name>SetString</name></member>
+      <member refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a9ca5b99b3550503ca7bad8418e133156" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::KeyValueDataStore</scope><name>Synchronize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

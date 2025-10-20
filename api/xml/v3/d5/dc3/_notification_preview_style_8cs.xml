@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d5/dc3/_notification_preview_style_8cs" kind="file" language="C#">
+    <compoundname>NotificationPreviewStyle.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a32634e3fbf4fff5665ae5d06f948716e" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>NotificationPreviewStyle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationPreviewStyle</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a32634e3fbf4fff5665ae5d06f948716ea68eec46437c384d8dad18d5464ebc35c" prot="public">
+          <name>Always</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>The notification&apos;s content is always shown, even when the device is locked. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a32634e3fbf4fff5665ae5d06f948716eab4b709a57e0e6e795a9552636d15f9b4" prot="public">
+          <name>WhenAuthenticated</name>
+          <briefdescription>
+<para>The notification&apos;s content is shown only when the device is unlocked. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a32634e3fbf4fff5665ae5d06f948716ea6e7b34fa59e1bd229b207892956dc41c" prot="public">
+          <name>Never</name>
+          <briefdescription>
+<para>The notification&apos;s content is never shown, even when the device is unlocked. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a32634e3fbf4fff5665ae5d06f948716ead3b0d0f8f919a0578319501c4c8c88be" prot="public">
+          <name>NotAccessible</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Constants indicating the style previewing a notification&apos;s content. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationPreviewStyle.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationPreviewStyle.cs" bodystart="11" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationPreviewStyle.cs"/>
+  </compounddef>
+</doxygen>

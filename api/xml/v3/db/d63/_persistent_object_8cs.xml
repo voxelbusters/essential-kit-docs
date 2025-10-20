@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/d63/_persistent_object_8cs" kind="file" language="C#">
+    <compoundname>PersistentObject.cs</compoundname>
+    <innerclass refid="d5/de6/class_voxel_busters_1_1_core_library_1_1_persistent_object" prot="public">VoxelBusters::CoreLibrary::PersistentObject</innerclass>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="d7/d45/namespace_voxel_busters_1_1_core_library">VoxelBusters::CoreLibrary</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/PersistentObject.cs"/>
+  </compounddef>
+</doxygen>

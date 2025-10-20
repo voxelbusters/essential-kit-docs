@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d6/d10/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_score_reporter_1_1_report_score_finish_event" kind="class" language="C#" prot="private">
+    <compoundname>VoxelBusters::EssentialKit::LeaderboardScoreReporter::ReportScoreFinishEvent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UnityEvent&lt; bool, Error &gt;</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardScoreReporter.cs" line="48" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardScoreReporter.cs" bodystart="49" bodyend="49"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

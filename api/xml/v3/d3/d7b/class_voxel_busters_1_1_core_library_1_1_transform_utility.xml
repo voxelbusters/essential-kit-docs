@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d3/d7b/class_voxel_busters_1_1_core_library_1_1_transform_utility" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::TransformUtility</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d3/d7b/class_voxel_busters_1_1_core_library_1_1_transform_utility_1a158db6a6d60602966fd390b343a46bf1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Transform[]</type>
+        <definition>static Transform[] GetImmediateChildren</definition>
+        <argsstring>(Transform transform)</argsstring>
+        <name>GetImmediateChildren</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.TransformUtility.GetImmediateChildren</qualifiedname>
+        <param>
+          <type>Transform</type>
+          <declname>transform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TransformUtility.cs" line="9" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TransformUtility.cs" bodystart="9" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d7b/class_voxel_busters_1_1_core_library_1_1_transform_utility_1ad73ec71298707505ac1a981cb994337d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T FindComponentInChildren&lt; T &gt;</definition>
+        <argsstring>(GameObject gameObject, string name)</argsstring>
+        <name>FindComponentInChildren&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.TransformUtility.FindComponentInChildren&lt; T &gt;</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>gameObject</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TransformUtility.cs" line="20" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TransformUtility.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d7b/class_voxel_busters_1_1_core_library_1_1_transform_utility_1aa392dadc57439c8d29bc6ad320289240" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RemoveAllChilds</definition>
+        <argsstring>(this Transform parent)</argsstring>
+        <name>RemoveAllChilds</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.TransformUtility.RemoveAllChilds</qualifiedname>
+        <param>
+          <type>this Transform</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TransformUtility.cs" line="25" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TransformUtility.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d7b/class_voxel_busters_1_1_core_library_1_1_transform_utility_1a0402ff30d7e783d4fbb01b6be8577ee1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RemoveChildren</definition>
+        <argsstring>(this Transform parent)</argsstring>
+        <name>RemoveChildren</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.TransformUtility.RemoveChildren</qualifiedname>
+        <param>
+          <type>this Transform</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TransformUtility.cs" line="30" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TransformUtility.cs" bodystart="30" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d7b/class_voxel_busters_1_1_core_library_1_1_transform_utility_1a4297dfe5de05d7c8c85be03dc5899ae1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RemoveChild</definition>
+        <argsstring>(this Transform parent, int index)</argsstring>
+        <name>RemoveChild</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.TransformUtility.RemoveChild</qualifiedname>
+        <param>
+          <type>this Transform</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TransformUtility.cs" line="39" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TransformUtility.cs" bodystart="39" bodyend="45"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TransformUtility.cs" line="5" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TransformUtility.cs" bodystart="6" bodyend="48"/>
+    <listofallmembers>
+      <member refid="d3/d7b/class_voxel_busters_1_1_core_library_1_1_transform_utility_1ad73ec71298707505ac1a981cb994337d" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::TransformUtility</scope><name>FindComponentInChildren&lt; T &gt;</name></member>
+      <member refid="d3/d7b/class_voxel_busters_1_1_core_library_1_1_transform_utility_1a158db6a6d60602966fd390b343a46bf1" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::TransformUtility</scope><name>GetImmediateChildren</name></member>
+      <member refid="d3/d7b/class_voxel_busters_1_1_core_library_1_1_transform_utility_1aa392dadc57439c8d29bc6ad320289240" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::TransformUtility</scope><name>RemoveAllChilds</name></member>
+      <member refid="d3/d7b/class_voxel_busters_1_1_core_library_1_1_transform_utility_1a4297dfe5de05d7c8c85be03dc5899ae1" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::TransformUtility</scope><name>RemoveChild</name></member>
+      <member refid="d3/d7b/class_voxel_busters_1_1_core_library_1_1_transform_utility_1a0402ff30d7e783d4fbb01b6be8577ee1" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::TransformUtility</scope><name>RemoveChildren</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

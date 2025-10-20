@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d0/d97/_async_operation_status_8cs" kind="file" language="C#">
+    <compoundname>AsyncOperationStatus.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="d7/d45/namespace_voxel_busters_1_1_core_library">VoxelBusters::CoreLibrary</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="d7/d45/namespace_voxel_busters_1_1_core_library_1a98b6d0bf47136d6869724ac03949eec0" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>AsyncOperationStatus</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.AsyncOperationStatus</qualifiedname>
+        <enumvalue id="d7/d45/namespace_voxel_busters_1_1_core_library_1a98b6d0bf47136d6869724ac03949eec0afa7be7845bc42b3491d9d0377958be94" prot="public">
+          <name>NotStarted</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d45/namespace_voxel_busters_1_1_core_library_1a98b6d0bf47136d6869724ac03949eec0a12d868c18cb29bf58f02b504be9033fd" prot="public">
+          <name>InProgress</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d45/namespace_voxel_busters_1_1_core_library_1a98b6d0bf47136d6869724ac03949eec0a66d02c2f8a582446f8dd8752366002b5" prot="public">
+          <name>Succeeded</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d45/namespace_voxel_busters_1_1_core_library_1a98b6d0bf47136d6869724ac03949eec0ad7c8c85bf79bbe1b7188497c32c3b0ca" prot="public">
+          <name>Failed</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/AsyncOperationStatus.cs" line="7" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/AsyncOperationStatus.cs" bodystart="8" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/AsyncOperationStatus.cs"/>
+  </compounddef>
+</doxygen>

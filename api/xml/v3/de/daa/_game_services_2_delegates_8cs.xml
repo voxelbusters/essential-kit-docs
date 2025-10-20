@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="de/daa/_game_services_2_delegates_8cs" kind="file" language="C#">
+    <compoundname>Delegates.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <innernamespace refid="d3/def/namespace_voxel_busters_1_1_essential_kit_1_1_game_services_core">VoxelBusters::EssentialKit::GameServicesCore</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="d3/def/namespace_voxel_busters_1_1_essential_kit_1_1_game_services_core_1aa42515d5f16b57495281a2029029d1c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void LoadLeaderboardsInternalCallback</definition>
+        <argsstring>(ILeaderboard[] leaderboards, Error error)</argsstring>
+        <name>LoadLeaderboardsInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LoadLeaderboardsInternalCallback</qualifiedname>
+        <param>
+          <type>ILeaderboard[]</type>
+          <declname>leaderboards</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/Delegates.cs" line="8" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/Delegates.cs" declline="8" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/def/namespace_voxel_busters_1_1_essential_kit_1_1_game_services_core_1a5f0d3870c8a1b22a889d5fe07374ccd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void LoadAchievementDescriptionsInternalCallback</definition>
+        <argsstring>(IAchievementDescription[] achievementDescriptions, Error error)</argsstring>
+        <name>LoadAchievementDescriptionsInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LoadAchievementDescriptionsInternalCallback</qualifiedname>
+        <param>
+          <type>IAchievementDescription[]</type>
+          <declname>achievementDescriptions</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/Delegates.cs" line="10" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/Delegates.cs" declline="10" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/def/namespace_voxel_busters_1_1_essential_kit_1_1_game_services_core_1abdf6b34bdd580cb5e415b583b1400607" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void LoadAchievementsInternalCallback</definition>
+        <argsstring>(IAchievement[] achievements, Error error)</argsstring>
+        <name>LoadAchievementsInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LoadAchievementsInternalCallback</qualifiedname>
+        <param>
+          <type>IAchievement[]</type>
+          <declname>achievements</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/Delegates.cs" line="12" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/Delegates.cs" declline="12" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/def/namespace_voxel_busters_1_1_essential_kit_1_1_game_services_core_1a3fe31ba8ae6ba5395f7292f728559427" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void ReportAchievementProgressInternalCallback</definition>
+        <argsstring>(bool success, Error error)</argsstring>
+        <name>ReportAchievementProgressInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.ReportAchievementProgressInternalCallback</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>success</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/Delegates.cs" line="14" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/Delegates.cs" declline="14" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/def/namespace_voxel_busters_1_1_essential_kit_1_1_game_services_core_1abfdc9836f60a8dca20146e7bbe4c85c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void LocalPlayerAuthChangeInternalCallback</definition>
+        <argsstring>(ILocalPlayer localPlayer, Error error)</argsstring>
+        <name>LocalPlayerAuthChangeInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LocalPlayerAuthChangeInternalCallback</qualifiedname>
+        <param>
+          <type>ILocalPlayer</type>
+          <declname>localPlayer</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/Delegates.cs" line="16" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/Delegates.cs" declline="16" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/def/namespace_voxel_busters_1_1_essential_kit_1_1_game_services_core_1a6973b407437cc5ef0f73d5d6db0458f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void LoadPlayersInternalCallback</definition>
+        <argsstring>(IPlayer[] players, Error error)</argsstring>
+        <name>LoadPlayersInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LoadPlayersInternalCallback</qualifiedname>
+        <param>
+          <type>IPlayer[]</type>
+          <declname>players</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/Delegates.cs" line="18" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/Delegates.cs" declline="18" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/def/namespace_voxel_busters_1_1_essential_kit_1_1_game_services_core_1a125f820af11a274d678db85629e3dd8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void LoadScoresInternalCallback</definition>
+        <argsstring>(ILeaderboardScore[] scores, ILeaderboardScore localPlayerScore, Error error)</argsstring>
+        <name>LoadScoresInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LoadScoresInternalCallback</qualifiedname>
+        <param>
+          <type>ILeaderboardScore[]</type>
+          <declname>scores</declname>
+        </param>
+        <param>
+          <type>ILeaderboardScore</type>
+          <declname>localPlayerScore</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/Delegates.cs" line="20" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/Delegates.cs" declline="20" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/def/namespace_voxel_busters_1_1_essential_kit_1_1_game_services_core_1a6aae59474d259b7bb2b4b239f06606a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void ReportScoreInternalCallback</definition>
+        <argsstring>(bool success, Error error)</argsstring>
+        <name>ReportScoreInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.ReportScoreInternalCallback</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>success</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/Delegates.cs" line="22" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/Delegates.cs" declline="22" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/def/namespace_voxel_busters_1_1_essential_kit_1_1_game_services_core_1a49a0534905b0786ae8fb87dac49881be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void ViewClosedInternalCallback</definition>
+        <argsstring>(Error error)</argsstring>
+        <name>ViewClosedInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.ViewClosedInternalCallback</qualifiedname>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/Delegates.cs" line="24" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/Delegates.cs" declline="24" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/def/namespace_voxel_busters_1_1_essential_kit_1_1_game_services_core_1a20b1b24e3ce2139c75b8ef0e4282248d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void LoadServerCredentialsInternalCallback</definition>
+        <argsstring>(ServerCredentials credentials, List&lt; ServerCredentialAdditionalScope &gt; additionalGrantedScopes, Error error)</argsstring>
+        <name>LoadServerCredentialsInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LoadServerCredentialsInternalCallback</qualifiedname>
+        <param>
+          <type>ServerCredentials</type>
+          <declname>credentials</declname>
+        </param>
+        <param>
+          <type>List&lt; ServerCredentialAdditionalScope &gt;</type>
+          <declname>additionalGrantedScopes</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/Delegates.cs" line="26" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/Delegates.cs" declline="26" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/def/namespace_voxel_busters_1_1_essential_kit_1_1_game_services_core_1a13bc73e85334fd0f6902f657f3e4740c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void AuthChangeInternalCallback</definition>
+        <argsstring>(LocalPlayerAuthStatus authStatus, Error error)</argsstring>
+        <name>AuthChangeInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.AuthChangeInternalCallback</qualifiedname>
+        <param>
+          <type>LocalPlayerAuthStatus</type>
+          <declname>authStatus</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/Delegates.cs" line="28" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/Delegates.cs" declline="28" declcolumn="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/Delegates.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d8/db7/_property_helper_8cs" kind="file" language="C#">
+    <compoundname>PropertyHelper.cs</compoundname>
+    <innerclass refid="da/d44/class_voxel_busters_1_1_core_library_1_1_property_helper" prot="public">VoxelBusters::CoreLibrary::PropertyHelper</innerclass>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="d7/d45/namespace_voxel_busters_1_1_core_library">VoxelBusters::CoreLibrary</innernamespace>
+    <innernamespace refid="da/df1/namespace_system_1_1_linq_1_1_expressions">System::Linq::Expressions</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/PropertyHelper.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dd/d10/class_voxel_busters_1_1_core_library_1_1_texture_utility" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::TextureUtility</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dd/d10/class_voxel_busters_1_1_core_library_1_1_texture_utility_1a0c6f2c9dc59ad91993f962387d1cc54e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetMimeType</definition>
+        <argsstring>(TextureEncodingFormat encodeFormat)</argsstring>
+        <name>GetMimeType</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.TextureUtility.GetMimeType</qualifiedname>
+        <param>
+          <type><ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a533c2670f0a8893cf58661a4784b2c9f" kindref="member">TextureEncodingFormat</ref></type>
+          <declname>encodeFormat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TextureUtility.cs" line="11" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TextureUtility.cs" bodystart="11" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d10/class_voxel_busters_1_1_core_library_1_1_texture_utility_1a7c6988a009a714160e4c31f0d7a34460" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte[] Encode</definition>
+        <argsstring>(this Texture2D texture)</argsstring>
+        <name>Encode</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.TextureUtility.Encode</qualifiedname>
+        <param>
+          <type>this Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TextureUtility.cs" line="26" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TextureUtility.cs" bodystart="26" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d10/class_voxel_busters_1_1_core_library_1_1_texture_utility_1aa4042cbd5eeca9e19fdd3f8c96e4d14a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte[] Encode</definition>
+        <argsstring>(this Texture2D texture, out string mimeType)</argsstring>
+        <name>Encode</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.TextureUtility.Encode</qualifiedname>
+        <param>
+          <type>this Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>out string</type>
+          <declname>mimeType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TextureUtility.cs" line="32" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TextureUtility.cs" bodystart="32" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d10/class_voxel_busters_1_1_core_library_1_1_texture_utility_1a0941754c4538630c02612d50f7da20b2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte[] Encode</definition>
+        <argsstring>(this Texture2D texture, TextureEncodingFormat encodeFormat)</argsstring>
+        <name>Encode</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.TextureUtility.Encode</qualifiedname>
+        <param>
+          <type>this Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a533c2670f0a8893cf58661a4784b2c9f" kindref="member">TextureEncodingFormat</ref></type>
+          <declname>encodeFormat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TextureUtility.cs" line="55" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TextureUtility.cs" bodystart="55" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d10/class_voxel_busters_1_1_core_library_1_1_texture_utility_1a07e1bc98db2381f032a628396d097c7a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte[] Encode</definition>
+        <argsstring>(this Texture2D texture, TextureEncodingFormat encodeFormat, out string mimeType)</argsstring>
+        <name>Encode</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.TextureUtility.Encode</qualifiedname>
+        <param>
+          <type>this Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a533c2670f0a8893cf58661a4784b2c9f" kindref="member">TextureEncodingFormat</ref></type>
+          <declname>encodeFormat</declname>
+        </param>
+        <param>
+          <type>out string</type>
+          <declname>mimeType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TextureUtility.cs" line="70" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TextureUtility.cs" bodystart="70" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d10/class_voxel_busters_1_1_core_library_1_1_texture_utility_1a4dd739aeb33fefe27b287d3d397c7d61" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte[] Encode</definition>
+        <argsstring>(this Texture2D texture, TextureEncodingFormat encodeFormat, out string mimeType, out string textEncodingName)</argsstring>
+        <name>Encode</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.TextureUtility.Encode</qualifiedname>
+        <param>
+          <type>this Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a533c2670f0a8893cf58661a4784b2c9f" kindref="member">TextureEncodingFormat</ref></type>
+          <declname>encodeFormat</declname>
+        </param>
+        <param>
+          <type>out string</type>
+          <declname>mimeType</declname>
+        </param>
+        <param>
+          <type>out string</type>
+          <declname>textEncodingName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TextureUtility.cs" line="76" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TextureUtility.cs" bodystart="76" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d10/class_voxel_busters_1_1_core_library_1_1_texture_utility_1a573126881cd1582bc6ac23c7f621382c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string TakeScreenshot</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>TakeScreenshot</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.TextureUtility.TakeScreenshot</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TextureUtility.cs" line="104" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TextureUtility.cs" bodystart="104" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d10/class_voxel_busters_1_1_core_library_1_1_texture_utility_1af08ab6e8eef2e5b1acf4e5213f4b67a6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string TakeScreenshot</definition>
+        <argsstring>(string directory, string fileName)</argsstring>
+        <name>TakeScreenshot</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.TextureUtility.TakeScreenshot</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>directory</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TextureUtility.cs" line="109" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TextureUtility.cs" bodystart="109" bodyend="122"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TextureUtility.cs" line="7" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/TextureUtility.cs" bodystart="8" bodyend="125"/>
+    <listofallmembers>
+      <member refid="dd/d10/class_voxel_busters_1_1_core_library_1_1_texture_utility_1a7c6988a009a714160e4c31f0d7a34460" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::TextureUtility</scope><name>Encode</name></member>
+      <member refid="dd/d10/class_voxel_busters_1_1_core_library_1_1_texture_utility_1aa4042cbd5eeca9e19fdd3f8c96e4d14a" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::TextureUtility</scope><name>Encode</name></member>
+      <member refid="dd/d10/class_voxel_busters_1_1_core_library_1_1_texture_utility_1a0941754c4538630c02612d50f7da20b2" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::TextureUtility</scope><name>Encode</name></member>
+      <member refid="dd/d10/class_voxel_busters_1_1_core_library_1_1_texture_utility_1a07e1bc98db2381f032a628396d097c7a" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::TextureUtility</scope><name>Encode</name></member>
+      <member refid="dd/d10/class_voxel_busters_1_1_core_library_1_1_texture_utility_1a4dd739aeb33fefe27b287d3d397c7d61" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::TextureUtility</scope><name>Encode</name></member>
+      <member refid="dd/d10/class_voxel_busters_1_1_core_library_1_1_texture_utility_1a0c6f2c9dc59ad91993f962387d1cc54e" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::TextureUtility</scope><name>GetMimeType</name></member>
+      <member refid="dd/d10/class_voxel_busters_1_1_core_library_1_1_texture_utility_1a573126881cd1582bc6ac23c7f621382c" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::TextureUtility</scope><name>TakeScreenshot</name></member>
+      <member refid="dd/d10/class_voxel_busters_1_1_core_library_1_1_texture_utility_1af08ab6e8eef2e5b1acf4e5213f4b67a6" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::TextureUtility</scope><name>TakeScreenshot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

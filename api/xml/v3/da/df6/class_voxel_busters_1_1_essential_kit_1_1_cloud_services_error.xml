@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="da/df6/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_error" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::CloudServicesError</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="da/df6/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_error_1a2ce8aded798d92d44580ceaefabf2d82" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kDomain</definition>
+        <argsstring></argsstring>
+        <name>kDomain</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesError.kDomain</qualifiedname>
+        <initializer>= &quot;Cloud Services(Essential Kit)&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServicesError.cs" line="8" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServicesError.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="da/df6/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_error_1ab83e6cfa400d4d654b2d172a49f358a3" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Error</type>
+        <definition>Error Unknown</definition>
+        <argsstring></argsstring>
+        <name>Unknown</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesError.Unknown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServicesError.cs" line="10" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServicesError.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="da/df6/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_error_1a3e8ddee0f773a64dce21ddba78a7cefc" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error CreateError</definition>
+        <argsstring>(CloudServicesErrorCode code, string description)</argsstring>
+        <name>CreateError</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesError.CreateError</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a30b150aaa410d9147e3bf02dea4bae35" kindref="member">CloudServicesErrorCode</ref></type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServicesError.cs" line="12" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServicesError.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServicesError.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServicesError.cs" bodystart="7" bodyend="16"/>
+    <listofallmembers>
+      <member refid="da/df6/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_error_1a3e8ddee0f773a64dce21ddba78a7cefc" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesError</scope><name>CreateError</name></member>
+      <member refid="da/df6/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_error_1a2ce8aded798d92d44580ceaefabf2d82" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesError</scope><name>kDomain</name></member>
+      <member refid="da/df6/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_error_1ab83e6cfa400d4d654b2d172a49f358a3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesError</scope><name>Unknown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

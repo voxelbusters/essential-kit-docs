@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d2/d38/class_voxel_busters_1_1_essential_kit_1_1_web_view_error" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::WebViewError</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="d2/d38/class_voxel_busters_1_1_essential_kit_1_1_web_view_error_1a2ce8aded798d92d44580ceaefabf2d82" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kDomain</definition>
+        <argsstring></argsstring>
+        <name>kDomain</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewError.kDomain</qualifiedname>
+        <initializer>= &quot;WebView&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewError.cs" line="7" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewError.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d2/d38/class_voxel_busters_1_1_essential_kit_1_1_web_view_error_1a25d6f9257e8b8e1aa55898430f23d35b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error Unknown</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>Unknown</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewError.Unknown</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewError.cs" line="9" column="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d2/d38/class_voxel_busters_1_1_essential_kit_1_1_web_view_error_1a1f4966d82f43a08da1cdddb4a786ace8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error CreateError</definition>
+        <argsstring>(int code, string description)</argsstring>
+        <name>CreateError</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewError.CreateError</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewError.cs" line="14" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewError.cs" line="5" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewError.cs" bodystart="6" bodyend="18"/>
+    <listofallmembers>
+      <member refid="d2/d38/class_voxel_busters_1_1_essential_kit_1_1_web_view_error_1a1f4966d82f43a08da1cdddb4a786ace8" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewError</scope><name>CreateError</name></member>
+      <member refid="d2/d38/class_voxel_busters_1_1_essential_kit_1_1_web_view_error_1a2ce8aded798d92d44580ceaefabf2d82" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewError</scope><name>kDomain</name></member>
+      <member refid="d2/d38/class_voxel_busters_1_1_essential_kit_1_1_web_view_error_1a25d6f9257e8b8e1aa55898430f23d35b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewError</scope><name>Unknown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

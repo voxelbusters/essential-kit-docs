@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dc/d99/class_voxel_busters_1_1_core_library_1_1_unity_web_request_utility" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::UnityWebRequestUtility</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dc/d99/class_voxel_busters_1_1_core_library_1_1_unity_web_request_utility_1a05eb33d743eeb142e3bd9a62d59640fa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; string &gt;</type>
+        <definition>static Task&lt; string &gt; ToTask</definition>
+        <argsstring>(this UnityWebRequest request, CancellationToken cancellationToken)</argsstring>
+        <name>ToTask</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityWebRequestUtility.ToTask</qualifiedname>
+        <param>
+          <type>this UnityWebRequest</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>CancellationToken</type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityWebRequestUtility.cs" line="10" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityWebRequestUtility.cs" bodystart="10" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityWebRequestUtility.cs" line="8" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityWebRequestUtility.cs" bodystart="9" bodyend="45"/>
+    <listofallmembers>
+      <member refid="dc/d99/class_voxel_busters_1_1_core_library_1_1_unity_web_request_utility_1a05eb33d743eeb142e3bd9a62d59640fa" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityWebRequestUtility</scope><name>ToTask</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

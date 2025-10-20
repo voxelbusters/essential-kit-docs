@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/d8a/_text_input_field_options_8cs" kind="file" language="C#">
+    <compoundname>TextInputFieldOptions.cs</compoundname>
+    <innerclass refid="de/dd8/class_voxel_busters_1_1_essential_kit_1_1_text_input_field_options" prot="public">VoxelBusters::EssentialKit::TextInputFieldOptions</innerclass>
+    <innerclass refid="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_text_input_field_options_1_1_builder" prot="public">VoxelBusters::EssentialKit::TextInputFieldOptions::Builder</innerclass>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/TextInputFieldOptions.cs"/>
+  </compounddef>
+</doxygen>

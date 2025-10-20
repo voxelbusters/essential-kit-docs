@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d2/da4/class_voxel_busters_1_1_essential_kit_1_1_notification_android_properties" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::NotificationAndroidProperties</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d2/da4/class_voxel_busters_1_1_essential_kit_1_1_notification_android_properties_1a121d9cb485fa9e23380cb8c883e46c9c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Tag</definition>
+        <argsstring></argsstring>
+        <name>Tag</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationAndroidProperties.Tag</qualifiedname>
+        <briefdescription>
+<para>The tag of the notification. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The tag defines this notification uniquely or can be empty which overwrites previous notification. If the tag is set with different value than previous notification, it won&apos;t override the previous one in notification bar, otherwise it will.  </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationAndroidProperties.cs" line="22" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationAndroidProperties.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/da4/class_voxel_busters_1_1_essential_kit_1_1_notification_android_properties_1adcbc8416bde8c3807df00a5c696b12c1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LargeIcon</definition>
+        <argsstring></argsstring>
+        <name>LargeIcon</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationAndroidProperties.LargeIcon</qualifiedname>
+        <briefdescription>
+<para>The image used as the large icon for notification. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>This will be the icon thats displayed in the notification. If the value is not set, then default image will be used. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationAndroidProperties.cs" line="31" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationAndroidProperties.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/da4/class_voxel_busters_1_1_essential_kit_1_1_notification_android_properties_1af48527e1b6e750e7a019b908b3acbcc3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BigPicture</definition>
+        <argsstring></argsstring>
+        <name>BigPicture</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationAndroidProperties.BigPicture</qualifiedname>
+        <briefdescription>
+<para>The image used as the big picture for notification. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>This will be the image used as the preview for notification. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationAndroidProperties.cs" line="39" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationAndroidProperties.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/da4/class_voxel_busters_1_1_essential_kit_1_1_notification_android_properties_1a463b4f79512c1d441ad0876f82d1ca96" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel" kindref="compound">NotificationChannel</ref></type>
+        <definition>NotificationChannel Channel</definition>
+        <argsstring></argsstring>
+        <name>Channel</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationAndroidProperties.Channel</qualifiedname>
+        <briefdescription>
+<para>The channel of the notification. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationAndroidProperties.cs" line="44" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationAndroidProperties.cs" bodystart="44" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Notification properties specific to Android platform. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationAndroidProperties.cs" line="11" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationAndroidProperties.cs" bodystart="12" bodyend="47"/>
+    <listofallmembers>
+      <member refid="d2/da4/class_voxel_busters_1_1_essential_kit_1_1_notification_android_properties_1af48527e1b6e750e7a019b908b3acbcc3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationAndroidProperties</scope><name>BigPicture</name></member>
+      <member refid="d2/da4/class_voxel_busters_1_1_essential_kit_1_1_notification_android_properties_1a463b4f79512c1d441ad0876f82d1ca96" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationAndroidProperties</scope><name>Channel</name></member>
+      <member refid="d2/da4/class_voxel_busters_1_1_essential_kit_1_1_notification_android_properties_1adcbc8416bde8c3807df00a5c696b12c1" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationAndroidProperties</scope><name>LargeIcon</name></member>
+      <member refid="d2/da4/class_voxel_busters_1_1_essential_kit_1_1_notification_android_properties_1a121d9cb485fa9e23380cb8c883e46c9c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationAndroidProperties</scope><name>Tag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

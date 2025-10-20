@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::ProductResources</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1aa790652ea032a84b83c1381cd278c24f" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kAddressBookPage</definition>
+        <argsstring></argsstring>
+        <name>kAddressBookPage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ProductResources.kAddressBookPage</qualifiedname>
+        <initializer>= &quot;https://assetstore.essentialkit.voxelbusters.com/features/address-book&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" line="11" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1a123374ec46c8fb026d3f4f7ff37c8074" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kAppShortcutsPage</definition>
+        <argsstring></argsstring>
+        <name>kAppShortcutsPage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ProductResources.kAppShortcutsPage</qualifiedname>
+        <initializer>= &quot;https://assetstore.essentialkit.voxelbusters.com/features/app-shortcuts&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" line="13" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1ad0192cacf377d834cc862330f06fbab8" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kAppUpdaterPage</definition>
+        <argsstring></argsstring>
+        <name>kAppUpdaterPage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ProductResources.kAppUpdaterPage</qualifiedname>
+        <initializer>= &quot;https://assetstore.essentialkit.voxelbusters.com/features/app-updater&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" line="15" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1a6a6282774e9d97e4aad0487d6c4a15cd" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kTaskServicesPage</definition>
+        <argsstring></argsstring>
+        <name>kTaskServicesPage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ProductResources.kTaskServicesPage</qualifiedname>
+        <initializer>= &quot;https://assetstore.essentialkit.voxelbusters.com/features/background-task-services&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" line="17" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1afb36be020715a930e26554fbe61916c1" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kBillingServicesPage</definition>
+        <argsstring></argsstring>
+        <name>kBillingServicesPage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ProductResources.kBillingServicesPage</qualifiedname>
+        <initializer>= &quot;https://assetstore.essentialkit.voxelbusters.com/features/billing-services&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" line="19" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1a2118a93170710045733cbabda287b420" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kCloudServicesPage</definition>
+        <argsstring></argsstring>
+        <name>kCloudServicesPage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ProductResources.kCloudServicesPage</qualifiedname>
+        <initializer>= &quot;https://assetstore.essentialkit.voxelbusters.com/features/cloud-services&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" line="21" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1a7044dab895164be6bf0aebedb9cb9590" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kExtrasPage</definition>
+        <argsstring></argsstring>
+        <name>kExtrasPage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ProductResources.kExtrasPage</qualifiedname>
+        <initializer>= &quot;https://assetstore.essentialkit.voxelbusters.com/features/utilities&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" line="23" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1ae9a70aeca5930a5d0219460cafa78331" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kGameServicesPage</definition>
+        <argsstring></argsstring>
+        <name>kGameServicesPage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ProductResources.kGameServicesPage</qualifiedname>
+        <initializer>= &quot;https://assetstore.essentialkit.voxelbusters.com/features/game-services&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" line="25" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1ad4227faaae123d1cc2028417088bf286" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kMediaServicesPage</definition>
+        <argsstring></argsstring>
+        <name>kMediaServicesPage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ProductResources.kMediaServicesPage</qualifiedname>
+        <initializer>= &quot;https://assetstore.essentialkit.voxelbusters.com/features/media-services&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" line="27" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1a993f3fb3ae737dd1df3a3062384346a7" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kNetworkServicesPage</definition>
+        <argsstring></argsstring>
+        <name>kNetworkServicesPage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ProductResources.kNetworkServicesPage</qualifiedname>
+        <initializer>= &quot;https://assetstore.essentialkit.voxelbusters.com/features/network-services&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" line="29" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1af8ae4aa60d6610f0bacee1f3625c3825" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kNotificationServicesPage</definition>
+        <argsstring></argsstring>
+        <name>kNotificationServicesPage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ProductResources.kNotificationServicesPage</qualifiedname>
+        <initializer>= &quot;https://assetstore.essentialkit.voxelbusters.com/features/notification-services&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" line="31" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1ad086c23cfa937616603d35eb2a2c8ba3" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kRateMyAppPage</definition>
+        <argsstring></argsstring>
+        <name>kRateMyAppPage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ProductResources.kRateMyAppPage</qualifiedname>
+        <initializer>= &quot;https://assetstore.essentialkit.voxelbusters.com/features/rate-my-app&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" line="33" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1a30ec3def6f4b9a7a2a62f0909a96b7df" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kSharingPage</definition>
+        <argsstring></argsstring>
+        <name>kSharingPage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ProductResources.kSharingPage</qualifiedname>
+        <initializer>= &quot;https://assetstore.essentialkit.voxelbusters.com/features/sharing&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" line="35" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1abe2e9b035f7e2f93b0b897411bdaea7d" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kUIPage</definition>
+        <argsstring></argsstring>
+        <name>kUIPage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ProductResources.kUIPage</qualifiedname>
+        <initializer>= &quot;https://assetstore.essentialkit.voxelbusters.com/features/native-ui&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" line="37" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1a018835bff4350c369e45bb6a267045e7" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kWebViewPage</definition>
+        <argsstring></argsstring>
+        <name>kWebViewPage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ProductResources.kWebViewPage</qualifiedname>
+        <initializer>= &quot;https://assetstore.essentialkit.voxelbusters.com/features/web-view&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" line="39" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1a095478b4f469ee40bc2b7e40088d16e9" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kDeepLinkServicesPage</definition>
+        <argsstring></argsstring>
+        <name>kDeepLinkServicesPage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ProductResources.kDeepLinkServicesPage</qualifiedname>
+        <initializer>= &quot;https://assetstore.essentialkit.voxelbusters.com/features/deep-link-services&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" line="41" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1ae353dc29e56c819b6895d68bf54399d2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void OpenResourcePage</definition>
+        <argsstring>(string feature)</argsstring>
+        <name>OpenResourcePage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ProductResources.OpenResourcePage</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>feature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" line="47" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" bodystart="47" bodyend="122"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" line="7" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ProductResources.cs" bodystart="8" bodyend="125"/>
+    <listofallmembers>
+      <member refid="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1aa790652ea032a84b83c1381cd278c24f" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ProductResources</scope><name>kAddressBookPage</name></member>
+      <member refid="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1a123374ec46c8fb026d3f4f7ff37c8074" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ProductResources</scope><name>kAppShortcutsPage</name></member>
+      <member refid="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1ad0192cacf377d834cc862330f06fbab8" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ProductResources</scope><name>kAppUpdaterPage</name></member>
+      <member refid="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1afb36be020715a930e26554fbe61916c1" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ProductResources</scope><name>kBillingServicesPage</name></member>
+      <member refid="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1a2118a93170710045733cbabda287b420" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ProductResources</scope><name>kCloudServicesPage</name></member>
+      <member refid="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1a095478b4f469ee40bc2b7e40088d16e9" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ProductResources</scope><name>kDeepLinkServicesPage</name></member>
+      <member refid="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1a7044dab895164be6bf0aebedb9cb9590" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ProductResources</scope><name>kExtrasPage</name></member>
+      <member refid="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1ae9a70aeca5930a5d0219460cafa78331" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ProductResources</scope><name>kGameServicesPage</name></member>
+      <member refid="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1ad4227faaae123d1cc2028417088bf286" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ProductResources</scope><name>kMediaServicesPage</name></member>
+      <member refid="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1a993f3fb3ae737dd1df3a3062384346a7" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ProductResources</scope><name>kNetworkServicesPage</name></member>
+      <member refid="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1af8ae4aa60d6610f0bacee1f3625c3825" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ProductResources</scope><name>kNotificationServicesPage</name></member>
+      <member refid="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1ad086c23cfa937616603d35eb2a2c8ba3" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ProductResources</scope><name>kRateMyAppPage</name></member>
+      <member refid="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1a30ec3def6f4b9a7a2a62f0909a96b7df" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ProductResources</scope><name>kSharingPage</name></member>
+      <member refid="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1a6a6282774e9d97e4aad0487d6c4a15cd" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ProductResources</scope><name>kTaskServicesPage</name></member>
+      <member refid="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1abe2e9b035f7e2f93b0b897411bdaea7d" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ProductResources</scope><name>kUIPage</name></member>
+      <member refid="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1a018835bff4350c369e45bb6a267045e7" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ProductResources</scope><name>kWebViewPage</name></member>
+      <member refid="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources_1ae353dc29e56c819b6895d68bf54399d2" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ProductResources</scope><name>OpenResourcePage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

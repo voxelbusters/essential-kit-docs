@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="da/d44/class_voxel_busters_1_1_core_library_1_1_property_helper" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::PropertyHelper</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="da/d44/class_voxel_busters_1_1_core_library_1_1_property_helper_1a86f15a269e6e25e2592a41816ca99b00" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetValueOrDefault</definition>
+        <argsstring>(string value, string defaultValue=default)</argsstring>
+        <name>GetValueOrDefault</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.PropertyHelper.GetValueOrDefault</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>defaultValue</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/PropertyHelper.cs" line="13" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/PropertyHelper.cs" bodystart="13" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d44/class_voxel_busters_1_1_core_library_1_1_property_helper_1a8c16e3ed182747c963b022edb667ac89" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetValueOrDefault&lt; TInstance, TProperty &gt;</definition>
+        <argsstring>(TInstance instance, Expression&lt; Func&lt; TInstance, TProperty &gt; &gt; fieldAccess, string value)</argsstring>
+        <name>GetValueOrDefault&lt; TInstance, TProperty &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.PropertyHelper.GetValueOrDefault&lt; TInstance, TProperty &gt;</qualifiedname>
+        <param>
+          <type>TInstance</type>
+          <declname>instance</declname>
+        </param>
+        <param>
+          <type>Expression&lt; Func&lt; TInstance, TProperty &gt; &gt;</type>
+          <declname>fieldAccess</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/PropertyHelper.cs" line="20" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/PropertyHelper.cs" bodystart="20" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d44/class_voxel_busters_1_1_core_library_1_1_property_helper_1a456d13d45a4bde18d8ce89b5a6c377c1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TValue</type>
+        <definition>static TValue GetValueOrDefault&lt; TInstance, TProperty, TValue &gt;</definition>
+        <argsstring>(TInstance instance, Expression&lt; Func&lt; TInstance, TProperty &gt; &gt; fieldAccess, Nullable&lt; TValue &gt; value)</argsstring>
+        <name>GetValueOrDefault&lt; TInstance, TProperty, TValue &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.PropertyHelper.GetValueOrDefault&lt; TInstance, TProperty, TValue &gt;</qualifiedname>
+        <param>
+          <type>TInstance</type>
+          <declname>instance</declname>
+        </param>
+        <param>
+          <type>Expression&lt; Func&lt; TInstance, TProperty &gt; &gt;</type>
+          <declname>fieldAccess</declname>
+        </param>
+        <param>
+          <type>Nullable&lt; TValue &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/PropertyHelper.cs" line="31" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/PropertyHelper.cs" bodystart="31" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d44/class_voxel_busters_1_1_core_library_1_1_property_helper_1a055e7ded4b0e2a9d25df7c18389df5fe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int GetConstrainedValue&lt; TInstance, TProperty &gt;</definition>
+        <argsstring>(TInstance instance, Expression&lt; Func&lt; TInstance, TProperty &gt; &gt; fieldAccess, int value)</argsstring>
+        <name>GetConstrainedValue&lt; TInstance, TProperty &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.PropertyHelper.GetConstrainedValue&lt; TInstance, TProperty &gt;</qualifiedname>
+        <param>
+          <type>TInstance</type>
+          <declname>instance</declname>
+        </param>
+        <param>
+          <type>Expression&lt; Func&lt; TInstance, TProperty &gt; &gt;</type>
+          <declname>fieldAccess</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/PropertyHelper.cs" line="42" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/PropertyHelper.cs" bodystart="42" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d44/class_voxel_busters_1_1_core_library_1_1_property_helper_1a3aab79ea6c39beb45323170323eba949" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float GetConstrainedValue&lt; TInstance, TProperty &gt;</definition>
+        <argsstring>(TInstance instance, Expression&lt; Func&lt; TInstance, TProperty &gt; &gt; fieldAccess, float value)</argsstring>
+        <name>GetConstrainedValue&lt; TInstance, TProperty &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.PropertyHelper.GetConstrainedValue&lt; TInstance, TProperty &gt;</qualifiedname>
+        <param>
+          <type>TInstance</type>
+          <declname>instance</declname>
+        </param>
+        <param>
+          <type>Expression&lt; Func&lt; TInstance, TProperty &gt; &gt;</type>
+          <declname>fieldAccess</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/PropertyHelper.cs" line="50" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/PropertyHelper.cs" bodystart="50" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/PropertyHelper.cs" line="9" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/PropertyHelper.cs" bodystart="10" bodyend="59"/>
+    <listofallmembers>
+      <member refid="da/d44/class_voxel_busters_1_1_core_library_1_1_property_helper_1a055e7ded4b0e2a9d25df7c18389df5fe" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::PropertyHelper</scope><name>GetConstrainedValue&lt; TInstance, TProperty &gt;</name></member>
+      <member refid="da/d44/class_voxel_busters_1_1_core_library_1_1_property_helper_1a3aab79ea6c39beb45323170323eba949" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::PropertyHelper</scope><name>GetConstrainedValue&lt; TInstance, TProperty &gt;</name></member>
+      <member refid="da/d44/class_voxel_busters_1_1_core_library_1_1_property_helper_1a86f15a269e6e25e2592a41816ca99b00" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::PropertyHelper</scope><name>GetValueOrDefault</name></member>
+      <member refid="da/d44/class_voxel_busters_1_1_core_library_1_1_property_helper_1a8c16e3ed182747c963b022edb667ac89" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::PropertyHelper</scope><name>GetValueOrDefault&lt; TInstance, TProperty &gt;</name></member>
+      <member refid="da/d44/class_voxel_busters_1_1_core_library_1_1_property_helper_1a456d13d45a4bde18d8ce89b5a6c377c1" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::PropertyHelper</scope><name>GetValueOrDefault&lt; TInstance, TProperty, TValue &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

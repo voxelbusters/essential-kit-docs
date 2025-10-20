@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d4/dd6/interface_voxel_busters_1_1_core_library_1_1_i_operation_result_container" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::IOperationResultContainer</compoundname>
+    <templateparamlist>
+      <param>
+        <type>TData</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/dd6/interface_voxel_busters_1_1_core_library_1_1_i_operation_result_container_1a158cbd68c5f292d41a43908d3957a852" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IsError</definition>
+        <argsstring>()</argsstring>
+        <name>IsError</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOperationResultContainer.IsError</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/IOperationResultContainer.cs" line="7" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dd6/interface_voxel_busters_1_1_core_library_1_1_i_operation_result_container_1a6592419616abaece13aa9844697fcf78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>Error GetError</definition>
+        <argsstring>()</argsstring>
+        <name>GetError</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOperationResultContainer.GetError</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/IOperationResultContainer.cs" line="9" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dd6/interface_voxel_busters_1_1_core_library_1_1_i_operation_result_container_1af6be85f61b822b2c2c76e45273b09abf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>TData</type>
+        <definition>TData GetResult</definition>
+        <argsstring>()</argsstring>
+        <name>GetResult</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOperationResultContainer.GetResult</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/IOperationResultContainer.cs" line="11" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dd6/interface_voxel_busters_1_1_core_library_1_1_i_operation_result_container_1acf5fe56d78b47d5a7dbe0aa6d5838987" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetResultAsText</definition>
+        <argsstring>()</argsstring>
+        <name>GetResultAsText</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOperationResultContainer.GetResultAsText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/IOperationResultContainer.cs" line="13" column="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/IOperationResultContainer.cs" line="3" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/IOperationResultContainer.cs" bodystart="4" bodyend="16"/>
+    <listofallmembers>
+      <member refid="d4/dd6/interface_voxel_busters_1_1_core_library_1_1_i_operation_result_container_1a6592419616abaece13aa9844697fcf78" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOperationResultContainer</scope><name>GetError</name></member>
+      <member refid="d4/dd6/interface_voxel_busters_1_1_core_library_1_1_i_operation_result_container_1af6be85f61b822b2c2c76e45273b09abf" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOperationResultContainer</scope><name>GetResult</name></member>
+      <member refid="d4/dd6/interface_voxel_busters_1_1_core_library_1_1_i_operation_result_container_1acf5fe56d78b47d5a7dbe0aa6d5838987" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOperationResultContainer</scope><name>GetResultAsText</name></member>
+      <member refid="d4/dd6/interface_voxel_busters_1_1_core_library_1_1_i_operation_result_container_1a158cbd68c5f292d41a43908d3957a852" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOperationResultContainer</scope><name>IsError</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d1/dd9/interface_voxel_busters_1_1_core_library_1_1_i_command" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::ICommand</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d1/dd9/interface_voxel_busters_1_1_core_library_1_1_i_command_1abec26bb991e10a2dfa2b418499274ee1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool IsDone</definition>
+        <argsstring></argsstring>
+        <name>IsDone</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ICommand.IsDone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/ICommand.cs" line="11" column="14" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/ICommand.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/dd9/interface_voxel_busters_1_1_core_library_1_1_i_command_1a2659af8ee1cc7ca00d1fe018036acc10" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Error</type>
+        <definition>Error Error</definition>
+        <argsstring></argsstring>
+        <name>Error</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ICommand.Error</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/ICommand.cs" line="13" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/ICommand.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/dd9/interface_voxel_busters_1_1_core_library_1_1_i_command_1a0253051555fd36dee29a48e30bb0c0e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Execute</definition>
+        <argsstring>()</argsstring>
+        <name>Execute</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ICommand.Execute</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/ICommand.cs" line="19" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/ICommand.cs" line="7" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/ICommand.cs" bodystart="8" bodyend="22"/>
+    <listofallmembers>
+      <member refid="d1/dd9/interface_voxel_busters_1_1_core_library_1_1_i_command_1a2659af8ee1cc7ca00d1fe018036acc10" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ICommand</scope><name>Error</name></member>
+      <member refid="d1/dd9/interface_voxel_busters_1_1_core_library_1_1_i_command_1a0253051555fd36dee29a48e30bb0c0e4" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ICommand</scope><name>Execute</name></member>
+      <member refid="d1/dd9/interface_voxel_busters_1_1_core_library_1_1_i_command_1abec26bb991e10a2dfa2b418499274ee1" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ICommand</scope><name>IsDone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

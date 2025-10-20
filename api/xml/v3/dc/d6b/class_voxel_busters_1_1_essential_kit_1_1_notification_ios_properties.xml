@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dc/d6b/class_voxel_busters_1_1_essential_kit_1_1_notification_ios_properties" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::NotificationIosProperties</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="dc/d6b/class_voxel_busters_1_1_essential_kit_1_1_notification_ios_properties_1a680eb2fdbc7a97ed7eec05fc6ebfe0c5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string LaunchImageFileName</definition>
+        <argsstring></argsstring>
+        <name>LaunchImageFileName</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationIosProperties.LaunchImageFileName</qualifiedname>
+        <briefdescription>
+<para>The name of the launch image to display when your app is launched in response to the notification. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationIosProperties.cs" line="18" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationIosProperties.cs" bodystart="18" bodyend="18"/>
+        <referencedby refid="dc/d6b/class_voxel_busters_1_1_essential_kit_1_1_notification_ios_properties_1ad24efaee80dd1bfd730c4c77bbf82c53" compoundref="d0/d5a/_notification_ios_properties_8cs" startline="28" endline="32">NotificationIosProperties.NotificationIosProperties</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d6b/class_voxel_busters_1_1_essential_kit_1_1_notification_ios_properties_1ad24efaee80dd1bfd730c4c77bbf82c53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NotificationIosProperties</definition>
+        <argsstring>(string launchImageFileName=null)</argsstring>
+        <name>NotificationIosProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationIosProperties.NotificationIosProperties</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>launchImageFileName</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="dc/d6b/class_voxel_busters_1_1_essential_kit_1_1_notification_ios_properties" kindref="compound">NotificationIosProperties</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>launchImageFileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the launch image to display when your app is launched in response to the notification.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationIosProperties.cs" line="28" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationIosProperties.cs" bodystart="28" bodyend="32"/>
+        <references refid="dc/d6b/class_voxel_busters_1_1_essential_kit_1_1_notification_ios_properties_1a680eb2fdbc7a97ed7eec05fc6ebfe0c5" compoundref="d0/d5a/_notification_ios_properties_8cs" startline="18" endline="18">NotificationIosProperties.LaunchImageFileName</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Notification properties specific to iOS platform. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationIosProperties.cs" line="11" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationIosProperties.cs" bodystart="12" bodyend="35"/>
+    <listofallmembers>
+      <member refid="dc/d6b/class_voxel_busters_1_1_essential_kit_1_1_notification_ios_properties_1a680eb2fdbc7a97ed7eec05fc6ebfe0c5" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationIosProperties</scope><name>LaunchImageFileName</name></member>
+      <member refid="dc/d6b/class_voxel_busters_1_1_essential_kit_1_1_notification_ios_properties_1ad24efaee80dd1bfd730c4c77bbf82c53" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationIosProperties</scope><name>NotificationIosProperties</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

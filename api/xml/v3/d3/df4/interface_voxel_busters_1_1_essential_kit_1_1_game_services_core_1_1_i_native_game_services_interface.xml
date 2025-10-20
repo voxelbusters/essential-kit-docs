@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::GameServicesCore::INativeGameServicesInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">INativeFeatureInterface</basecompoundref>
+    <derivedcompoundref refid="d0/d21/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_native_game_services_interface_base" prot="public" virt="non-virtual">NativeGameServicesInterfaceBase</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1acc19bb0364c70f0b04af430d1c9c4d81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoadLeaderboards</definition>
+        <argsstring>(LeaderboardDefinition[] leaderboardDefinitions, LoadLeaderboardsInternalCallback callback)</argsstring>
+        <name>LoadLeaderboards</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.INativeGameServicesInterface.LoadLeaderboards</qualifiedname>
+        <param>
+          <type><ref refid="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition" kindref="compound">LeaderboardDefinition</ref>[]</type>
+          <declname>leaderboardDefinitions</declname>
+        </param>
+        <param>
+          <type>LoadLeaderboardsInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/INativeGameServicesInterface.cs" line="13" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1a470dbef7dea141d187feec21ac339c6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShowLeaderboard</definition>
+        <argsstring>(string leaderboardId, string leaderboardPlatformId, LeaderboardTimeScope timeScope, ViewClosedInternalCallback callback)</argsstring>
+        <name>ShowLeaderboard</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.INativeGameServicesInterface.ShowLeaderboard</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>leaderboardId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>leaderboardPlatformId</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad7822064a33c67a18ae93d0cc22c7229" kindref="member">LeaderboardTimeScope</ref></type>
+          <declname>timeScope</declname>
+        </param>
+        <param>
+          <type>ViewClosedInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/INativeGameServicesInterface.cs" line="15" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1a4e0c6dade74047294bfec2f7192b7340" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d0/d20/interface_voxel_busters_1_1_essential_kit_1_1_i_leaderboard" kindref="compound">ILeaderboard</ref></type>
+        <definition>ILeaderboard CreateLeaderboard</definition>
+        <argsstring>(string id, string platformId)</argsstring>
+        <name>CreateLeaderboard</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.INativeGameServicesInterface.CreateLeaderboard</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>platformId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/INativeGameServicesInterface.cs" line="17" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1af1cad88017bfb650961b67fb038fc34e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoadAchievementDescriptions</definition>
+        <argsstring>(LoadAchievementDescriptionsInternalCallback callback)</argsstring>
+        <name>LoadAchievementDescriptions</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.INativeGameServicesInterface.LoadAchievementDescriptions</qualifiedname>
+        <param>
+          <type>LoadAchievementDescriptionsInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/INativeGameServicesInterface.cs" line="19" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1a37c4bfcc777293417dbfdf5da079c6e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoadAchievements</definition>
+        <argsstring>(LoadAchievementsInternalCallback callback)</argsstring>
+        <name>LoadAchievements</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.INativeGameServicesInterface.LoadAchievements</qualifiedname>
+        <param>
+          <type>LoadAchievementsInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/INativeGameServicesInterface.cs" line="21" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1a1d474379e0775684f197feb0134bae71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShowAchievements</definition>
+        <argsstring>(ViewClosedInternalCallback callback)</argsstring>
+        <name>ShowAchievements</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.INativeGameServicesInterface.ShowAchievements</qualifiedname>
+        <param>
+          <type>ViewClosedInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/INativeGameServicesInterface.cs" line="23" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1abb9f48f9a316dd009dfa0eb2420687c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetCanShowAchievementCompletionBanner</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>SetCanShowAchievementCompletionBanner</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.INativeGameServicesInterface.SetCanShowAchievementCompletionBanner</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/INativeGameServicesInterface.cs" line="25" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1aee36399213d4ba7664b0bb5b29bfa108" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d0/d60/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement" kindref="compound">IAchievement</ref></type>
+        <definition>IAchievement CreateAchievement</definition>
+        <argsstring>(string id, string platformId)</argsstring>
+        <name>CreateAchievement</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.INativeGameServicesInterface.CreateAchievement</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>platformId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/INativeGameServicesInterface.cs" line="27" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1a4104494169a8e3b6076557e5f9886ca0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoadPlayers</definition>
+        <argsstring>(string[] playerIds, LoadPlayersInternalCallback callback)</argsstring>
+        <name>LoadPlayers</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.INativeGameServicesInterface.LoadPlayers</qualifiedname>
+        <param>
+          <type>string[]</type>
+          <declname>playerIds</declname>
+        </param>
+        <param>
+          <type>LoadPlayersInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/INativeGameServicesInterface.cs" line="29" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1abb83a3bba0d268f335bc93d39af9f235" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetAuthChangeCallback</definition>
+        <argsstring>(AuthChangeInternalCallback callback)</argsstring>
+        <name>SetAuthChangeCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.INativeGameServicesInterface.SetAuthChangeCallback</qualifiedname>
+        <param>
+          <type>AuthChangeInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/INativeGameServicesInterface.cs" line="31" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1a470fc54b257dad1239afce4ad5f5293c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Authenticate</definition>
+        <argsstring>(bool interactive)</argsstring>
+        <name>Authenticate</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.INativeGameServicesInterface.Authenticate</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>interactive</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/INativeGameServicesInterface.cs" line="33" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1a16ab717f073518fb55da7214c52ff051" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Signout</definition>
+        <argsstring>()</argsstring>
+        <name>Signout</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.INativeGameServicesInterface.Signout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/INativeGameServicesInterface.cs" line="35" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1aa90c210ab45369d3e737a547ff22de23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d37/interface_voxel_busters_1_1_essential_kit_1_1_i_local_player" kindref="compound">ILocalPlayer</ref></type>
+        <definition>ILocalPlayer GetLocalPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>GetLocalPlayer</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.INativeGameServicesInterface.GetLocalPlayer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/INativeGameServicesInterface.cs" line="37" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1a7ec45989455fd9b22b8af76b2bdc7a16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoadServerCredentials</definition>
+        <argsstring>(List&lt; ServerCredentialAdditionalScope &gt; additionalScopes, LoadServerCredentialsInternalCallback callback)</argsstring>
+        <name>LoadServerCredentials</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.INativeGameServicesInterface.LoadServerCredentials</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="d7/d93/group___game_services_1gacdfa6f09422eb91f2f542a21d6780705" kindref="member">ServerCredentialAdditionalScope</ref> &gt;</type>
+          <declname>additionalScopes</declname>
+        </param>
+        <param>
+          <type>LoadServerCredentialsInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/INativeGameServicesInterface.cs" line="39" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/INativeGameServicesInterface.cs" line="9" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/INativeGameServicesInterface.cs" bodystart="10" bodyend="42"/>
+    <listofallmembers>
+      <member refid="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1a470fc54b257dad1239afce4ad5f5293c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::INativeGameServicesInterface</scope><name>Authenticate</name></member>
+      <member refid="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1aee36399213d4ba7664b0bb5b29bfa108" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::INativeGameServicesInterface</scope><name>CreateAchievement</name></member>
+      <member refid="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1a4e0c6dade74047294bfec2f7192b7340" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::INativeGameServicesInterface</scope><name>CreateLeaderboard</name></member>
+      <member refid="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1aa90c210ab45369d3e737a547ff22de23" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::INativeGameServicesInterface</scope><name>GetLocalPlayer</name></member>
+      <member refid="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1af1cad88017bfb650961b67fb038fc34e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::INativeGameServicesInterface</scope><name>LoadAchievementDescriptions</name></member>
+      <member refid="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1a37c4bfcc777293417dbfdf5da079c6e7" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::INativeGameServicesInterface</scope><name>LoadAchievements</name></member>
+      <member refid="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1acc19bb0364c70f0b04af430d1c9c4d81" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::INativeGameServicesInterface</scope><name>LoadLeaderboards</name></member>
+      <member refid="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1a4104494169a8e3b6076557e5f9886ca0" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::INativeGameServicesInterface</scope><name>LoadPlayers</name></member>
+      <member refid="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1a7ec45989455fd9b22b8af76b2bdc7a16" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::INativeGameServicesInterface</scope><name>LoadServerCredentials</name></member>
+      <member refid="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1abb83a3bba0d268f335bc93d39af9f235" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::INativeGameServicesInterface</scope><name>SetAuthChangeCallback</name></member>
+      <member refid="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1abb9f48f9a316dd009dfa0eb2420687c3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::INativeGameServicesInterface</scope><name>SetCanShowAchievementCompletionBanner</name></member>
+      <member refid="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1a1d474379e0775684f197feb0134bae71" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::INativeGameServicesInterface</scope><name>ShowAchievements</name></member>
+      <member refid="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1a470dbef7dea141d187feec21ac339c6d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::INativeGameServicesInterface</scope><name>ShowLeaderboard</name></member>
+      <member refid="d3/df4/interface_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_i_native_game_services_interface_1a16ab717f073518fb55da7214c52ff051" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::INativeGameServicesInterface</scope><name>Signout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

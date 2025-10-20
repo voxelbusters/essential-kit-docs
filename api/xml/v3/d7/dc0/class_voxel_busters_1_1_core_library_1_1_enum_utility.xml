@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d7/dc0/class_voxel_busters_1_1_core_library_1_1_enum_utility" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::EnumUtility</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d7/dc0/class_voxel_busters_1_1_core_library_1_1_enum_utility_1a3e47e2bddee7b9d1e83379e52e6fe470" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string[]</type>
+        <definition>static string[] GetEnumNames</definition>
+        <argsstring>(Type enumType, bool ignoreDefault=false)</argsstring>
+        <name>GetEnumNames</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.EnumUtility.GetEnumNames</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>enumType</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreDefault</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/EnumUtility.cs" line="12" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/EnumUtility.cs" bodystart="12" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc0/class_voxel_busters_1_1_core_library_1_1_enum_utility_1a10f0032a10be54fd8bb43dfdc4a2a3c5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T[]</type>
+        <definition>static T[] GetEnumValues&lt; T &gt;</definition>
+        <argsstring>(bool ignoreDefault=false)</argsstring>
+        <name>GetEnumValues&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.EnumUtility.GetEnumValues&lt; T &gt;</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>ignoreDefault</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/EnumUtility.cs" line="26" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/EnumUtility.cs" bodystart="26" bodyend="38"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/EnumUtility.cs" line="8" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/EnumUtility.cs" bodystart="9" bodyend="41"/>
+    <listofallmembers>
+      <member refid="d7/dc0/class_voxel_busters_1_1_core_library_1_1_enum_utility_1a3e47e2bddee7b9d1e83379e52e6fe470" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::EnumUtility</scope><name>GetEnumNames</name></member>
+      <member refid="d7/dc0/class_voxel_busters_1_1_core_library_1_1_enum_utility_1a10f0032a10be54fd8bb43dfdc4a2a3c5" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::EnumUtility</scope><name>GetEnumValues&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

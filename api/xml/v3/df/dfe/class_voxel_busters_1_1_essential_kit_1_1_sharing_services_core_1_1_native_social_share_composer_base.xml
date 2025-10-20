@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="df/dfe/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_native_social_share_composer_base" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>VoxelBusters::EssentialKit::SharingServicesCore::NativeSocialShareComposerBase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NativeObjectBase</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INativeSocialShareComposer</basecompoundref>
+    <derivedcompoundref refid="d5/d76/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_social_share_composer" prot="public" virt="non-virtual">NullSocialShareComposer</derivedcompoundref>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="df/dfe/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_native_social_share_composer_base_1a03f7c73119ce8256b7c399157031cfa9" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>SocialShareComposerClosedInternalCallback</type>
+        <definition>SocialShareComposerClosedInternalCallback OnClose</definition>
+        <argsstring></argsstring>
+        <name>OnClose</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NativeSocialShareComposerBase.OnClose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NativeSocialShareComposerBase.cs" line="13" column="64" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NativeSocialShareComposerBase.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/dfe/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_native_social_share_composer_base_1a336da1caef60879e86ac60ba15984dea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetText</definition>
+        <argsstring>(string value)</argsstring>
+        <name>SetText</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NativeSocialShareComposerBase.SetText</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NativeSocialShareComposerBase.cs" line="15" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dfe/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_native_social_share_composer_base_1a10729793dbf78522c2b38b4aaa841a60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddScreenshot</definition>
+        <argsstring>()</argsstring>
+        <name>AddScreenshot</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NativeSocialShareComposerBase.AddScreenshot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NativeSocialShareComposerBase.cs" line="17" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dfe/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_native_social_share_composer_base_1a05054d92a8a25d88f1fda95a6ad29d31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddImage</definition>
+        <argsstring>(byte[] imageData)</argsstring>
+        <name>AddImage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NativeSocialShareComposerBase.AddImage</qualifiedname>
+        <param>
+          <type>byte[]</type>
+          <declname>imageData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NativeSocialShareComposerBase.cs" line="19" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dfe/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_native_social_share_composer_base_1a045b1f72ed600c56927fa08dcd492e13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddURL</definition>
+        <argsstring>(URLString url)</argsstring>
+        <name>AddURL</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NativeSocialShareComposerBase.AddURL</qualifiedname>
+        <param>
+          <type><ref refid="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string" kindref="compound">URLString</ref></type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NativeSocialShareComposerBase.cs" line="21" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dfe/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_native_social_share_composer_base_1a80a293479ca67e70da7c10bf33dbac0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Show</definition>
+        <argsstring>(Vector2 screenPosition)</argsstring>
+        <name>Show</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NativeSocialShareComposerBase.Show</qualifiedname>
+        <param>
+          <type>Vector2</type>
+          <declname>screenPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NativeSocialShareComposerBase.cs" line="23" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="df/dfe/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_native_social_share_composer_base_1ae2336da6bfcfe4ce95a91a58891a95f4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SendCloseEvent</definition>
+        <argsstring>(SocialShareComposerResultCode resultCode, Error error)</argsstring>
+        <name>SendCloseEvent</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NativeSocialShareComposerBase.SendCloseEvent</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a1870ada81005411484215a0bd6bb5e54" kindref="member">SocialShareComposerResultCode</ref></type>
+          <declname>resultCode</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NativeSocialShareComposerBase.cs" line="29" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NativeSocialShareComposerBase.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NativeSocialShareComposerBase.cs" line="9" column="17" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NativeSocialShareComposerBase.cs" bodystart="10" bodyend="35"/>
+    <listofallmembers>
+      <member refid="df/dfe/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_native_social_share_composer_base_1a05054d92a8a25d88f1fda95a6ad29d31" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NativeSocialShareComposerBase</scope><name>AddImage</name></member>
+      <member refid="df/dfe/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_native_social_share_composer_base_1a10729793dbf78522c2b38b4aaa841a60" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NativeSocialShareComposerBase</scope><name>AddScreenshot</name></member>
+      <member refid="df/dfe/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_native_social_share_composer_base_1a045b1f72ed600c56927fa08dcd492e13" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NativeSocialShareComposerBase</scope><name>AddURL</name></member>
+      <member refid="df/dfe/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_native_social_share_composer_base_1a03f7c73119ce8256b7c399157031cfa9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NativeSocialShareComposerBase</scope><name>OnClose</name></member>
+      <member refid="df/dfe/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_native_social_share_composer_base_1ae2336da6bfcfe4ce95a91a58891a95f4" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NativeSocialShareComposerBase</scope><name>SendCloseEvent</name></member>
+      <member refid="df/dfe/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_native_social_share_composer_base_1a336da1caef60879e86ac60ba15984dea" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NativeSocialShareComposerBase</scope><name>SetText</name></member>
+      <member refid="df/dfe/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_native_social_share_composer_base_1a80a293479ca67e70da7c10bf33dbac0c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NativeSocialShareComposerBase</scope><name>Show</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

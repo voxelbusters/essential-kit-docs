@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d8/d95/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_address" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::NetworkServicesUnitySettings::Address</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d8/d95/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_address_1a340aee5953d85c68ae96e08fe24972ba" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_ipv4</definition>
+        <argsstring></argsstring>
+        <name>m_ipv4</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesUnitySettings.Address.m_ipv4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.Address.cs" line="18" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.Address.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d95/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_address_1ab1396f8f26121fe8df208854c34f18a1" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_ipv6</definition>
+        <argsstring></argsstring>
+        <name>m_ipv6</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesUnitySettings.Address.m_ipv6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.Address.cs" line="22" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.Address.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d8/d95/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_address_1a5fbad1634da9d0137f806ed9380edff9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string IpV4</definition>
+        <argsstring></argsstring>
+        <name>IpV4</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesUnitySettings.Address.IpV4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.Address.cs" line="28" column="27" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.Address.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d95/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_address_1a020752c34f52b4b231ae64b468395e3e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string IpV6</definition>
+        <argsstring></argsstring>
+        <name>IpV6</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesUnitySettings.Address.IpV6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.Address.cs" line="33" column="27" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.Address.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/d95/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_address_1a1b200cb79c432ee51dc3b3b6107cbcf1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Address</definition>
+        <argsstring>(string ipv4=null, string ipv6=null)</argsstring>
+        <name>Address</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesUnitySettings.Address.Address</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>ipv4</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>ipv6</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.Address.cs" line="42" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.Address.cs" bodystart="42" bodyend="53"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.Address.cs" line="12" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.Address.cs" bodystart="13" bodyend="56"/>
+    <listofallmembers>
+      <member refid="d8/d95/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_address_1a1b200cb79c432ee51dc3b3b6107cbcf1" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesUnitySettings::Address</scope><name>Address</name></member>
+      <member refid="d8/d95/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_address_1a5fbad1634da9d0137f806ed9380edff9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesUnitySettings::Address</scope><name>IpV4</name></member>
+      <member refid="d8/d95/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_address_1a020752c34f52b4b231ae64b468395e3e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesUnitySettings::Address</scope><name>IpV6</name></member>
+      <member refid="d8/d95/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_address_1a340aee5953d85c68ae96e08fe24972ba" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesUnitySettings::Address</scope><name>m_ipv4</name></member>
+      <member refid="d8/d95/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_address_1ab1396f8f26121fe8df208854c34f18a1" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesUnitySettings::Address</scope><name>m_ipv6</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

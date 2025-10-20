@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dd/d0a/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_handle" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::IAsyncOperationHandle</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerator</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IAsyncOperationHandle</basecompoundref>
+    <derivedcompoundref refid="d9/d39/class_voxel_busters_1_1_core_library_1_1_async_operation_handle" prot="public" virt="non-virtual">AsyncOperationHandle&lt; T &gt;</derivedcompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="dd/d0a/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_handle_1a906e382cb9c5cebd1667fe7cf3973e32" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>AsyncOperationStatus</type>
+        <definition>AsyncOperationStatus Status</definition>
+        <argsstring></argsstring>
+        <name>Status</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IAsyncOperationHandle.Status</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationHandle.cs" line="11" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationHandle.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d0a/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_handle_1abec26bb991e10a2dfa2b418499274ee1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool IsDone</definition>
+        <argsstring></argsstring>
+        <name>IsDone</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IAsyncOperationHandle.IsDone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationHandle.cs" line="13" column="14" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationHandle.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d0a/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_handle_1a2b7610d0184c80eadb1cd415aa5c815f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>object</type>
+        <definition>object Result</definition>
+        <argsstring></argsstring>
+        <name>Result</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IAsyncOperationHandle.Result</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationHandle.cs" line="15" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationHandle.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d0a/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_handle_1a2659af8ee1cc7ca00d1fe018036acc10" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Error</type>
+        <definition>Error Error</definition>
+        <argsstring></argsstring>
+        <name>Error</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IAsyncOperationHandle.Error</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationHandle.cs" line="17" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationHandle.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d0a/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_handle_1a044696972e1444b38c42de6952a8a18a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float Progress</definition>
+        <argsstring></argsstring>
+        <name>Progress</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IAsyncOperationHandle.Progress</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationHandle.cs" line="19" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationHandle.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d0a/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_handle_1a975851d76de874920b1b8b396110793f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new T</type>
+        <definition>new T Result</definition>
+        <argsstring></argsstring>
+        <name>Result</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IAsyncOperationHandle.Result</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationHandle.cs" line="36" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationHandle.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="dd/d0a/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_handle_1aff1e790c1d77618920f10d4f114dc871" prot="public" static="no" add="no" remove="no" raise="no">
+        <type><ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a7aad06b84eedaea282efda0972c4197b" kindref="member">Callback</ref>&lt; IAsyncOperationHandle &gt;</type>
+        <definition>Callback&lt;IAsyncOperationHandle&gt; OnProgress</definition>
+        <argsstring></argsstring>
+        <name>OnProgress</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IAsyncOperationHandle.OnProgress</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationHandle.cs" line="25" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationHandle.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="dd/d0a/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_handle_1ac6f0c584b6a6db4c2153aa7fd1085dba" prot="public" static="no" add="no" remove="no" raise="no">
+        <type><ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a7aad06b84eedaea282efda0972c4197b" kindref="member">Callback</ref>&lt; IAsyncOperationHandle &gt;</type>
+        <definition>Callback&lt;IAsyncOperationHandle&gt; OnComplete</definition>
+        <argsstring></argsstring>
+        <name>OnComplete</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IAsyncOperationHandle.OnComplete</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationHandle.cs" line="27" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationHandle.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="dd/d0a/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_handle_1afc9d344b7fae84a84915f97c26dbe092" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>new <ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a7aad06b84eedaea282efda0972c4197b" kindref="member">Callback</ref>&lt; IAsyncOperationHandle&lt; T &gt; &gt;</type>
+        <definition>new Callback&lt;IAsyncOperationHandle&lt;T&gt; &gt; OnProgress</definition>
+        <argsstring></argsstring>
+        <name>OnProgress</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IAsyncOperationHandle.OnProgress</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationHandle.cs" line="42" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationHandle.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="dd/d0a/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_handle_1a2073c9b0eb8f088d4195ce187114dd00" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>new <ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a7aad06b84eedaea282efda0972c4197b" kindref="member">Callback</ref>&lt; IAsyncOperationHandle&lt; T &gt; &gt;</type>
+        <definition>new Callback&lt;IAsyncOperationHandle&lt;T&gt; &gt; OnComplete</definition>
+        <argsstring></argsstring>
+        <name>OnComplete</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IAsyncOperationHandle.OnComplete</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationHandle.cs" line="44" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationHandle.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationHandle.cs" line="7" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationHandle.cs" bodystart="33" bodyend="47"/>
+    <listofallmembers>
+      <member refid="dd/d0a/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_handle_1a2659af8ee1cc7ca00d1fe018036acc10" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IAsyncOperationHandle</scope><name>Error</name></member>
+      <member refid="dd/d0a/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_handle_1abec26bb991e10a2dfa2b418499274ee1" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IAsyncOperationHandle</scope><name>IsDone</name></member>
+      <member refid="dd/d0a/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_handle_1ac6f0c584b6a6db4c2153aa7fd1085dba" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IAsyncOperationHandle</scope><name>OnComplete</name></member>
+      <member refid="dd/d0a/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_handle_1a2073c9b0eb8f088d4195ce187114dd00" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IAsyncOperationHandle</scope><name>OnComplete</name></member>
+      <member refid="dd/d0a/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_handle_1aff1e790c1d77618920f10d4f114dc871" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IAsyncOperationHandle</scope><name>OnProgress</name></member>
+      <member refid="dd/d0a/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_handle_1afc9d344b7fae84a84915f97c26dbe092" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IAsyncOperationHandle</scope><name>OnProgress</name></member>
+      <member refid="dd/d0a/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_handle_1a044696972e1444b38c42de6952a8a18a" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IAsyncOperationHandle</scope><name>Progress</name></member>
+      <member refid="dd/d0a/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_handle_1a2b7610d0184c80eadb1cd415aa5c815f" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IAsyncOperationHandle</scope><name>Result</name></member>
+      <member refid="dd/d0a/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_handle_1a975851d76de874920b1b8b396110793f" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IAsyncOperationHandle</scope><name>Result</name></member>
+      <member refid="dd/d0a/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_handle_1a906e382cb9c5cebd1667fe7cf3973e32" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IAsyncOperationHandle</scope><name>Status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

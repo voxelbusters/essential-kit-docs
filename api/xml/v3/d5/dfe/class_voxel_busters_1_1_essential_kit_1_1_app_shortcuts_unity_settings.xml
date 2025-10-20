@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d5/dfe/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_unity_settings" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::AppShortcutsUnitySettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SettingsPropertyGroup</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d5/dfe/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_unity_settings_1a7478dd215484e35d55d9bce73c0d6e0c" prot="private" static="no" mutable="no">
+        <type>List&lt; Texture2D &gt;</type>
+        <definition>List&lt;Texture2D&gt; m_icons</definition>
+        <argsstring></argsstring>
+        <name>m_icons</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppShortcutsUnitySettings.m_icons</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppShortcutsUnitySettings.cs" line="14" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppShortcutsUnitySettings.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d5/dfe/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_unity_settings_1a1d9e3677e361941c2c7aeda52712575b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; Texture2D &gt;</type>
+        <definition>List&lt;Texture2D&gt; Icons</definition>
+        <argsstring></argsstring>
+        <name>Icons</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppShortcutsUnitySettings.Icons</qualifiedname>
+        <briefdescription>
+<para>The list of textures that can be used as icon for app shortcuts. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>Icon file names set in <ref refid="d7/d48/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item_1_1_builder_1a498f879d808726933070789944173f8f" kindref="member">AppShortcutItem.Builder.SetIconFileName</ref> must be referred in this list. Else, it won&apos;t show up. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppShortcutsUnitySettings.cs" line="25" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppShortcutsUnitySettings.cs" bodystart="26" bodyend="35"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/dfe/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_unity_settings_1acb371c0481a3eb2bfa008c01478816dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AppShortcutsUnitySettings</definition>
+        <argsstring>(bool isEnabled=true, List&lt; Texture2D &gt; icons=null)</argsstring>
+        <name>AppShortcutsUnitySettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppShortcutsUnitySettings.AppShortcutsUnitySettings</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isEnabled</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>List&lt; Texture2D &gt;</type>
+          <declname>icons</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppShortcutsUnitySettings.cs" line="41" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppShortcutsUnitySettings.cs" bodystart="41" bodyend="45"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppShortcutsUnitySettings.cs" line="8" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppShortcutsUnitySettings.cs" bodystart="9" bodyend="48"/>
+    <listofallmembers>
+      <member refid="d5/dfe/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_unity_settings_1acb371c0481a3eb2bfa008c01478816dd" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppShortcutsUnitySettings</scope><name>AppShortcutsUnitySettings</name></member>
+      <member refid="d5/dfe/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_unity_settings_1a1d9e3677e361941c2c7aeda52712575b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppShortcutsUnitySettings</scope><name>Icons</name></member>
+      <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1a45f8df3acbb2721c2df8462f1cd8f14b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppShortcutsUnitySettings</scope><name>IsEnabled</name></member>
+      <member refid="d5/dfe/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_unity_settings_1a7478dd215484e35d55d9bce73c0d6e0c" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppShortcutsUnitySettings</scope><name>m_icons</name></member>
+      <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1a7ee9065718e6628dc7791b756fa6c0f9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppShortcutsUnitySettings</scope><name>Name</name></member>
+      <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1ac9b0727cd904077f21637b8cbe0b139d" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppShortcutsUnitySettings</scope><name>SettingsPropertyGroup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

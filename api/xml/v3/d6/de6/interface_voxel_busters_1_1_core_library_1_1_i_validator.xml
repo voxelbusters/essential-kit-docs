@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d6/de6/interface_voxel_busters_1_1_core_library_1_1_i_validator" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::IValidator</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/de6/interface_voxel_busters_1_1_core_library_1_1_i_validator_1ad99ceb483d8cbc387aa3df6e5e1297fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ValidationResult</type>
+        <definition>ValidationResult Validate</definition>
+        <argsstring>()</argsstring>
+        <name>Validate</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IValidator.Validate</qualifiedname>
+        <briefdescription>
+<para>Validate this instance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The validation result.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/IValidator.cs" line="15" column="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/IValidator.cs" line="7" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/IValidator.cs" bodystart="8" bodyend="18"/>
+    <listofallmembers>
+      <member refid="d6/de6/interface_voxel_busters_1_1_core_library_1_1_i_validator_1ad99ceb483d8cbc387aa3df6e5e1297fa" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IValidator</scope><name>Validate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

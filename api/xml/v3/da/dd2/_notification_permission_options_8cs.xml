@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="da/dd2/_notification_permission_options_8cs" kind="file" language="C#">
+    <compoundname>NotificationPermissionOptions.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>NotificationPermissionOptions</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationPermissionOptions</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274a454a5c95c970c24b3d747b01001fd13a" prot="public">
+          <name>Badge</name>
+          <initializer>= 1 &lt;&lt; 0</initializer>
+          <briefdescription>
+<para>The ability to update the app’s badge. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274a9d07e0e08af7f96cf45be0112b9ccfbe" prot="public">
+          <name>Sound</name>
+          <initializer>= 1 &lt;&lt; 1</initializer>
+          <briefdescription>
+<para>The ability to play sounds. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274ab92071d61c88498171928745ca53078b" prot="public">
+          <name>Alert</name>
+          <initializer>= 1 &lt;&lt; 2</initializer>
+          <briefdescription>
+<para>The ability to display alerts. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274aa314db4edac2eb21e8799740e73902e4" prot="public">
+          <name>CarPlay</name>
+          <initializer>= 1 &lt;&lt; 3</initializer>
+          <briefdescription>
+<para>The ability to display notifications in a CarPlay environment. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274a97a5a89e9a1990dbd2edf4de0fb0d397" prot="public">
+          <name>CriticalAlert</name>
+          <initializer>= 1 &lt;&lt; 4</initializer>
+          <briefdescription>
+<para>The ability to play sounds for critical alerts. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274a23ae0ee0c9f74a1d1633400c871073d3" prot="public">
+          <name>ProvidesAppNotificationSettings</name>
+          <initializer>= 1 &lt;&lt; 5</initializer>
+          <briefdescription>
+<para>An option indicating the system should display a button for in-app notification settings. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274a879556b917aa201a4e3762375dbcb5bc" prot="public">
+          <name>Provisional</name>
+          <initializer>= 1 &lt;&lt; 6</initializer>
+          <briefdescription>
+<para>The ability to post noninterrupting notifications provisionally to the Notification Center. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274afeb4d2dfe1b2a637fdfd9e397cc4735f" prot="public">
+          <name>Announcement</name>
+          <initializer>= 1 &lt;&lt; 7</initializer>
+          <briefdescription>
+<para>The ability for Siri to automatically read out messages over AirPods. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274a0e64274f0874f21ad390180620714127" prot="public">
+          <name>ExactTiming</name>
+          <initializer>= 1 &lt;&lt; 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274ab1c94ca2fbc3e78fc30069c8d0f01680" prot="public">
+          <name>All</name>
+          <initializer>= Badge | Sound | Alert | CarPlay | CriticalAlert | ProvidesAppNotificationSettings | Provisional | Announcement | ExactTiming</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enumeration values for requesting authorization to interact with the user. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationPermissionOptions.cs" line="12" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationPermissionOptions.cs" bodystart="13" bodyend="43"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationPermissionOptions.cs"/>
+  </compounddef>
+</doxygen>

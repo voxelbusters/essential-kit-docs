@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d3/da7/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_android_properties" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails::AndroidProperties</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d3/da7/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_android_properties_1a176ccbd661a78c99444e637ed0af4c6e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string OfferId</definition>
+        <argsstring></argsstring>
+        <name>OfferId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductOfferRedeemDetails.AndroidProperties.OfferId</qualifiedname>
+        <briefdescription>
+<para>The offer Id of the product offer. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" line="104" column="27" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" bodystart="104" bodyend="104"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="d3/da7/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_android_properties_1abc5189eb4ad620791723a0395bc632ef" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AndroidProperties</definition>
+        <argsstring>(string offerId)</argsstring>
+        <name>AndroidProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductOfferRedeemDetails.AndroidProperties.AndroidProperties</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>offerId</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="d3/da7/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_android_properties" kindref="compound">AndroidProperties</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>offerId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The offer ID of the product offer.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" line="110" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" bodystart="110" bodyend="113"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/da7/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_android_properties_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductOfferRedeemDetails.AndroidProperties.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" line="115" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" bodystart="115" bodyend="118"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents the Android platform properties for redeeming a product offer. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" line="99" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" bodystart="100" bodyend="119"/>
+    <listofallmembers>
+      <member refid="d3/da7/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_android_properties_1abc5189eb4ad620791723a0395bc632ef" prot="package" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails::AndroidProperties</scope><name>AndroidProperties</name></member>
+      <member refid="d3/da7/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_android_properties_1a176ccbd661a78c99444e637ed0af4c6e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails::AndroidProperties</scope><name>OfferId</name></member>
+      <member refid="d3/da7/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_android_properties_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails::AndroidProperties</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

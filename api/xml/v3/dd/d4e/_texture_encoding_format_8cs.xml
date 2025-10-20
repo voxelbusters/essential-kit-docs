@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dd/d4e/_texture_encoding_format_8cs" kind="file" language="C#">
+    <compoundname>TextureEncodingFormat.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="d7/d45/namespace_voxel_busters_1_1_core_library">VoxelBusters::CoreLibrary</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="d7/d45/namespace_voxel_busters_1_1_core_library_1a533c2670f0a8893cf58661a4784b2c9f" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>TextureEncodingFormat</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.TextureEncodingFormat</qualifiedname>
+        <enumvalue id="d7/d45/namespace_voxel_busters_1_1_core_library_1a533c2670f0a8893cf58661a4784b2c9fa55505ba281b015ec31f03ccb151b2a34" prot="public">
+          <name>PNG</name>
+          <briefdescription>
+<para>Encodes the given texture into PNG format. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d45/namespace_voxel_busters_1_1_core_library_1a533c2670f0a8893cf58661a4784b2c9fa92769fe7c40229f4301d6125e0a9e928" prot="public">
+          <name>JPG</name>
+          <briefdescription>
+<para>Encodes the given texture into JPEG format. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>This enum is used to define the texture encoding technique to be used by the plugin. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/TextureEncodingFormat.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/TextureEncodingFormat.cs" bodystart="11" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/TextureEncodingFormat.cs"/>
+  </compounddef>
+</doxygen>

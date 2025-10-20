@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d7/dc7/class_voxel_busters_1_1_core_library_1_1_application_lifecycle_observer" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::ApplicationLifecycleObserver</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">VoxelBusters::CoreLibrary::SingletonBehaviour&lt; ApplicationLifecycleObserver &gt;</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d7/dc7/class_voxel_busters_1_1_core_library_1_1_application_lifecycle_observer_1af544db35b0d5a380f78d30fd114bc754" prot="private" static="no" mutable="no">
+        <type>List&lt; IApplicationLifecycleListener &gt;</type>
+        <definition>List&lt;IApplicationLifecycleListener&gt; m_listeners</definition>
+        <argsstring></argsstring>
+        <name>m_listeners</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ApplicationLifecycleObserver.m_listeners</qualifiedname>
+        <initializer>= new List&lt;IApplicationLifecycleListener&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationLifecycleObserver.cs" line="9" column="14" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationLifecycleObserver.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d7/dc7/class_voxel_busters_1_1_core_library_1_1_application_lifecycle_observer_1aa7ecfd78712139c8a2a30cf39ece8a04" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ApplicationLifecycleObserver</type>
+        <definition>static ApplicationLifecycleObserver Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ApplicationLifecycleObserver.Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationLifecycleObserver.cs" line="13" column="52" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationLifecycleObserver.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/dc7/class_voxel_busters_1_1_core_library_1_1_application_lifecycle_observer_1af943b5f0e4f0d184f30c16cb2b108a82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddListener</definition>
+        <argsstring>(IApplicationLifecycleListener listener)</argsstring>
+        <name>AddListener</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ApplicationLifecycleObserver.AddListener</qualifiedname>
+        <param>
+          <type>IApplicationLifecycleListener</type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationLifecycleObserver.cs" line="18" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationLifecycleObserver.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc7/class_voxel_busters_1_1_core_library_1_1_application_lifecycle_observer_1a6e12662aeaa8a6daac7cb10165fc5827" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RemoveListener</definition>
+        <argsstring>(IApplicationLifecycleListener listener)</argsstring>
+        <name>RemoveListener</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ApplicationLifecycleObserver.RemoveListener</qualifiedname>
+        <param>
+          <type>IApplicationLifecycleListener</type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationLifecycleObserver.cs" line="23" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationLifecycleObserver.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d7/dc7/class_voxel_busters_1_1_core_library_1_1_application_lifecycle_observer_1aedb51a21ba9fb8360e8b4a4d407a3c60" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OnApplicationFocus</definition>
+        <argsstring>(bool hasFocus)</argsstring>
+        <name>OnApplicationFocus</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ApplicationLifecycleObserver.OnApplicationFocus</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>hasFocus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationLifecycleObserver.cs" line="29" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationLifecycleObserver.cs" bodystart="29" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc7/class_voxel_busters_1_1_core_library_1_1_application_lifecycle_observer_1ab8286b8878548b1040499bf6b780df42" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OnApplicationPause</definition>
+        <argsstring>(bool pauseStatus)</argsstring>
+        <name>OnApplicationPause</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ApplicationLifecycleObserver.OnApplicationPause</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>pauseStatus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationLifecycleObserver.cs" line="37" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationLifecycleObserver.cs" bodystart="37" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc7/class_voxel_busters_1_1_core_library_1_1_application_lifecycle_observer_1a8a15e5eb89fdaf996e5bc29b4c5a2bc1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OnApplicationQuit</definition>
+        <argsstring>()</argsstring>
+        <name>OnApplicationQuit</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ApplicationLifecycleObserver.OnApplicationQuit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationLifecycleObserver.cs" line="45" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationLifecycleObserver.cs" bodystart="45" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationLifecycleObserver.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ApplicationLifecycleObserver.cs" bodystart="7" bodyend="52"/>
+    <listofallmembers>
+      <member refid="d7/dc7/class_voxel_busters_1_1_core_library_1_1_application_lifecycle_observer_1af943b5f0e4f0d184f30c16cb2b108a82" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationLifecycleObserver</scope><name>AddListener</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a6a50039c56e42ecc20d5de7aa56ab5e6" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationLifecycleObserver</scope><name>DestorySingleton</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a7f36640d267f36fcbac6d736fb9456d6" prot="protected" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationLifecycleObserver</scope><name>GetSingleton</name></member>
+      <member refid="d7/dc7/class_voxel_busters_1_1_core_library_1_1_application_lifecycle_observer_1aa7ecfd78712139c8a2a30cf39ece8a04" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationLifecycleObserver</scope><name>Initialize</name></member>
+      <member refid="d1/d52/class_voxel_busters_1_1_core_library_1_1_singleton_behaviour_1ad4ec7ef5b96699846d44e6e82c35c12f" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationLifecycleObserver</scope><name>Instance</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a4c99c6dc56675d38d2fbc282cbd64d09" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationLifecycleObserver</scope><name>IsPersistent</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1ac51aabcdcc13271b1c7f1bbb249f0321" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationLifecycleObserver</scope><name>IsSingletonActive</name></member>
+      <member refid="d7/dc7/class_voxel_busters_1_1_core_library_1_1_application_lifecycle_observer_1af544db35b0d5a380f78d30fd114bc754" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationLifecycleObserver</scope><name>m_listeners</name></member>
+      <member refid="d7/dc7/class_voxel_busters_1_1_core_library_1_1_application_lifecycle_observer_1aedb51a21ba9fb8360e8b4a4d407a3c60" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationLifecycleObserver</scope><name>OnApplicationFocus</name></member>
+      <member refid="d7/dc7/class_voxel_busters_1_1_core_library_1_1_application_lifecycle_observer_1ab8286b8878548b1040499bf6b780df42" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationLifecycleObserver</scope><name>OnApplicationPause</name></member>
+      <member refid="d7/dc7/class_voxel_busters_1_1_core_library_1_1_application_lifecycle_observer_1a8a15e5eb89fdaf996e5bc29b4c5a2bc1" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationLifecycleObserver</scope><name>OnApplicationQuit</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a5fdaf276406a70b875624da347c33765" prot="protected" virt="virtual"><scope>VoxelBusters::CoreLibrary::ApplicationLifecycleObserver</scope><name>OnSingletonAwake</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a44bde1142ce6a850a18aa9d61e1338ec" prot="protected" virt="virtual"><scope>VoxelBusters::CoreLibrary::ApplicationLifecycleObserver</scope><name>OnSingletonDestroy</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a4343e94eeb9392419970f25f0d8c2f7a" prot="protected" virt="virtual"><scope>VoxelBusters::CoreLibrary::ApplicationLifecycleObserver</scope><name>OnSingletonStart</name></member>
+      <member refid="d7/dc7/class_voxel_busters_1_1_core_library_1_1_application_lifecycle_observer_1a6e12662aeaa8a6daac7cb10165fc5827" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationLifecycleObserver</scope><name>RemoveListener</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1adc4b27bf21ae03f5295e34e316904e2d" prot="protected" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationLifecycleObserver</scope><name>TryGetSingleton</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

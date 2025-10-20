@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dc/d92/class_voxel_busters_1_1_essential_kit_1_1_extras_core_1_1_native_utility_interface_base" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>VoxelBusters::EssentialKit::ExtrasCore::NativeUtilityInterfaceBase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NativeFeatureInterfaceBase</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INativeUtilityInterface</basecompoundref>
+    <derivedcompoundref refid="da/df4/class_voxel_busters_1_1_essential_kit_1_1_extras_core_1_1_null_native_utility_interface" prot="public" virt="non-virtual">NullNativeUtilityInterface</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="dc/d92/class_voxel_busters_1_1_essential_kit_1_1_extras_core_1_1_native_utility_interface_base_1a4242061ebfccfe0795df636e2e11d60d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NativeUtilityInterfaceBase</definition>
+        <argsstring>(bool isAvailable)</argsstring>
+        <name>NativeUtilityInterfaceBase</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ExtrasCore.NativeUtilityInterfaceBase.NativeUtilityInterfaceBase</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isAvailable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/NativeUtilityInterfaceBase.cs" line="12" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/NativeUtilityInterfaceBase.cs" bodystart="12" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d92/class_voxel_busters_1_1_essential_kit_1_1_extras_core_1_1_native_utility_interface_base_1a8ed4df28f6455a230665b6de60ce7deb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void OpenAppStorePage</definition>
+        <argsstring>(string applicationId)</argsstring>
+        <name>OpenAppStorePage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ExtrasCore.NativeUtilityInterfaceBase.OpenAppStorePage</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>applicationId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/NativeUtilityInterfaceBase.cs" line="20" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d92/class_voxel_busters_1_1_essential_kit_1_1_extras_core_1_1_native_utility_interface_base_1abd53881cec85ee7844f85d8f6e785e4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void OpenApplicationSettings</definition>
+        <argsstring>()</argsstring>
+        <name>OpenApplicationSettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ExtrasCore.NativeUtilityInterfaceBase.OpenApplicationSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/NativeUtilityInterfaceBase.cs" line="22" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/NativeUtilityInterfaceBase.cs" line="8" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/NativeUtilityInterfaceBase.cs" bodystart="9" bodyend="25"/>
+    <listofallmembers>
+      <member refid="dc/d92/class_voxel_busters_1_1_essential_kit_1_1_extras_core_1_1_native_utility_interface_base_1a4242061ebfccfe0795df636e2e11d60d" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ExtrasCore::NativeUtilityInterfaceBase</scope><name>NativeUtilityInterfaceBase</name></member>
+      <member refid="dc/d92/class_voxel_busters_1_1_essential_kit_1_1_extras_core_1_1_native_utility_interface_base_1abd53881cec85ee7844f85d8f6e785e4a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ExtrasCore::NativeUtilityInterfaceBase</scope><name>OpenApplicationSettings</name></member>
+      <member refid="dc/d92/class_voxel_busters_1_1_essential_kit_1_1_extras_core_1_1_native_utility_interface_base_1a8ed4df28f6455a230665b6de60ce7deb" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ExtrasCore::NativeUtilityInterfaceBase</scope><name>OpenAppStorePage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

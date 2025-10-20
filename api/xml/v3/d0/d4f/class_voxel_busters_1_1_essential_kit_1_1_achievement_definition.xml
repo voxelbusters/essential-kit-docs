@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::AchievementDefinition</compoundname>
+    <innerclass refid="db/d3e/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1_1_android_platform_properties" prot="public">VoxelBusters::EssentialKit::AchievementDefinition::AndroidPlatformProperties</innerclass>
+    <innerclass refid="d1/d37/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1_1_ios_platform_properties" prot="public">VoxelBusters::EssentialKit::AchievementDefinition::IosPlatformProperties</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1aaf217350cb1ae633b3b18fbcb7e14b9b" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_id</definition>
+        <argsstring></argsstring>
+        <name>m_id</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AchievementDefinition.m_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" line="20" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1a77679921da34d0fe0d6f8f3e94b4de98" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_platformId</definition>
+        <argsstring></argsstring>
+        <name>m_platformId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AchievementDefinition.m_platformId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" line="23" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1af3b73f6086e61a9465b387709e125fb0" prot="private" static="no" mutable="no">
+        <type>RuntimePlatformConstantSet</type>
+        <definition>RuntimePlatformConstantSet m_platformIdOverrides</definition>
+        <argsstring></argsstring>
+        <name>m_platformIdOverrides</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AchievementDefinition.m_platformIdOverrides</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" line="26" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1a9051e9e6563f1ae490194450f524989a" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_title</definition>
+        <argsstring></argsstring>
+        <name>m_title</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AchievementDefinition.m_title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" line="29" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1a2aafd01b37b799eb306a54d733e13ac3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int m_numOfStepsToUnlock</definition>
+        <argsstring></argsstring>
+        <name>m_numOfStepsToUnlock</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AchievementDefinition.m_numOfStepsToUnlock</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" line="32" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1a75cde8e55eba608a7c09cbbd8a3b591a" prot="private" static="no" mutable="no">
+        <type>IosPlatformProperties</type>
+        <definition>IosPlatformProperties m_iosProperties</definition>
+        <argsstring></argsstring>
+        <name>m_iosProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AchievementDefinition.m_iosProperties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" line="35" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1a336579bd5fe8d5a6c406adea5f33d141" prot="private" static="no" mutable="no">
+        <type>AndroidPlatformProperties</type>
+        <definition>AndroidPlatformProperties m_androidProperties</definition>
+        <argsstring></argsstring>
+        <name>m_androidProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AchievementDefinition.m_androidProperties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" line="38" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1a186291c875988107b7ace745ea84d4ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AchievementDefinition.Id</qualifiedname>
+        <briefdescription>
+<para>The string that identifies the achievement within Unity environment. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" line="47" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1aa7b633091e7820b835d04d0d5fc197c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AchievementDefinition.Title</qualifiedname>
+        <briefdescription>
+<para>The name of the achievement. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" line="52" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1a422d08317976080fbce369e16cdf2d18" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int NumOfStepsToUnlock</definition>
+        <argsstring></argsstring>
+        <name>NumOfStepsToUnlock</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AchievementDefinition.NumOfStepsToUnlock</qualifiedname>
+        <briefdescription>
+<para>The number of steps required to unlock the achievement. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" line="57" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1ac85bf8879a7bfb347b77062f1f062603" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>IosPlatformProperties</type>
+        <definition>IosPlatformProperties IosProperties</definition>
+        <argsstring></argsstring>
+        <name>IosProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AchievementDefinition.IosProperties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" line="59" column="38" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1a43ee530d504628390660ed6ec9f35a11" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>AndroidPlatformProperties</type>
+        <definition>AndroidPlatformProperties AndroidProperties</definition>
+        <argsstring></argsstring>
+        <name>AndroidProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AchievementDefinition.AndroidProperties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" line="61" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1a6204b0fee77195d67cd8f71b5bdc7d1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AchievementDefinition</definition>
+        <argsstring>(string id=null, string platformId=null, RuntimePlatformConstantSet platformIdOverrides=null, string title=null, int numOfStepsToUnlock=1, IosPlatformProperties iosProperties=null, AndroidPlatformProperties androidProperties=null)</argsstring>
+        <name>AchievementDefinition</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AchievementDefinition.AchievementDefinition</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>platformId</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>RuntimePlatformConstantSet</type>
+          <declname>platformIdOverrides</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numOfStepsToUnlock</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>IosPlatformProperties</type>
+          <declname>iosProperties</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>AndroidPlatformProperties</type>
+          <declname>androidProperties</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" line="67" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" bodystart="67" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1ac93913b0974856cbfcce4b4678f5666f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetPlatformIdForActivePlatform</definition>
+        <argsstring>()</argsstring>
+        <name>GetPlatformIdForActivePlatform</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AchievementDefinition.GetPlatformIdForActivePlatform</qualifiedname>
+        <briefdescription>
+<para>Returns the achievement identifier for active platform. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" line="89" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.cs" bodystart="89" bodyend="92"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents an object containing additional information related to game achievement. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.AndroidPlatformProperties.cs" line="8" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.IosPlatformProperties.cs" bodystart="9" bodyend="20"/>
+    <listofallmembers>
+      <member refid="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1a6204b0fee77195d67cd8f71b5bdc7d1d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementDefinition</scope><name>AchievementDefinition</name></member>
+      <member refid="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1a43ee530d504628390660ed6ec9f35a11" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementDefinition</scope><name>AndroidProperties</name></member>
+      <member refid="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1ac93913b0974856cbfcce4b4678f5666f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementDefinition</scope><name>GetPlatformIdForActivePlatform</name></member>
+      <member refid="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1a186291c875988107b7ace745ea84d4ec" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementDefinition</scope><name>Id</name></member>
+      <member refid="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1ac85bf8879a7bfb347b77062f1f062603" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementDefinition</scope><name>IosProperties</name></member>
+      <member refid="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1a336579bd5fe8d5a6c406adea5f33d141" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementDefinition</scope><name>m_androidProperties</name></member>
+      <member refid="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1aaf217350cb1ae633b3b18fbcb7e14b9b" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementDefinition</scope><name>m_id</name></member>
+      <member refid="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1a75cde8e55eba608a7c09cbbd8a3b591a" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementDefinition</scope><name>m_iosProperties</name></member>
+      <member refid="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1a2aafd01b37b799eb306a54d733e13ac3" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementDefinition</scope><name>m_numOfStepsToUnlock</name></member>
+      <member refid="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1a77679921da34d0fe0d6f8f3e94b4de98" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementDefinition</scope><name>m_platformId</name></member>
+      <member refid="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1af3b73f6086e61a9465b387709e125fb0" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementDefinition</scope><name>m_platformIdOverrides</name></member>
+      <member refid="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1a9051e9e6563f1ae490194450f524989a" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementDefinition</scope><name>m_title</name></member>
+      <member refid="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1a422d08317976080fbce369e16cdf2d18" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementDefinition</scope><name>NumOfStepsToUnlock</name></member>
+      <member refid="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1aa7b633091e7820b835d04d0d5fc197c7" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementDefinition</scope><name>Title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

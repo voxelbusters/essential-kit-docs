@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d6/d40/_async_operation_handle_8cs" kind="file" language="C#">
+    <compoundname>AsyncOperationHandle.cs</compoundname>
+    <innerclass refid="d9/d39/class_voxel_busters_1_1_core_library_1_1_async_operation_handle" prot="public">VoxelBusters::CoreLibrary::AsyncOperationHandle</innerclass>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="d7/d45/namespace_voxel_busters_1_1_core_library">VoxelBusters::CoreLibrary</innernamespace>
+    <innernamespace refid="d8/dd0/namespace_system">System</innernamespace>
+    <innernamespace refid="d9/d1b/namespace_system_1_1_collections_1_1_generic">System::Collections::Generic</innernamespace>
+    <innernamespace refid="d3/d82/namespace_unity_engine">UnityEngine</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/AsyncOperationHandle.cs"/>
+  </compounddef>
+</doxygen>

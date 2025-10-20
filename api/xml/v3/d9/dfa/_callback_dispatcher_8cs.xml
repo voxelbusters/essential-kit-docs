@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/dfa/_callback_dispatcher_8cs" kind="file" language="C#">
+    <compoundname>CallbackDispatcher.cs</compoundname>
+    <innerclass refid="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher" prot="public">VoxelBusters::CoreLibrary::CallbackDispatcher</innerclass>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="d7/d45/namespace_voxel_busters_1_1_core_library">VoxelBusters::CoreLibrary</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="d7/d45/namespace_voxel_busters_1_1_core_library_1a7aad06b84eedaea282efda0972c4197b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Callback</definition>
+        <argsstring>()</argsstring>
+        <name>Callback</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.Callback</qualifiedname>
+        <briefdescription>
+<para>Generic callback definition for operations. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" line="10" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" declline="10" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d45/namespace_voxel_busters_1_1_core_library_1a870661a2a003cf1e1bbc04c4dc8adc02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Callback&lt; TArg &gt;</definition>
+        <argsstring>(TArg arg)</argsstring>
+        <name>Callback&lt; TArg &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.Callback&lt; TArg &gt;</qualifiedname>
+        <param>
+          <type>TArg</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+<para>Generic callback definition for events. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" line="15" column="21" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" declline="15" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d45/namespace_voxel_busters_1_1_core_library_1a4308f1e03576c3f24610fe2ee9d31d9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void SuccessCallback&lt; TResult &gt;</definition>
+        <argsstring>(TResult result)</argsstring>
+        <name>SuccessCallback&lt; TResult &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.SuccessCallback&lt; TResult &gt;</qualifiedname>
+        <param>
+          <type>TResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+<para>Generic callback definition for events. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" line="20" column="21" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" declline="20" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d45/namespace_voxel_busters_1_1_core_library_1a63784ffd9f37c84588df4af6266e7be3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void ErrorCallback</definition>
+        <argsstring>(Error error)</argsstring>
+        <name>ErrorCallback</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ErrorCallback</qualifiedname>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+<para>Generic callback definition for operations. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" line="25" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" declline="25" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d45/namespace_voxel_busters_1_1_core_library_1a67258e35735836517152f688bd5a5b43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void CompletionCallback</definition>
+        <argsstring>(bool success, Error error)</argsstring>
+        <name>CompletionCallback</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CompletionCallback</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>success</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+<para>Generic callback definition for operations. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" line="30" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" declline="30" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d45/namespace_voxel_busters_1_1_core_library_1aadab12fda25059270c8586a88740ef21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void CompletionCallback&lt; TResult &gt;</definition>
+        <argsstring>(TResult result, Error error)</argsstring>
+        <name>CompletionCallback&lt; TResult &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CompletionCallback&lt; TResult &gt;</qualifiedname>
+        <param>
+          <type>TResult</type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+<para>Generic callback definition for events. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" line="35" column="21" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" declline="35" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d45/namespace_voxel_busters_1_1_core_library_1a96bb32eccace4a42161521d5d6b6d478" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void EventCallback&lt; TResult &gt;</definition>
+        <argsstring>(TResult result, Error error)</argsstring>
+        <name>EventCallback&lt; TResult &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.EventCallback&lt; TResult &gt;</qualifiedname>
+        <param>
+          <type>TResult</type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+<para>Generic callback definition for operations. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" line="40" column="21" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" declline="40" declcolumn="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs"/>
+  </compounddef>
+</doxygen>

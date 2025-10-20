@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_46ba987472c219c0210f8d0b0dc7fffc" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components</compoundname>
+    <innerfile refid="d7/d27/_action_trigger_component_8cs">ActionTriggerComponent.cs</innerfile>
+    <innerfile refid="d9/dfa/_callback_dispatcher_8cs">CallbackDispatcher.cs</innerfile>
+    <innerfile refid="dc/deb/_editor_scheduler_8cs">EditorScheduler.cs</innerfile>
+    <innerfile refid="de/df3/_i_operation_result_container_8cs">IOperationResultContainer.cs</innerfile>
+    <innerfile refid="df/d0c/_i_scheduler_8cs">IScheduler.cs</innerfile>
+    <innerfile refid="dc/d58/_i_scheduler_update_handler_8cs">ISchedulerUpdateHandler.cs</innerfile>
+    <innerfile refid="d7/dd0/_mono_behaviour_z_8cs">MonoBehaviourZ.cs</innerfile>
+    <innerfile refid="db/d63/_persistent_object_8cs">PersistentObject.cs</innerfile>
+    <innerfile refid="d4/dfc/_runtime_scheduler_8cs">RuntimeScheduler.cs</innerfile>
+    <innerfile refid="db/d8b/_scheduler_8cs">Scheduler.cs</innerfile>
+    <innerfile refid="d2/d95/_surrogate_coroutine_8cs">SurrogateCoroutine.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/"/>
+  </compounddef>
+</doxygen>

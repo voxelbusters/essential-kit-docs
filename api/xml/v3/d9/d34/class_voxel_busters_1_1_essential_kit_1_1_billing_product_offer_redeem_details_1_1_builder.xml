@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/d34/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_builder" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails::Builder</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d9/d34/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_builder_1a9ef87b979c03a7af10df3ad1119e322a" prot="private" static="no" mutable="no">
+        <type><ref refid="d6/ddd/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details" kindref="compound">BillingProductOfferRedeemDetails</ref></type>
+        <definition>BillingProductOfferRedeemDetails m_request</definition>
+        <argsstring></argsstring>
+        <name>m_request</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductOfferRedeemDetails.Builder.m_request</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" line="127" column="54" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" bodystart="127" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d34/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_builder_1a4c5b1b5b658880619647b859000724fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Builder</definition>
+        <argsstring>()</argsstring>
+        <name>Builder</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductOfferRedeemDetails.Builder.Builder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" line="129" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" bodystart="129" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d34/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_builder_1a8b162fd3700b6292549fec932f5d2a5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d9/d34/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_builder" kindref="compound">Builder</ref></type>
+        <definition>Builder SetIosPlatformProperties</definition>
+        <argsstring>(string offerId, string keyId, string nonce, string signature, long timestamp)</argsstring>
+        <name>SetIosPlatformProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductOfferRedeemDetails.Builder.SetIosPlatformProperties</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>offerId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>keyId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nonce</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>signature</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>timestamp</declname>
+        </param>
+        <briefdescription>
+<para>Sets the iOS platform properties for the <ref refid="d6/ddd/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details" kindref="compound">BillingProductOfferRedeemDetails</ref> being built. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>offerId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The offer id of the product offer.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>keyId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>keyId A string that identifies the private key you use to generate the signature.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nonce</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The anti-replay value used in the signature.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>signature</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The cryptographic signature of the offer parameters (base64).</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>timestamp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The UNIX time, in milliseconds, when you generate the signature.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>The signature need to be a Base64-encoded string. <simplesect kind="return"><para>The current <ref refid="d9/d34/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_builder" kindref="compound">Builder</ref> instance.</para>
+</simplesect>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" line="144" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" bodystart="144" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d34/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_builder_1ad3b1b9ee09ad287eafc30006c6c644cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d9/d34/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_builder" kindref="compound">Builder</ref></type>
+        <definition>Builder SetAndroidPlatformProperties</definition>
+        <argsstring>(string offerId)</argsstring>
+        <name>SetAndroidPlatformProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductOfferRedeemDetails.Builder.SetAndroidPlatformProperties</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>offerId</declname>
+        </param>
+        <briefdescription>
+<para>Sets the Android platform properties for the <ref refid="d6/ddd/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details" kindref="compound">BillingProductOfferRedeemDetails</ref> being built. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>offerId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The offer Id of the product offer.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current <ref refid="d9/d34/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_builder" kindref="compound">Builder</ref> instance.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" line="155" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" bodystart="155" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d34/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_builder_1a9d4eaabfdf82ef9b50e51de1a97576f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d6/ddd/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details" kindref="compound">BillingProductOfferRedeemDetails</ref></type>
+        <definition>BillingProductOfferRedeemDetails Build</definition>
+        <argsstring>()</argsstring>
+        <name>Build</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductOfferRedeemDetails.Builder.Build</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" line="164" column="53" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" bodystart="164" bodyend="167"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents a builder class for <ref refid="d6/ddd/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details" kindref="compound">BillingProductOfferRedeemDetails</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" line="124" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" bodystart="125" bodyend="168"/>
+    <listofallmembers>
+      <member refid="d9/d34/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_builder_1a9d4eaabfdf82ef9b50e51de1a97576f5" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails::Builder</scope><name>Build</name></member>
+      <member refid="d9/d34/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_builder_1a4c5b1b5b658880619647b859000724fc" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails::Builder</scope><name>Builder</name></member>
+      <member refid="d9/d34/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_builder_1a9ef87b979c03a7af10df3ad1119e322a" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails::Builder</scope><name>m_request</name></member>
+      <member refid="d9/d34/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_builder_1ad3b1b9ee09ad287eafc30006c6c644cc" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails::Builder</scope><name>SetAndroidPlatformProperties</name></member>
+      <member refid="d9/d34/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_builder_1a8b162fd3700b6292549fec932f5d2a5b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails::Builder</scope><name>SetIosPlatformProperties</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

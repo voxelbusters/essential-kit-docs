@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="df/d00/_cloud_saved_data_change_reason_code_8cs" kind="file" language="C#">
+    <compoundname>CloudSavedDataChangeReasonCode.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4f3b4326b7ed2ed6bcef09c3de8bed8f" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>CloudSavedDataChangeReasonCode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudSavedDataChangeReasonCode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4f3b4326b7ed2ed6bcef09c3de8bed8fa2a200899107848e0a7abe1c33bc628fb" prot="public">
+          <name>ServerChange</name>
+          <briefdescription>
+<para>This occurs when another instance of your app using same cloud service account, uploads a new value. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4f3b4326b7ed2ed6bcef09c3de8bed8facc6c5f3a793c80423c322302d8bd4ae5" prot="public">
+          <name>InitialSyncChange</name>
+          <briefdescription>
+<para>This occurs when an attempt to write to key-value storage was discarded because an initial download from cloud server has not yet happened. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4f3b4326b7ed2ed6bcef09c3de8bed8fa3afca51f8aa8ce4c664da6bd7cedfcff" prot="public">
+          <name>QuotaViolationChange</name>
+          <briefdescription>
+<para>This occurs when your app’s key-value store has exceeded its space quota on the cloud server. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4f3b4326b7ed2ed6bcef09c3de8bed8fa609b7ab54ed5deb4a7724be813980754" prot="public">
+          <name>AccountChange</name>
+          <briefdescription>
+<para>This occurs when user has changed the cloud service account. The keys and values in the local key-value store have been replaced with those from the new account. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Possible reasons when cloud data changed event occurs. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudSavedDataChangeReasonCode.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudSavedDataChangeReasonCode.cs" bodystart="11" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudSavedDataChangeReasonCode.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d7/d48/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item_1_1_builder" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::AppShortcutItem::Builder</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d7/d48/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item_1_1_builder_1add2e2861fe5da8cd8091d43f435a0e12" prot="private" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string m_identifier</definition>
+        <argsstring></argsstring>
+        <name>m_identifier</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppShortcutItem.Builder.m_identifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcutItem.cs" line="21" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcutItem.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d48/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item_1_1_builder_1a9a7b8a0cc2af950822916ffb181325e8" prot="private" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string m_title</definition>
+        <argsstring></argsstring>
+        <name>m_title</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppShortcutItem.Builder.m_title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcutItem.cs" line="22" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcutItem.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d48/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item_1_1_builder_1a8de4e5fb4f0efd8c71c196bdfccc864d" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_subtitle</definition>
+        <argsstring></argsstring>
+        <name>m_subtitle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppShortcutItem.Builder.m_subtitle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcutItem.cs" line="23" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcutItem.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d48/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item_1_1_builder_1a5737879743b461e005bf8eb048e95ab9" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_iconFileName</definition>
+        <argsstring></argsstring>
+        <name>m_iconFileName</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppShortcutItem.Builder.m_iconFileName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcutItem.cs" line="24" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcutItem.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d48/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item_1_1_builder_1a0aae03481177fd67a2ad72fb7204f71c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Builder</definition>
+        <argsstring>(string identifier, string title)</argsstring>
+        <name>Builder</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppShortcutItem.Builder.Builder</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>identifier</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+<para>Constructor for creating a new instance of the <ref refid="d7/d48/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item_1_1_builder" kindref="compound">AppShortcutItem.Builder</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>identifier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Unique identifier to identify this shortcut</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Title of the shortcut</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcutItem.cs" line="31" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcutItem.cs" bodystart="31" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d48/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item_1_1_builder_1aa629f296c1790b5e06772dfb7c879a32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d48/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item_1_1_builder" kindref="compound">Builder</ref></type>
+        <definition>Builder SetSubtitle</definition>
+        <argsstring>(string subtitle)</argsstring>
+        <name>SetSubtitle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppShortcutItem.Builder.SetSubtitle</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>subtitle</declname>
+        </param>
+        <briefdescription>
+<para>Sets the subtitle of the app shortcut. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>subtitle</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcutItem.cs" line="42" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcutItem.cs" bodystart="42" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d48/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item_1_1_builder_1a498f879d808726933070789944173f8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d48/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item_1_1_builder" kindref="compound">Builder</ref></type>
+        <definition>Builder SetIconFileName</definition>
+        <argsstring>(string iconFileNameWithExtension)</argsstring>
+        <name>SetIconFileName</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppShortcutItem.Builder.SetIconFileName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>iconFileNameWithExtension</declname>
+        </param>
+        <briefdescription>
+<para>Sets the icon file name of the app shortcut. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>iconFileNameWithExtension</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide the icon file name with extension.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+/note Make sure the icon is referred in the App Shortcuts Settings inspector. <simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcutItem.cs" line="54" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcutItem.cs" bodystart="54" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d48/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item_1_1_builder_1acc53481059d1c9502379165c37550b0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dd/d0b/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item" kindref="compound">AppShortcutItem</ref></type>
+        <definition>AppShortcutItem Build</definition>
+        <argsstring>()</argsstring>
+        <name>Build</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppShortcutItem.Builder.Build</qualifiedname>
+        <briefdescription>
+<para>Builds a new instance of the <ref refid="dd/d0b/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item" kindref="compound">AppShortcutItem</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcutItem.cs" line="64" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcutItem.cs" bodystart="64" bodyend="80"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="d7/d48/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item_1_1_builder" kindref="compound">Builder</ref> for creating a new instance of the <ref refid="dd/d0b/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item" kindref="compound">AppShortcutItem</ref> class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcutItem.cs" line="19" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcutItem.cs" bodystart="20" bodyend="81"/>
+    <listofallmembers>
+      <member refid="d7/d48/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item_1_1_builder_1acc53481059d1c9502379165c37550b0d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppShortcutItem::Builder</scope><name>Build</name></member>
+      <member refid="d7/d48/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item_1_1_builder_1a0aae03481177fd67a2ad72fb7204f71c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppShortcutItem::Builder</scope><name>Builder</name></member>
+      <member refid="d7/d48/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item_1_1_builder_1a5737879743b461e005bf8eb048e95ab9" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppShortcutItem::Builder</scope><name>m_iconFileName</name></member>
+      <member refid="d7/d48/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item_1_1_builder_1add2e2861fe5da8cd8091d43f435a0e12" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppShortcutItem::Builder</scope><name>m_identifier</name></member>
+      <member refid="d7/d48/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item_1_1_builder_1a8de4e5fb4f0efd8c71c196bdfccc864d" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppShortcutItem::Builder</scope><name>m_subtitle</name></member>
+      <member refid="d7/d48/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item_1_1_builder_1a9a7b8a0cc2af950822916ffb181325e8" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppShortcutItem::Builder</scope><name>m_title</name></member>
+      <member refid="d7/d48/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item_1_1_builder_1a498f879d808726933070789944173f8f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppShortcutItem::Builder</scope><name>SetIconFileName</name></member>
+      <member refid="d7/d48/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item_1_1_builder_1aa629f296c1790b5e06772dfb7c879a32" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppShortcutItem::Builder</scope><name>SetSubtitle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

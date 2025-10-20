@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>Introduction</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="index_1md__2_volumes_2_work_2_projects_2_products_2_asset_store_2_cross_01_platform_01_essential_01_kit_2_docs_2overview"/></para>
+<sect1 id="index_1essential-kit-v3-a-true-cross-platform-tool-for-unity-which-provides-unique-and-unified-way-to-access-native-functionality-on-mobile-platforms_1s1"><sect2 id="index_1essential-kit-v3-a-true-cross-platform-tool-for-unity-which-provides-unique-and-unified-way-to-access-native-functionality-on-mobile-platforms">
+<title><bold>Essential Kit (V3)</bold> a true cross-platform tool for Unity which provides unique and unified way to access native functionality on mobile platforms.</title><para><blockquote><para><zwj/>Supports <bold>mobile</bold> platforms <bold>iOS 15+ (till iOS 17)</bold> | <bold>Android 21+</bold> </para>
+</blockquote><blockquote><para><zwj/><bold>450+</bold> 🌟🌟🌟🌟🌟 | Used by <bold>25,000+ developers</bold> world-wide </para>
+</blockquote><blockquote><para><zwj/>As promised, all customers get <ulink url="https://u3d.as/37du">Ads Kit</ulink> for Free - No Code Required! </para>
+</blockquote><image type="html" name="cover.png" inline="yes"></image>
+ <image type="latex" name="cover.png" inline="yes"></image>
+ <image type="rtf" name="cover.png" inline="yes"></image>
+ <image type="docbook" name="cover.png" inline="yes"></image>
+ <image type="xml" name="cover.png" inline="yes"></image>
+</para>
+<para><hruler/>
+</para>
+<sect3 id="index_1important-links">
+<title><bold>Important links</bold></title><para><ulink url="https://link.voxelbusters.com/essential-kit-unity-forum">Unity Forum Thread</ulink> | <ulink url="https://link.voxelbusters.com/essential-kit-tutorials">Tutorials</ulink> | <ulink url="https://link.voxelbusters.com/essential-kit-api">API Reference</ulink> | <ulink url="https://link.voxelbusters.com/essential-kit-support">Support</ulink></para>
+<para><linebreak/>
+</para>
+</sect3>
+<sect3 id="index_1highlights">
+<title><bold>Highlights:</bold></title><para>• <bold>Unified</bold> API design | <bold>Never write</bold> code <bold>per platform</bold></para>
+<para>• <bold>Easy</bold> installation</para>
+<para>• No <bold>knowledge</bold> of native platform <bold>services is required</bold></para>
+<para>• <bold>Simulate</bold> most feature <bold>behavior in the</bold> Editor</para>
+<para>• Generate Android <bold>manifest</bold> and <bold>permissions</bold> <bold>as per</bold> feature <bold>usage</bold></para>
+<para>• Automatically adds required <bold>capabilities</bold> on iOS</para>
+<para>• Only <bold>select features</bold> you need</para>
+<para>• Complete <bold>ASMDEF</bold></para>
+<para>• Full <bold>source code</bold> is included</para>
+<para>• Detailed <bold>tutorials</bold> with native platform setup</para>
+<para>• <bold>Unity cloud build</bold> and batch mode compatible</para>
+<para>• Actively supported <bold>since 2015</bold></para>
+<para><linebreak/>
+</para>
+<para><bold>Feature set</bold> <linebreak/>
+</para>
+<para>• <ref refid="db/dec/group___address_book" kindref="compound">Address Book</ref> - Access <bold>contacts</bold> of the user</para>
+<para>• <ref refid="db/daf/group___app_updater" kindref="compound">App Updater</ref> - Prompt version updates to user</para>
+<para>• <ref refid="d7/d1f/group___billing_services" kindref="compound">Billing Services</ref> - <bold>Privacy First</bold> In-App purchases (Consumables/Non-Consumables/**Subscriptions**)</para>
+<para>• <ref refid="d4/dee/group___cloud_services" kindref="compound">Cloud Services</ref> - <bold>Save</bold> data in the <bold>cloud</bold> (iCloud &amp; Saved Games)</para>
+<para>• <ref refid="d0/d6f/group___deep_link_services" kindref="compound">Deep Link Services</ref> - Connect your content/screen with a url</para>
+<para>• <ref refid="d7/d93/group___game_services" kindref="compound">Game Services</ref> - <bold>Leaderboards</bold>, <bold>Achievements</bold> done right</para>
+<para>• <ref refid="d9/d40/group___sharing_services" kindref="compound">Mail Sharing</ref> - <bold>Share</bold> data through <bold>mail</bold></para>
+<para>• <ref refid="d9/d40/group___sharing_services" kindref="compound">Message Sharing</ref> - <bold>Share</bold> data as <bold>messages</bold></para>
+<para>• <ref refid="db/db6/group___media_services" kindref="compound">Media Services</ref> - <bold>Select, Capture, Save</bold> media content (Gallery/Camera)</para>
+<para>• <ref refid="d4/dbd/group___native_u_i" kindref="compound">Native UI</ref> - Popups (Alert Dialog, Date/Time Picker (New!) - Native alerts</para>
+<para>• <ref refid="d2/db8/group___network_services" kindref="compound">Network Connectivity</ref> - Check <bold>network connection</bold></para>
+<para>• <ref refid="d1/d8b/group___notification_services" kindref="compound">Local Notifications</ref> - Schedule time or calender <bold>notifications</bold></para>
+<para>• <ref refid="d1/d8b/group___notification_services" kindref="compound">Remote/Push Notifications</ref> - Receive <bold>remote</bold> <bold>notifications</bold></para>
+<para>• <ref refid="d7/d11/group___rate_my_app" kindref="compound">Rate My App</ref> - Get <bold>ratings</bold></para>
+<para>• <ref refid="d9/d40/group___sharing_services" kindref="compound">Social Sharing</ref> - Share to <bold>social media</bold> (Facebook, Twitter, WhatsApp)</para>
+<para>• <ref refid="d9/d40/group___sharing_services" kindref="compound">Share Sheet</ref> - Share images, videos, urls etc</para>
+<para>• <ref refid="d7/dfa/group___web_view" kindref="compound">Web View</ref>- Access <bold>browser</bold> within Unity</para>
+<para><linebreak/>
+</para>
+<para><bold>Note</bold> <linebreak/>
+</para>
+<para>• Plugin doesn&apos;t include Facebook SDK.</para>
+<para>• Works with Unity Cloud Build.</para>
+<para>• You need to add &quot;com.unity.nuget.**newtonsoft**\-json&quot;: &quot;2.0.0&quot; in Packages/manifest.json</para>
+<para><hruler/>
+</para>
+<para><bold>You might be interested in our other products</bold> <linebreak/>
+</para>
+<para><ulink url="https://u3d.as/37du">Cross Platform <bold>Ads Kit</bold></ulink> <bold>(FREE with Essential Kit)</bold></para>
+<para><ulink url="http://u3d.as/1nN3">Cross Platform <bold>Screen Recorder Kit</bold></ulink></para>
+<para><ulink url="https://u3d.as/2PMe"><bold>Easy ML Kit</bold></ulink></para>
+<para><ulink url="https://u3d.as/2Q6p">Reporting Kit</ulink></para>
+<para><ulink url="http://u3d.as/1gWc">Cross Platform <bold>Snapchat Kit</bold></ulink></para>
+<para><ulink url="http://u3d.as/1pMn">Cross Platform <bold>Story Kit(Instagram)</bold></ulink></para>
+<para><linebreak/>
+</para>
+<para><bold>If you are upgrading from version 2.x, please follow</bold> <ulink url="https://assetstore.essentialkit.voxelbusters.com/upgrades/version-2.0.0"><bold>this guide</bold></ulink>**.**</para>
+<para><linebreak/>
+</para>
+</sect3>
+<sect3 id="index_1third-party-plugins-compatibility">
+<title><bold>Third Party Plugins Compatibility</bold></title><para>• Plays nicely with <ulink url="https://assetstore.unity.com/packages/slug/202695">Anti-Cheat Toolkit</ulink>{:target=&quot;_blank&quot;} </para>
+</sect3>
+</sect2></sect1>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/Docs/overview.md"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d1/d52/class_voxel_busters_1_1_essential_kit_1_1_assembly_name" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::AssemblyName</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="d1/d52/class_voxel_busters_1_1_essential_kit_1_1_assembly_name_1afc9cf9262a24ebbc9718194ba51d11ab" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kMain</definition>
+        <argsstring></argsstring>
+        <name>kMain</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AssemblyName.kMain</qualifiedname>
+        <initializer>= &quot;VoxelBusters.EssentialKit&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="11" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d52/class_voxel_busters_1_1_essential_kit_1_1_assembly_name_1af59775d955cd780c5175e165bc1e13cf" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kIos</definition>
+        <argsstring></argsstring>
+        <name>kIos</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AssemblyName.kIos</qualifiedname>
+        <initializer>= &quot;VoxelBusters.EssentialKit.iOSModule&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="13" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d52/class_voxel_busters_1_1_essential_kit_1_1_assembly_name_1a22df81feada5d382d58e2b786554c7a4" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kAndroid</definition>
+        <argsstring></argsstring>
+        <name>kAndroid</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AssemblyName.kAndroid</qualifiedname>
+        <initializer>= &quot;VoxelBusters.EssentialKit.AndroidModule&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="15" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d52/class_voxel_busters_1_1_essential_kit_1_1_assembly_name_1af24ed2ca16db0a253f616854b43fbf58" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kSimulator</definition>
+        <argsstring></argsstring>
+        <name>kSimulator</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AssemblyName.kSimulator</qualifiedname>
+        <initializer>= &quot;VoxelBusters.EssentialKit.SimulatorModule&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="17" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="9" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="10" bodyend="18"/>
+    <listofallmembers>
+      <member refid="d1/d52/class_voxel_busters_1_1_essential_kit_1_1_assembly_name_1a22df81feada5d382d58e2b786554c7a4" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AssemblyName</scope><name>kAndroid</name></member>
+      <member refid="d1/d52/class_voxel_busters_1_1_essential_kit_1_1_assembly_name_1af59775d955cd780c5175e165bc1e13cf" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AssemblyName</scope><name>kIos</name></member>
+      <member refid="d1/d52/class_voxel_busters_1_1_essential_kit_1_1_assembly_name_1afc9cf9262a24ebbc9718194ba51d11ab" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AssemblyName</scope><name>kMain</name></member>
+      <member refid="d1/d52/class_voxel_busters_1_1_essential_kit_1_1_assembly_name_1af24ed2ca16db0a253f616854b43fbf58" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AssemblyName</scope><name>kSimulator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

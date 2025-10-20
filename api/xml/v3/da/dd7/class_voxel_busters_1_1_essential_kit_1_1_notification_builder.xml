@@ -1,0 +1,558 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::NotificationBuilder</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1a690e7566d0caf160b190d32669d6742c" prot="private" static="no" mutable="no">
+        <type>IMutableNotification</type>
+        <definition>IMutableNotification m_notification</definition>
+        <argsstring></argsstring>
+        <name>m_notification</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationBuilder.m_notification</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" line="20" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1a2bb82633559ea975533aecafde737961" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NotificationBuilder</definition>
+        <argsstring>()</argsstring>
+        <name>NotificationBuilder</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationBuilder.NotificationBuilder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" line="26" column="17" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" bodystart="26" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1a696ed50c32387186638debf326da9630" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder" kindref="compound">NotificationBuilder</ref></type>
+        <definition>static NotificationBuilder CreateNotification</definition>
+        <argsstring>(string notificationId)</argsstring>
+        <name>CreateNotification</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationBuilder.CreateNotification</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>notificationId</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder" kindref="compound">NotificationBuilder</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>notificationId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The unique identifier for this notification.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" line="37" column="43" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" bodystart="37" bodyend="44"/>
+        <referencedby refid="da/d97/class_voxel_busters_1_1_essential_kit_1_1_notification_services_1abff8fbd7a89896e6dbfe4abf64345e62" compoundref="df/d27/_notification_services_8cs" startline="139" endline="151">NotificationServices.CreateNotificationWithId</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1ad0f28591807bc1897aca4bc52e998137" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder" kindref="compound">NotificationBuilder</ref></type>
+        <definition>NotificationBuilder SetTitle</definition>
+        <argsstring>(string value)</argsstring>
+        <name>SetTitle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationBuilder.SetTitle</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the title property of notification. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" line="54" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" bodystart="54" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1a789edc90ab8f6a05cd582b584f26cf50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder" kindref="compound">NotificationBuilder</ref></type>
+        <definition>NotificationBuilder SetSubtitle</definition>
+        <argsstring>(string value)</argsstring>
+        <name>SetSubtitle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationBuilder.SetSubtitle</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the subtitle property of notification. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" line="73" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" bodystart="73" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1a8226785973332b428208d7d686993984" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder" kindref="compound">NotificationBuilder</ref></type>
+        <definition>NotificationBuilder SetBody</definition>
+        <argsstring>(string value)</argsstring>
+        <name>SetBody</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationBuilder.SetBody</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the body property of notification. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" line="92" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" bodystart="92" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1a60171623e23ab2c0a895031ab463d5f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder" kindref="compound">NotificationBuilder</ref></type>
+        <definition>NotificationBuilder SetBadge</definition>
+        <argsstring>(int value)</argsstring>
+        <name>SetBadge</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationBuilder.SetBadge</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the badge property of notification. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" line="111" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" bodystart="111" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1a703e00cc530d9416f78c639c8b2d39c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder" kindref="compound">NotificationBuilder</ref></type>
+        <definition>NotificationBuilder SetUserInfo</definition>
+        <argsstring>(Dictionary&lt; string, string &gt; value)</argsstring>
+        <name>SetUserInfo</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationBuilder.SetUserInfo</qualifiedname>
+        <param>
+          <type>Dictionary&lt; string, string &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the custom userinfo property of notification. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" line="130" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" bodystart="130" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1a12e03cdf8147a5242ee14c6f80a313ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder" kindref="compound">NotificationBuilder</ref></type>
+        <definition>NotificationBuilder SetUserInfo</definition>
+        <argsstring>(params KeyValuePair&lt; string, string &gt;[] values)</argsstring>
+        <name>SetUserInfo</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationBuilder.SetUserInfo</qualifiedname>
+        <param>
+          <type>params KeyValuePair&lt; string, string &gt;[]</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+<para>Sets the custom userinfo property of notification. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>values</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Key value pair values.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" line="149" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" bodystart="149" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1a62672a7b55595806c2a3b952fd592308" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder" kindref="compound">NotificationBuilder</ref></type>
+        <definition>NotificationBuilder SetSoundFileName</definition>
+        <argsstring>(string value)</argsstring>
+        <name>SetSoundFileName</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationBuilder.SetSoundFileName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the sound filename property of notification. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" line="175" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" bodystart="175" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1ae2ca3f5603495995b875159f040bf74c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder" kindref="compound">NotificationBuilder</ref></type>
+        <definition>NotificationBuilder SetIosProperties</definition>
+        <argsstring>(NotificationIosProperties value)</argsstring>
+        <name>SetIosProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationBuilder.SetIosProperties</qualifiedname>
+        <param>
+          <type><ref refid="dc/d6b/class_voxel_busters_1_1_essential_kit_1_1_notification_ios_properties" kindref="compound">NotificationIosProperties</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the iOS specific properties of notification. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" line="194" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" bodystart="194" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1ad63bef8d3c9d83606f13a40eaf7023b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder" kindref="compound">NotificationBuilder</ref></type>
+        <definition>NotificationBuilder SetAndroidProperties</definition>
+        <argsstring>(NotificationAndroidProperties value)</argsstring>
+        <name>SetAndroidProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationBuilder.SetAndroidProperties</qualifiedname>
+        <param>
+          <type><ref refid="d2/da4/class_voxel_busters_1_1_essential_kit_1_1_notification_android_properties" kindref="compound">NotificationAndroidProperties</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the android specific properties of notification. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" line="213" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" bodystart="213" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1ae002dca734be008e402bd22c4f959e54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder" kindref="compound">NotificationBuilder</ref></type>
+        <definition>NotificationBuilder SetTimeIntervalNotificationTrigger</definition>
+        <argsstring>(double interval, bool repeats=false)</argsstring>
+        <name>SetTimeIntervalNotificationTrigger</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationBuilder.SetTimeIntervalNotificationTrigger</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>interval</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>repeats</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Adds the time interval based trigger. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>interval</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The time (in seconds) that must elapse from the current time before the trigger fires.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>repeats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If set to <computeroutput>true</computeroutput> repeats.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" line="233" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" bodystart="233" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1a84ed85f5fd0a0236bec4bebf3218844f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder" kindref="compound">NotificationBuilder</ref></type>
+        <definition>NotificationBuilder SetCalendarNotificationTrigger</definition>
+        <argsstring>(DateComponents dateComponent, bool repeats=false)</argsstring>
+        <name>SetCalendarNotificationTrigger</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationBuilder.SetCalendarNotificationTrigger</qualifiedname>
+        <param>
+          <type>DateComponents</type>
+          <declname>dateComponent</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>repeats</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Adds the date time based trigger. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The date time based trigger.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dateComponent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The time when notification is triggered for first time.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>repeats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If set to <computeroutput>true</computeroutput> repeats.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" line="257" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" bodystart="257" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1aa5ec68f2f95f49e0b594070e518083f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder" kindref="compound">NotificationBuilder</ref></type>
+        <definition>NotificationBuilder SetLocationNotificationTrigger</definition>
+        <argsstring>(CircularRegion region, bool notifyOnEntry, bool notifyOnExit, bool repeats=false)</argsstring>
+        <name>SetLocationNotificationTrigger</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationBuilder.SetLocationNotificationTrigger</qualifiedname>
+        <param>
+          <type>CircularRegion</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>notifyOnEntry</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>notifyOnExit</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>repeats</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Adds the location based trigger. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The location based trigger.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>region</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The geographic region that must be entered or exited.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>notifyOnEntry</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If set to <computeroutput>true</computeroutput> notify on entry.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>notifyOnExit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If set to <computeroutput>true</computeroutput> notify on exit.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>repeats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If set to <computeroutput>true</computeroutput> repeats.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" line="283" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" bodystart="283" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1a322b104a1b06436f36e1ce1a972e6534" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder" kindref="compound">NotificationBuilder</ref></type>
+        <definition>NotificationBuilder SetPriority</definition>
+        <argsstring>(NotificationPriority priority)</argsstring>
+        <name>SetPriority</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationBuilder.SetPriority</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1aed65b4bc3683d5107f984b5d778bf553" kindref="member">NotificationPriority</ref></type>
+          <declname>priority</declname>
+        </param>
+        <briefdescription>
+<para>Sets the priority of notification. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>priority</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value representing the priority of the notification.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" line="301" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" bodystart="301" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1a14216b8e4bc614c899dec5515aaf9444" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification" kindref="compound">INotification</ref></type>
+        <definition>INotification Create</definition>
+        <argsstring>()</argsstring>
+        <name>Create</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationBuilder.Create</qualifiedname>
+        <briefdescription>
+<para>Returns newly created IMutableNotification instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" line="312" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" bodystart="312" bodyend="322"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Builder class for <ref refid="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification" kindref="compound">INotification</ref> objects. Provides a convenient way to set the various fields of a <ref refid="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification" kindref="compound">INotification</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" line="16" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationBuilder.cs" bodystart="17" bodyend="325"/>
+    <listofallmembers>
+      <member refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1a14216b8e4bc614c899dec5515aaf9444" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationBuilder</scope><name>Create</name></member>
+      <member refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1a696ed50c32387186638debf326da9630" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationBuilder</scope><name>CreateNotification</name></member>
+      <member refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1a690e7566d0caf160b190d32669d6742c" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationBuilder</scope><name>m_notification</name></member>
+      <member refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1a2bb82633559ea975533aecafde737961" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationBuilder</scope><name>NotificationBuilder</name></member>
+      <member refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1ad63bef8d3c9d83606f13a40eaf7023b2" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationBuilder</scope><name>SetAndroidProperties</name></member>
+      <member refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1a60171623e23ab2c0a895031ab463d5f8" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationBuilder</scope><name>SetBadge</name></member>
+      <member refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1a8226785973332b428208d7d686993984" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationBuilder</scope><name>SetBody</name></member>
+      <member refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1a84ed85f5fd0a0236bec4bebf3218844f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationBuilder</scope><name>SetCalendarNotificationTrigger</name></member>
+      <member refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1ae2ca3f5603495995b875159f040bf74c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationBuilder</scope><name>SetIosProperties</name></member>
+      <member refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1aa5ec68f2f95f49e0b594070e518083f0" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationBuilder</scope><name>SetLocationNotificationTrigger</name></member>
+      <member refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1a322b104a1b06436f36e1ce1a972e6534" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationBuilder</scope><name>SetPriority</name></member>
+      <member refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1a62672a7b55595806c2a3b952fd592308" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationBuilder</scope><name>SetSoundFileName</name></member>
+      <member refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1a789edc90ab8f6a05cd582b584f26cf50" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationBuilder</scope><name>SetSubtitle</name></member>
+      <member refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1ae002dca734be008e402bd22c4f959e54" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationBuilder</scope><name>SetTimeIntervalNotificationTrigger</name></member>
+      <member refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1ad0f28591807bc1897aca4bc52e998137" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationBuilder</scope><name>SetTitle</name></member>
+      <member refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1a703e00cc530d9416f78c639c8b2d39c1" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationBuilder</scope><name>SetUserInfo</name></member>
+      <member refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder_1a12e03cdf8147a5242ee14c6f80a313ab" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationBuilder</scope><name>SetUserInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

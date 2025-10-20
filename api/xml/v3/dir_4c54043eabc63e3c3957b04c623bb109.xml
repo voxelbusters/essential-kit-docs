@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_4c54043eabc63e3c3957b04c623bb109" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView</compoundname>
+    <innerfile refid="d2/dda/_i_native_web_view_8cs">INativeWebView.cs</innerfile>
+    <innerfile refid="df/d63/_web_view_2_internal_delegates_8cs">InternalDelegates.cs</innerfile>
+    <innerfile refid="dc/dcc/_native_web_view_base_8cs">NativeWebViewBase.cs</innerfile>
+    <innerfile refid="d2/dd9/_null_native_web_view_8cs">NullNativeWebView.cs</innerfile>
+    <innerfile refid="d0/d8f/_web_view_8cs">WebView.cs</innerfile>
+    <innerfile refid="dd/d01/_web_view_error_8cs">WebViewError.cs</innerfile>
+    <innerfile refid="d3/da7/_web_view_error_code_8cs">WebViewErrorCode.cs</innerfile>
+    <innerfile refid="d1/d77/_web_view_extensions_8cs">WebViewExtensions.cs</innerfile>
+    <innerfile refid="d5/d5f/_web_view_run_java_script_result_8cs">WebViewRunJavaScriptResult.cs</innerfile>
+    <innerfile refid="dc/d48/_web_view_style_8cs">WebViewStyle.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d3/da1/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_unity_settings" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::NativeUIUnitySettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SettingsPropertyGroup</basecompoundref>
+    <innerclass refid="df/dfa/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_unity_settings_1_1_unity_u_i_collection" prot="public">VoxelBusters::EssentialKit::NativeUIUnitySettings::UnityUICollection</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d3/da1/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_unity_settings_1a871685c05517b8fcc3e6e72167482e96" prot="private" static="no" mutable="no">
+        <type>UnityUICollection</type>
+        <definition>UnityUICollection m_customUICollection</definition>
+        <argsstring></argsstring>
+        <name>m_customUICollection</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUIUnitySettings.m_customUICollection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeUIUnitySettings.cs" line="16" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeUIUnitySettings.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d3/da1/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_unity_settings_1a6cf14ff735deacf045a967edd9781226" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>UnityUICollection</type>
+        <definition>UnityUICollection CustomUICollection</definition>
+        <argsstring></argsstring>
+        <name>CustomUICollection</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUIUnitySettings.CustomUICollection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeUIUnitySettings.cs" line="22" column="34" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeUIUnitySettings.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/da1/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_unity_settings_1a9ed24b1fabfec1cc56552f8e1097e9b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NativeUIUnitySettings</definition>
+        <argsstring>(bool isEnabled=true, UnityUICollection customUICollection=null)</argsstring>
+        <name>NativeUIUnitySettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUIUnitySettings.NativeUIUnitySettings</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isEnabled</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>UnityUICollection</type>
+          <declname>customUICollection</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeUIUnitySettings.cs" line="28" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeUIUnitySettings.cs" bodystart="28" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeUIUnitySettings.cs" line="10" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeUIUnitySettings.UnityUICollection.cs" bodystart="12" bodyend="66"/>
+    <listofallmembers>
+      <member refid="d3/da1/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_unity_settings_1a6cf14ff735deacf045a967edd9781226" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUIUnitySettings</scope><name>CustomUICollection</name></member>
+      <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1a45f8df3acbb2721c2df8462f1cd8f14b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUIUnitySettings</scope><name>IsEnabled</name></member>
+      <member refid="d3/da1/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_unity_settings_1a871685c05517b8fcc3e6e72167482e96" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUIUnitySettings</scope><name>m_customUICollection</name></member>
+      <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1a7ee9065718e6628dc7791b756fa6c0f9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUIUnitySettings</scope><name>Name</name></member>
+      <member refid="d3/da1/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_unity_settings_1a9ed24b1fabfec1cc56552f8e1097e9b6" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUIUnitySettings</scope><name>NativeUIUnitySettings</name></member>
+      <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1ac9b0727cd904077f21637b8cbe0b139d" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUIUnitySettings</scope><name>SettingsPropertyGroup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d2/dde/class_voxel_busters_1_1_essential_kit_1_1_media_services_error" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::MediaServicesError</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="d2/dde/class_voxel_busters_1_1_essential_kit_1_1_media_services_error_1a2ce8aded798d92d44580ceaefabf2d82" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kDomain</definition>
+        <argsstring></argsstring>
+        <name>kDomain</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesError.kDomain</qualifiedname>
+        <initializer>= &quot;[Essential Kit] Media Services&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesError.cs" line="7" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesError.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d2/dde/class_voxel_busters_1_1_essential_kit_1_1_media_services_error_1a25d6f9257e8b8e1aa55898430f23d35b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error Unknown</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>Unknown</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesError.Unknown</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesError.cs" line="11" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dde/class_voxel_busters_1_1_essential_kit_1_1_media_services_error_1a35fdf04111825380d7a55e49bac51610" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error PermissionNotAvailable</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>PermissionNotAvailable</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesError.PermissionNotAvailable</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesError.cs" line="17" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dde/class_voxel_busters_1_1_essential_kit_1_1_media_services_error_1ae8a9178036c57067990882d89ede5e79" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error UserCancelled</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>UserCancelled</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesError.UserCancelled</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesError.cs" line="23" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dde/class_voxel_busters_1_1_essential_kit_1_1_media_services_error_1ab99d651b4aa1b368b1854acebfebe84c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error DataNotAvailable</definition>
+        <argsstring>(string description=null)</argsstring>
+        <name>DataNotAvailable</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesError.DataNotAvailable</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesError.cs" line="29" column="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d2/dde/class_voxel_busters_1_1_essential_kit_1_1_media_services_error_1a1f4966d82f43a08da1cdddb4a786ace8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error CreateError</definition>
+        <argsstring>(int code, string description)</argsstring>
+        <name>CreateError</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesError.CreateError</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesError.cs" line="35" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesError.cs" line="5" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesError.cs" bodystart="6" bodyend="39"/>
+    <listofallmembers>
+      <member refid="d2/dde/class_voxel_busters_1_1_essential_kit_1_1_media_services_error_1a1f4966d82f43a08da1cdddb4a786ace8" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesError</scope><name>CreateError</name></member>
+      <member refid="d2/dde/class_voxel_busters_1_1_essential_kit_1_1_media_services_error_1ab99d651b4aa1b368b1854acebfebe84c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesError</scope><name>DataNotAvailable</name></member>
+      <member refid="d2/dde/class_voxel_busters_1_1_essential_kit_1_1_media_services_error_1a2ce8aded798d92d44580ceaefabf2d82" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesError</scope><name>kDomain</name></member>
+      <member refid="d2/dde/class_voxel_busters_1_1_essential_kit_1_1_media_services_error_1a35fdf04111825380d7a55e49bac51610" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesError</scope><name>PermissionNotAvailable</name></member>
+      <member refid="d2/dde/class_voxel_busters_1_1_essential_kit_1_1_media_services_error_1a25d6f9257e8b8e1aa55898430f23d35b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesError</scope><name>Unknown</name></member>
+      <member refid="d2/dde/class_voxel_busters_1_1_essential_kit_1_1_media_services_error_1ae8a9178036c57067990882d89ede5e79" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesError</scope><name>UserCancelled</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

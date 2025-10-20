@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dc/d51/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_share_sheet" kind="class" language="C#" prot="public" sealed="yes">
+    <compoundname>VoxelBusters::EssentialKit::SharingServicesCore::NullShareSheet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NativeShareSheetBase</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INativeShareSheet</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d51/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_share_sheet_1a6855020e9412a3389deacac1ef78f778" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NullShareSheet</definition>
+        <argsstring>()</argsstring>
+        <name>NullShareSheet</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullShareSheet.NullShareSheet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullShareSheet.cs" line="13" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullShareSheet.cs" bodystart="13" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d51/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_share_sheet_1a925808541051fd3016f668a5a6c90ecb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void AddText</definition>
+        <argsstring>(string text)</argsstring>
+        <name>AddText</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullShareSheet.AddText</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullShareSheet.cs" line="29" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullShareSheet.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d51/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_share_sheet_1aa80f7b304a6573900f1edc90dd309032" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void AddScreenshot</definition>
+        <argsstring>()</argsstring>
+        <name>AddScreenshot</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullShareSheet.AddScreenshot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullShareSheet.cs" line="34" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullShareSheet.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d51/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_share_sheet_1a0a26855faf86015b0aced1469bb195e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void AddImage</definition>
+        <argsstring>(byte[] imageData, string mimeType)</argsstring>
+        <name>AddImage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullShareSheet.AddImage</qualifiedname>
+        <param>
+          <type>byte[]</type>
+          <declname>imageData</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>mimeType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullShareSheet.cs" line="39" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullShareSheet.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d51/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_share_sheet_1ad000b819f27906187c10ce3ec1c35683" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void AddURL</definition>
+        <argsstring>(URLString url)</argsstring>
+        <name>AddURL</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullShareSheet.AddURL</qualifiedname>
+        <param>
+          <type><ref refid="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string" kindref="compound">URLString</ref></type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullShareSheet.cs" line="44" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullShareSheet.cs" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d51/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_share_sheet_1adbfabfc521f2fa0f02171ffcf3c6d823" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void AddAttachment</definition>
+        <argsstring>(byte[] data, string mimeType, string filename)</argsstring>
+        <name>AddAttachment</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullShareSheet.AddAttachment</qualifiedname>
+        <param>
+          <type>byte[]</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>mimeType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullShareSheet.cs" line="49" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullShareSheet.cs" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d51/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_share_sheet_1a1f98ec85465c5b59f608ef95d23620e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Show</definition>
+        <argsstring>(Vector2 screenPosition)</argsstring>
+        <name>Show</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullShareSheet.Show</qualifiedname>
+        <param>
+          <type>Vector2</type>
+          <declname>screenPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullShareSheet.cs" line="54" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullShareSheet.cs" bodystart="54" bodyend="60"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="dc/d51/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_share_sheet_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogNotSupported</definition>
+        <argsstring>()</argsstring>
+        <name>LogNotSupported</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullShareSheet.LogNotSupported</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullShareSheet.cs" line="20" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullShareSheet.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullShareSheet.cs" line="9" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullShareSheet.cs" bodystart="10" bodyend="63"/>
+    <listofallmembers>
+      <member refid="dc/d51/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_share_sheet_1adbfabfc521f2fa0f02171ffcf3c6d823" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullShareSheet</scope><name>AddAttachment</name></member>
+      <member refid="dc/d51/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_share_sheet_1a0a26855faf86015b0aced1469bb195e3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullShareSheet</scope><name>AddImage</name></member>
+      <member refid="dc/d51/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_share_sheet_1aa80f7b304a6573900f1edc90dd309032" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullShareSheet</scope><name>AddScreenshot</name></member>
+      <member refid="dc/d51/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_share_sheet_1a925808541051fd3016f668a5a6c90ecb" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullShareSheet</scope><name>AddText</name></member>
+      <member refid="dc/d51/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_share_sheet_1ad000b819f27906187c10ce3ec1c35683" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullShareSheet</scope><name>AddURL</name></member>
+      <member refid="dc/d51/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_share_sheet_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullShareSheet</scope><name>LogNotSupported</name></member>
+      <member refid="dc/d51/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_share_sheet_1a6855020e9412a3389deacac1ef78f778" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullShareSheet</scope><name>NullShareSheet</name></member>
+      <member refid="dd/df4/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_native_share_sheet_base_1a1458ee798ef94b357c7180e2599436c2" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullShareSheet</scope><name>OnClose</name></member>
+      <member refid="dd/df4/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_native_share_sheet_base_1a19ab7b5f8824f485eacba062ea3fda55" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullShareSheet</scope><name>SendCloseEvent</name></member>
+      <member refid="dc/d51/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_share_sheet_1a1f98ec85465c5b59f608ef95d23620e0" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullShareSheet</scope><name>Show</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

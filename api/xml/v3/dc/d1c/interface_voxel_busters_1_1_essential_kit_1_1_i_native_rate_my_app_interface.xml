@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dc/d1c/interface_voxel_busters_1_1_essential_kit_1_1_i_native_rate_my_app_interface" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::INativeRateMyAppInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">INativeFeatureInterface</basecompoundref>
+    <derivedcompoundref refid="df/d48/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_core_1_1_native_rate_my_app_interface_base" prot="public" virt="non-virtual">NativeRateMyAppInterfaceBase</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d1c/interface_voxel_busters_1_1_essential_kit_1_1_i_native_rate_my_app_interface_1ab28cae6c1fb252004605e3a1db51dac4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RequestStoreReview</definition>
+        <argsstring>(string storeId=null)</argsstring>
+        <name>RequestStoreReview</name>
+        <qualifiedname>VoxelBusters.EssentialKit.INativeRateMyAppInterface.RequestStoreReview</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>storeId</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/INativeRateMyAppInterface.cs" line="7" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/INativeRateMyAppInterface.cs" line="5" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/INativeRateMyAppInterface.cs" bodystart="6" bodyend="8"/>
+    <listofallmembers>
+      <member refid="dc/d1c/interface_voxel_busters_1_1_essential_kit_1_1_i_native_rate_my_app_interface_1ab28cae6c1fb252004605e3a1db51dac4" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::INativeRateMyAppInterface</scope><name>RequestStoreReview</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

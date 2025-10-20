@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d8/d9e/class_voxel_busters_1_1_core_library_1_1_component_utility" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::ComponentUtility</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d8/d9e/class_voxel_busters_1_1_core_library_1_1_component_utility_1a098c024958f9b793b9f326cd302357fe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T AddComponentIfNotFound&lt; T &gt;</definition>
+        <argsstring>(this GameObject gameObject)</argsstring>
+        <name>AddComponentIfNotFound&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ComponentUtility.AddComponentIfNotFound&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this GameObject</type>
+          <declname>gameObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ComponentUtility.cs" line="10" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ComponentUtility.cs" bodystart="10" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d9e/class_voxel_busters_1_1_core_library_1_1_component_utility_1a903dfd943771ef8be281e8d1897b29d2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TBase</type>
+        <definition>static TBase AddUniqueComponent&lt; TBase &gt;</definition>
+        <argsstring>(this GameObject gameObject, System.Type type)</argsstring>
+        <name>AddUniqueComponent&lt; TBase &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ComponentUtility.AddUniqueComponent&lt; TBase &gt;</qualifiedname>
+        <param>
+          <type>this GameObject</type>
+          <declname>gameObject</declname>
+        </param>
+        <param>
+          <type>System.Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ComponentUtility.cs" line="20" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ComponentUtility.cs" bodystart="20" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d9e/class_voxel_busters_1_1_core_library_1_1_component_utility_1a538f53e031f9cdb2cdf8b9d4c4e2aa61" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T GetComponentInPredecessor&lt; T &gt;</definition>
+        <argsstring>(this MonoBehaviour monoBehaviour)</argsstring>
+        <name>GetComponentInPredecessor&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ComponentUtility.GetComponentInPredecessor&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this MonoBehaviour</type>
+          <declname>monoBehaviour</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ComponentUtility.cs" line="48" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ComponentUtility.cs" bodystart="48" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d9e/class_voxel_busters_1_1_core_library_1_1_component_utility_1a3eb72a832815162bfb39b0efb2965127" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T[]</type>
+        <definition>static T[] GetComponentsInChildren&lt; T &gt;</definition>
+        <argsstring>(this Component component, bool includeParent, bool includeInactive)</argsstring>
+        <name>GetComponentsInChildren&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ComponentUtility.GetComponentsInChildren&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this Component</type>
+          <declname>component</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>includeParent</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>includeInactive</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ComponentUtility.cs" line="64" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ComponentUtility.cs" bodystart="64" bodyend="84"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ComponentUtility.cs" line="6" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ComponentUtility.cs" bodystart="7" bodyend="87"/>
+    <listofallmembers>
+      <member refid="d8/d9e/class_voxel_busters_1_1_core_library_1_1_component_utility_1a098c024958f9b793b9f326cd302357fe" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ComponentUtility</scope><name>AddComponentIfNotFound&lt; T &gt;</name></member>
+      <member refid="d8/d9e/class_voxel_busters_1_1_core_library_1_1_component_utility_1a903dfd943771ef8be281e8d1897b29d2" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ComponentUtility</scope><name>AddUniqueComponent&lt; TBase &gt;</name></member>
+      <member refid="d8/d9e/class_voxel_busters_1_1_core_library_1_1_component_utility_1a538f53e031f9cdb2cdf8b9d4c4e2aa61" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ComponentUtility</scope><name>GetComponentInPredecessor&lt; T &gt;</name></member>
+      <member refid="d8/d9e/class_voxel_busters_1_1_core_library_1_1_component_utility_1a3eb72a832815162bfb39b0efb2965127" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ComponentUtility</scope><name>GetComponentsInChildren&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

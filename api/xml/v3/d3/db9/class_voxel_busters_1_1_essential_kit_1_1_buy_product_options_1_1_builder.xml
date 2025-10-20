@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::BuyProductOptions::Builder</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder_1a2a2a202fd3794c0468a55483741858b6" prot="private" static="no" mutable="no">
+        <type><ref refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options" kindref="compound">BuyProductOptions</ref></type>
+        <definition>BuyProductOptions m_options</definition>
+        <argsstring></argsstring>
+        <name>m_options</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BuyProductOptions.Builder.m_options</qualifiedname>
+        <briefdescription>
+<para>Options being built. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" line="89" column="39" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder_1a4c5b1b5b658880619647b859000724fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Builder</definition>
+        <argsstring>()</argsstring>
+        <name>Builder</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BuyProductOptions.Builder.Builder</qualifiedname>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder" kindref="compound">Builder</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" line="94" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" bodystart="94" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder_1a47fb026c0633b397a41c4f01e83f75f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder" kindref="compound">Builder</ref></type>
+        <definition>Builder SetTag</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>SetTag</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BuyProductOptions.Builder.SetTag</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>Sets a custom tag to be passed along with the purchase request. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tag to be associated with the purchase.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Current <ref refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder" kindref="compound">Builder</ref> instance.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" line="104" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" bodystart="104" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder_1ac1cf13e76763efe02c7554b94e8c9ad6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder" kindref="compound">Builder</ref></type>
+        <definition>Builder SetQuantity</definition>
+        <argsstring>(int quantity)</argsstring>
+        <name>SetQuantity</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BuyProductOptions.Builder.SetQuantity</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>quantity</declname>
+        </param>
+        <briefdescription>
+<para>Sets the quantity to be purchased. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>quantity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Quantity to be purchased. Must be greater than 0.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Current <ref refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder" kindref="compound">Builder</ref> instance.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" line="124" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" bodystart="124" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder_1a8dd6904e73b175c8f3be2b40fad3649e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder" kindref="compound">Builder</ref></type>
+        <definition>Builder SetOfferRedeemDetails</definition>
+        <argsstring>(BillingProductOfferRedeemDetails offerRedeemDetails)</argsstring>
+        <name>SetOfferRedeemDetails</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BuyProductOptions.Builder.SetOfferRedeemDetails</qualifiedname>
+        <param>
+          <type><ref refid="d6/ddd/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details" kindref="compound">BillingProductOfferRedeemDetails</ref></type>
+          <declname>offerRedeemDetails</declname>
+        </param>
+        <briefdescription>
+<para>Sets the offer redeem details for the product offer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>offerRedeemDetails</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Offer redeem details for the product offer.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Current <ref refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder" kindref="compound">Builder</ref> instance.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" line="136" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" bodystart="136" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder_1a506361a9735bcaf998e4d9e218b45cd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder" kindref="compound">Builder</ref></type>
+        <definition>Builder SetPreviousProductIdentifier</definition>
+        <argsstring>(string previousProductIdentifier)</argsstring>
+        <name>SetPreviousProductIdentifier</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BuyProductOptions.Builder.SetPreviousProductIdentifier</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>previousProductIdentifier</declname>
+        </param>
+        <briefdescription>
+<para>Sets the product identifier to upgrade or downgrade from. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>previousProductIdentifier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The product identifier to upgrade or downgrade from.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Current <ref refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder" kindref="compound">Builder</ref> instance.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" line="148" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" bodystart="148" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder_1a1f68c88a05351e965f4fd875e11f0e2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options" kindref="compound">BuyProductOptions</ref></type>
+        <definition>BuyProductOptions Build</definition>
+        <argsstring>()</argsstring>
+        <name>Build</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BuyProductOptions.Builder.Build</qualifiedname>
+        <briefdescription>
+<para>Creates the <ref refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options" kindref="compound">BuyProductOptions</ref> instance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Instance of <ref refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options" kindref="compound">BuyProductOptions</ref>. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>VBException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Thrown if <ref refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1a8081d8fb9d8f51e49f80d612438324cf" kindref="member">Quantity</ref> is less than 1. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" line="163" column="38" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" bodystart="163" bodyend="172"/>
+        <references refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1a8081d8fb9d8f51e49f80d612438324cf" compoundref="de/d8f/_buy_product_options_8cs" startline="54" endline="54">BuyProductOptions.Quantity</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder" kindref="compound">Builder</ref> class for <ref refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options" kindref="compound">BuyProductOptions</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" line="84" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" bodystart="85" bodyend="174"/>
+    <listofallmembers>
+      <member refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder_1a1f68c88a05351e965f4fd875e11f0e2f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BuyProductOptions::Builder</scope><name>Build</name></member>
+      <member refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder_1a4c5b1b5b658880619647b859000724fc" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BuyProductOptions::Builder</scope><name>Builder</name></member>
+      <member refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder_1a2a2a202fd3794c0468a55483741858b6" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BuyProductOptions::Builder</scope><name>m_options</name></member>
+      <member refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder_1a8dd6904e73b175c8f3be2b40fad3649e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BuyProductOptions::Builder</scope><name>SetOfferRedeemDetails</name></member>
+      <member refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder_1a506361a9735bcaf998e4d9e218b45cd0" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BuyProductOptions::Builder</scope><name>SetPreviousProductIdentifier</name></member>
+      <member refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder_1ac1cf13e76763efe02c7554b94e8c9ad6" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BuyProductOptions::Builder</scope><name>SetQuantity</name></member>
+      <member refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder_1a47fb026c0633b397a41c4f01e83f75f0" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BuyProductOptions::Builder</scope><name>SetTag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

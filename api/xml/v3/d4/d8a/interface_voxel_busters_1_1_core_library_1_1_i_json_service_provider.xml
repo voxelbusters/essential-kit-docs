@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d4/d8a/interface_voxel_busters_1_1_core_library_1_1_i_json_service_provider" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::IJsonServiceProvider</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d8a/interface_voxel_busters_1_1_core_library_1_1_i_json_service_provider_1a5d91d552f664a8f18abc224121eaae4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string ToJson</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ToJson</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IJsonServiceProvider.ToJson</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Generate a JSON representation of the given object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The json.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/IJsonServiceProvider.cs" line="19" column="16"/>
+        <referencedby refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a9ca5b99b3550503ca7bad8418e133156" compoundref="db/dc3/_key_value_data_store_8cs" startline="188" endline="192">KeyValueDataStore.Synchronize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d4/d8a/interface_voxel_busters_1_1_core_library_1_1_i_json_service_provider_1a2b84cd7d535f681c03bb1596f9332d6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>object</type>
+        <definition>object FromJson</definition>
+        <argsstring>(string jsonString)</argsstring>
+        <name>FromJson</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IJsonServiceProvider.FromJson</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>jsonString</declname>
+        </param>
+        <briefdescription>
+<para>Create an object from specified JSON representation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The object.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>jsonString</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Json string.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/IJsonServiceProvider.cs" line="26" column="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Adapter interface for supporting json conversion compatible with the plugin. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/IJsonServiceProvider.cs" line="10" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/IJsonServiceProvider.cs" bodystart="11" bodyend="29"/>
+    <listofallmembers>
+      <member refid="d4/d8a/interface_voxel_busters_1_1_core_library_1_1_i_json_service_provider_1a2b84cd7d535f681c03bb1596f9332d6c" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IJsonServiceProvider</scope><name>FromJson</name></member>
+      <member refid="d4/d8a/interface_voxel_busters_1_1_core_library_1_1_i_json_service_provider_1a5d91d552f664a8f18abc224121eaae4f" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IJsonServiceProvider</scope><name>ToJson</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

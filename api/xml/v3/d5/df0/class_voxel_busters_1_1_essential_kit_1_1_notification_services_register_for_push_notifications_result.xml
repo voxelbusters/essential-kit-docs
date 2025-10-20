@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d5/df0/class_voxel_busters_1_1_essential_kit_1_1_notification_services_register_for_push_notifications_result" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::NotificationServicesRegisterForPushNotificationsResult</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d5/df0/class_voxel_busters_1_1_essential_kit_1_1_notification_services_register_for_push_notifications_result_1a9409c921495f71d6b73d4a41f3d0e36d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string DeviceToken</definition>
+        <argsstring></argsstring>
+        <name>DeviceToken</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesRegisterForPushNotificationsResult.DeviceToken</qualifiedname>
+        <briefdescription>
+<para>The device token. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationServicesRegisterForPushNotificationsResult.cs" line="19" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationServicesRegisterForPushNotificationsResult.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="d5/df0/class_voxel_busters_1_1_essential_kit_1_1_notification_services_register_for_push_notifications_result_1a0ad0fcccb127041dcb8861589a671ed4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NotificationServicesRegisterForPushNotificationsResult</definition>
+        <argsstring>(string deviceToken)</argsstring>
+        <name>NotificationServicesRegisterForPushNotificationsResult</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesRegisterForPushNotificationsResult.NotificationServicesRegisterForPushNotificationsResult</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>deviceToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationServicesRegisterForPushNotificationsResult.cs" line="25" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationServicesRegisterForPushNotificationsResult.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class contains the information retrieved when <ref refid="da/d97/class_voxel_busters_1_1_essential_kit_1_1_notification_services_1ac0bbf3b703f43a32a192d5f73b73600c" kindref="member">NotificationServices.RegisterForPushNotifications(EventCallback&lt;NotificationServicesRegisterForPushNotificationsResult&gt;)</ref> operation is completed. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationServicesRegisterForPushNotificationsResult.cs" line="12" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationServicesRegisterForPushNotificationsResult.cs" bodystart="13" bodyend="32"/>
+    <listofallmembers>
+      <member refid="d5/df0/class_voxel_busters_1_1_essential_kit_1_1_notification_services_register_for_push_notifications_result_1a9409c921495f71d6b73d4a41f3d0e36d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesRegisterForPushNotificationsResult</scope><name>DeviceToken</name></member>
+      <member refid="d5/df0/class_voxel_busters_1_1_essential_kit_1_1_notification_services_register_for_push_notifications_result_1a0ad0fcccb127041dcb8861589a671ed4" prot="package" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesRegisterForPushNotificationsResult</scope><name>NotificationServicesRegisterForPushNotificationsResult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/d30/interface_voxel_busters_1_1_essential_kit_1_1_i_deep_link_services_delegate" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::IDeepLinkServicesDelegate</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d30/interface_voxel_busters_1_1_essential_kit_1_1_i_deep_link_services_delegate_1a72204e4fcc35f1c500bab70802a91d22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CanHandleCustomSchemeUrl</definition>
+        <argsstring>(Uri link)</argsstring>
+        <name>CanHandleCustomSchemeUrl</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IDeepLinkServicesDelegate.CanHandleCustomSchemeUrl</qualifiedname>
+        <param>
+          <type>Uri</type>
+          <declname>link</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/IDeepLinkServicesDelegate.cs" line="10" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d30/interface_voxel_busters_1_1_essential_kit_1_1_i_deep_link_services_delegate_1a7ffc3ce48413548407ea9ad350e437cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CanHandleUniversalLink</definition>
+        <argsstring>(Uri link)</argsstring>
+        <name>CanHandleUniversalLink</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IDeepLinkServicesDelegate.CanHandleUniversalLink</qualifiedname>
+        <param>
+          <type>Uri</type>
+          <declname>link</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/IDeepLinkServicesDelegate.cs" line="12" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/IDeepLinkServicesDelegate.cs" line="8" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/IDeepLinkServicesDelegate.cs" bodystart="9" bodyend="13"/>
+    <listofallmembers>
+      <member refid="db/d30/interface_voxel_busters_1_1_essential_kit_1_1_i_deep_link_services_delegate_1a72204e4fcc35f1c500bab70802a91d22" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IDeepLinkServicesDelegate</scope><name>CanHandleCustomSchemeUrl</name></member>
+      <member refid="db/d30/interface_voxel_busters_1_1_essential_kit_1_1_i_deep_link_services_delegate_1a7ffc3ce48413548407ea9ad350e437cd" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IDeepLinkServicesDelegate</scope><name>CanHandleUniversalLink</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

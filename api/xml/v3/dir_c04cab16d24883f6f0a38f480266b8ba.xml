@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_c04cab16d24883f6f0a38f480266b8ba" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup</compoundname>
+    <innerfile refid="d1/d44/_address_book_unity_settings_8cs">AddressBookUnitySettings.cs</innerfile>
+    <innerfile refid="dd/d4d/_application_settings_8cs">ApplicationSettings.cs</innerfile>
+    <innerfile refid="d1/dd1/_app_shortcuts_unity_settings_8cs">AppShortcutsUnitySettings.cs</innerfile>
+    <innerfile refid="d9/da1/_app_updater_unity_settings_8cs">AppUpdaterUnitySettings.cs</innerfile>
+    <innerfile refid="dc/d6d/_billing_services_unity_settings_8_android_platform_properties_8cs">BillingServicesUnitySettings.AndroidPlatformProperties.cs</innerfile>
+    <innerfile refid="d1/df7/_billing_services_unity_settings_8cs">BillingServicesUnitySettings.cs</innerfile>
+    <innerfile refid="d3/d2a/_cloud_services_unity_settings_8_android_platform_properties_8cs">CloudServicesUnitySettings.AndroidPlatformProperties.cs</innerfile>
+    <innerfile refid="d7/d97/_cloud_services_unity_settings_8cs">CloudServicesUnitySettings.cs</innerfile>
+    <innerfile refid="d9/daf/_cloud_services_unity_settings_8_ios_platform_properties_8cs">CloudServicesUnitySettings.IosPlatformProperties.cs</innerfile>
+    <innerfile refid="da/d4b/_deep_link_services_unity_settings_8_android_platform_properties_8cs">DeepLinkServicesUnitySettings.AndroidPlatformProperties.cs</innerfile>
+    <innerfile refid="de/df3/_deep_link_services_unity_settings_8cs">DeepLinkServicesUnitySettings.cs</innerfile>
+    <innerfile refid="d3/d1d/_deep_link_services_unity_settings_8_ios_platform_properties_8cs">DeepLinkServicesUnitySettings.IosPlatformProperties.cs</innerfile>
+    <innerfile refid="d4/d3d/_essential_kit_settings_8cs">EssentialKitSettings.cs</innerfile>
+    <innerfile refid="d3/d34/_game_services_unity_settings_8_android_platform_properties_8cs">GameServicesUnitySettings.AndroidPlatformProperties.cs</innerfile>
+    <innerfile refid="d1/d3e/_game_services_unity_settings_8cs">GameServicesUnitySettings.cs</innerfile>
+    <innerfile refid="d2/d6d/_media_services_unity_settings_8cs">MediaServicesUnitySettings.cs</innerfile>
+    <innerfile refid="d7/db1/_native_feature_usage_permission_settings_8cs">NativeFeatureUsagePermissionSettings.cs</innerfile>
+    <innerfile refid="db/d23/_native_u_i_unity_settings_8cs">NativeUIUnitySettings.cs</innerfile>
+    <innerfile refid="d0/dc8/_native_u_i_unity_settings_8_unity_u_i_collection_8cs">NativeUIUnitySettings.UnityUICollection.cs</innerfile>
+    <innerfile refid="d6/da6/_network_services_unity_settings_8_address_8cs">NetworkServicesUnitySettings.Address.cs</innerfile>
+    <innerfile refid="de/da0/_network_services_unity_settings_8cs">NetworkServicesUnitySettings.cs</innerfile>
+    <innerfile refid="db/de3/_network_services_unity_settings_8_ping_test_settings_8cs">NetworkServicesUnitySettings.PingTestSettings.cs</innerfile>
+    <innerfile refid="d3/d35/_notification_services_unity_settings_8_android_platform_properties_8cs">NotificationServicesUnitySettings.AndroidPlatformProperties.cs</innerfile>
+    <innerfile refid="db/d8d/_notification_services_unity_settings_8cs">NotificationServicesUnitySettings.cs</innerfile>
+    <innerfile refid="da/d2b/_rate_my_app_confirmation_dialog_settings_8cs">RateMyAppConfirmationDialogSettings.cs</innerfile>
+    <innerfile refid="da/d90/_rate_my_app_constraints_8cs">RateMyAppConstraints.cs</innerfile>
+    <innerfile refid="d7/df6/_rate_my_app_unity_settings_8cs">RateMyAppUnitySettings.cs</innerfile>
+    <innerfile refid="d8/daf/_sharing_services_unity_settings_8cs">SharingServicesUnitySettings.cs</innerfile>
+    <innerfile refid="d6/d6c/_task_services_unity_settings_8cs">TaskServicesUnitySettings.cs</innerfile>
+    <innerfile refid="d6/db2/_utility_unity_settings_8cs">UtilityUnitySettings.cs</innerfile>
+    <innerfile refid="db/df7/_web_view_unity_settings_8_android_platform_properties_8cs">WebViewUnitySettings.AndroidPlatformProperties.cs</innerfile>
+    <innerfile refid="d3/d3d/_web_view_unity_settings_8cs">WebViewUnitySettings.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/"/>
+  </compounddef>
+</doxygen>

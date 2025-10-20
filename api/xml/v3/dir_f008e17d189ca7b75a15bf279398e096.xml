@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_f008e17d189ca7b75a15bf279398e096" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices</compoundname>
+    <innerfile refid="d1/dab/_i_native_mail_composer_8cs">INativeMailComposer.cs</innerfile>
+    <innerfile refid="d4/dbb/_i_native_message_composer_8cs">INativeMessageComposer.cs</innerfile>
+    <innerfile refid="d9/d5e/_i_native_share_sheet_8cs">INativeShareSheet.cs</innerfile>
+    <innerfile refid="d8/d89/_i_native_sharing_interface_8cs">INativeSharingInterface.cs</innerfile>
+    <innerfile refid="df/df6/_i_native_social_share_composer_8cs">INativeSocialShareComposer.cs</innerfile>
+    <innerfile refid="d0/d25/_sharing_services_2_internal_delegates_8cs">InternalDelegates.cs</innerfile>
+    <innerfile refid="d7/dd2/_mail_composer_8cs">MailComposer.cs</innerfile>
+    <innerfile refid="d9/df8/_mail_composer_extensions_8cs">MailComposerExtensions.cs</innerfile>
+    <innerfile refid="d7/dc6/_mail_composer_result_8cs">MailComposerResult.cs</innerfile>
+    <innerfile refid="dc/de4/_mail_composer_result_code_8cs">MailComposerResultCode.cs</innerfile>
+    <innerfile refid="dc/dad/_message_composer_8cs">MessageComposer.cs</innerfile>
+    <innerfile refid="dc/d76/_message_composer_extensions_8cs">MessageComposerExtensions.cs</innerfile>
+    <innerfile refid="d3/d22/_message_composer_result_8cs">MessageComposerResult.cs</innerfile>
+    <innerfile refid="d0/dbe/_message_composer_result_code_8cs">MessageComposerResultCode.cs</innerfile>
+    <innerfile refid="d4/d36/_native_mail_composer_base_8cs">NativeMailComposerBase.cs</innerfile>
+    <innerfile refid="d0/d0b/_native_message_composer_base_8cs">NativeMessageComposerBase.cs</innerfile>
+    <innerfile refid="db/da0/_native_share_sheet_base_8cs">NativeShareSheetBase.cs</innerfile>
+    <innerfile refid="d2/d7c/_native_sharing_interface_base_8cs">NativeSharingInterfaceBase.cs</innerfile>
+    <innerfile refid="da/dbd/_native_social_share_composer_base_8cs">NativeSocialShareComposerBase.cs</innerfile>
+    <innerfile refid="d0/d6b/_null_mail_composer_8cs">NullMailComposer.cs</innerfile>
+    <innerfile refid="d5/d49/_null_message_composer_8cs">NullMessageComposer.cs</innerfile>
+    <innerfile refid="de/d32/_null_share_sheet_8cs">NullShareSheet.cs</innerfile>
+    <innerfile refid="de/dcd/_null_sharing_interface_8cs">NullSharingInterface.cs</innerfile>
+    <innerfile refid="d4/d33/_null_social_share_composer_8cs">NullSocialShareComposer.cs</innerfile>
+    <innerfile refid="d8/d72/_share_item_8cs">ShareItem.cs</innerfile>
+    <innerfile refid="da/dc6/_share_sheet_8cs">ShareSheet.cs</innerfile>
+    <innerfile refid="d0/d55/_share_sheet_result_8cs">ShareSheetResult.cs</innerfile>
+    <innerfile refid="d2/d43/_share_sheet_result_code_8cs">ShareSheetResultCode.cs</innerfile>
+    <innerfile refid="dd/d70/_sharing_services_8cs">SharingServices.cs</innerfile>
+    <innerfile refid="da/d74/_sharing_services_error_8cs">SharingServicesError.cs</innerfile>
+    <innerfile refid="dc/d17/_sharing_services_error_code_8cs">SharingServicesErrorCode.cs</innerfile>
+    <innerfile refid="d1/db3/_social_share_composer_8cs">SocialShareComposer.cs</innerfile>
+    <innerfile refid="d8/de3/_social_share_composer_result_8cs">SocialShareComposerResult.cs</innerfile>
+    <innerfile refid="d6/d63/_social_share_composer_result_code_8cs">SocialShareComposerResultCode.cs</innerfile>
+    <innerfile refid="dc/d68/_social_share_composer_type_8cs">SocialShareComposerType.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/"/>
+  </compounddef>
+</doxygen>

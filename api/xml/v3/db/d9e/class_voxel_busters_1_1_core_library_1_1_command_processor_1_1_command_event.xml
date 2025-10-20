@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/d9e/class_voxel_busters_1_1_core_library_1_1_command_processor_1_1_command_event" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::CommandProcessor::CommandEvent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UnityEvent&lt; ICommand &gt;</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" line="147" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" bodystart="148" bodyend="148"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

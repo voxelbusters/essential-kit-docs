@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d4/d2e/class_voxel_busters_1_1_core_library_1_1_application_privacy_configuration" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::ApplicationPrivacyConfiguration</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d4/d2e/class_voxel_busters_1_1_core_library_1_1_application_privacy_configuration_1a1e9b22a414fbaccef99b059449519ba4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>ConsentStatus</type>
+        <definition>ConsentStatus UsageConsent</definition>
+        <argsstring></argsstring>
+        <name>UsageConsent</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ApplicationPrivacyConfiguration.UsageConsent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationPrivacyConfiguration.cs" line="10" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationPrivacyConfiguration.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d2e/class_voxel_busters_1_1_core_library_1_1_application_privacy_configuration_1a025c5d6a6998a87eae1eabc84094f893" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? IsAgeRestrictedUser</definition>
+        <argsstring></argsstring>
+        <name>IsAgeRestrictedUser</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ApplicationPrivacyConfiguration.IsAgeRestrictedUser</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationPrivacyConfiguration.cs" line="12" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationPrivacyConfiguration.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d2e/class_voxel_busters_1_1_core_library_1_1_application_privacy_configuration_1aa6c79fb3fd63235e48de3d2b1b817a72" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1aa2f8d11f34054ff37b1080064b70d0b7" kindref="member">ContentRating</ref>?</type>
+        <definition>ContentRating? PreferredContentRating</definition>
+        <argsstring></argsstring>
+        <name>PreferredContentRating</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ApplicationPrivacyConfiguration.PreferredContentRating</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationPrivacyConfiguration.cs" line="14" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationPrivacyConfiguration.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d2e/class_voxel_busters_1_1_core_library_1_1_application_privacy_configuration_1aedcbde50c8039829e56f7f99d9997273" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? DoNotSell</definition>
+        <argsstring></argsstring>
+        <name>DoNotSell</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ApplicationPrivacyConfiguration.DoNotSell</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationPrivacyConfiguration.cs" line="16" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationPrivacyConfiguration.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d2e/class_voxel_busters_1_1_core_library_1_1_application_privacy_configuration_1a8ca1a1a001dc102637530f1a11a83224" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Version</definition>
+        <argsstring></argsstring>
+        <name>Version</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ApplicationPrivacyConfiguration.Version</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationPrivacyConfiguration.cs" line="18" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationPrivacyConfiguration.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d2e/class_voxel_busters_1_1_core_library_1_1_application_privacy_configuration_1af84cea52aa949ff7d5799efe0610ca34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ApplicationPrivacyConfiguration</definition>
+        <argsstring>(ConsentStatus usageConsent, bool? isAgeRestrictedUser=null, ContentRating? preferredContentRating=null, bool? doNotSell=null, string version=null)</argsstring>
+        <name>ApplicationPrivacyConfiguration</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ApplicationPrivacyConfiguration.ApplicationPrivacyConfiguration</qualifiedname>
+        <param>
+          <type>ConsentStatus</type>
+          <declname>usageConsent</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>isAgeRestrictedUser</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1aa2f8d11f34054ff37b1080064b70d0b7" kindref="member">ContentRating</ref>?</type>
+          <declname>preferredContentRating</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>doNotSell</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>version</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationPrivacyConfiguration.cs" line="24" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationPrivacyConfiguration.cs" bodystart="24" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d2e/class_voxel_busters_1_1_core_library_1_1_application_privacy_configuration_1a09b15bbbe8bb9cce798c9781e68d6e24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool?</type>
+        <definition>bool? IsCoppaApplicable</definition>
+        <argsstring>()</argsstring>
+        <name>IsCoppaApplicable</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ApplicationPrivacyConfiguration.IsCoppaApplicable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationPrivacyConfiguration.cs" line="42" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationPrivacyConfiguration.cs" bodystart="42" bodyend="47"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationPrivacyConfiguration.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationPrivacyConfiguration.cs" bodystart="7" bodyend="51"/>
+    <listofallmembers>
+      <member refid="d4/d2e/class_voxel_busters_1_1_core_library_1_1_application_privacy_configuration_1af84cea52aa949ff7d5799efe0610ca34" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationPrivacyConfiguration</scope><name>ApplicationPrivacyConfiguration</name></member>
+      <member refid="d4/d2e/class_voxel_busters_1_1_core_library_1_1_application_privacy_configuration_1aedcbde50c8039829e56f7f99d9997273" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationPrivacyConfiguration</scope><name>DoNotSell</name></member>
+      <member refid="d4/d2e/class_voxel_busters_1_1_core_library_1_1_application_privacy_configuration_1a025c5d6a6998a87eae1eabc84094f893" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationPrivacyConfiguration</scope><name>IsAgeRestrictedUser</name></member>
+      <member refid="d4/d2e/class_voxel_busters_1_1_core_library_1_1_application_privacy_configuration_1a09b15bbbe8bb9cce798c9781e68d6e24" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationPrivacyConfiguration</scope><name>IsCoppaApplicable</name></member>
+      <member refid="d4/d2e/class_voxel_busters_1_1_core_library_1_1_application_privacy_configuration_1aa6c79fb3fd63235e48de3d2b1b817a72" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationPrivacyConfiguration</scope><name>PreferredContentRating</name></member>
+      <member refid="d4/d2e/class_voxel_busters_1_1_core_library_1_1_application_privacy_configuration_1a1e9b22a414fbaccef99b059449519ba4" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationPrivacyConfiguration</scope><name>UsageConsent</name></member>
+      <member refid="d4/d2e/class_voxel_busters_1_1_core_library_1_1_application_privacy_configuration_1a8ca1a1a001dc102637530f1a11a83224" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ApplicationPrivacyConfiguration</scope><name>Version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

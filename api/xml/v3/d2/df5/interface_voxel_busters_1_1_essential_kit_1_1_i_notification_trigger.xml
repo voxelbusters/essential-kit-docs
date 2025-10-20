@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d2/df5/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_trigger" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::INotificationTrigger</compoundname>
+    <derivedcompoundref refid="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger" prot="public" virt="non-virtual">CalendarNotificationTrigger</derivedcompoundref>
+    <derivedcompoundref refid="dd/d7d/class_voxel_busters_1_1_essential_kit_1_1_location_notification_trigger" prot="public" virt="non-virtual">LocationNotificationTrigger</derivedcompoundref>
+    <derivedcompoundref refid="df/d80/class_voxel_busters_1_1_essential_kit_1_1_push_notification_trigger" prot="public" virt="non-virtual">PushNotificationTrigger</derivedcompoundref>
+    <derivedcompoundref refid="d9/d1b/class_voxel_busters_1_1_essential_kit_1_1_time_interval_notification_trigger" prot="public" virt="non-virtual">TimeIntervalNotificationTrigger</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d2/df5/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_trigger_1a7959e7b7e552b87138b95df80f13c9d8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Repeats</definition>
+        <argsstring></argsstring>
+        <name>Repeats</name>
+        <qualifiedname>VoxelBusters.EssentialKit.INotificationTrigger.Repeats</qualifiedname>
+        <reimplementedby refid="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger_1a7959e7b7e552b87138b95df80f13c9d8">Repeats</reimplementedby>
+        <reimplementedby refid="df/d80/class_voxel_busters_1_1_essential_kit_1_1_push_notification_trigger_1a7959e7b7e552b87138b95df80f13c9d8">Repeats</reimplementedby>
+        <reimplementedby refid="d9/d1b/class_voxel_busters_1_1_essential_kit_1_1_time_interval_notification_trigger_1a7959e7b7e552b87138b95df80f13c9d8">Repeats</reimplementedby>
+        <briefdescription>
+<para>A Boolean value indicating whether the system reschedules the notification after it is delivered. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotificationTrigger.cs" line="18" column="14" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotificationTrigger.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Base interface for representing an event that triggers the delivery of a notification. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>INotificationTrigger</label>
+        <link refid="d2/df5/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_trigger"/>
+      </node>
+      <node id="2">
+        <label>CalendarNotificationTrigger</label>
+        <link refid="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>PushNotificationTrigger</label>
+        <link refid="df/d80/class_voxel_busters_1_1_essential_kit_1_1_push_notification_trigger"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>TimeIntervalNotificationTrigger</label>
+        <link refid="d9/d1b/class_voxel_busters_1_1_essential_kit_1_1_time_interval_notification_trigger"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotificationTrigger.cs" line="11" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotificationTrigger.cs" bodystart="12" bodyend="21"/>
+    <listofallmembers>
+      <member refid="d2/df5/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_trigger_1a7959e7b7e552b87138b95df80f13c9d8" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::INotificationTrigger</scope><name>Repeats</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d7/d50/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_score_reporter" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::LeaderboardScoreReporter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="d6/d10/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_score_reporter_1_1_report_score_finish_event" prot="private">VoxelBusters::EssentialKit::LeaderboardScoreReporter::ReportScoreFinishEvent</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d7/d50/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_score_reporter_1ae2bbdfd6397772969188d69b744e2f5c" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_leaderboardId</definition>
+        <argsstring></argsstring>
+        <name>m_leaderboardId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardScoreReporter.m_leaderboardId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardScoreReporter.cs" line="15" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardScoreReporter.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d50/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_score_reporter_1af075b7d1d092e6b92f91afd1a362b907" prot="private" static="no" mutable="no">
+        <type>ReportScoreFinishEvent</type>
+        <definition>ReportScoreFinishEvent m_onReportScoreFinish</definition>
+        <argsstring></argsstring>
+        <name>m_onReportScoreFinish</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardScoreReporter.m_onReportScoreFinish</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardScoreReporter.cs" line="18" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardScoreReporter.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d50/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_score_reporter_1a9061f41212188e520b82b20270983ec1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReportScore</definition>
+        <argsstring>(long score)</argsstring>
+        <name>ReportScore</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardScoreReporter.ReportScore</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>score</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardScoreReporter.cs" line="24" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardScoreReporter.cs" bodystart="24" bodyend="41"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardScoreReporter.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardScoreReporter.cs" bodystart="11" bodyend="52"/>
+    <listofallmembers>
+      <member refid="d7/d50/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_score_reporter_1ae2bbdfd6397772969188d69b744e2f5c" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardScoreReporter</scope><name>m_leaderboardId</name></member>
+      <member refid="d7/d50/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_score_reporter_1af075b7d1d092e6b92f91afd1a362b907" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardScoreReporter</scope><name>m_onReportScoreFinish</name></member>
+      <member refid="d7/d50/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_score_reporter_1a9061f41212188e520b82b20270983ec1" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardScoreReporter</scope><name>ReportScore</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

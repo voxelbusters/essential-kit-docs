@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_9a0837b79460c22307c36b9eccf2582a" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices</compoundname>
+    <innerfile refid="df/d1e/_billing_environment_8cs">BillingEnvironment.cs</innerfile>
+    <innerfile refid="d8/d21/_billing_payment_8cs">BillingPayment.cs</innerfile>
+    <innerfile refid="d7/dad/_billing_period_8cs">BillingPeriod.cs</innerfile>
+    <innerfile refid="d4/d1b/_billing_period_unit_8cs">BillingPeriodUnit.cs</innerfile>
+    <innerfile refid="d8/d97/_billing_price_8cs">BillingPrice.cs</innerfile>
+    <innerfile refid="d6/dcd/_billing_product_base_8cs">BillingProductBase.cs</innerfile>
+    <innerfile refid="dd/d73/_billing_product_definition_8cs">BillingProductDefinition.cs</innerfile>
+    <innerfile refid="d3/de4/_billing_product_id_attribute_8cs">BillingProductIdAttribute.cs</innerfile>
+    <innerfile refid="d6/d7b/_billing_product_offer_8cs">BillingProductOffer.cs</innerfile>
+    <innerfile refid="d7/df5/_billing_product_offer_category_8cs">BillingProductOfferCategory.cs</innerfile>
+    <innerfile refid="d2/d09/_billing_product_offer_pricing_phase_8cs">BillingProductOfferPricingPhase.cs</innerfile>
+    <innerfile refid="d9/d7c/_billing_product_offer_redeem_details_8cs">BillingProductOfferRedeemDetails.cs</innerfile>
+    <innerfile refid="df/d49/_billing_product_payout_category_8cs">BillingProductPayoutCategory.cs</innerfile>
+    <innerfile refid="dc/d88/_billing_product_payout_definition_8cs">BillingProductPayoutDefinition.cs</innerfile>
+    <innerfile refid="d5/d72/_billing_product_plain_8cs">BillingProductPlain.cs</innerfile>
+    <innerfile refid="d8/d31/_billing_product_revocation_info_8cs">BillingProductRevocationInfo.cs</innerfile>
+    <innerfile refid="d9/db1/_billing_product_revocation_reason_8cs">BillingProductRevocationReason.cs</innerfile>
+    <innerfile refid="d6/d36/_billing_product_subscription_expiration_reason_8cs">BillingProductSubscriptionExpirationReason.cs</innerfile>
+    <innerfile refid="dd/d28/_billing_product_subscription_info_8cs">BillingProductSubscriptionInfo.cs</innerfile>
+    <innerfile refid="d1/d4a/_billing_product_subscription_price_increase_status_8cs">BillingProductSubscriptionPriceIncreaseStatus.cs</innerfile>
+    <innerfile refid="d5/df0/_billing_product_subscription_renewal_info_8cs">BillingProductSubscriptionRenewalInfo.cs</innerfile>
+    <innerfile refid="d9/d15/_billing_product_subscription_renewal_state_8cs">BillingProductSubscriptionRenewalState.cs</innerfile>
+    <innerfile refid="d2/d09/_billing_product_subscription_status_8cs">BillingProductSubscriptionStatus.cs</innerfile>
+    <innerfile refid="d5/d0c/_billing_product_type_8cs">BillingProductType.cs</innerfile>
+    <innerfile refid="d2/d49/_billing_product_utility_8cs">BillingProductUtility.cs</innerfile>
+    <innerfile refid="d2/db7/_billing_receipt_verification_state_8cs">BillingReceiptVerificationState.cs</innerfile>
+    <innerfile refid="d8/dee/_billing_services_8cs">BillingServices.cs</innerfile>
+    <innerfile refid="d4/de1/_billing_services_error_8cs">BillingServicesError.cs</innerfile>
+    <innerfile refid="dc/d92/_billing_services_error_code_8cs">BillingServicesErrorCode.cs</innerfile>
+    <innerfile refid="da/dac/_billing_services_external_product_purchase_action_8cs">BillingServicesExternalProductPurchaseAction.cs</innerfile>
+    <innerfile refid="d7/dca/_billing_services_initialize_store_result_8cs">BillingServicesInitializeStoreResult.cs</innerfile>
+    <innerfile refid="d2/dd7/_billing_services_offer_payment_mode_8cs">BillingServicesOfferPaymentMode.cs</innerfile>
+    <innerfile refid="d2/d1b/_billing_services_restore_purchases_result_8cs">BillingServicesRestorePurchasesResult.cs</innerfile>
+    <innerfile refid="d5/d18/_billing_services_transaction_state_change_result_8cs">BillingServicesTransactionStateChangeResult.cs</innerfile>
+    <innerfile refid="dd/d34/_billing_transaction_android_properties_8cs">BillingTransactionAndroidProperties.cs</innerfile>
+    <innerfile refid="d2/d1e/_billing_transaction_base_8cs">BillingTransactionBase.cs</innerfile>
+    <innerfile refid="d5/d02/_billing_transaction_plain_8cs">BillingTransactionPlain.cs</innerfile>
+    <innerfile refid="d0/d66/_billing_transaction_state_8cs">BillingTransactionState.cs</innerfile>
+    <innerfile refid="de/d8f/_buy_product_options_8cs">BuyProductOptions.cs</innerfile>
+    <innerfile refid="d0/d8d/_billing_services_2_delegates_8cs">Delegates.cs</innerfile>
+    <innerfile refid="d8/dc2/_i_billing_payment_8cs">IBillingPayment.cs</innerfile>
+    <innerfile refid="d0/d55/_i_billing_product_8cs">IBillingProduct.cs</innerfile>
+    <innerfile refid="dc/d0b/_i_billing_transaction_8cs">IBillingTransaction.cs</innerfile>
+    <innerfile refid="d8/dc5/_i_native_billing_services_interface_8cs">INativeBillingServicesInterface.cs</innerfile>
+    <innerfile refid="d1/de1/_native_billing_services_interface_base_8cs">NativeBillingServicesInterfaceBase.cs</innerfile>
+    <innerfile refid="d4/d17/_null_billing_services_interface_8cs">NullBillingServicesInterface.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/"/>
+  </compounddef>
+</doxygen>

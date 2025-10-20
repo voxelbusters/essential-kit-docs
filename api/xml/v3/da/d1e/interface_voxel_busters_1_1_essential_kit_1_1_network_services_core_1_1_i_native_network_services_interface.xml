@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="da/d1e/interface_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_i_native_network_services_interface" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::NetworkServicesCore::INativeNetworkServicesInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">INativeFeatureInterface</basecompoundref>
+    <derivedcompoundref refid="d3/d80/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_native_network_services_interface_base" prot="public" virt="non-virtual">NativeNetworkServicesInterfaceBase</derivedcompoundref>
+    <derivedcompoundref refid="d1/deb/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_null_network_services_interface" prot="public" virt="non-virtual">NullNetworkServicesInterface</derivedcompoundref>
+    <derivedcompoundref refid="d4/d4f/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_unity_network_services_interface" prot="public" virt="non-virtual">UnityNetworkServicesInterface</derivedcompoundref>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="da/d1e/interface_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_i_native_network_services_interface_1a071b8486556957abc994f574c15e7503" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>InternetConnectivityChangeInternalCallback</type>
+        <definition>InternetConnectivityChangeInternalCallback OnInternetConnectivityChange</definition>
+        <argsstring></argsstring>
+        <name>OnInternetConnectivityChange</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesCore.INativeNetworkServicesInterface.OnInternetConnectivityChange</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/INativeNetworkServicesInterface.cs" line="12" column="58" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/INativeNetworkServicesInterface.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="da/d1e/interface_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_i_native_network_services_interface_1af7f3aa1f774c52ca8ae451858058ddae" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>HostReachabilityChangeInternalCallback</type>
+        <definition>HostReachabilityChangeInternalCallback OnHostReachabilityChange</definition>
+        <argsstring></argsstring>
+        <name>OnHostReachabilityChange</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesCore.INativeNetworkServicesInterface.OnHostReachabilityChange</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/INativeNetworkServicesInterface.cs" line="14" column="54" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/INativeNetworkServicesInterface.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d1e/interface_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_i_native_network_services_interface_1a719c62e4775c1a0f75b61d22ac575fd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StartNotifier</definition>
+        <argsstring>()</argsstring>
+        <name>StartNotifier</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesCore.INativeNetworkServicesInterface.StartNotifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/INativeNetworkServicesInterface.cs" line="20" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1e/interface_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_i_native_network_services_interface_1a23833f7efd2109abc95369d07ac0344e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StopNotifier</definition>
+        <argsstring>()</argsstring>
+        <name>StopNotifier</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesCore.INativeNetworkServicesInterface.StopNotifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/INativeNetworkServicesInterface.cs" line="22" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/INativeNetworkServicesInterface.cs" line="8" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/INativeNetworkServicesInterface.cs" bodystart="9" bodyend="25"/>
+    <listofallmembers>
+      <member refid="da/d1e/interface_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_i_native_network_services_interface_1af7f3aa1f774c52ca8ae451858058ddae" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesCore::INativeNetworkServicesInterface</scope><name>OnHostReachabilityChange</name></member>
+      <member refid="da/d1e/interface_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_i_native_network_services_interface_1a071b8486556957abc994f574c15e7503" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesCore::INativeNetworkServicesInterface</scope><name>OnInternetConnectivityChange</name></member>
+      <member refid="da/d1e/interface_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_i_native_network_services_interface_1a719c62e4775c1a0f75b61d22ac575fd4" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesCore::INativeNetworkServicesInterface</scope><name>StartNotifier</name></member>
+      <member refid="da/d1e/interface_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_i_native_network_services_interface_1a23833f7efd2109abc95369d07ac0344e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesCore::INativeNetworkServicesInterface</scope><name>StopNotifier</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

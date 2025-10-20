@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_81cc4e9a3b0820de399cc0c83191a25a" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels</compoundname>
+    <innerfile refid="d6/dee/_application_privacy_configuration_8cs">ApplicationPrivacyConfiguration.cs</innerfile>
+    <innerfile refid="d3/dc6/_application_user_8cs">ApplicationUser.cs</innerfile>
+    <innerfile refid="dc/d3e/_asset_8cs">Asset.cs</innerfile>
+    <innerfile refid="da/d8b/_error_8cs">Error.cs</innerfile>
+    <innerfile refid="db/dc3/_key_value_data_store_8cs">KeyValueDataStore.cs</innerfile>
+    <innerfile refid="de/def/_readable_id_8cs">ReadableId.cs</innerfile>
+    <innerfile refid="d1/dbc/_runtime_platform_constant_8cs">RuntimePlatformConstant.cs</innerfile>
+    <innerfile refid="dc/d41/_runtime_platform_constant_set_8cs">RuntimePlatformConstantSet.cs</innerfile>
+    <innerfile refid="d0/d8c/_serializable_key_value_pair_8cs">SerializableKeyValuePair.cs</innerfile>
+    <innerfile refid="d1/dc5/_string_key_value_pair_8cs">StringKeyValuePair.cs</innerfile>
+    <innerfile refid="d3/d86/_texture_data_8cs">TextureData.cs</innerfile>
+    <innerfile refid="d1/d6c/_unity_package_definition_8cs">UnityPackageDefinition.cs</innerfile>
+    <innerfile refid="de/d1d/_u_r_l_string_8cs">URLString.cs</innerfile>
+    <innerfile refid="d1/d61/_validation_result_8cs">ValidationResult.cs</innerfile>
+    <innerfile refid="d4/d6e/_v_b_exception_8cs">VBException.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/"/>
+  </compounddef>
+</doxygen>

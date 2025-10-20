@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dc/dba/_command_processor_8cs" kind="file" language="C#">
+    <compoundname>CommandProcessor.cs</compoundname>
+    <innerclass refid="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor" prot="public">VoxelBusters::CoreLibrary::CommandProcessor</innerclass>
+    <innerclass refid="db/d9e/class_voxel_busters_1_1_core_library_1_1_command_processor_1_1_command_event" prot="public">VoxelBusters::CoreLibrary::CommandProcessor::CommandEvent</innerclass>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="d7/d45/namespace_voxel_busters_1_1_core_library">VoxelBusters::CoreLibrary</innernamespace>
+    <innernamespace refid="d6/dee/namespace_unity_engine_1_1_events">UnityEngine::Events</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs"/>
+  </compounddef>
+</doxygen>

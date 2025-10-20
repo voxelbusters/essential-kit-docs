@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d8/d8d/class_voxel_busters_1_1_essential_kit_1_1_address_book_unity_settings" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::AddressBookUnitySettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SettingsPropertyGroup</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d8/d8d/class_voxel_busters_1_1_essential_kit_1_1_address_book_unity_settings_1afd5e117eb3db493149aea76267493793" prot="private" static="no" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D m_defaultImage</definition>
+        <argsstring></argsstring>
+        <name>m_defaultImage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AddressBookUnitySettings.m_defaultImage</qualifiedname>
+        <briefdescription>
+<para>The default image to be used for contact. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AddressBookUnitySettings.cs" line="22" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AddressBookUnitySettings.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d8/d8d/class_voxel_busters_1_1_essential_kit_1_1_address_book_unity_settings_1a5cab0397794ef516fefb6aac7cdd9588" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D DefaultImage</definition>
+        <argsstring></argsstring>
+        <name>DefaultImage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AddressBookUnitySettings.DefaultImage</qualifiedname>
+        <briefdescription>
+<para>Gets the default image to be used for contact. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AddressBookUnitySettings.cs" line="31" column="26" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AddressBookUnitySettings.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="da/db1/class_voxel_busters_1_1_essential_kit_1_1_address_book_1ac1a35a26edffbc7d2309a16256843302" compoundref="d7/dfc/_address_book_8cs" startline="58" endline="68">AddressBook.Initialize</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/d8d/class_voxel_busters_1_1_essential_kit_1_1_address_book_unity_settings_1adca0c22696c7b3ff31a8e142764e3097" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AddressBookUnitySettings</definition>
+        <argsstring>(bool isEnabled=true)</argsstring>
+        <name>AddressBookUnitySettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AddressBookUnitySettings.AddressBookUnitySettings</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isEnabled</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="d8/d8d/class_voxel_busters_1_1_essential_kit_1_1_address_book_unity_settings" kindref="compound">AddressBookUnitySettings</ref> class with the specified settings. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isEnabled</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if set to <computeroutput>true</computeroutput> [is enabled].</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AddressBookUnitySettings.cs" line="41" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AddressBookUnitySettings.cs" bodystart="41" bodyend="46"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="d8/d8d/class_voxel_busters_1_1_essential_kit_1_1_address_book_unity_settings" kindref="compound">AddressBookUnitySettings</ref> class is used to configure Address Book module of Essential Kit. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AddressBookUnitySettings.cs" line="13" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AddressBookUnitySettings.cs" bodystart="14" bodyend="49"/>
+    <listofallmembers>
+      <member refid="d8/d8d/class_voxel_busters_1_1_essential_kit_1_1_address_book_unity_settings_1adca0c22696c7b3ff31a8e142764e3097" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AddressBookUnitySettings</scope><name>AddressBookUnitySettings</name></member>
+      <member refid="d8/d8d/class_voxel_busters_1_1_essential_kit_1_1_address_book_unity_settings_1a5cab0397794ef516fefb6aac7cdd9588" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AddressBookUnitySettings</scope><name>DefaultImage</name></member>
+      <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1a45f8df3acbb2721c2df8462f1cd8f14b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AddressBookUnitySettings</scope><name>IsEnabled</name></member>
+      <member refid="d8/d8d/class_voxel_busters_1_1_essential_kit_1_1_address_book_unity_settings_1afd5e117eb3db493149aea76267493793" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AddressBookUnitySettings</scope><name>m_defaultImage</name></member>
+      <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1a7ee9065718e6628dc7791b756fa6c0f9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AddressBookUnitySettings</scope><name>Name</name></member>
+      <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1ac9b0727cd904077f21637b8cbe0b139d" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AddressBookUnitySettings</scope><name>SettingsPropertyGroup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::AppUpdater</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater_1a1b854581e01e791652671ff32865154c" prot="private" static="yes" mutable="no">
+        <type>INativeAppUpdaterInterface</type>
+        <definition>INativeAppUpdaterInterface s_nativeInterface</definition>
+        <argsstring></argsstring>
+        <name>s_nativeInterface</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdater.s_nativeInterface</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdater.cs" line="27" column="59" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdater.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater_1a28095fb157c01b2bdf56906f845387af" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>AppUpdaterUnitySettings</type>
+        <definition>AppUpdaterUnitySettings UnitySettings</definition>
+        <argsstring></argsstring>
+        <name>UnitySettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdater.UnitySettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdater.cs" line="33" column="47" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdater.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater_1ab2736f418ea7cd1b1cbc2a4ff4acec31" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IsAvailable</definition>
+        <argsstring>()</argsstring>
+        <name>IsAvailable</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdater.IsAvailable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdater.cs" line="39" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdater.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater_1a09d545801bbca0b5037cd632b10ad0ce" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Initialize</definition>
+        <argsstring>(AppUpdaterUnitySettings settings)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdater.Initialize</qualifiedname>
+        <param>
+          <type>AppUpdaterUnitySettings</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>Initialize the <ref refid="d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater" kindref="compound">AppUpdater</ref> module with the given settings. This call is optional and only need to be called if you have custom settings to initialize this feature. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>settings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The settings to be used for initialization.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para>The settings configure the behavior of the <ref refid="d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater" kindref="compound">AppUpdater</ref> module. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdater.cs" line="53" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdater.cs" bodystart="53" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater_1a1c856bf1fe91c6b4c22d36a208d94885" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RequestUpdateInfo</definition>
+        <argsstring>(EventCallback&lt; AppUpdaterUpdateInfo &gt; callback)</argsstring>
+        <name>RequestUpdateInfo</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdater.RequestUpdateInfo</qualifiedname>
+        <param>
+          <type>EventCallback&lt; <ref refid="dd/d74/class_voxel_busters_1_1_essential_kit_1_1_app_updater_update_info" kindref="compound">AppUpdaterUpdateInfo</ref> &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Request the latest available update information for the current version of the application. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The callback that will be executed after the operation has a result or error.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para>The callback will be invoked with an <ref refid="dd/d74/class_voxel_busters_1_1_essential_kit_1_1_app_updater_update_info" kindref="compound">AppUpdaterUpdateInfo</ref> containing the result of the operation. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdater.cs" line="75" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdater.cs" bodystart="75" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater_1abc91bdb44be29f2a8113cf81fab2daf4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PromptUpdate</definition>
+        <argsstring>(PromptUpdateOptions options, EventCallback&lt; float &gt; callback)</argsstring>
+        <name>PromptUpdate</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdater.PromptUpdate</qualifiedname>
+        <param>
+          <type><ref refid="d5/d7f/class_voxel_busters_1_1_essential_kit_1_1_prompt_update_options" kindref="compound">PromptUpdateOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>EventCallback&lt; float &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Shows a prompt to the user to update the app. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The options to customize the prompt. <ref refid="d5/d7f/class_voxel_busters_1_1_essential_kit_1_1_prompt_update_options" kindref="compound">PromptUpdateOptions</ref> instance can be created with <ref refid="db/d2b/class_voxel_busters_1_1_essential_kit_1_1_prompt_update_options_1_1_builder" kindref="compound">PromptUpdateOptions.Builder</ref></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The callback that will be executed after the operation has a result or error.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para>The prompt will be dismissed when the user selects an option only if IsForceUpdate is false provided in the <ref refid="d5/d7f/class_voxel_busters_1_1_essential_kit_1_1_prompt_update_options" kindref="compound">PromptUpdateOptions</ref>. </para>
+<para>The callback will receive a boolean value indicating whether the user chose to update the app. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdater.cs" line="94" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdater.cs" bodystart="94" bodyend="97"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater" kindref="compound">AppUpdater</ref> class provides cross-platform interface to facilitate updating the current version of the application. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>On iOS platform, an alert is shown to let the user update the application. On Android, it uses native provided In-App update feature and if it fails to update, an alert is shown to let the user update the application. </para>
+<para><linebreak/>
+ </para>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdater.cs" line="22" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdater.cs" bodystart="23" bodyend="100"/>
+    <listofallmembers>
+      <member refid="d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater_1a09d545801bbca0b5037cd632b10ad0ce" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppUpdater</scope><name>Initialize</name></member>
+      <member refid="d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater_1ab2736f418ea7cd1b1cbc2a4ff4acec31" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppUpdater</scope><name>IsAvailable</name></member>
+      <member refid="d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater_1abc91bdb44be29f2a8113cf81fab2daf4" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppUpdater</scope><name>PromptUpdate</name></member>
+      <member refid="d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater_1a1c856bf1fe91c6b4c22d36a208d94885" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppUpdater</scope><name>RequestUpdateInfo</name></member>
+      <member refid="d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater_1a1b854581e01e791652671ff32865154c" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppUpdater</scope><name>s_nativeInterface</name></member>
+      <member refid="d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater_1a28095fb157c01b2bdf56906f845387af" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppUpdater</scope><name>UnitySettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,391 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::BillingProductDefinition</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1aaf217350cb1ae633b3b18fbcb7e14b9b" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_id</definition>
+        <argsstring></argsstring>
+        <name>m_id</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductDefinition.m_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" line="20" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1a10fc7c9090722042da949e4c77635a1e" prot="private" static="no" mutable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8a4514d4d8550dedff67772e8a230121" kindref="member">BillingProductType</ref></type>
+        <definition>BillingProductType m_productType</definition>
+        <argsstring></argsstring>
+        <name>m_productType</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductDefinition.m_productType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" line="23" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1a9051e9e6563f1ae490194450f524989a" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_title</definition>
+        <argsstring></argsstring>
+        <name>m_title</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductDefinition.m_title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" line="26" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1a907056f6b120f96baec3df4ec08d5197" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_description</definition>
+        <argsstring></argsstring>
+        <name>m_description</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductDefinition.m_description</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" line="29" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1a76f2daf75bd65ec5833421b84900a209" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_isInactive</definition>
+        <argsstring></argsstring>
+        <name>m_isInactive</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductDefinition.m_isInactive</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" line="32" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1abfaf655b850fcb5ff473c66c393c6eea" prot="private" static="no" mutable="no">
+        <type><ref refid="d7/d25/class_voxel_busters_1_1_essential_kit_1_1_billing_product_payout_definition" kindref="compound">BillingProductPayoutDefinition</ref>[]</type>
+        <definition>BillingProductPayoutDefinition [] m_payouts</definition>
+        <argsstring></argsstring>
+        <name>m_payouts</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductDefinition.m_payouts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" line="35" column="55" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1a77679921da34d0fe0d6f8f3e94b4de98" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_platformId</definition>
+        <argsstring></argsstring>
+        <name>m_platformId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductDefinition.m_platformId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" line="39" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1af3b73f6086e61a9465b387709e125fb0" prot="private" static="no" mutable="no">
+        <type>RuntimePlatformConstantSet</type>
+        <definition>RuntimePlatformConstantSet m_platformIdOverrides</definition>
+        <argsstring></argsstring>
+        <name>m_platformIdOverrides</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductDefinition.m_platformIdOverrides</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" line="42" column="44" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1a186291c875988107b7ace745ea84d4ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductDefinition.Id</qualifiedname>
+        <briefdescription>
+<para>The string that identifies the product within Unity environment. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" line="51" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1a73abe3efcb17384f5dd99728e691e815" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8a4514d4d8550dedff67772e8a230121" kindref="member">BillingProductType</ref></type>
+        <definition>BillingProductType ProductType</definition>
+        <argsstring></argsstring>
+        <name>ProductType</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductDefinition.ProductType</qualifiedname>
+        <briefdescription>
+<para>The type of the product. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" line="56" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1aa7b633091e7820b835d04d0d5fc197c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductDefinition.Title</qualifiedname>
+        <briefdescription>
+<para>The name of the product. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" line="61" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1a34409fed9d39281ada2d7ec172a52f9b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductDefinition.Description</qualifiedname>
+        <briefdescription>
+<para>The description of the product. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" line="66" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1ac554bb2cbd387dfddecb117696235431" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool IsInactive</definition>
+        <argsstring></argsstring>
+        <name>IsInactive</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductDefinition.IsInactive</qualifiedname>
+        <briefdescription>
+<para>Indicates whether this product is inactive. A product is considered active if it is considered for purchase. Note: If your earlier versions had a product and is not used any more, you can just enable this flag and still get the product details of past purchases. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" line="73" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1a4cd9d2a9570663d8878aa6b58c1f7936" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d7/d25/class_voxel_busters_1_1_essential_kit_1_1_billing_product_payout_definition" kindref="compound">BillingProductPayoutDefinition</ref>[]</type>
+        <definition>BillingProductPayoutDefinition [] Payouts</definition>
+        <argsstring></argsstring>
+        <name>Payouts</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductDefinition.Payouts</qualifiedname>
+        <briefdescription>
+<para>The payout information. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" line="78" column="47" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1a4b7f4dc326555ee4a2f96d52622475cd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>object</type>
+        <definition>object Tag</definition>
+        <argsstring></argsstring>
+        <name>Tag</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductDefinition.Tag</qualifiedname>
+        <briefdescription>
+<para>Additional information associated with this product. This information is provided by the developer. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" line="84" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" bodystart="84" bodyend="84"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1a278fd71e27c54ae4241a57364f787041" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BillingProductDefinition</definition>
+        <argsstring>(string id=null, string platformId=null, RuntimePlatformConstantSet platformIdOverrides=null, BillingProductType productType=BillingProductType.Consumable, string title=null, string description=null, bool isInactive=false, BillingProductPayoutDefinition[] payouts=null)</argsstring>
+        <name>BillingProductDefinition</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductDefinition.BillingProductDefinition</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>platformId</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>RuntimePlatformConstantSet</type>
+          <declname>platformIdOverrides</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8a4514d4d8550dedff67772e8a230121" kindref="member">BillingProductType</ref></type>
+          <declname>productType</declname>
+          <defval><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8a4514d4d8550dedff67772e8a230121a56fed3bd1057fee3027e20901d42f19e" kindref="member">BillingProductType.Consumable</ref></defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isInactive</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type><ref refid="d7/d25/class_voxel_busters_1_1_essential_kit_1_1_billing_product_payout_definition" kindref="compound">BillingProductPayoutDefinition</ref>[]</type>
+          <declname>payouts</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Creates the product settings object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string that identifies the product within Unity environment.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>platformId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The identifier of product in the store. This is the identifier supplied by the native platform store(Google play console / App Store Connect).</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>platformIdOverrides</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The overrides for the platformId.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>productType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of the product. Default is <ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8a4514d4d8550dedff67772e8a230121a56fed3bd1057fee3027e20901d42f19e" kindref="member">BillingProductType.Consumable</ref>.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the product.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>description</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The description of the product.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isInactive</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indicates whether this product is inactive. A product is considered active if it is considered for purchase.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>payouts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Payout information associated with this product.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" line="101" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" bodystart="101" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1ac93913b0974856cbfcce4b4678f5666f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetPlatformIdForActivePlatform</definition>
+        <argsstring>()</argsstring>
+        <name>GetPlatformIdForActivePlatform</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductDefinition.GetPlatformIdForActivePlatform</qualifiedname>
+        <briefdescription>
+<para>Returns the store identifier for active platform. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" line="125" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" bodystart="125" bodyend="128"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents an object containing information related to billing product definition. This contains the data you set in settings. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" line="15" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductDefinition.cs" bodystart="16" bodyend="131"/>
+    <listofallmembers>
+      <member refid="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1a278fd71e27c54ae4241a57364f787041" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductDefinition</scope><name>BillingProductDefinition</name></member>
+      <member refid="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1a34409fed9d39281ada2d7ec172a52f9b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductDefinition</scope><name>Description</name></member>
+      <member refid="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1ac93913b0974856cbfcce4b4678f5666f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductDefinition</scope><name>GetPlatformIdForActivePlatform</name></member>
+      <member refid="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1a186291c875988107b7ace745ea84d4ec" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductDefinition</scope><name>Id</name></member>
+      <member refid="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1ac554bb2cbd387dfddecb117696235431" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductDefinition</scope><name>IsInactive</name></member>
+      <member refid="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1a907056f6b120f96baec3df4ec08d5197" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductDefinition</scope><name>m_description</name></member>
+      <member refid="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1aaf217350cb1ae633b3b18fbcb7e14b9b" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductDefinition</scope><name>m_id</name></member>
+      <member refid="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1a76f2daf75bd65ec5833421b84900a209" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductDefinition</scope><name>m_isInactive</name></member>
+      <member refid="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1abfaf655b850fcb5ff473c66c393c6eea" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductDefinition</scope><name>m_payouts</name></member>
+      <member refid="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1a77679921da34d0fe0d6f8f3e94b4de98" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductDefinition</scope><name>m_platformId</name></member>
+      <member refid="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1af3b73f6086e61a9465b387709e125fb0" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductDefinition</scope><name>m_platformIdOverrides</name></member>
+      <member refid="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1a10fc7c9090722042da949e4c77635a1e" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductDefinition</scope><name>m_productType</name></member>
+      <member refid="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1a9051e9e6563f1ae490194450f524989a" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductDefinition</scope><name>m_title</name></member>
+      <member refid="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1a4cd9d2a9570663d8878aa6b58c1f7936" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductDefinition</scope><name>Payouts</name></member>
+      <member refid="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1a73abe3efcb17384f5dd99728e691e815" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductDefinition</scope><name>ProductType</name></member>
+      <member refid="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1a4b7f4dc326555ee4a2f96d52622475cd" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductDefinition</scope><name>Tag</name></member>
+      <member refid="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition_1aa7b633091e7820b835d04d0d5fc197c7" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductDefinition</scope><name>Title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

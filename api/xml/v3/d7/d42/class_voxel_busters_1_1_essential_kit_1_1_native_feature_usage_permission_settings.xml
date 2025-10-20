@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::NativeFeatureUsagePermissionSettings</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1a09fa89be0dae55606feeeab1436eca2e" prot="private" static="no" mutable="no">
+        <type>NativeFeatureUsagePermissionDefinition</type>
+        <definition>NativeFeatureUsagePermissionDefinition m_addressBookUsagePermission</definition>
+        <argsstring></argsstring>
+        <name>m_addressBookUsagePermission</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureUsagePermissionSettings.m_addressBookUsagePermission</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" line="17" column="65" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1a6150abc19dc8f1e4c986799408d9ad3b" prot="private" static="no" mutable="no">
+        <type>NativeFeatureUsagePermissionDefinition</type>
+        <definition>NativeFeatureUsagePermissionDefinition m_cameraUsagePermission</definition>
+        <argsstring></argsstring>
+        <name>m_cameraUsagePermission</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureUsagePermissionSettings.m_cameraUsagePermission</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" line="21" column="65" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1adf6e451ce8534022b37dfe186e95ed31" prot="private" static="no" mutable="no">
+        <type>NativeFeatureUsagePermissionDefinition</type>
+        <definition>NativeFeatureUsagePermissionDefinition m_galleryUsagePermission</definition>
+        <argsstring></argsstring>
+        <name>m_galleryUsagePermission</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureUsagePermissionSettings.m_galleryUsagePermission</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" line="25" column="65" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1ad75414cf84bf19d938254ba6a1e13bf8" prot="private" static="no" mutable="no">
+        <type>NativeFeatureUsagePermissionDefinition</type>
+        <definition>NativeFeatureUsagePermissionDefinition m_galleryWritePermission</definition>
+        <argsstring></argsstring>
+        <name>m_galleryWritePermission</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureUsagePermissionSettings.m_galleryWritePermission</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" line="29" column="65" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1ae08ec8e60f54abd33b0af8f73c846bd4" prot="private" static="no" mutable="no">
+        <type>NativeFeatureUsagePermissionDefinition</type>
+        <definition>NativeFeatureUsagePermissionDefinition m_locationWhenInUsePermission</definition>
+        <argsstring></argsstring>
+        <name>m_locationWhenInUsePermission</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureUsagePermissionSettings.m_locationWhenInUsePermission</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" line="33" column="65" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1ada45a66e21f55391c111146abec82433" prot="private" static="no" mutable="no">
+        <type>NativeFeatureUsagePermissionDefinition</type>
+        <definition>NativeFeatureUsagePermissionDefinition m_accessFriendsPermission</definition>
+        <argsstring></argsstring>
+        <name>m_accessFriendsPermission</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureUsagePermissionSettings.m_accessFriendsPermission</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" line="37" column="65" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1a8e96b9eb814a8d026455d9218905abab" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>NativeFeatureUsagePermissionDefinition</type>
+        <definition>NativeFeatureUsagePermissionDefinition AddressBookUsagePermission</definition>
+        <argsstring></argsstring>
+        <name>AddressBookUsagePermission</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureUsagePermissionSettings.AddressBookUsagePermission</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" line="46" column="55" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1a89946d8e34c7a8fbf44f83fe3a59fdea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>NativeFeatureUsagePermissionDefinition</type>
+        <definition>NativeFeatureUsagePermissionDefinition CameraUsagePermission</definition>
+        <argsstring></argsstring>
+        <name>CameraUsagePermission</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureUsagePermissionSettings.CameraUsagePermission</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" line="48" column="55" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1a71de2eff81925e2d4c4be37badb6095a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>NativeFeatureUsagePermissionDefinition</type>
+        <definition>NativeFeatureUsagePermissionDefinition GalleryUsagePermission</definition>
+        <argsstring></argsstring>
+        <name>GalleryUsagePermission</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureUsagePermissionSettings.GalleryUsagePermission</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" line="50" column="55" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1a3e51b72840c4cffac28ab19e777e8605" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>NativeFeatureUsagePermissionDefinition</type>
+        <definition>NativeFeatureUsagePermissionDefinition GalleryWritePermission</definition>
+        <argsstring></argsstring>
+        <name>GalleryWritePermission</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureUsagePermissionSettings.GalleryWritePermission</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" line="52" column="55" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1a021f1d45e581e80f5927a8739937a20f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>NativeFeatureUsagePermissionDefinition</type>
+        <definition>NativeFeatureUsagePermissionDefinition LocationWhenInUsePermission</definition>
+        <argsstring></argsstring>
+        <name>LocationWhenInUsePermission</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureUsagePermissionSettings.LocationWhenInUsePermission</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" line="54" column="55" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1a17efdf51a95350f52f16b40eb35079b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>NativeFeatureUsagePermissionDefinition</type>
+        <definition>NativeFeatureUsagePermissionDefinition AccessFriendsPermission</definition>
+        <argsstring></argsstring>
+        <name>AccessFriendsPermission</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureUsagePermissionSettings.AccessFriendsPermission</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" line="56" column="55" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1ae674005c5780167a766b4e7e6efe56d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NativeFeatureUsagePermissionSettings</definition>
+        <argsstring>(NativeFeatureUsagePermissionDefinition addressBookUsagePermission=null, NativeFeatureUsagePermissionDefinition cameraUsagePermission=null, NativeFeatureUsagePermissionDefinition galleryUsagePermission=null, NativeFeatureUsagePermissionDefinition galleryWritePermission=null, NativeFeatureUsagePermissionDefinition locationWhenInUsePermission=null, NativeFeatureUsagePermissionDefinition accessFriendsPermission=null)</argsstring>
+        <name>NativeFeatureUsagePermissionSettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureUsagePermissionSettings.NativeFeatureUsagePermissionSettings</qualifiedname>
+        <param>
+          <type>NativeFeatureUsagePermissionDefinition</type>
+          <declname>addressBookUsagePermission</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>NativeFeatureUsagePermissionDefinition</type>
+          <declname>cameraUsagePermission</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>NativeFeatureUsagePermissionDefinition</type>
+          <declname>galleryUsagePermission</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>NativeFeatureUsagePermissionDefinition</type>
+          <declname>galleryWritePermission</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>NativeFeatureUsagePermissionDefinition</type>
+          <declname>locationWhenInUsePermission</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>NativeFeatureUsagePermissionDefinition</type>
+          <declname>accessFriendsPermission</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" line="62" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" bodystart="62" bodyend="73"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" line="11" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NativeFeatureUsagePermissionSettings.cs" bodystart="12" bodyend="76"/>
+    <listofallmembers>
+      <member refid="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1a17efdf51a95350f52f16b40eb35079b3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureUsagePermissionSettings</scope><name>AccessFriendsPermission</name></member>
+      <member refid="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1a8e96b9eb814a8d026455d9218905abab" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureUsagePermissionSettings</scope><name>AddressBookUsagePermission</name></member>
+      <member refid="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1a89946d8e34c7a8fbf44f83fe3a59fdea" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureUsagePermissionSettings</scope><name>CameraUsagePermission</name></member>
+      <member refid="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1a71de2eff81925e2d4c4be37badb6095a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureUsagePermissionSettings</scope><name>GalleryUsagePermission</name></member>
+      <member refid="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1a3e51b72840c4cffac28ab19e777e8605" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureUsagePermissionSettings</scope><name>GalleryWritePermission</name></member>
+      <member refid="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1a021f1d45e581e80f5927a8739937a20f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureUsagePermissionSettings</scope><name>LocationWhenInUsePermission</name></member>
+      <member refid="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1ada45a66e21f55391c111146abec82433" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureUsagePermissionSettings</scope><name>m_accessFriendsPermission</name></member>
+      <member refid="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1a09fa89be0dae55606feeeab1436eca2e" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureUsagePermissionSettings</scope><name>m_addressBookUsagePermission</name></member>
+      <member refid="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1a6150abc19dc8f1e4c986799408d9ad3b" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureUsagePermissionSettings</scope><name>m_cameraUsagePermission</name></member>
+      <member refid="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1adf6e451ce8534022b37dfe186e95ed31" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureUsagePermissionSettings</scope><name>m_galleryUsagePermission</name></member>
+      <member refid="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1ad75414cf84bf19d938254ba6a1e13bf8" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureUsagePermissionSettings</scope><name>m_galleryWritePermission</name></member>
+      <member refid="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1ae08ec8e60f54abd33b0af8f73c846bd4" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureUsagePermissionSettings</scope><name>m_locationWhenInUsePermission</name></member>
+      <member refid="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings_1ae674005c5780167a766b4e7e6efe56d6" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureUsagePermissionSettings</scope><name>NativeFeatureUsagePermissionSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

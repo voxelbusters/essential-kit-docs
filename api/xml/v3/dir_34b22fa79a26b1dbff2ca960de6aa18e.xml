@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_34b22fa79a26b1dbff2ca960de6aa18e" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations</compoundname>
+    <innerfile refid="df/da8/_async_operation_8cs">AsyncOperation.cs</innerfile>
+    <innerfile refid="d6/d40/_async_operation_handle_8cs">AsyncOperationHandle.cs</innerfile>
+    <innerfile refid="de/d9c/_async_operation_manager_8cs">AsyncOperationManager.cs</innerfile>
+    <innerfile refid="d1/de7/_async_operation_result_container_8cs">AsyncOperationResultContainer.cs</innerfile>
+    <innerfile refid="d0/d97/_async_operation_status_8cs">AsyncOperationStatus.cs</innerfile>
+    <innerfile refid="d2/d3e/_chained_operation_8cs">ChainedOperation.cs</innerfile>
+    <innerfile refid="db/d9b/_group_operation_8cs">GroupOperation.cs</innerfile>
+    <innerfile refid="d1/df9/_i_async_operation_8cs">IAsyncOperation.cs</innerfile>
+    <innerfile refid="de/dff/_i_async_operation_handle_8cs">IAsyncOperationHandle.cs</innerfile>
+    <innerfile refid="d2/d63/_i_async_operation_result_container_8cs">IAsyncOperationResultContainer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/"/>
+  </compounddef>
+</doxygen>

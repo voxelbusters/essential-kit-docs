@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d0/d25/_sharing_services_2_internal_delegates_8cs" kind="file" language="C#">
+    <compoundname>InternalDelegates.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <innernamespace refid="dc/d8e/namespace_voxel_busters_1_1_essential_kit_1_1_sharing_services_core">VoxelBusters::EssentialKit::SharingServicesCore</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="dc/d8e/namespace_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1af8dc4f38c1681c1f35edb8077ba0f475" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void MailComposerClosedInternalCallback</definition>
+        <argsstring>(MailComposerResultCode resultCode, Error error)</argsstring>
+        <name>MailComposerClosedInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.MailComposerClosedInternalCallback</qualifiedname>
+        <param>
+          <type>MailComposerResultCode</type>
+          <declname>resultCode</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/InternalDelegates.cs" line="8" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/InternalDelegates.cs" declline="8" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d8e/namespace_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1ac61a50f683e38ecbca4ce96fdfca3d16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void MessageComposerClosedInternalCallback</definition>
+        <argsstring>(MessageComposerResultCode resultCode, Error error)</argsstring>
+        <name>MessageComposerClosedInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.MessageComposerClosedInternalCallback</qualifiedname>
+        <param>
+          <type>MessageComposerResultCode</type>
+          <declname>resultCode</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/InternalDelegates.cs" line="10" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/InternalDelegates.cs" declline="10" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d8e/namespace_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1ade10d4120e6980983d03e2fc719a5176" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void ShareSheetClosedInternalCallback</definition>
+        <argsstring>(ShareSheetResultCode resultCode, Error error)</argsstring>
+        <name>ShareSheetClosedInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.ShareSheetClosedInternalCallback</qualifiedname>
+        <param>
+          <type>ShareSheetResultCode</type>
+          <declname>resultCode</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/InternalDelegates.cs" line="12" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/InternalDelegates.cs" declline="12" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d8e/namespace_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1a503ec01639e6394bb4caec91cb67b44a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void SocialShareComposerClosedInternalCallback</definition>
+        <argsstring>(SocialShareComposerResultCode resultCode, Error error)</argsstring>
+        <name>SocialShareComposerClosedInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.SocialShareComposerClosedInternalCallback</qualifiedname>
+        <param>
+          <type>SocialShareComposerResultCode</type>
+          <declname>resultCode</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/InternalDelegates.cs" line="14" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/InternalDelegates.cs" declline="14" declcolumn="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/InternalDelegates.cs"/>
+  </compounddef>
+</doxygen>

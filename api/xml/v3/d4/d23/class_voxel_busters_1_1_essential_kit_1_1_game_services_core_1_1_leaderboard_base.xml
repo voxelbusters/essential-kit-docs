@@ -1,0 +1,591 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NativeObjectBase</basecompoundref>
+    <basecompoundref refid="d0/d20/interface_voxel_busters_1_1_essential_kit_1_1_i_leaderboard" prot="public" virt="non-virtual">ILeaderboard</basecompoundref>
+    <derivedcompoundref refid="d2/db2/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_leaderboard" prot="public" virt="non-virtual">NullLeaderboard</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a186291c875988107b7ace745ea84d4ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="62" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a4305da1d4a33e2d56b149fc3c41a617c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string PlatformId</definition>
+        <argsstring></argsstring>
+        <name>PlatformId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.PlatformId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="68" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1aa7b633091e7820b835d04d0d5fc197c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.Title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="74" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" bodystart="75" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a15d33d91b8cd6129a18a9293bb012e59" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2d6e7bb307f10474d7f44ca36ffed55f" kindref="member">LeaderboardPlayerScope</ref></type>
+        <definition>LeaderboardPlayerScope PlayerScope</definition>
+        <argsstring></argsstring>
+        <name>PlayerScope</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.PlayerScope</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="82" column="39" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" bodystart="83" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a3218bfaec2dc0c1e3433551aea75b489" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad7822064a33c67a18ae93d0cc22c7229" kindref="member">LeaderboardTimeScope</ref></type>
+        <definition>LeaderboardTimeScope TimeScope</definition>
+        <argsstring></argsstring>
+        <name>TimeScope</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.TimeScope</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="94" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" bodystart="95" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a2a061c6887aee6851dcbf38c4041f854" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int LoadScoresQuerySize</definition>
+        <argsstring></argsstring>
+        <name>LoadScoresQuerySize</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.LoadScoresQuerySize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="106" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" bodystart="107" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a0c3a40518d70778a3ae44e002b53cf64" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d6/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_leaderboard_score" kindref="compound">ILeaderboardScore</ref></type>
+        <definition>ILeaderboardScore LocalPlayerScore</definition>
+        <argsstring></argsstring>
+        <name>LocalPlayerScore</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.LocalPlayerScore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="112" column="34" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" bodystart="113" bodyend="118"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1adf09120c22234717ed723942526bf562" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LeaderboardBase</definition>
+        <argsstring>(string id, string platformId)</argsstring>
+        <name>LeaderboardBase</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.LeaderboardBase</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>platformId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="14" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" bodystart="14" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a2213582e947d49f6dde9de7b5dc731a7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetTitleInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetTitleInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.GetTitleInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="25" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1aea5c6f264761eaf1e1eb272755cc9cf6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2d6e7bb307f10474d7f44ca36ffed55f" kindref="member">LeaderboardPlayerScope</ref></type>
+        <definition>LeaderboardPlayerScope GetPlayerScopeInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetPlayerScopeInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.GetPlayerScopeInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="27" column="51"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a58e7a7730ce7f4a859738b30dcb0a1b0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetPlayerScopeInternal</definition>
+        <argsstring>(LeaderboardPlayerScope value)</argsstring>
+        <name>SetPlayerScopeInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.SetPlayerScopeInternal</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2d6e7bb307f10474d7f44ca36ffed55f" kindref="member">LeaderboardPlayerScope</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="29" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a2525975e36cca9852fef795aff7ff687" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad7822064a33c67a18ae93d0cc22c7229" kindref="member">LeaderboardTimeScope</ref></type>
+        <definition>LeaderboardTimeScope GetTimeScopeInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetTimeScopeInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.GetTimeScopeInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="31" column="49"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a80bee4887ea602ab5c0b419549385e81" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetTimeScopeInternal</definition>
+        <argsstring>(LeaderboardTimeScope value)</argsstring>
+        <name>SetTimeScopeInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.SetTimeScopeInternal</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad7822064a33c67a18ae93d0cc22c7229" kindref="member">LeaderboardTimeScope</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="33" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1ab139ad29557310c238a74f89c16263e1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d6/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_leaderboard_score" kindref="compound">ILeaderboardScore</ref></type>
+        <definition>ILeaderboardScore GetLocalPlayerScoreInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetLocalPlayerScoreInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.GetLocalPlayerScoreInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="35" column="46"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a5afc350b79673497a5b8858875d390f6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReportScoreInternal</definition>
+        <argsstring>(long score, ReportScoreInternalCallback callback, string tag=null)</argsstring>
+        <name>ReportScoreInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.ReportScoreInternal</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>score</declname>
+        </param>
+        <param>
+          <type>ReportScoreInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="37" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a5265d405ad705d9d6ce174c21246b650" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoadTopScoresInternal</definition>
+        <argsstring>(LoadScoresInternalCallback callback)</argsstring>
+        <name>LoadTopScoresInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.LoadTopScoresInternal</qualifiedname>
+        <param>
+          <type>LoadScoresInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="39" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a4a8edd129cd9b98cb9cc27d8e2aa1571" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoadPlayerCenteredScoresInternal</definition>
+        <argsstring>(LoadScoresInternalCallback callback)</argsstring>
+        <name>LoadPlayerCenteredScoresInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.LoadPlayerCenteredScoresInternal</qualifiedname>
+        <param>
+          <type>LoadScoresInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="41" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1ac3bf1a43c8c0020ed20f3b4d76af8d02" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoadNextInternal</definition>
+        <argsstring>(LoadScoresInternalCallback callback)</argsstring>
+        <name>LoadNextInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.LoadNextInternal</qualifiedname>
+        <param>
+          <type>LoadScoresInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="43" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a81e9f3948888071d7fdc3cad172e627b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoadPreviousInternal</definition>
+        <argsstring>(LoadScoresInternalCallback callback)</argsstring>
+        <name>LoadPreviousInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.LoadPreviousInternal</qualifiedname>
+        <param>
+          <type>LoadScoresInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="45" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a6f4dd96af0468169b1e2cd8fbeee88ac" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoadImageInternal</definition>
+        <argsstring>(LoadImageInternalCallback callback)</argsstring>
+        <name>LoadImageInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.LoadImageInternal</qualifiedname>
+        <param>
+          <type>LoadImageInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="47" column="33"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="53" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a0f9b5c98335c77f6f427c4138af69292" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReportScore</definition>
+        <argsstring>(long score, CompletionCallback callback, string tag=null)</argsstring>
+        <name>ReportScore</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.ReportScore</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>score</declname>
+        </param>
+        <param>
+          <type>CompletionCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="120" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" bodystart="120" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1ab8233e9b1a3ff5da19ce85b113e296ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoadTopScores</definition>
+        <argsstring>(EventCallback&lt; LeaderboardLoadScoresResult &gt; callback)</argsstring>
+        <name>LoadTopScores</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.LoadTopScores</qualifiedname>
+        <param>
+          <type>EventCallback&lt; <ref refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_load_scores_result" kindref="compound">LeaderboardLoadScoresResult</ref> &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="135" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" bodystart="135" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a7cf666190e0b3fcdaeb709d6a414a05e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoadPlayerCenteredScores</definition>
+        <argsstring>(EventCallback&lt; LeaderboardLoadScoresResult &gt; callback)</argsstring>
+        <name>LoadPlayerCenteredScores</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.LoadPlayerCenteredScores</qualifiedname>
+        <param>
+          <type>EventCallback&lt; <ref refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_load_scores_result" kindref="compound">LeaderboardLoadScoresResult</ref> &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="144" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" bodystart="144" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1ad37ebd8ddd55f8371391006a3fbe2727" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoadNext</definition>
+        <argsstring>(EventCallback&lt; LeaderboardLoadScoresResult &gt; callback)</argsstring>
+        <name>LoadNext</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.LoadNext</qualifiedname>
+        <param>
+          <type>EventCallback&lt; <ref refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_load_scores_result" kindref="compound">LeaderboardLoadScoresResult</ref> &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="154" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" bodystart="154" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1aadbe8ffd04ec0985a1bf628259925bc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoadPrevious</definition>
+        <argsstring>(EventCallback&lt; LeaderboardLoadScoresResult &gt; callback)</argsstring>
+        <name>LoadPrevious</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.LoadPrevious</qualifiedname>
+        <param>
+          <type>EventCallback&lt; <ref refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_load_scores_result" kindref="compound">LeaderboardLoadScoresResult</ref> &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="163" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" bodystart="163" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a33542b43cd72bbdbcacf9801f9bef643" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoadImage</definition>
+        <argsstring>(EventCallback&lt; TextureData &gt; callback)</argsstring>
+        <name>LoadImage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.LoadImage</qualifiedname>
+        <param>
+          <type>EventCallback&lt; TextureData &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="172" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" bodystart="172" bodyend="181"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1ac3b67fb832c787d949622befbe631133" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SendLoadScoresResult</definition>
+        <argsstring>(EventCallback&lt; LeaderboardLoadScoresResult &gt; callback, ILeaderboardScore[] scores, ILeaderboardScore localPlayerScore, Error error)</argsstring>
+        <name>SendLoadScoresResult</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.SendLoadScoresResult</qualifiedname>
+        <param>
+          <type>EventCallback&lt; <ref refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_load_scores_result" kindref="compound">LeaderboardLoadScoresResult</ref> &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type><ref refid="d6/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_leaderboard_score" kindref="compound">ILeaderboardScore</ref>[]</type>
+          <declname>scores</declname>
+        </param>
+        <param>
+          <type><ref refid="d6/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_leaderboard_score" kindref="compound">ILeaderboardScore</ref></type>
+          <declname>localPlayerScore</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="187" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" bodystart="187" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a0c24ca52b74aab2298837a9bec23ca63" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SendReportScoreResult</definition>
+        <argsstring>(CompletionCallback callback, bool success, Error error)</argsstring>
+        <name>SendReportScoreResult</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.LeaderboardBase.SendReportScoreResult</qualifiedname>
+        <param>
+          <type>CompletionCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>success</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="197" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" bodystart="197" bodyend="201"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ILeaderboard</label>
+        <link refid="d0/d20/interface_voxel_busters_1_1_essential_kit_1_1_i_leaderboard"/>
+      </node>
+      <node id="1">
+        <label>LeaderboardBase</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ILeaderboard</label>
+        <link refid="d0/d20/interface_voxel_busters_1_1_essential_kit_1_1_i_leaderboard"/>
+      </node>
+      <node id="1">
+        <label>LeaderboardBase</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" line="10" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardBase.cs" bodystart="11" bodyend="204"/>
+    <listofallmembers>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1ab139ad29557310c238a74f89c16263e1" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>GetLocalPlayerScoreInternal</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1aea5c6f264761eaf1e1eb272755cc9cf6" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>GetPlayerScopeInternal</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a2525975e36cca9852fef795aff7ff687" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>GetTimeScopeInternal</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a2213582e947d49f6dde9de7b5dc731a7" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>GetTitleInternal</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a186291c875988107b7ace745ea84d4ec" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>Id</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1adf09120c22234717ed723942526bf562" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>LeaderboardBase</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a33542b43cd72bbdbcacf9801f9bef643" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>LoadImage</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a6f4dd96af0468169b1e2cd8fbeee88ac" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>LoadImageInternal</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1ad37ebd8ddd55f8371391006a3fbe2727" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>LoadNext</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1ac3bf1a43c8c0020ed20f3b4d76af8d02" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>LoadNextInternal</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a7cf666190e0b3fcdaeb709d6a414a05e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>LoadPlayerCenteredScores</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a4a8edd129cd9b98cb9cc27d8e2aa1571" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>LoadPlayerCenteredScoresInternal</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1aadbe8ffd04ec0985a1bf628259925bc5" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>LoadPrevious</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a81e9f3948888071d7fdc3cad172e627b" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>LoadPreviousInternal</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a2a061c6887aee6851dcbf38c4041f854" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>LoadScoresQuerySize</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1ab8233e9b1a3ff5da19ce85b113e296ef" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>LoadTopScores</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a5265d405ad705d9d6ce174c21246b650" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>LoadTopScoresInternal</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a0c3a40518d70778a3ae44e002b53cf64" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>LocalPlayerScore</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a4305da1d4a33e2d56b149fc3c41a617c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>PlatformId</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a15d33d91b8cd6129a18a9293bb012e59" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>PlayerScope</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a0f9b5c98335c77f6f427c4138af69292" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>ReportScore</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a5afc350b79673497a5b8858875d390f6" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>ReportScoreInternal</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1ac3b67fb832c787d949622befbe631133" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>SendLoadScoresResult</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a0c24ca52b74aab2298837a9bec23ca63" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>SendReportScoreResult</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a58e7a7730ce7f4a859738b30dcb0a1b0" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>SetPlayerScopeInternal</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a80bee4887ea602ab5c0b419549385e81" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>SetTimeScopeInternal</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1a3218bfaec2dc0c1e3433551aea75b489" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>TimeScope</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1aa7b633091e7820b835d04d0d5fc197c7" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>Title</name></member>
+      <member refid="d4/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_leaderboard_base_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::LeaderboardBase</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

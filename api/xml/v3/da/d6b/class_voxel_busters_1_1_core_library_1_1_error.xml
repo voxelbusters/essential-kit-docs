@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="da/d6b/class_voxel_busters_1_1_core_library_1_1_error" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::Error</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="da/d6b/class_voxel_busters_1_1_core_library_1_1_error_1a72df16e5c55f3f510dbfdcba2d076baa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Domain</definition>
+        <argsstring></argsstring>
+        <name>Domain</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.Error.Domain</qualifiedname>
+        <briefdescription>
+<para>A description of the error occured (read-only). </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The description of the error.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/Error.cs" line="13" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/Error.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d6b/class_voxel_busters_1_1_core_library_1_1_error_1a31ad95e761a2f6369dd2a900f487c9f8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int Code</definition>
+        <argsstring></argsstring>
+        <name>Code</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.Error.Code</qualifiedname>
+        <briefdescription>
+<para>A value indicating the type of error occured (read-only). </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The error code.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/Error.cs" line="19" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/Error.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d6b/class_voxel_busters_1_1_core_library_1_1_error_1a34409fed9d39281ada2d7ec172a52f9b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.Error.Description</qualifiedname>
+        <briefdescription>
+<para>A description of the error occured (read-only). </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The description of the error.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/Error.cs" line="25" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/Error.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d6b/class_voxel_busters_1_1_core_library_1_1_error_1a8b760a709337f716a3457d1ec571db9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Error</definition>
+        <argsstring>(string description)</argsstring>
+        <name>Error</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.Error.Error</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/Error.cs" line="31" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/Error.cs" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d6b/class_voxel_busters_1_1_core_library_1_1_error_1aa52066e6397400ae3425d0de063b26e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Error</definition>
+        <argsstring>(string domain, int code, string description)</argsstring>
+        <name>Error</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.Error.Error</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>domain</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/Error.cs" line="35" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/Error.cs" bodystart="35" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d6b/class_voxel_busters_1_1_core_library_1_1_error_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.Error.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/Error.cs" line="61" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/Error.cs" bodystart="61" bodyend="64"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="da/d6b/class_voxel_busters_1_1_core_library_1_1_error_1a87419288e076c384e0dbc3ca2224c030" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error CreateNullableError</definition>
+        <argsstring>(string description)</argsstring>
+        <name>CreateNullableError</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.Error.CreateNullableError</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/Error.cs" line="47" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/Error.cs" bodystart="47" bodyend="55"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/Error.cs" line="5" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/Error.cs" bodystart="6" bodyend="67"/>
+    <listofallmembers>
+      <member refid="da/d6b/class_voxel_busters_1_1_core_library_1_1_error_1a31ad95e761a2f6369dd2a900f487c9f8" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::Error</scope><name>Code</name></member>
+      <member refid="da/d6b/class_voxel_busters_1_1_core_library_1_1_error_1a87419288e076c384e0dbc3ca2224c030" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::Error</scope><name>CreateNullableError</name></member>
+      <member refid="da/d6b/class_voxel_busters_1_1_core_library_1_1_error_1a34409fed9d39281ada2d7ec172a52f9b" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::Error</scope><name>Description</name></member>
+      <member refid="da/d6b/class_voxel_busters_1_1_core_library_1_1_error_1a72df16e5c55f3f510dbfdcba2d076baa" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::Error</scope><name>Domain</name></member>
+      <member refid="da/d6b/class_voxel_busters_1_1_core_library_1_1_error_1a8b760a709337f716a3457d1ec571db9e" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::Error</scope><name>Error</name></member>
+      <member refid="da/d6b/class_voxel_busters_1_1_core_library_1_1_error_1aa52066e6397400ae3425d0de063b26e6" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::Error</scope><name>Error</name></member>
+      <member refid="da/d6b/class_voxel_busters_1_1_core_library_1_1_error_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::Error</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

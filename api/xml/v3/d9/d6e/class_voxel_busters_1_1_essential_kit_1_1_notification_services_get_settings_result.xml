@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/d6e/class_voxel_busters_1_1_essential_kit_1_1_notification_services_get_settings_result" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::NotificationServicesGetSettingsResult</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d9/d6e/class_voxel_busters_1_1_essential_kit_1_1_notification_services_get_settings_result_1ab065c8157baef8b1541492b198217c2b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="d4/dbc/class_voxel_busters_1_1_essential_kit_1_1_notification_settings" kindref="compound">NotificationSettings</ref></type>
+        <definition>NotificationSettings Settings</definition>
+        <argsstring></argsstring>
+        <name>Settings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesGetSettingsResult.Settings</qualifiedname>
+        <briefdescription>
+<para>The runtime settings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationServicesGetSettingsResult.cs" line="19" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationServicesGetSettingsResult.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="d9/d6e/class_voxel_busters_1_1_essential_kit_1_1_notification_services_get_settings_result_1a6e2a5c42d66cae7377f292bbaae99fe2" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NotificationServicesGetSettingsResult</definition>
+        <argsstring>(NotificationSettings settings)</argsstring>
+        <name>NotificationServicesGetSettingsResult</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesGetSettingsResult.NotificationServicesGetSettingsResult</qualifiedname>
+        <param>
+          <type><ref refid="d4/dbc/class_voxel_busters_1_1_essential_kit_1_1_notification_settings" kindref="compound">NotificationSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationServicesGetSettingsResult.cs" line="25" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationServicesGetSettingsResult.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class contains the information retrieved when <ref refid="da/d97/class_voxel_busters_1_1_essential_kit_1_1_notification_services_1a69395faaa03077745eef80a0f1ebce1e" kindref="member">NotificationServices.GetSettings(Callback&lt;NotificationServicesGetSettingsResult&gt;)</ref> is completed. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationServicesGetSettingsResult.cs" line="12" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationServicesGetSettingsResult.cs" bodystart="13" bodyend="32"/>
+    <listofallmembers>
+      <member refid="d9/d6e/class_voxel_busters_1_1_essential_kit_1_1_notification_services_get_settings_result_1a6e2a5c42d66cae7377f292bbaae99fe2" prot="package" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesGetSettingsResult</scope><name>NotificationServicesGetSettingsResult</name></member>
+      <member refid="d9/d6e/class_voxel_busters_1_1_essential_kit_1_1_notification_services_get_settings_result_1ab065c8157baef8b1541492b198217c2b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesGetSettingsResult</scope><name>Settings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

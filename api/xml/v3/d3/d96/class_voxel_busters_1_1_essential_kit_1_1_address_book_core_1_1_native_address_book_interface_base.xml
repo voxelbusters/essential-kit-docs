@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d3/d96/class_voxel_busters_1_1_essential_kit_1_1_address_book_core_1_1_native_address_book_interface_base" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>VoxelBusters::EssentialKit::AddressBookCore::NativeAddressBookInterfaceBase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NativeFeatureInterfaceBase</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INativeAddressBookInterface</basecompoundref>
+    <derivedcompoundref refid="df/de1/class_voxel_busters_1_1_essential_kit_1_1_address_book_core_1_1_null_address_book_interface" prot="public" virt="non-virtual">NullAddressBookInterface</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d3/d96/class_voxel_busters_1_1_essential_kit_1_1_address_book_core_1_1_native_address_book_interface_base_1a0ed5d3307562e3a0ab0426282e809a3e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NativeAddressBookInterfaceBase</definition>
+        <argsstring>(bool isAvailable)</argsstring>
+        <name>NativeAddressBookInterfaceBase</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AddressBookCore.NativeAddressBookInterfaceBase.NativeAddressBookInterfaceBase</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isAvailable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/NativeAddressBookInterfaceBase.cs" line="9" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/NativeAddressBookInterfaceBase.cs" bodystart="9" bodyend="11"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d96/class_voxel_busters_1_1_essential_kit_1_1_address_book_core_1_1_native_address_book_interface_base_1a8b8248afddb56c80ae0bca1488b3d108" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1aab9cbb2e4dad38d49083c84e587abac5" kindref="member">AddressBookContactsAccessStatus</ref></type>
+        <definition>AddressBookContactsAccessStatus GetContactsAccessStatus</definition>
+        <argsstring>()</argsstring>
+        <name>GetContactsAccessStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AddressBookCore.NativeAddressBookInterfaceBase.GetContactsAccessStatus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/NativeAddressBookInterfaceBase.cs" line="17" column="57"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d96/class_voxel_busters_1_1_essential_kit_1_1_address_book_core_1_1_native_address_book_interface_base_1a21191d572a419ea6de80944f1398d498" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReadContacts</definition>
+        <argsstring>(ReadContactsOptions options, ReadContactsInternalCallback callback)</argsstring>
+        <name>ReadContacts</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AddressBookCore.NativeAddressBookInterfaceBase.ReadContacts</qualifiedname>
+        <param>
+          <type><ref refid="d8/d39/class_voxel_busters_1_1_essential_kit_1_1_read_contacts_options" kindref="compound">ReadContactsOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>ReadContactsInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/NativeAddressBookInterfaceBase.cs" line="19" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/NativeAddressBookInterfaceBase.cs" line="5" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/NativeAddressBookInterfaceBase.cs" bodystart="6" bodyend="22"/>
+    <listofallmembers>
+      <member refid="d3/d96/class_voxel_busters_1_1_essential_kit_1_1_address_book_core_1_1_native_address_book_interface_base_1a8b8248afddb56c80ae0bca1488b3d108" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AddressBookCore::NativeAddressBookInterfaceBase</scope><name>GetContactsAccessStatus</name></member>
+      <member refid="d3/d96/class_voxel_busters_1_1_essential_kit_1_1_address_book_core_1_1_native_address_book_interface_base_1a0ed5d3307562e3a0ab0426282e809a3e" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AddressBookCore::NativeAddressBookInterfaceBase</scope><name>NativeAddressBookInterfaceBase</name></member>
+      <member refid="d3/d96/class_voxel_busters_1_1_essential_kit_1_1_address_book_core_1_1_native_address_book_interface_base_1a21191d572a419ea6de80944f1398d498" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AddressBookCore::NativeAddressBookInterfaceBase</scope><name>ReadContacts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

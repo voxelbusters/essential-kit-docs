@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d0/d8d/_billing_services_2_delegates_8cs" kind="file" language="C#">
+    <compoundname>Delegates.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <innernamespace refid="df/df3/namespace_voxel_busters_1_1_essential_kit_1_1_billing_services_core">VoxelBusters::EssentialKit::BillingServicesCore</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="df/df3/namespace_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1a0462f5ceeea5d8467b781da70ef068b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void RetrieveProductsInternalCallback</definition>
+        <argsstring>(IBillingProduct[] products, string[] invalidIds, Error error)</argsstring>
+        <name>RetrieveProductsInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.RetrieveProductsInternalCallback</qualifiedname>
+        <param>
+          <type>IBillingProduct[]</type>
+          <declname>products</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>invalidIds</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/Delegates.cs" line="8" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/Delegates.cs" declline="8" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="df/df3/namespace_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1ad288d2d5662ebd299d1e903c4837df63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void PaymentStateChangeInternalCallback</definition>
+        <argsstring>(IBillingTransaction[] transactions)</argsstring>
+        <name>PaymentStateChangeInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.PaymentStateChangeInternalCallback</qualifiedname>
+        <param>
+          <type>IBillingTransaction[]</type>
+          <declname>transactions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/Delegates.cs" line="10" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/Delegates.cs" declline="10" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="df/df3/namespace_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1a7cb9bae792fcb63ebf982d7da573fa8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void RestorePurchasesInternalCallback</definition>
+        <argsstring>(IBillingTransaction[] transactions, Error error)</argsstring>
+        <name>RestorePurchasesInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.RestorePurchasesInternalCallback</qualifiedname>
+        <param>
+          <type>IBillingTransaction[]</type>
+          <declname>transactions</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/Delegates.cs" line="12" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/Delegates.cs" declline="12" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="df/df3/namespace_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1add066f76d72f2d686ed3781571a815f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void ExternalProductPurchaseActionInternalCallback</definition>
+        <argsstring>(IBillingProduct product, Error error)</argsstring>
+        <name>ExternalProductPurchaseActionInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.ExternalProductPurchaseActionInternalCallback</qualifiedname>
+        <param>
+          <type>IBillingProduct</type>
+          <declname>product</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/Delegates.cs" line="14" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/Delegates.cs" declline="14" declcolumn="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/Delegates.cs"/>
+  </compounddef>
+</doxygen>

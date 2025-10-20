@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="de/d16/_rate_my_app_confirmation_prompt_action_type_8cs" kind="file" language="C#">
+    <compoundname>RateMyAppConfirmationPromptActionType.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a6901c02c1de3d1f68dc79907159fa857" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>RateMyAppConfirmationPromptActionType</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppConfirmationPromptActionType</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a6901c02c1de3d1f68dc79907159fa857ab41a86dfa13be896c554be3a1761f03a" prot="public">
+          <name>RemindLater</name>
+          <briefdescription>
+<para>The user has chosen to be reminded later. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a6901c02c1de3d1f68dc79907159fa857aea4788705e6873b424c65e91c2846b19" prot="public">
+          <name>Cancel</name>
+          <briefdescription>
+<para>The user has chosen to cancel. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a6901c02c1de3d1f68dc79907159fa857aa60852f204ed8028c1c58808b746d115" prot="public">
+          <name>Ok</name>
+          <briefdescription>
+<para>The user has chosen to rate the app. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enum representing the actions that can be taken when the rate my app confirmation prompt is shown. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppConfirmationPromptActionType.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppConfirmationPromptActionType.cs" bodystart="7" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppConfirmationPromptActionType.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d1/d9d/class_voxel_busters_1_1_essential_kit_1_1_additional_platform_support_settings" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::AdditionalPlatformSupportSettings</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d1/d9d/class_voxel_busters_1_1_essential_kit_1_1_additional_platform_support_settings_1ac7682331556975b7860142ef33ba9fc4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_supportAndroidPc</definition>
+        <argsstring></argsstring>
+        <name>m_supportAndroidPc</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AdditionalPlatformSupportSettings.m_supportAndroidPc</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" line="16" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d1/d9d/class_voxel_busters_1_1_essential_kit_1_1_additional_platform_support_settings_1ab0244e26cf89699920ad68d290394b20" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool SupportAndroidPc</definition>
+        <argsstring></argsstring>
+        <name>SupportAndroidPc</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AdditionalPlatformSupportSettings.SupportAndroidPc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" line="21" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d9d/class_voxel_busters_1_1_essential_kit_1_1_additional_platform_support_settings_1ac36ae0c30b60e42c1de29c77d776cdf0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AdditionalPlatformSupportSettings</definition>
+        <argsstring>(bool supportAndroidPc=false)</argsstring>
+        <name>AdditionalPlatformSupportSettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AdditionalPlatformSupportSettings.AdditionalPlatformSupportSettings</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>supportAndroidPc</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" line="27" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" line="12" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/ApplicationSettings.cs" bodystart="13" bodyend="33"/>
+    <listofallmembers>
+      <member refid="d1/d9d/class_voxel_busters_1_1_essential_kit_1_1_additional_platform_support_settings_1ac36ae0c30b60e42c1de29c77d776cdf0" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AdditionalPlatformSupportSettings</scope><name>AdditionalPlatformSupportSettings</name></member>
+      <member refid="d1/d9d/class_voxel_busters_1_1_essential_kit_1_1_additional_platform_support_settings_1ac7682331556975b7860142ef33ba9fc4" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AdditionalPlatformSupportSettings</scope><name>m_supportAndroidPc</name></member>
+      <member refid="d1/d9d/class_voxel_busters_1_1_essential_kit_1_1_additional_platform_support_settings_1ab0244e26cf89699920ad68d290394b20" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AdditionalPlatformSupportSettings</scope><name>SupportAndroidPc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

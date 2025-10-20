@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dc/ddf/class_voxel_busters_1_1_essential_kit_1_1_network_services_host_reachability_status_change_result" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::NetworkServicesHostReachabilityStatusChangeResult</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="dc/ddf/class_voxel_busters_1_1_essential_kit_1_1_network_services_host_reachability_status_change_result_1afdd8920a6757cb9631d1f07504c96520" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool IsReachable</definition>
+        <argsstring></argsstring>
+        <name>IsReachable</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesHostReachabilityStatusChangeResult.IsReachable</qualifiedname>
+        <briefdescription>
+<para>This boolean value is used to determine whether host is reachable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>true</computeroutput> if is reachable; otherwise, <computeroutput>false</computeroutput>.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/NetworkServicesHostReachabilityStatusChangeResult.cs" line="20" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/NetworkServicesHostReachabilityStatusChangeResult.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="dc/ddf/class_voxel_busters_1_1_essential_kit_1_1_network_services_host_reachability_status_change_result_1acdca0baf767c42db6e9c1d7b13d37d36" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NetworkServicesHostReachabilityStatusChangeResult</definition>
+        <argsstring>(bool isReachable)</argsstring>
+        <name>NetworkServicesHostReachabilityStatusChangeResult</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesHostReachabilityStatusChangeResult.NetworkServicesHostReachabilityStatusChangeResult</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isReachable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/NetworkServicesHostReachabilityStatusChangeResult.cs" line="26" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/NetworkServicesHostReachabilityStatusChangeResult.cs" bodystart="26" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This object contains the information retrieved when <ref refid="dd/d14/class_voxel_busters_1_1_essential_kit_1_1_network_services_1a63168babe46db5a8970d8288d56c8eca" kindref="member">NetworkServices.OnHostReachabilityChange</ref> event occurs. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/NetworkServicesHostReachabilityStatusChangeResult.cs" line="12" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/NetworkServicesHostReachabilityStatusChangeResult.cs" bodystart="13" bodyend="33"/>
+    <listofallmembers>
+      <member refid="dc/ddf/class_voxel_busters_1_1_essential_kit_1_1_network_services_host_reachability_status_change_result_1afdd8920a6757cb9631d1f07504c96520" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesHostReachabilityStatusChangeResult</scope><name>IsReachable</name></member>
+      <member refid="dc/ddf/class_voxel_busters_1_1_essential_kit_1_1_network_services_host_reachability_status_change_result_1acdca0baf767c42db6e9c1d7b13d37d36" prot="package" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesHostReachabilityStatusChangeResult</scope><name>NetworkServicesHostReachabilityStatusChangeResult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

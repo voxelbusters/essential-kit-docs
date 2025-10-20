@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d4/d05/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_dynamic_link_open_result" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::DeepLinkServicesDynamicLinkOpenResult</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d4/d05/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_dynamic_link_open_result_1a8228cbbd65e3f8ccba81b3176ac491ed" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>Uri</type>
+        <definition>Uri Url</definition>
+        <argsstring></argsstring>
+        <name>Url</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkServicesDynamicLinkOpenResult.Url</qualifiedname>
+        <briefdescription>
+<para>The URL of the deep link. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkServicesDynamicLinkOpenResult.cs" line="19" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkServicesDynamicLinkOpenResult.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/d05/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_dynamic_link_open_result_1a3577909f44c006eac723e2b821fe3ad5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string RawUrlString</definition>
+        <argsstring></argsstring>
+        <name>RawUrlString</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkServicesDynamicLinkOpenResult.RawUrlString</qualifiedname>
+        <briefdescription>
+<para>The received notification as a raw string. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkServicesDynamicLinkOpenResult.cs" line="24" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkServicesDynamicLinkOpenResult.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="d4/d05/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_dynamic_link_open_result_1ae76810f402d6e4d527c7e89e01d5593b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DeepLinkServicesDynamicLinkOpenResult</definition>
+        <argsstring>(Uri url, string rawUrlString)</argsstring>
+        <name>DeepLinkServicesDynamicLinkOpenResult</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkServicesDynamicLinkOpenResult.DeepLinkServicesDynamicLinkOpenResult</qualifiedname>
+        <param>
+          <type>Uri</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>rawUrlString</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkServicesDynamicLinkOpenResult.cs" line="30" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkServicesDynamicLinkOpenResult.cs" bodystart="30" bodyend="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class contains the information retrieved when deep link is opened. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkServicesDynamicLinkOpenResult.cs" line="12" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/DeepLinkServicesDynamicLinkOpenResult.cs" bodystart="13" bodyend="38"/>
+    <listofallmembers>
+      <member refid="d4/d05/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_dynamic_link_open_result_1ae76810f402d6e4d527c7e89e01d5593b" prot="package" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkServicesDynamicLinkOpenResult</scope><name>DeepLinkServicesDynamicLinkOpenResult</name></member>
+      <member refid="d4/d05/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_dynamic_link_open_result_1a3577909f44c006eac723e2b821fe3ad5" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkServicesDynamicLinkOpenResult</scope><name>RawUrlString</name></member>
+      <member refid="d4/d05/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_dynamic_link_open_result_1a8228cbbd65e3f8ccba81b3176ac491ed" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkServicesDynamicLinkOpenResult</scope><name>Url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

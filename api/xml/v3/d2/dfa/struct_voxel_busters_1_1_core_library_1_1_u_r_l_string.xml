@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string" kind="struct" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::URLString</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string_1ad170e59215f85492363a8cf9eb74475e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_value</definition>
+        <argsstring></argsstring>
+        <name>m_value</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.URLString.m_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/URLString.cs" line="15" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/URLString.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string_1a62885a2911b2c21274564c3d9e407c2c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool IsValid</definition>
+        <argsstring></argsstring>
+        <name>IsValid</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.URLString.IsValid</qualifiedname>
+        <briefdescription>
+<para>Gets a value indicating whether this <ref refid="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string" kindref="compound">URLString</ref> is valid. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>true</computeroutput> if is valid; otherwise, <computeroutput>false</computeroutput>.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/URLString.cs" line="25" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/URLString.cs" bodystart="25" bodyend="25"/>
+        <referencedby refid="d3/d77/class_voxel_busters_1_1_essential_kit_1_1_share_sheet_1a045b1f72ed600c56927fa08dcd492e13" compoundref="da/dc6/_share_sheet_8cs" startline="184" endline="202">ShareSheet.AddURL</referencedby>
+        <referencedby refid="df/d49/class_voxel_busters_1_1_essential_kit_1_1_social_share_composer_1a045b1f72ed600c56927fa08dcd492e13" compoundref="d1/db3/_social_share_composer_8cs" startline="215" endline="229">SocialShareComposer.AddURL</referencedby>
+        <referencedby refid="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string_1a2bde430e25672ef14c2c19473dd71c5f" compoundref="de/d1d/_u_r_l_string_8cs" startline="56" endline="73">URLString.FileURLWithPath</referencedby>
+        <referencedby refid="dd/db4/class_voxel_busters_1_1_essential_kit_1_1_web_view_1abe7ac96040b7a96b1d580052c91c24ea" compoundref="d0/d8f/_web_view_8cs" startline="541" endline="558">WebView.LoadURL</referencedby>
+        <referencedby refid="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string_1aa73e7c4dd1df5fd5fbf81c7764ee1533" compoundref="de/d1d/_u_r_l_string_8cs" startline="83" endline="91">URLString.ToString</referencedby>
+        <referencedby refid="d8/d32/class_voxel_busters_1_1_essential_kit_1_1_share_item_1a4e2eb5b33549f022758376a3af45ae65" compoundref="d8/d72/_share_item_8cs" startline="71" endline="86">ShareItem.URL</referencedby>
+        <referencedby refid="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string_1ad08311b0a8c599b7f9fb0f5b38037b5d" compoundref="de/d1d/_u_r_l_string_8cs" startline="37" endline="50">URLString.URLWithPath</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string_1a7847bc3830b856659030d01dd945d653" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool IsFilePath</definition>
+        <argsstring></argsstring>
+        <name>IsFilePath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.URLString.IsFilePath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/URLString.cs" line="27" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/URLString.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string_1ad08311b0a8c599b7f9fb0f5b38037b5d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string" kindref="compound">URLString</ref></type>
+        <definition>static URLString URLWithPath</definition>
+        <argsstring>(string path)</argsstring>
+        <name>URLWithPath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.URLString.URLWithPath</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>Returns a newly created object as a http URL with specified path. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The path should be a valid web URL path.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/URLString.cs" line="37" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/URLString.cs" bodystart="37" bodyend="50"/>
+        <references refid="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string_1a62885a2911b2c21274564c3d9e407c2c" compoundref="de/d1d/_u_r_l_string_8cs" startline="25" endline="25">URLString.IsValid</references>
+      </memberdef>
+      <memberdef kind="function" id="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string_1a2bde430e25672ef14c2c19473dd71c5f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string" kindref="compound">URLString</ref></type>
+        <definition>static URLString FileURLWithPath</definition>
+        <argsstring>(string path)</argsstring>
+        <name>FileURLWithPath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.URLString.FileURLWithPath</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>Returns a newly created object as a file URL with a specified path. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The path should be a valid system path.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/URLString.cs" line="56" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/URLString.cs" bodystart="56" bodyend="73"/>
+        <references refid="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string_1a62885a2911b2c21274564c3d9e407c2c" compoundref="de/d1d/_u_r_l_string_8cs" startline="25" endline="25">URLString.IsValid</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.URLString.ToString</qualifiedname>
+        <briefdescription>
+<para>Returns the URL representation in string format. This value is null, if given URL is invalid. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The URL string.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/URLString.cs" line="83" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/URLString.cs" bodystart="83" bodyend="91"/>
+        <references refid="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string_1a62885a2911b2c21274564c3d9e407c2c" compoundref="de/d1d/_u_r_l_string_8cs" startline="25" endline="25">URLString.IsValid</references>
+        <referencedby refid="dd/db4/class_voxel_busters_1_1_essential_kit_1_1_web_view_1abe7ac96040b7a96b1d580052c91c24ea" compoundref="d0/d8f/_web_view_8cs" startline="541" endline="558">WebView.LoadURL</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Struct value to represent the location of a resource, such as an item on a remote server or the path to a local file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/URLString.cs" line="11" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/URLString.cs" bodystart="12" bodyend="94"/>
+    <listofallmembers>
+      <member refid="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string_1a2bde430e25672ef14c2c19473dd71c5f" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::URLString</scope><name>FileURLWithPath</name></member>
+      <member refid="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string_1a7847bc3830b856659030d01dd945d653" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::URLString</scope><name>IsFilePath</name></member>
+      <member refid="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string_1a62885a2911b2c21274564c3d9e407c2c" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::URLString</scope><name>IsValid</name></member>
+      <member refid="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string_1ad170e59215f85492363a8cf9eb74475e" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::URLString</scope><name>m_value</name></member>
+      <member refid="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::URLString</scope><name>ToString</name></member>
+      <member refid="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string_1ad08311b0a8c599b7f9fb0f5b38037b5d" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::URLString</scope><name>URLWithPath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

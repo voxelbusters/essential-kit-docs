@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d3/d96/interface_voxel_busters_1_1_essential_kit_1_1_task_services_core_1_1_i_native_task_services_interface" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::TaskServicesCore::INativeTaskServicesInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">INativeFeatureInterface</basecompoundref>
+    <derivedcompoundref refid="d2/dab/class_voxel_busters_1_1_essential_kit_1_1_task_services_core_1_1_null_task_services_interface" prot="public" virt="non-virtual">NullTaskServicesInterface</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d96/interface_voxel_busters_1_1_essential_kit_1_1_task_services_core_1_1_i_native_task_services_interface_1a885e8008d023883c24e6615acfc50c35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StartTaskWithoutInterruption</definition>
+        <argsstring>(string taskId, Action onBackgroundProcessingQuotaWillExpire)</argsstring>
+        <name>StartTaskWithoutInterruption</name>
+        <qualifiedname>VoxelBusters.EssentialKit.TaskServicesCore.INativeTaskServicesInterface.StartTaskWithoutInterruption</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>taskId</declname>
+        </param>
+        <param>
+          <type>Action</type>
+          <declname>onBackgroundProcessingQuotaWillExpire</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/TaskServices/INativeTaskServicesInterface.cs" line="12" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d96/interface_voxel_busters_1_1_essential_kit_1_1_task_services_core_1_1_i_native_task_services_interface_1a79df6e316f6f1ee4155581e12b8304a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CancelTask</definition>
+        <argsstring>(string taskId)</argsstring>
+        <name>CancelTask</name>
+        <qualifiedname>VoxelBusters.EssentialKit.TaskServicesCore.INativeTaskServicesInterface.CancelTask</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>taskId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/TaskServices/INativeTaskServicesInterface.cs" line="13" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/TaskServices/INativeTaskServicesInterface.cs" line="9" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/TaskServices/INativeTaskServicesInterface.cs" bodystart="10" bodyend="15"/>
+    <listofallmembers>
+      <member refid="d3/d96/interface_voxel_busters_1_1_essential_kit_1_1_task_services_core_1_1_i_native_task_services_interface_1a79df6e316f6f1ee4155581e12b8304a6" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::TaskServicesCore::INativeTaskServicesInterface</scope><name>CancelTask</name></member>
+      <member refid="d3/d96/interface_voxel_busters_1_1_essential_kit_1_1_task_services_core_1_1_i_native_task_services_interface_1a885e8008d023883c24e6615acfc50c35" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::TaskServicesCore::INativeTaskServicesInterface</scope><name>StartTaskWithoutInterruption</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

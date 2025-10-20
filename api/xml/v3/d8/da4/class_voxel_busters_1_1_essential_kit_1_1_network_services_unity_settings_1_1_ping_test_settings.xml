@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::NetworkServicesUnitySettings::PingTestSettings</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1a43f55b3e67a9ae2621f1c10d7f98998d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int m_maxRetryCount</definition>
+        <argsstring></argsstring>
+        <name>m_maxRetryCount</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesUnitySettings.PingTestSettings.m_maxRetryCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="17" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1aebaec4ae8c3dda59fbdb4cf16dedc662" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float m_timeGapBetweenPolling</definition>
+        <argsstring></argsstring>
+        <name>m_timeGapBetweenPolling</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesUnitySettings.PingTestSettings.m_timeGapBetweenPolling</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="21" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1a5e02857c187d7c431e17c55dfbb2459d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float m_timeOutPeriod</definition>
+        <argsstring></argsstring>
+        <name>m_timeOutPeriod</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesUnitySettings.PingTestSettings.m_timeOutPeriod</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="25" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1a664f68281fb64c5687e8f160fd6e4372" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int m_port</definition>
+        <argsstring></argsstring>
+        <name>m_port</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesUnitySettings.PingTestSettings.m_port</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="29" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1af1774f57b5887760a799da4e3962d1a3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MaxRetryCount</definition>
+        <argsstring></argsstring>
+        <name>MaxRetryCount</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesUnitySettings.PingTestSettings.MaxRetryCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="35" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1a71f51bc367fbee9216f67fa85052ed99" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float TimeGapBetweenPolling</definition>
+        <argsstring></argsstring>
+        <name>TimeGapBetweenPolling</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesUnitySettings.PingTestSettings.TimeGapBetweenPolling</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="37" column="26" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1a9f85ca971eb82286c727e19fcc008d50" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float TimeOutPeriod</definition>
+        <argsstring></argsstring>
+        <name>TimeOutPeriod</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesUnitySettings.PingTestSettings.TimeOutPeriod</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="39" column="26" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1a91b1a1342df7fe9e51fb5dfc4999dfe8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Port</definition>
+        <argsstring></argsstring>
+        <name>Port</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesUnitySettings.PingTestSettings.Port</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="41" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1a8710604cf22ad4639f6be4d6581ce4eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PingTestSettings</definition>
+        <argsstring>(int maxRetryCount=3, float timeGapBetweenPolling=2f, float timeOutPeriod=60f, int port=53)</argsstring>
+        <name>PingTestSettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesUnitySettings.PingTestSettings.PingTestSettings</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>maxRetryCount</declname>
+          <defval>3</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>timeGapBetweenPolling</declname>
+          <defval>2f</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>timeOutPeriod</declname>
+          <defval>60f</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+          <defval>53</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="47" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="47" bodyend="55"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="11" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="12" bodyend="58"/>
+    <listofallmembers>
+      <member refid="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1a43f55b3e67a9ae2621f1c10d7f98998d" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesUnitySettings::PingTestSettings</scope><name>m_maxRetryCount</name></member>
+      <member refid="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1a664f68281fb64c5687e8f160fd6e4372" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesUnitySettings::PingTestSettings</scope><name>m_port</name></member>
+      <member refid="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1aebaec4ae8c3dda59fbdb4cf16dedc662" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesUnitySettings::PingTestSettings</scope><name>m_timeGapBetweenPolling</name></member>
+      <member refid="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1a5e02857c187d7c431e17c55dfbb2459d" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesUnitySettings::PingTestSettings</scope><name>m_timeOutPeriod</name></member>
+      <member refid="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1af1774f57b5887760a799da4e3962d1a3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesUnitySettings::PingTestSettings</scope><name>MaxRetryCount</name></member>
+      <member refid="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1a8710604cf22ad4639f6be4d6581ce4eb" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesUnitySettings::PingTestSettings</scope><name>PingTestSettings</name></member>
+      <member refid="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1a91b1a1342df7fe9e51fb5dfc4999dfe8" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesUnitySettings::PingTestSettings</scope><name>Port</name></member>
+      <member refid="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1a71f51bc367fbee9216f67fa85052ed99" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesUnitySettings::PingTestSettings</scope><name>TimeGapBetweenPolling</name></member>
+      <member refid="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1a9f85ca971eb82286c727e19fcc008d50" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesUnitySettings::PingTestSettings</scope><name>TimeOutPeriod</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

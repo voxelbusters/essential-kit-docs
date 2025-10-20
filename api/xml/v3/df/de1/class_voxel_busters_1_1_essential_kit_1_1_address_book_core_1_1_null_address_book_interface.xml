@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="df/de1/class_voxel_busters_1_1_essential_kit_1_1_address_book_core_1_1_null_address_book_interface" kind="class" language="C#" prot="package">
+    <compoundname>VoxelBusters::EssentialKit::AddressBookCore::NullAddressBookInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NativeAddressBookInterfaceBase</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INativeAddressBookInterface</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/de1/class_voxel_busters_1_1_essential_kit_1_1_address_book_core_1_1_null_address_book_interface_1aa38bb4a1bf2a202a79f658c6f4e5546c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NullAddressBookInterface</definition>
+        <argsstring>()</argsstring>
+        <name>NullAddressBookInterface</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AddressBookCore.NullAddressBookInterface.NullAddressBookInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/NullAddressBookInterface.cs" line="12" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/NullAddressBookInterface.cs" bodystart="12" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="df/de1/class_voxel_busters_1_1_essential_kit_1_1_address_book_core_1_1_null_address_book_interface_1a22b58614e2f6543ddeac5c19ff6df670" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override <ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1aab9cbb2e4dad38d49083c84e587abac5" kindref="member">AddressBookContactsAccessStatus</ref></type>
+        <definition>override AddressBookContactsAccessStatus GetContactsAccessStatus</definition>
+        <argsstring>()</argsstring>
+        <name>GetContactsAccessStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AddressBookCore.NullAddressBookInterface.GetContactsAccessStatus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/NullAddressBookInterface.cs" line="29" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/NullAddressBookInterface.cs" bodystart="29" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="df/de1/class_voxel_busters_1_1_essential_kit_1_1_address_book_core_1_1_null_address_book_interface_1a416f4f6eab2ff6937c696e9728f17e96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ReadContacts</definition>
+        <argsstring>(ReadContactsOptions options, ReadContactsInternalCallback callback)</argsstring>
+        <name>ReadContacts</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AddressBookCore.NullAddressBookInterface.ReadContacts</qualifiedname>
+        <param>
+          <type><ref refid="d8/d39/class_voxel_busters_1_1_essential_kit_1_1_read_contacts_options" kindref="compound">ReadContactsOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>ReadContactsInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/NullAddressBookInterface.cs" line="36" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/NullAddressBookInterface.cs" bodystart="36" bodyend="41"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="df/de1/class_voxel_busters_1_1_essential_kit_1_1_address_book_core_1_1_null_address_book_interface_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogNotSupported</definition>
+        <argsstring>()</argsstring>
+        <name>LogNotSupported</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AddressBookCore.NullAddressBookInterface.LogNotSupported</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/NullAddressBookInterface.cs" line="20" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/NullAddressBookInterface.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/NullAddressBookInterface.cs" line="8" column="13" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/NullAddressBookInterface.cs" bodystart="9" bodyend="44"/>
+    <listofallmembers>
+      <member refid="df/de1/class_voxel_busters_1_1_essential_kit_1_1_address_book_core_1_1_null_address_book_interface_1a22b58614e2f6543ddeac5c19ff6df670" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AddressBookCore::NullAddressBookInterface</scope><name>GetContactsAccessStatus</name></member>
+      <member refid="df/de1/class_voxel_busters_1_1_essential_kit_1_1_address_book_core_1_1_null_address_book_interface_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AddressBookCore::NullAddressBookInterface</scope><name>LogNotSupported</name></member>
+      <member refid="d3/d96/class_voxel_busters_1_1_essential_kit_1_1_address_book_core_1_1_native_address_book_interface_base_1a0ed5d3307562e3a0ab0426282e809a3e" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AddressBookCore::NullAddressBookInterface</scope><name>NativeAddressBookInterfaceBase</name></member>
+      <member refid="df/de1/class_voxel_busters_1_1_essential_kit_1_1_address_book_core_1_1_null_address_book_interface_1aa38bb4a1bf2a202a79f658c6f4e5546c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AddressBookCore::NullAddressBookInterface</scope><name>NullAddressBookInterface</name></member>
+      <member refid="df/de1/class_voxel_busters_1_1_essential_kit_1_1_address_book_core_1_1_null_address_book_interface_1a416f4f6eab2ff6937c696e9728f17e96" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AddressBookCore::NullAddressBookInterface</scope><name>ReadContacts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

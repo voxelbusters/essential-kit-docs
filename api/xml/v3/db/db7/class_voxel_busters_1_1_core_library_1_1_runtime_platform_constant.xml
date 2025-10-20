@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::RuntimePlatformConstant</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_1a18f80bec7cd617836ef4560170725e2d" prot="private" static="no" mutable="no">
+        <type>RuntimePlatform</type>
+        <definition>RuntimePlatform m_platform</definition>
+        <argsstring></argsstring>
+        <name>m_platform</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimePlatformConstant.m_platform</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstant.cs" line="15" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstant.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_1ad170e59215f85492363a8cf9eb74475e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_value</definition>
+        <argsstring></argsstring>
+        <name>m_value</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimePlatformConstant.m_value</qualifiedname>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstant.cs" line="18" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstant.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_1aaeb347b90334390f814dbb2c193527b5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>RuntimePlatform</type>
+        <definition>RuntimePlatform Platform</definition>
+        <argsstring></argsstring>
+        <name>Platform</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimePlatformConstant.Platform</qualifiedname>
+        <briefdescription>
+<para>Gets the runtime platform associated with string value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The enum value indicates the platform to which string value belongs.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstant.cs" line="28" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstant.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_1af7b88db799d8f791f785e437bc6099d2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimePlatformConstant.Value</qualifiedname>
+        <briefdescription>
+<para>Gets the string value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The string value.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstant.cs" line="34" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstant.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_1a6daff10f4d2f5976da67f62a2fd1e92b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RuntimePlatformConstant</definition>
+        <argsstring>(RuntimePlatform platform, string value)</argsstring>
+        <name>RuntimePlatformConstant</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimePlatformConstant.RuntimePlatformConstant</qualifiedname>
+        <param>
+          <type>RuntimePlatform</type>
+          <declname>platform</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstant.cs" line="40" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstant.cs" bodystart="40" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_1a9f6471606e892fec2c4b32dd4c34da06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IsEqualToPlatform</definition>
+        <argsstring>(RuntimePlatform other)</argsstring>
+        <name>IsEqualToPlatform</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimePlatformConstant.IsEqualToPlatform</qualifiedname>
+        <param>
+          <type>RuntimePlatform</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstant.cs" line="96" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstant.cs" bodystart="96" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimePlatformConstant.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstant.cs" line="108" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstant.cs" bodystart="108" bodyend="111"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_1aeaf4de19f7ea231b51a9e42827bbc8f1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant" kindref="compound">RuntimePlatformConstant</ref></type>
+        <definition>static RuntimePlatformConstant iOS</definition>
+        <argsstring>(string value)</argsstring>
+        <name>iOS</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimePlatformConstant.iOS</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Returns a new instance of <ref refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant" kindref="compound">RuntimePlatformConstant</ref>, containing a string value functional only on iOS platform. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The instance of <ref refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant" kindref="compound">RuntimePlatformConstant</ref>.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string value associated with iOS platform.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstant.cs" line="56" column="47" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstant.cs" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_1a96f1cc6dd3020812b5a12055d9f7ff3e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant" kindref="compound">RuntimePlatformConstant</ref></type>
+        <definition>static RuntimePlatformConstant tvOS</definition>
+        <argsstring>(string value)</argsstring>
+        <name>tvOS</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimePlatformConstant.tvOS</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Returns a new instance of <ref refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant" kindref="compound">RuntimePlatformConstant</ref>, containing a string value functional only on tvOS platform. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The instance of <ref refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant" kindref="compound">RuntimePlatformConstant</ref>.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string value associated with tvOS platform.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstant.cs" line="66" column="47" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstant.cs" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_1ae24a8a296040c247f27d9d5aaaffc56a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant" kindref="compound">RuntimePlatformConstant</ref></type>
+        <definition>static RuntimePlatformConstant Android</definition>
+        <argsstring>(string value)</argsstring>
+        <name>Android</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimePlatformConstant.Android</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Returns a new instance of <ref refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant" kindref="compound">RuntimePlatformConstant</ref>, containing a string value functional only on Android platform. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The instance of <ref refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant" kindref="compound">RuntimePlatformConstant</ref>.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string value associated with Android platform.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstant.cs" line="76" column="47" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstant.cs" bodystart="76" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_1aa8f305b576a6ca6b093ab1ad4b659f26" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant" kindref="compound">RuntimePlatformConstant</ref></type>
+        <definition>static RuntimePlatformConstant Current</definition>
+        <argsstring>(string value)</argsstring>
+        <name>Current</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimePlatformConstant.Current</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Returns a new instance of <ref refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant" kindref="compound">RuntimePlatformConstant</ref>, containing a string value associated with active platform. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The instance of <ref refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant" kindref="compound">RuntimePlatformConstant</ref>.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string value associated with active platform.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstant.cs" line="86" column="47" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstant.cs" bodystart="86" bodyend="90"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Object represents an immutable, read-only object that combines a string value with a platform. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstant.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstant.cs" bodystart="11" bodyend="114"/>
+    <listofallmembers>
+      <member refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_1ae24a8a296040c247f27d9d5aaaffc56a" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimePlatformConstant</scope><name>Android</name></member>
+      <member refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_1aa8f305b576a6ca6b093ab1ad4b659f26" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimePlatformConstant</scope><name>Current</name></member>
+      <member refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_1aeaf4de19f7ea231b51a9e42827bbc8f1" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimePlatformConstant</scope><name>iOS</name></member>
+      <member refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_1a9f6471606e892fec2c4b32dd4c34da06" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimePlatformConstant</scope><name>IsEqualToPlatform</name></member>
+      <member refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_1a18f80bec7cd617836ef4560170725e2d" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimePlatformConstant</scope><name>m_platform</name></member>
+      <member refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_1ad170e59215f85492363a8cf9eb74475e" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimePlatformConstant</scope><name>m_value</name></member>
+      <member refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_1aaeb347b90334390f814dbb2c193527b5" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimePlatformConstant</scope><name>Platform</name></member>
+      <member refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_1a6daff10f4d2f5976da67f62a2fd1e92b" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimePlatformConstant</scope><name>RuntimePlatformConstant</name></member>
+      <member refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimePlatformConstant</scope><name>ToString</name></member>
+      <member refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_1a96f1cc6dd3020812b5a12055d9f7ff3e" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimePlatformConstant</scope><name>tvOS</name></member>
+      <member refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_1af7b88db799d8f791f785e437bc6099d2" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimePlatformConstant</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

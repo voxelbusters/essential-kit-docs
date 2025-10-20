@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::BillingServicesUnitySettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SettingsPropertyGroup</basecompoundref>
+    <innerclass refid="d2/d98/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings_1_1_android_platform_properties" prot="public">VoxelBusters::EssentialKit::BillingServicesUnitySettings::AndroidPlatformProperties</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings_1a84ffd74c055b4666aff333aea0ba481c" prot="private" static="no" mutable="no">
+        <type><ref refid="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition" kindref="compound">BillingProductDefinition</ref>[]</type>
+        <definition>BillingProductDefinition [] m_products</definition>
+        <argsstring></argsstring>
+        <name>m_products</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesUnitySettings.m_products</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.cs" line="20" column="47" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings_1a96b3a190155c4dc2aeb0ba06e5ca2c4d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_autoFinishTransactions</definition>
+        <argsstring></argsstring>
+        <name>m_autoFinishTransactions</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesUnitySettings.m_autoFinishTransactions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.cs" line="24" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings_1a6d97df37939cff22ac0501ae85299638" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_autoHandleExternalProductPurchaseActions</definition>
+        <argsstring></argsstring>
+        <name>m_autoHandleExternalProductPurchaseActions</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesUnitySettings.m_autoHandleExternalProductPurchaseActions</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.cs" line="28" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings_1a336579bd5fe8d5a6c406adea5f33d141" prot="private" static="no" mutable="no">
+        <type>AndroidPlatformProperties</type>
+        <definition>AndroidPlatformProperties m_androidProperties</definition>
+        <argsstring></argsstring>
+        <name>m_androidProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesUnitySettings.m_androidProperties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.cs" line="33" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings_1a35d1e4c4d78ee192b16e3a2e543365c0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition" kindref="compound">BillingProductDefinition</ref>[]</type>
+        <definition>BillingProductDefinition [] Products</definition>
+        <argsstring></argsstring>
+        <name>Products</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesUnitySettings.Products</qualifiedname>
+        <briefdescription>
+<para>Gets an array of product definitions. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Array of product definitions.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.cs" line="43" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services_1a6be3615afd37c01b4129b56d7a5ce597" compoundref="d8/dee/_billing_services_8cs" startline="179" endline="182">BillingServices.InitializeStore</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings_1aad4b248692f2d08855142afba9e408f7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool AutoFinishTransactions</definition>
+        <argsstring></argsstring>
+        <name>AutoFinishTransactions</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesUnitySettings.AutoFinishTransactions</qualifiedname>
+        <briefdescription>
+<para>Gets a value indicating whether completed transactions are finished automatically. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>true</computeroutput> if completed transactions are finished automatically; otherwise, <computeroutput>false</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.cs" line="51" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings_1a73c325c6eac1859a9bc3b97c01cb880b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool AutoHandleExternalProductPurchaseActions</definition>
+        <argsstring></argsstring>
+        <name>AutoHandleExternalProductPurchaseActions</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesUnitySettings.AutoHandleExternalProductPurchaseActions</qualifiedname>
+        <briefdescription>
+<para>Gets a value indicating whether external product purchase request actions are handled automatically. If you disable this, make sure you call product purchase by listening to <ref refid="d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services_1aae23d7eae5fdd4cfe49b090b0aaae8d6" kindref="member">BillingServices.OnExternalProductPurchaseAction</ref> event. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>true</computeroutput> if external product purchase action requests are handled automatically; otherwise, <computeroutput>false</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.cs" line="60" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings_1a43ee530d504628390660ed6ec9f35a11" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>AndroidPlatformProperties</type>
+        <definition>AndroidPlatformProperties AndroidProperties</definition>
+        <argsstring></argsstring>
+        <name>AndroidProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesUnitySettings.AndroidProperties</qualifiedname>
+        <briefdescription>
+<para>Gets the Android specific properties. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The Android properties.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.cs" line="66" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings_1a33a3a09c38720417b3347dce790d8ac6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BillingServicesUnitySettings</definition>
+        <argsstring>(bool isEnabled=true, BillingProductDefinition[] products=null, bool autoFinishTransactions=true, bool autoHandleExternalProductRequests=true, AndroidPlatformProperties androidProperties=null)</argsstring>
+        <name>BillingServicesUnitySettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesUnitySettings.BillingServicesUnitySettings</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isEnabled</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type><ref refid="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition" kindref="compound">BillingProductDefinition</ref>[]</type>
+          <declname>products</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>autoFinishTransactions</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>autoHandleExternalProductRequests</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>AndroidPlatformProperties</type>
+          <declname>androidProperties</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings" kindref="compound">BillingServicesUnitySettings</ref> class with the specified settings. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isEnabled</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if set to <computeroutput>true</computeroutput> [is enabled].</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>products</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array of product definitions.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>autoFinishTransactions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if set to <computeroutput>true</computeroutput> completed transactions are finished automatically.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>androidProperties</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Android specific properties.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.cs" line="79" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.cs" bodystart="79" bodyend="90"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings" kindref="compound">BillingServicesUnitySettings</ref> class is used to configure the Billing module of Essential Kit. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.AndroidPlatformProperties.cs" line="9" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.cs" bodystart="15" bodyend="93"/>
+    <listofallmembers>
+      <member refid="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings_1a43ee530d504628390660ed6ec9f35a11" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesUnitySettings</scope><name>AndroidProperties</name></member>
+      <member refid="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings_1aad4b248692f2d08855142afba9e408f7" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesUnitySettings</scope><name>AutoFinishTransactions</name></member>
+      <member refid="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings_1a73c325c6eac1859a9bc3b97c01cb880b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesUnitySettings</scope><name>AutoHandleExternalProductPurchaseActions</name></member>
+      <member refid="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings_1a33a3a09c38720417b3347dce790d8ac6" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesUnitySettings</scope><name>BillingServicesUnitySettings</name></member>
+      <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1a45f8df3acbb2721c2df8462f1cd8f14b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesUnitySettings</scope><name>IsEnabled</name></member>
+      <member refid="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings_1a336579bd5fe8d5a6c406adea5f33d141" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesUnitySettings</scope><name>m_androidProperties</name></member>
+      <member refid="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings_1a96b3a190155c4dc2aeb0ba06e5ca2c4d" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesUnitySettings</scope><name>m_autoFinishTransactions</name></member>
+      <member refid="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings_1a6d97df37939cff22ac0501ae85299638" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesUnitySettings</scope><name>m_autoHandleExternalProductPurchaseActions</name></member>
+      <member refid="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings_1a84ffd74c055b4666aff333aea0ba481c" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesUnitySettings</scope><name>m_products</name></member>
+      <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1a7ee9065718e6628dc7791b756fa6c0f9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesUnitySettings</scope><name>Name</name></member>
+      <member refid="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings_1a35d1e4c4d78ee192b16e3a2e543365c0" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesUnitySettings</scope><name>Products</name></member>
+      <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1ac9b0727cd904077f21637b8cbe0b139d" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesUnitySettings</scope><name>SettingsPropertyGroup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

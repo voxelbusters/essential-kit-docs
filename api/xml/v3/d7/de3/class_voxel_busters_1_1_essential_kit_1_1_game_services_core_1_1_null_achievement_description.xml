@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d7/de3/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_description" kind="class" language="C#" prot="package" sealed="yes">
+    <compoundname>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AchievementDescriptionBase</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/de3/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_description_1ad50aeac25d60f2508495d38ff10b6d37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NullAchievementDescription</definition>
+        <argsstring>(string id, string platformId, int numOfStepsToUnlock)</argsstring>
+        <name>NullAchievementDescription</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullAchievementDescription.NullAchievementDescription</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>platformId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numOfStepsToUnlock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievementDescription.cs" line="13" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievementDescription.cs" bodystart="13" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d7/de3/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_description_1ac52a745d63f45bf841baf1b5a6abb78e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LoadAchievementDescriptions</definition>
+        <argsstring>(LoadAchievementDescriptionsInternalCallback callback)</argsstring>
+        <name>LoadAchievementDescriptions</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullAchievementDescription.LoadAchievementDescriptions</qualifiedname>
+        <param>
+          <type>LoadAchievementDescriptionsInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievementDescription.cs" line="21" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievementDescription.cs" bodystart="21" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d7/de3/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_description_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogNotSupported</definition>
+        <argsstring>()</argsstring>
+        <name>LogNotSupported</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullAchievementDescription.LogNotSupported</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievementDescription.cs" line="32" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievementDescription.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d7/de3/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_description_1abf700b6444f1394038bfd6bb07edd9cc" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string GetTitleInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetTitleInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullAchievementDescription.GetTitleInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievementDescription.cs" line="41" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievementDescription.cs" bodystart="41" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/de3/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_description_1acadcd03cd3f1b9ff3ad34e51eeb0da7e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string GetUnachievedDescriptionInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetUnachievedDescriptionInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullAchievementDescription.GetUnachievedDescriptionInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievementDescription.cs" line="48" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievementDescription.cs" bodystart="48" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/de3/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_description_1a95e1448f3327fc74c8a3d6c34614476f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string GetAchievedDescriptionInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetAchievedDescriptionInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullAchievementDescription.GetAchievedDescriptionInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievementDescription.cs" line="55" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievementDescription.cs" bodystart="55" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/de3/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_description_1afebf01a248bfcc8a58442d5ffa8fe421" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override long</type>
+        <definition>override long GetMaximumPointsInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetMaximumPointsInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullAchievementDescription.GetMaximumPointsInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievementDescription.cs" line="62" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievementDescription.cs" bodystart="62" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/de3/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_description_1ac0451411f6346efe9ffdc94486616ee7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool GetIsHiddenInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetIsHiddenInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullAchievementDescription.GetIsHiddenInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievementDescription.cs" line="69" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievementDescription.cs" bodystart="69" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/de3/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_description_1a9e9adf4e904f2993808e5184634f9e5f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool GetIsReplayableInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetIsReplayableInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullAchievementDescription.GetIsReplayableInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievementDescription.cs" line="76" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievementDescription.cs" bodystart="76" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/de3/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_description_1af05e3c513badc0117bdc5c69e1ebb279" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void LoadIncompleteAchievementImageInternal</definition>
+        <argsstring>(LoadImageInternalCallback callback)</argsstring>
+        <name>LoadIncompleteAchievementImageInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullAchievementDescription.LoadIncompleteAchievementImageInternal</qualifiedname>
+        <param>
+          <type>LoadImageInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievementDescription.cs" line="83" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievementDescription.cs" bodystart="83" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/de3/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_description_1af0cddca5b8f619c6aea5a5b6d9b1bfd1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void LoadImageInternal</definition>
+        <argsstring>(LoadImageInternalCallback callback)</argsstring>
+        <name>LoadImageInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullAchievementDescription.LoadImageInternal</qualifiedname>
+        <param>
+          <type>LoadImageInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievementDescription.cs" line="90" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievementDescription.cs" bodystart="90" bodyend="95"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievementDescription.cs" line="9" column="13" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievementDescription.cs" bodystart="10" bodyend="98"/>
+    <listofallmembers>
+      <member refid="dc/d91/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_achievement_description_base_1ad98ea8ecb9f5f0ae2d772e2c33430c3e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</scope><name>AchievedDescription</name></member>
+      <member refid="dc/d91/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_achievement_description_base_1afd7ee7366cd4f78dbcd278c1e86e9d86" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</scope><name>AchievementDescriptionBase</name></member>
+      <member refid="d7/de3/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_description_1a95e1448f3327fc74c8a3d6c34614476f" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</scope><name>GetAchievedDescriptionInternal</name></member>
+      <member refid="d7/de3/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_description_1ac0451411f6346efe9ffdc94486616ee7" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</scope><name>GetIsHiddenInternal</name></member>
+      <member refid="d7/de3/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_description_1a9e9adf4e904f2993808e5184634f9e5f" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</scope><name>GetIsReplayableInternal</name></member>
+      <member refid="d7/de3/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_description_1afebf01a248bfcc8a58442d5ffa8fe421" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</scope><name>GetMaximumPointsInternal</name></member>
+      <member refid="d7/de3/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_description_1abf700b6444f1394038bfd6bb07edd9cc" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</scope><name>GetTitleInternal</name></member>
+      <member refid="d7/de3/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_description_1acadcd03cd3f1b9ff3ad34e51eeb0da7e" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</scope><name>GetUnachievedDescriptionInternal</name></member>
+      <member refid="dc/d91/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_achievement_description_base_1a186291c875988107b7ace745ea84d4ec" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</scope><name>Id</name></member>
+      <member refid="dc/d91/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_achievement_description_base_1a9dde57eae1f04b6e656f40a262118380" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</scope><name>IsHidden</name></member>
+      <member refid="dc/d91/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_achievement_description_base_1a3b9911ed28a7ddeb43c7cb80646e9363" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</scope><name>IsReplayable</name></member>
+      <member refid="d7/de3/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_description_1ac52a745d63f45bf841baf1b5a6abb78e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</scope><name>LoadAchievementDescriptions</name></member>
+      <member refid="dc/d91/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_achievement_description_base_1a33542b43cd72bbdbcacf9801f9bef643" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</scope><name>LoadImage</name></member>
+      <member refid="d7/de3/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_description_1af0cddca5b8f619c6aea5a5b6d9b1bfd1" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</scope><name>LoadImageInternal</name></member>
+      <member refid="dc/d91/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_achievement_description_base_1a8ea5699c6c8a5016c7caa641c86955e4" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</scope><name>LoadIncompleteAchievementImage</name></member>
+      <member refid="d7/de3/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_description_1af05e3c513badc0117bdc5c69e1ebb279" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</scope><name>LoadIncompleteAchievementImageInternal</name></member>
+      <member refid="d7/de3/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_description_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</scope><name>LogNotSupported</name></member>
+      <member refid="dc/d91/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_achievement_description_base_1a70066d6bfd425a3a8123b29bd7352ad6" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</scope><name>MaximumPoints</name></member>
+      <member refid="d7/de3/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_description_1ad50aeac25d60f2508495d38ff10b6d37" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</scope><name>NullAchievementDescription</name></member>
+      <member refid="dc/d91/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_achievement_description_base_1ad7cbff40f90c4b7bcba5ccc39698300b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</scope><name>NumberOfStepsRequiredToUnlockAchievement</name></member>
+      <member refid="dc/d91/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_achievement_description_base_1a4305da1d4a33e2d56b149fc3c41a617c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</scope><name>PlatformId</name></member>
+      <member refid="dc/d91/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_achievement_description_base_1aa7b633091e7820b835d04d0d5fc197c7" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</scope><name>Title</name></member>
+      <member refid="dc/d91/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_achievement_description_base_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</scope><name>ToString</name></member>
+      <member refid="dc/d91/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_achievement_description_base_1adacaf9f53e9a187b0fb3a4e3eef833dd" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievementDescription</scope><name>UnachievedDescription</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

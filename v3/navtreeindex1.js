@@ -181,9 +181,10 @@ var NAVTREEINDEX1 =
 "d8/ded/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement_description.html#ad98ea8ecb9f5f0ae2d772e2c33430c3e":[2,6,10,6],
 "d8/ded/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement_description.html#adacaf9f53e9a187b0fb3a4e3eef833dd":[2,6,10,5],
 "d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings.html":[4,0,0,1,26],
-"d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings.html#a13b34bb62356e78fbdea48bca335830c":[4,0,0,1,26,0],
+"d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings.html#a33a3a09c38720417b3347dce790d8ac6":[4,0,0,1,26,0],
 "d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings.html#a35d1e4c4d78ee192b16e3a2e543365c0":[4,0,0,1,26,1],
-"d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings.html#a43ee530d504628390660ed6ec9f35a11":[4,0,0,1,26,3],
+"d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings.html#a43ee530d504628390660ed6ec9f35a11":[4,0,0,1,26,4],
+"d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings.html#a73c325c6eac1859a9bc3b97c01cb880b":[4,0,0,1,26,3],
 "d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings.html#aad4b248692f2d08855142afba9e408f7":[4,0,0,1,26,2],
 "d9/d1b/class_voxel_busters_1_1_essential_kit_1_1_time_interval_notification_trigger.html":[2,10,14],
 "d9/d1b/class_voxel_busters_1_1_essential_kit_1_1_time_interval_notification_trigger.html#a30bb4a3d8855a13cbb1e53ef7a84be5c":[2,10,14,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "d9/df0/class_voxel_busters_1_1_essential_kit_1_1_web_view_run_java_script_result.html#a79fc88f18f1b34aeddb552f04ed3c9e3":[2,15,2,0],
 "da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel.html":[2,10,5],
 "da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel.html#a186291c875988107b7ace745ea84d4ec":[2,10,5,0],
-"da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel.html#a34409fed9d39281ada2d7ec172a52f9b":[2,10,5,2],
-"da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel.html#a4052b0e2f40a18eea4a51a1b1fcca55d":[2,10,5,3]
+"da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel.html#a34409fed9d39281ada2d7ec172a52f9b":[2,10,5,2]
 };

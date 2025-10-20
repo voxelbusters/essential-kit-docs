@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="de/d40/_content_rating_8cs" kind="file" language="C#">
+    <compoundname>ContentRating.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="d7/d45/namespace_voxel_busters_1_1_core_library">VoxelBusters::CoreLibrary</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="d7/d45/namespace_voxel_busters_1_1_core_library_1aa2f8d11f34054ff37b1080064b70d0b7" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ContentRating</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ContentRating</qualifiedname>
+        <enumvalue id="d7/d45/namespace_voxel_busters_1_1_core_library_1aa2f8d11f34054ff37b1080064b70d0b7a6fcdc090caeade09d0efd6253932b6f5" prot="public">
+          <name>Unspecified</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d45/namespace_voxel_busters_1_1_core_library_1aa2f8d11f34054ff37b1080064b70d0b7aeb2ef53775e2a4921217c137e2d08727" prot="public">
+          <name>GeneralAudience</name>
+          <briefdescription>
+<para>Content suitable for general audiences, including families. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d45/namespace_voxel_busters_1_1_core_library_1aa2f8d11f34054ff37b1080064b70d0b7aa1a3027487b01f1236d095021cf255ea" prot="public">
+          <name>MatureAudience</name>
+          <briefdescription>
+<para>Content suitable only for mature audiences. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d45/namespace_voxel_busters_1_1_core_library_1aa2f8d11f34054ff37b1080064b70d0b7a8333e2df311718c9205b58edb091d78e" prot="public">
+          <name>ParentalGuidance</name>
+          <briefdescription>
+<para>Content suitable for most audiences with parental guidance. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d45/namespace_voxel_busters_1_1_core_library_1aa2f8d11f34054ff37b1080064b70d0b7a960a2cdfa0bc952fb03572898a4d59ed" prot="public">
+          <name>TeensAndOlder</name>
+          <briefdescription>
+<para>Content suitable for teen and older audiences. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enum specifying the level of content maturity for an app. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This enum is used to specify the level of content maturity for an app.  </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/ContentRating.cs" line="12" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/ContentRating.cs" bodystart="13" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/ContentRating.cs"/>
+  </compounddef>
+</doxygen>

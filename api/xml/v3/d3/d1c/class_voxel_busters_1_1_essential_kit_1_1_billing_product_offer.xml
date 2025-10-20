@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::BillingProductOffer</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_1a186291c875988107b7ace745ea84d4ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductOffer.Id</qualifiedname>
+        <briefdescription>
+<para>The product offer identifier. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOffer.cs" line="17" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOffer.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_1a37ff0fb02e9ea625395da795a90fa772" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a596df4f276c2c3f4f321e43906d5e97d" kindref="member">BillingProductOfferCategory</ref></type>
+        <definition>BillingProductOfferCategory Category</definition>
+        <argsstring></argsstring>
+        <name>Category</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductOffer.Category</qualifiedname>
+        <briefdescription>
+<para>The product offer category to know if its an introductory offer or promotional offer. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOffer.cs" line="22" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOffer.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_1ac580f739c9f269de9c2356ede4806629" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>IOrderedEnumerable&lt; <ref refid="d3/dd9/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_pricing_phase" kindref="compound">BillingProductOfferPricingPhase</ref> &gt;</type>
+        <definition>IOrderedEnumerable&lt;BillingProductOfferPricingPhase&gt; PricingPhases</definition>
+        <argsstring></argsstring>
+        <name>PricingPhases</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductOffer.PricingPhases</qualifiedname>
+        <briefdescription>
+<para>Phases of how the pricing is calculated. note: On Android there can be more than one pricing phase but on iOS it&apos;s only one. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOffer.cs" line="28" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOffer.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_1a5e2b3153a7021baf34e5ca7ebc362c19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BillingProductOffer</definition>
+        <argsstring>(string id, BillingProductOfferCategory category, List&lt; BillingProductOfferPricingPhase &gt; pricingPhases)</argsstring>
+        <name>BillingProductOffer</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductOffer.BillingProductOffer</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a596df4f276c2c3f4f321e43906d5e97d" kindref="member">BillingProductOfferCategory</ref></type>
+          <declname>category</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="d3/dd9/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_pricing_phase" kindref="compound">BillingProductOfferPricingPhase</ref> &gt;</type>
+          <declname>pricingPhases</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOffer.cs" line="30" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOffer.cs" bodystart="30" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductOffer.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOffer.cs" line="37" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOffer.cs" bodystart="37" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents a product offer for a billing product. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOffer.cs" line="12" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOffer.cs" bodystart="13" bodyend="41"/>
+    <listofallmembers>
+      <member refid="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_1a5e2b3153a7021baf34e5ca7ebc362c19" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductOffer</scope><name>BillingProductOffer</name></member>
+      <member refid="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_1a37ff0fb02e9ea625395da795a90fa772" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductOffer</scope><name>Category</name></member>
+      <member refid="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_1a186291c875988107b7ace745ea84d4ec" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductOffer</scope><name>Id</name></member>
+      <member refid="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_1ac580f739c9f269de9c2356ede4806629" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductOffer</scope><name>PricingPhases</name></member>
+      <member refid="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductOffer</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

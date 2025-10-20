@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d6/d8a/class_voxel_busters_1_1_core_library_1_1_file_browser_attribute" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::FileBrowserAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">PropertyAttribute</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d6/d8a/class_voxel_busters_1_1_core_library_1_1_file_browser_attribute_1a459cbeb3d9861363353dae9dec8b5126" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool UsesRelativePath</definition>
+        <argsstring></argsstring>
+        <name>UsesRelativePath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.FileBrowserAttribute.UsesRelativePath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/FileBrowserAttribute.cs" line="11" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/FileBrowserAttribute.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="d6/d8a/class_voxel_busters_1_1_core_library_1_1_file_browser_attribute_1a4d7a8589417e7d7a6a47a2e4b3835cbe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Extension</definition>
+        <argsstring></argsstring>
+        <name>Extension</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.FileBrowserAttribute.Extension</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/FileBrowserAttribute.cs" line="13" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/FileBrowserAttribute.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d8a/class_voxel_busters_1_1_core_library_1_1_file_browser_attribute_1a14c98f2f0ce358d7e7d53c1fada62348" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FileBrowserAttribute</definition>
+        <argsstring>(bool usesRelativePath, string extension=null)</argsstring>
+        <name>FileBrowserAttribute</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.FileBrowserAttribute.FileBrowserAttribute</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>usesRelativePath</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>extension</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/FileBrowserAttribute.cs" line="19" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/FileBrowserAttribute.cs" bodystart="19" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/FileBrowserAttribute.cs" line="7" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/FileBrowserAttribute.cs" bodystart="8" bodyend="27"/>
+    <listofallmembers>
+      <member refid="d6/d8a/class_voxel_busters_1_1_core_library_1_1_file_browser_attribute_1a4d7a8589417e7d7a6a47a2e4b3835cbe" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::FileBrowserAttribute</scope><name>Extension</name></member>
+      <member refid="d6/d8a/class_voxel_busters_1_1_core_library_1_1_file_browser_attribute_1a14c98f2f0ce358d7e7d53c1fada62348" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::FileBrowserAttribute</scope><name>FileBrowserAttribute</name></member>
+      <member refid="d6/d8a/class_voxel_busters_1_1_core_library_1_1_file_browser_attribute_1a459cbeb3d9861363353dae9dec8b5126" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::FileBrowserAttribute</scope><name>UsesRelativePath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

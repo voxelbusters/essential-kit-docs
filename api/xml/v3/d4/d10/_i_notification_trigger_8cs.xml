@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d4/d10/_i_notification_trigger_8cs" kind="file" language="C#">
+    <compoundname>INotificationTrigger.cs</compoundname>
+    <innerclass refid="d2/df5/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_trigger" prot="public">VoxelBusters::EssentialKit::INotificationTrigger</innerclass>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotificationTrigger.cs"/>
+  </compounddef>
+</doxygen>

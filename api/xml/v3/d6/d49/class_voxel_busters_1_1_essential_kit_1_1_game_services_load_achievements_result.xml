@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d6/d49/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_achievements_result" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::GameServicesLoadAchievementsResult</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d6/d49/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_achievements_result_1ab352c42c0b4917619d35d3aa20196550" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="d0/d60/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement" kindref="compound">IAchievement</ref>[]</type>
+        <definition>IAchievement [] Achievements</definition>
+        <argsstring></argsstring>
+        <name>Achievements</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesLoadAchievementsResult.Achievements</qualifiedname>
+        <briefdescription>
+<para>An array of registered achievements. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesLoadAchievementsResult.cs" line="19" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesLoadAchievementsResult.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="d6/d49/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_achievements_result_1a58d7d907139dbc97c0c117fbaaf2f19a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GameServicesLoadAchievementsResult</definition>
+        <argsstring>(IAchievement[] achievements)</argsstring>
+        <name>GameServicesLoadAchievementsResult</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesLoadAchievementsResult.GameServicesLoadAchievementsResult</qualifiedname>
+        <param>
+          <type><ref refid="d0/d60/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement" kindref="compound">IAchievement</ref>[]</type>
+          <declname>achievements</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesLoadAchievementsResult.cs" line="25" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesLoadAchievementsResult.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class contains the information retrieved when <ref refid="d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services_1a6a9453a912be3cf712035a4fb3833c6b" kindref="member">GameServices.LoadAchievements(EventCallback&lt;GameServicesLoadAchievementsResult&gt;)</ref> operation is completed. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesLoadAchievementsResult.cs" line="12" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesLoadAchievementsResult.cs" bodystart="13" bodyend="32"/>
+    <listofallmembers>
+      <member refid="d6/d49/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_achievements_result_1ab352c42c0b4917619d35d3aa20196550" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesLoadAchievementsResult</scope><name>Achievements</name></member>
+      <member refid="d6/d49/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_achievements_result_1a58d7d907139dbc97c0c117fbaaf2f19a" prot="package" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesLoadAchievementsResult</scope><name>GameServicesLoadAchievementsResult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

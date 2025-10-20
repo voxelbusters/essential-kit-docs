@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d3/d9f/_unity_web_request_utility_8cs" kind="file" language="C#">
+    <compoundname>UnityWebRequestUtility.cs</compoundname>
+    <innerclass refid="dc/d99/class_voxel_busters_1_1_core_library_1_1_unity_web_request_utility" prot="public">VoxelBusters::CoreLibrary::UnityWebRequestUtility</innerclass>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="d7/d45/namespace_voxel_busters_1_1_core_library">VoxelBusters::CoreLibrary</innernamespace>
+    <innernamespace refid="d3/d81/namespace_system_1_1_threading">System::Threading</innernamespace>
+    <innernamespace refid="d7/d66/namespace_system_1_1_threading_1_1_tasks">System::Threading::Tasks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityWebRequestUtility.cs"/>
+  </compounddef>
+</doxygen>

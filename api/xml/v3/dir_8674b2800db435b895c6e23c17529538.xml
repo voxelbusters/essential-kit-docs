@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_8674b2800db435b895c6e23c17529538" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp</compoundname>
+    <innerfile refid="d1/d19/_i_native_rate_my_app_interface_8cs">INativeRateMyAppInterface.cs</innerfile>
+    <innerfile refid="da/d87/_native_rate_my_app_interface_base_8cs">NativeRateMyAppInterfaceBase.cs</innerfile>
+    <innerfile refid="de/d3c/_null_rate_my_app_interface_8cs">NullRateMyAppInterface.cs</innerfile>
+    <innerfile refid="d4/d39/_rate_my_app_8cs">RateMyApp.cs</innerfile>
+    <innerfile refid="de/d16/_rate_my_app_confirmation_prompt_action_type_8cs">RateMyAppConfirmationPromptActionType.cs</innerfile>
+    <innerfile refid="da/d66/_rate_my_app_controller_8cs">RateMyAppController.cs</innerfile>
+    <innerfile refid="db/dc6/_rate_my_app_controller_state_info_8cs">RateMyAppControllerStateInfo.cs</innerfile>
+    <innerfile refid="df/d53/_rate_my_app_localisation_key_8cs">RateMyAppLocalisationKey.cs</innerfile>
+    <innerfile refid="d5/db3/_rate_my_app_presenter_8cs">RateMyAppPresenter.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/"/>
+  </compounddef>
+</doxygen>

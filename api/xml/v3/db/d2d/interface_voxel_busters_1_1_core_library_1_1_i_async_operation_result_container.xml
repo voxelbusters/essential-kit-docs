@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/d2d/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_result_container" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::IAsyncOperationResultContainer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IAsyncOperationResultContainer</basecompoundref>
+    <derivedcompoundref refid="d2/d27/class_voxel_busters_1_1_core_library_1_1_async_operation_result_container" prot="public" virt="non-virtual">AsyncOperationResultContainer&lt; TData, TError &gt;</derivedcompoundref>
+    <derivedcompoundref refid="d2/d27/class_voxel_busters_1_1_core_library_1_1_async_operation_result_container" prot="public" virt="non-virtual">AsyncOperationResultContainer&lt; TData, TError &gt;</derivedcompoundref>
+    <templateparamlist>
+      <param>
+        <type>TData</type>
+      </param>
+      <param>
+        <type>TError</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d2d/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_result_container_1a158cbd68c5f292d41a43908d3957a852" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IsError</definition>
+        <argsstring>()</argsstring>
+        <name>IsError</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IAsyncOperationResultContainer.IsError</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationResultContainer.cs" line="12" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d2d/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_result_container_1ac3684b2299a629dfc8191443e6045a2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetErrorDescription</definition>
+        <argsstring>()</argsstring>
+        <name>GetErrorDescription</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IAsyncOperationResultContainer.GetErrorDescription</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationResultContainer.cs" line="14" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d2d/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_result_container_1a6592419616abaece13aa9844697fcf78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>Error GetError</definition>
+        <argsstring>()</argsstring>
+        <name>GetError</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IAsyncOperationResultContainer.GetError</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationResultContainer.cs" line="16" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d2d/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_result_container_1a4b41be81e7155f2f335662f0a89a5a15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>object</type>
+        <definition>object GetData</definition>
+        <argsstring>()</argsstring>
+        <name>GetData</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IAsyncOperationResultContainer.GetData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationResultContainer.cs" line="18" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d2d/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_result_container_1ad39dd052273e23f21a29d4d112538922" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetDataAsText</definition>
+        <argsstring>()</argsstring>
+        <name>GetDataAsText</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IAsyncOperationResultContainer.GetDataAsText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationResultContainer.cs" line="20" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d2d/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_result_container_1a6474461261ba3450a69e3d5aa14b7ed3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>new TError</type>
+        <definition>new TError GetError</definition>
+        <argsstring>()</argsstring>
+        <name>GetError</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IAsyncOperationResultContainer.GetError</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationResultContainer.cs" line="29" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d2d/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_result_container_1afe2f80bf8d0c19b79956a8d6727bf0e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>new TData</type>
+        <definition>new TData GetData</definition>
+        <argsstring>()</argsstring>
+        <name>GetData</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IAsyncOperationResultContainer.GetData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationResultContainer.cs" line="31" column="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationResultContainer.cs" line="8" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperationResultContainer.cs" bodystart="26" bodyend="34"/>
+    <listofallmembers>
+      <member refid="db/d2d/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_result_container_1a4b41be81e7155f2f335662f0a89a5a15" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IAsyncOperationResultContainer</scope><name>GetData</name></member>
+      <member refid="db/d2d/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_result_container_1afe2f80bf8d0c19b79956a8d6727bf0e5" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IAsyncOperationResultContainer</scope><name>GetData</name></member>
+      <member refid="db/d2d/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_result_container_1ad39dd052273e23f21a29d4d112538922" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IAsyncOperationResultContainer</scope><name>GetDataAsText</name></member>
+      <member refid="db/d2d/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_result_container_1a6592419616abaece13aa9844697fcf78" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IAsyncOperationResultContainer</scope><name>GetError</name></member>
+      <member refid="db/d2d/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_result_container_1a6474461261ba3450a69e3d5aa14b7ed3" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IAsyncOperationResultContainer</scope><name>GetError</name></member>
+      <member refid="db/d2d/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_result_container_1ac3684b2299a629dfc8191443e6045a2d" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IAsyncOperationResultContainer</scope><name>GetErrorDescription</name></member>
+      <member refid="db/d2d/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_result_container_1a158cbd68c5f292d41a43908d3957a852" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IAsyncOperationResultContainer</scope><name>IsError</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

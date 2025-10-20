@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d5/d40/class_voxel_busters_1_1_essential_kit_1_1_media_content_save_options" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::MediaContentSaveOptions</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d5/d40/class_voxel_busters_1_1_essential_kit_1_1_media_content_save_options_1a51af35e7632444b3de5d4d98c876e642" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string DirectoryName</definition>
+        <argsstring></argsstring>
+        <name>DirectoryName</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContentSaveOptions.DirectoryName</qualifiedname>
+        <briefdescription>
+<para>Gets the directory name where the media content will be saved. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The directory name (album name).</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSaveOptions.cs" line="15" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSaveOptions.cs" bodystart="15" bodyend="15"/>
+        <referencedby refid="d5/d40/class_voxel_busters_1_1_essential_kit_1_1_media_content_save_options_1a7c33e52a7a4065f8d773e6d72a1b7bd3" compoundref="d5/d1e/_media_content_save_options_8cs" startline="30" endline="35">MediaContentSaveOptions.MediaContentSaveOptions</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="d5/d40/class_voxel_busters_1_1_essential_kit_1_1_media_content_save_options_1ac56689c3ac56ce5bcecabd9b090880f8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string FileName</definition>
+        <argsstring></argsstring>
+        <name>FileName</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContentSaveOptions.FileName</qualifiedname>
+        <briefdescription>
+<para>Gets the file name without extension. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The file name without extension.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSaveOptions.cs" line="21" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSaveOptions.cs" bodystart="21" bodyend="21"/>
+        <referencedby refid="d5/d40/class_voxel_busters_1_1_essential_kit_1_1_media_content_save_options_1a7c33e52a7a4065f8d773e6d72a1b7bd3" compoundref="d5/d1e/_media_content_save_options_8cs" startline="30" endline="35">MediaContentSaveOptions.MediaContentSaveOptions</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d40/class_voxel_busters_1_1_essential_kit_1_1_media_content_save_options_1a7c33e52a7a4065f8d773e6d72a1b7bd3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaContentSaveOptions</definition>
+        <argsstring>(string directoryName, string fileName)</argsstring>
+        <name>MediaContentSaveOptions</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContentSaveOptions.MediaContentSaveOptions</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>directoryName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="d5/d40/class_voxel_busters_1_1_essential_kit_1_1_media_content_save_options" kindref="compound">MediaContentSaveOptions</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>directoryName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The directory name(album) where the media content will be saved.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The file name without extension.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSaveOptions.cs" line="30" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSaveOptions.cs" bodystart="30" bodyend="35"/>
+        <references refid="d5/d40/class_voxel_busters_1_1_essential_kit_1_1_media_content_save_options_1a51af35e7632444b3de5d4d98c876e642" compoundref="d5/d1e/_media_content_save_options_8cs" startline="15" endline="15">MediaContentSaveOptions.DirectoryName</references>
+        <references refid="d5/d40/class_voxel_busters_1_1_essential_kit_1_1_media_content_save_options_1ac56689c3ac56ce5bcecabd9b090880f8" compoundref="d5/d1e/_media_content_save_options_8cs" startline="21" endline="21">MediaContentSaveOptions.FileName</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Contains options which customize the behavior of the <ref refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a7c83711bce72df6b01337c6d3f17a483" kindref="member">MediaServices.SaveMediaContent</ref> method. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSaveOptions.cs" line="7" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSaveOptions.cs" bodystart="8" bodyend="36"/>
+    <listofallmembers>
+      <member refid="d5/d40/class_voxel_busters_1_1_essential_kit_1_1_media_content_save_options_1a51af35e7632444b3de5d4d98c876e642" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContentSaveOptions</scope><name>DirectoryName</name></member>
+      <member refid="d5/d40/class_voxel_busters_1_1_essential_kit_1_1_media_content_save_options_1ac56689c3ac56ce5bcecabd9b090880f8" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContentSaveOptions</scope><name>FileName</name></member>
+      <member refid="d5/d40/class_voxel_busters_1_1_essential_kit_1_1_media_content_save_options_1a7c33e52a7a4065f8d773e6d72a1b7bd3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContentSaveOptions</scope><name>MediaContentSaveOptions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

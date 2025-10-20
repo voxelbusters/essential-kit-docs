@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>VoxelBusters::EssentialKit::GameServicesCore::PlayerBase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NativeObjectBase</basecompoundref>
+    <basecompoundref refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player" prot="public" virt="non-virtual">IPlayer</basecompoundref>
+    <derivedcompoundref refid="dd/db5/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_player" prot="public" virt="non-virtual">NullPlayer</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a4df71ed6bf05109e86a43738e8f9898a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Identifier</definition>
+        <argsstring></argsstring>
+        <name>Identifier</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.PlayerBase.Identifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" line="39" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1ab2ebdabf1f5b5afb170cd94ea4d28d52" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Alias</definition>
+        <argsstring></argsstring>
+        <name>Alias</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.PlayerBase.Alias</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" line="41" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1aba0e038e9b973f3ba4ca520a2fb057dc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string DisplayName</definition>
+        <argsstring></argsstring>
+        <name>DisplayName</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.PlayerBase.DisplayName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" line="43" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a79058db2ed94f4241d163657bcce788c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string DeveloperScopeIdentifier</definition>
+        <argsstring></argsstring>
+        <name>DeveloperScopeIdentifier</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.PlayerBase.DeveloperScopeIdentifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" line="45" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1abde07ef8de541da9829605a7f3d25a2c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LegacyIdentifier</definition>
+        <argsstring></argsstring>
+        <name>LegacyIdentifier</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.PlayerBase.LegacyIdentifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" line="47" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a186291c875988107b7ace745ea84d4ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.PlayerBase.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" line="49" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1acb49756bb1e0cde63867c7c1fbecec5e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string DeveloperScopeId</definition>
+        <argsstring></argsstring>
+        <name>DeveloperScopeId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.PlayerBase.DeveloperScopeId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" line="51" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1aa0cbc31942d14d6c3e7ac461b42388a8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LegacyId</definition>
+        <argsstring></argsstring>
+        <name>LegacyId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.PlayerBase.LegacyId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" line="53" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a796f81177a94fd234b464e617222d74b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetIdentifierInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetIdentifierInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.PlayerBase.GetIdentifierInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" line="14" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a90a1df34d0e7fa530b0ec59046414937" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetDeveloperScopeIdentifierInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetDeveloperScopeIdentifierInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.PlayerBase.GetDeveloperScopeIdentifierInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" line="16" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a7a893d17e6a5965b524dc9a96819149f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetLegacyIdentifierInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetLegacyIdentifierInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.PlayerBase.GetLegacyIdentifierInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" line="18" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1ab84c6d1aac1783cfb8c47db5a70a21d3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetAliasInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetAliasInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.PlayerBase.GetAliasInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" line="20" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a2a8bb992450244ea3ee61c4542bf5135" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetDisplayNameInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetDisplayNameInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.PlayerBase.GetDisplayNameInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" line="22" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a6f4dd96af0468169b1e2cd8fbeee88ac" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoadImageInternal</definition>
+        <argsstring>(LoadImageInternalCallback callback)</argsstring>
+        <name>LoadImageInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.PlayerBase.LoadImageInternal</qualifiedname>
+        <param>
+          <type>LoadImageInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" line="24" column="33"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.PlayerBase.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" line="30" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a33542b43cd72bbdbcacf9801f9bef643" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoadImage</definition>
+        <argsstring>(EventCallback&lt; TextureData &gt; callback)</argsstring>
+        <name>LoadImage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.PlayerBase.LoadImage</qualifiedname>
+        <param>
+          <type>EventCallback&lt; TextureData &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" line="55" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" bodystart="55" bodyend="63"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a0412029283d8ef58b75b87ea684072f7" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SendLoadPlayerFriendsResult</definition>
+        <argsstring>(EventCallback&lt; GameServicesLoadPlayerFriendsResult &gt; callback, IPlayer[] players, Error error)</argsstring>
+        <name>SendLoadPlayerFriendsResult</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.PlayerBase.SendLoadPlayerFriendsResult</qualifiedname>
+        <param>
+          <type>EventCallback&lt; <ref refid="d7/d5d/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_player_friends_result" kindref="compound">GameServicesLoadPlayerFriendsResult</ref> &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type><ref refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player" kindref="compound">IPlayer</ref>[]</type>
+          <declname>players</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" line="69" column="31" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" bodystart="69" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1ab9db8d24c810870a94423f08bbea6baf" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SendViewClosedResult</definition>
+        <argsstring>(EventCallback&lt; bool &gt; callback, Error error)</argsstring>
+        <name>SendViewClosedResult</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.PlayerBase.SendViewClosedResult</qualifiedname>
+        <param>
+          <type>EventCallback&lt; bool &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" line="76" column="31" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" bodystart="76" bodyend="80"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IPlayer</label>
+        <link refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player"/>
+      </node>
+      <node id="1">
+        <label>PlayerBase</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IPlayer</label>
+        <link refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player"/>
+      </node>
+      <node id="1">
+        <label>PlayerBase</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" line="10" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/PlayerBase.cs" bodystart="11" bodyend="83"/>
+    <listofallmembers>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1ab2ebdabf1f5b5afb170cd94ea4d28d52" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::PlayerBase</scope><name>Alias</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1acb49756bb1e0cde63867c7c1fbecec5e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::PlayerBase</scope><name>DeveloperScopeId</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a79058db2ed94f4241d163657bcce788c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::PlayerBase</scope><name>DeveloperScopeIdentifier</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1aba0e038e9b973f3ba4ca520a2fb057dc" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::PlayerBase</scope><name>DisplayName</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1ab84c6d1aac1783cfb8c47db5a70a21d3" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::PlayerBase</scope><name>GetAliasInternal</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a90a1df34d0e7fa530b0ec59046414937" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::PlayerBase</scope><name>GetDeveloperScopeIdentifierInternal</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a2a8bb992450244ea3ee61c4542bf5135" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::PlayerBase</scope><name>GetDisplayNameInternal</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a796f81177a94fd234b464e617222d74b" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::PlayerBase</scope><name>GetIdentifierInternal</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a7a893d17e6a5965b524dc9a96819149f" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::PlayerBase</scope><name>GetLegacyIdentifierInternal</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a186291c875988107b7ace745ea84d4ec" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::PlayerBase</scope><name>Id</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a4df71ed6bf05109e86a43738e8f9898a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::PlayerBase</scope><name>Identifier</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1aa0cbc31942d14d6c3e7ac461b42388a8" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::PlayerBase</scope><name>LegacyId</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1abde07ef8de541da9829605a7f3d25a2c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::PlayerBase</scope><name>LegacyIdentifier</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a33542b43cd72bbdbcacf9801f9bef643" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::PlayerBase</scope><name>LoadImage</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a6f4dd96af0468169b1e2cd8fbeee88ac" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::PlayerBase</scope><name>LoadImageInternal</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a0412029283d8ef58b75b87ea684072f7" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::PlayerBase</scope><name>SendLoadPlayerFriendsResult</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1ab9db8d24c810870a94423f08bbea6baf" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::PlayerBase</scope><name>SendViewClosedResult</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::PlayerBase</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

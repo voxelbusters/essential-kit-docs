@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d8/d0d/class_voxel_busters_1_1_core_library_1_1_event_handler_collection_1_1_event_handler_comparer" kind="class" language="C#" prot="private">
+    <compoundname>VoxelBusters::CoreLibrary::EventHandlerCollection::EventHandlerComparer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IComparer&lt; T &gt;</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/d0d/class_voxel_busters_1_1_core_library_1_1_event_handler_collection_1_1_event_handler_comparer_1a48354f0401abb8796fd42f1d78d63446" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Compare</definition>
+        <argsstring>(T x, T y)</argsstring>
+        <name>Compare</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.EventHandlerCollection.EventHandlerComparer.Compare</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Events/EventHandlerCollection.cs" line="116" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Events/EventHandlerCollection.cs" bodystart="116" bodyend="140"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Events/EventHandlerCollection.cs" line="112" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Events/EventHandlerCollection.cs" bodystart="113" bodyend="143"/>
+    <listofallmembers>
+      <member refid="d8/d0d/class_voxel_busters_1_1_core_library_1_1_event_handler_collection_1_1_event_handler_comparer_1a48354f0401abb8796fd42f1d78d63446" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::EventHandlerCollection::EventHandlerComparer</scope><name>Compare</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_load_scores_result" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::LeaderboardLoadScoresResult</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_load_scores_result_1a8e217ab8ab07c1428e2852d1d18c7839" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="d6/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_leaderboard_score" kindref="compound">ILeaderboardScore</ref>[]</type>
+        <definition>ILeaderboardScore [] Scores</definition>
+        <argsstring></argsstring>
+        <name>Scores</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardLoadScoresResult.Scores</qualifiedname>
+        <briefdescription>
+<para>An array of score values. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardLoadScoresResult.cs" line="18" column="34" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardLoadScoresResult.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_load_scores_result_1a0c3a40518d70778a3ae44e002b53cf64" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="d6/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_leaderboard_score" kindref="compound">ILeaderboardScore</ref></type>
+        <definition>ILeaderboardScore LocalPlayerScore</definition>
+        <argsstring></argsstring>
+        <name>LocalPlayerScore</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardLoadScoresResult.LocalPlayerScore</qualifiedname>
+        <briefdescription>
+<para>The current player&apos;s score information. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardLoadScoresResult.cs" line="23" column="34" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardLoadScoresResult.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_load_scores_result_1acdc9745f0b357981253d02b68422161c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LeaderboardLoadScoresResult</definition>
+        <argsstring>(ILeaderboardScore[] scores, ILeaderboardScore localPlayerScore)</argsstring>
+        <name>LeaderboardLoadScoresResult</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardLoadScoresResult.LeaderboardLoadScoresResult</qualifiedname>
+        <param>
+          <type><ref refid="d6/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_leaderboard_score" kindref="compound">ILeaderboardScore</ref>[]</type>
+          <declname>scores</declname>
+        </param>
+        <param>
+          <type><ref refid="d6/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_leaderboard_score" kindref="compound">ILeaderboardScore</ref></type>
+          <declname>localPlayerScore</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardLoadScoresResult.cs" line="29" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardLoadScoresResult.cs" bodystart="29" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class contains the information retrieved when load scores operation is completed. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardLoadScoresResult.cs" line="11" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardLoadScoresResult.cs" bodystart="12" bodyend="37"/>
+    <listofallmembers>
+      <member refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_load_scores_result_1acdc9745f0b357981253d02b68422161c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardLoadScoresResult</scope><name>LeaderboardLoadScoresResult</name></member>
+      <member refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_load_scores_result_1a0c3a40518d70778a3ae44e002b53cf64" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardLoadScoresResult</scope><name>LocalPlayerScore</name></member>
+      <member refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_load_scores_result_1a8e217ab8ab07c1428e2852d1d18c7839" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardLoadScoresResult</scope><name>Scores</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

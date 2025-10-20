@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d7/d11/group___rate_my_app" kind="group">
+    <compoundname>RateMyApp</compoundname>
+    <title>Rate My App</title>
+    <innerclass refid="d2/d13/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app" prot="public">VoxelBusters::EssentialKit::RateMyApp</innerclass>
+    <innerclass refid="d5/d86/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_localisation_key" prot="public">VoxelBusters::EssentialKit::RateMyAppLocalisationKey</innerclass>
+    <briefdescription>
+<para>Provides option for user to rate the app. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

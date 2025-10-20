@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="da/d58/deprecated" kind="page">
+    <compoundname>deprecated</compoundname>
+    <title>Deprecated List</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><variablelist>
+<varlistentry><term>Member <ref refid="da/d96/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_transaction_1ae8088582d38228c2d8a0d6fd559b6d96" kindref="member">IBillingTransaction.Payment</ref>  </term></varlistentry>
+<listitem><para><anchor id="da/d58/deprecated_1_deprecated000001"/>since v3.0.0 <linebreak/>
+  </para>
+</listitem>
+<varlistentry><term>Interface <ref refid="dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score" kindref="compound">IScore</ref>  </term></varlistentry>
+<listitem><para><anchor id="da/d58/deprecated_1_deprecated000002"/>Since V3.0.0  </para>
+</listitem>
+<varlistentry><term>Class <ref refid="da/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_services_save_image_to_gallery_result" kindref="compound">MediaServicesSaveImageToGalleryResult</ref>  </term></varlistentry>
+<listitem><para><anchor id="da/d58/deprecated_1_deprecated000003"/>Use <ref refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a7c83711bce72df6b01337c6d3f17a483" kindref="member">MediaServices.SaveMediaContent</ref> instead </para>
+</listitem>
+</variablelist>
+</para>
+    </detaileddescription>
+    <location file="da/d58/deprecated"/>
+  </compounddef>
+</doxygen>

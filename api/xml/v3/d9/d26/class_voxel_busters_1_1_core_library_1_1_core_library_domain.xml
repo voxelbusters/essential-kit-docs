@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/d26/class_voxel_busters_1_1_core_library_1_1_core_library_domain" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::CoreLibraryDomain</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d9/d26/class_voxel_busters_1_1_core_library_1_1_core_library_domain_1a57818ca0924f9791fd2e538c3e12ccd7" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Default</definition>
+        <argsstring></argsstring>
+        <name>Default</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CoreLibraryDomain.Default</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/CoreLibraryDomain.cs" line="9" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/CoreLibraryDomain.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/d26/class_voxel_busters_1_1_core_library_1_1_core_library_domain_1ae361fa5010a9e7a5abddf54ffcb7acd9" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string NativePlugins</definition>
+        <argsstring></argsstring>
+        <name>NativePlugins</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CoreLibraryDomain.NativePlugins</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/CoreLibraryDomain.cs" line="11" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/CoreLibraryDomain.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/CoreLibraryDomain.cs" line="7" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/CoreLibraryDomain.cs" bodystart="8" bodyend="12"/>
+    <listofallmembers>
+      <member refid="d9/d26/class_voxel_busters_1_1_core_library_1_1_core_library_domain_1a57818ca0924f9791fd2e538c3e12ccd7" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CoreLibraryDomain</scope><name>Default</name></member>
+      <member refid="d9/d26/class_voxel_busters_1_1_core_library_1_1_core_library_domain_1ae361fa5010a9e7a5abddf54ffcb7acd9" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CoreLibraryDomain</scope><name>NativePlugins</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

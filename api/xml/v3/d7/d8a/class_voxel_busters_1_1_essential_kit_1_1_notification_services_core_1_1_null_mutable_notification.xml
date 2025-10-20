@@ -1,0 +1,409 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification" kind="class" language="C#" prot="package" sealed="yes">
+    <compoundname>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NotificationBase</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IMutableNotification</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a3d1d74ba3d9c8183b005b39ac6009e59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NullMutableNotification</definition>
+        <argsstring>(string notificationId)</argsstring>
+        <name>NullMutableNotification</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NullMutableNotification.NullMutableNotification</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>notificationId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" line="12" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" bodystart="12" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a7986a0fb20eac7cd71628b78f85b3331" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetTitle</definition>
+        <argsstring>(string value)</argsstring>
+        <name>SetTitle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NullMutableNotification.SetTitle</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" line="103" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" bodystart="103" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a7aad8737eacb923e96a8c5f62d2d9b4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetSubtitle</definition>
+        <argsstring>(string value)</argsstring>
+        <name>SetSubtitle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NullMutableNotification.SetSubtitle</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" line="108" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" bodystart="108" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1af6024815787428d310254eff861a251b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetBody</definition>
+        <argsstring>(string value)</argsstring>
+        <name>SetBody</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NullMutableNotification.SetBody</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" line="113" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" bodystart="113" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a4145ad4eb262c40deab0f7986849897b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetBadge</definition>
+        <argsstring>(int value)</argsstring>
+        <name>SetBadge</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NullMutableNotification.SetBadge</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" line="118" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" bodystart="118" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a313c4dbeac26bcc53add7d26ea202809" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetUserInfo</definition>
+        <argsstring>(IDictionary value)</argsstring>
+        <name>SetUserInfo</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NullMutableNotification.SetUserInfo</qualifiedname>
+        <param>
+          <type>IDictionary</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" line="123" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" bodystart="123" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a0e5a7cb7ac1153017594e26448f4c2cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetSoundFileName</definition>
+        <argsstring>(string value)</argsstring>
+        <name>SetSoundFileName</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NullMutableNotification.SetSoundFileName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" line="128" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" bodystart="128" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1aff700a45328901bba941fb5a84df6d8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetIosProperties</definition>
+        <argsstring>(NotificationIosProperties value)</argsstring>
+        <name>SetIosProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NullMutableNotification.SetIosProperties</qualifiedname>
+        <param>
+          <type><ref refid="dc/d6b/class_voxel_busters_1_1_essential_kit_1_1_notification_ios_properties" kindref="compound">NotificationIosProperties</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" line="133" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" bodystart="133" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1aa9f6b25985919f52dd00ee12bc2b733f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetAndroidProperties</definition>
+        <argsstring>(NotificationAndroidProperties value)</argsstring>
+        <name>SetAndroidProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NullMutableNotification.SetAndroidProperties</qualifiedname>
+        <param>
+          <type><ref refid="d2/da4/class_voxel_busters_1_1_essential_kit_1_1_notification_android_properties" kindref="compound">NotificationAndroidProperties</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" line="138" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" bodystart="138" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a870987550796ddfc195de3d5b8c2522f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetTrigger</definition>
+        <argsstring>(INotificationTrigger trigger)</argsstring>
+        <name>SetTrigger</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NullMutableNotification.SetTrigger</qualifiedname>
+        <param>
+          <type><ref refid="d2/df5/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_trigger" kindref="compound">INotificationTrigger</ref></type>
+          <declname>trigger</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" line="143" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" bodystart="143" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a57b4dc189c99605c16e24045c809eb3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetPriority</definition>
+        <argsstring>(NotificationPriority value)</argsstring>
+        <name>SetPriority</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NullMutableNotification.SetPriority</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1aed65b4bc3683d5107f984b5d778bf553" kindref="member">NotificationPriority</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" line="148" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" bodystart="148" bodyend="151"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogNotSupported</definition>
+        <argsstring>()</argsstring>
+        <name>LogNotSupported</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NullMutableNotification.LogNotSupported</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" line="20" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1abf700b6444f1394038bfd6bb07edd9cc" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string GetTitleInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetTitleInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NullMutableNotification.GetTitleInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" line="29" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" bodystart="29" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a07e6a531045dc17555d4c37b0dc6fbe9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string GetSubtitleInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetSubtitleInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NullMutableNotification.GetSubtitleInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" line="36" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" bodystart="36" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a2a9dc3a787b51a574df9aa094c2c0f2e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string GetBodyInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetBodyInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NullMutableNotification.GetBodyInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" line="43" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" bodystart="43" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a469704ee90ac9f26b83372049e7528b9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int GetBadgeInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetBadgeInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NullMutableNotification.GetBadgeInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" line="50" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" bodystart="50" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a658af337497a229a9709e566133fd27c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override IDictionary</type>
+        <definition>override IDictionary GetUserInfoInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetUserInfoInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NullMutableNotification.GetUserInfoInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" line="57" column="40" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" bodystart="57" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1ad95de7138c0ca4f2018e4ffafb811e12" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string GetSoundFileNameInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetSoundFileNameInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NullMutableNotification.GetSoundFileNameInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" line="64" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" bodystart="64" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1aa641b2231b48b262d98a698b7a011314" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override <ref refid="d2/df5/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_trigger" kindref="compound">INotificationTrigger</ref></type>
+        <definition>override INotificationTrigger GetTriggerInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetTriggerInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NullMutableNotification.GetTriggerInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" line="71" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" bodystart="71" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a125e99d3a964ccf5d9ecb9ccb9c76e64" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool GetIsLaunchNotificationInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetIsLaunchNotificationInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NullMutableNotification.GetIsLaunchNotificationInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" line="78" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" bodystart="78" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1af6d35074028c8066b0abb442c456c576" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override <ref refid="dc/d6b/class_voxel_busters_1_1_essential_kit_1_1_notification_ios_properties" kindref="compound">NotificationIosProperties</ref></type>
+        <definition>override NotificationIosProperties GetIosPropertiesInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetIosPropertiesInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NullMutableNotification.GetIosPropertiesInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" line="85" column="54" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" bodystart="85" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a24d50d5bdecf813636fca416bad5ee4e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override <ref refid="d2/da4/class_voxel_busters_1_1_essential_kit_1_1_notification_android_properties" kindref="compound">NotificationAndroidProperties</ref></type>
+        <definition>override NotificationAndroidProperties GetAndroidPropertiesInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetAndroidPropertiesInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NullMutableNotification.GetAndroidPropertiesInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" line="92" column="58" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" bodystart="92" bodyend="97"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" line="8" column="13" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NullMutableNotification.cs" bodystart="9" bodyend="154"/>
+    <listofallmembers>
+      <member refid="d0/dd3/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_notification_base_1a489fd359c4d853072a7fe45caeb82542" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>AndroidProperties</name></member>
+      <member refid="d0/dd3/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_notification_base_1a69cb5539dcf84ebb71b604f2e05e9b77" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>Badge</name></member>
+      <member refid="d0/dd3/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_notification_base_1aa22a174fd7f5d080c4e4714fd0dde308" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>Body</name></member>
+      <member refid="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a24d50d5bdecf813636fca416bad5ee4e" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>GetAndroidPropertiesInternal</name></member>
+      <member refid="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a469704ee90ac9f26b83372049e7528b9" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>GetBadgeInternal</name></member>
+      <member refid="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a2a9dc3a787b51a574df9aa094c2c0f2e" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>GetBodyInternal</name></member>
+      <member refid="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1af6d35074028c8066b0abb442c456c576" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>GetIosPropertiesInternal</name></member>
+      <member refid="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a125e99d3a964ccf5d9ecb9ccb9c76e64" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>GetIsLaunchNotificationInternal</name></member>
+      <member refid="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1ad95de7138c0ca4f2018e4ffafb811e12" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>GetSoundFileNameInternal</name></member>
+      <member refid="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a07e6a531045dc17555d4c37b0dc6fbe9" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>GetSubtitleInternal</name></member>
+      <member refid="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1abf700b6444f1394038bfd6bb07edd9cc" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>GetTitleInternal</name></member>
+      <member refid="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1aa641b2231b48b262d98a698b7a011314" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>GetTriggerInternal</name></member>
+      <member refid="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a658af337497a229a9709e566133fd27c" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>GetUserInfoInternal</name></member>
+      <member refid="d0/dd3/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_notification_base_1a186291c875988107b7ace745ea84d4ec" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>Id</name></member>
+      <member refid="d0/dd3/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_notification_base_1a246ac67f3648b7eefab91c5feba7753c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>IosProperties</name></member>
+      <member refid="d0/dd3/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_notification_base_1aecaabe7d685249564fe5a16cf6929f03" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>IsLaunchNotification</name></member>
+      <member refid="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>LogNotSupported</name></member>
+      <member refid="d0/dd3/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_notification_base_1a45f9255d18219d2ca307e0bd071b6645" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>NotificationBase</name></member>
+      <member refid="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a3d1d74ba3d9c8183b005b39ac6009e59" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>NullMutableNotification</name></member>
+      <member refid="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1aa9f6b25985919f52dd00ee12bc2b733f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>SetAndroidProperties</name></member>
+      <member refid="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a4145ad4eb262c40deab0f7986849897b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>SetBadge</name></member>
+      <member refid="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1af6024815787428d310254eff861a251b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>SetBody</name></member>
+      <member refid="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1aff700a45328901bba941fb5a84df6d8b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>SetIosProperties</name></member>
+      <member refid="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a57b4dc189c99605c16e24045c809eb3a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>SetPriority</name></member>
+      <member refid="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a0e5a7cb7ac1153017594e26448f4c2cd" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>SetSoundFileName</name></member>
+      <member refid="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a7aad8737eacb923e96a8c5f62d2d9b4a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>SetSubtitle</name></member>
+      <member refid="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a7986a0fb20eac7cd71628b78f85b3331" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>SetTitle</name></member>
+      <member refid="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a870987550796ddfc195de3d5b8c2522f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>SetTrigger</name></member>
+      <member refid="d7/d8a/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_mutable_notification_1a313c4dbeac26bcc53add7d26ea202809" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>SetUserInfo</name></member>
+      <member refid="d0/dd3/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_notification_base_1aa8f8469a79ee1c29b2e0beb6caf9998b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>SoundFileName</name></member>
+      <member refid="d0/dd3/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_notification_base_1a2bbd6f155e26aee6920a027fa39795f8" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>Subtitle</name></member>
+      <member refid="d0/dd3/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_notification_base_1aa7b633091e7820b835d04d0d5fc197c7" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>Title</name></member>
+      <member refid="d0/dd3/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_notification_base_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>ToString</name></member>
+      <member refid="d0/dd3/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_notification_base_1a5cfe2ff2c36d74de972ddb28a63b7259" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>Trigger</name></member>
+      <member refid="d0/dd3/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_notification_base_1a64d64d98d5aed0a0330a73ef38e4f808" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>TriggerType</name></member>
+      <member refid="d0/dd3/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_notification_base_1afe57e84d9a5251e7f2146537692c4e11" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NullMutableNotification</scope><name>UserInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

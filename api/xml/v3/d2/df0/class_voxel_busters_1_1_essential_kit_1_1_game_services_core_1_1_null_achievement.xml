@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d2/df0/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement" kind="class" language="C#" prot="package" sealed="yes">
+    <compoundname>VoxelBusters::EssentialKit::GameServicesCore::NullAchievement</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AchievementBase</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/df0/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_1a569a7beca819e422312da97d7e77e15d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NullAchievement</definition>
+        <argsstring>(string id, string platformId)</argsstring>
+        <name>NullAchievement</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullAchievement.NullAchievement</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>platformId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievement.cs" line="13" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievement.cs" bodystart="13" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d2/df0/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_1a347b555a2b409833070b9b8910aed93b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SetCanShowBannerOnCompletion</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>SetCanShowBannerOnCompletion</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullAchievement.SetCanShowBannerOnCompletion</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievement.cs" line="20" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievement.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/df0/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_1a4ff6c4703b8e40312215ae2828b6e2da" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LoadAchievements</definition>
+        <argsstring>(LoadAchievementsInternalCallback callback)</argsstring>
+        <name>LoadAchievements</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullAchievement.LoadAchievements</qualifiedname>
+        <param>
+          <type>LoadAchievementsInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievement.cs" line="25" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievement.cs" bodystart="25" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/df0/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_1a218cf706e324733c22d96fd26ad8c80f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ShowAchievementView</definition>
+        <argsstring>(ViewClosedInternalCallback callback)</argsstring>
+        <name>ShowAchievementView</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullAchievement.ShowAchievementView</qualifiedname>
+        <param>
+          <type>ViewClosedInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievement.cs" line="32" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievement.cs" bodystart="32" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d2/df0/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogNotSupported</definition>
+        <argsstring>()</argsstring>
+        <name>LogNotSupported</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullAchievement.LogNotSupported</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievement.cs" line="43" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievement.cs" bodystart="43" bodyend="46"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d2/df0/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_1a49c7c2974fd54b76c50ad8f5ca82fa7f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override double</type>
+        <definition>override double GetPercentageCompletedInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetPercentageCompletedInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullAchievement.GetPercentageCompletedInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievement.cs" line="52" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievement.cs" bodystart="52" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/df0/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_1a02e829338c577e159340edac560a7cb6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void SetPercentageCompletedInternal</definition>
+        <argsstring>(double value)</argsstring>
+        <name>SetPercentageCompletedInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullAchievement.SetPercentageCompletedInternal</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievement.cs" line="59" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievement.cs" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/df0/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_1a4e2465be25e60f6dd8a5640a5bef0bdd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool GetIsCompletedInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetIsCompletedInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullAchievement.GetIsCompletedInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievement.cs" line="64" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievement.cs" bodystart="64" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/df0/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_1a1c40fe25a5e7c5c8798deb7c1b9392c6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override DateTime</type>
+        <definition>override DateTime GetLastReportedDateInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetLastReportedDateInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullAchievement.GetLastReportedDateInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievement.cs" line="71" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievement.cs" bodystart="71" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/df0/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_1a8c95d1cb7b8236094ef3b210960eeced" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ReportProgressInternal</definition>
+        <argsstring>(ReportAchievementProgressInternalCallback callback)</argsstring>
+        <name>ReportProgressInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullAchievement.ReportProgressInternal</qualifiedname>
+        <param>
+          <type>ReportAchievementProgressInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievement.cs" line="78" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievement.cs" bodystart="78" bodyend="83"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievement.cs" line="9" column="13" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullAchievement.cs" bodystart="10" bodyend="86"/>
+    <listofallmembers>
+      <member refid="d4/d33/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_achievement_base_1a52815a701210a9df74bc8246f44bbcc1" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievement</scope><name>AchievementBase</name></member>
+      <member refid="d2/df0/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_1a4e2465be25e60f6dd8a5640a5bef0bdd" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievement</scope><name>GetIsCompletedInternal</name></member>
+      <member refid="d2/df0/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_1a1c40fe25a5e7c5c8798deb7c1b9392c6" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievement</scope><name>GetLastReportedDateInternal</name></member>
+      <member refid="d2/df0/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_1a49c7c2974fd54b76c50ad8f5ca82fa7f" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievement</scope><name>GetPercentageCompletedInternal</name></member>
+      <member refid="d4/d33/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_achievement_base_1a186291c875988107b7ace745ea84d4ec" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievement</scope><name>Id</name></member>
+      <member refid="d4/d33/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_achievement_base_1a56e67c316e46f622ba314b13c1a2a517" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievement</scope><name>IsCompleted</name></member>
+      <member refid="d4/d33/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_achievement_base_1ad529323ce21c8ad3696e8662464b9369" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievement</scope><name>LastReportedDate</name></member>
+      <member refid="d2/df0/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_1a4ff6c4703b8e40312215ae2828b6e2da" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievement</scope><name>LoadAchievements</name></member>
+      <member refid="d2/df0/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievement</scope><name>LogNotSupported</name></member>
+      <member refid="d2/df0/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_1a569a7beca819e422312da97d7e77e15d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievement</scope><name>NullAchievement</name></member>
+      <member refid="d4/d33/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_achievement_base_1a7f2cdfcafc2c15367ecb126a105b4932" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievement</scope><name>PercentageCompleted</name></member>
+      <member refid="d4/d33/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_achievement_base_1a4305da1d4a33e2d56b149fc3c41a617c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievement</scope><name>PlatformId</name></member>
+      <member refid="d4/d33/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_achievement_base_1af22147c890141bc2a2792fec7f74eaab" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievement</scope><name>ReportProgress</name></member>
+      <member refid="d2/df0/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_1a8c95d1cb7b8236094ef3b210960eeced" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievement</scope><name>ReportProgressInternal</name></member>
+      <member refid="d2/df0/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_1a347b555a2b409833070b9b8910aed93b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievement</scope><name>SetCanShowBannerOnCompletion</name></member>
+      <member refid="d2/df0/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_1a02e829338c577e159340edac560a7cb6" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievement</scope><name>SetPercentageCompletedInternal</name></member>
+      <member refid="d2/df0/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_achievement_1a218cf706e324733c22d96fd26ad8c80f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievement</scope><name>ShowAchievementView</name></member>
+      <member refid="d4/d33/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_achievement_base_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullAchievement</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

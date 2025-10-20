@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d2/dc4/_address_book_contact_base_8cs" kind="file" language="C#">
+    <compoundname>AddressBookContactBase.cs</compoundname>
+    <innerclass refid="db/d84/class_voxel_busters_1_1_essential_kit_1_1_address_book_core_1_1_address_book_contact_base" prot="public">VoxelBusters::EssentialKit::AddressBookCore::AddressBookContactBase</innerclass>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <innernamespace refid="dd/dd8/namespace_voxel_busters_1_1_essential_kit_1_1_address_book_core">VoxelBusters::EssentialKit::AddressBookCore</innernamespace>
+    <innernamespace refid="d8/d71/namespace_system_1_1_text">System::Text</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookContactBase.cs"/>
+  </compounddef>
+</doxygen>

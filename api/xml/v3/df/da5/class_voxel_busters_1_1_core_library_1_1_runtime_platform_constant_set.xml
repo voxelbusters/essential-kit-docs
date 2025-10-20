@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="df/da5/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_set" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::RuntimePlatformConstantSet</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="df/da5/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_set_1a73f3236add1e58ce4ea6bb3f18fc68db" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_ios</definition>
+        <argsstring></argsstring>
+        <name>m_ios</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimePlatformConstantSet.m_ios</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstantSet.cs" line="14" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstantSet.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/da5/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_set_1a3031a549707a405f0cd52a5779e4f3ba" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_tvos</definition>
+        <argsstring></argsstring>
+        <name>m_tvos</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimePlatformConstantSet.m_tvos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstantSet.cs" line="17" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstantSet.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/da5/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_set_1a0dcda306b6d0ee3d3fd4fbbfcfe59a0e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_android</definition>
+        <argsstring></argsstring>
+        <name>m_android</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimePlatformConstantSet.m_android</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstantSet.cs" line="20" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstantSet.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/da5/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_set_1ac16d457792320e8795632eab8099b6f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RuntimePlatformConstantSet</definition>
+        <argsstring>(string ios=null, string tvos=null, string android=null)</argsstring>
+        <name>RuntimePlatformConstantSet</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimePlatformConstantSet.RuntimePlatformConstantSet</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>ios</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tvos</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>android</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstantSet.cs" line="26" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstantSet.cs" bodystart="26" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="df/da5/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_set_1a09c71d0f04f8fcce36cf7a337ab0526c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetConstantForActivePlatform</definition>
+        <argsstring>(string defaultValue=null)</argsstring>
+        <name>GetConstantForActivePlatform</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimePlatformConstantSet.GetConstantForActivePlatform</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>defaultValue</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstantSet.cs" line="38" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstantSet.cs" bodystart="38" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="df/da5/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_set_1a61d2119601d053b8027e9adc1072fbe7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetConstantForActiveOrSimulationPlatform</definition>
+        <argsstring>(string defaultValue=null)</argsstring>
+        <name>GetConstantForActiveOrSimulationPlatform</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimePlatformConstantSet.GetConstantForActiveOrSimulationPlatform</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>defaultValue</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstantSet.cs" line="44" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstantSet.cs" bodystart="44" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="df/da5/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_set_1a3b296c3c23c8e80b0f913a529f8d114d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetConstantForPlatform</definition>
+        <argsstring>(RuntimePlatform platform, string defaultValue=null)</argsstring>
+        <name>GetConstantForPlatform</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimePlatformConstantSet.GetConstantForPlatform</qualifiedname>
+        <param>
+          <type>RuntimePlatform</type>
+          <declname>platform</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>defaultValue</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstantSet.cs" line="50" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstantSet.cs" bodystart="50" bodyend="73"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstantSet.cs" line="9" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/RuntimePlatformConstantSet.cs" bodystart="10" bodyend="76"/>
+    <listofallmembers>
+      <member refid="df/da5/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_set_1a61d2119601d053b8027e9adc1072fbe7" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimePlatformConstantSet</scope><name>GetConstantForActiveOrSimulationPlatform</name></member>
+      <member refid="df/da5/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_set_1a09c71d0f04f8fcce36cf7a337ab0526c" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimePlatformConstantSet</scope><name>GetConstantForActivePlatform</name></member>
+      <member refid="df/da5/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_set_1a3b296c3c23c8e80b0f913a529f8d114d" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimePlatformConstantSet</scope><name>GetConstantForPlatform</name></member>
+      <member refid="df/da5/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_set_1a0dcda306b6d0ee3d3fd4fbbfcfe59a0e" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimePlatformConstantSet</scope><name>m_android</name></member>
+      <member refid="df/da5/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_set_1a73f3236add1e58ce4ea6bb3f18fc68db" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimePlatformConstantSet</scope><name>m_ios</name></member>
+      <member refid="df/da5/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_set_1a3031a549707a405f0cd52a5779e4f3ba" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimePlatformConstantSet</scope><name>m_tvos</name></member>
+      <member refid="df/da5/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_set_1ac16d457792320e8795632eab8099b6f1" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimePlatformConstantSet</scope><name>RuntimePlatformConstantSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

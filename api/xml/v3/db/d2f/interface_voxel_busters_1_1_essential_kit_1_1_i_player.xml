@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::IPlayer</compoundname>
+    <derivedcompoundref refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base" prot="public" virt="non-virtual">PlayerBase</derivedcompoundref>
+    <derivedcompoundref refid="d4/d37/interface_voxel_busters_1_1_essential_kit_1_1_i_local_player" prot="public" virt="non-virtual">ILocalPlayer</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1a186291c875988107b7ace745ea84d4ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IPlayer.Id</qualifiedname>
+        <briefdescription>
+<para>A string assigned by game service to uniquely identify a player. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IPlayer.cs" line="18" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IPlayer.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1acb49756bb1e0cde63867c7c1fbecec5e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string DeveloperScopeId</definition>
+        <argsstring></argsstring>
+        <name>DeveloperScopeId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IPlayer.DeveloperScopeId</qualifiedname>
+        <briefdescription>
+<para>A unique identifier for a player of all the games that you distribute using your developer account. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This property is used to identify a player across all the games that you develop and distribute with the same developer account. </para>
+<para><simplesect kind="note"><para>This is currently available for iOS only. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IPlayer.cs" line="30" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IPlayer.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1aa0cbc31942d14d6c3e7ac461b42388a8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LegacyId</definition>
+        <argsstring></argsstring>
+        <name>LegacyId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IPlayer.LegacyId</qualifiedname>
+        <briefdescription>
+<para>Legacy identifier for backward compatibility. Use <ref refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1a186291c875988107b7ace745ea84d4ec" kindref="member">Id</ref> or <ref refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1acb49756bb1e0cde63867c7c1fbecec5e" kindref="member">DeveloperScopeId</ref> instead. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This property is used for legacy purposes and should not be used in new code. Please use <ref refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1a186291c875988107b7ace745ea84d4ec" kindref="member">Id</ref> or <ref refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1acb49756bb1e0cde63867c7c1fbecec5e" kindref="member">DeveloperScopeId</ref> instead. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IPlayer.cs" line="42" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IPlayer.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="property" id="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1a4df71ed6bf05109e86a43738e8f9898a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Identifier</definition>
+        <argsstring></argsstring>
+        <name>Identifier</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IPlayer.Identifier</qualifiedname>
+        <briefdescription>
+<para>A string assigned by game service to uniquely identify a player. (read-only) On iOS, this is equivalent to game scope identifier. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>If you are migrating from V2 and still want to use the same identifier as in v2 you need to use LegacyIdentifier instead. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IPlayer.cs" line="50" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IPlayer.cs" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="property" id="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1a79058db2ed94f4241d163657bcce788c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string DeveloperScopeIdentifier</definition>
+        <argsstring></argsstring>
+        <name>DeveloperScopeIdentifier</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IPlayer.DeveloperScopeIdentifier</qualifiedname>
+        <briefdescription>
+<para>A unique identifier for a player of all the games that you distribute using your developer account. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This property is used to identify a player across all the games that you develop and distribute with the same developer account. </para>
+<para><simplesect kind="note"><para>This is currently available for iOS only. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IPlayer.cs" line="61" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IPlayer.cs" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="property" id="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1abde07ef8de541da9829605a7f3d25a2c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LegacyIdentifier</definition>
+        <argsstring></argsstring>
+        <name>LegacyIdentifier</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IPlayer.LegacyIdentifier</qualifiedname>
+        <briefdescription>
+<para>Legacy identifier for backward compatibility. Use <ref refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1a4df71ed6bf05109e86a43738e8f9898a" kindref="member">Identifier</ref> or <ref refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1a79058db2ed94f4241d163657bcce788c" kindref="member">DeveloperScopeIdentifier</ref> instead. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This property is used for legacy purposes and should not be used in new code. Please use <ref refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1a4df71ed6bf05109e86a43738e8f9898a" kindref="member">Identifier</ref> or <ref refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1a79058db2ed94f4241d163657bcce788c" kindref="member">DeveloperScopeIdentifier</ref> instead. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IPlayer.cs" line="72" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IPlayer.cs" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="property" id="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1ab2ebdabf1f5b5afb170cd94ea4d28d52" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Alias</definition>
+        <argsstring></argsstring>
+        <name>Alias</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IPlayer.Alias</qualifiedname>
+        <briefdescription>
+<para>A string chosen by the player to identify themselves to others. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This property is used when a player is not a friend of the local player. For displaying name on user interface, use the <ref refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1aba0e038e9b973f3ba4ca520a2fb057dc" kindref="member">DisplayName</ref> property.  </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IPlayer.cs" line="80" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IPlayer.cs" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="property" id="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1aba0e038e9b973f3ba4ca520a2fb057dc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string DisplayName</definition>
+        <argsstring></argsstring>
+        <name>DisplayName</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IPlayer.DisplayName</qualifiedname>
+        <briefdescription>
+<para>A string to display for the player. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If the player is a friend of the local player, then the value returned is the actual name of the player. And incase if he is not a friend, then players alias will be returned.  </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IPlayer.cs" line="89" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IPlayer.cs" bodystart="89" bodyend="89"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1a33542b43cd72bbdbcacf9801f9bef643" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoadImage</definition>
+        <argsstring>(EventCallback&lt; TextureData &gt; callback)</argsstring>
+        <name>LoadImage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IPlayer.LoadImage</qualifiedname>
+        <param>
+          <type>EventCallback&lt; TextureData &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Loads the player profile image. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Callback that will be called after operation is completed.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IPlayer.cs" line="99" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Provides a cross-platform interface to access information about a player playing your game. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>IPlayer</label>
+        <link refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player"/>
+      </node>
+      <node id="2">
+        <label>ILocalPlayer</label>
+        <link refid="d4/d37/interface_voxel_busters_1_1_essential_kit_1_1_i_local_player"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IPlayer.cs" line="10" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IPlayer.cs" bodystart="11" bodyend="102"/>
+    <listofallmembers>
+      <member refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1ab2ebdabf1f5b5afb170cd94ea4d28d52" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IPlayer</scope><name>Alias</name></member>
+      <member refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1acb49756bb1e0cde63867c7c1fbecec5e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IPlayer</scope><name>DeveloperScopeId</name></member>
+      <member refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1a79058db2ed94f4241d163657bcce788c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IPlayer</scope><name>DeveloperScopeIdentifier</name></member>
+      <member refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1aba0e038e9b973f3ba4ca520a2fb057dc" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IPlayer</scope><name>DisplayName</name></member>
+      <member refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1a186291c875988107b7ace745ea84d4ec" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IPlayer</scope><name>Id</name></member>
+      <member refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1a4df71ed6bf05109e86a43738e8f9898a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IPlayer</scope><name>Identifier</name></member>
+      <member refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1aa0cbc31942d14d6c3e7ac461b42388a8" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IPlayer</scope><name>LegacyId</name></member>
+      <member refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1abde07ef8de541da9829605a7f3d25a2c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IPlayer</scope><name>LegacyIdentifier</name></member>
+      <member refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player_1a33542b43cd72bbdbcacf9801f9bef643" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IPlayer</scope><name>LoadImage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

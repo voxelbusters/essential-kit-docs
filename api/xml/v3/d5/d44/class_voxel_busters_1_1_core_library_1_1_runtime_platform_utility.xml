@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d5/d44/class_voxel_busters_1_1_core_library_1_1_runtime_platform_utility" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::RuntimePlatformUtility</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d5/d44/class_voxel_busters_1_1_core_library_1_1_runtime_platform_utility_1ad0beef2720b7d31750f08473543895e3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IsEditor</definition>
+        <argsstring>(this RuntimePlatform other)</argsstring>
+        <name>IsEditor</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimePlatformUtility.IsEditor</qualifiedname>
+        <param>
+          <type>this RuntimePlatform</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/RuntimePlatformUtility.cs" line="9" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/RuntimePlatformUtility.cs" bodystart="9" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/RuntimePlatformUtility.cs" line="7" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/RuntimePlatformUtility.cs" bodystart="8" bodyend="15"/>
+    <listofallmembers>
+      <member refid="d5/d44/class_voxel_busters_1_1_core_library_1_1_runtime_platform_utility_1ad0beef2720b7d31750f08473543895e3" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimePlatformUtility</scope><name>IsEditor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

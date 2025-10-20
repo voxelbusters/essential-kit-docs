@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="da/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_services_save_image_to_gallery_result" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::MediaServicesSaveImageToGalleryResult</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="da/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_services_save_image_to_gallery_result_1a506fb037fbb6bfe8f254c021a2c3cfac" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Success</definition>
+        <argsstring></argsstring>
+        <name>Success</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesSaveImageToGalleryResult.Success</qualifiedname>
+        <briefdescription>
+<para>The status of requested operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>true</computeroutput> if success; otherwise, <computeroutput>false</computeroutput>.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesSaveImageToGalleryResult.cs" line="22" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesSaveImageToGalleryResult.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="da/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_services_save_image_to_gallery_result_1abf77d64bf0df59438158f154785e5f78" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaServicesSaveImageToGalleryResult</definition>
+        <argsstring>(bool success)</argsstring>
+        <name>MediaServicesSaveImageToGalleryResult</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesSaveImageToGalleryResult.MediaServicesSaveImageToGalleryResult</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>success</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesSaveImageToGalleryResult.cs" line="28" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesSaveImageToGalleryResult.cs" bodystart="28" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class contains the information retrieved when MediaServices.SaveImageToGallery(Texture2D, EventCallback&lt;MediaServicesSaveImageToGalleryResult&gt;) operation is completed. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><xrefsect id="da/d58/deprecated_1_deprecated000003"><xreftitle>Deprecated</xreftitle><xrefdescription><para>Use <ref refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a7c83711bce72df6b01337c6d3f17a483" kindref="member">MediaServices.SaveMediaContent</ref> instead </para>
+</xrefdescription></xrefsect></para>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesSaveImageToGalleryResult.cs" line="14" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesSaveImageToGalleryResult.cs" bodystart="15" bodyend="35"/>
+    <listofallmembers>
+      <member refid="da/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_services_save_image_to_gallery_result_1abf77d64bf0df59438158f154785e5f78" prot="package" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesSaveImageToGalleryResult</scope><name>MediaServicesSaveImageToGalleryResult</name></member>
+      <member refid="da/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_services_save_image_to_gallery_result_1a506fb037fbb6bfe8f254c021a2c3cfac" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesSaveImageToGalleryResult</scope><name>Success</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

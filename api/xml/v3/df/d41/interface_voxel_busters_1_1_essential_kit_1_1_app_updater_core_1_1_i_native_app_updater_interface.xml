@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="df/d41/interface_voxel_busters_1_1_essential_kit_1_1_app_updater_core_1_1_i_native_app_updater_interface" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::AppUpdaterCore::INativeAppUpdaterInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">INativeFeatureInterface</basecompoundref>
+    <derivedcompoundref refid="dc/dd8/class_voxel_busters_1_1_essential_kit_1_1_app_updater_core_1_1_null_app_updater_interface" prot="public" virt="non-virtual">NullAppUpdaterInterface</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d41/interface_voxel_busters_1_1_essential_kit_1_1_app_updater_core_1_1_i_native_app_updater_interface_1a83b3d582c67185006ba32e18965c84d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RequestUpdateInfo</definition>
+        <argsstring>(EventCallback&lt; AppUpdaterUpdateInfo &gt; callback)</argsstring>
+        <name>RequestUpdateInfo</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdaterCore.INativeAppUpdaterInterface.RequestUpdateInfo</qualifiedname>
+        <param>
+          <type>EventCallback&lt; <ref refid="dd/d74/class_voxel_busters_1_1_essential_kit_1_1_app_updater_update_info" kindref="compound">AppUpdaterUpdateInfo</ref> &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/INativeAppUpdaterInterface.cs" line="10" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d41/interface_voxel_busters_1_1_essential_kit_1_1_app_updater_core_1_1_i_native_app_updater_interface_1ac691a631edb4e06de29b0e9e755a85e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PromptUpdate</definition>
+        <argsstring>(PromptUpdateOptions options, EventCallback&lt; float &gt; callback)</argsstring>
+        <name>PromptUpdate</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdaterCore.INativeAppUpdaterInterface.PromptUpdate</qualifiedname>
+        <param>
+          <type><ref refid="d5/d7f/class_voxel_busters_1_1_essential_kit_1_1_prompt_update_options" kindref="compound">PromptUpdateOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>EventCallback&lt; float &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/INativeAppUpdaterInterface.cs" line="12" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/INativeAppUpdaterInterface.cs" line="6" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/INativeAppUpdaterInterface.cs" bodystart="7" bodyend="15"/>
+    <listofallmembers>
+      <member refid="df/d41/interface_voxel_busters_1_1_essential_kit_1_1_app_updater_core_1_1_i_native_app_updater_interface_1ac691a631edb4e06de29b0e9e755a85e3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppUpdaterCore::INativeAppUpdaterInterface</scope><name>PromptUpdate</name></member>
+      <member refid="df/d41/interface_voxel_busters_1_1_essential_kit_1_1_app_updater_core_1_1_i_native_app_updater_interface_1a83b3d582c67185006ba32e18965c84d2" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppUpdaterCore::INativeAppUpdaterInterface</scope><name>RequestUpdateInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dc/d87/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_utility" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::RuntimePlatformConstantUtility</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dc/d87/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_utility_1aa4970d44ea13033ef8c5a31fcdade018" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant" kindref="compound">RuntimePlatformConstant</ref></type>
+        <definition>static RuntimePlatformConstant FindConstantForActivePlatform</definition>
+        <argsstring>(RuntimePlatformConstant[] array)</argsstring>
+        <name>FindConstantForActivePlatform</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimePlatformConstantUtility.FindConstantForActivePlatform</qualifiedname>
+        <param>
+          <type><ref refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant" kindref="compound">RuntimePlatformConstant</ref>[]</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/RuntimePlatformConstantUtility.cs" line="12" column="47" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/RuntimePlatformConstantUtility.cs" bodystart="12" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d87/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_utility_1a3fa0c7797673a65f319fa8e6c18ae0f5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant" kindref="compound">RuntimePlatformConstant</ref></type>
+        <definition>static RuntimePlatformConstant FindConstantForPlatform</definition>
+        <argsstring>(RuntimePlatformConstant[] array, RuntimePlatform platform)</argsstring>
+        <name>FindConstantForPlatform</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimePlatformConstantUtility.FindConstantForPlatform</qualifiedname>
+        <param>
+          <type><ref refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant" kindref="compound">RuntimePlatformConstant</ref>[]</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>RuntimePlatform</type>
+          <declname>platform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/RuntimePlatformConstantUtility.cs" line="18" column="47" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/RuntimePlatformConstantUtility.cs" bodystart="18" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d87/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_utility_1a28447e361ec98a4b28bb0f33de12eac1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetConstantValueForActivePlatform</definition>
+        <argsstring>(RuntimePlatformConstant[] array)</argsstring>
+        <name>GetConstantValueForActivePlatform</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimePlatformConstantUtility.GetConstantValueForActivePlatform</qualifiedname>
+        <param>
+          <type><ref refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant" kindref="compound">RuntimePlatformConstant</ref>[]</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/RuntimePlatformConstantUtility.cs" line="28" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/RuntimePlatformConstantUtility.cs" bodystart="28" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d87/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_utility_1a528141768465d222293929d2c94f8b81" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetConstantValueForPlatform</definition>
+        <argsstring>(RuntimePlatformConstant[] array, RuntimePlatform platform)</argsstring>
+        <name>GetConstantValueForPlatform</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.RuntimePlatformConstantUtility.GetConstantValueForPlatform</qualifiedname>
+        <param>
+          <type><ref refid="db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant" kindref="compound">RuntimePlatformConstant</ref>[]</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>RuntimePlatform</type>
+          <declname>platform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/RuntimePlatformConstantUtility.cs" line="34" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/RuntimePlatformConstantUtility.cs" bodystart="34" bodyend="38"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/RuntimePlatformConstantUtility.cs" line="8" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/RuntimePlatformConstantUtility.cs" bodystart="9" bodyend="41"/>
+    <listofallmembers>
+      <member refid="dc/d87/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_utility_1aa4970d44ea13033ef8c5a31fcdade018" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimePlatformConstantUtility</scope><name>FindConstantForActivePlatform</name></member>
+      <member refid="dc/d87/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_utility_1a3fa0c7797673a65f319fa8e6c18ae0f5" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimePlatformConstantUtility</scope><name>FindConstantForPlatform</name></member>
+      <member refid="dc/d87/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_utility_1a28447e361ec98a4b28bb0f33de12eac1" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimePlatformConstantUtility</scope><name>GetConstantValueForActivePlatform</name></member>
+      <member refid="dc/d87/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant_utility_1a528141768465d222293929d2c94f8b81" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::RuntimePlatformConstantUtility</scope><name>GetConstantValueForPlatform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

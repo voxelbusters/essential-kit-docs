@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d7/d9a/class_voxel_busters_1_1_essential_kit_1_1_achievement_progress_reporter" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::AchievementProgressReporter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="db/de9/class_voxel_busters_1_1_essential_kit_1_1_achievement_progress_reporter_1_1_report_progress_finish_event" prot="private">VoxelBusters::EssentialKit::AchievementProgressReporter::ReportProgressFinishEvent</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d7/d9a/class_voxel_busters_1_1_essential_kit_1_1_achievement_progress_reporter_1a6ad5fc1fcfb7aaa958108c34b78d2ede" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_achievementId</definition>
+        <argsstring></argsstring>
+        <name>m_achievementId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AchievementProgressReporter.m_achievementId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementProgressReporter.cs" line="15" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementProgressReporter.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d9a/class_voxel_busters_1_1_essential_kit_1_1_achievement_progress_reporter_1a26df85e5934c89b13b571292ebdbced6" prot="private" static="no" mutable="no">
+        <type>ReportProgressFinishEvent</type>
+        <definition>ReportProgressFinishEvent m_onReportProgressFinish</definition>
+        <argsstring></argsstring>
+        <name>m_onReportProgressFinish</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AchievementProgressReporter.m_onReportProgressFinish</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementProgressReporter.cs" line="18" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementProgressReporter.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d9a/class_voxel_busters_1_1_essential_kit_1_1_achievement_progress_reporter_1ac764820325a93b23dd36ab975121bcef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReportProgress</definition>
+        <argsstring>(double percentageCompleted)</argsstring>
+        <name>ReportProgress</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AchievementProgressReporter.ReportProgress</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>percentageCompleted</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementProgressReporter.cs" line="24" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementProgressReporter.cs" bodystart="24" bodyend="41"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementProgressReporter.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementProgressReporter.cs" bodystart="11" bodyend="52"/>
+    <listofallmembers>
+      <member refid="d7/d9a/class_voxel_busters_1_1_essential_kit_1_1_achievement_progress_reporter_1a6ad5fc1fcfb7aaa958108c34b78d2ede" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementProgressReporter</scope><name>m_achievementId</name></member>
+      <member refid="d7/d9a/class_voxel_busters_1_1_essential_kit_1_1_achievement_progress_reporter_1a26df85e5934c89b13b571292ebdbced6" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementProgressReporter</scope><name>m_onReportProgressFinish</name></member>
+      <member refid="d7/d9a/class_voxel_busters_1_1_essential_kit_1_1_achievement_progress_reporter_1ac764820325a93b23dd36ab975121bcef" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementProgressReporter</scope><name>ReportProgress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

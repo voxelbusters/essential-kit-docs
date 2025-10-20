@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dd/d66/_achievement_definition_8_android_platform_properties_8cs" kind="file" language="C#">
+    <compoundname>AchievementDefinition.AndroidPlatformProperties.cs</compoundname>
+    <innerclass refid="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition" prot="public">VoxelBusters::EssentialKit::AchievementDefinition</innerclass>
+    <innerclass refid="db/d3e/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition_1_1_android_platform_properties" prot="public">VoxelBusters::EssentialKit::AchievementDefinition::AndroidPlatformProperties</innerclass>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementDefinition.AndroidPlatformProperties.cs"/>
+  </compounddef>
+</doxygen>

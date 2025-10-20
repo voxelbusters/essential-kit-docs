@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d6/dd4/class_voxel_busters_1_1_essential_kit_1_1_billing_services_initialize_store_result" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::BillingServicesInitializeStoreResult</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d6/dd4/class_voxel_busters_1_1_essential_kit_1_1_billing_services_initialize_store_result_1a0348608165317345943fae4d7ba2835e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product" kindref="compound">IBillingProduct</ref>[]</type>
+        <definition>IBillingProduct [] Products</definition>
+        <argsstring></argsstring>
+        <name>Products</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesInitializeStoreResult.Products</qualifiedname>
+        <briefdescription>
+<para>An array of products returned by the Store. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesInitializeStoreResult.cs" line="18" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesInitializeStoreResult.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="d6/dd4/class_voxel_busters_1_1_essential_kit_1_1_billing_services_initialize_store_result_1a70e034c4bede4530272135b80df46305" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string[]</type>
+        <definition>string [] InvalidProductIds</definition>
+        <argsstring></argsstring>
+        <name>InvalidProductIds</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesInitializeStoreResult.InvalidProductIds</qualifiedname>
+        <briefdescription>
+<para>An array of product identifiers not recongnized by the Store. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesInitializeStoreResult.cs" line="23" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesInitializeStoreResult.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="d6/dd4/class_voxel_busters_1_1_essential_kit_1_1_billing_services_initialize_store_result_1a4822d3cf7e55064231b2b6b14e045637" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BillingServicesInitializeStoreResult</definition>
+        <argsstring>(IBillingProduct[] products, string[] invalidProductIds)</argsstring>
+        <name>BillingServicesInitializeStoreResult</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesInitializeStoreResult.BillingServicesInitializeStoreResult</qualifiedname>
+        <param>
+          <type><ref refid="d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product" kindref="compound">IBillingProduct</ref>[]</type>
+          <declname>products</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>invalidProductIds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesInitializeStoreResult.cs" line="29" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesInitializeStoreResult.cs" bodystart="29" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class contains the information retrieved when <ref refid="d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services_1a6be3615afd37c01b4129b56d7a5ce597" kindref="member">BillingServices.InitializeStore</ref> operation is completed. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesInitializeStoreResult.cs" line="11" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesInitializeStoreResult.cs" bodystart="12" bodyend="37"/>
+    <listofallmembers>
+      <member refid="d6/dd4/class_voxel_busters_1_1_essential_kit_1_1_billing_services_initialize_store_result_1a4822d3cf7e55064231b2b6b14e045637" prot="package" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesInitializeStoreResult</scope><name>BillingServicesInitializeStoreResult</name></member>
+      <member refid="d6/dd4/class_voxel_busters_1_1_essential_kit_1_1_billing_services_initialize_store_result_1a70e034c4bede4530272135b80df46305" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesInitializeStoreResult</scope><name>InvalidProductIds</name></member>
+      <member refid="d6/dd4/class_voxel_busters_1_1_essential_kit_1_1_billing_services_initialize_store_result_1a0348608165317345943fae4d7ba2835e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesInitializeStoreResult</scope><name>Products</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::RateMyAppUnitySettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SettingsPropertyGroup</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings_1ae5680978b6dab757d6458bfd069b74ea" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_autoShow</definition>
+        <argsstring></argsstring>
+        <name>m_autoShow</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppUnitySettings.m_autoShow</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppUnitySettings.cs" line="16" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppUnitySettings.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings_1a356a52822f5cc3cf2da5b58261605d25" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_allowReratingForNewVersion</definition>
+        <argsstring></argsstring>
+        <name>m_allowReratingForNewVersion</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppUnitySettings.m_allowReratingForNewVersion</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppUnitySettings.cs" line="20" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppUnitySettings.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings_1a2b984e89cfa9ad4f435f269197cf1f3f" prot="private" static="no" mutable="no">
+        <type>RateMyAppConfirmationDialogSettings</type>
+        <definition>RateMyAppConfirmationDialogSettings m_confirmationDialogSettings</definition>
+        <argsstring></argsstring>
+        <name>m_confirmationDialogSettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppUnitySettings.m_confirmationDialogSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppUnitySettings.cs" line="25" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppUnitySettings.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings_1a92ee969d9581a6714ba23a268476bf0e" prot="private" static="no" mutable="no">
+        <type>RateMyAppConstraints</type>
+        <definition>RateMyAppConstraints m_contraintsSettings</definition>
+        <argsstring></argsstring>
+        <name>m_contraintsSettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppUnitySettings.m_contraintsSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppUnitySettings.cs" line="29" column="43" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppUnitySettings.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings_1a36f69d909ba7d3e959c69e272d6d96dd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool AllowReratingForNewVersion</definition>
+        <argsstring></argsstring>
+        <name>AllowReratingForNewVersion</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppUnitySettings.AllowReratingForNewVersion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppUnitySettings.cs" line="36" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppUnitySettings.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings_1adcaa287181b21f0c15bb3a243f4278d2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool AutoShow</definition>
+        <argsstring></argsstring>
+        <name>AutoShow</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppUnitySettings.AutoShow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppUnitySettings.cs" line="38" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppUnitySettings.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings_1a58ff21765309e69127dd440cdbd592c6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>RateMyAppConfirmationDialogSettings</type>
+        <definition>RateMyAppConfirmationDialogSettings ConfirmationDialogSettings</definition>
+        <argsstring></argsstring>
+        <name>ConfirmationDialogSettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppUnitySettings.ConfirmationDialogSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppUnitySettings.cs" line="40" column="52" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppUnitySettings.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings_1a249018748f44c3e2d7f0b2dfafdccb4a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>RateMyAppConstraints</type>
+        <definition>RateMyAppConstraints ConstraintsSettings</definition>
+        <argsstring></argsstring>
+        <name>ConstraintsSettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppUnitySettings.ConstraintsSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppUnitySettings.cs" line="42" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppUnitySettings.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings_1a1061345ae29fadf32fa36d060046c2ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RateMyAppUnitySettings</definition>
+        <argsstring>(bool isEnabled=true, RateMyAppConfirmationDialogSettings dialogSettings=null, RateMyAppConstraints defaultValidatorSettings=null, bool allowRatingAgainForNewVersion=false, bool autoShowWhenConditionsAreMet=true)</argsstring>
+        <name>RateMyAppUnitySettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppUnitySettings.RateMyAppUnitySettings</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isEnabled</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>RateMyAppConfirmationDialogSettings</type>
+          <declname>dialogSettings</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>RateMyAppConstraints</type>
+          <declname>defaultValidatorSettings</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>allowRatingAgainForNewVersion</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>autoShowWhenConditionsAreMet</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppUnitySettings.cs" line="48" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppUnitySettings.cs" bodystart="48" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppUnitySettings.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppUnitySettings.cs" bodystart="11" bodyend="59"/>
+    <listofallmembers>
+      <member refid="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings_1a36f69d909ba7d3e959c69e272d6d96dd" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppUnitySettings</scope><name>AllowReratingForNewVersion</name></member>
+      <member refid="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings_1adcaa287181b21f0c15bb3a243f4278d2" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppUnitySettings</scope><name>AutoShow</name></member>
+      <member refid="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings_1a58ff21765309e69127dd440cdbd592c6" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppUnitySettings</scope><name>ConfirmationDialogSettings</name></member>
+      <member refid="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings_1a249018748f44c3e2d7f0b2dfafdccb4a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppUnitySettings</scope><name>ConstraintsSettings</name></member>
+      <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1a45f8df3acbb2721c2df8462f1cd8f14b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppUnitySettings</scope><name>IsEnabled</name></member>
+      <member refid="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings_1a356a52822f5cc3cf2da5b58261605d25" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppUnitySettings</scope><name>m_allowReratingForNewVersion</name></member>
+      <member refid="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings_1ae5680978b6dab757d6458bfd069b74ea" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppUnitySettings</scope><name>m_autoShow</name></member>
+      <member refid="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings_1a2b984e89cfa9ad4f435f269197cf1f3f" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppUnitySettings</scope><name>m_confirmationDialogSettings</name></member>
+      <member refid="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings_1a92ee969d9581a6714ba23a268476bf0e" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppUnitySettings</scope><name>m_contraintsSettings</name></member>
+      <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1a7ee9065718e6628dc7791b756fa6c0f9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppUnitySettings</scope><name>Name</name></member>
+      <member refid="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings_1a1061345ae29fadf32fa36d060046c2ca" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppUnitySettings</scope><name>RateMyAppUnitySettings</name></member>
+      <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1ac9b0727cd904077f21637b8cbe0b139d" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppUnitySettings</scope><name>SettingsPropertyGroup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

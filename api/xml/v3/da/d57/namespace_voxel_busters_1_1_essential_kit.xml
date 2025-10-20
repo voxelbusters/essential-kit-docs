@@ -1,0 +1,2703 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="da/d57/namespace_voxel_busters_1_1_essential_kit" kind="namespace" language="C#">
+    <compoundname>VoxelBusters::EssentialKit</compoundname>
+    <innerclass refid="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition" prot="public">VoxelBusters::EssentialKit::AchievementDefinition</innerclass>
+    <innerclass refid="da/d15/class_voxel_busters_1_1_essential_kit_1_1_achievement_id_attribute" prot="public">VoxelBusters::EssentialKit::AchievementIdAttribute</innerclass>
+    <innerclass refid="d7/d9a/class_voxel_busters_1_1_essential_kit_1_1_achievement_progress_reporter" prot="public">VoxelBusters::EssentialKit::AchievementProgressReporter</innerclass>
+    <innerclass refid="d1/d9d/class_voxel_busters_1_1_essential_kit_1_1_additional_platform_support_settings" prot="public">VoxelBusters::EssentialKit::AdditionalPlatformSupportSettings</innerclass>
+    <innerclass refid="da/db1/class_voxel_busters_1_1_essential_kit_1_1_address_book" prot="public">VoxelBusters::EssentialKit::AddressBook</innerclass>
+    <innerclass refid="d7/d49/class_voxel_busters_1_1_essential_kit_1_1_address_book_error" prot="public">VoxelBusters::EssentialKit::AddressBookError</innerclass>
+    <innerclass refid="d6/de4/class_voxel_busters_1_1_essential_kit_1_1_address_book_read_contacts_result" prot="public">VoxelBusters::EssentialKit::AddressBookReadContactsResult</innerclass>
+    <innerclass refid="db/d1b/class_voxel_busters_1_1_essential_kit_1_1_address_book_request_contacts_access_result" prot="public">VoxelBusters::EssentialKit::AddressBookRequestContactsAccessResult</innerclass>
+    <innerclass refid="d8/d8d/class_voxel_busters_1_1_essential_kit_1_1_address_book_unity_settings" prot="public">VoxelBusters::EssentialKit::AddressBookUnitySettings</innerclass>
+    <innerclass refid="d6/d61/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog" prot="public">VoxelBusters::EssentialKit::AlertDialog</innerclass>
+    <innerclass refid="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder" prot="public">VoxelBusters::EssentialKit::AlertDialogBuilder</innerclass>
+    <innerclass refid="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings" prot="public">VoxelBusters::EssentialKit::ApplicationSettings</innerclass>
+    <innerclass refid="dd/d0b/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item" prot="public">VoxelBusters::EssentialKit::AppShortcutItem</innerclass>
+    <innerclass refid="da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts" prot="public">VoxelBusters::EssentialKit::AppShortcuts</innerclass>
+    <innerclass refid="de/d86/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_error" prot="public">VoxelBusters::EssentialKit::AppShortcutsError</innerclass>
+    <innerclass refid="d5/dfe/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_unity_settings" prot="public">VoxelBusters::EssentialKit::AppShortcutsUnitySettings</innerclass>
+    <innerclass refid="d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater" prot="public">VoxelBusters::EssentialKit::AppUpdater</innerclass>
+    <innerclass refid="d8/d94/class_voxel_busters_1_1_essential_kit_1_1_app_updater_error" prot="public">VoxelBusters::EssentialKit::AppUpdaterError</innerclass>
+    <innerclass refid="de/d6c/class_voxel_busters_1_1_essential_kit_1_1_app_updater_unity_settings" prot="public">VoxelBusters::EssentialKit::AppUpdaterUnitySettings</innerclass>
+    <innerclass refid="dd/d74/class_voxel_busters_1_1_essential_kit_1_1_app_updater_update_info" prot="public">VoxelBusters::EssentialKit::AppUpdaterUpdateInfo</innerclass>
+    <innerclass refid="d1/d52/class_voxel_busters_1_1_essential_kit_1_1_assembly_name" prot="public">VoxelBusters::EssentialKit::AssemblyName</innerclass>
+    <innerclass refid="d3/d4a/class_voxel_busters_1_1_essential_kit_1_1_billing_period" prot="public">VoxelBusters::EssentialKit::BillingPeriod</innerclass>
+    <innerclass refid="df/df5/class_voxel_busters_1_1_essential_kit_1_1_billing_price" prot="public">VoxelBusters::EssentialKit::BillingPrice</innerclass>
+    <innerclass refid="d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition" prot="public">VoxelBusters::EssentialKit::BillingProductDefinition</innerclass>
+    <innerclass refid="db/d57/class_voxel_busters_1_1_essential_kit_1_1_billing_product_id_attribute" prot="public">VoxelBusters::EssentialKit::BillingProductIdAttribute</innerclass>
+    <innerclass refid="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer" prot="public">VoxelBusters::EssentialKit::BillingProductOffer</innerclass>
+    <innerclass refid="d3/dd9/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_pricing_phase" prot="public">VoxelBusters::EssentialKit::BillingProductOfferPricingPhase</innerclass>
+    <innerclass refid="d6/ddd/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details" prot="public">VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails</innerclass>
+    <innerclass refid="d7/d25/class_voxel_busters_1_1_essential_kit_1_1_billing_product_payout_definition" prot="public">VoxelBusters::EssentialKit::BillingProductPayoutDefinition</innerclass>
+    <innerclass refid="de/d7f/class_voxel_busters_1_1_essential_kit_1_1_billing_product_revocation_info" prot="public">VoxelBusters::EssentialKit::BillingProductRevocationInfo</innerclass>
+    <innerclass refid="df/d2b/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_info" prot="public">VoxelBusters::EssentialKit::BillingProductSubscriptionInfo</innerclass>
+    <innerclass refid="dd/d36/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_renewal_info" prot="public">VoxelBusters::EssentialKit::BillingProductSubscriptionRenewalInfo</innerclass>
+    <innerclass refid="d7/d56/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_status" prot="public">VoxelBusters::EssentialKit::BillingProductSubscriptionStatus</innerclass>
+    <innerclass refid="d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services" prot="public">VoxelBusters::EssentialKit::BillingServices</innerclass>
+    <innerclass refid="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_services_error" prot="public">VoxelBusters::EssentialKit::BillingServicesError</innerclass>
+    <innerclass refid="d2/d75/class_voxel_busters_1_1_essential_kit_1_1_billing_services_external_product_purchase_action" prot="public">VoxelBusters::EssentialKit::BillingServicesExternalProductPurchaseAction</innerclass>
+    <innerclass refid="d6/dd4/class_voxel_busters_1_1_essential_kit_1_1_billing_services_initialize_store_result" prot="public">VoxelBusters::EssentialKit::BillingServicesInitializeStoreResult</innerclass>
+    <innerclass refid="dc/d81/class_voxel_busters_1_1_essential_kit_1_1_billing_services_restore_purchases_result" prot="public">VoxelBusters::EssentialKit::BillingServicesRestorePurchasesResult</innerclass>
+    <innerclass refid="dd/dc2/class_voxel_busters_1_1_essential_kit_1_1_billing_services_transaction_state_change_result" prot="public">VoxelBusters::EssentialKit::BillingServicesTransactionStateChangeResult</innerclass>
+    <innerclass refid="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings" prot="public">VoxelBusters::EssentialKit::BillingServicesUnitySettings</innerclass>
+    <innerclass refid="d0/d9d/class_voxel_busters_1_1_essential_kit_1_1_billing_transaction_android_properties" prot="public">VoxelBusters::EssentialKit::BillingTransactionAndroidProperties</innerclass>
+    <innerclass refid="df/db6/class_voxel_busters_1_1_essential_kit_1_1_billing_utility" prot="public">VoxelBusters::EssentialKit::BillingUtility</innerclass>
+    <innerclass refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options" prot="public">VoxelBusters::EssentialKit::BuyProductOptions</innerclass>
+    <innerclass refid="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger" prot="public">VoxelBusters::EssentialKit::CalendarNotificationTrigger</innerclass>
+    <innerclass refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services" prot="public">VoxelBusters::EssentialKit::CloudServices</innerclass>
+    <innerclass refid="da/df6/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_error" prot="public">VoxelBusters::EssentialKit::CloudServicesError</innerclass>
+    <innerclass refid="d4/d36/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_saved_data_change_result" prot="public">VoxelBusters::EssentialKit::CloudServicesSavedDataChangeResult</innerclass>
+    <innerclass refid="dc/d81/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_synchronize_result" prot="public">VoxelBusters::EssentialKit::CloudServicesSynchronizeResult</innerclass>
+    <innerclass refid="db/d80/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings" prot="public">VoxelBusters::EssentialKit::CloudServicesUnitySettings</innerclass>
+    <innerclass refid="d2/db7/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_user_change_result" prot="public">VoxelBusters::EssentialKit::CloudServicesUserChangeResult</innerclass>
+    <innerclass refid="d1/da8/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_utility" prot="public">VoxelBusters::EssentialKit::CloudServicesUtility</innerclass>
+    <innerclass refid="d0/dc4/class_voxel_busters_1_1_essential_kit_1_1_date_picker" prot="public">VoxelBusters::EssentialKit::DatePicker</innerclass>
+    <innerclass refid="da/d41/class_voxel_busters_1_1_essential_kit_1_1_date_picker_result" prot="public">VoxelBusters::EssentialKit::DatePickerResult</innerclass>
+    <innerclass refid="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition" prot="public">VoxelBusters::EssentialKit::DeepLinkDefinition</innerclass>
+    <innerclass refid="de/df5/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services" prot="public">VoxelBusters::EssentialKit::DeepLinkServices</innerclass>
+    <innerclass refid="d4/d05/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_dynamic_link_open_result" prot="public">VoxelBusters::EssentialKit::DeepLinkServicesDynamicLinkOpenResult</innerclass>
+    <innerclass refid="da/d12/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings" prot="public">VoxelBusters::EssentialKit::DeepLinkServicesUnitySettings</innerclass>
+    <innerclass refid="d6/dd4/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_domain" prot="public">VoxelBusters::EssentialKit::EssentialKitDomain</innerclass>
+    <innerclass refid="d9/db3/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_manager" prot="public">VoxelBusters::EssentialKit::EssentialKitManager</innerclass>
+    <innerclass refid="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings" prot="public">VoxelBusters::EssentialKit::EssentialKitSettings</innerclass>
+    <innerclass refid="d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services" prot="public">VoxelBusters::EssentialKit::GameServices</innerclass>
+    <innerclass refid="db/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_auth_status_change_result" prot="public">VoxelBusters::EssentialKit::GameServicesAuthStatusChangeResult</innerclass>
+    <innerclass refid="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error" prot="public">VoxelBusters::EssentialKit::GameServicesError</innerclass>
+    <innerclass refid="df/dfa/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_achievement_descriptions_result" prot="public">VoxelBusters::EssentialKit::GameServicesLoadAchievementDescriptionsResult</innerclass>
+    <innerclass refid="d6/d49/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_achievements_result" prot="public">VoxelBusters::EssentialKit::GameServicesLoadAchievementsResult</innerclass>
+    <innerclass refid="d2/db3/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_leaderboards_result" prot="public">VoxelBusters::EssentialKit::GameServicesLoadLeaderboardsResult</innerclass>
+    <innerclass refid="d7/d5d/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_player_friends_result" prot="public">VoxelBusters::EssentialKit::GameServicesLoadPlayerFriendsResult</innerclass>
+    <innerclass refid="d1/ddf/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_players_result" prot="public">VoxelBusters::EssentialKit::GameServicesLoadPlayersResult</innerclass>
+    <innerclass refid="d0/dbf/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_server_credentials_result" prot="public">VoxelBusters::EssentialKit::GameServicesLoadServerCredentialsResult</innerclass>
+    <innerclass refid="d7/dee/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings" prot="public">VoxelBusters::EssentialKit::GameServicesUnitySettings</innerclass>
+    <innerclass refid="db/d8d/class_voxel_busters_1_1_essential_kit_1_1_game_services_view_result" prot="public">VoxelBusters::EssentialKit::GameServicesViewResult</innerclass>
+    <innerclass refid="d0/d60/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement" prot="public">VoxelBusters::EssentialKit::IAchievement</innerclass>
+    <innerclass refid="d8/ded/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement_description" prot="public">VoxelBusters::EssentialKit::IAchievementDescription</innerclass>
+    <innerclass refid="d4/d51/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contact" prot="public">VoxelBusters::EssentialKit::IAddressBookContact</innerclass>
+    <innerclass refid="d7/df3/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contacts_enumerator" prot="public">VoxelBusters::EssentialKit::IAddressBookContactsEnumerator</innerclass>
+    <innerclass refid="da/dee/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_payment" prot="public">VoxelBusters::EssentialKit::IBillingPayment</innerclass>
+    <innerclass refid="d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product" prot="public">VoxelBusters::EssentialKit::IBillingProduct</innerclass>
+    <innerclass refid="da/d96/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_transaction" prot="public">VoxelBusters::EssentialKit::IBillingTransaction</innerclass>
+    <innerclass refid="d5/d14/interface_voxel_busters_1_1_essential_kit_1_1_i_cloud_user" prot="public">VoxelBusters::EssentialKit::ICloudUser</innerclass>
+    <innerclass refid="db/d30/interface_voxel_busters_1_1_essential_kit_1_1_i_deep_link_services_delegate" prot="public">VoxelBusters::EssentialKit::IDeepLinkServicesDelegate</innerclass>
+    <innerclass refid="d0/d20/interface_voxel_busters_1_1_essential_kit_1_1_i_leaderboard" prot="public">VoxelBusters::EssentialKit::ILeaderboard</innerclass>
+    <innerclass refid="d6/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_leaderboard_score" prot="public">VoxelBusters::EssentialKit::ILeaderboardScore</innerclass>
+    <innerclass refid="d4/d37/interface_voxel_busters_1_1_essential_kit_1_1_i_local_player" prot="public">VoxelBusters::EssentialKit::ILocalPlayer</innerclass>
+    <innerclass refid="d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content" prot="public">VoxelBusters::EssentialKit::IMediaContent</innerclass>
+    <innerclass refid="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema" prot="package">VoxelBusters::EssentialKit::ImplementationSchema</innerclass>
+    <innerclass refid="dc/d1c/interface_voxel_busters_1_1_essential_kit_1_1_i_native_rate_my_app_interface" prot="public">VoxelBusters::EssentialKit::INativeRateMyAppInterface</innerclass>
+    <innerclass refid="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification" prot="public">VoxelBusters::EssentialKit::INotification</innerclass>
+    <innerclass refid="d2/df5/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_trigger" prot="public">VoxelBusters::EssentialKit::INotificationTrigger</innerclass>
+    <innerclass refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player" prot="public">VoxelBusters::EssentialKit::IPlayer</innerclass>
+    <innerclass refid="dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score" prot="public">VoxelBusters::EssentialKit::IScore</innerclass>
+    <innerclass refid="d4/df9/interface_voxel_busters_1_1_essential_kit_1_1_i_text_input_field_reader" prot="public">VoxelBusters::EssentialKit::ITextInputFieldReader</innerclass>
+    <innerclass refid="d3/d18/interface_voxel_busters_1_1_essential_kit_1_1_i_unity_u_i_date_picker" prot="public">VoxelBusters::EssentialKit::IUnityUIDatePicker</innerclass>
+    <innerclass refid="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition" prot="public">VoxelBusters::EssentialKit::LeaderboardDefinition</innerclass>
+    <innerclass refid="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_id_attribute" prot="public">VoxelBusters::EssentialKit::LeaderboardIdAttribute</innerclass>
+    <innerclass refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_load_scores_result" prot="public">VoxelBusters::EssentialKit::LeaderboardLoadScoresResult</innerclass>
+    <innerclass refid="d7/d50/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_score_reporter" prot="public">VoxelBusters::EssentialKit::LeaderboardScoreReporter</innerclass>
+    <innerclass refid="dd/d7d/class_voxel_busters_1_1_essential_kit_1_1_location_notification_trigger" prot="package">VoxelBusters::EssentialKit::LocationNotificationTrigger</innerclass>
+    <innerclass refid="d4/dc9/class_voxel_busters_1_1_essential_kit_1_1_mail_composer" prot="public">VoxelBusters::EssentialKit::MailComposer</innerclass>
+    <innerclass refid="d7/deb/class_voxel_busters_1_1_essential_kit_1_1_mail_composer_extensions" prot="public">VoxelBusters::EssentialKit::MailComposerExtensions</innerclass>
+    <innerclass refid="d4/d58/class_voxel_busters_1_1_essential_kit_1_1_mail_composer_result" prot="public">VoxelBusters::EssentialKit::MailComposerResult</innerclass>
+    <innerclass refid="db/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_content" prot="public">VoxelBusters::EssentialKit::MediaContent</innerclass>
+    <innerclass refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options" prot="public">VoxelBusters::EssentialKit::MediaContentCaptureOptions</innerclass>
+    <innerclass refid="d5/d40/class_voxel_busters_1_1_essential_kit_1_1_media_content_save_options" prot="public">VoxelBusters::EssentialKit::MediaContentSaveOptions</innerclass>
+    <innerclass refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options" prot="public">VoxelBusters::EssentialKit::MediaContentSelectOptions</innerclass>
+    <innerclass refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services" prot="public">VoxelBusters::EssentialKit::MediaServices</innerclass>
+    <innerclass refid="d2/dde/class_voxel_busters_1_1_essential_kit_1_1_media_services_error" prot="public">VoxelBusters::EssentialKit::MediaServicesError</innerclass>
+    <innerclass refid="d3/dc6/class_voxel_busters_1_1_essential_kit_1_1_media_services_request_camera_access_result" prot="public">VoxelBusters::EssentialKit::MediaServicesRequestCameraAccessResult</innerclass>
+    <innerclass refid="d9/d3f/class_voxel_busters_1_1_essential_kit_1_1_media_services_request_gallery_access_result" prot="public">VoxelBusters::EssentialKit::MediaServicesRequestGalleryAccessResult</innerclass>
+    <innerclass refid="da/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_services_save_image_to_gallery_result" prot="public">VoxelBusters::EssentialKit::MediaServicesSaveImageToGalleryResult</innerclass>
+    <innerclass refid="dd/d2e/class_voxel_busters_1_1_essential_kit_1_1_media_services_select_media_content_result" prot="public">VoxelBusters::EssentialKit::MediaServicesSelectMediaContentResult</innerclass>
+    <innerclass refid="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings" prot="public">VoxelBusters::EssentialKit::MediaServicesUnitySettings</innerclass>
+    <innerclass refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer" prot="public">VoxelBusters::EssentialKit::MessageComposer</innerclass>
+    <innerclass refid="db/d39/class_voxel_busters_1_1_essential_kit_1_1_message_composer_extensions" prot="public">VoxelBusters::EssentialKit::MessageComposerExtensions</innerclass>
+    <innerclass refid="d7/d02/class_voxel_busters_1_1_essential_kit_1_1_message_composer_result" prot="public">VoxelBusters::EssentialKit::MessageComposerResult</innerclass>
+    <innerclass refid="da/d73/class_voxel_busters_1_1_essential_kit_1_1_namespace_name" prot="public">VoxelBusters::EssentialKit::NamespaceName</innerclass>
+    <innerclass refid="dc/d36/class_voxel_busters_1_1_essential_kit_1_1_native_feature_type" prot="public">VoxelBusters::EssentialKit::NativeFeatureType</innerclass>
+    <innerclass refid="d7/d42/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_settings" prot="public">VoxelBusters::EssentialKit::NativeFeatureUsagePermissionSettings</innerclass>
+    <innerclass refid="df/df7/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_type" prot="public">VoxelBusters::EssentialKit::NativeFeatureUsagePermissionType</innerclass>
+    <innerclass refid="db/dc1/class_voxel_busters_1_1_essential_kit_1_1_native_u_i" prot="public">VoxelBusters::EssentialKit::NativeUI</innerclass>
+    <innerclass refid="d3/da1/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_unity_settings" prot="public">VoxelBusters::EssentialKit::NativeUIUnitySettings</innerclass>
+    <innerclass refid="dd/d14/class_voxel_busters_1_1_essential_kit_1_1_network_services" prot="public">VoxelBusters::EssentialKit::NetworkServices</innerclass>
+    <innerclass refid="dc/ddf/class_voxel_busters_1_1_essential_kit_1_1_network_services_host_reachability_status_change_result" prot="public">VoxelBusters::EssentialKit::NetworkServicesHostReachabilityStatusChangeResult</innerclass>
+    <innerclass refid="d0/d1d/class_voxel_busters_1_1_essential_kit_1_1_network_services_internet_connectivity_status_change_result" prot="public">VoxelBusters::EssentialKit::NetworkServicesInternetConnectivityStatusChangeResult</innerclass>
+    <innerclass refid="db/d83/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings" prot="public">VoxelBusters::EssentialKit::NetworkServicesUnitySettings</innerclass>
+    <innerclass refid="d2/da4/class_voxel_busters_1_1_essential_kit_1_1_notification_android_properties" prot="public">VoxelBusters::EssentialKit::NotificationAndroidProperties</innerclass>
+    <innerclass refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder" prot="public">VoxelBusters::EssentialKit::NotificationBuilder</innerclass>
+    <innerclass refid="da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel" prot="public">VoxelBusters::EssentialKit::NotificationChannel</innerclass>
+    <innerclass refid="dc/d6b/class_voxel_busters_1_1_essential_kit_1_1_notification_ios_properties" prot="public">VoxelBusters::EssentialKit::NotificationIosProperties</innerclass>
+    <innerclass refid="da/d97/class_voxel_busters_1_1_essential_kit_1_1_notification_services" prot="public">VoxelBusters::EssentialKit::NotificationServices</innerclass>
+    <innerclass refid="dd/d53/class_voxel_busters_1_1_essential_kit_1_1_notification_services_error" prot="public">VoxelBusters::EssentialKit::NotificationServicesError</innerclass>
+    <innerclass refid="d1/d63/class_voxel_busters_1_1_essential_kit_1_1_notification_services_get_delivered_notifications_result" prot="public">VoxelBusters::EssentialKit::NotificationServicesGetDeliveredNotificationsResult</innerclass>
+    <innerclass refid="d3/dbe/class_voxel_busters_1_1_essential_kit_1_1_notification_services_get_scheduled_notifications_result" prot="public">VoxelBusters::EssentialKit::NotificationServicesGetScheduledNotificationsResult</innerclass>
+    <innerclass refid="d9/d6e/class_voxel_busters_1_1_essential_kit_1_1_notification_services_get_settings_result" prot="public">VoxelBusters::EssentialKit::NotificationServicesGetSettingsResult</innerclass>
+    <innerclass refid="da/da8/class_voxel_busters_1_1_essential_kit_1_1_notification_services_notification_received_result" prot="public">VoxelBusters::EssentialKit::NotificationServicesNotificationReceivedResult</innerclass>
+    <innerclass refid="d5/df0/class_voxel_busters_1_1_essential_kit_1_1_notification_services_register_for_push_notifications_result" prot="public">VoxelBusters::EssentialKit::NotificationServicesRegisterForPushNotificationsResult</innerclass>
+    <innerclass refid="da/dc1/class_voxel_busters_1_1_essential_kit_1_1_notification_services_request_permission_result" prot="public">VoxelBusters::EssentialKit::NotificationServicesRequestPermissionResult</innerclass>
+    <innerclass refid="d2/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings" prot="public">VoxelBusters::EssentialKit::NotificationServicesUnitySettings</innerclass>
+    <innerclass refid="d4/dbc/class_voxel_busters_1_1_essential_kit_1_1_notification_settings" prot="public">VoxelBusters::EssentialKit::NotificationSettings</innerclass>
+    <innerclass refid="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal" prot="public">VoxelBusters::EssentialKit::NotificationSettingsInternal</innerclass>
+    <innerclass refid="db/d77/class_voxel_busters_1_1_essential_kit_1_1_product_resources" prot="public">VoxelBusters::EssentialKit::ProductResources</innerclass>
+    <innerclass refid="d5/d7f/class_voxel_busters_1_1_essential_kit_1_1_prompt_update_options" prot="public">VoxelBusters::EssentialKit::PromptUpdateOptions</innerclass>
+    <innerclass refid="df/d80/class_voxel_busters_1_1_essential_kit_1_1_push_notification_trigger" prot="public">VoxelBusters::EssentialKit::PushNotificationTrigger</innerclass>
+    <innerclass refid="d2/d13/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app" prot="public">VoxelBusters::EssentialKit::RateMyApp</innerclass>
+    <innerclass refid="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings" prot="public">VoxelBusters::EssentialKit::RateMyAppConfirmationDialogSettings</innerclass>
+    <innerclass refid="d9/d5b/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_constraints" prot="public">VoxelBusters::EssentialKit::RateMyAppConstraints</innerclass>
+    <innerclass refid="dc/d5d/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller" prot="package">VoxelBusters::EssentialKit::RateMyAppController</innerclass>
+    <innerclass refid="d2/dc8/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_state_info" prot="package">VoxelBusters::EssentialKit::RateMyAppControllerStateInfo</innerclass>
+    <innerclass refid="d5/d86/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_localisation_key" prot="public">VoxelBusters::EssentialKit::RateMyAppLocalisationKey</innerclass>
+    <innerclass refid="d1/dc9/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_presenter" prot="package">VoxelBusters::EssentialKit::RateMyAppPresenter</innerclass>
+    <innerclass refid="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings" prot="public">VoxelBusters::EssentialKit::RateMyAppUnitySettings</innerclass>
+    <innerclass refid="d9/dac/class_voxel_busters_1_1_essential_kit_1_1_raw_media_data" prot="public">VoxelBusters::EssentialKit::RawMediaData</innerclass>
+    <innerclass refid="d8/d39/class_voxel_busters_1_1_essential_kit_1_1_read_contacts_options" prot="public">VoxelBusters::EssentialKit::ReadContactsOptions</innerclass>
+    <innerclass refid="d5/d8f/class_voxel_busters_1_1_essential_kit_1_1_server_credentials" prot="public">VoxelBusters::EssentialKit::ServerCredentials</innerclass>
+    <innerclass refid="d8/d32/class_voxel_busters_1_1_essential_kit_1_1_share_item" prot="public">VoxelBusters::EssentialKit::ShareItem</innerclass>
+    <innerclass refid="d3/d77/class_voxel_busters_1_1_essential_kit_1_1_share_sheet" prot="public">VoxelBusters::EssentialKit::ShareSheet</innerclass>
+    <innerclass refid="d3/d86/class_voxel_busters_1_1_essential_kit_1_1_share_sheet_result" prot="public">VoxelBusters::EssentialKit::ShareSheetResult</innerclass>
+    <innerclass refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services" prot="public">VoxelBusters::EssentialKit::SharingServices</innerclass>
+    <innerclass refid="d6/d68/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_error" prot="public">VoxelBusters::EssentialKit::SharingServicesError</innerclass>
+    <innerclass refid="d4/d57/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_unity_settings" prot="public">VoxelBusters::EssentialKit::SharingServicesUnitySettings</innerclass>
+    <innerclass refid="df/d49/class_voxel_busters_1_1_essential_kit_1_1_social_share_composer" prot="public">VoxelBusters::EssentialKit::SocialShareComposer</innerclass>
+    <innerclass refid="d9/d6e/class_voxel_busters_1_1_essential_kit_1_1_social_share_composer_result" prot="public">VoxelBusters::EssentialKit::SocialShareComposerResult</innerclass>
+    <innerclass refid="dd/dce/class_voxel_busters_1_1_essential_kit_1_1_task_services" prot="public">VoxelBusters::EssentialKit::TaskServices</innerclass>
+    <innerclass refid="de/dc9/class_voxel_busters_1_1_essential_kit_1_1_task_services_error" prot="public">VoxelBusters::EssentialKit::TaskServicesError</innerclass>
+    <innerclass refid="d8/d4f/class_voxel_busters_1_1_essential_kit_1_1_task_services_unity_settings" prot="public">VoxelBusters::EssentialKit::TaskServicesUnitySettings</innerclass>
+    <innerclass refid="de/dd8/class_voxel_busters_1_1_essential_kit_1_1_text_input_field_options" prot="public">VoxelBusters::EssentialKit::TextInputFieldOptions</innerclass>
+    <innerclass refid="d9/d1b/class_voxel_busters_1_1_essential_kit_1_1_time_interval_notification_trigger" prot="public">VoxelBusters::EssentialKit::TimeIntervalNotificationTrigger</innerclass>
+    <innerclass refid="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities" prot="public">VoxelBusters::EssentialKit::Utilities</innerclass>
+    <innerclass refid="d2/de9/class_voxel_busters_1_1_essential_kit_1_1_utility_unity_settings" prot="public">VoxelBusters::EssentialKit::UtilityUnitySettings</innerclass>
+    <innerclass refid="dd/db4/class_voxel_busters_1_1_essential_kit_1_1_web_view" prot="public">VoxelBusters::EssentialKit::WebView</innerclass>
+    <innerclass refid="d2/d38/class_voxel_busters_1_1_essential_kit_1_1_web_view_error" prot="public">VoxelBusters::EssentialKit::WebViewError</innerclass>
+    <innerclass refid="d5/db7/class_voxel_busters_1_1_essential_kit_1_1_web_view_extensions" prot="public">VoxelBusters::EssentialKit::WebViewExtensions</innerclass>
+    <innerclass refid="d9/df0/class_voxel_busters_1_1_essential_kit_1_1_web_view_run_java_script_result" prot="public">VoxelBusters::EssentialKit::WebViewRunJavaScriptResult</innerclass>
+    <innerclass refid="dd/d25/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings" prot="public">VoxelBusters::EssentialKit::WebViewUnitySettings</innerclass>
+    <innernamespace refid="dd/dd8/namespace_voxel_busters_1_1_essential_kit_1_1_address_book_core">VoxelBusters::EssentialKit::AddressBookCore</innernamespace>
+    <innernamespace refid="d5/d30/namespace_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_core">VoxelBusters::EssentialKit::AppShortcutsCore</innernamespace>
+    <innernamespace refid="d1/d60/namespace_voxel_busters_1_1_essential_kit_1_1_app_updater_core">VoxelBusters::EssentialKit::AppUpdaterCore</innernamespace>
+    <innernamespace refid="df/df3/namespace_voxel_busters_1_1_essential_kit_1_1_billing_services_core">VoxelBusters::EssentialKit::BillingServicesCore</innernamespace>
+    <innernamespace refid="d0/d9c/namespace_voxel_busters_1_1_essential_kit_1_1_cloud_services_core">VoxelBusters::EssentialKit::CloudServicesCore</innernamespace>
+    <innernamespace refid="de/d78/namespace_voxel_busters_1_1_essential_kit_1_1_deep_link_services_core">VoxelBusters::EssentialKit::DeepLinkServicesCore</innernamespace>
+    <innernamespace refid="db/d1c/namespace_voxel_busters_1_1_essential_kit_1_1_extras_core">VoxelBusters::EssentialKit::ExtrasCore</innernamespace>
+    <innernamespace refid="d3/def/namespace_voxel_busters_1_1_essential_kit_1_1_game_services_core">VoxelBusters::EssentialKit::GameServicesCore</innernamespace>
+    <innernamespace refid="d7/da8/namespace_voxel_busters_1_1_essential_kit_1_1_media_services_core">VoxelBusters::EssentialKit::MediaServicesCore</innernamespace>
+    <innernamespace refid="d6/d96/namespace_voxel_busters_1_1_essential_kit_1_1_native_u_i_core">VoxelBusters::EssentialKit::NativeUICore</innernamespace>
+    <innernamespace refid="d3/dd2/namespace_voxel_busters_1_1_essential_kit_1_1_network_services_core">VoxelBusters::EssentialKit::NetworkServicesCore</innernamespace>
+    <innernamespace refid="de/dee/namespace_voxel_busters_1_1_essential_kit_1_1_notification_services_core">VoxelBusters::EssentialKit::NotificationServicesCore</innernamespace>
+    <innernamespace refid="d7/de3/namespace_voxel_busters_1_1_essential_kit_1_1_rate_my_app_core">VoxelBusters::EssentialKit::RateMyAppCore</innernamespace>
+    <innernamespace refid="dc/d8e/namespace_voxel_busters_1_1_essential_kit_1_1_sharing_services_core">VoxelBusters::EssentialKit::SharingServicesCore</innernamespace>
+    <innernamespace refid="d0/d16/namespace_voxel_busters_1_1_essential_kit_1_1_task_services_core">VoxelBusters::EssentialKit::TaskServicesCore</innernamespace>
+    <innernamespace refid="d6/d6e/namespace_voxel_busters_1_1_essential_kit_1_1_web_view_core">VoxelBusters::EssentialKit::WebViewCore</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aab9cbb2e4dad38d49083c84e587abac5" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>AddressBookContactsAccessStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AddressBookContactsAccessStatus</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aab9cbb2e4dad38d49083c84e587abac5abf6dbc731ea21f21b9bf8ed1cc3e7a1a" prot="public">
+          <name>NotDetermined</name>
+          <briefdescription>
+<para>The user has not yet made a choice regarding whether this app can access the address book data. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aab9cbb2e4dad38d49083c84e587abac5aecdee5de15af6876cfab0801bb36f445" prot="public">
+          <name>Restricted</name>
+          <briefdescription>
+<para>The application is not authorized to access the address book data. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aab9cbb2e4dad38d49083c84e587abac5a58d036b9b7f0e7eb38cfb90f1cc70a73" prot="public">
+          <name>Denied</name>
+          <briefdescription>
+<para>The user explicitly denied access to address book data for this application. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aab9cbb2e4dad38d49083c84e587abac5aa206428462686af481cb072b8db11784" prot="public">
+          <name>Authorized</name>
+          <briefdescription>
+<para>The application is authorized to access address book data. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aab9cbb2e4dad38d49083c84e587abac5a7c2131ec78876ce749c2dadd24d47065" prot="public">
+          <name>Limited</name>
+          <briefdescription>
+<para>The application is authorized to access limited address book data. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>An access status the user can grant for an app to access the contacts information. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookContactsAccessStatus.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookContactsAccessStatus.cs" bodystart="11" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ae0ad5baac99b8f2f6491b3ca6bace08e" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>AddressBookErrorCode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AddressBookErrorCode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ae0ad5baac99b8f2f6491b3ca6bace08ea88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>Unknown error occurred. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ae0ad5baac99b8f2f6491b3ca6bace08ea4b33a686be73bb172407d73b26356275" prot="public">
+          <name>PermissionDenied</name>
+          <briefdescription>
+<para>Permission to access the address book was denied. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Contains the list of errors codes that can occur during address book operations. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookErrorCode.cs" line="9" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookErrorCode.cs" bodystart="10" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a95f15edccc5f9081f6ff6ba21a2d1522" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ReadContactsConstraint</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ReadContactsConstraint</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a95f15edccc5f9081f6ff6ba21a2d1522a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>No constraints. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a95f15edccc5f9081f6ff6ba21a2d1522afded3ae248f85b93ee489e4ffd001b47" prot="public">
+          <name>MustIncludeName</name>
+          <initializer>= 1 &lt;&lt; 0</initializer>
+          <briefdescription>
+<para>Must include name of the contact. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a95f15edccc5f9081f6ff6ba21a2d1522a058db1b7466f2ee1f609de459870707a" prot="public">
+          <name>MustIncludePhoneNumber</name>
+          <initializer>= 1 &lt;&lt; 1</initializer>
+          <briefdescription>
+<para>Must include phone number of the contact. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a95f15edccc5f9081f6ff6ba21a2d1522a2d6452a8d42f092b24de4995fbb2f2d2" prot="public">
+          <name>MustIncludeEmail</name>
+          <initializer>= 1 &lt;&lt; 2</initializer>
+          <briefdescription>
+<para>Must include email of the contact. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Represents constraints for reading contacts. note: You can set multiple constraints at once. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>By default, the module will return all the contacts. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/ReadContactsConstraint.cs" line="13" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/ReadContactsConstraint.cs" bodystart="14" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a23746de7c4f122092911ee47fd09c1df" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>AppShortcutsErrorCode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppShortcutsErrorCode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a23746de7c4f122092911ee47fd09c1dfa88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>The error code is unknown. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The error codes for App Shortcuts feature. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcutsErrorCode.cs" line="8" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/AppShortcutsErrorCode.cs" bodystart="9" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a28cf169ada28d5a4e5ff5fb1e93f5857" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>AppUpdaterErrorCode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdaterErrorCode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a28cf169ada28d5a4e5ff5fb1e93f5857a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>The error code is unknown. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a28cf169ada28d5a4e5ff5fb1e93f5857af68f18f18c359699e62e11e6ef13d07d" prot="public">
+          <name>NetworkIssue</name>
+          <briefdescription>
+<para>There is a network issue. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a28cf169ada28d5a4e5ff5fb1e93f5857ae2d83543233f8282ad6a049174415dd2" prot="public">
+          <name>UpdateNotCompatible</name>
+          <briefdescription>
+<para>The update is not compatible with the current version. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a28cf169ada28d5a4e5ff5fb1e93f5857a692b6bd842d9300ed94e30bbb719dbd7" prot="public">
+          <name>UpdateInfoNotAvailable</name>
+          <briefdescription>
+<para>There is no update info fetched for the current version. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a28cf169ada28d5a4e5ff5fb1e93f5857a2073e216f0959599e628c47df23467ef" prot="public">
+          <name>UpdateNotAvailable</name>
+          <briefdescription>
+<para>The update is not available. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a28cf169ada28d5a4e5ff5fb1e93f5857abe7bd44ba521a3628a4c1534d12d40a3" prot="public">
+          <name>UpdateInProgress</name>
+          <briefdescription>
+<para>The update is already in progress. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a28cf169ada28d5a4e5ff5fb1e93f5857acef1bf5995a5a8150cda3b3ba7ac4aa5" prot="public">
+          <name>UpdateCancelled</name>
+          <briefdescription>
+<para>The update has been cancelled. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The error codes for <ref refid="d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater" kindref="compound">AppUpdater</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterErrorCode.cs" line="8" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterErrorCode.cs" bodystart="9" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2d2cd7e347ac320d82a89ca6390715c7" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>AppUpdaterUpdateStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdaterUpdateStatus</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2d2cd7e347ac320d82a89ca6390715c7a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>The application update status is unknown. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2d2cd7e347ac320d82a89ca6390715c7a78945de8de090e90045d299651a68a9b" prot="public">
+          <name>Available</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>The application is not up to date and needs to be updated. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2d2cd7e347ac320d82a89ca6390715c7a534ceac854da4ba59c4dc41b7ab732dc" prot="public">
+          <name>NotAvailable</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>The application is up to date. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2d2cd7e347ac320d82a89ca6390715c7a12d868c18cb29bf58f02b504be9033fd" prot="public">
+          <name>InProgress</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>The application is currently being updated. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2d2cd7e347ac320d82a89ca6390715c7aa6a04307fd90d0c2821b45125e6a0a25" prot="public">
+          <name>Downloaded</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The status of the application update. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterUpdateStatus.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterUpdateStatus.cs" bodystart="7" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a7743c2b00afbd4f4b6d162547c4306fd" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>BillingEnvironment</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingEnvironment</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a7743c2b00afbd4f4b6d162547c4306fda88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>The environment is not known. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a7743c2b00afbd4f4b6d162547c4306fda756d97bb256b8580d4d71ee0c547804e" prot="public">
+          <name>Production</name>
+          <briefdescription>
+<para>The production environment where real transactions occur. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a7743c2b00afbd4f4b6d162547c4306fda2652eec977dcb2a5aea85f5bec235b05" prot="public">
+          <name>Sandbox</name>
+          <briefdescription>
+<para>The sandbox environment used for testing purposes. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a7743c2b00afbd4f4b6d162547c4306fda509820290d57f333403f490dde7316f4" prot="public">
+          <name>Local</name>
+          <briefdescription>
+<para>The local environment for development purposes. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Server environment where current billing transactions are processed and signed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingEnvironment.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingEnvironment.cs" bodystart="11" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a473402ead2d64c30e3af0f68802531f5" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>BillingPeriodUnit</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingPeriodUnit</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a473402ead2d64c30e3af0f68802531f5a03727ac48595a24daed975559c944a44" prot="public">
+          <name>Day</name>
+          <briefdescription>
+<para>Day unit for billing product subscription period. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a473402ead2d64c30e3af0f68802531f5ad2ce009594dcc60befa6a4e6cbeb71fc" prot="public">
+          <name>Week</name>
+          <briefdescription>
+<para>Week unit for billing product subscription period. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a473402ead2d64c30e3af0f68802531f5a7cbb885aa1164b390a0bc050a64e1812" prot="public">
+          <name>Month</name>
+          <briefdescription>
+<para>Month unit for billing product subscription period. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a473402ead2d64c30e3af0f68802531f5a537c66b24ef5c83b7382cdc3f34885f2" prot="public">
+          <name>Year</name>
+          <briefdescription>
+<para>Year unit for billing product subscription period. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Unit for billing product subscription period. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPeriodUnit.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPeriodUnit.cs" bodystart="7" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a596df4f276c2c3f4f321e43906d5e97d" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>BillingProductOfferCategory</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductOfferCategory</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a596df4f276c2c3f4f321e43906d5e97da88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>Unknown offer category. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a596df4f276c2c3f4f321e43906d5e97da8b7633c69a5940bc3afe96a3f8d20496" prot="public">
+          <name>Introductory</name>
+          <briefdescription>
+<para>Offer category for introductory offers. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a596df4f276c2c3f4f321e43906d5e97da6b5e8e69f036b96821cf755e1bbdfd73" prot="public">
+          <name>Promotional</name>
+          <briefdescription>
+<para>Offer category for promotional offers. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a596df4f276c2c3f4f321e43906d5e97daca0dbad92a874b2f69b549293387925e" prot="public">
+          <name>Code</name>
+          <briefdescription>
+<para>Offer category for code-based offers. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Represents a category of a billing product offer. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferCategory.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferCategory.cs" bodystart="7" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1af67e813b490a3e9da87fae120e70258a" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>BillingProductPayoutCategory</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductPayoutCategory</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1af67e813b490a3e9da87fae120e70258aa386c339d37e737a436499d423a77df0c" prot="public">
+          <name>Currency</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>Represents the category of currency payout. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1af67e813b490a3e9da87fae120e70258aa7d74f3b92b19da5e606d737d339a9679" prot="public">
+          <name>Item</name>
+          <briefdescription>
+<para>Represents the category of item payout. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1af67e813b490a3e9da87fae120e70258aa6311ae17c1ee52b36e68aaf4ad066387" prot="public">
+          <name>Other</name>
+          <initializer>= 1000</initializer>
+          <briefdescription>
+<para>Represents all other categories of payout. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Defines the categories for billing product payouts. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPayoutCategory.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPayoutCategory.cs" bodystart="11" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a9f83944756e7fac61f33b36db846ea96" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>BillingProductRevocationReason</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductRevocationReason</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a9f83944756e7fac61f33b36db846ea96a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+<para>No revocation. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a9f83944756e7fac61f33b36db846ea96a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>Unknown reason. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a9f83944756e7fac61f33b36db846ea96a03bd271814f5f1351d6223a977829a93" prot="public">
+          <name>DeveloperIssue</name>
+          <briefdescription>
+<para>The revocation was caused by a developer related issue. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Reason for which the product got revoked. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductRevocationReason.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductRevocationReason.cs" bodystart="11" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a11c01f24eb90a39cad644506374351ee" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>BillingProductSubscriptionExpirationReason</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductSubscriptionExpirationReason</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a11c01f24eb90a39cad644506374351eea6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+<para>No expiration reason available. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a11c01f24eb90a39cad644506374351eea88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>Unknown expiration reason. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a11c01f24eb90a39cad644506374351eeaf35a9f3a8961ad136ced20a34a140b05" prot="public">
+          <name>AutoRenewDisabled</name>
+          <briefdescription>
+<para>Auto-Renew disabled. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a11c01f24eb90a39cad644506374351eeaead7e996e200a167a50c69d2f7b45610" prot="public">
+          <name>BillingError</name>
+          <briefdescription>
+<para>Expiration due to billing error. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a11c01f24eb90a39cad644506374351eea6eba07835558f0c6a633d39e4d26bdba" prot="public">
+          <name>DidNotConsentToPriceIncrease</name>
+          <briefdescription>
+<para>Expiration due to user did not consent to price increase. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a11c01f24eb90a39cad644506374351eeae9906094c5c7ec044dc39e7ddbf815d2" prot="public">
+          <name>ProductUnavailable</name>
+          <briefdescription>
+<para>Expiration due to product being unavailable. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Reason for billing product subscription expiration. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionExpirationReason.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionExpirationReason.cs" bodystart="7" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a023a0da0267df5aaeeb19b07846de743" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>BillingProductSubscriptionPriceIncreaseStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductSubscriptionPriceIncreaseStatus</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a023a0da0267df5aaeeb19b07846de743a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>Unknown status of billing product subscription price increase action. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a023a0da0267df5aaeeb19b07846de743ac6428b44db415ad468c7009d66b6c4f4" prot="public">
+          <name>NoIncreasePending</name>
+          <briefdescription>
+<para>No price increase is pending. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a023a0da0267df5aaeeb19b07846de743abc85ffbc3b4afe58d54d47749ab6b3b9" prot="public">
+          <name>Agreed</name>
+          <briefdescription>
+<para>User agreed to the price increase. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a023a0da0267df5aaeeb19b07846de743a2d13df6f8b5e4c5af9f87e0dc39df69d" prot="public">
+          <name>Pending</name>
+          <briefdescription>
+<para>Price increase is pending. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Status of billing product subscription price increase action. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionPriceIncreaseStatus.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionPriceIncreaseStatus.cs" bodystart="7" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4fe4cf71a855612966d19f8dff53149d" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>BillingProductSubscriptionRenewalState</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductSubscriptionRenewalState</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4fe4cf71a855612966d19f8dff53149da88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>Unknown state of the subscription renewal. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4fe4cf71a855612966d19f8dff53149da808c7457c768423c5651cbf676d9f6d7" prot="public">
+          <name>Subscribed</name>
+          <briefdescription>
+<para>User is currently subscribed to the product. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4fe4cf71a855612966d19f8dff53149da24fe48030f7d3097d5882535b04c3fa8" prot="public">
+          <name>Expired</name>
+          <briefdescription>
+<para>User&apos;s subscription to the product has expired. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4fe4cf71a855612966d19f8dff53149dab5dca45a58dc577dd1428f2c9a74fdc0" prot="public">
+          <name>InBillingRetryPeriod</name>
+          <briefdescription>
+<para>The App Store is attempting to renew a subscription on behalf of the user. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4fe4cf71a855612966d19f8dff53149da201a4991bdf8daaaba00e075442b49e3" prot="public">
+          <name>InGracePeriod</name>
+          <briefdescription>
+<para>User&apos;s subscription is in the process of being canceled and will terminate at the end of the current billing cycle. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4fe4cf71a855612966d19f8dff53149daefb216eb79453b9aab85cee34f38c055" prot="public">
+          <name>Revoked</name>
+          <briefdescription>
+<para>User explicitly revoked the subscription. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>State of the subscription renewal. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionRenewalState.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductSubscriptionRenewalState.cs" bodystart="11" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8a4514d4d8550dedff67772e8a230121" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>BillingProductType</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductType</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8a4514d4d8550dedff67772e8a230121a56fed3bd1057fee3027e20901d42f19e" prot="public">
+          <name>Consumable</name>
+          <briefdescription>
+<para>The consumable product. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8a4514d4d8550dedff67772e8a230121a5b7e0600d0e4857363b45f30eafa1a40" prot="public">
+          <name>NonConsumable</name>
+          <briefdescription>
+<para>The non consumable product. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8a4514d4d8550dedff67772e8a230121a787ad0b7a17de4ad6b1711bbf8d79fcb" prot="public">
+          <name>Subscription</name>
+          <briefdescription>
+<para>The subscription product. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>An enumeration for the available billing product types. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductType.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductType.cs" bodystart="11" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2cdfe71af1e91303eaad67cce9dca095" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>BillingReceiptVerificationState</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingReceiptVerificationState</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2cdfe71af1e91303eaad67cce9dca095abf6dbc731ea21f21b9bf8ed1cc3e7a1a" prot="public">
+          <name>NotDetermined</name>
+          <briefdescription>
+<para>Receipt verification has not yet been done. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2cdfe71af1e91303eaad67cce9dca095a505a83f220c02df2f85c3810cd9ceb38" prot="public">
+          <name>Success</name>
+          <briefdescription>
+<para>Receipt was successfully verified. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2cdfe71af1e91303eaad67cce9dca095ad7c8c85bf79bbe1b7188497c32c3b0ca" prot="public">
+          <name>Failed</name>
+          <briefdescription>
+<para>Receipt verification failed for some reason. Possible reasons can be network issue, mismatch of app build details etc. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The state of a payment receipt verification. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingReceiptVerificationState.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingReceiptVerificationState.cs" bodystart="11" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>BillingServicesErrorCode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesErrorCode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>Unknown error occurred. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903a47423b8444592efbe331550c5620e821" prot="public">
+          <name>NetworkError</name>
+          <briefdescription>
+<para>Network error occurred. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903ab932b91f686c2aa588adfd9a407155ca" prot="public">
+          <name>SystemError</name>
+          <briefdescription>
+<para>System error occurred. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903aad5f8b24cdcecf7e873a0fe2b434454c" prot="public">
+          <name>BillingNotAvailable</name>
+          <briefdescription>
+<para>Billing service is not available. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903aa1c5e6502ca662f4bd67e5ddad598ed7" prot="public">
+          <name>StoreNotInitialized</name>
+          <briefdescription>
+<para>Store is not initialized. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903a4c24ee8a26129f8d22a93d68afa83574" prot="public">
+          <name>StoreIsBusy</name>
+          <briefdescription>
+<para>Store is busy processing another request. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903abbfe96b896eba6b2bff34fcf6b1086c6" prot="public">
+          <name>UserCancelled</name>
+          <briefdescription>
+<para>User cancelled the payment. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903a7dc54a3147456489040816c21372aff4" prot="public">
+          <name>OfferNotApplicable</name>
+          <briefdescription>
+<para>Offer is not applicable. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903a46a1a8603feecdb7ceb58d0272b5d222" prot="public">
+          <name>OfferNotValid</name>
+          <briefdescription>
+<para>Offer is not valid. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903a61b6e357e51cdc09d33482342199e760" prot="public">
+          <name>QuantityNotValid</name>
+          <briefdescription>
+<para>Quantity is not valid. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903ad14b86399d5e888778749b5c52add16b" prot="public">
+          <name>ProductNotAvailable</name>
+          <briefdescription>
+<para>Product is not available. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903a876a2a65fd5cf4ab2a093e135a58a81a" prot="public">
+          <name>ProductOwned</name>
+          <briefdescription>
+<para>Product is already owned. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad689e316267138fbec06db351c0d1903afb12ff30441dbc154f6d2591169f012c" prot="public">
+          <name>FeatureNotAvailable</name>
+          <briefdescription>
+<para>Feature is not available. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Describes the error code which can occur when requesting for payment. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesErrorCode.cs" line="9" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesErrorCode.cs" bodystart="10" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a10b6038d73203f406be834f7c50ca2fb" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>BillingProductOfferPaymentMode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductOfferPaymentMode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a10b6038d73203f406be834f7c50ca2fba88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>Unknown payment mode. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a10b6038d73203f406be834f7c50ca2fba252f9ed79a6214b988efeda0a0e1820e" prot="public">
+          <name>FreeTrial</name>
+          <briefdescription>
+<para>Payment mode for a free trial. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a10b6038d73203f406be834f7c50ca2fba5a91229c1688793bf4091ee357a8daf6" prot="public">
+          <name>PayAsYouGo</name>
+          <briefdescription>
+<para>Payment mode for pay as you go subscriptions. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a10b6038d73203f406be834f7c50ca2fbafbb5da4279f39ea1b1d172b33be8c526" prot="public">
+          <name>PayUpFront</name>
+          <briefdescription>
+<para>Payment mode for pay up front subscriptions. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Payment mode of Billing Product Subscription. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesOfferPaymentMode.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesOfferPaymentMode.cs" bodystart="7" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8eceb4dea76715613fe03408958c7da0" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>BillingTransactionState</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingTransactionState</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8eceb4dea76715613fe03408958c7da0a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8eceb4dea76715613fe03408958c7da0a5f95f5c48171ba26e9f8aa9d8c7ce6c4" prot="public">
+          <name>Purchasing</name>
+          <briefdescription>
+<para>Transaction is being added to the server queue. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8eceb4dea76715613fe03408958c7da0ace4ee01637f4279d02d0f232459dc9a4" prot="public">
+          <name>Purchased</name>
+          <briefdescription>
+<para>Transaction is in queue, user has been charged. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8eceb4dea76715613fe03408958c7da0ad7c8c85bf79bbe1b7188497c32c3b0ca" prot="public">
+          <name>Failed</name>
+          <briefdescription>
+<para>Transaction was cancelled or failed before being added to the server queue. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8eceb4dea76715613fe03408958c7da0a5fdf564f22be6bd901a690f1c5a6d9eb" prot="public">
+          <name>Restored</name>
+          <briefdescription>
+<para>This transaction restores content previously purchased by the user. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8eceb4dea76715613fe03408958c7da0a4ed71db54748b36eeb398876b0c747ac" prot="public">
+          <name>Deferred</name>
+          <briefdescription>
+<para>The transaction is in the queue, but its final status is pending external action. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8eceb4dea76715613fe03408958c7da0acc61945cbbf46721a053467c395c666f" prot="public">
+          <name>Refunded</name>
+          <briefdescription>
+<para>This transaction was refunded back to the user. You can restrict/remove associated item. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The state of a billing product payment. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionState.cs" line="11" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionState.cs" bodystart="12" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4f3b4326b7ed2ed6bcef09c3de8bed8f" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>CloudSavedDataChangeReasonCode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudSavedDataChangeReasonCode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4f3b4326b7ed2ed6bcef09c3de8bed8fa2a200899107848e0a7abe1c33bc628fb" prot="public">
+          <name>ServerChange</name>
+          <briefdescription>
+<para>This occurs when another instance of your app using same cloud service account, uploads a new value. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4f3b4326b7ed2ed6bcef09c3de8bed8facc6c5f3a793c80423c322302d8bd4ae5" prot="public">
+          <name>InitialSyncChange</name>
+          <briefdescription>
+<para>This occurs when an attempt to write to key-value storage was discarded because an initial download from cloud server has not yet happened. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4f3b4326b7ed2ed6bcef09c3de8bed8fa3afca51f8aa8ce4c664da6bd7cedfcff" prot="public">
+          <name>QuotaViolationChange</name>
+          <briefdescription>
+<para>This occurs when your app’s key-value store has exceeded its space quota on the cloud server. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4f3b4326b7ed2ed6bcef09c3de8bed8fa609b7ab54ed5deb4a7724be813980754" prot="public">
+          <name>AccountChange</name>
+          <briefdescription>
+<para>This occurs when user has changed the cloud service account. The keys and values in the local key-value store have been replaced with those from the new account. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Possible reasons when cloud data changed event occurs. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudSavedDataChangeReasonCode.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudSavedDataChangeReasonCode.cs" bodystart="11" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a30b150aaa410d9147e3bf02dea4bae35" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>CloudServicesErrorCode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesErrorCode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a30b150aaa410d9147e3bf02dea4bae35a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>Unknown error occurred. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Contains the list of error codes that can occur during cloud services operations. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServicesErrorCode.cs" line="9" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServicesErrorCode.cs" bodystart="10" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aefe11402bb283517184f81be3f2e4445" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>CloudUserAccountStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudUserAccountStatus</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aefe11402bb283517184f81be3f2e4445ac74536030cea5b108c0288e6534b1b0c" prot="public">
+          <name>CouldNotDetermine</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>Indicates that an error occurred during an attempt to retrieve the account status. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aefe11402bb283517184f81be3f2e4445a78945de8de090e90045d299651a68a9b" prot="public">
+          <name>Available</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>The user’s iCloud account is available and may be used by this app. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aefe11402bb283517184f81be3f2e4445aecdee5de15af6876cfab0801bb36f445" prot="public">
+          <name>Restricted</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>The user’s iCloud account is not available. Access was denied due to Parental Controls. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aefe11402bb283517184f81be3f2e4445a6b58e04cd72f6ef92173e833e80a6af3" prot="public">
+          <name>NoAccount</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>The user’s iCloud account is not available because no account information has been provided for this device. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enumeration indicating the availability of the user’s cloud account. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudUserAccountStatus.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudUserAccountStatus.cs" bodystart="11" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2f5d9b001eb542801436a718e63ca16b" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>GameServicesErrorCode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesErrorCode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2f5d9b001eb542801436a718e63ca16ba88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>The error code indicating that the cause of the error could not be determined. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2f5d9b001eb542801436a718e63ca16bab932b91f686c2aa588adfd9a407155ca" prot="public">
+          <name>SystemError</name>
+          <briefdescription>
+<para>The error code indicating that an error occurred on the server. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2f5d9b001eb542801436a718e63ca16ba47423b8444592efbe331550c5620e821" prot="public">
+          <name>NetworkError</name>
+          <briefdescription>
+<para>The error code indicating that a network error occurred. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2f5d9b001eb542801436a718e63ca16bafa89fcc81e9dcfd52671c968fe4e6ddf" prot="public">
+          <name>NotAllowed</name>
+          <briefdescription>
+<para>The error code indicating that the operation was not allowed. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2f5d9b001eb542801436a718e63ca16bafb5646b7356bc139a271edb6d530c57d" prot="public">
+          <name>DataNotAvailable</name>
+          <briefdescription>
+<para>The error code indicating that the data being requested is not available. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2f5d9b001eb542801436a718e63ca16ba9ed2d871602556951e39f3cebd08d6cb" prot="public">
+          <name>NotSupported</name>
+          <briefdescription>
+<para>The error code indicating that the feature is not supported or enabled. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2f5d9b001eb542801436a718e63ca16ba05f6ffa53682f5ecd6164f8a3524733a" prot="public">
+          <name>ConfigurationError</name>
+          <briefdescription>
+<para>The error code indicating that the configuration is invalid. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2f5d9b001eb542801436a718e63ca16bad8f78ca9a692a9411afbc7584b69d043" prot="public">
+          <name>InvalidInput</name>
+          <briefdescription>
+<para>The error code indicating that the input was invalid. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2f5d9b001eb542801436a718e63ca16ba3a832abbd641468bf3f858162377b9be" prot="public">
+          <name>NotAuthenticated</name>
+          <briefdescription>
+<para>The error code indicating that the user is not authenticated. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enum used to specify the error code for game services operations. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesErrorCode.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesErrorCode.cs" bodystart="7" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aafc271b49f62072f6fb37f85fde81c62" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>GameServicesViewResultCode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesViewResultCode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aafc271b49f62072f6fb37f85fde81c62a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>The user action could not be determined. This occurs in platforms where there is no provision to find result. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aafc271b49f62072f6fb37f85fde81c62af92965e2c8a7afb3c1b9a5c09a263636" prot="public">
+          <name>Done</name>
+          <briefdescription>
+<para>The user successfully closed. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Result codes returned when the game service interface is dismissed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesViewResultCode.cs" line="11" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesViewResultCode.cs" bodystart="12" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2d6e7bb307f10474d7f44ca36ffed55f" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>LeaderboardPlayerScope</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardPlayerScope</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2d6e7bb307f10474d7f44ca36ffed55fa4cc6684df7b4a92b1dec6fce3264fac8" prot="public">
+          <name>Global</name>
+          <briefdescription>
+<para>All the players are considered for search. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2d6e7bb307f10474d7f44ca36ffed55faf98de2598c00a8e10bdce048fa0c4604" prot="public">
+          <name>FriendsOnly</name>
+          <briefdescription>
+<para>Only friends of local player are considered for search. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The scope of player to be searched for scores. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardPlayerScope.cs" line="11" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardPlayerScope.cs" bodystart="12" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad7822064a33c67a18ae93d0cc22c7229" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>LeaderboardTimeScope</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardTimeScope</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad7822064a33c67a18ae93d0cc22c7229a1dd1c5fb7f25cd41b291d43a89e3aefd" prot="public">
+          <name>Today</name>
+          <briefdescription>
+<para>Best score of all user&apos;s recorded in past 24hrs is returned. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad7822064a33c67a18ae93d0cc22c7229ad2ce009594dcc60befa6a4e6cbeb71fc" prot="public">
+          <name>Week</name>
+          <briefdescription>
+<para>Best score of all user&apos;s recorded in past week is returned. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad7822064a33c67a18ae93d0cc22c7229a01101872440576cfea86e9a3f92527bb" prot="public">
+          <name>AllTime</name>
+          <briefdescription>
+<para>Best score of all user&apos;s recorded is returned. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The period of time to which user&apos;s best score are restricted. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardTimeScope.cs" line="11" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardTimeScope.cs" bodystart="12" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ab8fb6e5e8263c6835d4171148555377a" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>LocalPlayerAuthStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LocalPlayerAuthStatus</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ab8fb6e5e8263c6835d4171148555377aa534ceac854da4ba59c4dc41b7ab732dc" prot="public">
+          <name>NotAvailable</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>User authentication status is not found. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ab8fb6e5e8263c6835d4171148555377aaedb214653d9f3cecd840463790ac2894" prot="public">
+          <name>Authenticating</name>
+          <briefdescription>
+<para>Local player auth process has been initiated. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ab8fb6e5e8263c6835d4171148555377aaa927b3e1f83aa1b3c6feff945ca18f77" prot="public">
+          <name>Authenticated</name>
+          <briefdescription>
+<para>Local player is signed in. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enumeration for determining <ref refid="d4/d37/interface_voxel_busters_1_1_essential_kit_1_1_i_local_player" kindref="compound">ILocalPlayer</ref> auth status. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LocalPlayerAuthStatus.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LocalPlayerAuthStatus.cs" bodystart="11" bodyend="20"/>
+      </memberdef>
+      <member refid="d7/d93/group___game_services_1gacdfa6f09422eb91f2f542a21d6780705" kind="enum"><name>ServerCredentialAdditionalScope</name></member>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aafd2f4506631462ce3394fb96b7eab0c" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>CameraAccessStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CameraAccessStatus</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aafd2f4506631462ce3394fb96b7eab0cabf6dbc731ea21f21b9bf8ed1cc3e7a1a" prot="public">
+          <name>NotDetermined</name>
+          <briefdescription>
+<para>The user has not yet made a choice regarding whether this app can access the camera. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aafd2f4506631462ce3394fb96b7eab0caecdee5de15af6876cfab0801bb36f445" prot="public">
+          <name>Restricted</name>
+          <briefdescription>
+<para>The application is not authorized to access the camera. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aafd2f4506631462ce3394fb96b7eab0ca58d036b9b7f0e7eb38cfb90f1cc70a73" prot="public">
+          <name>Denied</name>
+          <briefdescription>
+<para>The user explicitly denied access to camera for this application. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aafd2f4506631462ce3394fb96b7eab0caa206428462686af481cb072b8db11784" prot="public">
+          <name>Authorized</name>
+          <briefdescription>
+<para>The application is authorized to access camera. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>An access status the user can grant for an app to access the camera. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/CameraAccessStatus.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/CameraAccessStatus.cs" bodystart="11" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a5af6d9ef7e26e40ab9a97445485856a8" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>GalleryAccessMode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GalleryAccessMode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a5af6d9ef7e26e40ab9a97445485856a8a7a1a5f3e79fdc91edf2f5ead9d66abb4" prot="public">
+          <name>Read</name>
+          <initializer>= 1 &lt;&lt; 0</initializer>
+          <briefdescription>
+<para>The ability to access gallery files. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a5af6d9ef7e26e40ab9a97445485856a8a70a2a84088d405a2e3f1e3accaa16723" prot="public">
+          <name>ReadWrite</name>
+          <initializer>= 1 &lt;&lt; 1</initializer>
+          <briefdescription>
+<para>The ability to access and write files to gallery. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enumeration values indicating the mode in which application wants to access user&apos;s gallery. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/GalleryAccessMode.cs" line="11" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/GalleryAccessMode.cs" bodystart="12" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a07b567b6d38e197ddb5cf23daa492866" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>GalleryAccessStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GalleryAccessStatus</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a07b567b6d38e197ddb5cf23daa492866abf6dbc731ea21f21b9bf8ed1cc3e7a1a" prot="public">
+          <name>NotDetermined</name>
+          <briefdescription>
+<para>The user has not yet made a choice regarding whether this app can access the gallery data. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a07b567b6d38e197ddb5cf23daa492866aecdee5de15af6876cfab0801bb36f445" prot="public">
+          <name>Restricted</name>
+          <briefdescription>
+<para>The application is not authorized to access the gallery data. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a07b567b6d38e197ddb5cf23daa492866a58d036b9b7f0e7eb38cfb90f1cc70a73" prot="public">
+          <name>Denied</name>
+          <briefdescription>
+<para>The user explicitly denied access to gallery data for this application. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a07b567b6d38e197ddb5cf23daa492866aa206428462686af481cb072b8db11784" prot="public">
+          <name>Authorized</name>
+          <briefdescription>
+<para>The application is authorized to access gallery data. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>An access status the user can grant for an app to access the gallery data. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/GalleryAccessStatus.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/GalleryAccessStatus.cs" bodystart="11" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1af533e815e7977d2543ebee00b2228411" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>MediaContentCaptureSource</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContentCaptureSource</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1af533e815e7977d2543ebee00b2228411a967d35e40f3f95b1f538bd248640bf3b" prot="public">
+          <name>Camera</name>
+          <briefdescription>
+<para>Capture media content from a camera. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Represents a source of media content capture. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentCaptureSource.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentCaptureSource.cs" bodystart="7" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ac1a99dc147705403cf723a869f3242ec" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>MediaContentCaptureType</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContentCaptureType</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ac1a99dc147705403cf723a869f3242ecabe53a0541a6d36f6ecb879fa2c584b08" prot="public">
+          <name>Image</name>
+          <briefdescription>
+<para>Capture an image. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ac1a99dc147705403cf723a869f3242eca34e2d1989a1dbf75cd631596133ee5ee" prot="public">
+          <name>Video</name>
+          <briefdescription>
+<para>Capture a video. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Type of media content that can be captured. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentCaptureType.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentCaptureType.cs" bodystart="7" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a1a3e5a0c340fc0e4bd71017609f0678d" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>MediaServicesErrorCode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesErrorCode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a1a3e5a0c340fc0e4bd71017609f0678da88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>An unknown error occurred. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a1a3e5a0c340fc0e4bd71017609f0678da73e747849c67419fdfceb8eb27b01fc3" prot="public">
+          <name>PermissionNotAvailable</name>
+          <briefdescription>
+<para>The permission to access the camera or photo library is not available. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a1a3e5a0c340fc0e4bd71017609f0678dabbfe96b896eba6b2bff34fcf6b1086c6" prot="public">
+          <name>UserCancelled</name>
+          <briefdescription>
+<para>The user cancelled the operation. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a1a3e5a0c340fc0e4bd71017609f0678dafb5646b7356bc139a271edb6d530c57d" prot="public">
+          <name>DataNotAvailable</name>
+          <briefdescription>
+<para>The required data is not available. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Contains a list of error codes that can occur while using the Media Services. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesErrorCode.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesErrorCode.cs" bodystart="7" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ae3613e0c055e54cd26802837c2ad5b41" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>AlertDialogStyle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AlertDialogStyle</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ae3613e0c055e54cd26802837c2ad5b41a7a1920d61156abc05a60135aefe8bc67" prot="public">
+          <name>Default</name>
+          <briefdescription>
+<para>An overlay alert dialog is displayed. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ae3613e0c055e54cd26802837c2ad5b41a3acf8090cf59282bfbb191f5707b72ae" prot="public">
+          <name>ActionSheet</name>
+          <briefdescription>
+<para>An action sheet style is used to display alert. (iOS feature) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>An enumeration for the available alert dialog styles. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialogStyle.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialogStyle.cs" bodystart="11" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a3c684be76fc389f509b5926f69d1d67b" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>DatePickerMode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DatePickerMode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a3c684be76fc389f509b5926f69d1d67ba44749712dbec183e983dcd78a7736c41" prot="public">
+          <name>Date</name>
+          <briefdescription>
+<para>The date picker should show date only. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a3c684be76fc389f509b5926f69d1d67baa76d4ef5f3f6a672bbfab2865563e530" prot="public">
+          <name>Time</name>
+          <briefdescription>
+<para>The date picker should show time only. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a3c684be76fc389f509b5926f69d1d67ba56ca15e0327fcb7a7f71e883d5c3c62a" prot="public">
+          <name>DateAndTime</name>
+          <briefdescription>
+<para>The date picker should show date and time. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Specifies the mode of the date picker to be displayed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/DatePickerMode.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/DatePickerMode.cs" bodystart="11" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a3901adf39db20bf62d9aba1aeab140c3" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>KeyboardInputType</name>
+        <qualifiedname>VoxelBusters.EssentialKit.KeyboardInputType</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a3901adf39db20bf62d9aba1aeab140c3a7a1920d61156abc05a60135aefe8bc67" prot="public">
+          <name>Default</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a3901adf39db20bf62d9aba1aeab140c3ac2fa2d0400af6cbbd2a824074b0a8032" prot="public">
+          <name>ASCIICapable</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a3901adf39db20bf62d9aba1aeab140c3aa56d01ff14a21536a061488de42b1ef6" prot="public">
+          <name>NumbersAndPunctuation</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a3901adf39db20bf62d9aba1aeab140c3ae6b391a8d2c4d45902a23a8b6585703d" prot="public">
+          <name>URL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a3901adf39db20bf62d9aba1aeab140c3a9d4808d9052bce82f08bca0428d7d630" prot="public">
+          <name>NumberPad</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a3901adf39db20bf62d9aba1aeab140c3ac6011585cf42af73f3a09c443eb5c9c0" prot="public">
+          <name>PhonePad</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a3901adf39db20bf62d9aba1aeab140c3a1e674f0dd1434f2bb3fe5d645b0f9cc3" prot="public">
+          <name>EmailAddress</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/KeyboardInputType.cs" line="3" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/KeyboardInputType.cs" bodystart="4" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a444ff1746a2e58653593deb05980f837" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>NotificationAlertStyle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationAlertStyle</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a444ff1746a2e58653593deb05980f837a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>No alert. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a444ff1746a2e58653593deb05980f837ab92071d61c88498171928745ca53078b" prot="public">
+          <name>Alert</name>
+          <briefdescription>
+<para>Modal alerts. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a444ff1746a2e58653593deb05980f837a6ff29916f99fff9d2494d28e721ae77e" prot="public">
+          <name>Banner</name>
+          <briefdescription>
+<para>Banner alerts. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Constants indicating the presentation styles for alerts. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationAlertStyle.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationAlertStyle.cs" bodystart="11" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>NotificationPermissionOptions</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationPermissionOptions</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274a454a5c95c970c24b3d747b01001fd13a" prot="public">
+          <name>Badge</name>
+          <initializer>= 1 &lt;&lt; 0</initializer>
+          <briefdescription>
+<para>The ability to update the app’s badge. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274a9d07e0e08af7f96cf45be0112b9ccfbe" prot="public">
+          <name>Sound</name>
+          <initializer>= 1 &lt;&lt; 1</initializer>
+          <briefdescription>
+<para>The ability to play sounds. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274ab92071d61c88498171928745ca53078b" prot="public">
+          <name>Alert</name>
+          <initializer>= 1 &lt;&lt; 2</initializer>
+          <briefdescription>
+<para>The ability to display alerts. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274aa314db4edac2eb21e8799740e73902e4" prot="public">
+          <name>CarPlay</name>
+          <initializer>= 1 &lt;&lt; 3</initializer>
+          <briefdescription>
+<para>The ability to display notifications in a CarPlay environment. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274a97a5a89e9a1990dbd2edf4de0fb0d397" prot="public">
+          <name>CriticalAlert</name>
+          <initializer>= 1 &lt;&lt; 4</initializer>
+          <briefdescription>
+<para>The ability to play sounds for critical alerts. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274a23ae0ee0c9f74a1d1633400c871073d3" prot="public">
+          <name>ProvidesAppNotificationSettings</name>
+          <initializer>= 1 &lt;&lt; 5</initializer>
+          <briefdescription>
+<para>An option indicating the system should display a button for in-app notification settings. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274a879556b917aa201a4e3762375dbcb5bc" prot="public">
+          <name>Provisional</name>
+          <initializer>= 1 &lt;&lt; 6</initializer>
+          <briefdescription>
+<para>The ability to post noninterrupting notifications provisionally to the Notification Center. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274afeb4d2dfe1b2a637fdfd9e397cc4735f" prot="public">
+          <name>Announcement</name>
+          <initializer>= 1 &lt;&lt; 7</initializer>
+          <briefdescription>
+<para>The ability for Siri to automatically read out messages over AirPods. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274a0e64274f0874f21ad390180620714127" prot="public">
+          <name>ExactTiming</name>
+          <initializer>= 1 &lt;&lt; 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274ab1c94ca2fbc3e78fc30069c8d0f01680" prot="public">
+          <name>All</name>
+          <initializer>= Badge | Sound | Alert | CarPlay | CriticalAlert | ProvidesAppNotificationSettings | Provisional | Announcement | ExactTiming</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enumeration values for requesting authorization to interact with the user. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationPermissionOptions.cs" line="12" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationPermissionOptions.cs" bodystart="13" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adb9431b7e4d0a8718ef362bb9c9fdc97" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>NotificationPermissionStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationPermissionStatus</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adb9431b7e4d0a8718ef362bb9c9fdc97abf6dbc731ea21f21b9bf8ed1cc3e7a1a" prot="public">
+          <name>NotDetermined</name>
+          <briefdescription>
+<para>The user hasn&apos;t yet made a choice about whether the app is allowed to schedule notifications. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adb9431b7e4d0a8718ef362bb9c9fdc97a58d036b9b7f0e7eb38cfb90f1cc70a73" prot="public">
+          <name>Denied</name>
+          <briefdescription>
+<para>The app isn&apos;t authorized to schedule or receive notifications. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adb9431b7e4d0a8718ef362bb9c9fdc97aa206428462686af481cb072b8db11784" prot="public">
+          <name>Authorized</name>
+          <briefdescription>
+<para>The app is authorized to schedule or receive notifications. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adb9431b7e4d0a8718ef362bb9c9fdc97a879556b917aa201a4e3762375dbcb5bc" prot="public">
+          <name>Provisional</name>
+          <briefdescription>
+<para>The application is provisionally authorized to post noninterruptive user notifications. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Constants indicating whether the app is allowed to schedule notifications. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationPermissionStatus.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationPermissionStatus.cs" bodystart="11" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a6894f9ce39d08358bdee6bbb31611adb" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>NotificationPresentationOptions</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationPresentationOptions</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a6894f9ce39d08358bdee6bbb31611adbab92071d61c88498171928745ca53078b" prot="public">
+          <name>Alert</name>
+          <initializer>= 1 &lt;&lt; 0</initializer>
+          <briefdescription>
+<para>Display the alert using the content provided by the notification. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a6894f9ce39d08358bdee6bbb31611adba454a5c95c970c24b3d747b01001fd13a" prot="public">
+          <name>Badge</name>
+          <initializer>= 1 &lt;&lt; 1</initializer>
+          <briefdescription>
+<para>Apply the notification&apos;s badge value to the app’s icon. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a6894f9ce39d08358bdee6bbb31611adba9d07e0e08af7f96cf45be0112b9ccfbe" prot="public">
+          <name>Sound</name>
+          <initializer>= 1 &lt;&lt; 2</initializer>
+          <briefdescription>
+<para>Play the sound associated with the notification. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Constants indicating how to present a notification in a foreground app. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationPresentationOptions.cs" line="12" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationPresentationOptions.cs" bodystart="13" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a32634e3fbf4fff5665ae5d06f948716e" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>NotificationPreviewStyle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationPreviewStyle</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a32634e3fbf4fff5665ae5d06f948716ea68eec46437c384d8dad18d5464ebc35c" prot="public">
+          <name>Always</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>The notification&apos;s content is always shown, even when the device is locked. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a32634e3fbf4fff5665ae5d06f948716eab4b709a57e0e6e795a9552636d15f9b4" prot="public">
+          <name>WhenAuthenticated</name>
+          <briefdescription>
+<para>The notification&apos;s content is shown only when the device is unlocked. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a32634e3fbf4fff5665ae5d06f948716ea6e7b34fa59e1bd229b207892956dc41c" prot="public">
+          <name>Never</name>
+          <briefdescription>
+<para>The notification&apos;s content is never shown, even when the device is unlocked. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a32634e3fbf4fff5665ae5d06f948716ead3b0d0f8f919a0578319501c4c8c88be" prot="public">
+          <name>NotAccessible</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Constants indicating the style previewing a notification&apos;s content. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationPreviewStyle.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationPreviewStyle.cs" bodystart="11" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aed65b4bc3683d5107f984b5d778bf553" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>NotificationPriority</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationPriority</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aed65b4bc3683d5107f984b5d778bf553a28d0edd045e05cf5af64e35ae0c4c6ef" prot="public">
+          <name>Low</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>Low priority. Can be silent or with no disturbance. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aed65b4bc3683d5107f984b5d778bf553a87f8a6ab85c9ced3702b4ea641ad4bb5" prot="public">
+          <name>Medium</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>Medium priority. (Default) Can make noise, alert in banner, but respects battery optimization settings or focus mode. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aed65b4bc3683d5107f984b5d778bf553a655d20c1ca69519ca647684edbb2db35" prot="public">
+          <name>High</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>High priority. Can make noise, alert in banner and can be visually intruding (&quot;May&quot; break-through doze/battery optimization or focus modes). </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aed65b4bc3683d5107f984b5d778bf553a6a061313d22e51e0f25b7cd4dc065233" prot="public">
+          <name>Max</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>Max priority. Can make noise, alert in banner and visually intruding (&quot;Must&quot; break-through doze or focus modes). </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Specifies the priority levels for notifications, determining how they are delivered to the user. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationPriority.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationPriority.cs" bodystart="7" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad858e56dfc5b5d1a9d29df34f170cb95" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>NotificationServicesErrorCode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesErrorCode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad858e56dfc5b5d1a9d29df34f170cb95a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>An unknown error occurred. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad858e56dfc5b5d1a9d29df34f170cb95a73e747849c67419fdfceb8eb27b01fc3" prot="public">
+          <name>PermissionNotAvailable</name>
+          <briefdescription>
+<para>The permission for notifications is not available. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad858e56dfc5b5d1a9d29df34f170cb95aea4764be26e62f9721d64c514070237d" prot="public">
+          <name>TriggerNotValid</name>
+          <briefdescription>
+<para>The notification trigger is not valid. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad858e56dfc5b5d1a9d29df34f170cb95a05f6ffa53682f5ecd6164f8a3524733a" prot="public">
+          <name>ConfigurationError</name>
+          <briefdescription>
+<para>There was a configuration error. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad858e56dfc5b5d1a9d29df34f170cb95aa045d6b7cb2ac3d7007c5784eea8a464" prot="public">
+          <name>ScheduledTimeNotValid</name>
+          <briefdescription>
+<para>The scheduled time for the notification is not valid. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Represents error codes for notification services. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationServicesErrorCode.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationServicesErrorCode.cs" bodystart="7" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a67ccf569262a74389af2523b51802546" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>NotificationSettingStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationSettingStatus</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a67ccf569262a74389af2523b51802546ab9f5c797ebbf55adccdd8539a65a0241" prot="public">
+          <name>Disabled</name>
+          <briefdescription>
+<para>The notification setting is turned off. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a67ccf569262a74389af2523b51802546a00d23a76e43b46dae9ec7aa9dcbebb32" prot="public">
+          <name>Enabled</name>
+          <briefdescription>
+<para>The notification setting is turned on. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a67ccf569262a74389af2523b51802546a9ed2d871602556951e39f3cebd08d6cb" prot="public">
+          <name>NotSupported</name>
+          <briefdescription>
+<para>The app does not support this notification setting. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a67ccf569262a74389af2523b51802546ad3b0d0f8f919a0578319501c4c8c88be" prot="public">
+          <name>NotAccessible</name>
+          <briefdescription>
+<para>The platform unable to fetch this setting. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enumeration values indicating the current status of a notification setting. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingStatus.cs" line="12" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingStatus.cs" bodystart="13" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a6fb7a26e2f0301e70c63af1477d0a40f" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>NotificationTriggerType</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationTriggerType</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a6fb7a26e2f0301e70c63af1477d0a40faec0fc0100c4fc1ce4eea230c3dc10360" prot="public">
+          <name>Undefined</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a6fb7a26e2f0301e70c63af1477d0a40fa36e3614aa3ad95889ae8beeba7da4e7d" prot="public">
+          <name>TimeInterval</name>
+          <initializer>= 1 &lt;&lt; 0</initializer>
+          <briefdescription>
+<para>Triggers notification after the specified amount of time elapses. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a6fb7a26e2f0301e70c63af1477d0a40fa8ff922bbcd8ad41cdfc48d3c5163b2ab" prot="public">
+          <name>Calendar</name>
+          <initializer>= 1 &lt;&lt; 1</initializer>
+          <briefdescription>
+<para>Triggers notification at a specific date and time. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a6fb7a26e2f0301e70c63af1477d0a40face5bf551379459c1c61d2a204061c455" prot="public">
+          <name>Location</name>
+          <initializer>= 1 &lt;&lt; 2</initializer>
+          <briefdescription>
+<para>Triggers notification after the user&apos;s device enters or exits the specified geographic region. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a6fb7a26e2f0301e70c63af1477d0a40faeccc50ab391e22181ae28a84d43d70b7" prot="public">
+          <name>PushNotification</name>
+          <initializer>= 1 &lt;&lt; 3</initializer>
+          <briefdescription>
+<para>Notification received from Push Notification Service. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a6fb7a26e2f0301e70c63af1477d0a40fa3cf6c5a46b35d6a887c159fd978d0da4" prot="public">
+          <name>LocalNotification</name>
+          <initializer>= (TimeInterval | Calendar | Location)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Constants indicating available trigger types. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationTriggerType.cs" line="12" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationTriggerType.cs" bodystart="13" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a21971c82011b915a93363b6d01ce323f" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>PushNotificationServiceType</name>
+        <qualifiedname>VoxelBusters.EssentialKit.PushNotificationServiceType</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a21971c82011b915a93363b6d01ce323fa6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>Disables receiving remote push notifications completely as no service is used to send push notifications. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a21971c82011b915a93363b6d01ce323fa90589c47f06eb971d548591f23c285af" prot="public">
+          <name>Custom</name>
+          <briefdescription>
+<para>Custom push notification backend service which sends the payload to the device in plugin&apos;s expected format. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Defines the type of push notification service which sends the notifications to the device. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/PushNotificationServiceType.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/PushNotificationServiceType.cs" bodystart="11" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a6901c02c1de3d1f68dc79907159fa857" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>RateMyAppConfirmationPromptActionType</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppConfirmationPromptActionType</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a6901c02c1de3d1f68dc79907159fa857ab41a86dfa13be896c554be3a1761f03a" prot="public">
+          <name>RemindLater</name>
+          <briefdescription>
+<para>The user has chosen to be reminded later. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a6901c02c1de3d1f68dc79907159fa857aea4788705e6873b424c65e91c2846b19" prot="public">
+          <name>Cancel</name>
+          <briefdescription>
+<para>The user has chosen to cancel. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a6901c02c1de3d1f68dc79907159fa857aa60852f204ed8028c1c58808b746d115" prot="public">
+          <name>Ok</name>
+          <briefdescription>
+<para>The user has chosen to rate the app. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enum representing the actions that can be taken when the rate my app confirmation prompt is shown. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppConfirmationPromptActionType.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppConfirmationPromptActionType.cs" bodystart="7" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1abc5fdc6e3ea508ec575dd859bfd21fac" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>MailComposerResultCode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MailComposerResultCode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1abc5fdc6e3ea508ec575dd859bfd21faca88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>The user action could not be determined. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1abc5fdc6e3ea508ec575dd859bfd21facaa149e85a44aeec9140e92733d9ed694e" prot="public">
+          <name>Cancelled</name>
+          <briefdescription>
+<para>The user cancelled the operation. No email message was queued. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1abc5fdc6e3ea508ec575dd859bfd21faca248336101b461380a4b2391a7625493d" prot="public">
+          <name>Saved</name>
+          <briefdescription>
+<para>The email message was saved in the user’s Drafts folder. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1abc5fdc6e3ea508ec575dd859bfd21faca7f8c0283f16925caed8e632086b81b9c" prot="public">
+          <name>Sent</name>
+          <briefdescription>
+<para>The email message was queued in the user’s outbox. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1abc5fdc6e3ea508ec575dd859bfd21facad7c8c85bf79bbe1b7188497c32c3b0ca" prot="public">
+          <name>Failed</name>
+          <briefdescription>
+<para>The email message was not saved or queued, possibly due to an error. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Result codes returned when the <ref refid="d4/dc9/class_voxel_busters_1_1_essential_kit_1_1_mail_composer" kindref="compound">MailComposer</ref> interface is dismissed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MailComposerResultCode.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MailComposerResultCode.cs" bodystart="11" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a15f95d3ef74a0400becadea6c79ccadf" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>MessageComposerResultCode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MessageComposerResultCode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a15f95d3ef74a0400becadea6c79ccadfa88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>The user action could not be determined. This occurs in platforms where there is no provision to find result. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a15f95d3ef74a0400becadea6c79ccadfaa149e85a44aeec9140e92733d9ed694e" prot="public">
+          <name>Cancelled</name>
+          <briefdescription>
+<para>The user canceled the composition. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a15f95d3ef74a0400becadea6c79ccadfa7f8c0283f16925caed8e632086b81b9c" prot="public">
+          <name>Sent</name>
+          <briefdescription>
+<para>The user successfully queued or sent the message. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a15f95d3ef74a0400becadea6c79ccadfad7c8c85bf79bbe1b7188497c32c3b0ca" prot="public">
+          <name>Failed</name>
+          <briefdescription>
+<para>The message was not saved or queued, possibly due to an error. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Result codes returned when the <ref refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer" kindref="compound">MessageComposer</ref> interface is dismissed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposerResultCode.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposerResultCode.cs" bodystart="11" bodyend="23"/>
+      </memberdef>
+      <member refid="d9/d40/group___sharing_services_1ga80527fbff6347e8d1acb9ec527c72afd" kind="enum"><name>ShareSheetResultCode</name></member>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1abd972b34a2bd13f7afa9b603dee5c7e9" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>SharingServicesErrorCode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesErrorCode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1abd972b34a2bd13f7afa9b603dee5c7e9a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>Unknown error. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1abd972b34a2bd13f7afa9b603dee5c7e9a90f49ac523cb58897c2047559c350821" prot="public">
+          <name>AttachmentNotValid</name>
+          <briefdescription>
+<para>Attachment to be shared is not valid. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Error codes for <ref refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services" kindref="compound">SharingServices</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SharingServicesErrorCode.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SharingServicesErrorCode.cs" bodystart="7" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a1870ada81005411484215a0bd6bb5e54" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>SocialShareComposerResultCode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SocialShareComposerResultCode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a1870ada81005411484215a0bd6bb5e54a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>The composer view is dismissed, but system couldn&apos;t determine the result. This occurs in platforms where there is no provision to find result. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a1870ada81005411484215a0bd6bb5e54aa149e85a44aeec9140e92733d9ed694e" prot="public">
+          <name>Cancelled</name>
+          <briefdescription>
+<para>The view controller is dismissed without sending the post. For example, the user selects Cancel or the account is not available. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a1870ada81005411484215a0bd6bb5e54af92965e2c8a7afb3c1b9a5c09a263636" prot="public">
+          <name>Done</name>
+          <briefdescription>
+<para>The composer view is dismissed and the message is being sent in the background. This occurs when the user selects Done. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Possible values for the result, when <ref refid="df/d49/class_voxel_busters_1_1_essential_kit_1_1_social_share_composer" kindref="compound">SocialShareComposer</ref> interface is dismissed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SocialShareComposerResultCode.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SocialShareComposerResultCode.cs" bodystart="11" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1afdc794be6e025a649c9261e3e48b2e46" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>SocialShareComposerType</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SocialShareComposerType</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1afdc794be6e025a649c9261e3e48b2e46ad85544fce402c7a2a96a48078edaf203" prot="public">
+          <name>Facebook</name>
+          <briefdescription>
+<para>The value indicates Facebook platform. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1afdc794be6e025a649c9261e3e48b2e46a2491bc9c7d8731e1ae33124093bc7026" prot="public">
+          <name>Twitter</name>
+          <briefdescription>
+<para>The value indicates Twitter platform. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1afdc794be6e025a649c9261e3e48b2e46a8b777ebcc5034ce0fe96dd154bcb370e" prot="public">
+          <name>WhatsApp</name>
+          <briefdescription>
+<para>The value indicates WhatsApp platform. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The enum specifies the sharing service you want to post to. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SocialShareComposerType.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SocialShareComposerType.cs" bodystart="11" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a69b0de3de1c45085104020c3c50d01f5" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>TaskServicesErrorCode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.TaskServicesErrorCode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a69b0de3de1c45085104020c3c50d01f5a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>The error code is unknown. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The error codes for Task Services. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/TaskServices/TaskServicesErrorCode.cs" line="8" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/TaskServices/TaskServicesErrorCode.cs" bodystart="9" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ae197128c23fa81b1367c036f19b73ca9" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>WebViewErrorCode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewErrorCode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ae197128c23fa81b1367c036f19b73ca9a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewErrorCode.cs" line="3" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewErrorCode.cs" bodystart="4" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1affd0f8f037d8080ee2f06ec06f710a53" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>WebViewStyle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewStyle</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1affd0f8f037d8080ee2f06ec06f710a53a7a1920d61156abc05a60135aefe8bc67" prot="public">
+          <name>Default</name>
+          <briefdescription>
+<para>No controls are shown for web view. This appearence is ideal for banner ads like requirement. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1affd0f8f037d8080ee2f06ec06f710a53a0d4c14a20b4d98a5de54e1480bf99a25" prot="public">
+          <name>Popup</name>
+          <briefdescription>
+<para>This option creates a close button at top-right corner of the web view. On clicking this, web view gets dismissed. </para>
+          </briefdescription>
+          <detaileddescription>
+<para><simplesect kind="note"><para>Incase if you want to permanetly remove web view instance, use WebView.Destory. </para>
+</simplesect>
+</para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1affd0f8f037d8080ee2f06ec06f710a53aef15fd2f45e6bb5ce57587895ba64f93" prot="public">
+          <name>Browser</name>
+          <briefdescription>
+<para>This option provides browser like appearence with 4 buttons for easy access to web view features. </para>
+          </briefdescription>
+          <detaileddescription>
+<para>It has Back and Forward buttons for navigating through the history. Reload button for reloading the current webpage contents. And finally, Done button for dismissing the web view.  </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enumeration for supported webview control styles. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewStyle.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewStyle.cs" bodystart="11" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a84f592fd152349008b188125592c0bc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void LoadImageInternalCallback</definition>
+        <argsstring>(byte[] imageData, Error error)</argsstring>
+        <name>LoadImageInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LoadImageInternalCallback</qualifiedname>
+        <param>
+          <type>byte[]</type>
+          <declname>imageData</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/Delegates.cs" line="8" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/Delegates.cs" declline="8" declcolumn="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Namespace for essential kit features. You need to import this namespace along with <ref refid="d7/d45/namespace_voxel_busters_1_1_core_library" kindref="compound">VoxelBusters.CoreLibrary</ref> to use essential kit features. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBook.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>VoxelBusters::EssentialKit::NotificationServicesCore::NativeNotificationCenterInterfaceBase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NativeFeatureInterfaceBase</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INativeNotificationCenterInterface</basecompoundref>
+    <derivedcompoundref refid="d5/d53/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_null_notification_center_interface" prot="public" virt="non-virtual">NullNotificationCenterInterface</derivedcompoundref>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1ab995e4150207a6a6b9a13f68d90f895d" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>NotificationReceivedInternalCallback</type>
+        <definition>NotificationReceivedInternalCallback OnNotificationReceived</definition>
+        <argsstring></argsstring>
+        <name>OnNotificationReceived</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NativeNotificationCenterInterfaceBase.OnNotificationReceived</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NativeNotificationCenterInterfaceBase.cs" line="21" column="59" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NativeNotificationCenterInterfaceBase.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a51d48b757aad9fb05ffc49a753ac6f7b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NativeNotificationCenterInterfaceBase</definition>
+        <argsstring>(bool isAvailable)</argsstring>
+        <name>NativeNotificationCenterInterfaceBase</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NativeNotificationCenterInterfaceBase.NativeNotificationCenterInterfaceBase</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isAvailable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NativeNotificationCenterInterfaceBase.cs" line="13" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NativeNotificationCenterInterfaceBase.cs" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a0967063db43cbc46eedb7d232100d9bc" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SendNotificationReceivedEvent</definition>
+        <argsstring>(INotification notification)</argsstring>
+        <name>SendNotificationReceivedEvent</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NativeNotificationCenterInterfaceBase.SendNotificationReceivedEvent</qualifiedname>
+        <param>
+          <type><ref refid="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification" kindref="compound">INotification</ref></type>
+          <declname>notification</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NativeNotificationCenterInterfaceBase.cs" line="53" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NativeNotificationCenterInterfaceBase.cs" bodystart="53" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1adb16c19800553573ca74b2430b5f4190" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RequestPermission</definition>
+        <argsstring>(NotificationPermissionOptions options, RequestPermissionInternalCallback callback)</argsstring>
+        <name>RequestPermission</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NativeNotificationCenterInterfaceBase.RequestPermission</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1ada51973b20bdef0f8ad483e175a36274" kindref="member">NotificationPermissionOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>RequestPermissionInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NativeNotificationCenterInterfaceBase.cs" line="23" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a8518d2d48dd140a63326b92c75347d4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GetSettings</definition>
+        <argsstring>(GetSettingsInternalCallback callback)</argsstring>
+        <name>GetSettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NativeNotificationCenterInterfaceBase.GetSettings</qualifiedname>
+        <param>
+          <type>GetSettingsInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NativeNotificationCenterInterfaceBase.cs" line="25" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a65b586426a9590a7e35eaa3be48696f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IMutableNotification</type>
+        <definition>IMutableNotification CreateMutableNotification</definition>
+        <argsstring>(string notificationId)</argsstring>
+        <name>CreateMutableNotification</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NativeNotificationCenterInterfaceBase.CreateMutableNotification</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>notificationId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NativeNotificationCenterInterfaceBase.cs" line="27" column="46"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a6539bd38431a454529627368fd76c4fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScheduleNotification</definition>
+        <argsstring>(INotification notification, ScheduleNotificationInternalCallback callback)</argsstring>
+        <name>ScheduleNotification</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NativeNotificationCenterInterfaceBase.ScheduleNotification</qualifiedname>
+        <param>
+          <type><ref refid="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification" kindref="compound">INotification</ref></type>
+          <declname>notification</declname>
+        </param>
+        <param>
+          <type>ScheduleNotificationInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NativeNotificationCenterInterfaceBase.cs" line="29" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a7cf115bb0f89267f5bb0eb4ee678e991" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GetScheduledNotifications</definition>
+        <argsstring>(GetNotificationsInternalCallback callback)</argsstring>
+        <name>GetScheduledNotifications</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NativeNotificationCenterInterfaceBase.GetScheduledNotifications</qualifiedname>
+        <param>
+          <type>GetNotificationsInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NativeNotificationCenterInterfaceBase.cs" line="31" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a8f600a1373f1029bdcf608775f05380b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CancelScheduledNotification</definition>
+        <argsstring>(string notificationId)</argsstring>
+        <name>CancelScheduledNotification</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NativeNotificationCenterInterfaceBase.CancelScheduledNotification</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>notificationId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NativeNotificationCenterInterfaceBase.cs" line="33" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a640527c94c3aa2c4118f824b316c75de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CancelAllScheduledNotifications</definition>
+        <argsstring>()</argsstring>
+        <name>CancelAllScheduledNotifications</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NativeNotificationCenterInterfaceBase.CancelAllScheduledNotifications</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NativeNotificationCenterInterfaceBase.cs" line="35" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a31cae44ce2637b23228e62983188cbef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GetDeliveredNotifications</definition>
+        <argsstring>(GetNotificationsInternalCallback callback)</argsstring>
+        <name>GetDeliveredNotifications</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NativeNotificationCenterInterfaceBase.GetDeliveredNotifications</qualifiedname>
+        <param>
+          <type>GetNotificationsInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NativeNotificationCenterInterfaceBase.cs" line="37" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a176f5a3f6efbcdddf37a8789586af4a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RemoveAllDeliveredNotifications</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveAllDeliveredNotifications</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NativeNotificationCenterInterfaceBase.RemoveAllDeliveredNotifications</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NativeNotificationCenterInterfaceBase.cs" line="39" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a875f0c8a97e74387dae02e74d7d7600e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RegisterForPushNotifications</definition>
+        <argsstring>(RegisterForPushNotificationsInternalCallback callback)</argsstring>
+        <name>RegisterForPushNotifications</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NativeNotificationCenterInterfaceBase.RegisterForPushNotifications</qualifiedname>
+        <param>
+          <type>RegisterForPushNotificationsInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NativeNotificationCenterInterfaceBase.cs" line="41" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1ac10f32baf39236259009753f8621354d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnregisterForPushNotifications</definition>
+        <argsstring>()</argsstring>
+        <name>UnregisterForPushNotifications</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NativeNotificationCenterInterfaceBase.UnregisterForPushNotifications</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NativeNotificationCenterInterfaceBase.cs" line="43" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a268a5ef1a435fab36f3c8f5f1d5b8661" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IsRegisteredForPushNotifications</definition>
+        <argsstring>()</argsstring>
+        <name>IsRegisteredForPushNotifications</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NativeNotificationCenterInterfaceBase.IsRegisteredForPushNotifications</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NativeNotificationCenterInterfaceBase.cs" line="45" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a3b5021e256b5bbef6ea17014f662381d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetApplicationIconBadgeNumber</definition>
+        <argsstring>(int count)</argsstring>
+        <name>SetApplicationIconBadgeNumber</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesCore.NativeNotificationCenterInterfaceBase.SetApplicationIconBadgeNumber</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NativeNotificationCenterInterfaceBase.cs" line="47" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NativeNotificationCenterInterfaceBase.cs" line="9" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NativeNotificationCenterInterfaceBase.cs" bodystart="10" bodyend="59"/>
+    <listofallmembers>
+      <member refid="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a640527c94c3aa2c4118f824b316c75de" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NativeNotificationCenterInterfaceBase</scope><name>CancelAllScheduledNotifications</name></member>
+      <member refid="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a8f600a1373f1029bdcf608775f05380b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NativeNotificationCenterInterfaceBase</scope><name>CancelScheduledNotification</name></member>
+      <member refid="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a65b586426a9590a7e35eaa3be48696f6" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NativeNotificationCenterInterfaceBase</scope><name>CreateMutableNotification</name></member>
+      <member refid="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a31cae44ce2637b23228e62983188cbef" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NativeNotificationCenterInterfaceBase</scope><name>GetDeliveredNotifications</name></member>
+      <member refid="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a7cf115bb0f89267f5bb0eb4ee678e991" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NativeNotificationCenterInterfaceBase</scope><name>GetScheduledNotifications</name></member>
+      <member refid="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a8518d2d48dd140a63326b92c75347d4c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NativeNotificationCenterInterfaceBase</scope><name>GetSettings</name></member>
+      <member refid="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a268a5ef1a435fab36f3c8f5f1d5b8661" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NativeNotificationCenterInterfaceBase</scope><name>IsRegisteredForPushNotifications</name></member>
+      <member refid="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a51d48b757aad9fb05ffc49a753ac6f7b" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NativeNotificationCenterInterfaceBase</scope><name>NativeNotificationCenterInterfaceBase</name></member>
+      <member refid="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1ab995e4150207a6a6b9a13f68d90f895d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NativeNotificationCenterInterfaceBase</scope><name>OnNotificationReceived</name></member>
+      <member refid="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a875f0c8a97e74387dae02e74d7d7600e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NativeNotificationCenterInterfaceBase</scope><name>RegisterForPushNotifications</name></member>
+      <member refid="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a176f5a3f6efbcdddf37a8789586af4a2" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NativeNotificationCenterInterfaceBase</scope><name>RemoveAllDeliveredNotifications</name></member>
+      <member refid="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1adb16c19800553573ca74b2430b5f4190" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NativeNotificationCenterInterfaceBase</scope><name>RequestPermission</name></member>
+      <member refid="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a6539bd38431a454529627368fd76c4fc" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NativeNotificationCenterInterfaceBase</scope><name>ScheduleNotification</name></member>
+      <member refid="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a0967063db43cbc46eedb7d232100d9bc" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NativeNotificationCenterInterfaceBase</scope><name>SendNotificationReceivedEvent</name></member>
+      <member refid="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1a3b5021e256b5bbef6ea17014f662381d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NativeNotificationCenterInterfaceBase</scope><name>SetApplicationIconBadgeNumber</name></member>
+      <member refid="dc/d43/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_native_notification_center_interface_base_1ac10f32baf39236259009753f8621354d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesCore::NativeNotificationCenterInterfaceBase</scope><name>UnregisterForPushNotifications</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

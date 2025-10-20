@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d1/d52/class_voxel_busters_1_1_core_library_1_1_singleton_behaviour" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>VoxelBusters::CoreLibrary::SingletonBehaviour</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">VoxelBusters::CoreLibrary::PrivateSingletonBehaviour&lt; T &gt;</basecompoundref>
+    <derivedcompoundref refid="d7/dc7/class_voxel_busters_1_1_core_library_1_1_application_lifecycle_observer" prot="public" virt="non-virtual">ApplicationLifecycleObserver</derivedcompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d1/d52/class_voxel_busters_1_1_core_library_1_1_singleton_behaviour_1ad4ec7ef5b96699846d44e6e82c35c12f" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>T</type>
+        <definition>T Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.SingletonBehaviour.Instance</qualifiedname>
+        <briefdescription>
+<para>Returns the singleton instance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The instance.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DesignPatterns/SingletonBehaviour.cs" line="13" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DesignPatterns/SingletonBehaviour.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DesignPatterns/SingletonBehaviour.cs" line="5" column="17" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DesignPatterns/SingletonBehaviour.cs" bodystart="6" bodyend="16"/>
+    <listofallmembers>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a6a50039c56e42ecc20d5de7aa56ab5e6" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::SingletonBehaviour</scope><name>DestorySingleton</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a7f36640d267f36fcbac6d736fb9456d6" prot="protected" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::SingletonBehaviour</scope><name>GetSingleton</name></member>
+      <member refid="d1/d52/class_voxel_busters_1_1_core_library_1_1_singleton_behaviour_1ad4ec7ef5b96699846d44e6e82c35c12f" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::SingletonBehaviour</scope><name>Instance</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a4c99c6dc56675d38d2fbc282cbd64d09" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::SingletonBehaviour</scope><name>IsPersistent</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1ac51aabcdcc13271b1c7f1bbb249f0321" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::SingletonBehaviour</scope><name>IsSingletonActive</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a5fdaf276406a70b875624da347c33765" prot="protected" virt="virtual"><scope>VoxelBusters::CoreLibrary::SingletonBehaviour</scope><name>OnSingletonAwake</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a44bde1142ce6a850a18aa9d61e1338ec" prot="protected" virt="virtual"><scope>VoxelBusters::CoreLibrary::SingletonBehaviour</scope><name>OnSingletonDestroy</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a4343e94eeb9392419970f25f0d8c2f7a" prot="protected" virt="virtual"><scope>VoxelBusters::CoreLibrary::SingletonBehaviour</scope><name>OnSingletonStart</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1adc4b27bf21ae03f5295e34e316904e2d" prot="protected" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::SingletonBehaviour</scope><name>TryGetSingleton</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

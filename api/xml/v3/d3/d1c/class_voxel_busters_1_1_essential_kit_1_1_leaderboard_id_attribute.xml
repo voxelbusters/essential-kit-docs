@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_id_attribute" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::LeaderboardIdAttribute</compoundname>
+    <basecompoundref refid="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute" prot="public" virt="non-virtual">StringPopupAttribute</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_id_attribute_1afbc860b77d82bb1254d7cdc1c51680a2" prot="private" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] m_options</definition>
+        <argsstring></argsstring>
+        <name>m_options</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardIdAttribute.m_options</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardIdAttribute.cs" line="12" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardIdAttribute.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_id_attribute_1adca7f056f4ddafa02962d5bb4f4234ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LeaderboardIdAttribute</definition>
+        <argsstring>()</argsstring>
+        <name>LeaderboardIdAttribute</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardIdAttribute.LeaderboardIdAttribute</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardIdAttribute.cs" line="18" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardIdAttribute.cs" bodystart="18" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_id_attribute_1aedbcf08f7789bb57c0a00c6dcb42e589" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string[]</type>
+        <definition>static string[] GetLeaderboardIds</definition>
+        <argsstring>()</argsstring>
+        <name>GetLeaderboardIds</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardIdAttribute.GetLeaderboardIds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardIdAttribute.cs" line="29" column="31" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardIdAttribute.cs" bodystart="29" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_id_attribute_1a359f7a7590ea9b224aacc3e3df70da08" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string[]</type>
+        <definition>override string[] GetDynamicOptions</definition>
+        <argsstring>()</argsstring>
+        <name>GetDynamicOptions</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardIdAttribute.GetDynamicOptions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardIdAttribute.cs" line="45" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardIdAttribute.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>LeaderboardIdAttribute</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>StringPopupAttribute</label>
+        <link refid="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>LeaderboardIdAttribute</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>StringPopupAttribute</label>
+        <link refid="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardIdAttribute.cs" line="8" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardIdAttribute.cs" bodystart="9" bodyend="51"/>
+    <listofallmembers>
+      <member refid="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_id_attribute_1a359f7a7590ea9b224aacc3e3df70da08" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardIdAttribute</scope><name>GetDynamicOptions</name></member>
+      <member refid="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_id_attribute_1aedbcf08f7789bb57c0a00c6dcb42e589" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardIdAttribute</scope><name>GetLeaderboardIds</name></member>
+      <member refid="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_id_attribute_1adca7f056f4ddafa02962d5bb4f4234ce" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardIdAttribute</scope><name>LeaderboardIdAttribute</name></member>
+      <member refid="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_id_attribute_1afbc860b77d82bb1254d7cdc1c51680a2" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardIdAttribute</scope><name>m_options</name></member>
+      <member refid="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute_1ae368b3f0287fe9169dfc417e2def58cf" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardIdAttribute</scope><name>Options</name></member>
+      <member refid="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute_1a977d4b55127b3c15e52191f670ff8122" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardIdAttribute</scope><name>PreferencePropertyName</name></member>
+      <member refid="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute_1aab18fadb9f38f6412f7498d880b2e146" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardIdAttribute</scope><name>PreferencePropertyValue</name></member>
+      <member refid="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute_1a259f888b8c9a57b4334e7e0b3ab7a3c1" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardIdAttribute</scope><name>StringPopupAttribute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

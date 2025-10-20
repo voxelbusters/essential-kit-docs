@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::ISaveServiceProvider</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider_1af068a78b62031465cbaef640dd6c8ba6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int GetInt</definition>
+        <argsstring>(string key, int defaultValue=0)</argsstring>
+        <name>GetInt</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ISaveServiceProvider.GetInt</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>defaultValue</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ISaveServiceProvider.cs" line="14" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider_1ab62f7c635ab48170bc8eafa96697df90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float GetFloat</definition>
+        <argsstring>(string key, float defaultValue=0f)</argsstring>
+        <name>GetFloat</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ISaveServiceProvider.GetFloat</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>defaultValue</declname>
+          <defval>0f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ISaveServiceProvider.cs" line="16" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider_1a3f56d0a6f6cd8c3308c1b6428e4976c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetString</definition>
+        <argsstring>(string key, string defaultValue=null)</argsstring>
+        <name>GetString</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ISaveServiceProvider.GetString</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>defaultValue</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ISaveServiceProvider.cs" line="18" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider_1ab8919a363c9954084d35fd7f727a7d4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string[]</type>
+        <definition>string[] GetStringArray</definition>
+        <argsstring>(string key, string[] defaultValue=null)</argsstring>
+        <name>GetStringArray</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ISaveServiceProvider.GetStringArray</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>defaultValue</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ISaveServiceProvider.cs" line="20" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider_1aa902c52c7189ea12877a6f3059f5088f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetInt</definition>
+        <argsstring>(string key, int value)</argsstring>
+        <name>SetInt</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ISaveServiceProvider.SetInt</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ISaveServiceProvider.cs" line="22" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider_1a1b01a44fbfd9b4df1197777bd6fa48f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetFloat</definition>
+        <argsstring>(string key, float value)</argsstring>
+        <name>SetFloat</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ISaveServiceProvider.SetFloat</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ISaveServiceProvider.cs" line="24" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider_1ae870ef904ae29e7b220d7fbadff193ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetString</definition>
+        <argsstring>(string key, string value)</argsstring>
+        <name>SetString</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ISaveServiceProvider.SetString</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ISaveServiceProvider.cs" line="26" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider_1abb30a6b0e8fcfac620c739793836f24b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetStringArray</definition>
+        <argsstring>(string key, string[] value)</argsstring>
+        <name>SetStringArray</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ISaveServiceProvider.SetStringArray</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ISaveServiceProvider.cs" line="28" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider_1a2c50358d147daaf88a3b32be823df2e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RemoveKey</definition>
+        <argsstring>(string key)</argsstring>
+        <name>RemoveKey</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ISaveServiceProvider.RemoveKey</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ISaveServiceProvider.cs" line="30" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider_1a5df140c1ee51aadf7fe88ce3fb9cac33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Save</definition>
+        <argsstring>()</argsstring>
+        <name>Save</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ISaveServiceProvider.Save</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ISaveServiceProvider.cs" line="32" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Adapter interface for supporting save service compatible with the plugin. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ISaveServiceProvider.cs" line="10" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ISaveServiceProvider.cs" bodystart="11" bodyend="35"/>
+    <listofallmembers>
+      <member refid="d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider_1ab62f7c635ab48170bc8eafa96697df90" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ISaveServiceProvider</scope><name>GetFloat</name></member>
+      <member refid="d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider_1af068a78b62031465cbaef640dd6c8ba6" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ISaveServiceProvider</scope><name>GetInt</name></member>
+      <member refid="d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider_1a3f56d0a6f6cd8c3308c1b6428e4976c1" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ISaveServiceProvider</scope><name>GetString</name></member>
+      <member refid="d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider_1ab8919a363c9954084d35fd7f727a7d4a" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ISaveServiceProvider</scope><name>GetStringArray</name></member>
+      <member refid="d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider_1a2c50358d147daaf88a3b32be823df2e5" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ISaveServiceProvider</scope><name>RemoveKey</name></member>
+      <member refid="d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider_1a5df140c1ee51aadf7fe88ce3fb9cac33" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ISaveServiceProvider</scope><name>Save</name></member>
+      <member refid="d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider_1a1b01a44fbfd9b4df1197777bd6fa48f2" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ISaveServiceProvider</scope><name>SetFloat</name></member>
+      <member refid="d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider_1aa902c52c7189ea12877a6f3059f5088f" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ISaveServiceProvider</scope><name>SetInt</name></member>
+      <member refid="d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider_1ae870ef904ae29e7b220d7fbadff193ae" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ISaveServiceProvider</scope><name>SetString</name></member>
+      <member refid="d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider_1abb30a6b0e8fcfac620c739793836f24b" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ISaveServiceProvider</scope><name>SetStringArray</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

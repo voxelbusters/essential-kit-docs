@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d7/d49/class_voxel_busters_1_1_essential_kit_1_1_address_book_error" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::AddressBookError</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="d7/d49/class_voxel_busters_1_1_essential_kit_1_1_address_book_error_1a2ce8aded798d92d44580ceaefabf2d82" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kDomain</definition>
+        <argsstring></argsstring>
+        <name>kDomain</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AddressBookError.kDomain</qualifiedname>
+        <initializer>= &quot;[Essential Kit] Address Book&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookError.cs" line="9" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookError.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d7/d49/class_voxel_busters_1_1_essential_kit_1_1_address_book_error_1ab83e6cfa400d4d654b2d172a49f358a3" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Error</type>
+        <definition>Error Unknown</definition>
+        <argsstring></argsstring>
+        <name>Unknown</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AddressBookError.Unknown</qualifiedname>
+        <initializer>= CreateError(
+            code: (int)AddressBookErrorCode.Unknown,
+            description: &quot;Unknown error.&quot;
+        )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookError.cs" line="15" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookError.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="d7/d49/class_voxel_busters_1_1_essential_kit_1_1_address_book_error_1a4c9f62c501de4b1d8fce27b6b41e6ea7" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Error</type>
+        <definition>Error PermissionDenied</definition>
+        <argsstring></argsstring>
+        <name>PermissionDenied</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AddressBookError.PermissionDenied</qualifiedname>
+        <initializer>= CreateError(
+            code: (int)AddressBookErrorCode.PermissionDenied,
+            description: &quot;Permission denied by the user.&quot;
+        )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookError.cs" line="20" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookError.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d7/d49/class_voxel_busters_1_1_essential_kit_1_1_address_book_error_1a1f4966d82f43a08da1cdddb4a786ace8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>static Error CreateError</definition>
+        <argsstring>(int code, string description)</argsstring>
+        <name>CreateError</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AddressBookError.CreateError</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookError.cs" line="29" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookError.cs" line="5" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookError.cs" bodystart="6" bodyend="35"/>
+    <listofallmembers>
+      <member refid="d7/d49/class_voxel_busters_1_1_essential_kit_1_1_address_book_error_1a1f4966d82f43a08da1cdddb4a786ace8" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AddressBookError</scope><name>CreateError</name></member>
+      <member refid="d7/d49/class_voxel_busters_1_1_essential_kit_1_1_address_book_error_1a2ce8aded798d92d44580ceaefabf2d82" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AddressBookError</scope><name>kDomain</name></member>
+      <member refid="d7/d49/class_voxel_busters_1_1_essential_kit_1_1_address_book_error_1a4c9f62c501de4b1d8fce27b6b41e6ea7" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AddressBookError</scope><name>PermissionDenied</name></member>
+      <member refid="d7/d49/class_voxel_busters_1_1_essential_kit_1_1_address_book_error_1ab83e6cfa400d4d654b2d172a49f358a3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AddressBookError</scope><name>Unknown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

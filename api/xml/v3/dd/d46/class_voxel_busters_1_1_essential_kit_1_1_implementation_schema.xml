@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema" kind="class" language="C#" prot="package">
+    <compoundname>VoxelBusters::EssentialKit::ImplementationSchema</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1acb905254e6effabd58cbadbb0a3e5252" prot="private" static="yes" mutable="no">
+        <type>Dictionary&lt; string, NativeFeatureRuntimeConfiguration &gt;</type>
+        <definition>Dictionary&lt;string, NativeFeatureRuntimeConfiguration&gt; s_configurationMap</definition>
+        <argsstring></argsstring>
+        <name>s_configurationMap</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ImplementationSchema.s_configurationMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="61" column="38" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1ada5f707427b58c73bc9bbe1bf90d8bf2" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>NativeFeatureRuntimeConfiguration</type>
+        <definition>NativeFeatureRuntimeConfiguration AddressBook</definition>
+        <argsstring></argsstring>
+        <name>AddressBook</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ImplementationSchema.AddressBook</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="67" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="68" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1a0d5c68c7b90ed3e06494203ff92a37c3" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>NativeFeatureRuntimeConfiguration</type>
+        <definition>NativeFeatureRuntimeConfiguration AppShortcuts</definition>
+        <argsstring></argsstring>
+        <name>AppShortcuts</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ImplementationSchema.AppShortcuts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="72" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="73" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1aa17debcd589ba64c94ac83092477dc71" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>NativeFeatureRuntimeConfiguration</type>
+        <definition>NativeFeatureRuntimeConfiguration AppUpdater</definition>
+        <argsstring></argsstring>
+        <name>AppUpdater</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ImplementationSchema.AppUpdater</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="78" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="79" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1afe25d15752580a871a4a8b184c5fc7ad" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>NativeFeatureRuntimeConfiguration</type>
+        <definition>NativeFeatureRuntimeConfiguration BillingServices</definition>
+        <argsstring></argsstring>
+        <name>BillingServices</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ImplementationSchema.BillingServices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="83" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="84" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1a49c62757a926a0b7f58764d21ea24623" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>NativeFeatureRuntimeConfiguration</type>
+        <definition>NativeFeatureRuntimeConfiguration CloudServices</definition>
+        <argsstring></argsstring>
+        <name>CloudServices</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ImplementationSchema.CloudServices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="88" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="89" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1a99ef3ebf657988ce461c9e5df9b66e41" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>NativeFeatureRuntimeConfiguration</type>
+        <definition>NativeFeatureRuntimeConfiguration GameServices</definition>
+        <argsstring></argsstring>
+        <name>GameServices</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ImplementationSchema.GameServices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="93" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="94" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1a2e1cd3f92190ba0c3a98a1ec887efa0c" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>NativeFeatureRuntimeConfiguration</type>
+        <definition>NativeFeatureRuntimeConfiguration MediaServices</definition>
+        <argsstring></argsstring>
+        <name>MediaServices</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ImplementationSchema.MediaServices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="98" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="99" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1a47123562fdc53a10e2b9e6acdb491c46" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>NativeFeatureRuntimeConfiguration</type>
+        <definition>NativeFeatureRuntimeConfiguration NativeUI</definition>
+        <argsstring></argsstring>
+        <name>NativeUI</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ImplementationSchema.NativeUI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="103" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="104" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1af028c2f1ccf79b7de2245e5a2527e0ce" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>NativeFeatureRuntimeConfiguration</type>
+        <definition>NativeFeatureRuntimeConfiguration NetworkServices</definition>
+        <argsstring></argsstring>
+        <name>NetworkServices</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ImplementationSchema.NetworkServices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="108" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="109" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1a754cc82590a924d049e9b5f5f5522ea3" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>NativeFeatureRuntimeConfiguration</type>
+        <definition>NativeFeatureRuntimeConfiguration NotificationServices</definition>
+        <argsstring></argsstring>
+        <name>NotificationServices</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ImplementationSchema.NotificationServices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="113" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="114" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1a730c0588956d7cd689b7ca4d766855cc" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>NativeFeatureRuntimeConfiguration</type>
+        <definition>NativeFeatureRuntimeConfiguration SharingServices</definition>
+        <argsstring></argsstring>
+        <name>SharingServices</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ImplementationSchema.SharingServices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="118" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="119" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1a38e81ef7f1ce31af602e04396785d86b" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>NativeFeatureRuntimeConfiguration</type>
+        <definition>NativeFeatureRuntimeConfiguration WebView</definition>
+        <argsstring></argsstring>
+        <name>WebView</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ImplementationSchema.WebView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="123" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="124" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1af9392604c77286db46de4631df71956b" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>NativeFeatureRuntimeConfiguration</type>
+        <definition>NativeFeatureRuntimeConfiguration Extras</definition>
+        <argsstring></argsstring>
+        <name>Extras</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ImplementationSchema.Extras</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="128" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="129" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1a9acfacf9d889c4e22cbdd70c88b08ab8" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>NativeFeatureRuntimeConfiguration</type>
+        <definition>NativeFeatureRuntimeConfiguration DeepLinkServices</definition>
+        <argsstring></argsstring>
+        <name>DeepLinkServices</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ImplementationSchema.DeepLinkServices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="133" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="134" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1a788d1ad5e8e016db23ee2f7ab01fc10a" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>NativeFeatureRuntimeConfiguration</type>
+        <definition>NativeFeatureRuntimeConfiguration RateMyApp</definition>
+        <argsstring></argsstring>
+        <name>RateMyApp</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ImplementationSchema.RateMyApp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="138" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="139" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1ad58044279a743088f4ef486079cd77a6" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>NativeFeatureRuntimeConfiguration</type>
+        <definition>NativeFeatureRuntimeConfiguration TaskServices</definition>
+        <argsstring></argsstring>
+        <name>TaskServices</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ImplementationSchema.TaskServices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="143" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="144" bodyend="146"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1a082ad55d153fa2798e4e3448b531e9b5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static ImplementationSchema</definition>
+        <argsstring>()</argsstring>
+        <name>ImplementationSchema</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ImplementationSchema.ImplementationSchema</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="153" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="153" bodyend="479"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1a9df80e1f447db42e9a6609a872b93326" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>KeyValuePair&lt; string, NativeFeatureRuntimeConfiguration &gt;[]</type>
+        <definition>static KeyValuePair&lt; string, NativeFeatureRuntimeConfiguration &gt;[] GetAllRuntimeConfigurations</definition>
+        <argsstring>(bool includeInactive=true, EssentialKitSettings settings=null)</argsstring>
+        <name>GetAllRuntimeConfigurations</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ImplementationSchema.GetAllRuntimeConfigurations</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>includeInactive</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>EssentialKitSettings</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="485" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="485" bodyend="498"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1ab58a41abd841411f7f18fae520aae661" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>NativeFeatureRuntimeConfiguration</type>
+        <definition>static NativeFeatureRuntimeConfiguration GetRuntimeConfiguration</definition>
+        <argsstring>(string featureName)</argsstring>
+        <name>GetRuntimeConfiguration</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ImplementationSchema.GetRuntimeConfiguration</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>featureName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="500" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="500" bodyend="505"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" line="57" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/ImplementationSchema.cs" bodystart="58" bodyend="508"/>
+    <listofallmembers>
+      <member refid="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1ada5f707427b58c73bc9bbe1bf90d8bf2" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ImplementationSchema</scope><name>AddressBook</name></member>
+      <member refid="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1a0d5c68c7b90ed3e06494203ff92a37c3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ImplementationSchema</scope><name>AppShortcuts</name></member>
+      <member refid="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1aa17debcd589ba64c94ac83092477dc71" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ImplementationSchema</scope><name>AppUpdater</name></member>
+      <member refid="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1afe25d15752580a871a4a8b184c5fc7ad" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ImplementationSchema</scope><name>BillingServices</name></member>
+      <member refid="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1a49c62757a926a0b7f58764d21ea24623" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ImplementationSchema</scope><name>CloudServices</name></member>
+      <member refid="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1a9acfacf9d889c4e22cbdd70c88b08ab8" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ImplementationSchema</scope><name>DeepLinkServices</name></member>
+      <member refid="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1af9392604c77286db46de4631df71956b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ImplementationSchema</scope><name>Extras</name></member>
+      <member refid="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1a99ef3ebf657988ce461c9e5df9b66e41" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ImplementationSchema</scope><name>GameServices</name></member>
+      <member refid="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1a9df80e1f447db42e9a6609a872b93326" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ImplementationSchema</scope><name>GetAllRuntimeConfigurations</name></member>
+      <member refid="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1ab58a41abd841411f7f18fae520aae661" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ImplementationSchema</scope><name>GetRuntimeConfiguration</name></member>
+      <member refid="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1a082ad55d153fa2798e4e3448b531e9b5" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ImplementationSchema</scope><name>ImplementationSchema</name></member>
+      <member refid="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1a2e1cd3f92190ba0c3a98a1ec887efa0c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ImplementationSchema</scope><name>MediaServices</name></member>
+      <member refid="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1a47123562fdc53a10e2b9e6acdb491c46" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ImplementationSchema</scope><name>NativeUI</name></member>
+      <member refid="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1af028c2f1ccf79b7de2245e5a2527e0ce" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ImplementationSchema</scope><name>NetworkServices</name></member>
+      <member refid="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1a754cc82590a924d049e9b5f5f5522ea3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ImplementationSchema</scope><name>NotificationServices</name></member>
+      <member refid="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1a788d1ad5e8e016db23ee2f7ab01fc10a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ImplementationSchema</scope><name>RateMyApp</name></member>
+      <member refid="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1acb905254e6effabd58cbadbb0a3e5252" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ImplementationSchema</scope><name>s_configurationMap</name></member>
+      <member refid="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1a730c0588956d7cd689b7ca4d766855cc" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ImplementationSchema</scope><name>SharingServices</name></member>
+      <member refid="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1ad58044279a743088f4ef486079cd77a6" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ImplementationSchema</scope><name>TaskServices</name></member>
+      <member refid="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema_1a38e81ef7f1ce31af602e04396785d86b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ImplementationSchema</scope><name>WebView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

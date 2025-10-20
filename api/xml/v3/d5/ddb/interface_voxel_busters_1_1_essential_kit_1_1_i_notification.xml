@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::INotification</compoundname>
+    <derivedcompoundref refid="d9/dbd/interface_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_i_mutable_notification" prot="public" virt="non-virtual">IMutableNotification</derivedcompoundref>
+    <derivedcompoundref refid="d0/dd3/class_voxel_busters_1_1_essential_kit_1_1_notification_services_core_1_1_notification_base" prot="public" virt="non-virtual">NotificationBase</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_1a186291c875988107b7ace745ea84d4ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>VoxelBusters.EssentialKit.INotification.Id</qualifiedname>
+        <briefdescription>
+<para>The unique identifier for this notification. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" line="16" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" bodystart="16" bodyend="16"/>
+        <referencedby refid="da/d97/class_voxel_busters_1_1_essential_kit_1_1_notification_services_1afc65c401bd3effe799fbe3656e1494dd" compoundref="df/d27/_notification_services_8cs" startline="238" endline="256">NotificationServices.CancelScheduledNotification</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_1aa7b633091e7820b835d04d0d5fc197c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <qualifiedname>VoxelBusters.EssentialKit.INotification.Title</qualifiedname>
+        <briefdescription>
+<para>The short description of the notification. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" line="21" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_1a2bbd6f155e26aee6920a027fa39795f8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Subtitle</definition>
+        <argsstring></argsstring>
+        <name>Subtitle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.INotification.Subtitle</qualifiedname>
+        <briefdescription>
+<para>The secondary description of the notification. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" line="26" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_1aa22a174fd7f5d080c4e4714fd0dde308" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Body</definition>
+        <argsstring></argsstring>
+        <name>Body</name>
+        <qualifiedname>VoxelBusters.EssentialKit.INotification.Body</qualifiedname>
+        <briefdescription>
+<para>The message included in the notification. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" line="31" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_1a69cb5539dcf84ebb71b604f2e05e9b77" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Badge</definition>
+        <argsstring></argsstring>
+        <name>Badge</name>
+        <qualifiedname>VoxelBusters.EssentialKit.INotification.Badge</qualifiedname>
+        <briefdescription>
+<para>The number to display as the app’s icon badge. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" line="36" column="13" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_1afe57e84d9a5251e7f2146537692c4e11" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>IDictionary</type>
+        <definition>IDictionary UserInfo</definition>
+        <argsstring></argsstring>
+        <name>UserInfo</name>
+        <qualifiedname>VoxelBusters.EssentialKit.INotification.UserInfo</qualifiedname>
+        <briefdescription>
+<para>A dictionary of custom information associated with the notification. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" line="41" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_1aa8f8469a79ee1c29b2e0beb6caf9998b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string SoundFileName</definition>
+        <argsstring></argsstring>
+        <name>SoundFileName</name>
+        <qualifiedname>VoxelBusters.EssentialKit.INotification.SoundFileName</qualifiedname>
+        <briefdescription>
+<para>The sound to play when the notification is delivered. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" line="46" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_1a64d64d98d5aed0a0330a73ef38e4f808" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a6fb7a26e2f0301e70c63af1477d0a40f" kindref="member">NotificationTriggerType</ref></type>
+        <definition>NotificationTriggerType TriggerType</definition>
+        <argsstring></argsstring>
+        <name>TriggerType</name>
+        <qualifiedname>VoxelBusters.EssentialKit.INotification.TriggerType</qualifiedname>
+        <briefdescription>
+<para>The type of the trigger associated with the notification. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" line="51" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_1a5cfe2ff2c36d74de972ddb28a63b7259" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d2/df5/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_trigger" kindref="compound">INotificationTrigger</ref></type>
+        <definition>INotificationTrigger Trigger</definition>
+        <argsstring></argsstring>
+        <name>Trigger</name>
+        <qualifiedname>VoxelBusters.EssentialKit.INotification.Trigger</qualifiedname>
+        <briefdescription>
+<para>The trigger associated with the notification. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" line="56" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_1aecaabe7d685249564fe5a16cf6929f03" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool IsLaunchNotification</definition>
+        <argsstring></argsstring>
+        <name>IsLaunchNotification</name>
+        <qualifiedname>VoxelBusters.EssentialKit.INotification.IsLaunchNotification</qualifiedname>
+        <briefdescription>
+<para>The trigger associated with the notification. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" line="61" column="14" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_1a246ac67f3648b7eefab91c5feba7753c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="dc/d6b/class_voxel_busters_1_1_essential_kit_1_1_notification_ios_properties" kindref="compound">NotificationIosProperties</ref></type>
+        <definition>NotificationIosProperties IosProperties</definition>
+        <argsstring></argsstring>
+        <name>IosProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.INotification.IosProperties</qualifiedname>
+        <briefdescription>
+<para>The object containing properties specific to android. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The android properties.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" line="67" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_1a489fd359c4d853072a7fe45caeb82542" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d2/da4/class_voxel_busters_1_1_essential_kit_1_1_notification_android_properties" kindref="compound">NotificationAndroidProperties</ref></type>
+        <definition>NotificationAndroidProperties AndroidProperties</definition>
+        <argsstring></argsstring>
+        <name>AndroidProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.INotification.AndroidProperties</qualifiedname>
+        <briefdescription>
+<para>The object containing properties specific to android. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The android properties.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" line="73" column="39" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" bodystart="73" bodyend="73"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Provides a cross-platform interface to access properties of Notification object. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" line="9" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/INotification.cs" bodystart="10" bodyend="76"/>
+    <listofallmembers>
+      <member refid="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_1a489fd359c4d853072a7fe45caeb82542" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::INotification</scope><name>AndroidProperties</name></member>
+      <member refid="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_1a69cb5539dcf84ebb71b604f2e05e9b77" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::INotification</scope><name>Badge</name></member>
+      <member refid="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_1aa22a174fd7f5d080c4e4714fd0dde308" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::INotification</scope><name>Body</name></member>
+      <member refid="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_1a186291c875988107b7ace745ea84d4ec" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::INotification</scope><name>Id</name></member>
+      <member refid="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_1a246ac67f3648b7eefab91c5feba7753c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::INotification</scope><name>IosProperties</name></member>
+      <member refid="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_1aecaabe7d685249564fe5a16cf6929f03" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::INotification</scope><name>IsLaunchNotification</name></member>
+      <member refid="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_1aa8f8469a79ee1c29b2e0beb6caf9998b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::INotification</scope><name>SoundFileName</name></member>
+      <member refid="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_1a2bbd6f155e26aee6920a027fa39795f8" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::INotification</scope><name>Subtitle</name></member>
+      <member refid="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_1aa7b633091e7820b835d04d0d5fc197c7" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::INotification</scope><name>Title</name></member>
+      <member refid="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_1a5cfe2ff2c36d74de972ddb28a63b7259" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::INotification</scope><name>Trigger</name></member>
+      <member refid="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_1a64d64d98d5aed0a0330a73ef38e4f808" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::INotification</scope><name>TriggerType</name></member>
+      <member refid="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_1afe57e84d9a5251e7f2146537692c4e11" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::INotification</scope><name>UserInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

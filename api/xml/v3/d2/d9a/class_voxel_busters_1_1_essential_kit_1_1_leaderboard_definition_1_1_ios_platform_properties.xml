@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d2/d9a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1_1_ios_platform_properties" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::LeaderboardDefinition::IosPlatformProperties</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/d9a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1_1_ios_platform_properties_1a3200ff61500977693d3fb092fc665698" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>IosPlatformProperties</definition>
+        <argsstring>()</argsstring>
+        <name>IosPlatformProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.LeaderboardDefinition.IosPlatformProperties.IosPlatformProperties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.IosPlatformProperties.cs" line="15" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.IosPlatformProperties.cs" bodystart="15" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.IosPlatformProperties.cs" line="11" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/LeaderboardDefinition.IosPlatformProperties.cs" bodystart="12" bodyend="19"/>
+    <listofallmembers>
+      <member refid="d2/d9a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition_1_1_ios_platform_properties_1a3200ff61500977693d3fb092fc665698" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::LeaderboardDefinition::IosPlatformProperties</scope><name>IosPlatformProperties</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

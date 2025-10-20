@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="da/d90/_notification_priority_8cs" kind="file" language="C#">
+    <compoundname>NotificationPriority.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aed65b4bc3683d5107f984b5d778bf553" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>NotificationPriority</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationPriority</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aed65b4bc3683d5107f984b5d778bf553a28d0edd045e05cf5af64e35ae0c4c6ef" prot="public">
+          <name>Low</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>Low priority. Can be silent or with no disturbance. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aed65b4bc3683d5107f984b5d778bf553a87f8a6ab85c9ced3702b4ea641ad4bb5" prot="public">
+          <name>Medium</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>Medium priority. (Default) Can make noise, alert in banner, but respects battery optimization settings or focus mode. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aed65b4bc3683d5107f984b5d778bf553a655d20c1ca69519ca647684edbb2db35" prot="public">
+          <name>High</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>High priority. Can make noise, alert in banner and can be visually intruding (&quot;May&quot; break-through doze/battery optimization or focus modes). </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1aed65b4bc3683d5107f984b5d778bf553a6a061313d22e51e0f25b7cd4dc065233" prot="public">
+          <name>Max</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>Max priority. Can make noise, alert in banner and visually intruding (&quot;Must&quot; break-through doze or focus modes). </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Specifies the priority levels for notifications, determining how they are delivered to the user. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationPriority.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationPriority.cs" bodystart="7" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationPriority.cs"/>
+  </compounddef>
+</doxygen>

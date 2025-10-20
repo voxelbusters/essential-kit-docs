@@ -1,0 +1,417 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::CollectionUtility</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1aae0c86bd4ee3778a2d210d28f508c953" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IsNullOrEmpty&lt; T &gt;</definition>
+        <argsstring>(this IList&lt; T &gt; list)</argsstring>
+        <name>IsNullOrEmpty&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CollectionUtility.IsNullOrEmpty&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this IList&lt; T &gt;</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" line="11" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a66f01c34a078e81ce6865c3d30edc409" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AddUnique&lt; T &gt;</definition>
+        <argsstring>(this IList&lt; T &gt; list, T item)</argsstring>
+        <name>AddUnique&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CollectionUtility.AddUnique&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this IList&lt; T &gt;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" line="16" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" bodystart="16" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a35483f369716ccd4223c2dd96c225f6a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IList&lt; T &gt;</type>
+        <definition>static IList&lt; T &gt; Add&lt; T &gt;</definition>
+        <argsstring>(this IList&lt; T &gt; list, System.Func&lt; bool &gt; condition, System.Func&lt; T &gt; getItem)</argsstring>
+        <name>Add&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CollectionUtility.Add&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this IList&lt; T &gt;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>System.Func&lt; bool &gt;</type>
+          <declname>condition</declname>
+        </param>
+        <param>
+          <type>System.Func&lt; T &gt;</type>
+          <declname>getItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" line="28" column="1" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" bodystart="28" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a6191f02b9636dc12dc644f2b292a7316" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AddOrReplace&lt; T &gt;</definition>
+        <argsstring>(this List&lt; T &gt; list, T item, System.Predicate&lt; T &gt; match)</argsstring>
+        <name>AddOrReplace&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CollectionUtility.AddOrReplace&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this List&lt; T &gt;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>System.Predicate&lt; T &gt;</type>
+          <declname>match</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" line="37" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" bodystart="37" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a3d1566cef1b931abbe0824db55e10d47" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Remove&lt; T &gt;</definition>
+        <argsstring>(this List&lt; T &gt; list, System.Predicate&lt; T &gt; match)</argsstring>
+        <name>Remove&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CollectionUtility.Remove&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this List&lt; T &gt;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>System.Predicate&lt; T &gt;</type>
+          <declname>match</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" line="50" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" bodystart="50" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a8e23afb192162133833a4fce040b6669" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T GetItemAt&lt; T &gt;</definition>
+        <argsstring>(this IList&lt; T &gt; list, int index, bool throwError=true)</argsstring>
+        <name>GetItemAt&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CollectionUtility.GetItemAt&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this IList&lt; T &gt;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>throwError</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" line="61" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" bodystart="61" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1ac54c393802753cd0f65f7d8fbae68bfc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AddFirst&lt; T &gt;</definition>
+        <argsstring>(this IList&lt; T &gt; list, T item)</argsstring>
+        <name>AddFirst&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CollectionUtility.AddFirst&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this IList&lt; T &gt;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" line="71" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a2ec619f35ddf9ef800dd46d9c482f153" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AddLast&lt; T &gt;</definition>
+        <argsstring>(this IList&lt; T &gt; list, T item)</argsstring>
+        <name>AddLast&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CollectionUtility.AddLast&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this IList&lt; T &gt;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" line="76" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" bodystart="76" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a39639ac7d5eefa14bad3bef8eb346a7b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T PopFirst&lt; T &gt;</definition>
+        <argsstring>(this IList&lt; T &gt; list)</argsstring>
+        <name>PopFirst&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CollectionUtility.PopFirst&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this IList&lt; T &gt;</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" line="81" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" bodystart="81" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1aab7da6cbb033f3c0818c0be6e784709f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T PopLast&lt; T &gt;</definition>
+        <argsstring>(this IList&lt; T &gt; list)</argsstring>
+        <name>PopLast&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CollectionUtility.PopLast&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this IList&lt; T &gt;</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" line="89" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" bodystart="89" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a10340237726eb7ab3d3ef2faf0c11d70" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ForEach&lt; T &gt;</definition>
+        <argsstring>(this IList&lt; T &gt; list, System.Action&lt; T &gt; action)</argsstring>
+        <name>ForEach&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CollectionUtility.ForEach&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this IList&lt; T &gt;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>System.Action&lt; T &gt;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" line="98" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" bodystart="98" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a3abea52df06e6370aefdd866e9ea354a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TOutput[]</type>
+        <definition>static TOutput[] ConvertAll&lt; TInput, TOutput &gt;</definition>
+        <argsstring>(this IList&lt; TInput &gt; source, System.Converter&lt; TInput, TOutput &gt; converter, System.Predicate&lt; TInput &gt; match=null)</argsstring>
+        <name>ConvertAll&lt; TInput, TOutput &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CollectionUtility.ConvertAll&lt; TInput, TOutput &gt;</qualifiedname>
+        <param>
+          <type>this IList&lt; TInput &gt;</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>System.Converter&lt; TInput, TOutput &gt;</type>
+          <declname>converter</declname>
+        </param>
+        <param>
+          <type>System.Predicate&lt; TInput &gt;</type>
+          <declname>match</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" line="106" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" bodystart="106" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a630416a5fbbe87acf26bdd883996325f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IsNullOrEmpty&lt; TKey, TValue &gt;</definition>
+        <argsstring>(this IDictionary&lt; TKey, TValue &gt; dict)</argsstring>
+        <name>IsNullOrEmpty&lt; TKey, TValue &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CollectionUtility.IsNullOrEmpty&lt; TKey, TValue &gt;</qualifiedname>
+        <param>
+          <type>this IDictionary&lt; TKey, TValue &gt;</type>
+          <declname>dict</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" line="123" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" bodystart="123" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a287432c421e20f7a00e8d64fa17aba88" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ContainsKeyPath</definition>
+        <argsstring>(this IDictionary dictionary, string keyPath)</argsstring>
+        <name>ContainsKeyPath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CollectionUtility.ContainsKeyPath</qualifiedname>
+        <param>
+          <type>this IDictionary</type>
+          <declname>dictionary</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>keyPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" line="128" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" bodystart="128" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1adadc667a757f5d4c594626b38b449b0f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T GetIfAvailable&lt; T &gt;</definition>
+        <argsstring>(this IDictionary dictionary, string key, T defaultValue=default(T))</argsstring>
+        <name>GetIfAvailable&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CollectionUtility.GetIfAvailable&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this IDictionary</type>
+          <declname>dictionary</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>defaultValue</declname>
+          <defval>default(T)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" line="158" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" bodystart="158" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a5a80d79d6d91cc16a273ae15fd5643f6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T GetIfAvailable&lt; T &gt;</definition>
+        <argsstring>(this IDictionary dictionary, string key, string path)</argsstring>
+        <name>GetIfAvailable&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CollectionUtility.GetIfAvailable&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this IDictionary</type>
+          <declname>dictionary</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" line="188" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" bodystart="188" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a9637999af533605decd5e2125538247f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetKey&lt; T &gt;</definition>
+        <argsstring>(this IDictionary dictionary, T value)</argsstring>
+        <name>GetKey&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CollectionUtility.GetKey&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this IDictionary</type>
+          <declname>dictionary</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" line="230" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" bodystart="230" bodyend="248"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" line="7" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/CollectionUtility.cs" bodystart="8" bodyend="251"/>
+    <listofallmembers>
+      <member refid="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a35483f369716ccd4223c2dd96c225f6a" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CollectionUtility</scope><name>Add&lt; T &gt;</name></member>
+      <member refid="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1ac54c393802753cd0f65f7d8fbae68bfc" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CollectionUtility</scope><name>AddFirst&lt; T &gt;</name></member>
+      <member refid="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a2ec619f35ddf9ef800dd46d9c482f153" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CollectionUtility</scope><name>AddLast&lt; T &gt;</name></member>
+      <member refid="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a6191f02b9636dc12dc644f2b292a7316" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CollectionUtility</scope><name>AddOrReplace&lt; T &gt;</name></member>
+      <member refid="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a66f01c34a078e81ce6865c3d30edc409" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CollectionUtility</scope><name>AddUnique&lt; T &gt;</name></member>
+      <member refid="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a287432c421e20f7a00e8d64fa17aba88" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CollectionUtility</scope><name>ContainsKeyPath</name></member>
+      <member refid="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a3abea52df06e6370aefdd866e9ea354a" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CollectionUtility</scope><name>ConvertAll&lt; TInput, TOutput &gt;</name></member>
+      <member refid="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a10340237726eb7ab3d3ef2faf0c11d70" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CollectionUtility</scope><name>ForEach&lt; T &gt;</name></member>
+      <member refid="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1adadc667a757f5d4c594626b38b449b0f" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CollectionUtility</scope><name>GetIfAvailable&lt; T &gt;</name></member>
+      <member refid="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a5a80d79d6d91cc16a273ae15fd5643f6" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CollectionUtility</scope><name>GetIfAvailable&lt; T &gt;</name></member>
+      <member refid="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a8e23afb192162133833a4fce040b6669" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CollectionUtility</scope><name>GetItemAt&lt; T &gt;</name></member>
+      <member refid="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a9637999af533605decd5e2125538247f" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CollectionUtility</scope><name>GetKey&lt; T &gt;</name></member>
+      <member refid="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1aae0c86bd4ee3778a2d210d28f508c953" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CollectionUtility</scope><name>IsNullOrEmpty&lt; T &gt;</name></member>
+      <member refid="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a630416a5fbbe87acf26bdd883996325f" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CollectionUtility</scope><name>IsNullOrEmpty&lt; TKey, TValue &gt;</name></member>
+      <member refid="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a39639ac7d5eefa14bad3bef8eb346a7b" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CollectionUtility</scope><name>PopFirst&lt; T &gt;</name></member>
+      <member refid="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1aab7da6cbb033f3c0818c0be6e784709f" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CollectionUtility</scope><name>PopLast&lt; T &gt;</name></member>
+      <member refid="d9/d19/class_voxel_busters_1_1_core_library_1_1_collection_utility_1a3d1566cef1b931abbe0824db55e10d47" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CollectionUtility</scope><name>Remove&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

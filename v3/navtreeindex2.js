@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel.html#a4052b0e2f40a18eea4a51a1b1fcca55d":[2,10,5,3],
 "da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel.html#a7ee9065718e6628dc7791b756fa6c0f9":[2,10,5,1],
 "da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts.html":[2,1,1],
 "da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts.html#a285903f3fdf14d4c45137d95dfc1a05d":[2,1,1,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "df/d49/class_voxel_busters_1_1_essential_kit_1_1_social_share_composer.html#a045b1f72ed600c56927fa08dcd492e13":[2,12,8,6],
 "df/d49/class_voxel_busters_1_1_essential_kit_1_1_social_share_composer.html#a05054d92a8a25d88f1fda95a6ad29d31":[2,12,8,5],
 "df/d49/class_voxel_busters_1_1_essential_kit_1_1_social_share_composer.html#a10729793dbf78522c2b38b4aaa841a60":[2,12,8,3],
-"df/d49/class_voxel_busters_1_1_essential_kit_1_1_social_share_composer.html#a336da1caef60879e86ac60ba15984dea":[2,12,8,2],
-"df/d49/class_voxel_busters_1_1_essential_kit_1_1_social_share_composer.html#a4be331fbb173c40a84c282a89e2705e0":[2,12,8,4]
+"df/d49/class_voxel_busters_1_1_essential_kit_1_1_social_share_composer.html#a336da1caef60879e86ac60ba15984dea":[2,12,8,2]
 };

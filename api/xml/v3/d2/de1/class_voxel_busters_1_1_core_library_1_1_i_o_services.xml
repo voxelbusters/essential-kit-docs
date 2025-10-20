@@ -1,0 +1,605 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::IOServices</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1af47ba0f85994ca713209409bbbb91f01" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string CombinePath</definition>
+        <argsstring>(params string[] paths)</argsstring>
+        <name>CombinePath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.CombinePath</qualifiedname>
+        <param>
+          <type>params string[]</type>
+          <declname>paths</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="11" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a40c0813de663d312624a0948a6170af0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetAbsolutePath</definition>
+        <argsstring>(string path)</argsstring>
+        <name>GetAbsolutePath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.GetAbsolutePath</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="16" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="16" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a7908fd6d06bc2eb4479814294eb9135e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetRelativePath</definition>
+        <argsstring>(string referencePath, string path)</argsstring>
+        <name>GetRelativePath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.GetRelativePath</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>referencePath</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="26" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="26" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1abcf071707525ea5f8c93e1d14d27cdc7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IsDirectory</definition>
+        <argsstring>(string path)</argsstring>
+        <name>IsDirectory</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.IsDirectory</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="50" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="50" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a8e607fbd7bb701fda323be52a6ce5cb8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool CreateDirectory</definition>
+        <argsstring>(string path, bool overwrite=false)</argsstring>
+        <name>CreateDirectory</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.CreateDirectory</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="56" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="56" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a9332fd1c571ea75cea87aa0d2842bdf1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void DeleteDirectory</definition>
+        <argsstring>(string path, bool recursive=true, bool throwError=false)</argsstring>
+        <name>DeleteDirectory</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.DeleteDirectory</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>recursive</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>throwError</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="72" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="72" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a1bdb2f001b0527f774c8c0763afc0767" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ClearDirectory</definition>
+        <argsstring>(string path)</argsstring>
+        <name>ClearDirectory</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.ClearDirectory</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="87" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="87" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1aa585c9950318cd5db6f0239478d26186" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetDirectoryName</definition>
+        <argsstring>(string path)</argsstring>
+        <name>GetDirectoryName</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.GetDirectoryName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="103" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="103" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1ae8d934b7b2324cd15ebd844e2d0cdcf1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CopyDirectory</definition>
+        <argsstring>(string root, string dest, bool recursive, string filePattern=null)</argsstring>
+        <name>CopyDirectory</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.CopyDirectory</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>dest</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>recursive</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>filePattern</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="108" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="108" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a0c29e251236783cfda04444d7a7e4217" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MoveDirectory</definition>
+        <argsstring>(string source, string destination)</argsstring>
+        <name>MoveDirectory</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.MoveDirectory</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>destination</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="132" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="132" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a892a4e4a3fbc7159cbd28c9d15661755" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool DirectoryExists</definition>
+        <argsstring>(string path)</argsstring>
+        <name>DirectoryExists</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.DirectoryExists</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="147" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="147" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a2179739077294cb6fb563709fe4c2e8f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IsSubDirectory</definition>
+        <argsstring>(string parent, string path)</argsstring>
+        <name>IsSubDirectory</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.IsSubDirectory</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="152" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="152" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a877603cfc1655f843cd24115fd39e2d9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetUniquePath</definition>
+        <argsstring>(string path)</argsstring>
+        <name>GetUniquePath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.GetUniquePath</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="169" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="169" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a97dd29909260dcecd25045773df8fd48" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GenerateFileName</definition>
+        <argsstring>(string prefix, string extension)</argsstring>
+        <name>GenerateFileName</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.GenerateFileName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>prefix</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>extension</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="181" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="181" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1aa0c5daa98ad31569f8b0ba538ba3d894" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FileExists</definition>
+        <argsstring>(string path)</argsstring>
+        <name>FileExists</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.FileExists</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="190" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="190" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1acb24e13866d3f279a77e944774484a5b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetFileName</definition>
+        <argsstring>(string path)</argsstring>
+        <name>GetFileName</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.GetFileName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="195" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="195" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1afd04b3bc076a4af7a0b8b5028f5ac403" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CreateFile</definition>
+        <argsstring>(string path, string contents)</argsstring>
+        <name>CreateFile</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.CreateFile</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>contents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="200" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="200" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a19a7b92fb5c4bcec7dd4f0e4c10d7a3f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CreateFile</definition>
+        <argsstring>(string path, byte[] contents)</argsstring>
+        <name>CreateFile</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.CreateFile</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>contents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="205" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="205" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a4df9d8b1876879f0ddb38ff25c222d30" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string ReadFile</definition>
+        <argsstring>(string path)</argsstring>
+        <name>ReadFile</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.ReadFile</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="210" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="210" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1adcd40339ebf105116e38f5c70daeffec" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte[] ReadFileData</definition>
+        <argsstring>(string path)</argsstring>
+        <name>ReadFileData</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.ReadFileData</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="215" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="215" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a8cf50e1920b0241b0dd97def2cdda031" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CopyFile</definition>
+        <argsstring>(string source, string destination, bool overwrite=true)</argsstring>
+        <name>CopyFile</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.CopyFile</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overwrite</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="220" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="220" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1aa8b6a4cf6c39b4197cd941863e710e72" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MoveFile</definition>
+        <argsstring>(string source, string destination)</argsstring>
+        <name>MoveFile</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.MoveFile</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>destination</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="225" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="225" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a86b83ac05270200c0b46ba1fab33f8a3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void DeleteFile</definition>
+        <argsstring>(string path, bool throwError=false)</argsstring>
+        <name>DeleteFile</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.DeleteFile</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>throwError</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="233" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="233" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1af6dbe444093fa24885aa1636fea819f4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void DeleteFileOrDirectory</definition>
+        <argsstring>(string path, bool throwError=false)</argsstring>
+        <name>DeleteFileOrDirectory</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.DeleteFileOrDirectory</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>throwError</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="251" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="251" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1af945984d85292da8a5b2e38bb6ef2a76" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetFileNameWithoutExtension</definition>
+        <argsstring>(string path)</argsstring>
+        <name>GetFileNameWithoutExtension</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.GetFileNameWithoutExtension</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="263" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="263" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a9f331e525ddfe4589897ae5489c58793" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetExtension</definition>
+        <argsstring>(string path)</argsstring>
+        <name>GetExtension</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.GetExtension</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="268" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="268" bodyend="271"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a506720ae764c87a931d7a15ce98124e2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GetUriSafePath</definition>
+        <argsstring>(string path)</argsstring>
+        <name>GetUriSafePath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IOServices.GetUriSafePath</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="159" column="31" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="159" bodyend="167"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" line="7" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IOServices.cs" bodystart="8" bodyend="274"/>
+    <listofallmembers>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a1bdb2f001b0527f774c8c0763afc0767" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>ClearDirectory</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1af47ba0f85994ca713209409bbbb91f01" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>CombinePath</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1ae8d934b7b2324cd15ebd844e2d0cdcf1" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>CopyDirectory</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a8cf50e1920b0241b0dd97def2cdda031" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>CopyFile</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a8e607fbd7bb701fda323be52a6ce5cb8" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>CreateDirectory</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1afd04b3bc076a4af7a0b8b5028f5ac403" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>CreateFile</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a19a7b92fb5c4bcec7dd4f0e4c10d7a3f" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>CreateFile</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a9332fd1c571ea75cea87aa0d2842bdf1" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>DeleteDirectory</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a86b83ac05270200c0b46ba1fab33f8a3" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>DeleteFile</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1af6dbe444093fa24885aa1636fea819f4" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>DeleteFileOrDirectory</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a892a4e4a3fbc7159cbd28c9d15661755" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>DirectoryExists</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1aa0c5daa98ad31569f8b0ba538ba3d894" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>FileExists</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a97dd29909260dcecd25045773df8fd48" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>GenerateFileName</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a40c0813de663d312624a0948a6170af0" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>GetAbsolutePath</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1aa585c9950318cd5db6f0239478d26186" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>GetDirectoryName</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a9f331e525ddfe4589897ae5489c58793" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>GetExtension</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1acb24e13866d3f279a77e944774484a5b" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>GetFileName</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1af945984d85292da8a5b2e38bb6ef2a76" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>GetFileNameWithoutExtension</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a7908fd6d06bc2eb4479814294eb9135e" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>GetRelativePath</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a877603cfc1655f843cd24115fd39e2d9" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>GetUniquePath</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a506720ae764c87a931d7a15ce98124e2" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>GetUriSafePath</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1abcf071707525ea5f8c93e1d14d27cdc7" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>IsDirectory</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a2179739077294cb6fb563709fe4c2e8f" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>IsSubDirectory</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a0c29e251236783cfda04444d7a7e4217" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>MoveDirectory</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1aa8b6a4cf6c39b4197cd941863e710e72" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>MoveFile</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1a4df9d8b1876879f0ddb38ff25c222d30" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>ReadFile</name></member>
+      <member refid="d2/de1/class_voxel_busters_1_1_core_library_1_1_i_o_services_1adcd40339ebf105116e38f5c70daeffec" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IOServices</scope><name>ReadFileData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

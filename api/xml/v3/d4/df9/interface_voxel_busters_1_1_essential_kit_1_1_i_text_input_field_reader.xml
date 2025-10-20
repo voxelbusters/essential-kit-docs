@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d4/df9/interface_voxel_busters_1_1_essential_kit_1_1_i_text_input_field_reader" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::ITextInputFieldReader</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d4/df9/interface_voxel_busters_1_1_essential_kit_1_1_i_text_input_field_reader_1ab4726c7c06ae41233e679361293b4173" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Text</definition>
+        <argsstring></argsstring>
+        <name>Text</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ITextInputFieldReader.Text</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/ITextInputFieldReader.cs" line="5" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/ITextInputFieldReader.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/ITextInputFieldReader.cs" line="3" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/ITextInputFieldReader.cs" bodystart="4" bodyend="6"/>
+    <listofallmembers>
+      <member refid="d4/df9/interface_voxel_busters_1_1_essential_kit_1_1_i_text_input_field_reader_1ab4726c7c06ae41233e679361293b4173" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ITextInputFieldReader</scope><name>Text</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

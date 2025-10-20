@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/dc1/class_voxel_busters_1_1_essential_kit_1_1_native_u_i" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::NativeUI</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="db/dc1/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_1ae9da17b7766dd175119248ad38f47ed8" prot="private" static="yes" mutable="no">
+        <type>INativeUIInterface</type>
+        <definition>INativeUIInterface s_nativeInterface</definition>
+        <argsstring></argsstring>
+        <name>s_nativeInterface</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUI.s_nativeInterface</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NativeUI.cs" line="15" column="53" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NativeUI.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="db/dc1/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_1ad87b97faf558c1699fc72e0d8bdacb1c" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>NativeUIUnitySettings</type>
+        <definition>NativeUIUnitySettings UnitySettings</definition>
+        <argsstring></argsstring>
+        <name>UnitySettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUI.UnitySettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NativeUI.cs" line="21" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NativeUI.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="db/dc1/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_1a142579157b7c8e0631fc717f15f5c9f8" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>INativeUIInterface</type>
+        <definition>INativeUIInterface NativeInterface</definition>
+        <argsstring></argsstring>
+        <name>NativeInterface</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUI.NativeInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NativeUI.cs" line="23" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NativeUI.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/dc1/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_1aef6e5cd447c7b724c9a08afd7a724586" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Initialize</definition>
+        <argsstring>(NativeUIUnitySettings settings)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUI.Initialize</qualifiedname>
+        <param>
+          <type>NativeUIUnitySettings</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NativeUI.cs" line="29" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NativeUI.cs" bodystart="29" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dc1/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_1a05598f07971489bdcf862a42e9942044" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ShowAlertDialog</definition>
+        <argsstring>(string title, string message, string preferredActionLabel, Callback preferredActionCallback=null, string cancelActionLabel=null, Callback cancelActionCallback=null)</argsstring>
+        <name>ShowAlertDialog</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUI.ShowAlertDialog</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>preferredActionLabel</declname>
+        </param>
+        <param>
+          <type>Callback</type>
+          <declname>preferredActionCallback</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>cancelActionLabel</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>Callback</type>
+          <declname>cancelActionCallback</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Creates a new alert dialog with specified values. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title of the alert.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The descriptive text that provides more details.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>preferredActionLabel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title of the button.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>preferredActionCallback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The method to execute when the user selects preferred action button.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cancelActionLabel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title of the cancel button.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cancelActionCallback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The method to execute when the user selects cancel button.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NativeUI.cs" line="49" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NativeUI.cs" bodystart="49" bodyend="63"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NativeUI.cs" line="10" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NativeUI.cs" bodystart="11" bodyend="66"/>
+    <listofallmembers>
+      <member refid="db/dc1/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_1aef6e5cd447c7b724c9a08afd7a724586" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUI</scope><name>Initialize</name></member>
+      <member refid="db/dc1/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_1a142579157b7c8e0631fc717f15f5c9f8" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUI</scope><name>NativeInterface</name></member>
+      <member refid="db/dc1/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_1ae9da17b7766dd175119248ad38f47ed8" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUI</scope><name>s_nativeInterface</name></member>
+      <member refid="db/dc1/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_1a05598f07971489bdcf862a42e9942044" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUI</scope><name>ShowAlertDialog</name></member>
+      <member refid="db/dc1/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_1ad87b97faf558c1699fc72e0d8bdacb1c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUI</scope><name>UnitySettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

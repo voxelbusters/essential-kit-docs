@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::User</compoundname>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user_1a5e18c692ad76d6c518e2080fe6f45da2" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>UserGender</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.User.UserGender</qualifiedname>
+        <enumvalue id="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user_1a5e18c692ad76d6c518e2080fe6f45da2aec0fc0100c4fc1ce4eea230c3dc10360" prot="public">
+          <name>Undefined</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user_1a5e18c692ad76d6c518e2080fe6f45da2a63889cfb9d3cbe05d1bd2be5cc9953fd" prot="public">
+          <name>Male</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user_1a5e18c692ad76d6c518e2080fe6f45da2ab719ce180ec7bd9641fece2f920f4817" prot="public">
+          <name>Female</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user_1a5e18c692ad76d6c518e2080fe6f45da2a52ef9633d88a7480b3a938ff9eaa2a25" prot="public">
+          <name>Others</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationUser.cs" line="68" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationUser.cs" bodystart="69" bodyend="77"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user_1abc7e824d07fb4b7efdef6498d7c99e63" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string UserId</definition>
+        <argsstring></argsstring>
+        <name>UserId</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.User.UserId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationUser.cs" line="12" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationUser.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user_1addf7b4436db9b7794f3ff57468e5efcb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Email</definition>
+        <argsstring></argsstring>
+        <name>Email</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.User.Email</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationUser.cs" line="14" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationUser.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user_1a46bbdda148e2dc15aaa4ffb8d0015430" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string FirstName</definition>
+        <argsstring></argsstring>
+        <name>FirstName</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.User.FirstName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationUser.cs" line="16" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationUser.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user_1afe43a1e86c660582c37e3b84039ca83c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string LastName</definition>
+        <argsstring></argsstring>
+        <name>LastName</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.User.LastName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationUser.cs" line="18" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationUser.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user_1a639288999dd9244b1f64088fb16e5afe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>UserGender</type>
+        <definition>UserGender Gender</definition>
+        <argsstring></argsstring>
+        <name>Gender</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.User.Gender</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationUser.cs" line="20" column="27" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationUser.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user_1a4074377679f196d9bff7bb8ce19c6885" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? DateOfBirth</definition>
+        <argsstring></argsstring>
+        <name>DateOfBirth</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.User.DateOfBirth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationUser.cs" line="22" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationUser.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user_1a545a1fbbf1fe8a80e753e6db72f0b3c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Age</definition>
+        <argsstring></argsstring>
+        <name>Age</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.User.Age</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationUser.cs" line="24" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationUser.cs" bodystart="25" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user_1a1007cd7a31b6bf5b2586b5fe1e976990" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool IsGuest</definition>
+        <argsstring></argsstring>
+        <name>IsGuest</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.User.IsGuest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationUser.cs" line="43" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationUser.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user_1a07bcb75f9c528efbc4b6db7e14971792" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>User</definition>
+        <argsstring>(string userId, string email=null, string firstName=null, string lastName=null, UserGender gender=UserGender.Undefined, DateTime? dob=null, bool isGuest=false)</argsstring>
+        <name>User</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.User.User</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>userId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>firstName</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>lastName</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>UserGender</type>
+          <declname>gender</declname>
+          <defval>UserGender.Undefined</defval>
+        </param>
+        <param>
+          <type>DateTime?</type>
+          <declname>dob</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isGuest</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationUser.cs" line="49" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationUser.cs" bodystart="49" bodyend="62"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationUser.cs" line="8" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/ApplicationUser.cs" bodystart="9" bodyend="80"/>
+    <listofallmembers>
+      <member refid="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user_1a545a1fbbf1fe8a80e753e6db72f0b3c7" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::User</scope><name>Age</name></member>
+      <member refid="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user_1a4074377679f196d9bff7bb8ce19c6885" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::User</scope><name>DateOfBirth</name></member>
+      <member refid="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user_1addf7b4436db9b7794f3ff57468e5efcb" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::User</scope><name>Email</name></member>
+      <member refid="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user_1a46bbdda148e2dc15aaa4ffb8d0015430" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::User</scope><name>FirstName</name></member>
+      <member refid="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user_1a639288999dd9244b1f64088fb16e5afe" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::User</scope><name>Gender</name></member>
+      <member refid="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user_1a1007cd7a31b6bf5b2586b5fe1e976990" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::User</scope><name>IsGuest</name></member>
+      <member refid="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user_1afe43a1e86c660582c37e3b84039ca83c" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::User</scope><name>LastName</name></member>
+      <member refid="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user_1a07bcb75f9c528efbc4b6db7e14971792" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::User</scope><name>User</name></member>
+      <member refid="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user_1a5e18c692ad76d6c518e2080fe6f45da2" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::User</scope><name>UserGender</name></member>
+      <member refid="d4/dd5/class_voxel_busters_1_1_core_library_1_1_user_1abc7e824d07fb4b7efdef6498d7c99e63" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::User</scope><name>UserId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

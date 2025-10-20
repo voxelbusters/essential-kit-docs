@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/d80/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_native_u_i_interface_base" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>VoxelBusters::EssentialKit::NativeUICore::NativeUIInterfaceBase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NativeFeatureInterfaceBase</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INativeUIInterface</basecompoundref>
+    <derivedcompoundref refid="d0/dd1/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_interface" prot="public" virt="non-virtual">UnityUIInterface</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="db/d80/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_native_u_i_interface_base_1ab682dc024541b757ac94feb23772be62" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NativeUIInterfaceBase</definition>
+        <argsstring>(bool isAvailable)</argsstring>
+        <name>NativeUIInterfaceBase</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.NativeUIInterfaceBase.NativeUIInterfaceBase</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isAvailable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NativeUIInterfaceBase.cs" line="12" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NativeUIInterfaceBase.cs" bodystart="12" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d80/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_native_u_i_interface_base_1ab1091d0c8d44a97916597bec45389ac2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>INativeAlertDialogInterface</type>
+        <definition>INativeAlertDialogInterface CreateAlertDialog</definition>
+        <argsstring>(AlertDialogStyle style)</argsstring>
+        <name>CreateAlertDialog</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.NativeUIInterfaceBase.CreateAlertDialog</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1ae3613e0c055e54cd26802837c2ad5b41" kindref="member">AlertDialogStyle</ref></type>
+          <declname>style</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NativeUIInterfaceBase.cs" line="20" column="53"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d80/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_native_u_i_interface_base_1aef4bdd28794c103084cbb442946a9132" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>INativeDatePickerInterface</type>
+        <definition>INativeDatePickerInterface CreateDatePicker</definition>
+        <argsstring>(DatePickerMode mode)</argsstring>
+        <name>CreateDatePicker</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.NativeUIInterfaceBase.CreateDatePicker</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a3c684be76fc389f509b5926f69d1d67b" kindref="member">DatePickerMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NativeUIInterfaceBase.cs" line="22" column="52"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NativeUIInterfaceBase.cs" line="8" column="17" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/NativeUIInterfaceBase.cs" bodystart="9" bodyend="25"/>
+    <listofallmembers>
+      <member refid="db/d80/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_native_u_i_interface_base_1ab1091d0c8d44a97916597bec45389ac2" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::NativeUIInterfaceBase</scope><name>CreateAlertDialog</name></member>
+      <member refid="db/d80/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_native_u_i_interface_base_1aef4bdd28794c103084cbb442946a9132" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::NativeUIInterfaceBase</scope><name>CreateDatePicker</name></member>
+      <member refid="db/d80/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_native_u_i_interface_base_1ab682dc024541b757ac94feb23772be62" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::NativeUIInterfaceBase</scope><name>NativeUIInterfaceBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

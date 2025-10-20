@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d7/dd3/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_mail_composer" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::SharingServicesCore::INativeMailComposer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">INativeObject</basecompoundref>
+    <derivedcompoundref refid="db/d1c/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_native_mail_composer_base" prot="public" virt="non-virtual">NativeMailComposerBase</derivedcompoundref>
+    <derivedcompoundref refid="d3/dff/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_mail_composer" prot="public" virt="non-virtual">NullMailComposer</derivedcompoundref>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="d7/dd3/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_mail_composer_1ad86e11f697071f4c68b7fc8b1ac0c98c" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>MailComposerClosedInternalCallback</type>
+        <definition>MailComposerClosedInternalCallback OnClose</definition>
+        <argsstring></argsstring>
+        <name>OnClose</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.INativeMailComposer.OnClose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/INativeMailComposer.cs" line="12" column="50" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/INativeMailComposer.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/dd3/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_mail_composer_1a92abae82bda4d8a7b4cae157cf959330" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetToRecipients</definition>
+        <argsstring>(params string[] values)</argsstring>
+        <name>SetToRecipients</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.INativeMailComposer.SetToRecipients</qualifiedname>
+        <param>
+          <type>params string[]</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/INativeMailComposer.cs" line="19" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd3/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_mail_composer_1a719fa92ac592e0c2548dae9c9343903d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetCcRecipients</definition>
+        <argsstring>(params string[] values)</argsstring>
+        <name>SetCcRecipients</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.INativeMailComposer.SetCcRecipients</qualifiedname>
+        <param>
+          <type>params string[]</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/INativeMailComposer.cs" line="21" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd3/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_mail_composer_1a394fe063c6a3ddd816c24bfa6cc1c537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetBccRecipients</definition>
+        <argsstring>(params string[] values)</argsstring>
+        <name>SetBccRecipients</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.INativeMailComposer.SetBccRecipients</qualifiedname>
+        <param>
+          <type>params string[]</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/INativeMailComposer.cs" line="23" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd3/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_mail_composer_1a96b265e79165b1175f0e1554f6c6194f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetSubject</definition>
+        <argsstring>(string value)</argsstring>
+        <name>SetSubject</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.INativeMailComposer.SetSubject</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/INativeMailComposer.cs" line="25" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd3/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_mail_composer_1a6b9e1cb80e4efcafb0dd73754bf0c770" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetBody</definition>
+        <argsstring>(string value, bool isHtml)</argsstring>
+        <name>SetBody</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.INativeMailComposer.SetBody</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isHtml</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/INativeMailComposer.cs" line="27" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd3/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_mail_composer_1a1ee64fd83fdf8d23e913a00624538910" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddScreenshot</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>AddScreenshot</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.INativeMailComposer.AddScreenshot</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/INativeMailComposer.cs" line="30" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd3/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_mail_composer_1a515b5908bbe95a56159a3306c9ddb79d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddAttachmentData</definition>
+        <argsstring>(byte[] data, string mimeType, string fileName)</argsstring>
+        <name>AddAttachmentData</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.INativeMailComposer.AddAttachmentData</qualifiedname>
+        <param>
+          <type>byte[]</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>mimeType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/INativeMailComposer.cs" line="32" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd3/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_mail_composer_1ace79e5f49885e486e8e1d48ff0666476" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Show</definition>
+        <argsstring>()</argsstring>
+        <name>Show</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.INativeMailComposer.Show</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/INativeMailComposer.cs" line="35" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/INativeMailComposer.cs" line="8" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/INativeMailComposer.cs" bodystart="9" bodyend="38"/>
+    <listofallmembers>
+      <member refid="d7/dd3/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_mail_composer_1a515b5908bbe95a56159a3306c9ddb79d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::INativeMailComposer</scope><name>AddAttachmentData</name></member>
+      <member refid="d7/dd3/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_mail_composer_1a1ee64fd83fdf8d23e913a00624538910" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::INativeMailComposer</scope><name>AddScreenshot</name></member>
+      <member refid="d7/dd3/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_mail_composer_1ad86e11f697071f4c68b7fc8b1ac0c98c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::INativeMailComposer</scope><name>OnClose</name></member>
+      <member refid="d7/dd3/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_mail_composer_1a394fe063c6a3ddd816c24bfa6cc1c537" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::INativeMailComposer</scope><name>SetBccRecipients</name></member>
+      <member refid="d7/dd3/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_mail_composer_1a6b9e1cb80e4efcafb0dd73754bf0c770" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::INativeMailComposer</scope><name>SetBody</name></member>
+      <member refid="d7/dd3/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_mail_composer_1a719fa92ac592e0c2548dae9c9343903d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::INativeMailComposer</scope><name>SetCcRecipients</name></member>
+      <member refid="d7/dd3/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_mail_composer_1a96b265e79165b1175f0e1554f6c6194f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::INativeMailComposer</scope><name>SetSubject</name></member>
+      <member refid="d7/dd3/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_mail_composer_1a92abae82bda4d8a7b4cae157cf959330" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::INativeMailComposer</scope><name>SetToRecipients</name></member>
+      <member refid="d7/dd3/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_mail_composer_1ace79e5f49885e486e8e1d48ff0666476" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::INativeMailComposer</scope><name>Show</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

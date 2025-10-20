@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::SharingServices</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1ab1b20fa1be7bd9eeded68b4fe128d331" prot="private" static="yes" mutable="no">
+        <type>INativeSharingInterface</type>
+        <definition>INativeSharingInterface s_nativeInterface</definition>
+        <argsstring></argsstring>
+        <name>s_nativeInterface</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServices.s_nativeInterface</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SharingServices.cs" line="19" column="56" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SharingServices.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1a99e08dae6b4ac408e330a2eddef272b5" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>SharingServicesUnitySettings</type>
+        <definition>SharingServicesUnitySettings UnitySettings</definition>
+        <argsstring></argsstring>
+        <name>UnitySettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServices.UnitySettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SharingServices.cs" line="25" column="52" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SharingServices.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1a99610b9189b89fdd6ae93fdb691e7598" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>INativeSharingInterface</type>
+        <definition>INativeSharingInterface NativeInterface</definition>
+        <argsstring></argsstring>
+        <name>NativeInterface</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServices.NativeInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SharingServices.cs" line="27" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SharingServices.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1ab2736f418ea7cd1b1cbc2a4ff4acec31" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IsAvailable</definition>
+        <argsstring>()</argsstring>
+        <name>IsAvailable</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServices.IsAvailable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SharingServices.cs" line="33" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SharingServices.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1affef6ed30a3dfc27416d6537d462a595" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Initialize</definition>
+        <argsstring>(SharingServicesUnitySettings settings)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServices.Initialize</qualifiedname>
+        <param>
+          <type>SharingServicesUnitySettings</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SharingServices.cs" line="38" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SharingServices.cs" bodystart="38" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1a11e1d862e4fb56daf43d534575ebfb9e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ShowMailComposer</definition>
+        <argsstring>(string[] toRecipients=null, string[] ccRecipients=null, string[] bccRecipients=null, string subject=null, string body=null, bool isHtmlBody=false, EventCallback&lt; MailComposerResult &gt; callback=null, params ShareItem[] shareItems)</argsstring>
+        <name>ShowMailComposer</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServices.ShowMailComposer</qualifiedname>
+        <param>
+          <type>string[]</type>
+          <declname>toRecipients</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>ccRecipients</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>bccRecipients</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>subject</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>body</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isHtmlBody</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>EventCallback&lt; <ref refid="d4/d58/class_voxel_busters_1_1_essential_kit_1_1_mail_composer_result" kindref="compound">MailComposerResult</ref> &gt;</type>
+          <declname>callback</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>params <ref refid="d8/d32/class_voxel_busters_1_1_essential_kit_1_1_share_item" kindref="compound">ShareItem</ref>[]</type>
+          <declname>shareItems</declname>
+        </param>
+        <briefdescription>
+<para>Shows the mail composer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>toRecipients</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>To recipients.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ccRecipients</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Cc recipients.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bccRecipients</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Bcc recipients.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>subject</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Subject.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>body</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Body.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isHtmlBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If set to <computeroutput>true</computeroutput> is html body.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Callback.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shareItems</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Share items.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SharingServices.cs" line="60" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SharingServices.cs" bodystart="60" bodyend="110"/>
+        <references refid="d4/dc9/class_voxel_busters_1_1_essential_kit_1_1_mail_composer_1a4a987bd9a436c00355b19275b5b87873" compoundref="d7/dd2/_mail_composer_8cs" startline="75" endline="78">MailComposer.CreateInstance</references>
+        <references refid="d4/dc9/class_voxel_busters_1_1_essential_kit_1_1_mail_composer_1ace79e5f49885e486e8e1d48ff0666476" compoundref="d7/dd2/_mail_composer_8cs" startline="338" endline="349">MailComposer.Show</references>
+      </memberdef>
+      <memberdef kind="function" id="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1ad413aaf59f4fef89fbd0610116544305" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ShowMessageComposer</definition>
+        <argsstring>(string[] recipients=null, string subject=null, string body=null, EventCallback&lt; MessageComposerResult &gt; callback=null, params ShareItem[] shareItems)</argsstring>
+        <name>ShowMessageComposer</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServices.ShowMessageComposer</qualifiedname>
+        <param>
+          <type>string[]</type>
+          <declname>recipients</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>subject</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>body</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>EventCallback&lt; <ref refid="d7/d02/class_voxel_busters_1_1_essential_kit_1_1_message_composer_result" kindref="compound">MessageComposerResult</ref> &gt;</type>
+          <declname>callback</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>params <ref refid="d8/d32/class_voxel_busters_1_1_essential_kit_1_1_share_item" kindref="compound">ShareItem</ref>[]</type>
+          <declname>shareItems</declname>
+        </param>
+        <briefdescription>
+<para>Shows the message composer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recipients</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Recipients.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>subject</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Subject.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>body</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Body.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Callback.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shareItems</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Share items.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SharingServices.cs" line="120" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SharingServices.cs" bodystart="120" bodyend="162"/>
+        <references refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1af2de392c1947c60fd58ebec02b352a65" compoundref="dc/dad/_message_composer_8cs" startline="99" endline="111">MessageComposer.CanSendAttachments</references>
+        <references refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1ad618290de06f7dfeeef989d280380e2b" compoundref="dc/dad/_message_composer_8cs" startline="117" endline="129">MessageComposer.CanSendSubject</references>
+        <references refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1a0c3e0b8cecdacda7831e17155c7bdc98" compoundref="dc/dad/_message_composer_8cs" startline="68" endline="71">MessageComposer.CreateInstance</references>
+        <references refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1ace79e5f49885e486e8e1d48ff0666476" compoundref="dc/dad/_message_composer_8cs" startline="326" endline="337">MessageComposer.Show</references>
+      </memberdef>
+      <memberdef kind="function" id="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1a2dea8208227dca41903210889980ffd9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ShowShareSheet</definition>
+        <argsstring>(EventCallback&lt; ShareSheetResult &gt; callback=null, params ShareItem[] shareItems)</argsstring>
+        <name>ShowShareSheet</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServices.ShowShareSheet</qualifiedname>
+        <param>
+          <type>EventCallback&lt; <ref refid="d3/d86/class_voxel_busters_1_1_essential_kit_1_1_share_sheet_result" kindref="compound">ShareSheetResult</ref> &gt;</type>
+          <declname>callback</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>params <ref refid="d8/d32/class_voxel_busters_1_1_essential_kit_1_1_share_item" kindref="compound">ShareItem</ref>[]</type>
+          <declname>shareItems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SharingServices.cs" line="164" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SharingServices.cs" bodystart="164" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1a5ce8be607a4e5ba9d8350bd8b0ff949e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ShowSocialShareComposer</definition>
+        <argsstring>(SocialShareComposerType composerType, EventCallback&lt; SocialShareComposerResult &gt; callback=null, params ShareItem[] shareItems)</argsstring>
+        <name>ShowSocialShareComposer</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServices.ShowSocialShareComposer</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1afdc794be6e025a649c9261e3e48b2e46" kindref="member">SocialShareComposerType</ref></type>
+          <declname>composerType</declname>
+        </param>
+        <param>
+          <type>EventCallback&lt; <ref refid="d9/d6e/class_voxel_busters_1_1_essential_kit_1_1_social_share_composer_result" kindref="compound">SocialShareComposerResult</ref> &gt;</type>
+          <declname>callback</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>params <ref refid="d8/d32/class_voxel_busters_1_1_essential_kit_1_1_share_item" kindref="compound">ShareItem</ref>[]</type>
+          <declname>shareItems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SharingServices.cs" line="203" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SharingServices.cs" bodystart="203" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1a0ef92bba3d7a1c99471a4392fa44d771" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ConvertGifToShareItem</definition>
+        <argsstring>(string filePath, SuccessCallback&lt; ShareItem &gt; onSuccess, ErrorCallback onError)</argsstring>
+        <name>ConvertGifToShareItem</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServices.ConvertGifToShareItem</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <param>
+          <type>SuccessCallback&lt; <ref refid="d8/d32/class_voxel_busters_1_1_essential_kit_1_1_share_item" kindref="compound">ShareItem</ref> &gt;</type>
+          <declname>onSuccess</declname>
+        </param>
+        <param>
+          <type>ErrorCallback</type>
+          <declname>onError</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SharingServices.cs" line="246" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SharingServices.cs" bodystart="246" bodyend="257"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Provides a cross-platform interface to access sharing services. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SharingServices.cs" line="14" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SharingServices.cs" bodystart="15" bodyend="261"/>
+    <listofallmembers>
+      <member refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1a0ef92bba3d7a1c99471a4392fa44d771" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServices</scope><name>ConvertGifToShareItem</name></member>
+      <member refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1affef6ed30a3dfc27416d6537d462a595" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServices</scope><name>Initialize</name></member>
+      <member refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1ab2736f418ea7cd1b1cbc2a4ff4acec31" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServices</scope><name>IsAvailable</name></member>
+      <member refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1a99610b9189b89fdd6ae93fdb691e7598" prot="package" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServices</scope><name>NativeInterface</name></member>
+      <member refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1ab1b20fa1be7bd9eeded68b4fe128d331" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServices</scope><name>s_nativeInterface</name></member>
+      <member refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1a11e1d862e4fb56daf43d534575ebfb9e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServices</scope><name>ShowMailComposer</name></member>
+      <member refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1ad413aaf59f4fef89fbd0610116544305" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServices</scope><name>ShowMessageComposer</name></member>
+      <member refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1a2dea8208227dca41903210889980ffd9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServices</scope><name>ShowShareSheet</name></member>
+      <member refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1a5ce8be607a4e5ba9d8350bd8b0ff949e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServices</scope><name>ShowSocialShareComposer</name></member>
+      <member refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1a99e08dae6b4ac408e330a2eddef272b5" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServices</scope><name>UnitySettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

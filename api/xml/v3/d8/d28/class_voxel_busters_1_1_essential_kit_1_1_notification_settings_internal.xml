@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::NotificationSettingsInternal</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1ac74263163a2e26641cf9a5b1798afea4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1adb9431b7e4d0a8718ef362bb9c9fdc97" kindref="member">NotificationPermissionStatus</ref></type>
+        <definition>NotificationPermissionStatus PermissionStatus</definition>
+        <argsstring></argsstring>
+        <name>PermissionStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationSettingsInternal.PermissionStatus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" line="11" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1ac9d06248c7f44c1e3c830d04218ea758" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a67ccf569262a74389af2523b51802546" kindref="member">NotificationSettingStatus</ref></type>
+        <definition>NotificationSettingStatus AlertSetting</definition>
+        <argsstring></argsstring>
+        <name>AlertSetting</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationSettingsInternal.AlertSetting</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" line="13" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1af34741e1c219056a1fec87b1d808dca4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a67ccf569262a74389af2523b51802546" kindref="member">NotificationSettingStatus</ref></type>
+        <definition>NotificationSettingStatus BadgeSetting</definition>
+        <argsstring></argsstring>
+        <name>BadgeSetting</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationSettingsInternal.BadgeSetting</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" line="15" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1aa054e3e578acc4762ccc985bf11d24fa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a67ccf569262a74389af2523b51802546" kindref="member">NotificationSettingStatus</ref></type>
+        <definition>NotificationSettingStatus CarPlaySetting</definition>
+        <argsstring></argsstring>
+        <name>CarPlaySetting</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationSettingsInternal.CarPlaySetting</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" line="17" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1a33f3f8fbf74877bd31d35d9a42a328bf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a67ccf569262a74389af2523b51802546" kindref="member">NotificationSettingStatus</ref></type>
+        <definition>NotificationSettingStatus LockScreenSetting</definition>
+        <argsstring></argsstring>
+        <name>LockScreenSetting</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationSettingsInternal.LockScreenSetting</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" line="19" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1a840d603c7034b44f6dd2178bc137da61" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a67ccf569262a74389af2523b51802546" kindref="member">NotificationSettingStatus</ref></type>
+        <definition>NotificationSettingStatus NotificationCenterSetting</definition>
+        <argsstring></argsstring>
+        <name>NotificationCenterSetting</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationSettingsInternal.NotificationCenterSetting</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" line="21" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1a00542304c5675cd5f08cf3070bd08e0d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a67ccf569262a74389af2523b51802546" kindref="member">NotificationSettingStatus</ref></type>
+        <definition>NotificationSettingStatus SoundSetting</definition>
+        <argsstring></argsstring>
+        <name>SoundSetting</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationSettingsInternal.SoundSetting</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" line="23" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1adb7c7bb126552a24dc15f8deef34e98c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a67ccf569262a74389af2523b51802546" kindref="member">NotificationSettingStatus</ref></type>
+        <definition>NotificationSettingStatus CriticalAlertSetting</definition>
+        <argsstring></argsstring>
+        <name>CriticalAlertSetting</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationSettingsInternal.CriticalAlertSetting</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" line="25" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1ac5c20be8112ba642a5e7afa278cb2f37" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a67ccf569262a74389af2523b51802546" kindref="member">NotificationSettingStatus</ref></type>
+        <definition>NotificationSettingStatus AnnouncementSetting</definition>
+        <argsstring></argsstring>
+        <name>AnnouncementSetting</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationSettingsInternal.AnnouncementSetting</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" line="27" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1a973a7bda00f6eb676169a3f3bbed80d9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a444ff1746a2e58653593deb05980f837" kindref="member">NotificationAlertStyle</ref></type>
+        <definition>NotificationAlertStyle AlertStyle</definition>
+        <argsstring></argsstring>
+        <name>AlertStyle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationSettingsInternal.AlertStyle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" line="29" column="39" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1af447faba70b580e81f5843a3ca3c505f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a32634e3fbf4fff5665ae5d06f948716e" kindref="member">NotificationPreviewStyle</ref></type>
+        <definition>NotificationPreviewStyle PreviewStyle</definition>
+        <argsstring></argsstring>
+        <name>PreviewStyle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationSettingsInternal.PreviewStyle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" line="31" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1a999e5a094005e7fdf823c4f56b5b8661" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a67ccf569262a74389af2523b51802546" kindref="member">NotificationSettingStatus</ref></type>
+        <definition>NotificationSettingStatus ExactTimingSetting</definition>
+        <argsstring></argsstring>
+        <name>ExactTimingSetting</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationSettingsInternal.ExactTimingSetting</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" line="33" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1ab32af76a27bb32f0ff257925c2b5b718" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NotificationSettingsInternal</definition>
+        <argsstring>(NotificationPermissionStatus permissionStatus, NotificationSettingStatus alertSetting, NotificationSettingStatus badgeSetting, NotificationSettingStatus carPlaySetting, NotificationSettingStatus lockScreenSetting, NotificationSettingStatus notificationCenterSetting, NotificationSettingStatus soundSetting, NotificationSettingStatus criticalAlertSetting, NotificationSettingStatus announcementSetting, NotificationAlertStyle alertStyle, NotificationPreviewStyle previewStyle, NotificationSettingStatus exactTimingSetting)</argsstring>
+        <name>NotificationSettingsInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationSettingsInternal.NotificationSettingsInternal</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1adb9431b7e4d0a8718ef362bb9c9fdc97" kindref="member">NotificationPermissionStatus</ref></type>
+          <declname>permissionStatus</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a67ccf569262a74389af2523b51802546" kindref="member">NotificationSettingStatus</ref></type>
+          <declname>alertSetting</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a67ccf569262a74389af2523b51802546" kindref="member">NotificationSettingStatus</ref></type>
+          <declname>badgeSetting</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a67ccf569262a74389af2523b51802546" kindref="member">NotificationSettingStatus</ref></type>
+          <declname>carPlaySetting</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a67ccf569262a74389af2523b51802546" kindref="member">NotificationSettingStatus</ref></type>
+          <declname>lockScreenSetting</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a67ccf569262a74389af2523b51802546" kindref="member">NotificationSettingStatus</ref></type>
+          <declname>notificationCenterSetting</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a67ccf569262a74389af2523b51802546" kindref="member">NotificationSettingStatus</ref></type>
+          <declname>soundSetting</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a67ccf569262a74389af2523b51802546" kindref="member">NotificationSettingStatus</ref></type>
+          <declname>criticalAlertSetting</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a67ccf569262a74389af2523b51802546" kindref="member">NotificationSettingStatus</ref></type>
+          <declname>announcementSetting</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a444ff1746a2e58653593deb05980f837" kindref="member">NotificationAlertStyle</ref></type>
+          <declname>alertStyle</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a32634e3fbf4fff5665ae5d06f948716e" kindref="member">NotificationPreviewStyle</ref></type>
+          <declname>previewStyle</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a67ccf569262a74389af2523b51802546" kindref="member">NotificationSettingStatus</ref></type>
+          <declname>exactTimingSetting</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" line="39" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" bodystart="39" bodyend="59"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" line="7" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationSettingsInternal.cs" bodystart="8" bodyend="62"/>
+    <listofallmembers>
+      <member refid="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1ac9d06248c7f44c1e3c830d04218ea758" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationSettingsInternal</scope><name>AlertSetting</name></member>
+      <member refid="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1a973a7bda00f6eb676169a3f3bbed80d9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationSettingsInternal</scope><name>AlertStyle</name></member>
+      <member refid="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1ac5c20be8112ba642a5e7afa278cb2f37" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationSettingsInternal</scope><name>AnnouncementSetting</name></member>
+      <member refid="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1af34741e1c219056a1fec87b1d808dca4" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationSettingsInternal</scope><name>BadgeSetting</name></member>
+      <member refid="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1aa054e3e578acc4762ccc985bf11d24fa" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationSettingsInternal</scope><name>CarPlaySetting</name></member>
+      <member refid="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1adb7c7bb126552a24dc15f8deef34e98c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationSettingsInternal</scope><name>CriticalAlertSetting</name></member>
+      <member refid="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1a999e5a094005e7fdf823c4f56b5b8661" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationSettingsInternal</scope><name>ExactTimingSetting</name></member>
+      <member refid="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1a33f3f8fbf74877bd31d35d9a42a328bf" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationSettingsInternal</scope><name>LockScreenSetting</name></member>
+      <member refid="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1a840d603c7034b44f6dd2178bc137da61" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationSettingsInternal</scope><name>NotificationCenterSetting</name></member>
+      <member refid="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1ab32af76a27bb32f0ff257925c2b5b718" prot="package" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationSettingsInternal</scope><name>NotificationSettingsInternal</name></member>
+      <member refid="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1ac74263163a2e26641cf9a5b1798afea4" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationSettingsInternal</scope><name>PermissionStatus</name></member>
+      <member refid="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1af447faba70b580e81f5843a3ca3c505f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationSettingsInternal</scope><name>PreviewStyle</name></member>
+      <member refid="d8/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_settings_internal_1a00542304c5675cd5f08cf3070bd08e0d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationSettingsInternal</scope><name>SoundSetting</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

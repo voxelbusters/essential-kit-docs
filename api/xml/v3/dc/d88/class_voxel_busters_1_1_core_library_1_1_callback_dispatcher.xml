@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::CallbackDispatcher</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">VoxelBusters::CoreLibrary::PrivateSingletonBehaviour&lt; CallbackDispatcher &gt;</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1a86142ac4054cb9e31983a92d1bf4ae73" prot="private" static="no" mutable="no">
+        <type>Queue&lt; Action &gt;</type>
+        <definition>Queue&lt;Action&gt; m_queue</definition>
+        <argsstring></argsstring>
+        <name>m_queue</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CallbackDispatcher.m_queue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" line="46" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1aadb07652d56766db8c4e9a7bb2e7b4aa" prot="private" static="no" mutable="no">
+        <type>readonly object</type>
+        <definition>readonly object queueLock</definition>
+        <argsstring></argsstring>
+        <name>queueLock</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CallbackDispatcher.queueLock</qualifiedname>
+        <initializer>= new object()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" line="47" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1a602c91bc7b3579806ab3e11355dfaa00" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CallbackDispatcher</type>
+        <definition>static CallbackDispatcher Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CallbackDispatcher.Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" line="53" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1a273b054dc4639ce49b6c80ae60da3f64" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InvokeOnMainThread</definition>
+        <argsstring>(Callback callback)</argsstring>
+        <name>InvokeOnMainThread</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CallbackDispatcher.InvokeOnMainThread</qualifiedname>
+        <param>
+          <type><ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a7aad06b84eedaea282efda0972c4197b" kindref="member">Callback</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" line="58" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" bodystart="58" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1a7c25f7c1cbc6337c46eb56375d8c825a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InvokeOnMainThread&lt; TArg &gt;</definition>
+        <argsstring>(Callback&lt; TArg &gt; callback, TArg arg)</argsstring>
+        <name>InvokeOnMainThread&lt; TArg &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CallbackDispatcher.InvokeOnMainThread&lt; TArg &gt;</qualifiedname>
+        <param>
+          <type><ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a7aad06b84eedaea282efda0972c4197b" kindref="member">Callback</ref>&lt; TArg &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>TArg</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" line="75" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" bodystart="75" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1a043c71f3850d507e3de395435e5b94b4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InvokeOnMainThread&lt; TResult &gt;</definition>
+        <argsstring>(SuccessCallback&lt; TResult &gt; callback, TResult result)</argsstring>
+        <name>InvokeOnMainThread&lt; TResult &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CallbackDispatcher.InvokeOnMainThread&lt; TResult &gt;</qualifiedname>
+        <param>
+          <type>SuccessCallback&lt; TResult &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>TResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" line="92" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" bodystart="92" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1ae0413aa1d21be0366e0126697de775df" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InvokeOnMainThread</definition>
+        <argsstring>(ErrorCallback callback, Error error)</argsstring>
+        <name>InvokeOnMainThread</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CallbackDispatcher.InvokeOnMainThread</qualifiedname>
+        <param>
+          <type><ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a63784ffd9f37c84588df4af6266e7be3" kindref="member">ErrorCallback</ref></type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" line="109" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" bodystart="109" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1a8d03de5829bd98b0f2696b52de0d4aa5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InvokeOnMainThread</definition>
+        <argsstring>(CompletionCallback callback, bool success, Error error)</argsstring>
+        <name>InvokeOnMainThread</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CallbackDispatcher.InvokeOnMainThread</qualifiedname>
+        <param>
+          <type><ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a67258e35735836517152f688bd5a5b43" kindref="member">CompletionCallback</ref></type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>success</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" line="126" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" bodystart="126" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1a32f9419aadb67b4a6e0e614cca95ea9d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InvokeOnMainThread&lt; TResult &gt;</definition>
+        <argsstring>(CompletionCallback&lt; TResult &gt; callback, TResult result, Error error)</argsstring>
+        <name>InvokeOnMainThread&lt; TResult &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CallbackDispatcher.InvokeOnMainThread&lt; TResult &gt;</qualifiedname>
+        <param>
+          <type><ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a67258e35735836517152f688bd5a5b43" kindref="member">CompletionCallback</ref>&lt; TResult &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>TResult</type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" line="143" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" bodystart="143" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1a899a42f7c0c72dc30112787b1548bd61" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InvokeOnMainThread&lt; TResult &gt;</definition>
+        <argsstring>(EventCallback&lt; TResult &gt; callback, IOperationResultContainer&lt; TResult &gt; resultContainer)</argsstring>
+        <name>InvokeOnMainThread&lt; TResult &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CallbackDispatcher.InvokeOnMainThread&lt; TResult &gt;</qualifiedname>
+        <param>
+          <type>EventCallback&lt; TResult &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>IOperationResultContainer&lt; TResult &gt;</type>
+          <declname>resultContainer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" line="160" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" bodystart="160" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1afb4f5a473f8ad61f946f5df6dab23fe3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void InvokeOnMainThread&lt; TResult &gt;</definition>
+        <argsstring>(EventCallback&lt; TResult &gt; callback, TResult result, Error error)</argsstring>
+        <name>InvokeOnMainThread&lt; TResult &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CallbackDispatcher.InvokeOnMainThread&lt; TResult &gt;</qualifiedname>
+        <param>
+          <type>EventCallback&lt; TResult &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>TResult</type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" line="165" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" bodystart="165" bodyend="180"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1a4a75f2190558c64b867d868efde69c13" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OnSingletonAwake</definition>
+        <argsstring>()</argsstring>
+        <name>OnSingletonAwake</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CallbackDispatcher.OnSingletonAwake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" line="186" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" bodystart="186" bodyend="192"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1a730d6a2e936437a95bb66aadf86e934b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LateUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>LateUpdate</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CallbackDispatcher.LateUpdate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" line="194" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" bodystart="194" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1a6a3535df7f496b30633a2bbe2a3e4065" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddAction</definition>
+        <argsstring>(Action action)</argsstring>
+        <name>AddAction</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CallbackDispatcher.AddAction</qualifiedname>
+        <param>
+          <type>Action</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" line="218" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" bodystart="218" bodyend="224"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" line="42" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/CallbackDispatcher.cs" bodystart="43" bodyend="227"/>
+    <listofallmembers>
+      <member refid="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1a6a3535df7f496b30633a2bbe2a3e4065" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CallbackDispatcher</scope><name>AddAction</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a6a50039c56e42ecc20d5de7aa56ab5e6" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CallbackDispatcher</scope><name>DestorySingleton</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a7f36640d267f36fcbac6d736fb9456d6" prot="protected" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CallbackDispatcher</scope><name>GetSingleton</name></member>
+      <member refid="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1a602c91bc7b3579806ab3e11355dfaa00" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CallbackDispatcher</scope><name>Initialize</name></member>
+      <member refid="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1a273b054dc4639ce49b6c80ae60da3f64" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CallbackDispatcher</scope><name>InvokeOnMainThread</name></member>
+      <member refid="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1ae0413aa1d21be0366e0126697de775df" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CallbackDispatcher</scope><name>InvokeOnMainThread</name></member>
+      <member refid="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1a8d03de5829bd98b0f2696b52de0d4aa5" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CallbackDispatcher</scope><name>InvokeOnMainThread</name></member>
+      <member refid="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1a7c25f7c1cbc6337c46eb56375d8c825a" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CallbackDispatcher</scope><name>InvokeOnMainThread&lt; TArg &gt;</name></member>
+      <member refid="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1a043c71f3850d507e3de395435e5b94b4" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CallbackDispatcher</scope><name>InvokeOnMainThread&lt; TResult &gt;</name></member>
+      <member refid="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1a32f9419aadb67b4a6e0e614cca95ea9d" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CallbackDispatcher</scope><name>InvokeOnMainThread&lt; TResult &gt;</name></member>
+      <member refid="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1a899a42f7c0c72dc30112787b1548bd61" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CallbackDispatcher</scope><name>InvokeOnMainThread&lt; TResult &gt;</name></member>
+      <member refid="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1afb4f5a473f8ad61f946f5df6dab23fe3" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CallbackDispatcher</scope><name>InvokeOnMainThread&lt; TResult &gt;</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a4c99c6dc56675d38d2fbc282cbd64d09" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CallbackDispatcher</scope><name>IsPersistent</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1ac51aabcdcc13271b1c7f1bbb249f0321" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CallbackDispatcher</scope><name>IsSingletonActive</name></member>
+      <member refid="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1a730d6a2e936437a95bb66aadf86e934b" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CallbackDispatcher</scope><name>LateUpdate</name></member>
+      <member refid="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1a86142ac4054cb9e31983a92d1bf4ae73" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CallbackDispatcher</scope><name>m_queue</name></member>
+      <member refid="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1a4a75f2190558c64b867d868efde69c13" prot="protected" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CallbackDispatcher</scope><name>OnSingletonAwake</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a44bde1142ce6a850a18aa9d61e1338ec" prot="protected" virt="virtual"><scope>VoxelBusters::CoreLibrary::CallbackDispatcher</scope><name>OnSingletonDestroy</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a4343e94eeb9392419970f25f0d8c2f7a" prot="protected" virt="virtual"><scope>VoxelBusters::CoreLibrary::CallbackDispatcher</scope><name>OnSingletonStart</name></member>
+      <member refid="dc/d88/class_voxel_busters_1_1_core_library_1_1_callback_dispatcher_1aadb07652d56766db8c4e9a7bb2e7b4aa" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CallbackDispatcher</scope><name>queueLock</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1adc4b27bf21ae03f5295e34e316904e2d" prot="protected" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CallbackDispatcher</scope><name>TryGetSingleton</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

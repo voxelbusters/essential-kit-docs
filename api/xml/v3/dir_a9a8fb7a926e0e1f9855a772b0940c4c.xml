@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_a9a8fb7a926e0e1f9855a772b0940c4c" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices</compoundname>
+    <innerfile refid="df/d00/_cloud_saved_data_change_reason_code_8cs">CloudSavedDataChangeReasonCode.cs</innerfile>
+    <innerfile refid="d7/db8/_cloud_services_8cs">CloudServices.cs</innerfile>
+    <innerfile refid="d7/d57/_cloud_services_error_8cs">CloudServicesError.cs</innerfile>
+    <innerfile refid="dd/d98/_cloud_services_error_code_8cs">CloudServicesErrorCode.cs</innerfile>
+    <innerfile refid="df/da7/_cloud_services_saved_data_change_result_8cs">CloudServicesSavedDataChangeResult.cs</innerfile>
+    <innerfile refid="db/dac/_cloud_services_synchronize_result_8cs">CloudServicesSynchronizeResult.cs</innerfile>
+    <innerfile refid="d3/d46/_cloud_services_user_change_result_8cs">CloudServicesUserChangeResult.cs</innerfile>
+    <innerfile refid="d8/d5f/_cloud_services_utility_8cs">CloudServicesUtility.cs</innerfile>
+    <innerfile refid="d9/d75/_cloud_user_8cs">CloudUser.cs</innerfile>
+    <innerfile refid="dd/db4/_cloud_user_account_status_8cs">CloudUserAccountStatus.cs</innerfile>
+    <innerfile refid="d4/d0a/_cloud_services_2_delegates_8cs">Delegates.cs</innerfile>
+    <innerfile refid="de/d3f/_i_cloud_user_8cs">ICloudUser.cs</innerfile>
+    <innerfile refid="d7/d66/_i_native_cloud_services_interface_8cs">INativeCloudServicesInterface.cs</innerfile>
+    <innerfile refid="dc/d07/_native_cloud_services_interface_base_8cs">NativeCloudServicesInterfaceBase.cs</innerfile>
+    <innerfile refid="d7/db7/_null_cloud_services_interface_8cs">NullCloudServicesInterface.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/"/>
+  </compounddef>
+</doxygen>

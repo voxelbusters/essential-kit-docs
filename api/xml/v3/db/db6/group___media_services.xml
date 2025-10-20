@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/db6/group___media_services" kind="group">
+    <compoundname>MediaServices</compoundname>
+    <title>Media Services</title>
+    <innerclass refid="d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content" prot="public">VoxelBusters::EssentialKit::IMediaContent</innerclass>
+    <innerclass refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options" prot="public">VoxelBusters::EssentialKit::MediaContentCaptureOptions</innerclass>
+    <innerclass refid="d5/d40/class_voxel_busters_1_1_essential_kit_1_1_media_content_save_options" prot="public">VoxelBusters::EssentialKit::MediaContentSaveOptions</innerclass>
+    <innerclass refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options" prot="public">VoxelBusters::EssentialKit::MediaContentSelectOptions</innerclass>
+    <innerclass refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services" prot="public">VoxelBusters::EssentialKit::MediaServices</innerclass>
+    <innerclass refid="d3/dc6/class_voxel_busters_1_1_essential_kit_1_1_media_services_request_camera_access_result" prot="public">VoxelBusters::EssentialKit::MediaServicesRequestCameraAccessResult</innerclass>
+    <innerclass refid="d9/d3f/class_voxel_busters_1_1_essential_kit_1_1_media_services_request_gallery_access_result" prot="public">VoxelBusters::EssentialKit::MediaServicesRequestGalleryAccessResult</innerclass>
+    <innerclass refid="dd/d2e/class_voxel_busters_1_1_essential_kit_1_1_media_services_select_media_content_result" prot="public">VoxelBusters::EssentialKit::MediaServicesSelectMediaContentResult</innerclass>
+    <innerclass refid="d9/dac/class_voxel_busters_1_1_essential_kit_1_1_raw_media_data" prot="public">VoxelBusters::EssentialKit::RawMediaData</innerclass>
+    <briefdescription>
+<para>Provides cross-platform interface to access devices&apos;s media gallery and camera for picking/saving images/videos/documents etc. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

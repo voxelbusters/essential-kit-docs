@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_79cf242be16f36f90fc55b520bb47736" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces</compoundname>
+    <innerfile refid="d3/d2c/_external_service_provider_8cs">ExternalServiceProvider.cs</innerfile>
+    <innerfile refid="d9/d55/_i_json_service_provider_8cs">IJsonServiceProvider.cs</innerfile>
+    <innerfile refid="d9/df4/_i_localisation_service_provider_8cs">ILocalisationServiceProvider.cs</innerfile>
+    <innerfile refid="dc/d56/_i_save_service_provider_8cs">ISaveServiceProvider.cs</innerfile>
+    <innerfile refid="d6/d49/_i_validator_8cs">IValidator.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/"/>
+  </compounddef>
+</doxygen>

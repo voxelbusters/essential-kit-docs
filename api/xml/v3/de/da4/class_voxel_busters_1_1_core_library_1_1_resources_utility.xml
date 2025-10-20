@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="de/da4/class_voxel_busters_1_1_core_library_1_1_resources_utility" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::ResourcesUtility</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="de/da4/class_voxel_busters_1_1_core_library_1_1_resources_utility_1a5cea750d59fe925f8d9524f0a964207f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T LoadBuiltinAsset&lt; T &gt;</definition>
+        <argsstring>(string name)</argsstring>
+        <name>LoadBuiltinAsset&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ResourcesUtility.LoadBuiltinAsset&lt; T &gt;</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ResourcesUtility.cs" line="11" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ResourcesUtility.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="de/da4/class_voxel_busters_1_1_core_library_1_1_resources_utility_1af534011f70545822da0fb8a6a978672e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T LoadAsset&lt; T &gt;</definition>
+        <argsstring>(this UnityPackageDefinition package, string name)</argsstring>
+        <name>LoadAsset&lt; T &gt;</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ResourcesUtility.LoadAsset&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this UnityPackageDefinition</type>
+          <declname>package</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ResourcesUtility.cs" line="16" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ResourcesUtility.cs" bodystart="16" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ResourcesUtility.cs" line="7" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/ResourcesUtility.cs" bodystart="8" bodyend="23"/>
+    <listofallmembers>
+      <member refid="de/da4/class_voxel_busters_1_1_core_library_1_1_resources_utility_1af534011f70545822da0fb8a6a978672e" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ResourcesUtility</scope><name>LoadAsset&lt; T &gt;</name></member>
+      <member refid="de/da4/class_voxel_busters_1_1_core_library_1_1_resources_utility_1a5cea750d59fe925f8d9524f0a964207f" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ResourcesUtility</scope><name>LoadBuiltinAsset&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

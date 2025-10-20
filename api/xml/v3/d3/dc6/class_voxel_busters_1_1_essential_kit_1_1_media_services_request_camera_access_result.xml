@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d3/dc6/class_voxel_busters_1_1_essential_kit_1_1_media_services_request_camera_access_result" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::MediaServicesRequestCameraAccessResult</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d3/dc6/class_voxel_busters_1_1_essential_kit_1_1_media_services_request_camera_access_result_1a0ec5101f93917efe66f21594d1655e2b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1aafd2f4506631462ce3394fb96b7eab0c" kindref="member">CameraAccessStatus</ref></type>
+        <definition>CameraAccessStatus AccessStatus</definition>
+        <argsstring></argsstring>
+        <name>AccessStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesRequestCameraAccessResult.AccessStatus</qualifiedname>
+        <briefdescription>
+<para>The access permission granted by the user. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesRequestCameraAccessResult.cs" line="19" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesRequestCameraAccessResult.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="d3/dc6/class_voxel_busters_1_1_essential_kit_1_1_media_services_request_camera_access_result_1ad84c13deb780900edac3ff34b35d3f80" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaServicesRequestCameraAccessResult</definition>
+        <argsstring>(CameraAccessStatus accessStatus)</argsstring>
+        <name>MediaServicesRequestCameraAccessResult</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServicesRequestCameraAccessResult.MediaServicesRequestCameraAccessResult</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1aafd2f4506631462ce3394fb96b7eab0c" kindref="member">CameraAccessStatus</ref></type>
+          <declname>accessStatus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesRequestCameraAccessResult.cs" line="25" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesRequestCameraAccessResult.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class contains the information retrieved when MediaServices.RequestCameraAccess(bool, EventCallback&lt;MediaServicesRequestCameraAccessResult&gt;) operation is completed. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesRequestCameraAccessResult.cs" line="12" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServicesRequestCameraAccessResult.cs" bodystart="13" bodyend="32"/>
+    <listofallmembers>
+      <member refid="d3/dc6/class_voxel_busters_1_1_essential_kit_1_1_media_services_request_camera_access_result_1a0ec5101f93917efe66f21594d1655e2b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesRequestCameraAccessResult</scope><name>AccessStatus</name></member>
+      <member refid="d3/dc6/class_voxel_busters_1_1_essential_kit_1_1_media_services_request_camera_access_result_1ad84c13deb780900edac3ff34b35d3f80" prot="package" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServicesRequestCameraAccessResult</scope><name>MediaServicesRequestCameraAccessResult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

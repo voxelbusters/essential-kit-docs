@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d2/d75/class_voxel_busters_1_1_essential_kit_1_1_billing_services_external_product_purchase_action" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::BillingServicesExternalProductPurchaseAction</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d2/d75/class_voxel_busters_1_1_essential_kit_1_1_billing_services_external_product_purchase_action_1ace1fd35aac7afc8e4a304d4a633c4a13" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product" kindref="compound">IBillingProduct</ref></type>
+        <definition>IBillingProduct Product</definition>
+        <argsstring></argsstring>
+        <name>Product</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesExternalProductPurchaseAction.Product</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesExternalProductPurchaseAction.cs" line="7" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesExternalProductPurchaseAction.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="d2/d75/class_voxel_busters_1_1_essential_kit_1_1_billing_services_external_product_purchase_action_1a050ff1d3d89526e806c544d8d611129a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BillingServicesExternalProductPurchaseAction</definition>
+        <argsstring>(IBillingProduct product)</argsstring>
+        <name>BillingServicesExternalProductPurchaseAction</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesExternalProductPurchaseAction.BillingServicesExternalProductPurchaseAction</qualifiedname>
+        <param>
+          <type><ref refid="d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product" kindref="compound">IBillingProduct</ref></type>
+          <declname>product</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesExternalProductPurchaseAction.cs" line="13" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesExternalProductPurchaseAction.cs" bodystart="13" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesExternalProductPurchaseAction.cs" line="3" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingServicesExternalProductPurchaseAction.cs" bodystart="4" bodyend="20"/>
+    <listofallmembers>
+      <member refid="d2/d75/class_voxel_busters_1_1_essential_kit_1_1_billing_services_external_product_purchase_action_1a050ff1d3d89526e806c544d8d611129a" prot="package" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesExternalProductPurchaseAction</scope><name>BillingServicesExternalProductPurchaseAction</name></member>
+      <member refid="d2/d75/class_voxel_busters_1_1_essential_kit_1_1_billing_services_external_product_purchase_action_1ace1fd35aac7afc8e4a304d4a633c4a13" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesExternalProductPurchaseAction</scope><name>Product</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

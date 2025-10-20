@@ -114,9 +114,9 @@ $(function(){initNavTree('d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billi
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a13b34bb62356e78fbdea48bca335830c" id="r_a13b34bb62356e78fbdea48bca335830c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13b34bb62356e78fbdea48bca335830c">BillingServicesUnitySettings</a> (bool isEnabled=true, <a class="el" href="../../d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition.html">BillingProductDefinition</a>[] products=null, bool autoFinishTransactions=true, AndroidPlatformProperties androidProperties=null)</td></tr>
-<tr class="memdesc:a13b34bb62356e78fbdea48bca335830c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a new instance of the <a class="el" href="../../d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings.html" title="The BillingServicesUnitySettings class is used to configure the Billing module of Essential Kit.">BillingServicesUnitySettings</a> class with the specified settings.  <br /></td></tr>
-<tr class="separator:a13b34bb62356e78fbdea48bca335830c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33a3a09c38720417b3347dce790d8ac6" id="r_a33a3a09c38720417b3347dce790d8ac6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33a3a09c38720417b3347dce790d8ac6">BillingServicesUnitySettings</a> (bool isEnabled=true, <a class="el" href="../../d1/d92/class_voxel_busters_1_1_essential_kit_1_1_billing_product_definition.html">BillingProductDefinition</a>[] products=null, bool autoFinishTransactions=true, bool autoHandleExternalProductRequests=true, AndroidPlatformProperties androidProperties=null)</td></tr>
+<tr class="memdesc:a33a3a09c38720417b3347dce790d8ac6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a new instance of the <a class="el" href="../../d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings.html" title="The BillingServicesUnitySettings class is used to configure the Billing module of Essential Kit.">BillingServicesUnitySettings</a> class with the specified settings.  <br /></td></tr>
+<tr class="separator:a33a3a09c38720417b3347dce790d8ac6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -126,13 +126,16 @@ Properties</h2></td></tr>
 <tr class="memitem:aad4b248692f2d08855142afba9e408f7" id="r_aad4b248692f2d08855142afba9e408f7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad4b248692f2d08855142afba9e408f7">AutoFinishTransactions</a><code> [get]</code></td></tr>
 <tr class="memdesc:aad4b248692f2d08855142afba9e408f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a value indicating whether completed transactions are finished automatically.  <br /></td></tr>
 <tr class="separator:aad4b248692f2d08855142afba9e408f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73c325c6eac1859a9bc3b97c01cb880b" id="r_a73c325c6eac1859a9bc3b97c01cb880b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73c325c6eac1859a9bc3b97c01cb880b">AutoHandleExternalProductPurchaseActions</a><code> [get]</code></td></tr>
+<tr class="memdesc:a73c325c6eac1859a9bc3b97c01cb880b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a value indicating whether external product purchase request actions are handled automatically. If you disable this, make sure you call product purchase by listening to <a class="el" href="../../d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#aae23d7eae5fdd4cfe49b090b0aaae8d6" title="Event that will be called when an external product purchase action is performed - For ex: from AppSto...">BillingServices.OnExternalProductPurchaseAction</a> event.  <br /></td></tr>
+<tr class="separator:a73c325c6eac1859a9bc3b97c01cb880b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43ee530d504628390660ed6ec9f35a11" id="r_a43ee530d504628390660ed6ec9f35a11"><td class="memItemLeft" align="right" valign="top">AndroidPlatformProperties&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43ee530d504628390660ed6ec9f35a11">AndroidProperties</a><code> [get]</code></td></tr>
 <tr class="memdesc:a43ee530d504628390660ed6ec9f35a11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Android specific properties.  <br /></td></tr>
 <tr class="separator:a43ee530d504628390660ed6ec9f35a11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a13b34bb62356e78fbdea48bca335830c" name="a13b34bb62356e78fbdea48bca335830c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13b34bb62356e78fbdea48bca335830c">&#9670;&#160;</a></span>BillingServicesUnitySettings()</h2>
+<a id="a33a3a09c38720417b3347dce790d8ac6" name="a33a3a09c38720417b3347dce790d8ac6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33a3a09c38720417b3347dce790d8ac6">&#9670;&#160;</a></span>BillingServicesUnitySettings()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -151,6 +154,11 @@ Properties</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>autoFinishTransactions</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>autoHandleExternalProductRequests</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -220,6 +228,29 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a73c325c6eac1859a9bc3b97c01cb880b" name="a73c325c6eac1859a9bc3b97c01cb880b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73c325c6eac1859a9bc3b97c01cb880b">&#9670;&#160;</a></span>AutoHandleExternalProductPurchaseActions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AutoHandleExternalProductPurchaseActions</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><code>true</code> if external product purchase action requests are handled automatically; otherwise, <code>false</code>. </p>
+
+</div>
+</div>
 <a id="a43ee530d504628390660ed6ec9f35a11" name="a43ee530d504628390660ed6ec9f35a11"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43ee530d504628390660ed6ec9f35a11">&#9670;&#160;</a></span>AndroidProperties</h2>
 
@@ -249,7 +280,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/daf/namespace_voxel_busters.html">VoxelBusters</a></li><li class="navelem"><a class="el" href="../../da/d57/namespace_voxel_busters_1_1_essential_kit.html">EssentialKit</a></li><li class="navelem"><a class="el" href="../../d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings.html">BillingServicesUnitySettings</a></li>
-    <li class="footer">Generated on Wed Aug 20 2025 for Essential Kit by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">Generated on Mon Oct 20 2025 for Essential Kit by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>
 </body>

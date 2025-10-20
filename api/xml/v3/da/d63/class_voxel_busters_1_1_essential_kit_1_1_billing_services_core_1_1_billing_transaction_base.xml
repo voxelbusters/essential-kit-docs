@@ -1,0 +1,583 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NativeObjectBase</basecompoundref>
+    <basecompoundref refid="da/d96/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_transaction" prot="public" virt="non-virtual">IBillingTransaction</basecompoundref>
+    <derivedcompoundref refid="d3/d2e/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_plain" prot="public" virt="non-virtual">BillingTransactionPlain</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a186291c875988107b7ace745ea84d4ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="50" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1ae8088582d38228c2d8a0d6fd559b6d96" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>IBillingPayment</type>
+        <definition>IBillingPayment Payment</definition>
+        <argsstring></argsstring>
+        <name>Payment</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.Payment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="51" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1ace1fd35aac7afc8e4a304d4a633c4a13" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product" kindref="compound">IBillingProduct</ref></type>
+        <definition>IBillingProduct Product</definition>
+        <argsstring></argsstring>
+        <name>Product</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.Product</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="52" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1abd555699325a70b0f1cf2cda40839aef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int RequestedQuantity</definition>
+        <argsstring></argsstring>
+        <name>RequestedQuantity</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.RequestedQuantity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="53" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a121d9cb485fa9e23380cb8c883e46c9c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Tag</definition>
+        <argsstring></argsstring>
+        <name>Tag</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.Tag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="54" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1ae7577aa5055f716a3d04393bb07ab50a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime DateUTC</definition>
+        <argsstring></argsstring>
+        <name>DateUTC</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.DateUTC</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="56" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a9f6dd5f0a254ed27ca791fe4aa2c35cf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime Date</definition>
+        <argsstring></argsstring>
+        <name>Date</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.Date</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="57" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a64e103243b0288dfb863f0da7910ab99" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8eceb4dea76715613fe03408958c7da0" kindref="member">BillingTransactionState</ref></type>
+        <definition>BillingTransactionState TransactionState</definition>
+        <argsstring></argsstring>
+        <name>TransactionState</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.TransactionState</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="58" column="40" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a668f164597632423d8a95be88a21bb13" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2cdfe71af1e91303eaad67cce9dca095" kindref="member">BillingReceiptVerificationState</ref></type>
+        <definition>BillingReceiptVerificationState ReceiptVerificationState</definition>
+        <argsstring></argsstring>
+        <name>ReceiptVerificationState</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.ReceiptVerificationState</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="59" column="48" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1af994f1f43a91359d2bb996f01bf87a1e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Receipt</definition>
+        <argsstring></argsstring>
+        <name>Receipt</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.Receipt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="65" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a60f4f96f03be1947359f5c3e69d9d296" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a7743c2b00afbd4f4b6d162547c4306fd" kindref="member">BillingEnvironment</ref></type>
+        <definition>BillingEnvironment Environment</definition>
+        <argsstring></argsstring>
+        <name>Environment</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.Environment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="66" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1af351ecd6a300954af1bc01962a05d23a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ApplicationBundleIdentifier</definition>
+        <argsstring></argsstring>
+        <name>ApplicationBundleIdentifier</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.ApplicationBundleIdentifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="67" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a3b9b73178dd5de8357ed074ca73d2883" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int PurchasedQuantity</definition>
+        <argsstring></argsstring>
+        <name>PurchasedQuantity</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.PurchasedQuantity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="68" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a5f6b8889670148c01b409187b33eb5c6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="de/d7f/class_voxel_busters_1_1_essential_kit_1_1_billing_product_revocation_info" kindref="compound">BillingProductRevocationInfo</ref></type>
+        <definition>BillingProductRevocationInfo RevocationInfo</definition>
+        <argsstring></argsstring>
+        <name>RevocationInfo</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.RevocationInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="69" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a014cc758da094f688407fb0b135c1bdb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d7/d56/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_status" kindref="compound">BillingProductSubscriptionStatus</ref></type>
+        <definition>BillingProductSubscriptionStatus SubscriptionStatus</definition>
+        <argsstring></argsstring>
+        <name>SubscriptionStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.SubscriptionStatus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="70" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a2659af8ee1cc7ca00d1fe018036acc10" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Error</type>
+        <definition>Error Error</definition>
+        <argsstring></argsstring>
+        <name>Error</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.Error</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="71" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1aa0a983dd8ae9e8ffe1bb0d53293bf9ef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>BillingTransactionAndroidProperties</type>
+        <definition>BillingTransactionAndroidProperties AndroidProperties</definition>
+        <argsstring></argsstring>
+        <name>AndroidProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.AndroidProperties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="72" column="52" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1ad4ec17ae383c67ae0f49e10d276121ed" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string RawData</definition>
+        <argsstring></argsstring>
+        <name>RawData</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.RawData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="73" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1abe1eae7fbb773e5b486f717717d7d17f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BillingTransactionBase</definition>
+        <argsstring>(string transactionId, IBillingProduct product)</argsstring>
+        <name>BillingTransactionBase</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.BillingTransactionBase</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>transactionId</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product" kindref="compound">IBillingProduct</ref></type>
+          <declname>product</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="15" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" bodystart="15" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a04f39955b6adcd51fd49d025403f8cda" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int GetRequestedQuantityInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetRequestedQuantityInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.GetRequestedQuantityInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="31" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a2c17fc3a0866709f690555892c2ea5bf" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetTagInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetTagInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.GetTagInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="32" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a083202edc40bb5ddf1ecf02c109e30ea" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime GetTransactionDateUTCInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetTransactionDateUTCInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.GetTransactionDateUTCInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="33" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1adbba9fce652b3c46be464a47cc23ab05" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8eceb4dea76715613fe03408958c7da0" kindref="member">BillingTransactionState</ref></type>
+        <definition>BillingTransactionState GetTransactionStateInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetTransactionStateInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.GetTransactionStateInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="34" column="52"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1afe482c40a50e8e1fdff3dc053d618d79" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2cdfe71af1e91303eaad67cce9dca095" kindref="member">BillingReceiptVerificationState</ref></type>
+        <definition>BillingReceiptVerificationState GetReceiptVerificationStateInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetReceiptVerificationStateInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.GetReceiptVerificationStateInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="35" column="60"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1ae3590466b91dd0fc383ca11770bdcc96" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetReceiptVerificationStateInternal</definition>
+        <argsstring>(BillingReceiptVerificationState value)</argsstring>
+        <name>SetReceiptVerificationStateInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.SetReceiptVerificationStateInternal</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2cdfe71af1e91303eaad67cce9dca095" kindref="member">BillingReceiptVerificationState</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="36" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a788e431d3e8409fa42335c2cf3d057b1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetReceiptInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetReceiptInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.GetReceiptInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="37" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1afe50086423b75d627f566171c8c66e62" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a7743c2b00afbd4f4b6d162547c4306fd" kindref="member">BillingEnvironment</ref></type>
+        <definition>BillingEnvironment GetEnvironmentInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnvironmentInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.GetEnvironmentInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="38" column="47"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a5ca37a12124f6c99700ae6f6227c5018" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetApplicationBundleIdentifierInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetApplicationBundleIdentifierInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.GetApplicationBundleIdentifierInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="39" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1ac8f97649029b596923ff0fbc39892c5b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int GetPurchasedQuantityInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetPurchasedQuantityInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.GetPurchasedQuantityInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="40" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a8ca19ea9d9300021a137554725fd0877" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="de/d7f/class_voxel_busters_1_1_essential_kit_1_1_billing_product_revocation_info" kindref="compound">BillingProductRevocationInfo</ref></type>
+        <definition>BillingProductRevocationInfo GetRevocationInfoInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetRevocationInfoInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.GetRevocationInfoInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="41" column="57"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a0d8306f98281e6e3db669f1edc0f6a81" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d56/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_status" kindref="compound">BillingProductSubscriptionStatus</ref></type>
+        <definition>BillingProductSubscriptionStatus GetSubscriptionStatusInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetSubscriptionStatusInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.GetSubscriptionStatusInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="42" column="61"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a43e070f63fadc3a359afb22c441917d6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Error</type>
+        <definition>Error GetErrorInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetErrorInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.GetErrorInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="43" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a8c7179501a230d16fe69bec7bb2c75ec" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetRawDataInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetRawDataInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.GetRawDataInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="44" column="35"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a40920dafc61a5352648eeefc2f7a67dc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>~BillingTransactionBase</definition>
+        <argsstring>()</argsstring>
+        <name>~BillingTransactionBase</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.~BillingTransactionBase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="22" column="9" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingTransactionBase.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="79" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" bodystart="79" bodyend="111"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BillingTransactionBase</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IBillingTransaction</label>
+        <link refid="da/d96/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_transaction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BillingTransactionBase</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IBillingTransaction</label>
+        <link refid="da/d96/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_transaction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" line="11" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionBase.cs" bodystart="12" bodyend="114"/>
+    <listofallmembers>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1aa0a983dd8ae9e8ffe1bb0d53293bf9ef" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>AndroidProperties</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1af351ecd6a300954af1bc01962a05d23a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>ApplicationBundleIdentifier</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1abe1eae7fbb773e5b486f717717d7d17f" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>BillingTransactionBase</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a9f6dd5f0a254ed27ca791fe4aa2c35cf" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>Date</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1ae7577aa5055f716a3d04393bb07ab50a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>DateUTC</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a60f4f96f03be1947359f5c3e69d9d296" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>Environment</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a2659af8ee1cc7ca00d1fe018036acc10" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>Error</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a5ca37a12124f6c99700ae6f6227c5018" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>GetApplicationBundleIdentifierInternal</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1afe50086423b75d627f566171c8c66e62" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>GetEnvironmentInternal</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a43e070f63fadc3a359afb22c441917d6" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>GetErrorInternal</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1ac8f97649029b596923ff0fbc39892c5b" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>GetPurchasedQuantityInternal</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a8c7179501a230d16fe69bec7bb2c75ec" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>GetRawDataInternal</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a788e431d3e8409fa42335c2cf3d057b1" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>GetReceiptInternal</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1afe482c40a50e8e1fdff3dc053d618d79" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>GetReceiptVerificationStateInternal</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a04f39955b6adcd51fd49d025403f8cda" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>GetRequestedQuantityInternal</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a8ca19ea9d9300021a137554725fd0877" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>GetRevocationInfoInternal</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a0d8306f98281e6e3db669f1edc0f6a81" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>GetSubscriptionStatusInternal</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a2c17fc3a0866709f690555892c2ea5bf" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>GetTagInternal</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a083202edc40bb5ddf1ecf02c109e30ea" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>GetTransactionDateUTCInternal</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1adbba9fce652b3c46be464a47cc23ab05" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>GetTransactionStateInternal</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a186291c875988107b7ace745ea84d4ec" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>Id</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1ae8088582d38228c2d8a0d6fd559b6d96" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>Payment</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1ace1fd35aac7afc8e4a304d4a633c4a13" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>Product</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a3b9b73178dd5de8357ed074ca73d2883" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>PurchasedQuantity</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1ad4ec17ae383c67ae0f49e10d276121ed" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>RawData</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1af994f1f43a91359d2bb996f01bf87a1e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>Receipt</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a668f164597632423d8a95be88a21bb13" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>ReceiptVerificationState</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1abd555699325a70b0f1cf2cda40839aef" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>RequestedQuantity</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a5f6b8889670148c01b409187b33eb5c6" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>RevocationInfo</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1ae3590466b91dd0fc383ca11770bdcc96" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>SetReceiptVerificationStateInternal</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a014cc758da094f688407fb0b135c1bdb" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>SubscriptionStatus</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a121d9cb485fa9e23380cb8c883e46c9c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>Tag</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>ToString</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a64e103243b0288dfb863f0da7910ab99" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>TransactionState</name></member>
+      <member refid="da/d63/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_transaction_base_1a40920dafc61a5352648eeefc2f7a67dc" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingTransactionBase</scope><name>~BillingTransactionBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

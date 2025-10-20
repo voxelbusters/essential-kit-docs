@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d2/dab/class_voxel_busters_1_1_essential_kit_1_1_task_services_core_1_1_null_task_services_interface" kind="class" language="C#" prot="package">
+    <compoundname>VoxelBusters::EssentialKit::TaskServicesCore::NullTaskServicesInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NativeFeatureInterfaceBase</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INativeTaskServicesInterface</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/dab/class_voxel_busters_1_1_essential_kit_1_1_task_services_core_1_1_null_task_services_interface_1a877ae5d906d9e009c07f56b644ddd9bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NullTaskServicesInterface</definition>
+        <argsstring>()</argsstring>
+        <name>NullTaskServicesInterface</name>
+        <qualifiedname>VoxelBusters.EssentialKit.TaskServicesCore.NullTaskServicesInterface.NullTaskServicesInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/TaskServices/NullTaskServicesInterface.cs" line="15" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/TaskServices/NullTaskServicesInterface.cs" bodystart="15" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dab/class_voxel_busters_1_1_essential_kit_1_1_task_services_core_1_1_null_task_services_interface_1a885e8008d023883c24e6615acfc50c35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void StartTaskWithoutInterruption</definition>
+        <argsstring>(string taskId, Action onBackgroundProcessingQuotaWillExpire)</argsstring>
+        <name>StartTaskWithoutInterruption</name>
+        <qualifiedname>VoxelBusters.EssentialKit.TaskServicesCore.NullTaskServicesInterface.StartTaskWithoutInterruption</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>taskId</declname>
+        </param>
+        <param>
+          <type>Action</type>
+          <declname>onBackgroundProcessingQuotaWillExpire</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/TaskServices/NullTaskServicesInterface.cs" line="31" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/TaskServices/NullTaskServicesInterface.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dab/class_voxel_busters_1_1_essential_kit_1_1_task_services_core_1_1_null_task_services_interface_1a79df6e316f6f1ee4155581e12b8304a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CancelTask</definition>
+        <argsstring>(string taskId)</argsstring>
+        <name>CancelTask</name>
+        <qualifiedname>VoxelBusters.EssentialKit.TaskServicesCore.NullTaskServicesInterface.CancelTask</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>taskId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/TaskServices/NullTaskServicesInterface.cs" line="35" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/TaskServices/NullTaskServicesInterface.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d2/dab/class_voxel_busters_1_1_essential_kit_1_1_task_services_core_1_1_null_task_services_interface_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogNotSupported</definition>
+        <argsstring>()</argsstring>
+        <name>LogNotSupported</name>
+        <qualifiedname>VoxelBusters.EssentialKit.TaskServicesCore.NullTaskServicesInterface.LogNotSupported</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/TaskServices/NullTaskServicesInterface.cs" line="22" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/TaskServices/NullTaskServicesInterface.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/TaskServices/NullTaskServicesInterface.cs" line="11" column="13" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/TaskServices/NullTaskServicesInterface.cs" bodystart="12" bodyend="41"/>
+    <listofallmembers>
+      <member refid="d2/dab/class_voxel_busters_1_1_essential_kit_1_1_task_services_core_1_1_null_task_services_interface_1a79df6e316f6f1ee4155581e12b8304a6" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::TaskServicesCore::NullTaskServicesInterface</scope><name>CancelTask</name></member>
+      <member refid="d2/dab/class_voxel_busters_1_1_essential_kit_1_1_task_services_core_1_1_null_task_services_interface_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::TaskServicesCore::NullTaskServicesInterface</scope><name>LogNotSupported</name></member>
+      <member refid="d2/dab/class_voxel_busters_1_1_essential_kit_1_1_task_services_core_1_1_null_task_services_interface_1a877ae5d906d9e009c07f56b644ddd9bf" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::TaskServicesCore::NullTaskServicesInterface</scope><name>NullTaskServicesInterface</name></member>
+      <member refid="d2/dab/class_voxel_busters_1_1_essential_kit_1_1_task_services_core_1_1_null_task_services_interface_1a885e8008d023883c24e6615acfc50c35" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::TaskServicesCore::NullTaskServicesInterface</scope><name>StartTaskWithoutInterruption</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

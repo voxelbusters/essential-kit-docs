@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d0/d66/_billing_transaction_state_8cs" kind="file" language="C#">
+    <compoundname>BillingTransactionState.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8eceb4dea76715613fe03408958c7da0" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>BillingTransactionState</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingTransactionState</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8eceb4dea76715613fe03408958c7da0a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8eceb4dea76715613fe03408958c7da0a5f95f5c48171ba26e9f8aa9d8c7ce6c4" prot="public">
+          <name>Purchasing</name>
+          <briefdescription>
+<para>Transaction is being added to the server queue. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8eceb4dea76715613fe03408958c7da0ace4ee01637f4279d02d0f232459dc9a4" prot="public">
+          <name>Purchased</name>
+          <briefdescription>
+<para>Transaction is in queue, user has been charged. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8eceb4dea76715613fe03408958c7da0ad7c8c85bf79bbe1b7188497c32c3b0ca" prot="public">
+          <name>Failed</name>
+          <briefdescription>
+<para>Transaction was cancelled or failed before being added to the server queue. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8eceb4dea76715613fe03408958c7da0a5fdf564f22be6bd901a690f1c5a6d9eb" prot="public">
+          <name>Restored</name>
+          <briefdescription>
+<para>This transaction restores content previously purchased by the user. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8eceb4dea76715613fe03408958c7da0a4ed71db54748b36eeb398876b0c747ac" prot="public">
+          <name>Deferred</name>
+          <briefdescription>
+<para>The transaction is in the queue, but its final status is pending external action. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8eceb4dea76715613fe03408958c7da0acc61945cbbf46721a053467c395c666f" prot="public">
+          <name>Refunded</name>
+          <briefdescription>
+<para>This transaction was refunded back to the user. You can restrict/remove associated item. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The state of a billing product payment. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionState.cs" line="11" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionState.cs" bodystart="12" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionState.cs"/>
+  </compounddef>
+</doxygen>

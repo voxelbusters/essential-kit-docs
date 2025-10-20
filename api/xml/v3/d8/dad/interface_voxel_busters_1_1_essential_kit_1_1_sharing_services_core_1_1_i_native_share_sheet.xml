@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d8/dad/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_share_sheet" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::SharingServicesCore::INativeShareSheet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">INativeObject</basecompoundref>
+    <derivedcompoundref refid="dd/df4/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_native_share_sheet_base" prot="public" virt="non-virtual">NativeShareSheetBase</derivedcompoundref>
+    <derivedcompoundref refid="dc/d51/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_share_sheet" prot="public" virt="non-virtual">NullShareSheet</derivedcompoundref>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="d8/dad/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_share_sheet_1a1458ee798ef94b357c7180e2599436c2" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>ShareSheetClosedInternalCallback</type>
+        <definition>ShareSheetClosedInternalCallback OnClose</definition>
+        <argsstring></argsstring>
+        <name>OnClose</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.INativeShareSheet.OnClose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/INativeShareSheet.cs" line="13" column="48" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/INativeShareSheet.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/dad/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_share_sheet_1a1e3dd063de86a60e324be4d94b97ab19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddText</definition>
+        <argsstring>(string text)</argsstring>
+        <name>AddText</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.INativeShareSheet.AddText</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/INativeShareSheet.cs" line="20" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dad/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_share_sheet_1a10729793dbf78522c2b38b4aaa841a60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddScreenshot</definition>
+        <argsstring>()</argsstring>
+        <name>AddScreenshot</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.INativeShareSheet.AddScreenshot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/INativeShareSheet.cs" line="22" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dad/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_share_sheet_1aabce556795318d3e4e430eccfefb8993" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddImage</definition>
+        <argsstring>(byte[] imageData, string mimeType)</argsstring>
+        <name>AddImage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.INativeShareSheet.AddImage</qualifiedname>
+        <param>
+          <type>byte[]</type>
+          <declname>imageData</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>mimeType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/INativeShareSheet.cs" line="24" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dad/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_share_sheet_1a444974aa8fd158cf79209bd0b2e80af7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddAttachment</definition>
+        <argsstring>(byte[] data, string mimeType, string filename)</argsstring>
+        <name>AddAttachment</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.INativeShareSheet.AddAttachment</qualifiedname>
+        <param>
+          <type>byte[]</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>mimeType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/INativeShareSheet.cs" line="26" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dad/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_share_sheet_1a045b1f72ed600c56927fa08dcd492e13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddURL</definition>
+        <argsstring>(URLString url)</argsstring>
+        <name>AddURL</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.INativeShareSheet.AddURL</qualifiedname>
+        <param>
+          <type><ref refid="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string" kindref="compound">URLString</ref></type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/INativeShareSheet.cs" line="28" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dad/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_share_sheet_1a80a293479ca67e70da7c10bf33dbac0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Show</definition>
+        <argsstring>(Vector2 screenPosition)</argsstring>
+        <name>Show</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.INativeShareSheet.Show</qualifiedname>
+        <param>
+          <type>Vector2</type>
+          <declname>screenPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/INativeShareSheet.cs" line="31" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/INativeShareSheet.cs" line="9" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/INativeShareSheet.cs" bodystart="10" bodyend="34"/>
+    <listofallmembers>
+      <member refid="d8/dad/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_share_sheet_1a444974aa8fd158cf79209bd0b2e80af7" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::INativeShareSheet</scope><name>AddAttachment</name></member>
+      <member refid="d8/dad/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_share_sheet_1aabce556795318d3e4e430eccfefb8993" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::INativeShareSheet</scope><name>AddImage</name></member>
+      <member refid="d8/dad/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_share_sheet_1a10729793dbf78522c2b38b4aaa841a60" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::INativeShareSheet</scope><name>AddScreenshot</name></member>
+      <member refid="d8/dad/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_share_sheet_1a1e3dd063de86a60e324be4d94b97ab19" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::INativeShareSheet</scope><name>AddText</name></member>
+      <member refid="d8/dad/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_share_sheet_1a045b1f72ed600c56927fa08dcd492e13" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::INativeShareSheet</scope><name>AddURL</name></member>
+      <member refid="d8/dad/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_share_sheet_1a1458ee798ef94b357c7180e2599436c2" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::INativeShareSheet</scope><name>OnClose</name></member>
+      <member refid="d8/dad/interface_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_i_native_share_sheet_1a80a293479ca67e70da7c10bf33dbac0c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::INativeShareSheet</scope><name>Show</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails::IosProperties</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties_1a176ccbd661a78c99444e637ed0af4c6e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string OfferId</definition>
+        <argsstring></argsstring>
+        <name>OfferId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductOfferRedeemDetails.IosProperties.OfferId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The id of the product offer </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" line="48" column="27" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="property" id="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties_1aabb05215d875a2dc24082fdb8d781f59" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string KeyId</definition>
+        <argsstring></argsstring>
+        <name>KeyId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductOfferRedeemDetails.IosProperties.KeyId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A string that identifies the private key you use to generate the signature </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" line="53" column="27" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="property" id="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties_1aa8994b3ce618a21c9d6b97a5e1aec5a5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Nonce</definition>
+        <argsstring></argsstring>
+        <name>Nonce</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductOfferRedeemDetails.IosProperties.Nonce</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The anti-replay value used in the signature. Use lowercase. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" line="58" column="27" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="property" id="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties_1ab1a27bc669d041fe23ec05792737849f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Signature</definition>
+        <argsstring></argsstring>
+        <name>Signature</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductOfferRedeemDetails.IosProperties.Signature</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The cryptographic signature of the offer parameters, which you generate on your server. <simplesect kind="note"><para>The signature need to be a Base64-encoded string. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" line="64" column="27" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="property" id="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties_1aba2d1a5b4584a540b0e4bb6faa636cc4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>long</type>
+        <definition>long Timestamp</definition>
+        <argsstring></argsstring>
+        <name>Timestamp</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductOfferRedeemDetails.IosProperties.Timestamp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The UNIX time, in milliseconds, when you generate the signature. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" line="69" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" bodystart="69" bodyend="69"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties_1a605da5c202612e16b434d20f39156beb" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>IosProperties</definition>
+        <argsstring>(string offerId, string keyId, string nonce, string signature, long timestamp)</argsstring>
+        <name>IosProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductOfferRedeemDetails.IosProperties.IosProperties</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>offerId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>keyId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nonce</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>signature</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>timestamp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initializes a new instance of the <ref refid="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties" kindref="compound">IosProperties</ref> class.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>offerId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of the product offer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>keyId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string that identifies the private key you use to generate the signature. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nonce</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The anti-replay value used in the signature. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>signature</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The cryptographic signature of the offer parameters. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>timestamp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The UNIX time, in milliseconds, when you generate the signature. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>The signature need to be a Base64-encoded string. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" line="81" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" bodystart="81" bodyend="88"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingProductOfferRedeemDetails.IosProperties.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" line="90" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" bodystart="90" bodyend="93"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents the iOS platform properties for redeeming a product offer. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" line="43" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductOfferRedeemDetails.cs" bodystart="44" bodyend="94"/>
+    <listofallmembers>
+      <member refid="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties_1a605da5c202612e16b434d20f39156beb" prot="package" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails::IosProperties</scope><name>IosProperties</name></member>
+      <member refid="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties_1aabb05215d875a2dc24082fdb8d781f59" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails::IosProperties</scope><name>KeyId</name></member>
+      <member refid="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties_1aa8994b3ce618a21c9d6b97a5e1aec5a5" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails::IosProperties</scope><name>Nonce</name></member>
+      <member refid="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties_1a176ccbd661a78c99444e637ed0af4c6e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails::IosProperties</scope><name>OfferId</name></member>
+      <member refid="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties_1ab1a27bc669d041fe23ec05792737849f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails::IosProperties</scope><name>Signature</name></member>
+      <member refid="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties_1aba2d1a5b4584a540b0e4bb6faa636cc4" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails::IosProperties</scope><name>Timestamp</name></member>
+      <member refid="db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails::IosProperties</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

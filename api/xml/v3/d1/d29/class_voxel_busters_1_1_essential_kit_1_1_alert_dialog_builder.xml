@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::AlertDialogBuilder</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder_1a10d63dd07b4f05cbd6e853c67f0365be" prot="private" static="no" mutable="no">
+        <type><ref refid="d6/d61/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog" kindref="compound">AlertDialog</ref></type>
+        <definition>AlertDialog m_alertDialog</definition>
+        <argsstring></argsstring>
+        <name>m_alertDialog</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AlertDialogBuilder.m_alertDialog</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialogBuilder.cs" line="38" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialogBuilder.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder_1a764ecc8c65c5dcb927f4603435d0da4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AlertDialogBuilder</definition>
+        <argsstring>(AlertDialogStyle alertStyle=AlertDialogStyle.Default)</argsstring>
+        <name>AlertDialogBuilder</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AlertDialogBuilder.AlertDialogBuilder</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1ae3613e0c055e54cd26802837c2ad5b41" kindref="member">AlertDialogStyle</ref></type>
+          <declname>alertStyle</declname>
+          <defval><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1ae3613e0c055e54cd26802837c2ad5b41a7a1920d61156abc05a60135aefe8bc67" kindref="member">AlertDialogStyle.Default</ref></defval>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the Builder class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>alertStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The alert style to be used.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialogBuilder.cs" line="48" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialogBuilder.cs" bodystart="48" bodyend="52"/>
+        <references refid="d6/d61/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_1a6700b6126f39be22315639612fdfb26c" compoundref="d8/d5b/_alert_dialog_8cs" startline="113" endline="116">AlertDialog.CreateInstance</references>
+      </memberdef>
+      <memberdef kind="function" id="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder_1ac800990cac045a8bd042b26d7e6dba4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder" kindref="compound">AlertDialogBuilder</ref></type>
+        <definition>AlertDialogBuilder SetTitle</definition>
+        <argsstring>(string value)</argsstring>
+        <name>SetTitle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AlertDialogBuilder.SetTitle</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the title of the alert. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title of the alert.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialogBuilder.cs" line="62" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialogBuilder.cs" bodystart="62" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder_1a1a62602bdb23f0b60e3d2b6410ac7794" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder" kindref="compound">AlertDialogBuilder</ref></type>
+        <definition>AlertDialogBuilder SetMessage</definition>
+        <argsstring>(string value)</argsstring>
+        <name>SetMessage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AlertDialogBuilder.SetMessage</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the message of the alert. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The descriptive text that provides more details about the reason for the alert.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialogBuilder.cs" line="73" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialogBuilder.cs" bodystart="73" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder_1af1d799dcd4125232f7d470a218fe4735" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder" kindref="compound">AlertDialogBuilder</ref></type>
+        <definition>AlertDialogBuilder AddTextInputField</definition>
+        <argsstring>(TextInputFieldOptions options=null)</argsstring>
+        <name>AddTextInputField</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AlertDialogBuilder.AddTextInputField</qualifiedname>
+        <param>
+          <type>TextInputFieldOptions</type>
+          <declname>options</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Adds a text input field to the alert. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[Optional] The options for the text input field built with TextInputFieldOptions.Builder. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialogBuilder.cs" line="84" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialogBuilder.cs" bodystart="84" bodyend="88"/>
+        <references refid="d6/d61/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_1a869abaeb022009c0de4e7c4228787265" compoundref="d8/d5b/_alert_dialog_8cs" startline="176" endline="179">AlertDialog.AddTextInputField</references>
+      </memberdef>
+      <memberdef kind="function" id="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder_1a0eb43e7d687eab8ece4149070bf1247a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder" kindref="compound">AlertDialogBuilder</ref></type>
+        <definition>AlertDialogBuilder AddButton</definition>
+        <argsstring>(string title, Callback callback)</argsstring>
+        <name>AddButton</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AlertDialogBuilder.AddButton</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>Callback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Adds an action button to the alert. Here, the default style is used. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title of the button.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The method to execute when the user selects this button.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialogBuilder.cs" line="95" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialogBuilder.cs" bodystart="95" bodyend="100"/>
+        <references refid="d6/d61/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_1a0d747e821d05934209c34004aec84052" compoundref="d8/d5b/_alert_dialog_8cs" startline="186" endline="190">AlertDialog.AddButton</references>
+      </memberdef>
+      <memberdef kind="function" id="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder_1ad79a603c34e0fed7114b76b468d92984" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder" kindref="compound">AlertDialogBuilder</ref></type>
+        <definition>AlertDialogBuilder AddButton</definition>
+        <argsstring>(string title, Callback&lt; string[]&gt; callback)</argsstring>
+        <name>AddButton</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AlertDialogBuilder.AddButton</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>Callback&lt; string[]&gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Adds an action button to the alert. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title of the button.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>callback&lt;string[]&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The method to execute when the user selects this button which returns the input field values, if any.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialogBuilder.cs" line="107" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialogBuilder.cs" bodystart="107" bodyend="112"/>
+        <references refid="d6/d61/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_1a0d747e821d05934209c34004aec84052" compoundref="d8/d5b/_alert_dialog_8cs" startline="186" endline="190">AlertDialog.AddButton</references>
+      </memberdef>
+      <memberdef kind="function" id="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder_1a24b9a8e3508e5d3cd7ac5ab97cb86d56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder" kindref="compound">AlertDialogBuilder</ref></type>
+        <definition>AlertDialogBuilder AddCancelButton</definition>
+        <argsstring>(string title, Callback callback)</argsstring>
+        <name>AddCancelButton</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AlertDialogBuilder.AddCancelButton</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>Callback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Adds action button to the alert. This style type indicates the action cancels the operation and leaves things unchanged. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title of the button.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The method to execute when the user selects this button.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialogBuilder.cs" line="119" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialogBuilder.cs" bodystart="119" bodyend="124"/>
+        <references refid="d6/d61/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_1a94f5bedaa1564443f3a71ee998c3121f" compoundref="d8/d5b/_alert_dialog_8cs" startline="208" endline="212">AlertDialog.AddCancelButton</references>
+      </memberdef>
+      <memberdef kind="function" id="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder_1a09ec99f591185d74ef9b741f8b985080" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d6/d61/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog" kindref="compound">AlertDialog</ref></type>
+        <definition>AlertDialog Build</definition>
+        <argsstring>()</argsstring>
+        <name>Build</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AlertDialogBuilder.Build</qualifiedname>
+        <briefdescription>
+<para>Combines all of the options that have been set and return a new <ref refid="d6/d61/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog" kindref="compound">AlertDialog</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The build.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialogBuilder.cs" line="130" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialogBuilder.cs" bodystart="130" bodyend="140"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Builder class for <ref refid="d6/d61/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog" kindref="compound">AlertDialog</ref> objects. Provides a convenient way to set the various fields of a <ref refid="d6/d61/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog" kindref="compound">AlertDialog</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The following code example shows how to configure and present an alert dialog using builder. <programlisting filename=".cs"><codeline><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections;</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit" kindref="compound">VoxelBusters.EssentialKit</ref>;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ExampleClass<sp/>:<sp/>MonoBehaviour<sp/></highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Start()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d61/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog" kindref="compound">AlertDialog</ref><sp/>newDialog<sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Builder()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.SetTitle(title);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.SetMessage(message);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.<ref refid="d6/d61/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_1a0d747e821d05934209c34004aec84052" kindref="member">AddButton</ref>(button,<sp/>OnAlertButtonClicked);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.Build();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>newDialog.<ref refid="d6/d61/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_1ace79e5f49885e486e8e1d48ff0666476" kindref="member">Show</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnAlertButtonClicked()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>add<sp/>your<sp/>code</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> </para>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialogBuilder.cs" line="34" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialogBuilder.cs" bodystart="35" bodyend="143"/>
+    <listofallmembers>
+      <member refid="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder_1a0eb43e7d687eab8ece4149070bf1247a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AlertDialogBuilder</scope><name>AddButton</name></member>
+      <member refid="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder_1ad79a603c34e0fed7114b76b468d92984" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AlertDialogBuilder</scope><name>AddButton</name></member>
+      <member refid="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder_1a24b9a8e3508e5d3cd7ac5ab97cb86d56" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AlertDialogBuilder</scope><name>AddCancelButton</name></member>
+      <member refid="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder_1af1d799dcd4125232f7d470a218fe4735" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AlertDialogBuilder</scope><name>AddTextInputField</name></member>
+      <member refid="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder_1a764ecc8c65c5dcb927f4603435d0da4c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AlertDialogBuilder</scope><name>AlertDialogBuilder</name></member>
+      <member refid="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder_1a09ec99f591185d74ef9b741f8b985080" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AlertDialogBuilder</scope><name>Build</name></member>
+      <member refid="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder_1a10d63dd07b4f05cbd6e853c67f0365be" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AlertDialogBuilder</scope><name>m_alertDialog</name></member>
+      <member refid="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder_1a1a62602bdb23f0b60e3d2b6410ac7794" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AlertDialogBuilder</scope><name>SetMessage</name></member>
+      <member refid="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder_1ac800990cac045a8bd042b26d7e6dba4d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AlertDialogBuilder</scope><name>SetTitle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

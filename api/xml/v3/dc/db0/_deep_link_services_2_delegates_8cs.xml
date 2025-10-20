@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dc/db0/_deep_link_services_2_delegates_8cs" kind="file" language="C#">
+    <compoundname>Delegates.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <innernamespace refid="de/d78/namespace_voxel_busters_1_1_essential_kit_1_1_deep_link_services_core">VoxelBusters::EssentialKit::DeepLinkServicesCore</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="de/d78/namespace_voxel_busters_1_1_essential_kit_1_1_deep_link_services_core_1a29cf7c2e73fcdac63735c5e737f5d557" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void DynamicLinkOpenInternalCallback</definition>
+        <argsstring>(string url)</argsstring>
+        <name>DynamicLinkOpenInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkServicesCore.DynamicLinkOpenInternalCallback</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/Delegates.cs" line="7" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/Delegates.cs" declline="7" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d78/namespace_voxel_busters_1_1_essential_kit_1_1_deep_link_services_core_1a84502cfeaf3458211bf5f04821c58e70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate bool</type>
+        <definition>delegate bool CanHandleDynamicLinkInternal</definition>
+        <argsstring>(string url)</argsstring>
+        <name>CanHandleDynamicLinkInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DeepLinkServicesCore.CanHandleDynamicLinkInternal</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/Delegates.cs" line="9" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/Delegates.cs" declline="9" declcolumn="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/Delegates.cs"/>
+  </compounddef>
+</doxygen>

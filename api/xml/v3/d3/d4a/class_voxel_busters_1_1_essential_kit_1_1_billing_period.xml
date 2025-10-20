@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d3/d4a/class_voxel_busters_1_1_essential_kit_1_1_billing_period" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::BillingPeriod</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d3/d4a/class_voxel_busters_1_1_essential_kit_1_1_billing_period_1adffe619e5f72f53f179d8ad7303111cb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>double</type>
+        <definition>double Duration</definition>
+        <argsstring></argsstring>
+        <name>Duration</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingPeriod.Duration</qualifiedname>
+        <briefdescription>
+<para>Gets the duration of the subscription period. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPeriod.cs" line="14" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPeriod.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d4a/class_voxel_busters_1_1_essential_kit_1_1_billing_period_1a4aaafd348193c389e2034f1e646a870f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a473402ead2d64c30e3af0f68802531f5" kindref="member">BillingPeriodUnit</ref></type>
+        <definition>BillingPeriodUnit Unit</definition>
+        <argsstring></argsstring>
+        <name>Unit</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingPeriod.Unit</qualifiedname>
+        <briefdescription>
+<para>Gets the unit of the subscription period. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPeriod.cs" line="19" column="34" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPeriod.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d4a/class_voxel_busters_1_1_essential_kit_1_1_billing_period_1a165d273552e73090bf3b20f1af7b2706" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BillingPeriod</definition>
+        <argsstring>(double duration, BillingPeriodUnit unit)</argsstring>
+        <name>BillingPeriod</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingPeriod.BillingPeriod</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a473402ead2d64c30e3af0f68802531f5" kindref="member">BillingPeriodUnit</ref></type>
+          <declname>unit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPeriod.cs" line="21" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPeriod.cs" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d4a/class_voxel_busters_1_1_essential_kit_1_1_billing_period_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingPeriod.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPeriod.cs" line="27" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPeriod.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents duration of billing product subscription period. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPeriod.cs" line="9" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPeriod.cs" bodystart="10" bodyend="31"/>
+    <listofallmembers>
+      <member refid="d3/d4a/class_voxel_busters_1_1_essential_kit_1_1_billing_period_1a165d273552e73090bf3b20f1af7b2706" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingPeriod</scope><name>BillingPeriod</name></member>
+      <member refid="d3/d4a/class_voxel_busters_1_1_essential_kit_1_1_billing_period_1adffe619e5f72f53f179d8ad7303111cb" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingPeriod</scope><name>Duration</name></member>
+      <member refid="d3/d4a/class_voxel_busters_1_1_essential_kit_1_1_billing_period_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingPeriod</scope><name>ToString</name></member>
+      <member refid="d3/d4a/class_voxel_busters_1_1_essential_kit_1_1_billing_period_1a4aaafd348193c389e2034f1e646a870f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingPeriod</scope><name>Unit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

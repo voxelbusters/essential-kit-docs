@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::NotificationChannel</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel_1a186291c875988107b7ace745ea84d4ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationChannel.Id</qualifiedname>
+        <briefdescription>
+<para>The unique identifier of the notification channel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationChannel.cs" line="12" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationChannel.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel_1a7ee9065718e6628dc7791b756fa6c0f9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationChannel.Name</qualifiedname>
+        <briefdescription>
+<para>The name of the notification channel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationChannel.cs" line="17" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationChannel.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel_1a34409fed9d39281ada2d7ec172a52f9b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationChannel.Description</qualifiedname>
+        <briefdescription>
+<para>The description of the notification channel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationChannel.cs" line="22" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationChannel.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel_1a4052b0e2f40a18eea4a51a1b1fcca55d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string OldId</definition>
+        <argsstring></argsstring>
+        <name>OldId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationChannel.OldId</qualifiedname>
+        <briefdescription>
+<para>The old identifier of the notification channel. Useful to auto delete the old channel when new channel is created for the same purpose. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationChannel.cs" line="27" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationChannel.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class representing a notification channel. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationChannel.cs" line="7" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationChannel.cs" bodystart="8" bodyend="28"/>
+    <listofallmembers>
+      <member refid="da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel_1a34409fed9d39281ada2d7ec172a52f9b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationChannel</scope><name>Description</name></member>
+      <member refid="da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel_1a186291c875988107b7ace745ea84d4ec" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationChannel</scope><name>Id</name></member>
+      <member refid="da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel_1a7ee9065718e6628dc7791b756fa6c0f9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationChannel</scope><name>Name</name></member>
+      <member refid="da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel_1a4052b0e2f40a18eea4a51a1b1fcca55d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationChannel</scope><name>OldId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

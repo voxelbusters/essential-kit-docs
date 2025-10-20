@@ -1,0 +1,577 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::MediaServices</compoundname>
+    <sectiondef kind="user-defined">
+      <header>Advanced Usage</header>
+      <memberdef kind="function" id="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a6be5c7e04dc5ea0a50df14406c22e12f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Initialize</definition>
+        <argsstring>(MediaServicesUnitySettings settings)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServices.Initialize</qualifiedname>
+        <param>
+          <type>MediaServicesUnitySettings</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>Initializes the media services module with the given settings. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>This call is optional and only need to be called if you have custom settings to initialize this feature.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>settings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The settings to be used for initialization.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para>The settings configure the behavior of the media services module. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" line="51" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" bodystart="51" bodyend="60"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a4399da273736973c988259c3f370558c" prot="private" static="yes" mutable="no">
+        <type>INativeMediaServicesInterface</type>
+        <definition>INativeMediaServicesInterface s_nativeInterface</definition>
+        <argsstring></argsstring>
+        <name>s_nativeInterface</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServices.s_nativeInterface</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" line="21" column="61" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1aca4118e0b4be45b4d263d95791ee8a61" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>MediaServicesUnitySettings</type>
+        <definition>MediaServicesUnitySettings UnitySettings</definition>
+        <argsstring></argsstring>
+        <name>UnitySettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServices.UnitySettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" line="27" column="50" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1ab2736f418ea7cd1b1cbc2a4ff4acec31" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IsAvailable</definition>
+        <argsstring>()</argsstring>
+        <name>IsAvailable</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServices.IsAvailable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" line="33" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a919329843ff90d9d3dee0407182038b9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a07b567b6d38e197ddb5cf23daa492866" kindref="member">GalleryAccessStatus</ref></type>
+        <definition>static GalleryAccessStatus GetGalleryAccessStatus</definition>
+        <argsstring>(GalleryAccessMode mode)</argsstring>
+        <name>GetGalleryAccessStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServices.GetGalleryAccessStatus</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a5af6d9ef7e26e40ab9a97445485856a8" kindref="member">GalleryAccessMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>Returns the current authorization status provided to access the gallery. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To see different authorization status, see <ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a07b567b6d38e197ddb5cf23daa492866" kindref="member">GalleryAccessStatus</ref>.  <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The access mode your app is requesting.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" line="75" column="43" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" bodystart="75" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a3f93b5f3d3f68a32daf00200f0a37a38" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1aafd2f4506631462ce3394fb96b7eab0c" kindref="member">CameraAccessStatus</ref></type>
+        <definition>static CameraAccessStatus GetCameraAccessStatus</definition>
+        <argsstring>()</argsstring>
+        <name>GetCameraAccessStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServices.GetCameraAccessStatus</qualifiedname>
+        <briefdescription>
+<para>Returns the current authorization status provided to access the camera. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To see different authorization status, see <ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1aafd2f4506631462ce3394fb96b7eab0c" kindref="member">CameraAccessStatus</ref>.  </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" line="95" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" bodystart="95" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1aeb46c16e217e56c33aad4a282bac51f1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SelectMediaContent</definition>
+        <argsstring>(MediaContentSelectOptions options, EventCallback&lt; IMediaContent[]&gt; callback)</argsstring>
+        <name>SelectMediaContent</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServices.SelectMediaContent</qualifiedname>
+        <param>
+          <type><ref refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options" kindref="compound">MediaContentSelectOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>EventCallback&lt; <ref refid="d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content" kindref="compound">IMediaContent</ref>[]&gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Select media content from the gallery. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Selects media content as per the options specified in <ref refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options" kindref="compound">MediaContentSelectOptions</ref>  <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A set of options that customize the behavior of the method.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A callback which will be invoked after the user selects media content.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" line="117" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" bodystart="117" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a9a74354e0d7f4d5664ab54ca4c41ac53" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CaptureMediaContent</definition>
+        <argsstring>(MediaContentCaptureOptions options, EventCallback&lt; IMediaContent &gt; callback)</argsstring>
+        <name>CaptureMediaContent</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServices.CaptureMediaContent</qualifiedname>
+        <param>
+          <type><ref refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options" kindref="compound">MediaContentCaptureOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>EventCallback&lt; <ref refid="d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content" kindref="compound">IMediaContent</ref> &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Capture media content from a camera. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Captures media content as per the options specified in <ref refid="db/d12/class_voxel_busters_1_1_essential_kit_1_1_media_content_capture_options" kindref="compound">MediaContentCaptureOptions</ref>  <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A set of options that customize the behavior of the method.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A callback which will be invoked after the user captures media content.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" line="133" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" bodystart="133" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a7c83711bce72df6b01337c6d3f17a483" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SaveMediaContent</definition>
+        <argsstring>(byte[] data, string mimeType, MediaContentSaveOptions options, EventCallback&lt; bool &gt; callback)</argsstring>
+        <name>SaveMediaContent</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServices.SaveMediaContent</qualifiedname>
+        <param>
+          <type>byte[]</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>mimeType</declname>
+        </param>
+        <param>
+          <type><ref refid="d5/d40/class_voxel_busters_1_1_essential_kit_1_1_media_content_save_options" kindref="compound">MediaContentSaveOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>EventCallback&lt; bool &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Save media content to the gallery. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Saves media content as per the options specified in <ref refid="d5/d40/class_voxel_busters_1_1_essential_kit_1_1_media_content_save_options" kindref="compound">MediaContentSaveOptions</ref>  <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data to save to the gallery.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mimeType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The mime type of the data.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A set of options that customize the behavior of the method.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A callback which will be invoked after the data is saved to the gallery.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" line="151" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" bodystart="151" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1ab91c687d459b37b6650f40ab83e82a84" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CaptureImageFromCamera</definition>
+        <argsstring>(bool canEdit, EventCallback&lt; TextureData &gt; callback)</argsstring>
+        <name>CaptureImageFromCamera</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServices.CaptureImageFromCamera</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>canEdit</declname>
+        </param>
+        <param>
+          <type>EventCallback&lt; TextureData &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" line="212" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" bodystart="212" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1ad83f93a40e93f847d867652f6e7ebdcc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SaveImageToGallery</definition>
+        <argsstring>(UnityEngine.Texture2D image, EventCallback&lt; MediaServicesSaveImageToGalleryResult &gt; callback)</argsstring>
+        <name>SaveImageToGallery</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServices.SaveImageToGallery</qualifiedname>
+        <param>
+          <type>UnityEngine.Texture2D</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>EventCallback&lt; <ref refid="da/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_services_save_image_to_gallery_result" kindref="compound">MediaServicesSaveImageToGalleryResult</ref> &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" line="223" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" bodystart="223" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1adcfe8384b42cd61380f9078292910c8e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SaveImageToGallery</definition>
+        <argsstring>(string albumName, UnityEngine.Texture2D image, EventCallback&lt; MediaServicesSaveImageToGalleryResult &gt; callback)</argsstring>
+        <name>SaveImageToGallery</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServices.SaveImageToGallery</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>albumName</declname>
+        </param>
+        <param>
+          <type>UnityEngine.Texture2D</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>EventCallback&lt; <ref refid="da/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_services_save_image_to_gallery_result" kindref="compound">MediaServicesSaveImageToGalleryResult</ref> &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" line="227" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" bodystart="227" bodyend="228"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1af32ef02a4563d70dac9bb8c2aed69f9d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SendSelectMediaContentResult</definition>
+        <argsstring>(EventCallback&lt; IMediaContent[]&gt; callback, IMediaContent[] contents, Error error)</argsstring>
+        <name>SendSelectMediaContentResult</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServices.SendSelectMediaContentResult</qualifiedname>
+        <param>
+          <type>EventCallback&lt; <ref refid="d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content" kindref="compound">IMediaContent</ref>[]&gt;</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content" kindref="compound">IMediaContent</ref>[]</type>
+          <declname>contents</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" line="164" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" bodystart="164" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a63e48314981db23687b92e008dc4c3a2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SendCaptureMediaContentResult</definition>
+        <argsstring>(EventCallback&lt; IMediaContent &gt; callback, IMediaContent content, Error error)</argsstring>
+        <name>SendCaptureMediaContentResult</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServices.SendCaptureMediaContentResult</qualifiedname>
+        <param>
+          <type>EventCallback&lt; <ref refid="d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content" kindref="compound">IMediaContent</ref> &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content" kindref="compound">IMediaContent</ref></type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" line="170" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" bodystart="170" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1acd32ef93375e6bb9b56bf27f57515428" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SendSaveMediaContentResult</definition>
+        <argsstring>(EventCallback&lt; bool &gt; callback, bool success, Error error)</argsstring>
+        <name>SendSaveMediaContentResult</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServices.SendSaveMediaContentResult</qualifiedname>
+        <param>
+          <type>EventCallback&lt; bool &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>success</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" line="176" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" bodystart="176" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a5c691ab25f7851d47242d39dc5686cbc" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RequestGalleryAccess</definition>
+        <argsstring>(GalleryAccessMode mode, bool showPrepermissionDialog=true, EventCallback&lt; MediaServicesRequestGalleryAccessResult &gt; callback=null)</argsstring>
+        <name>RequestGalleryAccess</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServices.RequestGalleryAccess</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a5af6d9ef7e26e40ab9a97445485856a8" kindref="member">GalleryAccessMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>showPrepermissionDialog</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>EventCallback&lt; <ref refid="d9/d3f/class_voxel_busters_1_1_essential_kit_1_1_media_services_request_gallery_access_result" kindref="compound">MediaServicesRequestGalleryAccessResult</ref> &gt;</type>
+          <declname>callback</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" line="186" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" bodystart="186" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a79a9dc71508ba9d6f8989fd0df19b618" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RequestCameraAccess</definition>
+        <argsstring>(bool showPrepermissionDialog=true, EventCallback&lt; MediaServicesRequestCameraAccessResult &gt; callback=null)</argsstring>
+        <name>RequestCameraAccess</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServices.RequestCameraAccess</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>showPrepermissionDialog</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>EventCallback&lt; <ref refid="d3/dc6/class_voxel_busters_1_1_essential_kit_1_1_media_services_request_camera_access_result" kindref="compound">MediaServicesRequestCameraAccessResult</ref> &gt;</type>
+          <declname>callback</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" line="191" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" bodystart="191" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a7f56639f794e221fa8b3a42d67f160fb" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool CanSelectImageFromGallery</definition>
+        <argsstring>()</argsstring>
+        <name>CanSelectImageFromGallery</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServices.CanSelectImageFromGallery</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" line="195" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" bodystart="195" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a4fb49481153e4fa5ff1685ce0fa3a039" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SelectImageFromGallery</definition>
+        <argsstring>(bool canEdit, EventCallback&lt; TextureData &gt; callback)</argsstring>
+        <name>SelectImageFromGallery</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServices.SelectImageFromGallery</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>canEdit</declname>
+        </param>
+        <param>
+          <type>EventCallback&lt; TextureData &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" line="201" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" bodystart="201" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1ad3b82769168d800cf13628633b720e8d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool CanCaptureImageFromCamera</definition>
+        <argsstring>()</argsstring>
+        <name>CanCaptureImageFromCamera</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServices.CanCaptureImageFromCamera</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" line="205" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" bodystart="205" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1aafbe98f511eacd308d488dc523163535" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool CanSaveImageToGallery</definition>
+        <argsstring>()</argsstring>
+        <name>CanSaveImageToGallery</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaServices.CanSaveImageToGallery</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" line="216" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" bodystart="216" bodyend="219"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Provides cross-platform interface to access devices&apos;s media gallery and camera for picking/saving media content. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" line="16" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaServices.cs" bodystart="17" bodyend="231"/>
+    <listofallmembers>
+      <member refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1ad3b82769168d800cf13628633b720e8d" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServices</scope><name>CanCaptureImageFromCamera</name></member>
+      <member refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1aafbe98f511eacd308d488dc523163535" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServices</scope><name>CanSaveImageToGallery</name></member>
+      <member refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a7f56639f794e221fa8b3a42d67f160fb" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServices</scope><name>CanSelectImageFromGallery</name></member>
+      <member refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1ab91c687d459b37b6650f40ab83e82a84" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServices</scope><name>CaptureImageFromCamera</name></member>
+      <member refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a9a74354e0d7f4d5664ab54ca4c41ac53" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServices</scope><name>CaptureMediaContent</name></member>
+      <member refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a3f93b5f3d3f68a32daf00200f0a37a38" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServices</scope><name>GetCameraAccessStatus</name></member>
+      <member refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a919329843ff90d9d3dee0407182038b9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServices</scope><name>GetGalleryAccessStatus</name></member>
+      <member refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a6be5c7e04dc5ea0a50df14406c22e12f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServices</scope><name>Initialize</name></member>
+      <member refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1ab2736f418ea7cd1b1cbc2a4ff4acec31" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServices</scope><name>IsAvailable</name></member>
+      <member refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a79a9dc71508ba9d6f8989fd0df19b618" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServices</scope><name>RequestCameraAccess</name></member>
+      <member refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a5c691ab25f7851d47242d39dc5686cbc" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServices</scope><name>RequestGalleryAccess</name></member>
+      <member refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a4399da273736973c988259c3f370558c" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServices</scope><name>s_nativeInterface</name></member>
+      <member refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1ad83f93a40e93f847d867652f6e7ebdcc" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServices</scope><name>SaveImageToGallery</name></member>
+      <member refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1adcfe8384b42cd61380f9078292910c8e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServices</scope><name>SaveImageToGallery</name></member>
+      <member refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a7c83711bce72df6b01337c6d3f17a483" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServices</scope><name>SaveMediaContent</name></member>
+      <member refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a4fb49481153e4fa5ff1685ce0fa3a039" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServices</scope><name>SelectImageFromGallery</name></member>
+      <member refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1aeb46c16e217e56c33aad4a282bac51f1" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServices</scope><name>SelectMediaContent</name></member>
+      <member refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1a63e48314981db23687b92e008dc4c3a2" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServices</scope><name>SendCaptureMediaContentResult</name></member>
+      <member refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1acd32ef93375e6bb9b56bf27f57515428" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServices</scope><name>SendSaveMediaContentResult</name></member>
+      <member refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1af32ef02a4563d70dac9bb8c2aed69f9d" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServices</scope><name>SendSelectMediaContentResult</name></member>
+      <member refid="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1aca4118e0b4be45b4d263d95791ee8a61" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaServices</scope><name>UnitySettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

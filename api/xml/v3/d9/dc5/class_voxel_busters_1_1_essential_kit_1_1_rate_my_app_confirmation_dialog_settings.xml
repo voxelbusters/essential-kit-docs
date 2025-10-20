@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::RateMyAppConfirmationDialogSettings</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1a5a88217428aa94d80c7a9abfb8b6b1b6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_canShow</definition>
+        <argsstring></argsstring>
+        <name>m_canShow</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppConfirmationDialogSettings.m_canShow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" line="16" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1a18b42dd2111825a038164d4da5ffe9f9" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_promptTitle</definition>
+        <argsstring></argsstring>
+        <name>m_promptTitle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppConfirmationDialogSettings.m_promptTitle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" line="20" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1aa09625b02df375bfc82aac95c18bc044" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_promptDescription</definition>
+        <argsstring></argsstring>
+        <name>m_promptDescription</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppConfirmationDialogSettings.m_promptDescription</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" line="24" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1aeae7d38b84ef9c1468f25d420bcdf9a3" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_okButtonLabel</definition>
+        <argsstring></argsstring>
+        <name>m_okButtonLabel</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppConfirmationDialogSettings.m_okButtonLabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" line="28" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1abfe4741f2b165fcdff67f4382973fd1c" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_cancelButtonLabel</definition>
+        <argsstring></argsstring>
+        <name>m_cancelButtonLabel</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppConfirmationDialogSettings.m_cancelButtonLabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" line="32" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1a7924e52cb9cf8baf7a12f5431e46cf3e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_remindLaterButtonLabel</definition>
+        <argsstring></argsstring>
+        <name>m_remindLaterButtonLabel</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppConfirmationDialogSettings.m_remindLaterButtonLabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" line="36" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1af43e8b8d3c36a32115a7ca6573c5ab79" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_canShowRemindMeLaterButton</definition>
+        <argsstring></argsstring>
+        <name>m_canShowRemindMeLaterButton</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppConfirmationDialogSettings.m_canShowRemindMeLaterButton</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" line="40" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1a2b75098a9be6280bf59d5f7d85a00e46" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool CanShow</definition>
+        <argsstring></argsstring>
+        <name>CanShow</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppConfirmationDialogSettings.CanShow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" line="46" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1a5bd3dfe0db2e87486ebd9950d9a774bb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string PromptTitle</definition>
+        <argsstring></argsstring>
+        <name>PromptTitle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppConfirmationDialogSettings.PromptTitle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" line="48" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1a23f56afac2555e3ae58ee694dce9ee13" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string PromptDescription</definition>
+        <argsstring></argsstring>
+        <name>PromptDescription</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppConfirmationDialogSettings.PromptDescription</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" line="53" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1a01f520bb003cba5c1a3a7cb6c74ea320" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string OkButtonLabel</definition>
+        <argsstring></argsstring>
+        <name>OkButtonLabel</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppConfirmationDialogSettings.OkButtonLabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" line="58" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1a9b0ad19cf6e5aa1677ce7f6e99685361" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string CancelButtonLabel</definition>
+        <argsstring></argsstring>
+        <name>CancelButtonLabel</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppConfirmationDialogSettings.CancelButtonLabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" line="63" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1ad2b655bba9f2bd7684412a7083d6c2e0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string RemindLaterButtonLabel</definition>
+        <argsstring></argsstring>
+        <name>RemindLaterButtonLabel</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppConfirmationDialogSettings.RemindLaterButtonLabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" line="68" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1a5fe6117ad328708f7cf835da1c00644c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool CanShowRemindMeLaterButton</definition>
+        <argsstring></argsstring>
+        <name>CanShowRemindMeLaterButton</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppConfirmationDialogSettings.CanShowRemindMeLaterButton</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" line="73" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1a81ffbab02ca4a00deb10c19b2e5cb740" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RateMyAppConfirmationDialogSettings</definition>
+        <argsstring>(bool canShow=true, string title=null, string description=null, string okButtonLabel=null, string cancelButtonLabel=null, string remindLaterButtonLabel=null, bool canShowRemindMeLaterButton=true)</argsstring>
+        <name>RateMyAppConfirmationDialogSettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppConfirmationDialogSettings.RateMyAppConfirmationDialogSettings</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>canShow</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>okButtonLabel</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>cancelButtonLabel</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>remindLaterButtonLabel</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>canShowRemindMeLaterButton</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" line="79" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" bodystart="79" bodyend="107"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConfirmationDialogSettings.cs" bodystart="11" bodyend="110"/>
+    <listofallmembers>
+      <member refid="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1a9b0ad19cf6e5aa1677ce7f6e99685361" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppConfirmationDialogSettings</scope><name>CancelButtonLabel</name></member>
+      <member refid="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1a2b75098a9be6280bf59d5f7d85a00e46" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppConfirmationDialogSettings</scope><name>CanShow</name></member>
+      <member refid="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1a5fe6117ad328708f7cf835da1c00644c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppConfirmationDialogSettings</scope><name>CanShowRemindMeLaterButton</name></member>
+      <member refid="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1abfe4741f2b165fcdff67f4382973fd1c" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppConfirmationDialogSettings</scope><name>m_cancelButtonLabel</name></member>
+      <member refid="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1a5a88217428aa94d80c7a9abfb8b6b1b6" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppConfirmationDialogSettings</scope><name>m_canShow</name></member>
+      <member refid="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1af43e8b8d3c36a32115a7ca6573c5ab79" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppConfirmationDialogSettings</scope><name>m_canShowRemindMeLaterButton</name></member>
+      <member refid="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1aeae7d38b84ef9c1468f25d420bcdf9a3" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppConfirmationDialogSettings</scope><name>m_okButtonLabel</name></member>
+      <member refid="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1aa09625b02df375bfc82aac95c18bc044" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppConfirmationDialogSettings</scope><name>m_promptDescription</name></member>
+      <member refid="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1a18b42dd2111825a038164d4da5ffe9f9" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppConfirmationDialogSettings</scope><name>m_promptTitle</name></member>
+      <member refid="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1a7924e52cb9cf8baf7a12f5431e46cf3e" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppConfirmationDialogSettings</scope><name>m_remindLaterButtonLabel</name></member>
+      <member refid="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1a01f520bb003cba5c1a3a7cb6c74ea320" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppConfirmationDialogSettings</scope><name>OkButtonLabel</name></member>
+      <member refid="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1a23f56afac2555e3ae58ee694dce9ee13" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppConfirmationDialogSettings</scope><name>PromptDescription</name></member>
+      <member refid="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1a5bd3dfe0db2e87486ebd9950d9a774bb" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppConfirmationDialogSettings</scope><name>PromptTitle</name></member>
+      <member refid="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1a81ffbab02ca4a00deb10c19b2e5cb740" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppConfirmationDialogSettings</scope><name>RateMyAppConfirmationDialogSettings</name></member>
+      <member refid="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings_1ad2b655bba9f2bd7684412a7083d6c2e0" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppConfirmationDialogSettings</scope><name>RemindLaterButtonLabel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

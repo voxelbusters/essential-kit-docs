@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d5/d76/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_social_share_composer" kind="class" language="C#" prot="public" sealed="yes">
+    <compoundname>VoxelBusters::EssentialKit::SharingServicesCore::NullSocialShareComposer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NativeSocialShareComposerBase</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INativeSocialShareComposer</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d76/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_social_share_composer_1aa1463f17b9acbf7cdefedaee85bc352a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NullSocialShareComposer</definition>
+        <argsstring>(SocialShareComposerType composerType)</argsstring>
+        <name>NullSocialShareComposer</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullSocialShareComposer.NullSocialShareComposer</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1afdc794be6e025a649c9261e3e48b2e46" kindref="member">SocialShareComposerType</ref></type>
+          <declname>composerType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSocialShareComposer.cs" line="13" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSocialShareComposer.cs" bodystart="13" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d76/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_social_share_composer_1a2db87b2b85e263681468db05790eb93b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void SetText</definition>
+        <argsstring>(string value)</argsstring>
+        <name>SetText</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullSocialShareComposer.SetText</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSocialShareComposer.cs" line="29" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSocialShareComposer.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d76/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_social_share_composer_1aa80f7b304a6573900f1edc90dd309032" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void AddScreenshot</definition>
+        <argsstring>()</argsstring>
+        <name>AddScreenshot</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullSocialShareComposer.AddScreenshot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSocialShareComposer.cs" line="34" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSocialShareComposer.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d76/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_social_share_composer_1aba6d377d25cee5636e352f65ba365052" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void AddImage</definition>
+        <argsstring>(byte[] imageData)</argsstring>
+        <name>AddImage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullSocialShareComposer.AddImage</qualifiedname>
+        <param>
+          <type>byte[]</type>
+          <declname>imageData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSocialShareComposer.cs" line="39" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSocialShareComposer.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d76/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_social_share_composer_1ad000b819f27906187c10ce3ec1c35683" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void AddURL</definition>
+        <argsstring>(URLString url)</argsstring>
+        <name>AddURL</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullSocialShareComposer.AddURL</qualifiedname>
+        <param>
+          <type><ref refid="d2/dfa/struct_voxel_busters_1_1_core_library_1_1_u_r_l_string" kindref="compound">URLString</ref></type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSocialShareComposer.cs" line="44" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSocialShareComposer.cs" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d76/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_social_share_composer_1a1f98ec85465c5b59f608ef95d23620e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Show</definition>
+        <argsstring>(Vector2 screenPosition)</argsstring>
+        <name>Show</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullSocialShareComposer.Show</qualifiedname>
+        <param>
+          <type>Vector2</type>
+          <declname>screenPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSocialShareComposer.cs" line="49" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSocialShareComposer.cs" bodystart="49" bodyend="55"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d5/d76/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_social_share_composer_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogNotSupported</definition>
+        <argsstring>()</argsstring>
+        <name>LogNotSupported</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SharingServicesCore.NullSocialShareComposer.LogNotSupported</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSocialShareComposer.cs" line="20" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSocialShareComposer.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSocialShareComposer.cs" line="9" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/NullSocialShareComposer.cs" bodystart="10" bodyend="58"/>
+    <listofallmembers>
+      <member refid="d5/d76/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_social_share_composer_1aba6d377d25cee5636e352f65ba365052" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullSocialShareComposer</scope><name>AddImage</name></member>
+      <member refid="d5/d76/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_social_share_composer_1aa80f7b304a6573900f1edc90dd309032" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullSocialShareComposer</scope><name>AddScreenshot</name></member>
+      <member refid="d5/d76/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_social_share_composer_1ad000b819f27906187c10ce3ec1c35683" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullSocialShareComposer</scope><name>AddURL</name></member>
+      <member refid="d5/d76/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_social_share_composer_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullSocialShareComposer</scope><name>LogNotSupported</name></member>
+      <member refid="d5/d76/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_social_share_composer_1aa1463f17b9acbf7cdefedaee85bc352a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullSocialShareComposer</scope><name>NullSocialShareComposer</name></member>
+      <member refid="df/dfe/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_native_social_share_composer_base_1a03f7c73119ce8256b7c399157031cfa9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullSocialShareComposer</scope><name>OnClose</name></member>
+      <member refid="df/dfe/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_native_social_share_composer_base_1ae2336da6bfcfe4ce95a91a58891a95f4" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullSocialShareComposer</scope><name>SendCloseEvent</name></member>
+      <member refid="d5/d76/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_social_share_composer_1a2db87b2b85e263681468db05790eb93b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullSocialShareComposer</scope><name>SetText</name></member>
+      <member refid="d5/d76/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_core_1_1_null_social_share_composer_1a1f98ec85465c5b59f608ef95d23620e0" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SharingServicesCore::NullSocialShareComposer</scope><name>Show</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

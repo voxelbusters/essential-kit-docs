@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_eb22fc1231423acc6244cebced9c33bb" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices</compoundname>
+    <innerfile refid="d4/d7f/_network_services_2_delegates_8cs">Delegates.cs</innerfile>
+    <innerfile refid="d9/dc1/_i_native_network_services_interface_8cs">INativeNetworkServicesInterface.cs</innerfile>
+    <innerfile refid="da/d70/_native_network_services_interface_base_8cs">NativeNetworkServicesInterfaceBase.cs</innerfile>
+    <innerfile refid="dd/dfb/_network_services_8cs">NetworkServices.cs</innerfile>
+    <innerfile refid="db/db5/_network_services_host_reachability_status_change_result_8cs">NetworkServicesHostReachabilityStatusChangeResult.cs</innerfile>
+    <innerfile refid="d7/d65/_network_services_internet_connectivity_status_change_result_8cs">NetworkServicesInternetConnectivityStatusChangeResult.cs</innerfile>
+    <innerfile refid="da/d3e/_null_network_services_interface_8cs">NullNetworkServicesInterface.cs</innerfile>
+    <innerfile refid="d3/dcb/_unity_network_services_interface_8cs">UnityNetworkServicesInterface.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/"/>
+  </compounddef>
+</doxygen>

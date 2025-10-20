@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_22a98bfba6083d0726d6a4cee6724696" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras</compoundname>
+    <innerfile refid="d8/d41/_i_native_utility_interface_8cs">INativeUtilityInterface.cs</innerfile>
+    <innerfile refid="d8/d98/_native_utility_interface_base_8cs">NativeUtilityInterfaceBase.cs</innerfile>
+    <innerfile refid="dc/de9/_null_native_utility_interface_8cs">NullNativeUtilityInterface.cs</innerfile>
+    <innerfile refid="d8/d16/_utilities_8cs">Utilities.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/"/>
+  </compounddef>
+</doxygen>

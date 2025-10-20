@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="df/df7/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_type" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::NativeFeatureUsagePermissionType</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="df/df7/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_type_1aad31f10aca2ba79a5d8b51dc39e366ba" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kAddressBook</definition>
+        <argsstring></argsstring>
+        <name>kAddressBook</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureUsagePermissionType.kAddressBook</qualifiedname>
+        <initializer>= &quot;AddressBook&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureUsagePermissionType.cs" line="11" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureUsagePermissionType.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/df7/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_type_1a503051fde874726c3ff8c21290281a46" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kCamera</definition>
+        <argsstring></argsstring>
+        <name>kCamera</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureUsagePermissionType.kCamera</qualifiedname>
+        <initializer>= &quot;Camera&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureUsagePermissionType.cs" line="13" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureUsagePermissionType.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/df7/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_type_1a1640d20d9b474fa812b1d2df4b2609b1" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kGalleryRead</definition>
+        <argsstring></argsstring>
+        <name>kGalleryRead</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureUsagePermissionType.kGalleryRead</qualifiedname>
+        <initializer>= &quot;GalleryRead&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureUsagePermissionType.cs" line="15" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureUsagePermissionType.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/df7/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_type_1a0af9867d28e42656a71284a05c5f006e" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kGalleryReadWrite</definition>
+        <argsstring></argsstring>
+        <name>kGalleryReadWrite</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureUsagePermissionType.kGalleryReadWrite</qualifiedname>
+        <initializer>= &quot;GalleryReadWrite&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureUsagePermissionType.cs" line="17" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureUsagePermissionType.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/df7/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_type_1a36ea177b41205e9764935c1f171f7e67" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kNotification</definition>
+        <argsstring></argsstring>
+        <name>kNotification</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeFeatureUsagePermissionType.kNotification</qualifiedname>
+        <initializer>= &quot;Notification&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureUsagePermissionType.cs" line="19" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureUsagePermissionType.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureUsagePermissionType.cs" line="7" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal/NativeFeatureUsagePermissionType.cs" bodystart="8" bodyend="22"/>
+    <listofallmembers>
+      <member refid="df/df7/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_type_1aad31f10aca2ba79a5d8b51dc39e366ba" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureUsagePermissionType</scope><name>kAddressBook</name></member>
+      <member refid="df/df7/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_type_1a503051fde874726c3ff8c21290281a46" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureUsagePermissionType</scope><name>kCamera</name></member>
+      <member refid="df/df7/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_type_1a1640d20d9b474fa812b1d2df4b2609b1" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureUsagePermissionType</scope><name>kGalleryRead</name></member>
+      <member refid="df/df7/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_type_1a0af9867d28e42656a71284a05c5f006e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureUsagePermissionType</scope><name>kGalleryReadWrite</name></member>
+      <member refid="df/df7/class_voxel_busters_1_1_essential_kit_1_1_native_feature_usage_permission_type_1a36ea177b41205e9764935c1f171f7e67" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeFeatureUsagePermissionType</scope><name>kNotification</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

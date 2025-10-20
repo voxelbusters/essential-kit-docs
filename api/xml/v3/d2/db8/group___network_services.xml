@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d2/db8/group___network_services" kind="group">
+    <compoundname>NetworkServices</compoundname>
+    <title>Network Services</title>
+    <innerclass refid="dd/d14/class_voxel_busters_1_1_essential_kit_1_1_network_services" prot="public">VoxelBusters::EssentialKit::NetworkServices</innerclass>
+    <innerclass refid="dc/ddf/class_voxel_busters_1_1_essential_kit_1_1_network_services_host_reachability_status_change_result" prot="public">VoxelBusters::EssentialKit::NetworkServicesHostReachabilityStatusChangeResult</innerclass>
+    <innerclass refid="d0/d1d/class_voxel_busters_1_1_essential_kit_1_1_network_services_internet_connectivity_status_change_result" prot="public">VoxelBusters::EssentialKit::NetworkServicesInternetConnectivityStatusChangeResult</innerclass>
+    <briefdescription>
+<para>Provides cross-platform interface to check network connectivity status. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

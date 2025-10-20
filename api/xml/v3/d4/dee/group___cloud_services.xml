@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d4/dee/group___cloud_services" kind="group">
+    <compoundname>CloudServices</compoundname>
+    <title>Cloud Services</title>
+    <innerclass refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services" prot="public">VoxelBusters::EssentialKit::CloudServices</innerclass>
+    <innerclass refid="d4/d36/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_saved_data_change_result" prot="public">VoxelBusters::EssentialKit::CloudServicesSavedDataChangeResult</innerclass>
+    <innerclass refid="dc/d81/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_synchronize_result" prot="public">VoxelBusters::EssentialKit::CloudServicesSynchronizeResult</innerclass>
+    <innerclass refid="d2/db7/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_user_change_result" prot="public">VoxelBusters::EssentialKit::CloudServicesUserChangeResult</innerclass>
+    <innerclass refid="d1/da8/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_utility" prot="public">VoxelBusters::EssentialKit::CloudServicesUtility</innerclass>
+    <innerclass refid="d5/d14/interface_voxel_busters_1_1_essential_kit_1_1_i_cloud_user" prot="public">VoxelBusters::EssentialKit::ICloudUser</innerclass>
+    <briefdescription>
+<para>Provides a cross-platform interface to sync information across various devices by storing it in the cloud. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

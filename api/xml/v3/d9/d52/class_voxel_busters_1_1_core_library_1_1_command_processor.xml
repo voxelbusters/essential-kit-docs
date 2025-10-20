@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::CommandProcessor</compoundname>
+    <innerclass refid="db/d9e/class_voxel_busters_1_1_core_library_1_1_command_processor_1_1_command_event" prot="public">VoxelBusters::CoreLibrary::CommandProcessor::CommandEvent</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1a76e7eabea76e8aa679fcc5ddc391f60a" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>CommandExecutionOrder</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CommandProcessor.CommandExecutionOrder</qualifiedname>
+        <enumvalue id="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1a76e7eabea76e8aa679fcc5ddc391f60aa6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1a76e7eabea76e8aa679fcc5ddc391f60aaa7e82daa7280af25afbaa076ac16eb1e" prot="public">
+          <name>Sequential</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" line="150" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" bodystart="151" bodyend="155"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1aa3782ffd029d3a7f7634b7c33e12c0bb" prot="private" static="no" mutable="no">
+        <type>List&lt; ICommand &gt;</type>
+        <definition>List&lt;ICommand&gt; m_inprogressCommands</definition>
+        <argsstring></argsstring>
+        <name>m_inprogressCommands</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CommandProcessor.m_inprogressCommands</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" line="13" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1a6adf7b1c66d8165b92e164b81f7106fe" prot="private" static="no" mutable="no">
+        <type>List&lt; ICommand &gt;</type>
+        <definition>List&lt;ICommand&gt; m_pendingCommands</definition>
+        <argsstring></argsstring>
+        <name>m_pendingCommands</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CommandProcessor.m_pendingCommands</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" line="15" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1a8ea5bc3d832688d509eea38fdb514224" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>CommandExecutionOrder</type>
+        <definition>CommandExecutionOrder ExecutionOrder</definition>
+        <argsstring></argsstring>
+        <name>ExecutionOrder</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CommandProcessor.ExecutionOrder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" line="21" column="38" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1a796503965db84536fdf868c7a63be567" prot="public" static="no" add="no" remove="no" raise="no">
+        <type><ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a7aad06b84eedaea282efda0972c4197b" kindref="member">Callback</ref>&lt; ICommand &gt;</type>
+        <definition>Callback&lt;ICommand&gt; OnCompletion</definition>
+        <argsstring></argsstring>
+        <name>OnCompletion</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CommandProcessor.OnCompletion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" line="27" column="31" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1a41c520083217ed5ed5cc23aa0469aa5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CommandProcessor</definition>
+        <argsstring>(CommandExecutionOrder order)</argsstring>
+        <name>CommandProcessor</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CommandProcessor.CommandProcessor</qualifiedname>
+        <param>
+          <type>CommandExecutionOrder</type>
+          <declname>order</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" line="33" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" bodystart="33" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1a85682548c4c70578ff1058a8976e75ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddCommand</definition>
+        <argsstring>(ICommand command)</argsstring>
+        <name>AddCommand</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CommandProcessor.AddCommand</qualifiedname>
+        <param>
+          <type>ICommand</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" line="45" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" bodystart="45" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1ac1d1dfb70b9201a48f01f9f38b6e43f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InvalidateAll</definition>
+        <argsstring>()</argsstring>
+        <name>InvalidateAll</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CommandProcessor.InvalidateAll</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" line="60" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1aec0783b5a136e042adcc47bae4fe5291" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CommandProcessor.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" line="69" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" bodystart="69" bodyend="79"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1ae1c072c902878e137e978560c77f6d94" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessCommandInternal</definition>
+        <argsstring>(ICommand command)</argsstring>
+        <name>ProcessCommandInternal</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CommandProcessor.ProcessCommandInternal</qualifiedname>
+        <param>
+          <type>ICommand</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" line="85" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" bodystart="85" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1a4a16b58aca391d9a04bfa47f633f3463" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessInprogressCommands</definition>
+        <argsstring>()</argsstring>
+        <name>ProcessInprogressCommands</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CommandProcessor.ProcessInprogressCommands</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" line="94" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" bodystart="94" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1a4466f4f2fe83f1f02f5b84f6f34b2151" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessCommandsInSequentialOrder</definition>
+        <argsstring>()</argsstring>
+        <name>ProcessCommandsInSequentialOrder</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CommandProcessor.ProcessCommandsInSequentialOrder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" line="111" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" bodystart="111" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1a88f1071ef630f899426cbd3c9987baf5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PostCommandCompleteEvent</definition>
+        <argsstring>(ICommand command)</argsstring>
+        <name>PostCommandCompleteEvent</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.CommandProcessor.PostCommandCompleteEvent</qualifiedname>
+        <param>
+          <type>ICommand</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" line="137" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" bodystart="137" bodyend="140"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" line="9" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Managers/CommandProcessor.cs" bodystart="10" bodyend="158"/>
+    <listofallmembers>
+      <member refid="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1a85682548c4c70578ff1058a8976e75ac" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CommandProcessor</scope><name>AddCommand</name></member>
+      <member refid="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1a76e7eabea76e8aa679fcc5ddc391f60a" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CommandProcessor</scope><name>CommandExecutionOrder</name></member>
+      <member refid="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1a41c520083217ed5ed5cc23aa0469aa5b" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CommandProcessor</scope><name>CommandProcessor</name></member>
+      <member refid="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1a8ea5bc3d832688d509eea38fdb514224" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CommandProcessor</scope><name>ExecutionOrder</name></member>
+      <member refid="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1ac1d1dfb70b9201a48f01f9f38b6e43f3" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CommandProcessor</scope><name>InvalidateAll</name></member>
+      <member refid="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1aa3782ffd029d3a7f7634b7c33e12c0bb" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CommandProcessor</scope><name>m_inprogressCommands</name></member>
+      <member refid="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1a6adf7b1c66d8165b92e164b81f7106fe" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CommandProcessor</scope><name>m_pendingCommands</name></member>
+      <member refid="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1a796503965db84536fdf868c7a63be567" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CommandProcessor</scope><name>OnCompletion</name></member>
+      <member refid="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1a88f1071ef630f899426cbd3c9987baf5" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CommandProcessor</scope><name>PostCommandCompleteEvent</name></member>
+      <member refid="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1ae1c072c902878e137e978560c77f6d94" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CommandProcessor</scope><name>ProcessCommandInternal</name></member>
+      <member refid="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1a4466f4f2fe83f1f02f5b84f6f34b2151" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CommandProcessor</scope><name>ProcessCommandsInSequentialOrder</name></member>
+      <member refid="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1a4a16b58aca391d9a04bfa47f633f3463" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CommandProcessor</scope><name>ProcessInprogressCommands</name></member>
+      <member refid="d9/d52/class_voxel_busters_1_1_core_library_1_1_command_processor_1aec0783b5a136e042adcc47bae4fe5291" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::CommandProcessor</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

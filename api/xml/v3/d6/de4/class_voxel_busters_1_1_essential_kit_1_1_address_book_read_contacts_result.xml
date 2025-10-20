@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d6/de4/class_voxel_busters_1_1_essential_kit_1_1_address_book_read_contacts_result" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::AddressBookReadContactsResult</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d6/de4/class_voxel_busters_1_1_essential_kit_1_1_address_book_read_contacts_result_1ad8498c77d4cd51b4200b7f88c0e5a05c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="d4/d51/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contact" kindref="compound">IAddressBookContact</ref>[]</type>
+        <definition>IAddressBookContact [] Contacts</definition>
+        <argsstring></argsstring>
+        <name>Contacts</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AddressBookReadContactsResult.Contacts</qualifiedname>
+        <briefdescription>
+<para>Contains the contacts details retrieved from address book. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If the requested operation was successful, this property holds an array of <ref refid="d4/d51/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contact" kindref="compound">IAddressBookContact</ref> objects; otherwise, this is null.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookReadContactsResult.cs" line="20" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookReadContactsResult.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="d6/de4/class_voxel_busters_1_1_essential_kit_1_1_address_book_read_contacts_result_1a22e5691d55c3aaafe68fe9d424cd1f1d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int NextOffset</definition>
+        <argsstring></argsstring>
+        <name>NextOffset</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AddressBookReadContactsResult.NextOffset</qualifiedname>
+        <briefdescription>
+<para>Value to pass as offset value in options for reading next set/page of contacts. This value will be -1 if no more data exists. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookReadContactsResult.cs" line="26" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookReadContactsResult.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="d6/de4/class_voxel_busters_1_1_essential_kit_1_1_address_book_read_contacts_result_1ad3b61bf09161c7ffdbe63d5d21dc526c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AddressBookReadContactsResult</definition>
+        <argsstring>(IAddressBookContact[] contacts, int nextOffset)</argsstring>
+        <name>AddressBookReadContactsResult</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AddressBookReadContactsResult.AddressBookReadContactsResult</qualifiedname>
+        <param>
+          <type><ref refid="d4/d51/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contact" kindref="compound">IAddressBookContact</ref>[]</type>
+          <declname>contacts</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nextOffset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookReadContactsResult.cs" line="32" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookReadContactsResult.cs" bodystart="32" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class contains the information retrieved when AddressBook.ReadContacts(EventCallback&lt;AddressBookReadContactsResult&gt;) operation is completed. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookReadContactsResult.cs" line="12" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/AddressBookReadContactsResult.cs" bodystart="13" bodyend="40"/>
+    <listofallmembers>
+      <member refid="d6/de4/class_voxel_busters_1_1_essential_kit_1_1_address_book_read_contacts_result_1ad3b61bf09161c7ffdbe63d5d21dc526c" prot="package" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AddressBookReadContactsResult</scope><name>AddressBookReadContactsResult</name></member>
+      <member refid="d6/de4/class_voxel_busters_1_1_essential_kit_1_1_address_book_read_contacts_result_1ad8498c77d4cd51b4200b7f88c0e5a05c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AddressBookReadContactsResult</scope><name>Contacts</name></member>
+      <member refid="d6/de4/class_voxel_busters_1_1_essential_kit_1_1_address_book_read_contacts_result_1a22e5691d55c3aaafe68fe9d424cd1f1d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AddressBookReadContactsResult</scope><name>NextOffset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::UnityPackageDefinition</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1a91d3f60f6864dfd57204029a6fd0b691" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_persistentDataRelativePath</definition>
+        <argsstring></argsstring>
+        <name>m_persistentDataRelativePath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackageDefinition.m_persistentDataRelativePath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" line="12" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1a7ee9065718e6628dc7791b756fa6c0f9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackageDefinition.Name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" line="18" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1aba0e038e9b973f3ba4ca520a2fb057dc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string DisplayName</definition>
+        <argsstring></argsstring>
+        <name>DisplayName</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackageDefinition.DisplayName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" line="20" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1a8ca1a1a001dc102637530f1a11a83224" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Version</definition>
+        <argsstring></argsstring>
+        <name>Version</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackageDefinition.Version</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" line="22" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1a14ea643242f39a0849a8c7561eb4a581" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string DefaultInstallPath</definition>
+        <argsstring></argsstring>
+        <name>DefaultInstallPath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackageDefinition.DefaultInstallPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" line="24" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1a132ec5e1d24cda96c00efe54670dc6a7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string UpmInstallPath</definition>
+        <argsstring></argsstring>
+        <name>UpmInstallPath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackageDefinition.UpmInstallPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" line="26" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1a00eb9fe14d4c3bf4897c8ddd01039a3f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string MutableResourcesPath</definition>
+        <argsstring></argsstring>
+        <name>MutableResourcesPath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackageDefinition.MutableResourcesPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" line="28" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1a20af999c5cf7fafa6b8c9be102815df6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string MutableResourcesRelativePath</definition>
+        <argsstring></argsstring>
+        <name>MutableResourcesRelativePath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackageDefinition.MutableResourcesRelativePath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" line="30" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1ab2ea09eb88ab99b1de6457d50eca1aac" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string PersistentDataRelativePath</definition>
+        <argsstring></argsstring>
+        <name>PersistentDataRelativePath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackageDefinition.PersistentDataRelativePath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" line="32" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" bodystart="33" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1a40aae5e22511b132b78966c34a066435" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string PersistentDataPath</definition>
+        <argsstring></argsstring>
+        <name>PersistentDataPath</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackageDefinition.PersistentDataPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" line="41" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" bodystart="42" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1a66519f4be506d95ceae6571f23c68bee" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>UnityPackageDefinition[]</type>
+        <definition>UnityPackageDefinition [] Dependencies</definition>
+        <argsstring></argsstring>
+        <name>Dependencies</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackageDefinition.Dependencies</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" line="50" column="39" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" bodystart="50" bodyend="50"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1afb89ae6b97629259a2d302f1a917a188" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnityPackageDefinition</definition>
+        <argsstring>(string name, string displayName, string version, string defaultInstallPath=null, string mutableResourcesPath=&quot;Assets/Resources&quot;, string persistentDataRelativePath=null, params UnityPackageDefinition[] dependencies)</argsstring>
+        <name>UnityPackageDefinition</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackageDefinition.UnityPackageDefinition</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>displayName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>version</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>defaultInstallPath</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>mutableResourcesPath</declname>
+          <defval>&quot;Assets/Resources&quot;</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>persistentDataRelativePath</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>params UnityPackageDefinition[]</type>
+          <declname>dependencies</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" line="56" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" bodystart="56" bodyend="73"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1ab939054fb5b5a5b93472a6ac565ef967" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnsurePersistentDataPathExists</definition>
+        <argsstring>()</argsstring>
+        <name>EnsurePersistentDataPathExists</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackageDefinition.EnsurePersistentDataPathExists</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" line="79" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" bodystart="79" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1a1383462e5ad9c419d3b9c624f25360e5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetPersistentDataPathInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetPersistentDataPathInternal</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityPackageDefinition.GetPersistentDataPathInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" line="85" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" bodystart="85" bodyend="88"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" line="8" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/UnityPackageDefinition.cs" bodystart="9" bodyend="91"/>
+    <listofallmembers>
+      <member refid="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1a14ea643242f39a0849a8c7561eb4a581" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackageDefinition</scope><name>DefaultInstallPath</name></member>
+      <member refid="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1a66519f4be506d95ceae6571f23c68bee" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackageDefinition</scope><name>Dependencies</name></member>
+      <member refid="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1aba0e038e9b973f3ba4ca520a2fb057dc" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackageDefinition</scope><name>DisplayName</name></member>
+      <member refid="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1ab939054fb5b5a5b93472a6ac565ef967" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackageDefinition</scope><name>EnsurePersistentDataPathExists</name></member>
+      <member refid="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1a1383462e5ad9c419d3b9c624f25360e5" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackageDefinition</scope><name>GetPersistentDataPathInternal</name></member>
+      <member refid="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1a91d3f60f6864dfd57204029a6fd0b691" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackageDefinition</scope><name>m_persistentDataRelativePath</name></member>
+      <member refid="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1a00eb9fe14d4c3bf4897c8ddd01039a3f" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackageDefinition</scope><name>MutableResourcesPath</name></member>
+      <member refid="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1a20af999c5cf7fafa6b8c9be102815df6" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackageDefinition</scope><name>MutableResourcesRelativePath</name></member>
+      <member refid="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1a7ee9065718e6628dc7791b756fa6c0f9" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackageDefinition</scope><name>Name</name></member>
+      <member refid="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1a40aae5e22511b132b78966c34a066435" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackageDefinition</scope><name>PersistentDataPath</name></member>
+      <member refid="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1ab2ea09eb88ab99b1de6457d50eca1aac" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackageDefinition</scope><name>PersistentDataRelativePath</name></member>
+      <member refid="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1afb89ae6b97629259a2d302f1a917a188" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackageDefinition</scope><name>UnityPackageDefinition</name></member>
+      <member refid="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1a132ec5e1d24cda96c00efe54670dc6a7" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackageDefinition</scope><name>UpmInstallPath</name></member>
+      <member refid="d9/d57/class_voxel_busters_1_1_core_library_1_1_unity_package_definition_1a8ca1a1a001dc102637530f1a11a83224" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityPackageDefinition</scope><name>Version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

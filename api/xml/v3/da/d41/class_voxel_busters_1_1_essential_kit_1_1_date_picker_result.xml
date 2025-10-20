@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="da/d41/class_voxel_busters_1_1_essential_kit_1_1_date_picker_result" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::DatePickerResult</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="da/d41/class_voxel_busters_1_1_essential_kit_1_1_date_picker_result_1a94d90ab4e8147bf77f419dac61ee5949" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? SelectedDate</definition>
+        <argsstring></argsstring>
+        <name>SelectedDate</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DatePickerResult.SelectedDate</qualifiedname>
+        <briefdescription>
+<para>Gets the selected date from the date picker. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The selected date, or null if no date was selected.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/DatePickerResult.cs" line="20" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/DatePickerResult.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="da/d41/class_voxel_busters_1_1_essential_kit_1_1_date_picker_result_1a6a5f8aac63a0fc377f080ce4c1da8a0b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DatePickerResult</definition>
+        <argsstring>(DateTime? selectedDate)</argsstring>
+        <name>DatePickerResult</name>
+        <qualifiedname>VoxelBusters.EssentialKit.DatePickerResult.DatePickerResult</qualifiedname>
+        <param>
+          <type>DateTime?</type>
+          <declname>selectedDate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/DatePickerResult.cs" line="26" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/DatePickerResult.cs" bodystart="26" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class contains the information retrieved when <ref refid="d0/dc4/class_voxel_busters_1_1_essential_kit_1_1_date_picker_1a850f36b54d59e03c44caafeb024dd5ac" kindref="member">DatePicker.OnCloseCallback</ref> is invoked. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/DatePickerResult.cs" line="12" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/DatePickerResult.cs" bodystart="13" bodyend="33"/>
+    <listofallmembers>
+      <member refid="da/d41/class_voxel_busters_1_1_essential_kit_1_1_date_picker_result_1a6a5f8aac63a0fc377f080ce4c1da8a0b" prot="package" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DatePickerResult</scope><name>DatePickerResult</name></member>
+      <member refid="da/d41/class_voxel_busters_1_1_essential_kit_1_1_date_picker_result_1a94d90ab4e8147bf77f419dac61ee5949" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DatePickerResult</scope><name>SelectedDate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d6/d88/interface_voxel_busters_1_1_core_library_1_1_i_application_lifecycle_listener" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::IApplicationLifecycleListener</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d88/interface_voxel_busters_1_1_core_library_1_1_i_application_lifecycle_listener_1aedb51a21ba9fb8360e8b4a4d407a3c60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void OnApplicationFocus</definition>
+        <argsstring>(bool hasFocus)</argsstring>
+        <name>OnApplicationFocus</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IApplicationLifecycleListener.OnApplicationFocus</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>hasFocus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IApplicationLifecycleListener.cs" line="5" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d88/interface_voxel_busters_1_1_core_library_1_1_i_application_lifecycle_listener_1ab8286b8878548b1040499bf6b780df42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void OnApplicationPause</definition>
+        <argsstring>(bool pauseStatus)</argsstring>
+        <name>OnApplicationPause</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IApplicationLifecycleListener.OnApplicationPause</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>pauseStatus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IApplicationLifecycleListener.cs" line="6" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d88/interface_voxel_busters_1_1_core_library_1_1_i_application_lifecycle_listener_1a8a15e5eb89fdaf996e5bc29b4c5a2bc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void OnApplicationQuit</definition>
+        <argsstring>()</argsstring>
+        <name>OnApplicationQuit</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IApplicationLifecycleListener.OnApplicationQuit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IApplicationLifecycleListener.cs" line="7" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IApplicationLifecycleListener.cs" line="3" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/IApplicationLifecycleListener.cs" bodystart="4" bodyend="8"/>
+    <listofallmembers>
+      <member refid="d6/d88/interface_voxel_busters_1_1_core_library_1_1_i_application_lifecycle_listener_1aedb51a21ba9fb8360e8b4a4d407a3c60" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IApplicationLifecycleListener</scope><name>OnApplicationFocus</name></member>
+      <member refid="d6/d88/interface_voxel_busters_1_1_core_library_1_1_i_application_lifecycle_listener_1ab8286b8878548b1040499bf6b780df42" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IApplicationLifecycleListener</scope><name>OnApplicationPause</name></member>
+      <member refid="d6/d88/interface_voxel_busters_1_1_core_library_1_1_i_application_lifecycle_listener_1a8a15e5eb89fdaf996e5bc29b4c5a2bc1" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IApplicationLifecycleListener</scope><name>OnApplicationQuit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

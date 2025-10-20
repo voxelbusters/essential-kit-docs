@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface" kind="class" language="C#" prot="public" sealed="yes">
+    <compoundname>VoxelBusters::EssentialKit::NativeUICore::UnityUIAlertDialogInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NativeAlertDialogInterfaceBase</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1a7216ad145c35c73c8a68106b6654733e" prot="private" static="no" mutable="no">
+        <type>UnityUIAlertDialog</type>
+        <definition>UnityUIAlertDialog m_unityDialog</definition>
+        <argsstring></argsstring>
+        <name>m_unityDialog</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.UnityUIAlertDialogInterface.m_unityDialog</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" line="13" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1aaf8666a8f6a51fcdbddcc054472f92a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnityUIAlertDialogInterface</definition>
+        <argsstring>(UnityUIAlertDialog dialogPrefab, RectTransform parent)</argsstring>
+        <name>UnityUIAlertDialogInterface</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.UnityUIAlertDialogInterface.UnityUIAlertDialogInterface</qualifiedname>
+        <param>
+          <type>UnityUIAlertDialog</type>
+          <declname>dialogPrefab</declname>
+        </param>
+        <param>
+          <type>RectTransform</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" line="19" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" bodystart="19" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1ad2b093b34bf9e646cdb008a2b34432ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void SetTitle</definition>
+        <argsstring>(string value)</argsstring>
+        <name>SetTitle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.UnityUIAlertDialogInterface.SetTitle</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" line="43" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1a4a26cd0d8090f1f0ff94c9729f137bfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string GetTitle</definition>
+        <argsstring>()</argsstring>
+        <name>GetTitle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.UnityUIAlertDialogInterface.GetTitle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" line="48" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1ab862d1a54ed72fd9d28986edbc8347eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void SetMessage</definition>
+        <argsstring>(string value)</argsstring>
+        <name>SetMessage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.UnityUIAlertDialogInterface.SetMessage</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" line="53" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1a0be4bfbb22c3e117f87e17eb173e3d6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string GetMessage</definition>
+        <argsstring>()</argsstring>
+        <name>GetMessage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.UnityUIAlertDialogInterface.GetMessage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" line="58" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1a1356db6db9ae6d2746bca7333d26a167" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void AddTextInputField</definition>
+        <argsstring>(TextInputFieldOptions options=null)</argsstring>
+        <name>AddTextInputField</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.UnityUIAlertDialogInterface.AddTextInputField</qualifiedname>
+        <param>
+          <type>TextInputFieldOptions</type>
+          <declname>options</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" line="62" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1a3fcf76bfc3eb9d514d5463c692e36831" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void AddButton</definition>
+        <argsstring>(string text, bool isCancelType)</argsstring>
+        <name>AddButton</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.UnityUIAlertDialogInterface.AddButton</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isCancelType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" line="67" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1accf383118946aaf8a037e9533c0d129c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Show</definition>
+        <argsstring>()</argsstring>
+        <name>Show</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.UnityUIAlertDialogInterface.Show</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" line="72" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1afeb82e68489cc9ab6b5a5c3212be4892" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Dismiss</definition>
+        <argsstring>()</argsstring>
+        <name>Dismiss</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.UnityUIAlertDialogInterface.Dismiss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" line="77" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" bodystart="77" bodyend="80"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1a0686a3c963c0a95aac94a26bb7f2cd28" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>~UnityUIAlertDialogInterface</definition>
+        <argsstring>()</argsstring>
+        <name>~UnityUIAlertDialogInterface</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.UnityUIAlertDialogInterface.~UnityUIAlertDialogInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" line="34" column="9" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1a8c83d8915284bc205d9dd69443711fef" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DestroyDialog</definition>
+        <argsstring>()</argsstring>
+        <name>DestroyDialog</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.UnityUIAlertDialogInterface.DestroyDialog</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" line="86" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" bodystart="86" bodyend="94"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1a849c3c7f8d08104f0cdb46bee9fe6389" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.UnityUIAlertDialogInterface.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" line="96" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" bodystart="96" bodyend="110"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" line="9" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/UnityUIAlertDialogInterface.cs" bodystart="10" bodyend="113"/>
+    <listofallmembers>
+      <member refid="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1a3fcf76bfc3eb9d514d5463c692e36831" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::UnityUIAlertDialogInterface</scope><name>AddButton</name></member>
+      <member refid="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1a1356db6db9ae6d2746bca7333d26a167" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::UnityUIAlertDialogInterface</scope><name>AddTextInputField</name></member>
+      <member refid="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1a8c83d8915284bc205d9dd69443711fef" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::UnityUIAlertDialogInterface</scope><name>DestroyDialog</name></member>
+      <member refid="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1afeb82e68489cc9ab6b5a5c3212be4892" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::UnityUIAlertDialogInterface</scope><name>Dismiss</name></member>
+      <member refid="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1a849c3c7f8d08104f0cdb46bee9fe6389" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::UnityUIAlertDialogInterface</scope><name>Dispose</name></member>
+      <member refid="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1a0be4bfbb22c3e117f87e17eb173e3d6f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::UnityUIAlertDialogInterface</scope><name>GetMessage</name></member>
+      <member refid="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1a4a26cd0d8090f1f0ff94c9729f137bfc" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::UnityUIAlertDialogInterface</scope><name>GetTitle</name></member>
+      <member refid="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1a7216ad145c35c73c8a68106b6654733e" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::UnityUIAlertDialogInterface</scope><name>m_unityDialog</name></member>
+      <member refid="dd/d8e/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_native_alert_dialog_interface_base_1a02a6a7595225994aaec45473da655a0a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::UnityUIAlertDialogInterface</scope><name>OnButtonClick</name></member>
+      <member refid="dd/d8e/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_native_alert_dialog_interface_base_1ae474794b9d8489b06fcf4f3ce0d71d69" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::UnityUIAlertDialogInterface</scope><name>SendButtonClickEvent</name></member>
+      <member refid="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1ab862d1a54ed72fd9d28986edbc8347eb" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::UnityUIAlertDialogInterface</scope><name>SetMessage</name></member>
+      <member refid="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1ad2b093b34bf9e646cdb008a2b34432ab" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::UnityUIAlertDialogInterface</scope><name>SetTitle</name></member>
+      <member refid="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1accf383118946aaf8a037e9533c0d129c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::UnityUIAlertDialogInterface</scope><name>Show</name></member>
+      <member refid="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1aaf8666a8f6a51fcdbddcc054472f92a3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::UnityUIAlertDialogInterface</scope><name>UnityUIAlertDialogInterface</name></member>
+      <member refid="de/d08/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_alert_dialog_interface_1a0686a3c963c0a95aac94a26bb7f2cd28" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::UnityUIAlertDialogInterface</scope><name>~UnityUIAlertDialogInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

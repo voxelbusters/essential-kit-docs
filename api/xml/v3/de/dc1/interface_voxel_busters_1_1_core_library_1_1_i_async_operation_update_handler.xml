@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="de/dc1/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_update_handler" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::IAsyncOperationUpdateHandler</compoundname>
+    <derivedcompoundref refid="de/d50/class_voxel_busters_1_1_core_library_1_1_async_operation" prot="public" virt="non-virtual">AsyncOperation&lt; T &gt;</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/dc1/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_update_handler_1aec0783b5a136e042adcc47bae4fe5291" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IAsyncOperationUpdateHandler.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperation.cs" line="59" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperation.cs" line="57" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/AsyncOperations/IAsyncOperation.cs" bodystart="58" bodyend="60"/>
+    <listofallmembers>
+      <member refid="de/dc1/interface_voxel_busters_1_1_core_library_1_1_i_async_operation_update_handler_1aec0783b5a136e042adcc47bae4fe5291" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IAsyncOperationUpdateHandler</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

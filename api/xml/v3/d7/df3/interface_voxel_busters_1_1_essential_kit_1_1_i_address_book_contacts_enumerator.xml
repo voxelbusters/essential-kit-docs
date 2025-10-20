@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d7/df3/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contacts_enumerator" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::IAddressBookContactsEnumerator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerator</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d7/df3/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contacts_enumerator_1aeae4e1754c511c08564892d93c83ada1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int BlockSize</definition>
+        <argsstring></argsstring>
+        <name>BlockSize</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IAddressBookContactsEnumerator.BlockSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/IAddressBookContactsEnumerator.cs" line="11" column="13" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/IAddressBookContactsEnumerator.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="d7/df3/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contacts_enumerator_1a1c033b7659a08fbce1c7bcc615fc879e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int AvailableContactsCount</definition>
+        <argsstring></argsstring>
+        <name>AvailableContactsCount</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IAddressBookContactsEnumerator.AvailableContactsCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/IAddressBookContactsEnumerator.cs" line="13" column="13" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/IAddressBookContactsEnumerator.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/df3/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contacts_enumerator_1a81fd65b34e3466b33240b68d8b66c438" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d51/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contact" kindref="compound">IAddressBookContact</ref></type>
+        <definition>IAddressBookContact GetContact</definition>
+        <argsstring>(int index)</argsstring>
+        <name>GetContact</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IAddressBookContactsEnumerator.GetContact</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/IAddressBookContactsEnumerator.cs" line="19" column="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/IAddressBookContactsEnumerator.cs" line="7" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/IAddressBookContactsEnumerator.cs" bodystart="8" bodyend="22"/>
+    <listofallmembers>
+      <member refid="d7/df3/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contacts_enumerator_1a1c033b7659a08fbce1c7bcc615fc879e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IAddressBookContactsEnumerator</scope><name>AvailableContactsCount</name></member>
+      <member refid="d7/df3/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contacts_enumerator_1aeae4e1754c511c08564892d93c83ada1" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IAddressBookContactsEnumerator</scope><name>BlockSize</name></member>
+      <member refid="d7/df3/interface_voxel_busters_1_1_essential_kit_1_1_i_address_book_contacts_enumerator_1a81fd65b34e3466b33240b68d8b66c438" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IAddressBookContactsEnumerator</scope><name>GetContact</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

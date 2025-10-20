@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_auth_status_change_result" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::GameServicesAuthStatusChangeResult</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="db/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_auth_status_change_result_1a262e22e12b359155297430a799125089" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="d4/d37/interface_voxel_busters_1_1_essential_kit_1_1_i_local_player" kindref="compound">ILocalPlayer</ref></type>
+        <definition>ILocalPlayer LocalPlayer</definition>
+        <argsstring></argsstring>
+        <name>LocalPlayer</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesAuthStatusChangeResult.LocalPlayer</qualifiedname>
+        <briefdescription>
+<para>The local player. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesAuthStatusChangeResult.cs" line="18" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesAuthStatusChangeResult.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="db/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_auth_status_change_result_1a9c67c7b244c9fdf50becf90c8215623c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1ab8fb6e5e8263c6835d4171148555377a" kindref="member">LocalPlayerAuthStatus</ref></type>
+        <definition>LocalPlayerAuthStatus AuthStatus</definition>
+        <argsstring></argsstring>
+        <name>AuthStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesAuthStatusChangeResult.AuthStatus</qualifiedname>
+        <briefdescription>
+<para>The value is used to determine whether user is logged in to system. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesAuthStatusChangeResult.cs" line="23" column="38" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesAuthStatusChangeResult.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="db/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_auth_status_change_result_1ad5e33982be82bda247f6576b778f7201" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GameServicesAuthStatusChangeResult</definition>
+        <argsstring>(ILocalPlayer localPlayer, LocalPlayerAuthStatus authStatus)</argsstring>
+        <name>GameServicesAuthStatusChangeResult</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesAuthStatusChangeResult.GameServicesAuthStatusChangeResult</qualifiedname>
+        <param>
+          <type><ref refid="d4/d37/interface_voxel_busters_1_1_essential_kit_1_1_i_local_player" kindref="compound">ILocalPlayer</ref></type>
+          <declname>localPlayer</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1ab8fb6e5e8263c6835d4171148555377a" kindref="member">LocalPlayerAuthStatus</ref></type>
+          <declname>authStatus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesAuthStatusChangeResult.cs" line="29" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesAuthStatusChangeResult.cs" bodystart="29" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class contains the information retrieved when <ref refid="d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services_1af07e8fb2787008eb17fa1d53b4c9e2cd" kindref="member">GameServices.Authenticate</ref> operation is completed. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesAuthStatusChangeResult.cs" line="11" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesAuthStatusChangeResult.cs" bodystart="12" bodyend="37"/>
+    <listofallmembers>
+      <member refid="db/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_auth_status_change_result_1a9c67c7b244c9fdf50becf90c8215623c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesAuthStatusChangeResult</scope><name>AuthStatus</name></member>
+      <member refid="db/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_auth_status_change_result_1ad5e33982be82bda247f6576b778f7201" prot="package" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesAuthStatusChangeResult</scope><name>GameServicesAuthStatusChangeResult</name></member>
+      <member refid="db/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_auth_status_change_result_1a262e22e12b359155297430a799125089" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesAuthStatusChangeResult</scope><name>LocalPlayer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d1/dc9/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_presenter" kind="class" language="C#" prot="package">
+    <compoundname>VoxelBusters::EssentialKit::RateMyAppPresenter</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d1/dc9/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_presenter_1a2c520f179614bceaa0efa04ae5597f74" prot="private" static="no" mutable="no">
+        <type>INativeRateMyAppInterface</type>
+        <definition>INativeRateMyAppInterface m_nativeInterface</definition>
+        <argsstring></argsstring>
+        <name>m_nativeInterface</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppPresenter.m_nativeInterface</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppPresenter.cs" line="12" column="65" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppPresenter.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dc9/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_presenter_1a2b984e89cfa9ad4f435f269197cf1f3f" prot="private" static="no" mutable="no">
+        <type>RateMyAppConfirmationDialogSettings</type>
+        <definition>RateMyAppConfirmationDialogSettings m_confirmationDialogSettings</definition>
+        <argsstring></argsstring>
+        <name>m_confirmationDialogSettings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppPresenter.m_confirmationDialogSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppPresenter.cs" line="14" column="65" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppPresenter.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dc9/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_presenter_1a3a993880e428db3892cfb14c81d31aaa" prot="private" static="no" mutable="no">
+        <type>Action&lt; <ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a6901c02c1de3d1f68dc79907159fa857" kindref="member">RateMyAppConfirmationPromptActionType</ref> &gt;</type>
+        <definition>Action&lt;RateMyAppConfirmationPromptActionType&gt; m_onConfirmationPromptAction</definition>
+        <argsstring></argsstring>
+        <name>m_onConfirmationPromptAction</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppPresenter.m_onConfirmationPromptAction</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppPresenter.cs" line="16" column="26" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppPresenter.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dc9/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_presenter_1a67778c383ee3f540bd6317bb032d0f52" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_isShowingPrompt</definition>
+        <argsstring></argsstring>
+        <name>m_isShowingPrompt</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppPresenter.m_isShowingPrompt</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppPresenter.cs" line="17" column="65" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppPresenter.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dc9/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_presenter_1a960312ff47e8327bb4284d558db65ba0" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_storeId</definition>
+        <argsstring></argsstring>
+        <name>m_storeId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppPresenter.m_storeId</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppPresenter.cs" line="18" column="65" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppPresenter.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/dc9/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_presenter_1abd700c35b8d97cc5605859d1cc457fd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RateMyAppPresenter</definition>
+        <argsstring>(string storeId, RateMyAppConfirmationDialogSettings settings, Action&lt; RateMyAppConfirmationPromptActionType &gt; onConfirmationPromptAction)</argsstring>
+        <name>RateMyAppPresenter</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppPresenter.RateMyAppPresenter</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>storeId</declname>
+        </param>
+        <param>
+          <type>RateMyAppConfirmationDialogSettings</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>Action&lt; <ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a6901c02c1de3d1f68dc79907159fa857" kindref="member">RateMyAppConfirmationPromptActionType</ref> &gt;</type>
+          <declname>onConfirmationPromptAction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppPresenter.cs" line="24" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppPresenter.cs" bodystart="24" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dc9/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_presenter_1a0d6ffb5532eede471cc23c250599f625" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IsShowing</definition>
+        <argsstring>()</argsstring>
+        <name>IsShowing</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppPresenter.IsShowing</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppPresenter.cs" line="36" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppPresenter.cs" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dc9/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_presenter_1afdcd94451f571d33a908d6edef898afe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Show</definition>
+        <argsstring>(bool skipConfirmationPrompt)</argsstring>
+        <name>Show</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppPresenter.Show</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>skipConfirmationPrompt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppPresenter.cs" line="41" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppPresenter.cs" bodystart="41" bodyend="66"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d1/dc9/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_presenter_1aad13203131b4acd257e51d4f4a3ec872" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShowReviewWindow</definition>
+        <argsstring>()</argsstring>
+        <name>ShowReviewWindow</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppPresenter.ShowReviewWindow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppPresenter.cs" line="72" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppPresenter.cs" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dc9/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_presenter_1aabbe2704e482228f84b53b3f0af549d6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OnPromptButtonPressed</definition>
+        <argsstring>(RateMyAppConfirmationPromptActionType selectedButtonType)</argsstring>
+        <name>OnPromptButtonPressed</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppPresenter.OnPromptButtonPressed</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a6901c02c1de3d1f68dc79907159fa857" kindref="member">RateMyAppConfirmationPromptActionType</ref></type>
+          <declname>selectedButtonType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppPresenter.cs" line="77" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppPresenter.cs" bodystart="77" bodyend="88"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppPresenter.cs" line="7" column="13" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppPresenter.cs" bodystart="8" bodyend="91"/>
+    <listofallmembers>
+      <member refid="d1/dc9/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_presenter_1a0d6ffb5532eede471cc23c250599f625" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppPresenter</scope><name>IsShowing</name></member>
+      <member refid="d1/dc9/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_presenter_1a2b984e89cfa9ad4f435f269197cf1f3f" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppPresenter</scope><name>m_confirmationDialogSettings</name></member>
+      <member refid="d1/dc9/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_presenter_1a67778c383ee3f540bd6317bb032d0f52" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppPresenter</scope><name>m_isShowingPrompt</name></member>
+      <member refid="d1/dc9/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_presenter_1a2c520f179614bceaa0efa04ae5597f74" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppPresenter</scope><name>m_nativeInterface</name></member>
+      <member refid="d1/dc9/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_presenter_1a3a993880e428db3892cfb14c81d31aaa" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppPresenter</scope><name>m_onConfirmationPromptAction</name></member>
+      <member refid="d1/dc9/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_presenter_1a960312ff47e8327bb4284d558db65ba0" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppPresenter</scope><name>m_storeId</name></member>
+      <member refid="d1/dc9/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_presenter_1aabbe2704e482228f84b53b3f0af549d6" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppPresenter</scope><name>OnPromptButtonPressed</name></member>
+      <member refid="d1/dc9/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_presenter_1abd700c35b8d97cc5605859d1cc457fd8" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppPresenter</scope><name>RateMyAppPresenter</name></member>
+      <member refid="d1/dc9/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_presenter_1afdcd94451f571d33a908d6edef898afe" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppPresenter</scope><name>Show</name></member>
+      <member refid="d1/dc9/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_presenter_1aad13203131b4acd257e51d4f4a3ec872" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppPresenter</scope><name>ShowReviewWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

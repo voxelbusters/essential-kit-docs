@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dd/d1b/_game_services_error_code_8cs" kind="file" language="C#">
+    <compoundname>GameServicesErrorCode.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2f5d9b001eb542801436a718e63ca16b" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>GameServicesErrorCode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesErrorCode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2f5d9b001eb542801436a718e63ca16ba88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>The error code indicating that the cause of the error could not be determined. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2f5d9b001eb542801436a718e63ca16bab932b91f686c2aa588adfd9a407155ca" prot="public">
+          <name>SystemError</name>
+          <briefdescription>
+<para>The error code indicating that an error occurred on the server. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2f5d9b001eb542801436a718e63ca16ba47423b8444592efbe331550c5620e821" prot="public">
+          <name>NetworkError</name>
+          <briefdescription>
+<para>The error code indicating that a network error occurred. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2f5d9b001eb542801436a718e63ca16bafa89fcc81e9dcfd52671c968fe4e6ddf" prot="public">
+          <name>NotAllowed</name>
+          <briefdescription>
+<para>The error code indicating that the operation was not allowed. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2f5d9b001eb542801436a718e63ca16bafb5646b7356bc139a271edb6d530c57d" prot="public">
+          <name>DataNotAvailable</name>
+          <briefdescription>
+<para>The error code indicating that the data being requested is not available. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2f5d9b001eb542801436a718e63ca16ba9ed2d871602556951e39f3cebd08d6cb" prot="public">
+          <name>NotSupported</name>
+          <briefdescription>
+<para>The error code indicating that the feature is not supported or enabled. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2f5d9b001eb542801436a718e63ca16ba05f6ffa53682f5ecd6164f8a3524733a" prot="public">
+          <name>ConfigurationError</name>
+          <briefdescription>
+<para>The error code indicating that the configuration is invalid. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2f5d9b001eb542801436a718e63ca16bad8f78ca9a692a9411afbc7584b69d043" prot="public">
+          <name>InvalidInput</name>
+          <briefdescription>
+<para>The error code indicating that the input was invalid. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2f5d9b001eb542801436a718e63ca16ba3a832abbd641468bf3f858162377b9be" prot="public">
+          <name>NotAuthenticated</name>
+          <briefdescription>
+<para>The error code indicating that the user is not authenticated. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enum used to specify the error code for game services operations. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesErrorCode.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesErrorCode.cs" bodystart="7" bodyend="45"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/GameServicesErrorCode.cs"/>
+  </compounddef>
+</doxygen>

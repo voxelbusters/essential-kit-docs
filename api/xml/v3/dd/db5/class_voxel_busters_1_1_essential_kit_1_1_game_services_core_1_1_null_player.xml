@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dd/db5/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_player" kind="class" language="C#" prot="package">
+    <compoundname>VoxelBusters::EssentialKit::GameServicesCore::NullPlayer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">PlayerBase</basecompoundref>
+    <derivedcompoundref refid="d9/d16/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_local_player" prot="public" virt="non-virtual">NullLocalPlayer</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/db5/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_player_1af30cab915af29d4958fb06971ec8cc33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NullPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>NullPlayer</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullPlayer.NullPlayer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullPlayer.cs" line="13" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullPlayer.cs" bodystart="13" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dd/db5/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_player_1a21a4c34c84e3099cf76a7e29d4e9fd3d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LoadPlayers</definition>
+        <argsstring>(string[] playerIds, LoadPlayersInternalCallback callback)</argsstring>
+        <name>LoadPlayers</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullPlayer.LoadPlayers</qualifiedname>
+        <param>
+          <type>string[]</type>
+          <declname>playerIds</declname>
+        </param>
+        <param>
+          <type>LoadPlayersInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullPlayer.cs" line="20" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullPlayer.cs" bodystart="20" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="dd/db5/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_player_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogNotSupported</definition>
+        <argsstring>()</argsstring>
+        <name>LogNotSupported</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullPlayer.LogNotSupported</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullPlayer.cs" line="31" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullPlayer.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="dd/db5/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_player_1a493ccb6c06587046625bed0d2e489d0f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string GetIdentifierInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetIdentifierInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullPlayer.GetIdentifierInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullPlayer.cs" line="40" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullPlayer.cs" bodystart="40" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db5/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_player_1aae62de9fb902fc632da7f76d0ddbe68d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string GetDeveloperScopeIdentifierInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetDeveloperScopeIdentifierInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullPlayer.GetDeveloperScopeIdentifierInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullPlayer.cs" line="47" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullPlayer.cs" bodystart="47" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db5/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_player_1a5afdf768d4f59ec81c60458b7c4b0631" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string GetLegacyIdentifierInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetLegacyIdentifierInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullPlayer.GetLegacyIdentifierInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullPlayer.cs" line="54" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullPlayer.cs" bodystart="54" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db5/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_player_1a4ba9294e132917d8086f8b4a4825c74b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string GetAliasInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetAliasInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullPlayer.GetAliasInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullPlayer.cs" line="61" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullPlayer.cs" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db5/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_player_1a3b5b8903e3b3009de79c48f1499ccc18" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string GetDisplayNameInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetDisplayNameInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullPlayer.GetDisplayNameInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullPlayer.cs" line="68" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullPlayer.cs" bodystart="68" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/db5/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_player_1af0cddca5b8f619c6aea5a5b6d9b1bfd1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void LoadImageInternal</definition>
+        <argsstring>(LoadImageInternalCallback callback)</argsstring>
+        <name>LoadImageInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesCore.NullPlayer.LoadImageInternal</qualifiedname>
+        <param>
+          <type>LoadImageInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullPlayer.cs" line="75" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullPlayer.cs" bodystart="75" bodyend="80"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullPlayer.cs" line="9" column="13" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/NullPlayer.cs" bodystart="10" bodyend="83"/>
+    <listofallmembers>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1ab2ebdabf1f5b5afb170cd94ea4d28d52" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullPlayer</scope><name>Alias</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1acb49756bb1e0cde63867c7c1fbecec5e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullPlayer</scope><name>DeveloperScopeId</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a79058db2ed94f4241d163657bcce788c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullPlayer</scope><name>DeveloperScopeIdentifier</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1aba0e038e9b973f3ba4ca520a2fb057dc" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullPlayer</scope><name>DisplayName</name></member>
+      <member refid="dd/db5/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_player_1a4ba9294e132917d8086f8b4a4825c74b" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullPlayer</scope><name>GetAliasInternal</name></member>
+      <member refid="dd/db5/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_player_1aae62de9fb902fc632da7f76d0ddbe68d" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullPlayer</scope><name>GetDeveloperScopeIdentifierInternal</name></member>
+      <member refid="dd/db5/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_player_1a3b5b8903e3b3009de79c48f1499ccc18" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullPlayer</scope><name>GetDisplayNameInternal</name></member>
+      <member refid="dd/db5/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_player_1a493ccb6c06587046625bed0d2e489d0f" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullPlayer</scope><name>GetIdentifierInternal</name></member>
+      <member refid="dd/db5/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_player_1a5afdf768d4f59ec81c60458b7c4b0631" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullPlayer</scope><name>GetLegacyIdentifierInternal</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a186291c875988107b7ace745ea84d4ec" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullPlayer</scope><name>Id</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a4df71ed6bf05109e86a43738e8f9898a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullPlayer</scope><name>Identifier</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1aa0cbc31942d14d6c3e7ac461b42388a8" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullPlayer</scope><name>LegacyId</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1abde07ef8de541da9829605a7f3d25a2c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullPlayer</scope><name>LegacyIdentifier</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a33542b43cd72bbdbcacf9801f9bef643" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullPlayer</scope><name>LoadImage</name></member>
+      <member refid="dd/db5/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_player_1af0cddca5b8f619c6aea5a5b6d9b1bfd1" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullPlayer</scope><name>LoadImageInternal</name></member>
+      <member refid="dd/db5/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_player_1a21a4c34c84e3099cf76a7e29d4e9fd3d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullPlayer</scope><name>LoadPlayers</name></member>
+      <member refid="dd/db5/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_player_1ab166cd35afb412e6c50b85b810b3e7e6" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullPlayer</scope><name>LogNotSupported</name></member>
+      <member refid="dd/db5/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_null_player_1af30cab915af29d4958fb06971ec8cc33" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullPlayer</scope><name>NullPlayer</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1a0412029283d8ef58b75b87ea684072f7" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullPlayer</scope><name>SendLoadPlayerFriendsResult</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1ab9db8d24c810870a94423f08bbea6baf" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullPlayer</scope><name>SendViewClosedResult</name></member>
+      <member refid="d3/d9e/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_player_base_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesCore::NullPlayer</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

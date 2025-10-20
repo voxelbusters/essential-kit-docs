@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_874be2a0ddaab932e78656fb4a4a00a4" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices</compoundname>
+    <innerfile refid="d4/d95/_deep_link_definition_8cs">DeepLinkDefinition.cs</innerfile>
+    <innerfile refid="da/d65/_deep_link_services_8cs">DeepLinkServices.cs</innerfile>
+    <innerfile refid="d5/d32/_deep_link_services_dynamic_link_open_result_8cs">DeepLinkServicesDynamicLinkOpenResult.cs</innerfile>
+    <innerfile refid="dc/db0/_deep_link_services_2_delegates_8cs">Delegates.cs</innerfile>
+    <innerfile refid="d4/d1c/_i_deep_link_services_delegate_8cs">IDeepLinkServicesDelegate.cs</innerfile>
+    <innerfile refid="d0/d1e/_i_native_deep_link_services_interface_8cs">INativeDeepLinkServicesInterface.cs</innerfile>
+    <innerfile refid="dd/dab/_native_deep_link_services_interface_base_8cs">NativeDeepLinkServicesInterfaceBase.cs</innerfile>
+    <innerfile refid="d0/d7f/_null_deep_link_services_interface_8cs">NullDeepLinkServicesInterface.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices/"/>
+  </compounddef>
+</doxygen>

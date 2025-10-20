@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d8/dea/class_voxel_busters_1_1_essential_kit_1_1_read_contacts_options_1_1_builder" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::ReadContactsOptions::Builder</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d8/dea/class_voxel_busters_1_1_essential_kit_1_1_read_contacts_options_1_1_builder_1ae184e87147ff2a5fe7ffc30f5284b1f8" prot="private" static="no" mutable="no">
+        <type><ref refid="d8/d39/class_voxel_busters_1_1_essential_kit_1_1_read_contacts_options" kindref="compound">ReadContactsOptions</ref></type>
+        <definition>ReadContactsOptions m_options</definition>
+        <argsstring></argsstring>
+        <name>m_options</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ReadContactsOptions.Builder.m_options</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/ReadContactsOptions.cs" line="34" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/ReadContactsOptions.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/dea/class_voxel_busters_1_1_essential_kit_1_1_read_contacts_options_1_1_builder_1a4c5b1b5b658880619647b859000724fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Builder</definition>
+        <argsstring>()</argsstring>
+        <name>Builder</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ReadContactsOptions.Builder.Builder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/ReadContactsOptions.cs" line="36" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/ReadContactsOptions.cs" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dea/class_voxel_busters_1_1_essential_kit_1_1_read_contacts_options_1_1_builder_1a227ee388897e8b4b4ce7d2e45559535f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder WithLimit</definition>
+        <argsstring>(int limit)</argsstring>
+        <name>WithLimit</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ReadContactsOptions.Builder.WithLimit</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+<para>Sets the maximum number of contacts to return. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>limit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum number of contacts to return.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current Builder instance.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/ReadContactsOptions.cs" line="46" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/ReadContactsOptions.cs" bodystart="46" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dea/class_voxel_busters_1_1_essential_kit_1_1_read_contacts_options_1_1_builder_1a222ac9e1330dcee758a0c41ed7bc4422" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder WithOffset</definition>
+        <argsstring>(int offset)</argsstring>
+        <name>WithOffset</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ReadContactsOptions.Builder.WithOffset</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+<para>Sets the number of contacts to skip. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of contacts to skip.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current Builder instance.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/ReadContactsOptions.cs" line="57" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/ReadContactsOptions.cs" bodystart="57" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dea/class_voxel_busters_1_1_essential_kit_1_1_read_contacts_options_1_1_builder_1a811db3602b06780f4f6866cac7b54436" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Builder</type>
+        <definition>Builder WithConstraints</definition>
+        <argsstring>(ReadContactsConstraint constraints)</argsstring>
+        <name>WithConstraints</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ReadContactsOptions.Builder.WithConstraints</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a95f15edccc5f9081f6ff6ba21a2d1522" kindref="member">ReadContactsConstraint</ref></type>
+          <declname>constraints</declname>
+        </param>
+        <briefdescription>
+<para>Sets the constraints for the contacts to be retrieved. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>constraints</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The constraints for the contacts to be retrieved.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current Builder instance.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/ReadContactsOptions.cs" line="68" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/ReadContactsOptions.cs" bodystart="68" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dea/class_voxel_busters_1_1_essential_kit_1_1_read_contacts_options_1_1_builder_1a2ea3f1747bd971b92e01aa74de4d7e69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d8/d39/class_voxel_busters_1_1_essential_kit_1_1_read_contacts_options" kindref="compound">ReadContactsOptions</ref></type>
+        <definition>ReadContactsOptions Build</definition>
+        <argsstring>()</argsstring>
+        <name>Build</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ReadContactsOptions.Builder.Build</qualifiedname>
+        <briefdescription>
+<para>Builds a <ref refid="d8/d39/class_voxel_busters_1_1_essential_kit_1_1_read_contacts_options" kindref="compound">ReadContactsOptions</ref> instance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The built <ref refid="d8/d39/class_voxel_busters_1_1_essential_kit_1_1_read_contacts_options" kindref="compound">ReadContactsOptions</ref> instance.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/ReadContactsOptions.cs" line="78" column="40" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/ReadContactsOptions.cs" bodystart="78" bodyend="81"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/ReadContactsOptions.cs" line="32" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook/ReadContactsOptions.cs" bodystart="33" bodyend="82"/>
+    <listofallmembers>
+      <member refid="d8/dea/class_voxel_busters_1_1_essential_kit_1_1_read_contacts_options_1_1_builder_1a2ea3f1747bd971b92e01aa74de4d7e69" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ReadContactsOptions::Builder</scope><name>Build</name></member>
+      <member refid="d8/dea/class_voxel_busters_1_1_essential_kit_1_1_read_contacts_options_1_1_builder_1a4c5b1b5b658880619647b859000724fc" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ReadContactsOptions::Builder</scope><name>Builder</name></member>
+      <member refid="d8/dea/class_voxel_busters_1_1_essential_kit_1_1_read_contacts_options_1_1_builder_1ae184e87147ff2a5fe7ffc30f5284b1f8" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ReadContactsOptions::Builder</scope><name>m_options</name></member>
+      <member refid="d8/dea/class_voxel_busters_1_1_essential_kit_1_1_read_contacts_options_1_1_builder_1a811db3602b06780f4f6866cac7b54436" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ReadContactsOptions::Builder</scope><name>WithConstraints</name></member>
+      <member refid="d8/dea/class_voxel_busters_1_1_essential_kit_1_1_read_contacts_options_1_1_builder_1a227ee388897e8b4b4ce7d2e45559535f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ReadContactsOptions::Builder</scope><name>WithLimit</name></member>
+      <member refid="d8/dea/class_voxel_busters_1_1_essential_kit_1_1_read_contacts_options_1_1_builder_1a222ac9e1330dcee758a0c41ed7bc4422" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ReadContactsOptions::Builder</scope><name>WithOffset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

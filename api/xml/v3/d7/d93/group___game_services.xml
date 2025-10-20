@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d7/d93/group___game_services" kind="group">
+    <compoundname>GameServices</compoundname>
+    <title>Game Services</title>
+    <innerclass refid="d0/d4f/class_voxel_busters_1_1_essential_kit_1_1_achievement_definition" prot="public">VoxelBusters::EssentialKit::AchievementDefinition</innerclass>
+    <innerclass refid="d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services" prot="public">VoxelBusters::EssentialKit::GameServices</innerclass>
+    <innerclass refid="db/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_auth_status_change_result" prot="public">VoxelBusters::EssentialKit::GameServicesAuthStatusChangeResult</innerclass>
+    <innerclass refid="df/dfa/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_achievement_descriptions_result" prot="public">VoxelBusters::EssentialKit::GameServicesLoadAchievementDescriptionsResult</innerclass>
+    <innerclass refid="d6/d49/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_achievements_result" prot="public">VoxelBusters::EssentialKit::GameServicesLoadAchievementsResult</innerclass>
+    <innerclass refid="d2/db3/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_leaderboards_result" prot="public">VoxelBusters::EssentialKit::GameServicesLoadLeaderboardsResult</innerclass>
+    <innerclass refid="d7/d5d/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_player_friends_result" prot="public">VoxelBusters::EssentialKit::GameServicesLoadPlayerFriendsResult</innerclass>
+    <innerclass refid="d0/dbf/class_voxel_busters_1_1_essential_kit_1_1_game_services_load_server_credentials_result" prot="public">VoxelBusters::EssentialKit::GameServicesLoadServerCredentialsResult</innerclass>
+    <innerclass refid="db/d8d/class_voxel_busters_1_1_essential_kit_1_1_game_services_view_result" prot="public">VoxelBusters::EssentialKit::GameServicesViewResult</innerclass>
+    <innerclass refid="d0/d60/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement" prot="public">VoxelBusters::EssentialKit::IAchievement</innerclass>
+    <innerclass refid="d8/ded/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement_description" prot="public">VoxelBusters::EssentialKit::IAchievementDescription</innerclass>
+    <innerclass refid="d0/d20/interface_voxel_busters_1_1_essential_kit_1_1_i_leaderboard" prot="public">VoxelBusters::EssentialKit::ILeaderboard</innerclass>
+    <innerclass refid="d6/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_leaderboard_score" prot="public">VoxelBusters::EssentialKit::ILeaderboardScore</innerclass>
+    <innerclass refid="d4/d37/interface_voxel_busters_1_1_essential_kit_1_1_i_local_player" prot="public">VoxelBusters::EssentialKit::ILocalPlayer</innerclass>
+    <innerclass refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player" prot="public">VoxelBusters::EssentialKit::IPlayer</innerclass>
+    <innerclass refid="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition" prot="public">VoxelBusters::EssentialKit::LeaderboardDefinition</innerclass>
+    <innerclass refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_load_scores_result" prot="public">VoxelBusters::EssentialKit::LeaderboardLoadScoresResult</innerclass>
+    <innerclass refid="d5/d8f/class_voxel_busters_1_1_essential_kit_1_1_server_credentials" prot="public">VoxelBusters::EssentialKit::ServerCredentials</innerclass>
+    <innerclass refid="d7/dee/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings" prot="public">VoxelBusters::EssentialKit::GameServicesUnitySettings</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="d7/d93/group___game_services_1gacdfa6f09422eb91f2f542a21d6780705" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ServerCredentialAdditionalScope</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ServerCredentialAdditionalScope</qualifiedname>
+        <enumvalue id="d7/d93/group___game_services_1ggacdfa6f09422eb91f2f542a21d6780705a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d93/group___game_services_1ggacdfa6f09422eb91f2f542a21d6780705ace8ae9da5b7cd6c3df2929543a9af92d" prot="public">
+          <name>Email</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d93/group___game_services_1ggacdfa6f09422eb91f2f542a21d6780705ab3eb4c5e3b5f619dcf8c953e5736c5d2" prot="public">
+          <name>OpenId</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d93/group___game_services_1ggacdfa6f09422eb91f2f542a21d6780705acce99c598cfdb9773ab041d54c3d973a" prot="public">
+          <name>Profile</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Specifies the additional scope of the game service credentials. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/ServerCredentialAdditionalScope.cs" line="7" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/ServerCredentialAdditionalScope.cs" bodystart="8" bodyend="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Provides cross-platform interface to easily integrate popular social gaming functionalities such as achievements, leaderboards. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

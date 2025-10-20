@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain" kind="class" language="C#" prot="public" sealed="yes">
+    <compoundname>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BillingProductBase</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1aaa9398fd35e889c84ea7e5f56238077e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_localizedTitle</definition>
+        <argsstring></argsstring>
+        <name>m_localizedTitle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingProductPlain.m_localizedTitle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" line="14" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1a558ee9bacecbc8592b83b87b01f852e3" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_localizedDescription</definition>
+        <argsstring></argsstring>
+        <name>m_localizedDescription</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingProductPlain.m_localizedDescription</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" line="16" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1a03a1aa22e10ae5252ca10d6525c5f6c7" prot="private" static="no" mutable="no">
+        <type><ref refid="df/df5/class_voxel_busters_1_1_essential_kit_1_1_billing_price" kindref="compound">BillingPrice</ref></type>
+        <definition>BillingPrice m_price</definition>
+        <argsstring></argsstring>
+        <name>m_price</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingProductPlain.m_price</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" line="18" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1aa4b2fd5ca359573fa08c98244c2e15ea" prot="private" static="no" mutable="no">
+        <type><ref refid="df/d2b/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_info" kindref="compound">BillingProductSubscriptionInfo</ref></type>
+        <definition>BillingProductSubscriptionInfo m_subscriptionInfo</definition>
+        <argsstring></argsstring>
+        <name>m_subscriptionInfo</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingProductPlain.m_subscriptionInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" line="20" column="52" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1a2d5b5596ed482c014eaa483b016d88bc" prot="private" static="no" mutable="no">
+        <type>IEnumerable&lt; <ref refid="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer" kindref="compound">BillingProductOffer</ref> &gt;</type>
+        <definition>IEnumerable&lt;BillingProductOffer&gt; m_offers</definition>
+        <argsstring></argsstring>
+        <name>m_offers</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingProductPlain.m_offers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" line="22" column="48" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1af4560b49e21695a89b9e69a157588322" prot="private" static="no" mutable="no">
+        <type>IEnumerable&lt; <ref refid="d7/d25/class_voxel_busters_1_1_essential_kit_1_1_billing_product_payout_definition" kindref="compound">BillingProductPayoutDefinition</ref> &gt;</type>
+        <definition>IEnumerable&lt;BillingProductPayoutDefinition&gt; m_payouts</definition>
+        <argsstring></argsstring>
+        <name>m_payouts</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingProductPlain.m_payouts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" line="23" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1a0f6f4042b8a9e17814ecda990e1138f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BillingProductPlain</definition>
+        <argsstring>(string id, string platformId, BillingProductType type, string localizedTitle, string localizedDescription, BillingPrice price, BillingProductSubscriptionInfo subscriptionInfo, IEnumerable&lt; BillingProductOffer &gt; offers, IEnumerable&lt; BillingProductPayoutDefinition &gt; payouts)</argsstring>
+        <name>BillingProductPlain</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingProductPlain.BillingProductPlain</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>platformId</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a8a4514d4d8550dedff67772e8a230121" kindref="member">BillingProductType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>localizedTitle</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>localizedDescription</declname>
+        </param>
+        <param>
+          <type><ref refid="df/df5/class_voxel_busters_1_1_essential_kit_1_1_billing_price" kindref="compound">BillingPrice</ref></type>
+          <declname>price</declname>
+        </param>
+        <param>
+          <type><ref refid="df/d2b/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_info" kindref="compound">BillingProductSubscriptionInfo</ref></type>
+          <declname>subscriptionInfo</declname>
+        </param>
+        <param>
+          <type>IEnumerable&lt; <ref refid="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer" kindref="compound">BillingProductOffer</ref> &gt;</type>
+          <declname>offers</declname>
+        </param>
+        <param>
+          <type>IEnumerable&lt; <ref refid="d7/d25/class_voxel_busters_1_1_essential_kit_1_1_billing_product_payout_definition" kindref="compound">BillingProductPayoutDefinition</ref> &gt;</type>
+          <declname>payouts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" line="29" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" bodystart="29" bodyend="47"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1a4ab8f8fc2eacf32f4ca7359357f179d6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>~BillingProductPlain</definition>
+        <argsstring>()</argsstring>
+        <name>~BillingProductPlain</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingProductPlain.~BillingProductPlain</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" line="49" column="9" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" bodystart="49" bodyend="52"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1aaab861cf9567647627d1bb13968546f7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string GetLocalizedTitleInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetLocalizedTitleInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingProductPlain.GetLocalizedTitleInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" line="58" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1ad05973cdc3c51e667fbf893db65a712d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string GetLocalizedDescriptionInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetLocalizedDescriptionInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingProductPlain.GetLocalizedDescriptionInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" line="63" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1a75da119a86a75c7ef601af0ba5d986ac" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override <ref refid="df/df5/class_voxel_busters_1_1_essential_kit_1_1_billing_price" kindref="compound">BillingPrice</ref></type>
+        <definition>override BillingPrice GetPriceInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetPriceInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingProductPlain.GetPriceInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" line="68" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1a325899b6e9f0253129c7afa32eed7fc2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override <ref refid="df/d2b/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_info" kindref="compound">BillingProductSubscriptionInfo</ref></type>
+        <definition>override BillingProductSubscriptionInfo GetSubscriptionInfoInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetSubscriptionInfoInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingProductPlain.GetSubscriptionInfoInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" line="73" column="59" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1a4d101ada9385ebbadd2f7989acdfb036" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override IEnumerable&lt; <ref refid="d3/d1c/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer" kindref="compound">BillingProductOffer</ref> &gt;</type>
+        <definition>override IEnumerable&lt; BillingProductOffer &gt; GetOffersInternal</definition>
+        <argsstring>()</argsstring>
+        <name>GetOffersInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingServicesCore.BillingProductPlain.GetOffersInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" line="78" column="40" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" bodystart="78" bodyend="81"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductPlain.cs" bodystart="11" bodyend="84"/>
+    <listofallmembers>
+      <member refid="dd/d55/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_base_1a062223f4e0eaa0d36b7142f27ca688f6" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>BillingProductBase</name></member>
+      <member refid="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1a0f6f4042b8a9e17814ecda990e1138f2" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>BillingProductPlain</name></member>
+      <member refid="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1ad05973cdc3c51e667fbf893db65a712d" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>GetLocalizedDescriptionInternal</name></member>
+      <member refid="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1aaab861cf9567647627d1bb13968546f7" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>GetLocalizedTitleInternal</name></member>
+      <member refid="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1a4d101ada9385ebbadd2f7989acdfb036" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>GetOffersInternal</name></member>
+      <member refid="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1a75da119a86a75c7ef601af0ba5d986ac" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>GetPriceInternal</name></member>
+      <member refid="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1a325899b6e9f0253129c7afa32eed7fc2" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>GetSubscriptionInfoInternal</name></member>
+      <member refid="dd/d55/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_base_1a186291c875988107b7ace745ea84d4ec" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>Id</name></member>
+      <member refid="dd/d55/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_base_1a7a547596c0c095817d16bbe4ba4c48f4" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>IsAvailable</name></member>
+      <member refid="dd/d55/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_base_1a56f21f8565f2390ce337b10079617f9c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>LocalizedDescription</name></member>
+      <member refid="dd/d55/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_base_1a244402a53e71855c3657ff810ec10ce2" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>LocalizedPrice</name></member>
+      <member refid="dd/d55/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_base_1ad9ee522e4f448d905eafc4f6fabf2826" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>LocalizedTitle</name></member>
+      <member refid="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1a558ee9bacecbc8592b83b87b01f852e3" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>m_localizedDescription</name></member>
+      <member refid="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1aaa9398fd35e889c84ea7e5f56238077e" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>m_localizedTitle</name></member>
+      <member refid="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1a2d5b5596ed482c014eaa483b016d88bc" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>m_offers</name></member>
+      <member refid="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1af4560b49e21695a89b9e69a157588322" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>m_payouts</name></member>
+      <member refid="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1a03a1aa22e10ae5252ca10d6525c5f6c7" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>m_price</name></member>
+      <member refid="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1aa4b2fd5ca359573fa08c98244c2e15ea" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>m_subscriptionInfo</name></member>
+      <member refid="dd/d55/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_base_1a89216eeff4a60dbb2245e17af7ade4fb" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>Offers</name></member>
+      <member refid="dd/d55/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_base_1a46c5091225f0310f95a62eddd018b1b5" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>Payouts</name></member>
+      <member refid="dd/d55/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_base_1a4305da1d4a33e2d56b149fc3c41a617c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>PlatformId</name></member>
+      <member refid="dd/d55/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_base_1ac2d969105619923c5bd8178126e392f9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>Price</name></member>
+      <member refid="dd/d55/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_base_1aac16f291ef94a11441762be578dd9cc5" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>PriceCurrencyCode</name></member>
+      <member refid="dd/d55/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_base_1afe249c7db8a45fe12fb79fba017322d7" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>PriceCurrencySymbol</name></member>
+      <member refid="dd/d55/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_base_1adbd9a6d2948820b25ade53b33fde24e8" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>SubscriptionInfo</name></member>
+      <member refid="dd/d55/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_base_1a4b7f4dc326555ee4a2f96d52622475cd" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>Tag</name></member>
+      <member refid="dd/d55/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_base_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>ToString</name></member>
+      <member refid="dd/d55/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_base_1ae69afa0989d92c42339f62e5e2f1ee14" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>Type</name></member>
+      <member refid="dd/ddc/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_product_plain_1a4ab8f8fc2eacf32f4ca7359357f179d6" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesCore::BillingProductPlain</scope><name>~BillingProductPlain</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

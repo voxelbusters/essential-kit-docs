@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d1/d8b/group___notification_services" kind="group">
+    <compoundname>NotificationServices</compoundname>
+    <title>Notification Services</title>
+    <innerclass refid="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger" prot="public">VoxelBusters::EssentialKit::CalendarNotificationTrigger</innerclass>
+    <innerclass refid="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification" prot="public">VoxelBusters::EssentialKit::INotification</innerclass>
+    <innerclass refid="d2/df5/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_trigger" prot="public">VoxelBusters::EssentialKit::INotificationTrigger</innerclass>
+    <innerclass refid="d2/da4/class_voxel_busters_1_1_essential_kit_1_1_notification_android_properties" prot="public">VoxelBusters::EssentialKit::NotificationAndroidProperties</innerclass>
+    <innerclass refid="da/dd7/class_voxel_busters_1_1_essential_kit_1_1_notification_builder" prot="public">VoxelBusters::EssentialKit::NotificationBuilder</innerclass>
+    <innerclass refid="da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel" prot="public">VoxelBusters::EssentialKit::NotificationChannel</innerclass>
+    <innerclass refid="dc/d6b/class_voxel_busters_1_1_essential_kit_1_1_notification_ios_properties" prot="public">VoxelBusters::EssentialKit::NotificationIosProperties</innerclass>
+    <innerclass refid="da/d97/class_voxel_busters_1_1_essential_kit_1_1_notification_services" prot="public">VoxelBusters::EssentialKit::NotificationServices</innerclass>
+    <innerclass refid="d1/d63/class_voxel_busters_1_1_essential_kit_1_1_notification_services_get_delivered_notifications_result" prot="public">VoxelBusters::EssentialKit::NotificationServicesGetDeliveredNotificationsResult</innerclass>
+    <innerclass refid="d3/dbe/class_voxel_busters_1_1_essential_kit_1_1_notification_services_get_scheduled_notifications_result" prot="public">VoxelBusters::EssentialKit::NotificationServicesGetScheduledNotificationsResult</innerclass>
+    <innerclass refid="d9/d6e/class_voxel_busters_1_1_essential_kit_1_1_notification_services_get_settings_result" prot="public">VoxelBusters::EssentialKit::NotificationServicesGetSettingsResult</innerclass>
+    <innerclass refid="da/da8/class_voxel_busters_1_1_essential_kit_1_1_notification_services_notification_received_result" prot="public">VoxelBusters::EssentialKit::NotificationServicesNotificationReceivedResult</innerclass>
+    <innerclass refid="d5/df0/class_voxel_busters_1_1_essential_kit_1_1_notification_services_register_for_push_notifications_result" prot="public">VoxelBusters::EssentialKit::NotificationServicesRegisterForPushNotificationsResult</innerclass>
+    <innerclass refid="da/dc1/class_voxel_busters_1_1_essential_kit_1_1_notification_services_request_permission_result" prot="public">VoxelBusters::EssentialKit::NotificationServicesRequestPermissionResult</innerclass>
+    <innerclass refid="d9/d1b/class_voxel_busters_1_1_essential_kit_1_1_time_interval_notification_trigger" prot="public">VoxelBusters::EssentialKit::TimeIntervalNotificationTrigger</innerclass>
+    <briefdescription>
+<para>Provides cross-platform interface for scheduling, registering and handling notifications. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

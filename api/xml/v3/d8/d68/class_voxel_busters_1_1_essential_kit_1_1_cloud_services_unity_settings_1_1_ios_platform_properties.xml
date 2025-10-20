@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d8/d68/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings_1_1_ios_platform_properties" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::CloudServicesUnitySettings::IosPlatformProperties</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d8/d68/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings_1_1_ios_platform_properties_1a0a8ec8ea0f1fd33c3472becc863f3d87" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_substituteEntitlementIdentifiers</definition>
+        <argsstring></argsstring>
+        <name>m_substituteEntitlementIdentifiers</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesUnitySettings.IosPlatformProperties.m_substituteEntitlementIdentifiers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/CloudServicesUnitySettings.IosPlatformProperties.cs" line="15" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/CloudServicesUnitySettings.IosPlatformProperties.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d8/d68/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings_1_1_ios_platform_properties_1ac03c372ea1b60022d2e8b58da76be425" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool SubstituteEntitlementIdentifiers</definition>
+        <argsstring></argsstring>
+        <name>SubstituteEntitlementIdentifiers</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesUnitySettings.IosPlatformProperties.SubstituteEntitlementIdentifiers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/CloudServicesUnitySettings.IosPlatformProperties.cs" line="21" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/CloudServicesUnitySettings.IosPlatformProperties.cs" bodystart="22" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/d68/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings_1_1_ios_platform_properties_1aa6928a7fcde09d2fc53e36fd66e7d369" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>IosPlatformProperties</definition>
+        <argsstring>(bool substituteEntitlementIdentifiers=false)</argsstring>
+        <name>IosPlatformProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesUnitySettings.IosPlatformProperties.IosPlatformProperties</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>substituteEntitlementIdentifiers</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/CloudServicesUnitySettings.IosPlatformProperties.cs" line="37" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/CloudServicesUnitySettings.IosPlatformProperties.cs" bodystart="37" bodyend="41"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/CloudServicesUnitySettings.IosPlatformProperties.cs" line="9" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/CloudServicesUnitySettings.IosPlatformProperties.cs" bodystart="10" bodyend="44"/>
+    <listofallmembers>
+      <member refid="d8/d68/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings_1_1_ios_platform_properties_1aa6928a7fcde09d2fc53e36fd66e7d369" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesUnitySettings::IosPlatformProperties</scope><name>IosPlatformProperties</name></member>
+      <member refid="d8/d68/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings_1_1_ios_platform_properties_1a0a8ec8ea0f1fd33c3472becc863f3d87" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesUnitySettings::IosPlatformProperties</scope><name>m_substituteEntitlementIdentifiers</name></member>
+      <member refid="d8/d68/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings_1_1_ios_platform_properties_1ac03c372ea1b60022d2e8b58da76be425" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServicesUnitySettings::IosPlatformProperties</scope><name>SubstituteEntitlementIdentifiers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

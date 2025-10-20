@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/dfc/class_voxel_busters_1_1_core_library_1_1_read_only_attribute" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::ReadOnlyAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">PropertyAttribute</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="db/dfc/class_voxel_busters_1_1_core_library_1_1_read_only_attribute_1a40e8debace0cc6f4f7baa0fdd309c103" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Message</definition>
+        <argsstring></argsstring>
+        <name>Message</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReadOnlyAttribute.Message</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ReadOnlyAttribute.cs" line="7" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ReadOnlyAttribute.cs" bodystart="8" bodyend="11"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/dfc/class_voxel_busters_1_1_core_library_1_1_read_only_attribute_1a7d69df23adb967afeb2da26ab7d2fe26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ReadOnlyAttribute</definition>
+        <argsstring>(string message=null)</argsstring>
+        <name>ReadOnlyAttribute</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ReadOnlyAttribute.ReadOnlyAttribute</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Marks field to be read-only in the inspector. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ReadOnlyAttribute.cs" line="17" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ReadOnlyAttribute.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ReadOnlyAttribute.cs" line="5" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Attributes/ReadOnlyAttribute.cs" bodystart="6" bodyend="21"/>
+    <listofallmembers>
+      <member refid="db/dfc/class_voxel_busters_1_1_core_library_1_1_read_only_attribute_1a40e8debace0cc6f4f7baa0fdd309c103" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReadOnlyAttribute</scope><name>Message</name></member>
+      <member refid="db/dfc/class_voxel_busters_1_1_core_library_1_1_read_only_attribute_1a7d69df23adb967afeb2da26ab7d2fe26" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ReadOnlyAttribute</scope><name>ReadOnlyAttribute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

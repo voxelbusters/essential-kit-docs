@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/d8b/class_voxel_busters_1_1_core_library_1_1_unity_engine_utility" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::UnityEngineUtility</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d9/d8b/class_voxel_busters_1_1_core_library_1_1_unity_engine_utility_1afe130945746d842382529e736aa9e692" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>static Vector2 InvertScreenPosition</definition>
+        <argsstring>(Vector2 position, bool invertX=true, bool invertY=true)</argsstring>
+        <name>InvertScreenPosition</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.UnityEngineUtility.InvertScreenPosition</qualifiedname>
+        <param>
+          <type>Vector2</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>invertX</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>invertY</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityEngineUtility.cs" line="11" column="31" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityEngineUtility.cs" bodystart="11" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityEngineUtility.cs" line="7" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityEngineUtility.cs" bodystart="8" bodyend="26"/>
+    <listofallmembers>
+      <member refid="d9/d8b/class_voxel_busters_1_1_core_library_1_1_unity_engine_utility_1afe130945746d842382529e736aa9e692" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::UnityEngineUtility</scope><name>InvertScreenPosition</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

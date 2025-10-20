@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="df/db6/class_voxel_busters_1_1_essential_kit_1_1_billing_utility" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::BillingUtility</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="df/db6/class_voxel_busters_1_1_essential_kit_1_1_billing_utility_1af81bd6d1fe189880b82f4139b02f6ca2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IsNull</definition>
+        <argsstring>(this IBillingProduct billingProduct)</argsstring>
+        <name>IsNull</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingUtility.IsNull</qualifiedname>
+        <param>
+          <type>this <ref refid="d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product" kindref="compound">IBillingProduct</ref></type>
+          <declname>billingProduct</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductUtility.cs" line="11" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductUtility.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductUtility.cs" line="7" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingProductUtility.cs" bodystart="8" bodyend="17"/>
+    <listofallmembers>
+      <member refid="df/db6/class_voxel_busters_1_1_essential_kit_1_1_billing_utility_1af81bd6d1fe189880b82f4139b02f6ca2" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingUtility</scope><name>IsNull</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

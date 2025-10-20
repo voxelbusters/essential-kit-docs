@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d3/d18/interface_voxel_busters_1_1_essential_kit_1_1_i_unity_u_i_date_picker" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::IUnityUIDatePicker</compoundname>
+    <derivedcompoundref refid="d7/de6/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_unity_u_i_date_picker" prot="public" virt="non-virtual">UnityUIDatePicker</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d3/d18/interface_voxel_busters_1_1_essential_kit_1_1_i_unity_u_i_date_picker_1ac2ef80de1e7f6840f5df28ff1d83beec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a3c684be76fc389f509b5926f69d1d67b" kindref="member">DatePickerMode</ref></type>
+        <definition>DatePickerMode Mode</definition>
+        <argsstring></argsstring>
+        <name>Mode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IUnityUIDatePicker.Mode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/IUnityUIDatePicker.cs" line="13" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/IUnityUIDatePicker.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d18/interface_voxel_busters_1_1_essential_kit_1_1_i_unity_u_i_date_picker_1a3679f621153b5fe6d1e3756dcb852914" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? MinDate</definition>
+        <argsstring></argsstring>
+        <name>MinDate</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IUnityUIDatePicker.MinDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/IUnityUIDatePicker.cs" line="15" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/IUnityUIDatePicker.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d18/interface_voxel_busters_1_1_essential_kit_1_1_i_unity_u_i_date_picker_1a08c7c03afbb0b35c02616742d562018b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? MaxDate</definition>
+        <argsstring></argsstring>
+        <name>MaxDate</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IUnityUIDatePicker.MaxDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/IUnityUIDatePicker.cs" line="17" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/IUnityUIDatePicker.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d18/interface_voxel_busters_1_1_essential_kit_1_1_i_unity_u_i_date_picker_1ab3744691e2ccd55d7a50497bea40747b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? InitialDate</definition>
+        <argsstring></argsstring>
+        <name>InitialDate</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IUnityUIDatePicker.InitialDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/IUnityUIDatePicker.cs" line="19" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/IUnityUIDatePicker.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d18/interface_voxel_busters_1_1_essential_kit_1_1_i_unity_u_i_date_picker_1a6c2a65fa4af67cff1bdc77f047c8972b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTimeKind</type>
+        <definition>DateTimeKind Kind</definition>
+        <argsstring></argsstring>
+        <name>Kind</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IUnityUIDatePicker.Kind</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/IUnityUIDatePicker.cs" line="21" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/IUnityUIDatePicker.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d18/interface_voxel_busters_1_1_essential_kit_1_1_i_unity_u_i_date_picker_1a2733c3e7bd958ded435da1a3091dd0c1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime SelectedDate</definition>
+        <argsstring></argsstring>
+        <name>SelectedDate</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IUnityUIDatePicker.SelectedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/IUnityUIDatePicker.cs" line="23" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/IUnityUIDatePicker.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d18/interface_voxel_busters_1_1_essential_kit_1_1_i_unity_u_i_date_picker_1ace79e5f49885e486e8e1d48ff0666476" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Show</definition>
+        <argsstring>()</argsstring>
+        <name>Show</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IUnityUIDatePicker.Show</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/IUnityUIDatePicker.cs" line="29" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d18/interface_voxel_busters_1_1_essential_kit_1_1_i_unity_u_i_date_picker_1a2dc0328d6536702d44a2c38d1a9a2b53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dismiss</definition>
+        <argsstring>()</argsstring>
+        <name>Dismiss</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IUnityUIDatePicker.Dismiss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/IUnityUIDatePicker.cs" line="31" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d18/interface_voxel_busters_1_1_essential_kit_1_1_i_unity_u_i_date_picker_1a036ce6dbb365df20fbdd41126b4de5af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetCompletionCallback</definition>
+        <argsstring>(EventCallback&lt; DateTime?&gt; callback)</argsstring>
+        <name>SetCompletionCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IUnityUIDatePicker.SetCompletionCallback</qualifiedname>
+        <param>
+          <type>EventCallback&lt; DateTime?&gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/IUnityUIDatePicker.cs" line="33" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/IUnityUIDatePicker.cs" line="9" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/IUnityUIDatePicker.cs" bodystart="10" bodyend="36"/>
+    <listofallmembers>
+      <member refid="d3/d18/interface_voxel_busters_1_1_essential_kit_1_1_i_unity_u_i_date_picker_1a2dc0328d6536702d44a2c38d1a9a2b53" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IUnityUIDatePicker</scope><name>Dismiss</name></member>
+      <member refid="d3/d18/interface_voxel_busters_1_1_essential_kit_1_1_i_unity_u_i_date_picker_1ab3744691e2ccd55d7a50497bea40747b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IUnityUIDatePicker</scope><name>InitialDate</name></member>
+      <member refid="d3/d18/interface_voxel_busters_1_1_essential_kit_1_1_i_unity_u_i_date_picker_1a6c2a65fa4af67cff1bdc77f047c8972b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IUnityUIDatePicker</scope><name>Kind</name></member>
+      <member refid="d3/d18/interface_voxel_busters_1_1_essential_kit_1_1_i_unity_u_i_date_picker_1a08c7c03afbb0b35c02616742d562018b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IUnityUIDatePicker</scope><name>MaxDate</name></member>
+      <member refid="d3/d18/interface_voxel_busters_1_1_essential_kit_1_1_i_unity_u_i_date_picker_1a3679f621153b5fe6d1e3756dcb852914" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IUnityUIDatePicker</scope><name>MinDate</name></member>
+      <member refid="d3/d18/interface_voxel_busters_1_1_essential_kit_1_1_i_unity_u_i_date_picker_1ac2ef80de1e7f6840f5df28ff1d83beec" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IUnityUIDatePicker</scope><name>Mode</name></member>
+      <member refid="d3/d18/interface_voxel_busters_1_1_essential_kit_1_1_i_unity_u_i_date_picker_1a2733c3e7bd958ded435da1a3091dd0c1" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IUnityUIDatePicker</scope><name>SelectedDate</name></member>
+      <member refid="d3/d18/interface_voxel_busters_1_1_essential_kit_1_1_i_unity_u_i_date_picker_1a036ce6dbb365df20fbdd41126b4de5af" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IUnityUIDatePicker</scope><name>SetCompletionCallback</name></member>
+      <member refid="d3/d18/interface_voxel_busters_1_1_essential_kit_1_1_i_unity_u_i_date_picker_1ace79e5f49885e486e8e1d48ff0666476" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IUnityUIDatePicker</scope><name>Show</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

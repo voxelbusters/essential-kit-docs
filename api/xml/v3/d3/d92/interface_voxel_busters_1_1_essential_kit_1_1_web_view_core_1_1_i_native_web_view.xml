@@ -1,0 +1,459 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">INativeFeatureInterface</basecompoundref>
+    <derivedcompoundref refid="df/d29/class_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_native_web_view_base" prot="public" virt="non-virtual">NativeWebViewBase</derivedcompoundref>
+    <derivedcompoundref refid="db/d37/class_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_null_native_web_view" prot="public" virt="non-virtual">NullNativeWebView</derivedcompoundref>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a839c237d636670017563132aa312ce4e" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>WebViewInternalCallback</type>
+        <definition>WebViewInternalCallback OnShow</definition>
+        <argsstring></argsstring>
+        <name>OnShow</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.OnShow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="12" column="39" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a6c4f6e46810ecd88a152294230852b72" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>WebViewInternalCallback</type>
+        <definition>WebViewInternalCallback OnHide</definition>
+        <argsstring></argsstring>
+        <name>OnHide</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.OnHide</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="14" column="39" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1aed82b54a666c2f5e51d10619ecf14e39" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>WebViewInternalCallback</type>
+        <definition>WebViewInternalCallback OnLoadStart</definition>
+        <argsstring></argsstring>
+        <name>OnLoadStart</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.OnLoadStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="16" column="39" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a8d19424bd04b8352952c4c1446f0e88f" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>WebViewInternalCallback</type>
+        <definition>WebViewInternalCallback OnLoadFinish</definition>
+        <argsstring></argsstring>
+        <name>OnLoadFinish</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.OnLoadFinish</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="18" column="39" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a6e4045cbb40ca8343cb720627b948dfa" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>URLSchemeMatchFoundInternalCallback</type>
+        <definition>URLSchemeMatchFoundInternalCallback OnURLSchemeMatchFound</definition>
+        <argsstring></argsstring>
+        <name>OnURLSchemeMatchFound</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.OnURLSchemeMatchFound</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="20" column="51" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a4bdc292f60f25677eb4b8b2cacd618de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetURL</definition>
+        <argsstring>()</argsstring>
+        <name>GetURL</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.GetURL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="26" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a651d92a8c37690633d229e8385ab7d8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string GetTitle</definition>
+        <argsstring>()</argsstring>
+        <name>GetTitle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.GetTitle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="28" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1abcbbcd525487aac04bc9ba7556b70d79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetFrame</definition>
+        <argsstring>(Rect value)</argsstring>
+        <name>SetFrame</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.SetFrame</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="30" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1ad68b1dbf405d615706ad40dba03155c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetStyle</definition>
+        <argsstring>(WebViewStyle style)</argsstring>
+        <name>SetStyle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.SetStyle</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1affd0f8f037d8080ee2f06ec06f710a53" kindref="member">WebViewStyle</ref></type>
+          <declname>style</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="32" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1ade40a1f961890eba6354f4c27477ded4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetScalesPageToFit</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>SetScalesPageToFit</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.SetScalesPageToFit</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="34" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a25bdc6e57d25abcb1e17eb302307f93a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetCanBounce</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>SetCanBounce</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.SetCanBounce</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="36" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a8c670d4300acbc93a01dcc232e61942c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetBackgroundColor</definition>
+        <argsstring>(Color value)</argsstring>
+        <name>SetBackgroundColor</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.SetBackgroundColor</qualifiedname>
+        <param>
+          <type>Color</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="38" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1aacee7e11d49c23977251bd8825ede0a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double GetProgress</definition>
+        <argsstring>()</argsstring>
+        <name>GetProgress</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.GetProgress</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="40" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a7d8eb304664ad1875065e4dc34c2c993" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GetIsLoading</definition>
+        <argsstring>()</argsstring>
+        <name>GetIsLoading</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.GetIsLoading</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="42" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1ad2f644cd3ea730bf3a3fc61dcc05add1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetJavaScriptEnabled</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>SetJavaScriptEnabled</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.SetJavaScriptEnabled</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="44" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1ace79e5f49885e486e8e1d48ff0666476" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Show</definition>
+        <argsstring>()</argsstring>
+        <name>Show</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.Show</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="46" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a130bc36524c72ad408ecd7338f1e0070" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hide</definition>
+        <argsstring>()</argsstring>
+        <name>Hide</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.Hide</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="48" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1ae03067c88cb9ac0c0227bd579a055158" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoadURL</definition>
+        <argsstring>(string url)</argsstring>
+        <name>LoadURL</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.LoadURL</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="50" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a8455663e979096454e402790bbbd9063" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoadHtmlString</definition>
+        <argsstring>(string htmlString, string baseURL)</argsstring>
+        <name>LoadHtmlString</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.LoadHtmlString</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>htmlString</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>baseURL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="52" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a65eabe72a21fbfd61e84657c56bee0b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoadData</definition>
+        <argsstring>(byte[] data, string mimeType, string textEncodingName, string baseURL)</argsstring>
+        <name>LoadData</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.LoadData</qualifiedname>
+        <param>
+          <type>byte[]</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>mimeType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>textEncodingName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>baseURL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="54" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a7c6d9cfe80065438024b2055c8cf0a04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Reload</definition>
+        <argsstring>()</argsstring>
+        <name>Reload</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.Reload</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="56" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a55ba6d9d9191b3677653da99caf2dfa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StopLoading</definition>
+        <argsstring>()</argsstring>
+        <name>StopLoading</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.StopLoading</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="58" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a0d8a57bfee1d799623fd85ac6401b3be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RunJavaScript</definition>
+        <argsstring>(string script, RunJavaScriptInternalCallback callback)</argsstring>
+        <name>RunJavaScript</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.RunJavaScript</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>script</declname>
+        </param>
+        <param>
+          <type>RunJavaScriptInternalCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="60" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1ac4fc8c6e98249384505af6184353e3d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddURLScheme</definition>
+        <argsstring>(string urlScheme)</argsstring>
+        <name>AddURLScheme</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.AddURLScheme</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>urlScheme</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="62" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1aea2a8b1459158c87bd97b2541537126a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClearCache</definition>
+        <argsstring>()</argsstring>
+        <name>ClearCache</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewCore.INativeWebView.ClearCache</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="64" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" line="8" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/INativeWebView.cs" bodystart="9" bodyend="67"/>
+    <listofallmembers>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1ac4fc8c6e98249384505af6184353e3d5" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>AddURLScheme</name></member>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1aea2a8b1459158c87bd97b2541537126a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>ClearCache</name></member>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a7d8eb304664ad1875065e4dc34c2c993" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>GetIsLoading</name></member>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1aacee7e11d49c23977251bd8825ede0a9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>GetProgress</name></member>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a651d92a8c37690633d229e8385ab7d8f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>GetTitle</name></member>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a4bdc292f60f25677eb4b8b2cacd618de" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>GetURL</name></member>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a130bc36524c72ad408ecd7338f1e0070" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>Hide</name></member>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a65eabe72a21fbfd61e84657c56bee0b7" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>LoadData</name></member>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a8455663e979096454e402790bbbd9063" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>LoadHtmlString</name></member>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1ae03067c88cb9ac0c0227bd579a055158" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>LoadURL</name></member>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a6c4f6e46810ecd88a152294230852b72" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>OnHide</name></member>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a8d19424bd04b8352952c4c1446f0e88f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>OnLoadFinish</name></member>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1aed82b54a666c2f5e51d10619ecf14e39" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>OnLoadStart</name></member>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a839c237d636670017563132aa312ce4e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>OnShow</name></member>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a6e4045cbb40ca8343cb720627b948dfa" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>OnURLSchemeMatchFound</name></member>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a7c6d9cfe80065438024b2055c8cf0a04" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>Reload</name></member>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a0d8a57bfee1d799623fd85ac6401b3be" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>RunJavaScript</name></member>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a8c670d4300acbc93a01dcc232e61942c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>SetBackgroundColor</name></member>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a25bdc6e57d25abcb1e17eb302307f93a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>SetCanBounce</name></member>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1abcbbcd525487aac04bc9ba7556b70d79" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>SetFrame</name></member>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1ad2f644cd3ea730bf3a3fc61dcc05add1" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>SetJavaScriptEnabled</name></member>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1ade40a1f961890eba6354f4c27477ded4" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>SetScalesPageToFit</name></member>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1ad68b1dbf405d615706ad40dba03155c3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>SetStyle</name></member>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1ace79e5f49885e486e8e1d48ff0666476" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>Show</name></member>
+      <member refid="d3/d92/interface_voxel_busters_1_1_essential_kit_1_1_web_view_core_1_1_i_native_web_view_1a55ba6d9d9191b3677653da99caf2dfa5" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewCore::INativeWebView</scope><name>StopLoading</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

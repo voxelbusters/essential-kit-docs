@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger" kind="class" language="C#" prot="public" sealed="yes">
+    <compoundname>VoxelBusters::EssentialKit::CalendarNotificationTrigger</compoundname>
+    <basecompoundref refid="d2/df5/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_trigger" prot="public" virt="non-virtual">INotificationTrigger</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger_1a95b5cfe3cf127d1fe48d7eaecd7c86d1" prot="private" static="no" mutable="no">
+        <type><ref refid="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger_1a83989be25aa18480bb7255774e77b01b" kindref="member">DateComponents</ref></type>
+        <definition>DateComponents m_dateComponents</definition>
+        <argsstring></argsstring>
+        <name>m_dateComponents</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CalendarNotificationTrigger.m_dateComponents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/CalendarNotificationTrigger.cs" line="19" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/CalendarNotificationTrigger.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger_1a22158ad440b3a7cbe836caa5bcd3bb9b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_repeats</definition>
+        <argsstring></argsstring>
+        <name>m_repeats</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CalendarNotificationTrigger.m_repeats</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/CalendarNotificationTrigger.cs" line="22" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/CalendarNotificationTrigger.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger_1a218d6b2aa6e04869aa7d4947fb17f676" prot="private" static="no" mutable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? m_nextTriggerDate</definition>
+        <argsstring></argsstring>
+        <name>m_nextTriggerDate</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CalendarNotificationTrigger.m_nextTriggerDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/CalendarNotificationTrigger.cs" line="24" column="40" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/CalendarNotificationTrigger.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger_1a83989be25aa18480bb7255774e77b01b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>DateComponents</type>
+        <definition>DateComponents DateComponents</definition>
+        <argsstring></argsstring>
+        <name>DateComponents</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CalendarNotificationTrigger.DateComponents</qualifiedname>
+        <briefdescription>
+<para>The temporal information to use when constructing the trigger. Provide only the date components that are relevant for your trigger. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/CalendarNotificationTrigger.cs" line="33" column="31" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/CalendarNotificationTrigger.cs" bodystart="34" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger_1aebb4a4fe44825c64fb96a37fa1eafaa8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? NextTriggerDate</definition>
+        <argsstring></argsstring>
+        <name>NextTriggerDate</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CalendarNotificationTrigger.NextTriggerDate</qualifiedname>
+        <briefdescription>
+<para>The next date at which the trigger conditions will be met. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/CalendarNotificationTrigger.cs" line="44" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/CalendarNotificationTrigger.cs" bodystart="45" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger_1a7959e7b7e552b87138b95df80f13c9d8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Repeats</definition>
+        <argsstring></argsstring>
+        <name>Repeats</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CalendarNotificationTrigger.Repeats</qualifiedname>
+        <reimplements refid="d2/df5/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_trigger_1a7959e7b7e552b87138b95df80f13c9d8">Repeats</reimplements>
+        <briefdescription>
+<para>A Boolean value indicating whether the system reschedules the notification after it is delivered. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/CalendarNotificationTrigger.cs" line="74" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/CalendarNotificationTrigger.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger_1ac598b868d62c8c4836e8912ae1b18dec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CalendarNotificationTrigger</definition>
+        <argsstring>(DateComponents dateComponents, bool repeats, DateTime? nextTriggerDate=null)</argsstring>
+        <name>CalendarNotificationTrigger</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CalendarNotificationTrigger.CalendarNotificationTrigger</qualifiedname>
+        <param>
+          <type><ref refid="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger_1a83989be25aa18480bb7255774e77b01b" kindref="member">DateComponents</ref></type>
+          <declname>dateComponents</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>repeats</declname>
+        </param>
+        <param>
+          <type>DateTime?</type>
+          <declname>nextTriggerDate</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Creates a new instance of the <ref refid="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger" kindref="compound">CalendarNotificationTrigger</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dateComponents</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Date components.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>repeats</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If set to <computeroutput>true</computeroutput> repeats.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nextTriggerDate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Next trigger date.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/CalendarNotificationTrigger.cs" line="62" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/CalendarNotificationTrigger.cs" bodystart="62" bodyend="68"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A trigger condition that causes a notification to be delivered at a specific date and time. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CalendarNotificationTrigger</label>
+        <link refid="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>INotificationTrigger</label>
+        <link refid="d2/df5/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_trigger"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CalendarNotificationTrigger</label>
+        <link refid="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>INotificationTrigger</label>
+        <link refid="d2/df5/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_trigger"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/CalendarNotificationTrigger.cs" line="14" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/CalendarNotificationTrigger.cs" bodystart="15" bodyend="77"/>
+    <listofallmembers>
+      <member refid="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger_1ac598b868d62c8c4836e8912ae1b18dec" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CalendarNotificationTrigger</scope><name>CalendarNotificationTrigger</name></member>
+      <member refid="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger_1a83989be25aa18480bb7255774e77b01b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CalendarNotificationTrigger</scope><name>DateComponents</name></member>
+      <member refid="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger_1a95b5cfe3cf127d1fe48d7eaecd7c86d1" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CalendarNotificationTrigger</scope><name>m_dateComponents</name></member>
+      <member refid="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger_1a218d6b2aa6e04869aa7d4947fb17f676" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CalendarNotificationTrigger</scope><name>m_nextTriggerDate</name></member>
+      <member refid="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger_1a22158ad440b3a7cbe836caa5bcd3bb9b" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CalendarNotificationTrigger</scope><name>m_repeats</name></member>
+      <member refid="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger_1aebb4a4fe44825c64fb96a37fa1eafaa8" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CalendarNotificationTrigger</scope><name>NextTriggerDate</name></member>
+      <member refid="d9/d7b/class_voxel_busters_1_1_essential_kit_1_1_calendar_notification_trigger_1a7959e7b7e552b87138b95df80f13c9d8" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CalendarNotificationTrigger</scope><name>Repeats</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

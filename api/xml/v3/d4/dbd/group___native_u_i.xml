@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d4/dbd/group___native_u_i" kind="group">
+    <compoundname>NativeUI</compoundname>
+    <title>Native UI</title>
+    <innerclass refid="d6/d61/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog" prot="public">VoxelBusters::EssentialKit::AlertDialog</innerclass>
+    <innerclass refid="d0/dc4/class_voxel_busters_1_1_essential_kit_1_1_date_picker" prot="public">VoxelBusters::EssentialKit::DatePicker</innerclass>
+    <innerclass refid="da/d41/class_voxel_busters_1_1_essential_kit_1_1_date_picker_result" prot="public">VoxelBusters::EssentialKit::DatePickerResult</innerclass>
+    <briefdescription>
+<para>Provides a group of classes to access native UI components. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/daf/group___app_updater" kind="group">
+    <compoundname>AppUpdater</compoundname>
+    <title>AppUpdater</title>
+    <innerclass refid="d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater" prot="public">VoxelBusters::EssentialKit::AppUpdater</innerclass>
+    <innerclass refid="dd/d74/class_voxel_busters_1_1_essential_kit_1_1_app_updater_update_info" prot="public">VoxelBusters::EssentialKit::AppUpdaterUpdateInfo</innerclass>
+    <innerclass refid="d5/d7f/class_voxel_busters_1_1_essential_kit_1_1_prompt_update_options" prot="public">VoxelBusters::EssentialKit::PromptUpdateOptions</innerclass>
+    <briefdescription>
+<para>Provides cross-platform interface to facilitate updating the current version of the application. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d0/d60/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::IAchievement</compoundname>
+    <derivedcompoundref refid="d4/d33/class_voxel_busters_1_1_essential_kit_1_1_game_services_core_1_1_achievement_base" prot="public" virt="non-virtual">AchievementBase</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d0/d60/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement_1a186291c875988107b7ace745ea84d4ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IAchievement.Id</qualifiedname>
+        <briefdescription>
+<para>An unique identifier used to identify the achievement across all the supported platforms. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IAchievement.cs" line="28" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IAchievement.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="d0/d60/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement_1a4305da1d4a33e2d56b149fc3c41a617c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string PlatformId</definition>
+        <argsstring></argsstring>
+        <name>PlatformId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IAchievement.PlatformId</qualifiedname>
+        <briefdescription>
+<para>A string used to identify the achievement in the current platform. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IAchievement.cs" line="33" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IAchievement.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="d0/d60/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement_1a7f2cdfcafc2c15367ecb126a105b4932" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double PercentageCompleted</definition>
+        <argsstring></argsstring>
+        <name>PercentageCompleted</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IAchievement.PercentageCompleted</qualifiedname>
+        <briefdescription>
+<para>The percentage describes how far the player has progressed on this achievement. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IAchievement.cs" line="38" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IAchievement.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="property" id="d0/d60/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement_1a56e67c316e46f622ba314b13c1a2a517" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool IsCompleted</definition>
+        <argsstring></argsstring>
+        <name>IsCompleted</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IAchievement.IsCompleted</qualifiedname>
+        <briefdescription>
+<para>The bool value indicates whether the current player has completed this achievement. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IAchievement.cs" line="43" column="14" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IAchievement.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="property" id="d0/d60/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement_1ad529323ce21c8ad3696e8662464b9369" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime LastReportedDate</definition>
+        <argsstring></argsstring>
+        <name>LastReportedDate</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IAchievement.LastReportedDate</qualifiedname>
+        <briefdescription>
+<para>The last time that progress on the achievement was successfully reported to game server. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IAchievement.cs" line="48" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IAchievement.cs" bodystart="48" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d60/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement_1af22147c890141bc2a2792fec7f74eaab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReportProgress</definition>
+        <argsstring>(CompletionCallback callback)</argsstring>
+        <name>ReportProgress</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IAchievement.ReportProgress</qualifiedname>
+        <param>
+          <type>CompletionCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Reports the progress of this achievement. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Callback that will be called after operation is completed.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IAchievement.cs" line="58" column="14"/>
+        <referencedby refid="d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services_1ab1909e5b1f574235af3a053786b40492" compoundref="d5/d70/_game_services_8cs" startline="307" endline="314">GameServices.ReportAchievementProgress</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Provides an interface to communicate with game server about local players progress towards completing achievement. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>By default, when an achievement is completed, a notification banner is displayed to the player. If your game wants to display its own interface, you can prevent it by setting <bold>ShowAchievementCompletionBanner</bold> property in <bold>Game Services Settings</bold> to <bold>NO</bold>.  </para>
+<para><simplesect kind="note"><para>Your game must authenticate the local user before using any features. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IAchievement.cs" line="21" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IAchievement.cs" bodystart="22" bodyend="61"/>
+    <listofallmembers>
+      <member refid="d0/d60/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement_1a186291c875988107b7ace745ea84d4ec" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IAchievement</scope><name>Id</name></member>
+      <member refid="d0/d60/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement_1a56e67c316e46f622ba314b13c1a2a517" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IAchievement</scope><name>IsCompleted</name></member>
+      <member refid="d0/d60/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement_1ad529323ce21c8ad3696e8662464b9369" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IAchievement</scope><name>LastReportedDate</name></member>
+      <member refid="d0/d60/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement_1a7f2cdfcafc2c15367ecb126a105b4932" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IAchievement</scope><name>PercentageCompleted</name></member>
+      <member refid="d0/d60/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement_1a4305da1d4a33e2d56b149fc3c41a617c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IAchievement</scope><name>PlatformId</name></member>
+      <member refid="d0/d60/interface_voxel_busters_1_1_essential_kit_1_1_i_achievement_1af22147c890141bc2a2792fec7f74eaab" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IAchievement</scope><name>ReportProgress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

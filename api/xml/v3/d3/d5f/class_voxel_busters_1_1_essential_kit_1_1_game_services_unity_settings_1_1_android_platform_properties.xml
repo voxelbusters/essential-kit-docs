@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::GameServicesUnitySettings::AndroidPlatformProperties</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1acf1e65244298cf38b6a766cbd851d6fa" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_playServicesApplicationId</definition>
+        <argsstring></argsstring>
+        <name>m_playServicesApplicationId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesUnitySettings.AndroidPlatformProperties.m_playServicesApplicationId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="18" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1a4d88a785a7688e1c116a3bc59efb9dc3" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string m_serverClientId</definition>
+        <argsstring></argsstring>
+        <name>m_serverClientId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesUnitySettings.AndroidPlatformProperties.m_serverClientId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="23" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1ac8b619f06f976b03958de183b076569c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_forceRefreshToken</definition>
+        <argsstring></argsstring>
+        <name>m_forceRefreshToken</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesUnitySettings.AndroidPlatformProperties.m_forceRefreshToken</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>If enabled, allows the use of refresh tokens to obtain long-lived access to Google Play Services. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is useful for long-lived access to Google Play Services, such as when offline access is required. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="33" column="26" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1aebf33c773bc25be1417354717fd437d9" prot="private" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] m_achievedDescriptionFormats</definition>
+        <argsstring></argsstring>
+        <name>m_achievedDescriptionFormats</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesUnitySettings.AndroidPlatformProperties.m_achievedDescriptionFormats</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="36" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1adaf882b193440cf2f6800fffce64ea24" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_showErrorDialogs</definition>
+        <argsstring></argsstring>
+        <name>m_showErrorDialogs</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesUnitySettings.AndroidPlatformProperties.m_showErrorDialogs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="41" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1afbd927349326e53a042ea41c70260673" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_enableAutoInitialization</definition>
+        <argsstring></argsstring>
+        <name>m_enableAutoInitialization</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesUnitySettings.AndroidPlatformProperties.m_enableAutoInitialization</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="45" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1a1e4a7b8d968c6df71e7f4090952e1347" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string PlayServicesApplicationId</definition>
+        <argsstring></argsstring>
+        <name>PlayServicesApplicationId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesUnitySettings.AndroidPlatformProperties.PlayServicesApplicationId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="51" column="27" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1af68359927bd3ed9e9e4a8c2aed60dd88" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ServerClientId</definition>
+        <argsstring></argsstring>
+        <name>ServerClientId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesUnitySettings.AndroidPlatformProperties.ServerClientId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="53" column="27" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1a4a129b23313dc7009597b029e0402f9d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string[]</type>
+        <definition>string [] AchievedDescriptionFormats</definition>
+        <argsstring></argsstring>
+        <name>AchievedDescriptionFormats</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesUnitySettings.AndroidPlatformProperties.AchievedDescriptionFormats</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="55" column="27" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1a2d3d7559b1d06de57acdab0496425d17" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ShowErrorDialogs</definition>
+        <argsstring></argsstring>
+        <name>ShowErrorDialogs</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesUnitySettings.AndroidPlatformProperties.ShowErrorDialogs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="57" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1ad09a3436e8d7807a6dbcc42c4b11b911" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ForceRefreshToken</definition>
+        <argsstring></argsstring>
+        <name>ForceRefreshToken</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesUnitySettings.AndroidPlatformProperties.ForceRefreshToken</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="59" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1a9cfa579a41425b1e7ebb7e8a9a048c4f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool EnableAutoInitialization</definition>
+        <argsstring></argsstring>
+        <name>EnableAutoInitialization</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesUnitySettings.AndroidPlatformProperties.EnableAutoInitialization</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="61" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1a69d1423f33546c732cc6a1e9127201c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AndroidPlatformProperties</definition>
+        <argsstring>(string playServicesApplicationId=null, string serverClientId=null, string[] achievedDescriptionFormats=null, bool showErrorDialogs=true, bool forceRefreshToken=true, bool enableAutoInitialization=true)</argsstring>
+        <name>AndroidPlatformProperties</name>
+        <qualifiedname>VoxelBusters.EssentialKit.GameServicesUnitySettings.AndroidPlatformProperties.AndroidPlatformProperties</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>playServicesApplicationId</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>serverClientId</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>achievedDescriptionFormats</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>showErrorDialogs</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>forceRefreshToken</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>enableAutoInitialization</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="67" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="67" bodyend="81"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="12" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="13" bodyend="84"/>
+    <listofallmembers>
+      <member refid="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1a4a129b23313dc7009597b029e0402f9d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesUnitySettings::AndroidPlatformProperties</scope><name>AchievedDescriptionFormats</name></member>
+      <member refid="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1a69d1423f33546c732cc6a1e9127201c9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesUnitySettings::AndroidPlatformProperties</scope><name>AndroidPlatformProperties</name></member>
+      <member refid="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1a9cfa579a41425b1e7ebb7e8a9a048c4f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesUnitySettings::AndroidPlatformProperties</scope><name>EnableAutoInitialization</name></member>
+      <member refid="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1ad09a3436e8d7807a6dbcc42c4b11b911" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesUnitySettings::AndroidPlatformProperties</scope><name>ForceRefreshToken</name></member>
+      <member refid="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1aebf33c773bc25be1417354717fd437d9" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesUnitySettings::AndroidPlatformProperties</scope><name>m_achievedDescriptionFormats</name></member>
+      <member refid="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1afbd927349326e53a042ea41c70260673" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesUnitySettings::AndroidPlatformProperties</scope><name>m_enableAutoInitialization</name></member>
+      <member refid="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1ac8b619f06f976b03958de183b076569c" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesUnitySettings::AndroidPlatformProperties</scope><name>m_forceRefreshToken</name></member>
+      <member refid="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1acf1e65244298cf38b6a766cbd851d6fa" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesUnitySettings::AndroidPlatformProperties</scope><name>m_playServicesApplicationId</name></member>
+      <member refid="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1a4d88a785a7688e1c116a3bc59efb9dc3" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesUnitySettings::AndroidPlatformProperties</scope><name>m_serverClientId</name></member>
+      <member refid="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1adaf882b193440cf2f6800fffce64ea24" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesUnitySettings::AndroidPlatformProperties</scope><name>m_showErrorDialogs</name></member>
+      <member refid="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1a1e4a7b8d968c6df71e7f4090952e1347" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesUnitySettings::AndroidPlatformProperties</scope><name>PlayServicesApplicationId</name></member>
+      <member refid="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1af68359927bd3ed9e9e4a8c2aed60dd88" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesUnitySettings::AndroidPlatformProperties</scope><name>ServerClientId</name></member>
+      <member refid="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1a2d3d7559b1d06de57acdab0496425d17" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesUnitySettings::AndroidPlatformProperties</scope><name>ShowErrorDialogs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

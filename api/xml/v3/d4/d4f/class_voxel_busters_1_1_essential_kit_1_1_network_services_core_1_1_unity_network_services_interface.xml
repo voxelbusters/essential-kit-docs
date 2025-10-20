@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d4/d4f/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_unity_network_services_interface" kind="class" language="C#" prot="package" sealed="yes">
+    <compoundname>VoxelBusters::EssentialKit::NetworkServicesCore::UnityNetworkServicesInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NativeNetworkServicesInterfaceBase</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INativeNetworkServicesInterface</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d4/d4f/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_unity_network_services_interface_1a33d2629143ad454d11f2a97b5950d02a" prot="private" static="no" mutable="no">
+        <type>IEnumerator</type>
+        <definition>IEnumerator m_activeScheduler</definition>
+        <argsstring></argsstring>
+        <name>m_activeScheduler</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesCore.UnityNetworkServicesInterface.m_activeScheduler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/UnityNetworkServicesInterface.cs" line="13" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/UnityNetworkServicesInterface.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d4f/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_unity_network_services_interface_1ac8202b2791cf4e6281ef5794a07b7b38" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_sendEventsOnStart</definition>
+        <argsstring></argsstring>
+        <name>m_sendEventsOnStart</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesCore.UnityNetworkServicesInterface.m_sendEventsOnStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/UnityNetworkServicesInterface.cs" line="15" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/UnityNetworkServicesInterface.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d4f/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_unity_network_services_interface_1a6a1c693ad3c9400dd1714d011183e579" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_isConnected</definition>
+        <argsstring></argsstring>
+        <name>m_isConnected</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesCore.UnityNetworkServicesInterface.m_isConnected</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/UnityNetworkServicesInterface.cs" line="17" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/UnityNetworkServicesInterface.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d4f/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_unity_network_services_interface_1a67f9e314eeb51bc21533c1835a288f21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnityNetworkServicesInterface</definition>
+        <argsstring>()</argsstring>
+        <name>UnityNetworkServicesInterface</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesCore.UnityNetworkServicesInterface.UnityNetworkServicesInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/UnityNetworkServicesInterface.cs" line="23" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/UnityNetworkServicesInterface.cs" bodystart="23" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d4f/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_unity_network_services_interface_1ab614d1f9528443e310108ac34215de65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void StartNotifier</definition>
+        <argsstring>()</argsstring>
+        <name>StartNotifier</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesCore.UnityNetworkServicesInterface.StartNotifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/UnityNetworkServicesInterface.cs" line="36" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/UnityNetworkServicesInterface.cs" bodystart="36" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d4f/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_unity_network_services_interface_1a05f4dc28c52068faf68f04f461d4237c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void StopNotifier</definition>
+        <argsstring>()</argsstring>
+        <name>StopNotifier</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesCore.UnityNetworkServicesInterface.StopNotifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/UnityNetworkServicesInterface.cs" line="47" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/UnityNetworkServicesInterface.cs" bodystart="47" bodyend="53"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d4/d4f/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_unity_network_services_interface_1a2a00c2c85cd902f527b19fcd52d6fab2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator StatusCheckScheduler</definition>
+        <argsstring>()</argsstring>
+        <name>StatusCheckScheduler</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesCore.UnityNetworkServicesInterface.StatusCheckScheduler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/UnityNetworkServicesInterface.cs" line="59" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/UnityNetworkServicesInterface.cs" bodystart="59" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d4f/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_unity_network_services_interface_1adedb794dbf3c43b87a4a69c618723930" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OnPingStatusChange</definition>
+        <argsstring>(bool newStatus)</argsstring>
+        <name>OnPingStatusChange</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NetworkServicesCore.UnityNetworkServicesInterface.OnPingStatusChange</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>newStatus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/UnityNetworkServicesInterface.cs" line="128" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/UnityNetworkServicesInterface.cs" bodystart="128" bodyend="136"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/UnityNetworkServicesInterface.cs" line="8" column="13" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices/UnityNetworkServicesInterface.cs" bodystart="9" bodyend="139"/>
+    <listofallmembers>
+      <member refid="d4/d4f/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_unity_network_services_interface_1a33d2629143ad454d11f2a97b5950d02a" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesCore::UnityNetworkServicesInterface</scope><name>m_activeScheduler</name></member>
+      <member refid="d4/d4f/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_unity_network_services_interface_1a6a1c693ad3c9400dd1714d011183e579" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesCore::UnityNetworkServicesInterface</scope><name>m_isConnected</name></member>
+      <member refid="d4/d4f/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_unity_network_services_interface_1ac8202b2791cf4e6281ef5794a07b7b38" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesCore::UnityNetworkServicesInterface</scope><name>m_sendEventsOnStart</name></member>
+      <member refid="d3/d80/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_native_network_services_interface_base_1a721127046cb8d8770d86a794823e0b09" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesCore::UnityNetworkServicesInterface</scope><name>NativeNetworkServicesInterfaceBase</name></member>
+      <member refid="d3/d80/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_native_network_services_interface_base_1af7f3aa1f774c52ca8ae451858058ddae" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesCore::UnityNetworkServicesInterface</scope><name>OnHostReachabilityChange</name></member>
+      <member refid="d3/d80/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_native_network_services_interface_base_1a071b8486556957abc994f574c15e7503" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesCore::UnityNetworkServicesInterface</scope><name>OnInternetConnectivityChange</name></member>
+      <member refid="d4/d4f/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_unity_network_services_interface_1adedb794dbf3c43b87a4a69c618723930" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesCore::UnityNetworkServicesInterface</scope><name>OnPingStatusChange</name></member>
+      <member refid="d3/d80/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_native_network_services_interface_base_1a1fec5ceb0bc19910cfb57315bc823380" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesCore::UnityNetworkServicesInterface</scope><name>SendHostReachabilityChangeEvent</name></member>
+      <member refid="d3/d80/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_native_network_services_interface_base_1a81933130d8379d4a3776aaf8e90a1d56" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesCore::UnityNetworkServicesInterface</scope><name>SendInternetConnectivityChangeEvent</name></member>
+      <member refid="d4/d4f/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_unity_network_services_interface_1ab614d1f9528443e310108ac34215de65" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesCore::UnityNetworkServicesInterface</scope><name>StartNotifier</name></member>
+      <member refid="d4/d4f/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_unity_network_services_interface_1a2a00c2c85cd902f527b19fcd52d6fab2" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesCore::UnityNetworkServicesInterface</scope><name>StatusCheckScheduler</name></member>
+      <member refid="d4/d4f/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_unity_network_services_interface_1a05f4dc28c52068faf68f04f461d4237c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesCore::UnityNetworkServicesInterface</scope><name>StopNotifier</name></member>
+      <member refid="d4/d4f/class_voxel_busters_1_1_essential_kit_1_1_network_services_core_1_1_unity_network_services_interface_1a67f9e314eeb51bc21533c1835a288f21" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesCore::UnityNetworkServicesInterface</scope><name>UnityNetworkServicesInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

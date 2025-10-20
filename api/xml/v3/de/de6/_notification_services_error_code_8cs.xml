@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="de/de6/_notification_services_error_code_8cs" kind="file" language="C#">
+    <compoundname>NotificationServicesErrorCode.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad858e56dfc5b5d1a9d29df34f170cb95" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>NotificationServicesErrorCode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NotificationServicesErrorCode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad858e56dfc5b5d1a9d29df34f170cb95a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>An unknown error occurred. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad858e56dfc5b5d1a9d29df34f170cb95a73e747849c67419fdfceb8eb27b01fc3" prot="public">
+          <name>PermissionNotAvailable</name>
+          <briefdescription>
+<para>The permission for notifications is not available. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad858e56dfc5b5d1a9d29df34f170cb95aea4764be26e62f9721d64c514070237d" prot="public">
+          <name>TriggerNotValid</name>
+          <briefdescription>
+<para>The notification trigger is not valid. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad858e56dfc5b5d1a9d29df34f170cb95a05f6ffa53682f5ecd6164f8a3524733a" prot="public">
+          <name>ConfigurationError</name>
+          <briefdescription>
+<para>There was a configuration error. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ad858e56dfc5b5d1a9d29df34f170cb95aa045d6b7cb2ac3d7007c5784eea8a464" prot="public">
+          <name>ScheduledTimeNotValid</name>
+          <briefdescription>
+<para>The scheduled time for the notification is not valid. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Represents error codes for notification services. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationServicesErrorCode.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationServicesErrorCode.cs" bodystart="7" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices/NotificationServicesErrorCode.cs"/>
+  </compounddef>
+</doxygen>

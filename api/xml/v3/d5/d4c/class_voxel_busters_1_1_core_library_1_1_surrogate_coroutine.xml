@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::SurrogateCoroutine</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine_1a222c44c9cbd93cd0dfe52cfe0eadaa13" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void StartCoroutine</definition>
+        <argsstring>(IEnumerator routine)</argsstring>
+        <name>StartCoroutine</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.SurrogateCoroutine.StartCoroutine</qualifiedname>
+        <param>
+          <type>IEnumerator</type>
+          <declname>routine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/SurrogateCoroutine.cs" line="11" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/SurrogateCoroutine.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine_1a871e91e8f9e52a2f0d72e3803db31b79" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void StopCoroutine</definition>
+        <argsstring>(IEnumerator routine)</argsstring>
+        <name>StopCoroutine</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.SurrogateCoroutine.StopCoroutine</qualifiedname>
+        <param>
+          <type>IEnumerator</type>
+          <declname>routine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/SurrogateCoroutine.cs" line="16" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/SurrogateCoroutine.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine_1ac0e412e36f98535e3fd1f73f4da1cfc9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void WaitUntilAndInvoke</definition>
+        <argsstring>(Func&lt; bool &gt; predicate, Action action)</argsstring>
+        <name>WaitUntilAndInvoke</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.SurrogateCoroutine.WaitUntilAndInvoke</qualifiedname>
+        <param>
+          <type>Func&lt; bool &gt;</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <type>Action</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/SurrogateCoroutine.cs" line="21" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/SurrogateCoroutine.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine_1aaaec9b9fc1cc3571c397fe4cd15fa9eb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void WaitUntilAndInvoke</definition>
+        <argsstring>(IEnumerator coroutine, Action action)</argsstring>
+        <name>WaitUntilAndInvoke</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.SurrogateCoroutine.WaitUntilAndInvoke</qualifiedname>
+        <param>
+          <type>IEnumerator</type>
+          <declname>coroutine</declname>
+        </param>
+        <param>
+          <type>Action</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/SurrogateCoroutine.cs" line="26" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/SurrogateCoroutine.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine_1af9fd43fa6ba231e2647d4438200048be" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void WaitUntilAndInvoke</definition>
+        <argsstring>(YieldInstruction instruction, Action action)</argsstring>
+        <name>WaitUntilAndInvoke</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.SurrogateCoroutine.WaitUntilAndInvoke</qualifiedname>
+        <param>
+          <type>YieldInstruction</type>
+          <declname>instruction</declname>
+        </param>
+        <param>
+          <type>Action</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/SurrogateCoroutine.cs" line="31" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/SurrogateCoroutine.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine_1a4c778ad162dd01eef67a762db47efb13" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void WaitForEndOfFrameAndInvoke</definition>
+        <argsstring>(Action action)</argsstring>
+        <name>WaitForEndOfFrameAndInvoke</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.SurrogateCoroutine.WaitForEndOfFrameAndInvoke</qualifiedname>
+        <param>
+          <type>Action</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/SurrogateCoroutine.cs" line="36" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/SurrogateCoroutine.cs" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine_1ab16e04c7f0ad6c55e6783c14c1f669ff" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Invoke</definition>
+        <argsstring>(Action action, float delay)</argsstring>
+        <name>Invoke</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.SurrogateCoroutine.Invoke</qualifiedname>
+        <param>
+          <type>Action</type>
+          <declname>action</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>delay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/SurrogateCoroutine.cs" line="41" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/SurrogateCoroutine.cs" bodystart="41" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine_1a1b0ae5d3f5327e2a0636da5da11a3467" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>static IEnumerator WaitUntilAndInvokeInternal</definition>
+        <argsstring>(Func&lt; bool &gt; predicate, Action action)</argsstring>
+        <name>WaitUntilAndInvokeInternal</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.SurrogateCoroutine.WaitUntilAndInvokeInternal</qualifiedname>
+        <param>
+          <type>Func&lt; bool &gt;</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <type>Action</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/SurrogateCoroutine.cs" line="50" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/SurrogateCoroutine.cs" bodystart="50" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine_1a8c667895bed3f523c392ca53406c711b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>static IEnumerator WaitUntilAndInvokeInternal</definition>
+        <argsstring>(IEnumerator coroutine, Action action)</argsstring>
+        <name>WaitUntilAndInvokeInternal</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.SurrogateCoroutine.WaitUntilAndInvokeInternal</qualifiedname>
+        <param>
+          <type>IEnumerator</type>
+          <declname>coroutine</declname>
+        </param>
+        <param>
+          <type>Action</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/SurrogateCoroutine.cs" line="57" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/SurrogateCoroutine.cs" bodystart="57" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine_1a03ac3f3c0bf24d6c133add5bbcb2d857" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>static IEnumerator WaitUntilAndInvokeInternal</definition>
+        <argsstring>(YieldInstruction instruction, Action action)</argsstring>
+        <name>WaitUntilAndInvokeInternal</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.SurrogateCoroutine.WaitUntilAndInvokeInternal</qualifiedname>
+        <param>
+          <type>YieldInstruction</type>
+          <declname>instruction</declname>
+        </param>
+        <param>
+          <type>Action</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/SurrogateCoroutine.cs" line="64" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/SurrogateCoroutine.cs" bodystart="64" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine_1a96781e48cc095ee08c1b781bc07610ca" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>static IEnumerator InvokeInternal</definition>
+        <argsstring>(Action action, float delay)</argsstring>
+        <name>InvokeInternal</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.SurrogateCoroutine.InvokeInternal</qualifiedname>
+        <param>
+          <type>Action</type>
+          <declname>action</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>delay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/SurrogateCoroutine.cs" line="71" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/SurrogateCoroutine.cs" bodystart="71" bodyend="76"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/SurrogateCoroutine.cs" line="7" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/SurrogateCoroutine.cs" bodystart="8" bodyend="79"/>
+    <listofallmembers>
+      <member refid="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine_1ab16e04c7f0ad6c55e6783c14c1f669ff" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::SurrogateCoroutine</scope><name>Invoke</name></member>
+      <member refid="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine_1a96781e48cc095ee08c1b781bc07610ca" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::SurrogateCoroutine</scope><name>InvokeInternal</name></member>
+      <member refid="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine_1a222c44c9cbd93cd0dfe52cfe0eadaa13" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::SurrogateCoroutine</scope><name>StartCoroutine</name></member>
+      <member refid="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine_1a871e91e8f9e52a2f0d72e3803db31b79" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::SurrogateCoroutine</scope><name>StopCoroutine</name></member>
+      <member refid="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine_1a4c778ad162dd01eef67a762db47efb13" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::SurrogateCoroutine</scope><name>WaitForEndOfFrameAndInvoke</name></member>
+      <member refid="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine_1ac0e412e36f98535e3fd1f73f4da1cfc9" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::SurrogateCoroutine</scope><name>WaitUntilAndInvoke</name></member>
+      <member refid="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine_1aaaec9b9fc1cc3571c397fe4cd15fa9eb" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::SurrogateCoroutine</scope><name>WaitUntilAndInvoke</name></member>
+      <member refid="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine_1af9fd43fa6ba231e2647d4438200048be" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::SurrogateCoroutine</scope><name>WaitUntilAndInvoke</name></member>
+      <member refid="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine_1a1b0ae5d3f5327e2a0636da5da11a3467" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::SurrogateCoroutine</scope><name>WaitUntilAndInvokeInternal</name></member>
+      <member refid="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine_1a8c667895bed3f523c392ca53406c711b" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::SurrogateCoroutine</scope><name>WaitUntilAndInvokeInternal</name></member>
+      <member refid="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine_1a03ac3f3c0bf24d6c133add5bbcb2d857" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::SurrogateCoroutine</scope><name>WaitUntilAndInvokeInternal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dc/d68/_social_share_composer_type_8cs" kind="file" language="C#">
+    <compoundname>SocialShareComposerType.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1afdc794be6e025a649c9261e3e48b2e46" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>SocialShareComposerType</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SocialShareComposerType</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1afdc794be6e025a649c9261e3e48b2e46ad85544fce402c7a2a96a48078edaf203" prot="public">
+          <name>Facebook</name>
+          <briefdescription>
+<para>The value indicates Facebook platform. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1afdc794be6e025a649c9261e3e48b2e46a2491bc9c7d8731e1ae33124093bc7026" prot="public">
+          <name>Twitter</name>
+          <briefdescription>
+<para>The value indicates Twitter platform. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1afdc794be6e025a649c9261e3e48b2e46a8b777ebcc5034ce0fe96dd154bcb370e" prot="public">
+          <name>WhatsApp</name>
+          <briefdescription>
+<para>The value indicates WhatsApp platform. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The enum specifies the sharing service you want to post to. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SocialShareComposerType.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SocialShareComposerType.cs" bodystart="11" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/SocialShareComposerType.cs"/>
+  </compounddef>
+</doxygen>

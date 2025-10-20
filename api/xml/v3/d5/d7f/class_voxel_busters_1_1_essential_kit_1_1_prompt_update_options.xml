@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d5/d7f/class_voxel_busters_1_1_essential_kit_1_1_prompt_update_options" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::PromptUpdateOptions</compoundname>
+    <innerclass refid="db/d2b/class_voxel_busters_1_1_essential_kit_1_1_prompt_update_options_1_1_builder" prot="public">VoxelBusters::EssentialKit::PromptUpdateOptions::Builder</innerclass>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d5/d7f/class_voxel_busters_1_1_essential_kit_1_1_prompt_update_options_1a29b82fa7de9c9193459df54aef122aa3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool IsForceUpdate</definition>
+        <argsstring></argsstring>
+        <name>IsForceUpdate</name>
+        <qualifiedname>VoxelBusters.EssentialKit.PromptUpdateOptions.IsForceUpdate</qualifiedname>
+        <briefdescription>
+<para>Gets a value indicating whether the update is mandatory. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/PresentUpdateOptions.cs" line="13" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/PresentUpdateOptions.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/d7f/class_voxel_busters_1_1_essential_kit_1_1_prompt_update_options_1aa7b633091e7820b835d04d0d5fc197c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <qualifiedname>VoxelBusters.EssentialKit.PromptUpdateOptions.Title</qualifiedname>
+        <briefdescription>
+<para>Gets the title of the update prompt. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/PresentUpdateOptions.cs" line="18" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/PresentUpdateOptions.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/d7f/class_voxel_busters_1_1_essential_kit_1_1_prompt_update_options_1a40e8debace0cc6f4f7baa0fdd309c103" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Message</definition>
+        <argsstring></argsstring>
+        <name>Message</name>
+        <qualifiedname>VoxelBusters.EssentialKit.PromptUpdateOptions.Message</qualifiedname>
+        <briefdescription>
+<para>Gets the message of the update prompt. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/PresentUpdateOptions.cs" line="23" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/PresentUpdateOptions.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/d7f/class_voxel_busters_1_1_essential_kit_1_1_prompt_update_options_1a888d829d2da6547c496922118469c889" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool AllowInstallationIfDownloaded</definition>
+        <argsstring></argsstring>
+        <name>AllowInstallationIfDownloaded</name>
+        <qualifiedname>VoxelBusters.EssentialKit.PromptUpdateOptions.AllowInstallationIfDownloaded</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>Gets a value indicating whether the update can be installed if it has already been downloaded. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>Default value is true </para>
+</simplesect>
+<simplesect kind="note"><para>If force update is enabled, this option will be considered as true. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/PresentUpdateOptions.cs" line="30" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/PresentUpdateOptions.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d5/d7f/class_voxel_busters_1_1_essential_kit_1_1_prompt_update_options_1afc5dd6214f57497e2cb95e77a04463a9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PromptUpdateOptions</definition>
+        <argsstring>()</argsstring>
+        <name>PromptUpdateOptions</name>
+        <qualifiedname>VoxelBusters.EssentialKit.PromptUpdateOptions.PromptUpdateOptions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/PresentUpdateOptions.cs" line="32" column="17" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/PresentUpdateOptions.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents the options for prompting an update to the user. Use the <ref refid="db/d2b/class_voxel_busters_1_1_essential_kit_1_1_prompt_update_options_1_1_builder" kindref="compound">PromptUpdateOptions.Builder</ref> to create an instance of this class. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><linebreak/>
+ </para>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/PresentUpdateOptions.cs" line="8" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/PresentUpdateOptions.cs" bodystart="9" bodyend="104"/>
+    <listofallmembers>
+      <member refid="d5/d7f/class_voxel_busters_1_1_essential_kit_1_1_prompt_update_options_1a888d829d2da6547c496922118469c889" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::PromptUpdateOptions</scope><name>AllowInstallationIfDownloaded</name></member>
+      <member refid="d5/d7f/class_voxel_busters_1_1_essential_kit_1_1_prompt_update_options_1a29b82fa7de9c9193459df54aef122aa3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::PromptUpdateOptions</scope><name>IsForceUpdate</name></member>
+      <member refid="d5/d7f/class_voxel_busters_1_1_essential_kit_1_1_prompt_update_options_1a40e8debace0cc6f4f7baa0fdd309c103" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::PromptUpdateOptions</scope><name>Message</name></member>
+      <member refid="d5/d7f/class_voxel_busters_1_1_essential_kit_1_1_prompt_update_options_1afc5dd6214f57497e2cb95e77a04463a9" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::PromptUpdateOptions</scope><name>PromptUpdateOptions</name></member>
+      <member refid="d5/d7f/class_voxel_busters_1_1_essential_kit_1_1_prompt_update_options_1aa7b633091e7820b835d04d0d5fc197c7" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::PromptUpdateOptions</scope><name>Title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

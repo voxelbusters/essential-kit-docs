@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="df/df5/class_voxel_busters_1_1_essential_kit_1_1_billing_price" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::BillingPrice</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="df/df5/class_voxel_busters_1_1_essential_kit_1_1_billing_price_1a7b7e5af44fffe84c91c63ba0781ffdb3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>double</type>
+        <definition>double Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingPrice.Value</qualifiedname>
+        <briefdescription>
+<para>Gets the currency value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPrice.cs" line="11" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPrice.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="df/df5/class_voxel_busters_1_1_essential_kit_1_1_billing_price_1a3e3a861ea30ec6d94dbaba3f93fea8f3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Code</definition>
+        <argsstring></argsstring>
+        <name>Code</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingPrice.Code</qualifiedname>
+        <briefdescription>
+<para>Gets the currency code. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPrice.cs" line="14" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPrice.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="df/df5/class_voxel_busters_1_1_essential_kit_1_1_billing_price_1a598b75bfd99d152464ba0da8db597986" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Symbol</definition>
+        <argsstring></argsstring>
+        <name>Symbol</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingPrice.Symbol</qualifiedname>
+        <briefdescription>
+<para>Gets the currency symbol associated with this currency. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPrice.cs" line="17" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPrice.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="df/df5/class_voxel_busters_1_1_essential_kit_1_1_billing_price_1a172247f1219e806388e0d82aa05f093d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string LocalizedText</definition>
+        <argsstring></argsstring>
+        <name>LocalizedText</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingPrice.LocalizedText</qualifiedname>
+        <briefdescription>
+<para>Gets the displayable text format for this currency. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPrice.cs" line="20" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPrice.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/df5/class_voxel_busters_1_1_essential_kit_1_1_billing_price_1a4f9fe092b7d4c35d1838dc5d9d993f98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BillingPrice</definition>
+        <argsstring>(double value, string currencyCode, string currencySymbol, string localizedText)</argsstring>
+        <name>BillingPrice</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingPrice.BillingPrice</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>currencyCode</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>currencySymbol</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>localizedText</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPrice.cs" line="22" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPrice.cs" bodystart="22" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="df/df5/class_voxel_busters_1_1_essential_kit_1_1_billing_price_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BillingPrice.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPrice.cs" line="30" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPrice.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents a billing price with its value, code, symbol, and display text. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPrice.cs" line="8" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingPrice.cs" bodystart="9" bodyend="34"/>
+    <listofallmembers>
+      <member refid="df/df5/class_voxel_busters_1_1_essential_kit_1_1_billing_price_1a4f9fe092b7d4c35d1838dc5d9d993f98" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingPrice</scope><name>BillingPrice</name></member>
+      <member refid="df/df5/class_voxel_busters_1_1_essential_kit_1_1_billing_price_1a3e3a861ea30ec6d94dbaba3f93fea8f3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingPrice</scope><name>Code</name></member>
+      <member refid="df/df5/class_voxel_busters_1_1_essential_kit_1_1_billing_price_1a172247f1219e806388e0d82aa05f093d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingPrice</scope><name>LocalizedText</name></member>
+      <member refid="df/df5/class_voxel_busters_1_1_essential_kit_1_1_billing_price_1a598b75bfd99d152464ba0da8db597986" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingPrice</scope><name>Symbol</name></member>
+      <member refid="df/df5/class_voxel_busters_1_1_essential_kit_1_1_billing_price_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingPrice</scope><name>ToString</name></member>
+      <member refid="df/df5/class_voxel_busters_1_1_essential_kit_1_1_billing_price_1a7b7e5af44fffe84c91c63ba0781ffdb3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingPrice</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

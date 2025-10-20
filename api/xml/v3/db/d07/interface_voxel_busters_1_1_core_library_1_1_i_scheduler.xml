@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/d07/interface_voxel_busters_1_1_core_library_1_1_i_scheduler" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::IScheduler</compoundname>
+    <derivedcompoundref refid="d7/d56/class_voxel_busters_1_1_core_library_1_1_runtime_scheduler" prot="public" virt="non-virtual">RuntimeScheduler</derivedcompoundref>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="db/d07/interface_voxel_busters_1_1_core_library_1_1_i_scheduler_1a630e1bed538b1c1b2d28faa02c51a2bb" prot="public" static="no" add="no" remove="no" raise="no">
+        <type><ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a7aad06b84eedaea282efda0972c4197b" kindref="member">Callback</ref></type>
+        <definition>Callback Update</definition>
+        <argsstring></argsstring>
+        <name>Update</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IScheduler.Update</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/IScheduler.cs" line="11" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/IScheduler.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d07/interface_voxel_busters_1_1_core_library_1_1_i_scheduler_1a243ab119812daccd19c0fb0a95bfec1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StartCoroutine</definition>
+        <argsstring>(IEnumerator routine)</argsstring>
+        <name>StartCoroutine</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IScheduler.StartCoroutine</qualifiedname>
+        <param>
+          <type>IEnumerator</type>
+          <declname>routine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/IScheduler.cs" line="17" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d07/interface_voxel_busters_1_1_core_library_1_1_i_scheduler_1ac6c3c9235f0b5131d9c0bb110ae885ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StopCoroutine</definition>
+        <argsstring>(IEnumerator routine)</argsstring>
+        <name>StopCoroutine</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IScheduler.StopCoroutine</qualifiedname>
+        <param>
+          <type>IEnumerator</type>
+          <declname>routine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/IScheduler.cs" line="19" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d07/interface_voxel_busters_1_1_core_library_1_1_i_scheduler_1a0d68cbb978e3cc59c9a404c18f70eb4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StopAllCoroutines</definition>
+        <argsstring>()</argsstring>
+        <name>StopAllCoroutines</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.IScheduler.StopAllCoroutines</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/IScheduler.cs" line="21" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/IScheduler.cs" line="7" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/IScheduler.cs" bodystart="8" bodyend="24"/>
+    <listofallmembers>
+      <member refid="db/d07/interface_voxel_busters_1_1_core_library_1_1_i_scheduler_1a243ab119812daccd19c0fb0a95bfec1f" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IScheduler</scope><name>StartCoroutine</name></member>
+      <member refid="db/d07/interface_voxel_busters_1_1_core_library_1_1_i_scheduler_1a0d68cbb978e3cc59c9a404c18f70eb4b" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IScheduler</scope><name>StopAllCoroutines</name></member>
+      <member refid="db/d07/interface_voxel_busters_1_1_core_library_1_1_i_scheduler_1ac6c3c9235f0b5131d9c0bb110ae885ca" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IScheduler</scope><name>StopCoroutine</name></member>
+      <member refid="db/d07/interface_voxel_busters_1_1_core_library_1_1_i_scheduler_1a630e1bed538b1c1b2d28faa02c51a2bb" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::IScheduler</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

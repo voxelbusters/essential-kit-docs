@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="da/d15/class_voxel_busters_1_1_essential_kit_1_1_achievement_id_attribute" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::AchievementIdAttribute</compoundname>
+    <basecompoundref refid="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute" prot="public" virt="non-virtual">StringPopupAttribute</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="da/d15/class_voxel_busters_1_1_essential_kit_1_1_achievement_id_attribute_1afbc860b77d82bb1254d7cdc1c51680a2" prot="private" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] m_options</definition>
+        <argsstring></argsstring>
+        <name>m_options</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AchievementIdAttribute.m_options</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementIdAttribute.cs" line="12" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementIdAttribute.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d15/class_voxel_busters_1_1_essential_kit_1_1_achievement_id_attribute_1a3c331731513b943a9db34ebbcf954048" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AchievementIdAttribute</definition>
+        <argsstring>()</argsstring>
+        <name>AchievementIdAttribute</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AchievementIdAttribute.AchievementIdAttribute</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementIdAttribute.cs" line="18" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementIdAttribute.cs" bodystart="18" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="da/d15/class_voxel_busters_1_1_essential_kit_1_1_achievement_id_attribute_1a4a9e42e8b3875a6f5a9119d7edd39c99" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string[]</type>
+        <definition>static string[] GetAchievementIds</definition>
+        <argsstring>()</argsstring>
+        <name>GetAchievementIds</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AchievementIdAttribute.GetAchievementIds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementIdAttribute.cs" line="29" column="31" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementIdAttribute.cs" bodystart="29" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="da/d15/class_voxel_busters_1_1_essential_kit_1_1_achievement_id_attribute_1a359f7a7590ea9b224aacc3e3df70da08" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string[]</type>
+        <definition>override string[] GetDynamicOptions</definition>
+        <argsstring>()</argsstring>
+        <name>GetDynamicOptions</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AchievementIdAttribute.GetDynamicOptions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementIdAttribute.cs" line="45" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementIdAttribute.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AchievementIdAttribute</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>StringPopupAttribute</label>
+        <link refid="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AchievementIdAttribute</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>StringPopupAttribute</label>
+        <link refid="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementIdAttribute.cs" line="8" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/AchievementIdAttribute.cs" bodystart="9" bodyend="51"/>
+    <listofallmembers>
+      <member refid="da/d15/class_voxel_busters_1_1_essential_kit_1_1_achievement_id_attribute_1a3c331731513b943a9db34ebbcf954048" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementIdAttribute</scope><name>AchievementIdAttribute</name></member>
+      <member refid="da/d15/class_voxel_busters_1_1_essential_kit_1_1_achievement_id_attribute_1a4a9e42e8b3875a6f5a9119d7edd39c99" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementIdAttribute</scope><name>GetAchievementIds</name></member>
+      <member refid="da/d15/class_voxel_busters_1_1_essential_kit_1_1_achievement_id_attribute_1a359f7a7590ea9b224aacc3e3df70da08" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementIdAttribute</scope><name>GetDynamicOptions</name></member>
+      <member refid="da/d15/class_voxel_busters_1_1_essential_kit_1_1_achievement_id_attribute_1afbc860b77d82bb1254d7cdc1c51680a2" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementIdAttribute</scope><name>m_options</name></member>
+      <member refid="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute_1ae368b3f0287fe9169dfc417e2def58cf" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementIdAttribute</scope><name>Options</name></member>
+      <member refid="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute_1a977d4b55127b3c15e52191f670ff8122" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementIdAttribute</scope><name>PreferencePropertyName</name></member>
+      <member refid="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute_1aab18fadb9f38f6412f7498d880b2e146" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementIdAttribute</scope><name>PreferencePropertyValue</name></member>
+      <member refid="d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute_1a259f888b8c9a57b4334e7e0b3ab7a3c1" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AchievementIdAttribute</scope><name>StringPopupAttribute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="de/d4a/_app_updater_update_status_8cs" kind="file" language="C#">
+    <compoundname>AppUpdaterUpdateStatus.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2d2cd7e347ac320d82a89ca6390715c7" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>AppUpdaterUpdateStatus</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdaterUpdateStatus</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2d2cd7e347ac320d82a89ca6390715c7a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>The application update status is unknown. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2d2cd7e347ac320d82a89ca6390715c7a78945de8de090e90045d299651a68a9b" prot="public">
+          <name>Available</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>The application is not up to date and needs to be updated. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2d2cd7e347ac320d82a89ca6390715c7a534ceac854da4ba59c4dc41b7ab732dc" prot="public">
+          <name>NotAvailable</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>The application is up to date. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2d2cd7e347ac320d82a89ca6390715c7a12d868c18cb29bf58f02b504be9033fd" prot="public">
+          <name>InProgress</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>The application is currently being updated. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2d2cd7e347ac320d82a89ca6390715c7aa6a04307fd90d0c2821b45125e6a0a25" prot="public">
+          <name>Downloaded</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The status of the application update. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterUpdateStatus.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterUpdateStatus.cs" bodystart="7" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterUpdateStatus.cs"/>
+  </compounddef>
+</doxygen>

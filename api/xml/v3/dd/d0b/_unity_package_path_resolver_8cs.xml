@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dd/d0b/_unity_package_path_resolver_8cs" kind="file" language="C#">
+    <compoundname>UnityPackagePathResolver.cs</compoundname>
+    <innerclass refid="d6/d03/class_voxel_busters_1_1_core_library_1_1_unity_package_path_resolver" prot="public">VoxelBusters::CoreLibrary::UnityPackagePathResolver</innerclass>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="d7/d45/namespace_voxel_busters_1_1_core_library">VoxelBusters::CoreLibrary</innernamespace>
+    <innernamespace refid="d8/d5f/namespace_unity_editor">UnityEditor</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Utilities/UnityPackagePathResolver.cs"/>
+  </compounddef>
+</doxygen>

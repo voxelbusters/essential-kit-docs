@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d6/db2/interface_voxel_busters_1_1_essential_kit_1_1_alert_dialog_1_1_i_callback_wrapper" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::AlertDialog::ICallbackWrapper</compoundname>
+    <derivedcompoundref refid="d8/deb/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_1_1_callback_wrapper" prot="public" virt="non-virtual">AlertDialog.CallbackWrapper&lt; T &gt;</derivedcompoundref>
+    <derivedcompoundref refid="d8/deb/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_1_1_callback_wrapper" prot="public" virt="non-virtual">AlertDialog.CallbackWrapper&lt; T &gt;</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/db2/interface_voxel_busters_1_1_essential_kit_1_1_alert_dialog_1_1_i_callback_wrapper_1a54ccc1b89ea8be4af7aedfdd8f571181" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Invoke</definition>
+        <argsstring>(object arg=null)</argsstring>
+        <name>Invoke</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AlertDialog.ICallbackWrapper.Invoke</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>arg</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialog.cs" line="342" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialog.cs" line="340" column="26" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/AlertDialog.cs" bodystart="341" bodyend="343"/>
+    <listofallmembers>
+      <member refid="d6/db2/interface_voxel_busters_1_1_essential_kit_1_1_alert_dialog_1_1_i_callback_wrapper_1a54ccc1b89ea8be4af7aedfdd8f571181" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AlertDialog::ICallbackWrapper</scope><name>Invoke</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

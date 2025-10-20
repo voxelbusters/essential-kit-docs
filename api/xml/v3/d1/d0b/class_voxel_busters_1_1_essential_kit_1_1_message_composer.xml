@@ -1,0 +1,525 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer" kind="class" language="C#" prot="public" sealed="yes">
+    <compoundname>VoxelBusters::EssentialKit::MessageComposer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NativeFeatureBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1a154713dcfc3e6261cf2878997165504f" prot="private" static="no" mutable="no">
+        <type>INativeMessageComposer</type>
+        <definition>INativeMessageComposer m_nativeComposer</definition>
+        <argsstring></argsstring>
+        <name>m_nativeComposer</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MessageComposer.m_nativeComposer</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" line="57" column="61" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1af3734a486480e81a0c916579335ff55a" prot="private" static="no" mutable="no">
+        <type>EventCallback&lt; <ref refid="d7/d02/class_voxel_busters_1_1_essential_kit_1_1_message_composer_result" kindref="compound">MessageComposerResult</ref> &gt;</type>
+        <definition>EventCallback&lt;MessageComposerResult&gt; m_callback</definition>
+        <argsstring></argsstring>
+        <name>m_callback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MessageComposer.m_callback</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" line="59" column="38" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1a0c3e0b8cecdacda7831e17155c7bdc98" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer" kindref="compound">MessageComposer</ref></type>
+        <definition>static MessageComposer CreateInstance</definition>
+        <argsstring>()</argsstring>
+        <name>CreateInstance</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MessageComposer.CreateInstance</qualifiedname>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer" kindref="compound">MessageComposer</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" line="68" column="39" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" bodystart="68" bodyend="71"/>
+        <referencedby refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1ad413aaf59f4fef89fbd0610116544305" compoundref="dd/d70/_sharing_services_8cs" startline="120" endline="162">SharingServices.ShowMessageComposer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1a70ac98219f9f4a43e1bd86962f7ae7c6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool CanSendText</definition>
+        <argsstring>()</argsstring>
+        <name>CanSendText</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MessageComposer.CanSendText</qualifiedname>
+        <briefdescription>
+<para>Returns a Boolean value indicating whether the current device is capable of sending text messages. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>true</computeroutput>, if the device can send text messages, <computeroutput>false</computeroutput> otherwise.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" line="81" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" bodystart="81" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1af2de392c1947c60fd58ebec02b352a65" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool CanSendAttachments</definition>
+        <argsstring>()</argsstring>
+        <name>CanSendAttachments</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MessageComposer.CanSendAttachments</qualifiedname>
+        <briefdescription>
+<para>Returns a Boolean value indicating whether or not messages can include attachments. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>true</computeroutput>, if the device can send attachments in MMS or iMessage messages, <computeroutput>false</computeroutput> otherwise.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" line="99" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" bodystart="99" bodyend="111"/>
+        <referencedby refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1ad413aaf59f4fef89fbd0610116544305" compoundref="dd/d70/_sharing_services_8cs" startline="120" endline="162">SharingServices.ShowMessageComposer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1ad618290de06f7dfeeef989d280380e2b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool CanSendSubject</definition>
+        <argsstring>()</argsstring>
+        <name>CanSendSubject</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MessageComposer.CanSendSubject</qualifiedname>
+        <briefdescription>
+<para>Returns a Boolean value indicating whether or not messages can include subject lines. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>true</computeroutput>, if the device can include subject lines in messages, <computeroutput>false</computeroutput> otherwise.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" line="117" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" bodystart="117" bodyend="129"/>
+        <referencedby refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1ad413aaf59f4fef89fbd0610116544305" compoundref="dd/d70/_sharing_services_8cs" startline="120" endline="162">SharingServices.ShowMessageComposer</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1a7d6b3c9631c60ccdffbfdfcb26a47d24" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void AwakeInternal</definition>
+        <argsstring>(object[] args)</argsstring>
+        <name>AwakeInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MessageComposer.AwakeInternal</qualifiedname>
+        <param>
+          <type>object[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" line="135" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" bodystart="135" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1a51e4fc81afcabbbe906b1ec1a51fee75" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void DestroyInternal</definition>
+        <argsstring>()</argsstring>
+        <name>DestroyInternal</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MessageComposer.DestroyInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" line="148" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" bodystart="148" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1ab6c9a5a64688c396589dda0734495a75" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string GetFeatureName</definition>
+        <argsstring>()</argsstring>
+        <name>GetFeatureName</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MessageComposer.GetFeatureName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" line="170" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" bodystart="170" bodyend="173"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1adf976da47352639bd56cbf8bacca05f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool IsAvailable</definition>
+        <argsstring>()</argsstring>
+        <name>IsAvailable</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MessageComposer.IsAvailable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" line="165" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" bodystart="165" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1ae961ba023466f238e89c757cf7c4a9b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetRecipients</definition>
+        <argsstring>(params string[] values)</argsstring>
+        <name>SetRecipients</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MessageComposer.SetRecipients</qualifiedname>
+        <param>
+          <type>params string[]</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+<para>Sets the initial recipients of the message.. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>values</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of string values containing the initial recipients of the message.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" line="183" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" bodystart="183" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1a96b265e79165b1175f0e1554f6c6194f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetSubject</definition>
+        <argsstring>(string value)</argsstring>
+        <name>SetSubject</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MessageComposer.SetSubject</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the initial subject of the message. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The initial subject for a message.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" line="203" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" bodystart="203" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1af6024815787428d310254eff861a251b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetBody</definition>
+        <argsstring>(string value)</argsstring>
+        <name>SetBody</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MessageComposer.SetBody</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the initial content of the message. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The initial content in the body of a message.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" line="223" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" bodystart="223" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1a1ee64fd83fdf8d23e913a00624538910" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddScreenshot</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>AddScreenshot</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MessageComposer.AddScreenshot</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>Captures a screenshot and adds it as an attachment of the message. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The preferred filename to associate with the image.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" line="243" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" bodystart="243" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1a5ebfec45064d73531db0661d31c8ac18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddImage</definition>
+        <argsstring>(Texture2D image, string fileName, TextureEncodingFormat textureEncodingFormat=TextureEncodingFormat.JPG)</argsstring>
+        <name>AddImage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MessageComposer.AddImage</qualifiedname>
+        <param>
+          <type>Texture2D</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a533c2670f0a8893cf58661a4784b2c9f" kindref="member">TextureEncodingFormat</ref></type>
+          <declname>textureEncodingFormat</declname>
+          <defval>TextureEncodingFormat.JPG</defval>
+        </param>
+        <briefdescription>
+<para>Adds specified image as an attachment of the message. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>image</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The image that has to be added as an attachment.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The preferred filename to associate with the image.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>textureEncodingFormat</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Texture encoding format.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" line="265" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" bodystart="265" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1ae07801a790031f50c43d63e59a2b20e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AddAttachment</definition>
+        <argsstring>(byte[] data, string mimeType, string fileName)</argsstring>
+        <name>AddAttachment</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MessageComposer.AddAttachment</qualifiedname>
+        <param>
+          <type>byte[]</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>mimeType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>Adds the specified data as an attachment of the message. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data of the file that has to be added as an attachment.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mimeType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The MIME type of the specified data.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The filename of the specified data.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" line="292" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" bodystart="292" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1ac898077e238a10f081d24b865d21fb1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetCompletionCallback</definition>
+        <argsstring>(EventCallback&lt; MessageComposerResult &gt; callback)</argsstring>
+        <name>SetCompletionCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MessageComposer.SetCompletionCallback</qualifiedname>
+        <param>
+          <type>EventCallback&lt; <ref refid="d7/d02/class_voxel_busters_1_1_essential_kit_1_1_message_composer_result" kindref="compound">MessageComposerResult</ref> &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Specify the action to execute after the composer is dismissed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The action to be called on completion.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" line="314" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" bodystart="314" bodyend="321"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1ace79e5f49885e486e8e1d48ff0666476" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Show</definition>
+        <argsstring>()</argsstring>
+        <name>Show</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MessageComposer.Show</qualifiedname>
+        <briefdescription>
+<para>Shows the message composer interface with values initially set. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" line="326" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" bodystart="326" bodyend="337"/>
+        <referencedby refid="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1ad413aaf59f4fef89fbd0610116544305" compoundref="dd/d70/_sharing_services_8cs" startline="120" endline="162">SharingServices.ShowMessageComposer</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1a9fabdd81e7bca27a3d86a46f81233eb5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HandleComposerCloseInternalCallback</definition>
+        <argsstring>(MessageComposerResultCode resultCode, Error error)</argsstring>
+        <name>HandleComposerCloseInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MessageComposer.HandleComposerCloseInternalCallback</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a15f95d3ef74a0400becadea6c79ccadf" kindref="member">MessageComposerResultCode</ref></type>
+          <declname>resultCode</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" line="347" column="14" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" bodystart="347" bodyend="355"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer" kindref="compound">MessageComposer</ref> class provides a standard interface for composing and sending SMS or MMS messages. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Before presenting the interface, populate the fields with the set of initial recipients and the message you want to send. After presenting the interface, the user can edit your initial values before sending the message. </para>
+<para>The following code example shows how to compose text message. <programlisting filename=".cs"><codeline><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections;</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit" kindref="compound">VoxelBusters.EssentialKit</ref>;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ExampleClass<sp/>:<sp/>MonoBehaviour<sp/></highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Start()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer" kindref="compound">MessageComposer</ref>.<ref refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1a70ac98219f9f4a43e1bd86962f7ae7c6" kindref="member">CanSendText</ref>())</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>create<sp/>new<sp/>instance<sp/>and<sp/>populate<sp/>fields</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer" kindref="compound">MessageComposer</ref><sp/>newComposer<sp/>=<sp/><ref refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer" kindref="compound">MessageComposer</ref>.<ref refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1a0c3e0b8cecdacda7831e17155c7bdc98" kindref="member">CreateInstance</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>newComposer.<ref refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1af6024815787428d310254eff861a251b" kindref="member">SetBody</ref>(</highlight><highlight class="stringliteral">&quot;Lorem<sp/>ipsum<sp/>dolor<sp/>sit<sp/>amet&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>newComposer.<ref refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1ac898077e238a10f081d24b865d21fb1d" kindref="member">SetCompletionCallback</ref>(OnMessageComposerClosed);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>newComposer.<ref refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1ace79e5f49885e486e8e1d48ff0666476" kindref="member">Show</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>device<sp/>doesn&apos;t<sp/>support<sp/>sending<sp/>emails</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnMessageComposerClosed(<ref refid="d7/d02/class_voxel_busters_1_1_essential_kit_1_1_message_composer_result" kindref="compound">MessageComposerResult</ref><sp/>result,<sp/>Error<sp/>error)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>add<sp/>your<sp/>code</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> </para>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" line="53" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices/MessageComposer.cs" bodystart="54" bodyend="358"/>
+    <listofallmembers>
+      <member refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1ae07801a790031f50c43d63e59a2b20e7" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MessageComposer</scope><name>AddAttachment</name></member>
+      <member refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1a5ebfec45064d73531db0661d31c8ac18" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MessageComposer</scope><name>AddImage</name></member>
+      <member refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1a1ee64fd83fdf8d23e913a00624538910" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MessageComposer</scope><name>AddScreenshot</name></member>
+      <member refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1a7d6b3c9631c60ccdffbfdfcb26a47d24" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MessageComposer</scope><name>AwakeInternal</name></member>
+      <member refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1af2de392c1947c60fd58ebec02b352a65" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MessageComposer</scope><name>CanSendAttachments</name></member>
+      <member refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1ad618290de06f7dfeeef989d280380e2b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MessageComposer</scope><name>CanSendSubject</name></member>
+      <member refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1a70ac98219f9f4a43e1bd86962f7ae7c6" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MessageComposer</scope><name>CanSendText</name></member>
+      <member refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1a0c3e0b8cecdacda7831e17155c7bdc98" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MessageComposer</scope><name>CreateInstance</name></member>
+      <member refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1a51e4fc81afcabbbe906b1ec1a51fee75" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MessageComposer</scope><name>DestroyInternal</name></member>
+      <member refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1ab6c9a5a64688c396589dda0734495a75" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MessageComposer</scope><name>GetFeatureName</name></member>
+      <member refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1a9fabdd81e7bca27a3d86a46f81233eb5" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MessageComposer</scope><name>HandleComposerCloseInternalCallback</name></member>
+      <member refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1adf976da47352639bd56cbf8bacca05f9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MessageComposer</scope><name>IsAvailable</name></member>
+      <member refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1af3734a486480e81a0c916579335ff55a" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MessageComposer</scope><name>m_callback</name></member>
+      <member refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1a154713dcfc3e6261cf2878997165504f" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MessageComposer</scope><name>m_nativeComposer</name></member>
+      <member refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1af6024815787428d310254eff861a251b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MessageComposer</scope><name>SetBody</name></member>
+      <member refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1ac898077e238a10f081d24b865d21fb1d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MessageComposer</scope><name>SetCompletionCallback</name></member>
+      <member refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1ae961ba023466f238e89c757cf7c4a9b0" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MessageComposer</scope><name>SetRecipients</name></member>
+      <member refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1a96b265e79165b1175f0e1554f6c6194f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MessageComposer</scope><name>SetSubject</name></member>
+      <member refid="d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer_1ace79e5f49885e486e8e1d48ff0666476" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MessageComposer</scope><name>Show</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

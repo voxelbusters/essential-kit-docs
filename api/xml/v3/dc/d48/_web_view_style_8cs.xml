@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dc/d48/_web_view_style_8cs" kind="file" language="C#">
+    <compoundname>WebViewStyle.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1affd0f8f037d8080ee2f06ec06f710a53" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>WebViewStyle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.WebViewStyle</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1affd0f8f037d8080ee2f06ec06f710a53a7a1920d61156abc05a60135aefe8bc67" prot="public">
+          <name>Default</name>
+          <briefdescription>
+<para>No controls are shown for web view. This appearence is ideal for banner ads like requirement. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1affd0f8f037d8080ee2f06ec06f710a53a0d4c14a20b4d98a5de54e1480bf99a25" prot="public">
+          <name>Popup</name>
+          <briefdescription>
+<para>This option creates a close button at top-right corner of the web view. On clicking this, web view gets dismissed. </para>
+          </briefdescription>
+          <detaileddescription>
+<para><simplesect kind="note"><para>Incase if you want to permanetly remove web view instance, use WebView.Destory. </para>
+</simplesect>
+</para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1affd0f8f037d8080ee2f06ec06f710a53aef15fd2f45e6bb5ce57587895ba64f93" prot="public">
+          <name>Browser</name>
+          <briefdescription>
+<para>This option provides browser like appearence with 4 buttons for easy access to web view features. </para>
+          </briefdescription>
+          <detaileddescription>
+<para>It has Back and Forward buttons for navigating through the history. Reload button for reloading the current webpage contents. And finally, Done button for dismissing the web view.  </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enumeration for supported webview control styles. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewStyle.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewStyle.cs" bodystart="11" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewStyle.cs"/>
+  </compounddef>
+</doxygen>

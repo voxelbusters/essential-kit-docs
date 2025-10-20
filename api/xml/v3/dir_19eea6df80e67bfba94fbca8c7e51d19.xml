@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_19eea6df80e67bfba94fbca8c7e51d19" kind="dir">
+    <compoundname>/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core</compoundname>
+    <innerdir refid="dir_401c18ae0e187fea3e7d4ffcba7350cc">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AddressBook</innerdir>
+    <innerdir refid="dir_f57febb09ee368a5dbe0cfcda2abf3e7">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts</innerdir>
+    <innerdir refid="dir_a8ecac660d3bd1987caf72419984db4c">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater</innerdir>
+    <innerdir refid="dir_9a0837b79460c22307c36b9eccf2582a">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices</innerdir>
+    <innerdir refid="dir_a9a8fb7a926e0e1f9855a772b0940c4c">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices</innerdir>
+    <innerdir refid="dir_874be2a0ddaab932e78656fb4a4a00a4">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/DeepLinkServices</innerdir>
+    <innerdir refid="dir_22a98bfba6083d0726d6a4cee6724696">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras</innerdir>
+    <innerdir refid="dir_cee887b67bf0007e15938f0deaee168a">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices</innerdir>
+    <innerdir refid="dir_7cc5a9b196167c7ed775a5cdeff4c61c">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Internal</innerdir>
+    <innerdir refid="dir_a6ce59ab2b492e764af7665e5010192e">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices</innerdir>
+    <innerdir refid="dir_89b6d14ea037f061698be9e62d2fc3ae">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI</innerdir>
+    <innerdir refid="dir_eb22fc1231423acc6244cebced9c33bb">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NetworkServices</innerdir>
+    <innerdir refid="dir_0124278198928eb39cba2f86ae8a76e5">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NotificationServices</innerdir>
+    <innerdir refid="dir_8674b2800db435b895c6e23c17529538">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp</innerdir>
+    <innerdir refid="dir_c04cab16d24883f6f0a38f480266b8ba">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup</innerdir>
+    <innerdir refid="dir_f008e17d189ca7b75a15bf279398e096">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/SharingServices</innerdir>
+    <innerdir refid="dir_27a4aaa6fa6452085fe305040fa51a40">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/TaskServices</innerdir>
+    <innerdir refid="dir_4c54043eabc63e3c3957b04c623bb109">/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView</innerdir>
+    <innerfile refid="d5/d4b/_essential_kit_manager_8cs">EssentialKitManager.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::IScore</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score_1ab163c9e27d18b54ff2ba727d1d129eea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LeaderboardId</definition>
+        <argsstring></argsstring>
+        <name>LeaderboardId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IScore.LeaderboardId</qualifiedname>
+        <briefdescription>
+<para>An unique string used to identify the leaderboard across all the supported platforms. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IScore.cs" line="19" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IScore.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score_1af5722f7c2c501f6e2fd65951521e8e2a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string LeaderboardPlatformId</definition>
+        <argsstring></argsstring>
+        <name>LeaderboardPlatformId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IScore.LeaderboardPlatformId</qualifiedname>
+        <briefdescription>
+<para>A string used to identify the leaderboard in the current platform. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IScore.cs" line="24" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IScore.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score_1a76ff158189c532465f808ffa5897f53b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player" kindref="compound">IPlayer</ref></type>
+        <definition>IPlayer Player</definition>
+        <argsstring></argsstring>
+        <name>Player</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IScore.Player</qualifiedname>
+        <briefdescription>
+<para>The player that earned the score. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IScore.cs" line="29" column="17" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IScore.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score_1aaf907b2caf084a1a5c7a3ecf24c5dc68" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long Rank</definition>
+        <argsstring></argsstring>
+        <name>Rank</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IScore.Rank</qualifiedname>
+        <briefdescription>
+<para>The position of the score in leaderboard. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IScore.cs" line="34" column="14" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IScore.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="property" id="dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score_1a1a41a8f9efeaea2d1bfa259f006a53d3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IScore.Value</qualifiedname>
+        <briefdescription>
+<para>The score earned by the player. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IScore.cs" line="39" column="14" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IScore.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score_1a927be2e76d2ddfcec0f05bc0a7867112" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string FormattedValue</definition>
+        <argsstring></argsstring>
+        <name>FormattedValue</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IScore.FormattedValue</qualifiedname>
+        <briefdescription>
+<para>The players score as a localized string. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IScore.cs" line="44" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IScore.cs" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="property" id="dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score_1ad529323ce21c8ad3696e8662464b9369" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime LastReportedDate</definition>
+        <argsstring></argsstring>
+        <name>LastReportedDate</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IScore.LastReportedDate</qualifiedname>
+        <briefdescription>
+<para>The date and time when score was reported. (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IScore.cs" line="49" column="18" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IScore.cs" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="property" id="dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score_1a121d9cb485fa9e23380cb8c883e46c9c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Tag</definition>
+        <argsstring></argsstring>
+        <name>Tag</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IScore.Tag</qualifiedname>
+        <briefdescription>
+<para>A tag string associated with the score. The value may contain no more than 64 URI-safe characters as defined by section 2.3 of RFC 3986. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This tag value is used to identify a unique score within the same leaderboard. You can use this tag to update or retrieve the score in the future. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IScore.cs" line="60" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IScore.cs" bodystart="60" bodyend="60"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score_1a5c9e20fed93a56d9967efd84abb49a4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReportScore</definition>
+        <argsstring>(CompletionCallback callback)</argsstring>
+        <name>ReportScore</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IScore.ReportScore</qualifiedname>
+        <param>
+          <type>CompletionCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Reports the score to game server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Callback that will be called after operation is completed.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IScore.cs" line="70" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><xrefsect id="da/d58/deprecated_1_deprecated000002"><xreftitle>Deprecated</xreftitle><xrefdescription><para>Since V3.0.0 </para>
+</xrefdescription></xrefsect></para>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IScore.cs" line="12" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/GameServices/IScore.cs" bodystart="13" bodyend="73"/>
+    <listofallmembers>
+      <member refid="dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score_1a927be2e76d2ddfcec0f05bc0a7867112" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IScore</scope><name>FormattedValue</name></member>
+      <member refid="dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score_1ad529323ce21c8ad3696e8662464b9369" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IScore</scope><name>LastReportedDate</name></member>
+      <member refid="dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score_1ab163c9e27d18b54ff2ba727d1d129eea" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IScore</scope><name>LeaderboardId</name></member>
+      <member refid="dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score_1af5722f7c2c501f6e2fd65951521e8e2a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IScore</scope><name>LeaderboardPlatformId</name></member>
+      <member refid="dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score_1a76ff158189c532465f808ffa5897f53b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IScore</scope><name>Player</name></member>
+      <member refid="dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score_1aaf907b2caf084a1a5c7a3ecf24c5dc68" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IScore</scope><name>Rank</name></member>
+      <member refid="dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score_1a5c9e20fed93a56d9967efd84abb49a4b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IScore</scope><name>ReportScore</name></member>
+      <member refid="dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score_1a121d9cb485fa9e23380cb8c883e46c9c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IScore</scope><name>Tag</name></member>
+      <member refid="dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score_1a1a41a8f9efeaea2d1bfa259f006a53d3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IScore</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

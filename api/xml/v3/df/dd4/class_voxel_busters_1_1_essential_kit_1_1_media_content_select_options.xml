@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::MediaContentSelectOptions</compoundname>
+    <sectiondef kind="user-defined">
+      <header>Helpers</header>
+      <memberdef kind="function" id="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1a5a3d8e3b0025e5b242bba52016aacedd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options" kindref="compound">MediaContentSelectOptions</ref></type>
+        <definition>static MediaContentSelectOptions CreateForImage</definition>
+        <argsstring>(int maxAllowed=1)</argsstring>
+        <name>CreateForImage</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContentSelectOptions.CreateForImage</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>maxAllowed</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>Creates options for selecting image. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The options.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxAllowed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Max allowed.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSelectOptions.cs" line="68" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSelectOptions.cs" bodystart="68" bodyend="71"/>
+        <references refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1a9650eb3f856fbc908eba5d86545a64c0" compoundref="d5/d2e/_media_content_select_options_8cs" startline="47" endline="54">MediaContentSelectOptions.MediaContentSelectOptions</references>
+        <references refid="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1ab60844ca3fca62a733c88c7d9b27c841" compoundref="d3/ddf/_mime_type_8cs" startline="31">MimeType.kAllImages</references>
+      </memberdef>
+      <memberdef kind="function" id="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1ac593208a0a92ff5ea79097b1d724518b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options" kindref="compound">MediaContentSelectOptions</ref></type>
+        <definition>static MediaContentSelectOptions CreateForVideo</definition>
+        <argsstring>(int maxAllowed=1)</argsstring>
+        <name>CreateForVideo</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContentSelectOptions.CreateForVideo</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>maxAllowed</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>Creates options for selecting video. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The options.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxAllowed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Max allowed contents.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSelectOptions.cs" line="78" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSelectOptions.cs" bodystart="78" bodyend="81"/>
+        <references refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1a9650eb3f856fbc908eba5d86545a64c0" compoundref="d5/d2e/_media_content_select_options_8cs" startline="47" endline="54">MediaContentSelectOptions.MediaContentSelectOptions</references>
+        <references refid="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1a7ea17ea0abd6fb385882e8da0008be0f" compoundref="d3/ddf/_mime_type_8cs" startline="47">MimeType.kAllVideos</references>
+      </memberdef>
+      <memberdef kind="function" id="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1a51070a25afd0fca1ba77a0ee0187bcb4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options" kindref="compound">MediaContentSelectOptions</ref></type>
+        <definition>static MediaContentSelectOptions CreateForAudio</definition>
+        <argsstring>(int maxAllowed=1)</argsstring>
+        <name>CreateForAudio</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContentSelectOptions.CreateForAudio</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>maxAllowed</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>Creates options for selecting audio. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The options.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxAllowed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Max allowed.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSelectOptions.cs" line="88" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSelectOptions.cs" bodystart="88" bodyend="91"/>
+        <references refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1a9650eb3f856fbc908eba5d86545a64c0" compoundref="d5/d2e/_media_content_select_options_8cs" startline="47" endline="54">MediaContentSelectOptions.MediaContentSelectOptions</references>
+        <references refid="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1ae8441aa8268d7a4489bfa678420d2fdb" compoundref="d3/ddf/_mime_type_8cs" startline="53">MimeType.kAllAudio</references>
+      </memberdef>
+      <memberdef kind="function" id="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1ade7ba8bc357b6127c097ba83a8371b85" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options" kindref="compound">MediaContentSelectOptions</ref></type>
+        <definition>static MediaContentSelectOptions CreateForAny</definition>
+        <argsstring>(int maxAllowed=1)</argsstring>
+        <name>CreateForAny</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContentSelectOptions.CreateForAny</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>maxAllowed</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>Creates options for selecting any file type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The options.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxAllowed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Max allowed.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSelectOptions.cs" line="98" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSelectOptions.cs" bodystart="98" bodyend="101"/>
+        <references refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1a9650eb3f856fbc908eba5d86545a64c0" compoundref="d5/d2e/_media_content_select_options_8cs" startline="47" endline="54">MediaContentSelectOptions.MediaContentSelectOptions</references>
+        <references refid="db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type_1a264238e62e31e0c2ceaa9256befa56d3" compoundref="d3/ddf/_mime_type_8cs" startline="19">MimeType.kAny</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1aa7b633091e7820b835d04d0d5fc197c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContentSelectOptions.Title</qualifiedname>
+        <briefdescription>
+<para>Gets the title which is shown to user. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The title.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSelectOptions.cs" line="17" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSelectOptions.cs" bodystart="17" bodyend="17"/>
+        <referencedby refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1a9650eb3f856fbc908eba5d86545a64c0" compoundref="d5/d2e/_media_content_select_options_8cs" startline="47" endline="54">MediaContentSelectOptions.MediaContentSelectOptions</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1afd7da1fc4036c6435416ef323909dabc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string AllowedMimeType</definition>
+        <argsstring></argsstring>
+        <name>AllowedMimeType</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContentSelectOptions.AllowedMimeType</qualifiedname>
+        <briefdescription>
+<para>Gets the allowed mime type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The allowed mime type.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSelectOptions.cs" line="23" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSelectOptions.cs" bodystart="23" bodyend="23"/>
+        <referencedby refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1a9650eb3f856fbc908eba5d86545a64c0" compoundref="d5/d2e/_media_content_select_options_8cs" startline="47" endline="54">MediaContentSelectOptions.MediaContentSelectOptions</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1a2f6f1ed0175dab5326e045c4b9b10ab1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int MaxAllowed</definition>
+        <argsstring></argsstring>
+        <name>MaxAllowed</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContentSelectOptions.MaxAllowed</qualifiedname>
+        <briefdescription>
+<para>Gets the max allowed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The max allowed.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSelectOptions.cs" line="29" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSelectOptions.cs" bodystart="29" bodyend="29"/>
+        <referencedby refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1a9650eb3f856fbc908eba5d86545a64c0" compoundref="d5/d2e/_media_content_select_options_8cs" startline="47" endline="54">MediaContentSelectOptions.MediaContentSelectOptions</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1a82d8919bcd5278819d46a1b2654ebace" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ShowPrepermissionDialog</definition>
+        <argsstring></argsstring>
+        <name>ShowPrepermissionDialog</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContentSelectOptions.ShowPrepermissionDialog</qualifiedname>
+        <briefdescription>
+<para>Gets a value indicating whether this <ref refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options" kindref="compound">MediaContentSelectOptions</ref> show prepermission dialog. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>true</computeroutput> if show prepermission dialog; otherwise, <computeroutput>false</computeroutput>.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSelectOptions.cs" line="35" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSelectOptions.cs" bodystart="35" bodyend="35"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1a9650eb3f856fbc908eba5d86545a64c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaContentSelectOptions</definition>
+        <argsstring>(string title, string allowedMimeType, int maxAllowed)</argsstring>
+        <name>MediaContentSelectOptions</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContentSelectOptions.MediaContentSelectOptions</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>allowedMimeType</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxAllowed</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options" kindref="compound">MediaContentSelectOptions</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Title.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>allowedMimeType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Allowed mime type.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxAllowed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Max allowed contents to select.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSelectOptions.cs" line="47" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSelectOptions.cs" bodystart="47" bodyend="54"/>
+        <references refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1afd7da1fc4036c6435416ef323909dabc" compoundref="d5/d2e/_media_content_select_options_8cs" startline="23" endline="23">MediaContentSelectOptions.AllowedMimeType</references>
+        <references refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1a2f6f1ed0175dab5326e045c4b9b10ab1" compoundref="d5/d2e/_media_content_select_options_8cs" startline="29" endline="29">MediaContentSelectOptions.MaxAllowed</references>
+        <references refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1aa7b633091e7820b835d04d0d5fc197c7" compoundref="d5/d2e/_media_content_select_options_8cs" startline="17" endline="17">MediaContentSelectOptions.Title</references>
+        <referencedby refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1ade7ba8bc357b6127c097ba83a8371b85" compoundref="d5/d2e/_media_content_select_options_8cs" startline="98" endline="101">MediaContentSelectOptions.CreateForAny</referencedby>
+        <referencedby refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1a51070a25afd0fca1ba77a0ee0187bcb4" compoundref="d5/d2e/_media_content_select_options_8cs" startline="88" endline="91">MediaContentSelectOptions.CreateForAudio</referencedby>
+        <referencedby refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1a5a3d8e3b0025e5b242bba52016aacedd" compoundref="d5/d2e/_media_content_select_options_8cs" startline="68" endline="71">MediaContentSelectOptions.CreateForImage</referencedby>
+        <referencedby refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1ac593208a0a92ff5ea79097b1d724518b" compoundref="d5/d2e/_media_content_select_options_8cs" startline="78" endline="81">MediaContentSelectOptions.CreateForVideo</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Contains options for selecting media content. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSelectOptions.cs" line="9" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContentSelectOptions.cs" bodystart="10" bodyend="104"/>
+    <listofallmembers>
+      <member refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1afd7da1fc4036c6435416ef323909dabc" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContentSelectOptions</scope><name>AllowedMimeType</name></member>
+      <member refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1ade7ba8bc357b6127c097ba83a8371b85" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContentSelectOptions</scope><name>CreateForAny</name></member>
+      <member refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1a51070a25afd0fca1ba77a0ee0187bcb4" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContentSelectOptions</scope><name>CreateForAudio</name></member>
+      <member refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1a5a3d8e3b0025e5b242bba52016aacedd" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContentSelectOptions</scope><name>CreateForImage</name></member>
+      <member refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1ac593208a0a92ff5ea79097b1d724518b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContentSelectOptions</scope><name>CreateForVideo</name></member>
+      <member refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1a2f6f1ed0175dab5326e045c4b9b10ab1" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContentSelectOptions</scope><name>MaxAllowed</name></member>
+      <member refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1a9650eb3f856fbc908eba5d86545a64c0" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContentSelectOptions</scope><name>MediaContentSelectOptions</name></member>
+      <member refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1a82d8919bcd5278819d46a1b2654ebace" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContentSelectOptions</scope><name>ShowPrepermissionDialog</name></member>
+      <member refid="df/dd4/class_voxel_busters_1_1_essential_kit_1_1_media_content_select_options_1aa7b633091e7820b835d04d0d5fc197c7" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContentSelectOptions</scope><name>Title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

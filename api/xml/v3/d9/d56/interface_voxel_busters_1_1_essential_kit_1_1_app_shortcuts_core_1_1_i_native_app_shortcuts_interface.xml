@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/d56/interface_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_core_1_1_i_native_app_shortcuts_interface" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::AppShortcutsCore::INativeAppShortcutsInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">INativeFeatureInterface</basecompoundref>
+    <derivedcompoundref refid="df/d81/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_core_1_1_null_app_shortcuts_interface" prot="public" virt="non-virtual">NullAppShortcutsInterface</derivedcompoundref>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="d9/d56/interface_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_core_1_1_i_native_app_shortcuts_interface_1a3a68969d4c984e3352ba8557ad589269" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>ShortcutClickedInternalCallback</type>
+        <definition>ShortcutClickedInternalCallback OnShortcutClicked</definition>
+        <argsstring></argsstring>
+        <name>OnShortcutClicked</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppShortcutsCore.INativeAppShortcutsInterface.OnShortcutClicked</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/INativeAppShortcutsInterface.cs" line="13" column="47" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/INativeAppShortcutsInterface.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d56/interface_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_core_1_1_i_native_app_shortcuts_interface_1a6fb7f85ba6c63bab05c088c033a658b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Add</definition>
+        <argsstring>(AppShortcutItem item)</argsstring>
+        <name>Add</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppShortcutsCore.INativeAppShortcutsInterface.Add</qualifiedname>
+        <param>
+          <type><ref refid="dd/d0b/class_voxel_busters_1_1_essential_kit_1_1_app_shortcut_item" kindref="compound">AppShortcutItem</ref></type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/INativeAppShortcutsInterface.cs" line="19" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d56/interface_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_core_1_1_i_native_app_shortcuts_interface_1a4ace836120faaa4f4066ba3ed962fbb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Remove</definition>
+        <argsstring>(string shortcutItemId)</argsstring>
+        <name>Remove</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppShortcutsCore.INativeAppShortcutsInterface.Remove</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>shortcutItemId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/INativeAppShortcutsInterface.cs" line="20" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/INativeAppShortcutsInterface.cs" line="9" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppShortcuts/INativeAppShortcutsInterface.cs" bodystart="10" bodyend="23"/>
+    <listofallmembers>
+      <member refid="d9/d56/interface_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_core_1_1_i_native_app_shortcuts_interface_1a6fb7f85ba6c63bab05c088c033a658b0" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppShortcutsCore::INativeAppShortcutsInterface</scope><name>Add</name></member>
+      <member refid="d9/d56/interface_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_core_1_1_i_native_app_shortcuts_interface_1a3a68969d4c984e3352ba8557ad589269" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppShortcutsCore::INativeAppShortcutsInterface</scope><name>OnShortcutClicked</name></member>
+      <member refid="d9/d56/interface_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_core_1_1_i_native_app_shortcuts_interface_1a4ace836120faaa4f4066ba3ed962fbb3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppShortcutsCore::INativeAppShortcutsInterface</scope><name>Remove</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

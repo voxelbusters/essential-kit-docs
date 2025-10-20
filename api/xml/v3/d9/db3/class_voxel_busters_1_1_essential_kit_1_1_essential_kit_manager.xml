@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/db3/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_manager" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::EssentialKitManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">VoxelBusters::CoreLibrary::PrivateSingletonBehaviour&lt; EssentialKitManager &gt;</basecompoundref>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d9/db3/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_manager_1a04fb14d37d6823855ff93c1f43f2d958" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void OnLoad</definition>
+        <argsstring>()</argsstring>
+        <name>OnLoad</name>
+        <qualifiedname>VoxelBusters.EssentialKit.EssentialKitManager.OnLoad</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/EssentialKitManager.cs" line="17" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/EssentialKitManager.cs" bodystart="17" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d9/db3/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_manager_1a4a75f2190558c64b867d868efde69c13" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OnSingletonAwake</definition>
+        <argsstring>()</argsstring>
+        <name>OnSingletonAwake</name>
+        <qualifiedname>VoxelBusters.EssentialKit.EssentialKitManager.OnSingletonAwake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/EssentialKitManager.cs" line="28" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/EssentialKitManager.cs" bodystart="28" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/EssentialKitManager.cs" line="12" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/EssentialKitManager.cs" bodystart="13" bodyend="47"/>
+    <listofallmembers>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a6a50039c56e42ecc20d5de7aa56ab5e6" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::EssentialKitManager</scope><name>DestorySingleton</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a7f36640d267f36fcbac6d736fb9456d6" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::EssentialKitManager</scope><name>GetSingleton</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a4c99c6dc56675d38d2fbc282cbd64d09" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::EssentialKitManager</scope><name>IsPersistent</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1ac51aabcdcc13271b1c7f1bbb249f0321" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::EssentialKitManager</scope><name>IsSingletonActive</name></member>
+      <member refid="d9/db3/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_manager_1a04fb14d37d6823855ff93c1f43f2d958" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::EssentialKitManager</scope><name>OnLoad</name></member>
+      <member refid="d9/db3/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_manager_1a4a75f2190558c64b867d868efde69c13" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::EssentialKitManager</scope><name>OnSingletonAwake</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a44bde1142ce6a850a18aa9d61e1338ec" prot="protected" virt="virtual"><scope>VoxelBusters::EssentialKit::EssentialKitManager</scope><name>OnSingletonDestroy</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1a4343e94eeb9392419970f25f0d8c2f7a" prot="protected" virt="virtual"><scope>VoxelBusters::EssentialKit::EssentialKitManager</scope><name>OnSingletonStart</name></member>
+      <member refid="d4/da9/class_voxel_busters_1_1_core_library_1_1_private_singleton_behaviour_1adc4b27bf21ae03f5295e34e316904e2d" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::EssentialKitManager</scope><name>TryGetSingleton</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

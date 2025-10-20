@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d4/db5/class_voxel_busters_1_1_core_library_1_1_external_service_provider" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::ExternalServiceProvider</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d4/db5/class_voxel_busters_1_1_core_library_1_1_external_service_provider_1a927c1cc0853f7a7dfd18c8523e44477a" prot="private" static="yes" mutable="no">
+        <type><ref refid="d4/d8a/interface_voxel_busters_1_1_core_library_1_1_i_json_service_provider" kindref="compound">IJsonServiceProvider</ref></type>
+        <definition>IJsonServiceProvider s_jsonServiceProvider</definition>
+        <argsstring></argsstring>
+        <name>s_jsonServiceProvider</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ExternalServiceProvider.s_jsonServiceProvider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ExternalServiceProvider.cs" line="14" column="61" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ExternalServiceProvider.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/db5/class_voxel_busters_1_1_core_library_1_1_external_service_provider_1a88a2139ed56ff658baf8373018ac0f70" prot="private" static="yes" mutable="no">
+        <type><ref refid="d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider" kindref="compound">ISaveServiceProvider</ref></type>
+        <definition>ISaveServiceProvider s_saveServiceProvider</definition>
+        <argsstring></argsstring>
+        <name>s_saveServiceProvider</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ExternalServiceProvider.s_saveServiceProvider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ExternalServiceProvider.cs" line="16" column="61" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ExternalServiceProvider.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/db5/class_voxel_busters_1_1_core_library_1_1_external_service_provider_1a9ca6cb6648c97bd4f931b2afdbef3829" prot="private" static="yes" mutable="no">
+        <type>ILocalisationServiceProvider</type>
+        <definition>ILocalisationServiceProvider s_localisationServiceProvider</definition>
+        <argsstring></argsstring>
+        <name>s_localisationServiceProvider</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ExternalServiceProvider.s_localisationServiceProvider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ExternalServiceProvider.cs" line="18" column="61" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ExternalServiceProvider.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d4/db5/class_voxel_busters_1_1_core_library_1_1_external_service_provider_1a6413c11580b05eb4401cf1ea0243e8e6" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d4/d8a/interface_voxel_busters_1_1_core_library_1_1_i_json_service_provider" kindref="compound">IJsonServiceProvider</ref></type>
+        <definition>IJsonServiceProvider JsonServiceProvider</definition>
+        <argsstring></argsstring>
+        <name>JsonServiceProvider</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ExternalServiceProvider.JsonServiceProvider</qualifiedname>
+        <briefdescription>
+<para>Gets or sets the JSON service provider. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The JSON service provider.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ExternalServiceProvider.cs" line="28" column="44" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ExternalServiceProvider.cs" bodystart="29" bodyend="42"/>
+        <referencedby refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a9ca5b99b3550503ca7bad8418e133156" compoundref="db/dc3/_key_value_data_store_8cs" startline="188" endline="192">KeyValueDataStore.Synchronize</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="d4/db5/class_voxel_busters_1_1_core_library_1_1_external_service_provider_1a3afb5c7c28a6166407cf36daf5712cc4" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider" kindref="compound">ISaveServiceProvider</ref></type>
+        <definition>ISaveServiceProvider SaveServiceProvider</definition>
+        <argsstring></argsstring>
+        <name>SaveServiceProvider</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ExternalServiceProvider.SaveServiceProvider</qualifiedname>
+        <briefdescription>
+<para>Gets or sets the save service provider. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The save service provider.</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ExternalServiceProvider.cs" line="48" column="44" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ExternalServiceProvider.cs" bodystart="49" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/db5/class_voxel_busters_1_1_core_library_1_1_external_service_provider_1ac927ea498a91290263374fb2c5fbcd33" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ILocalisationServiceProvider</type>
+        <definition>ILocalisationServiceProvider LocalisationServiceProvider</definition>
+        <argsstring></argsstring>
+        <name>LocalisationServiceProvider</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.ExternalServiceProvider.LocalisationServiceProvider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ExternalServiceProvider.cs" line="64" column="52" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ExternalServiceProvider.cs" bodystart="65" bodyend="78"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Provides an interface to connect external services used by the plugin. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ExternalServiceProvider.cs" line="10" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Interfaces/ExternalServiceProvider.cs" bodystart="11" bodyend="81"/>
+    <listofallmembers>
+      <member refid="d4/db5/class_voxel_busters_1_1_core_library_1_1_external_service_provider_1a6413c11580b05eb4401cf1ea0243e8e6" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ExternalServiceProvider</scope><name>JsonServiceProvider</name></member>
+      <member refid="d4/db5/class_voxel_busters_1_1_core_library_1_1_external_service_provider_1ac927ea498a91290263374fb2c5fbcd33" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ExternalServiceProvider</scope><name>LocalisationServiceProvider</name></member>
+      <member refid="d4/db5/class_voxel_busters_1_1_core_library_1_1_external_service_provider_1a927c1cc0853f7a7dfd18c8523e44477a" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ExternalServiceProvider</scope><name>s_jsonServiceProvider</name></member>
+      <member refid="d4/db5/class_voxel_busters_1_1_core_library_1_1_external_service_provider_1a9ca6cb6648c97bd4f931b2afdbef3829" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ExternalServiceProvider</scope><name>s_localisationServiceProvider</name></member>
+      <member refid="d4/db5/class_voxel_busters_1_1_core_library_1_1_external_service_provider_1a88a2139ed56ff658baf8373018ac0f70" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ExternalServiceProvider</scope><name>s_saveServiceProvider</name></member>
+      <member refid="d4/db5/class_voxel_busters_1_1_core_library_1_1_external_service_provider_1a3afb5c7c28a6166407cf36daf5712cc4" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::ExternalServiceProvider</scope><name>SaveServiceProvider</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

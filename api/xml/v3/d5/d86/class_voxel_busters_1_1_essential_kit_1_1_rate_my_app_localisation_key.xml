@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d5/d86/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_localisation_key" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::RateMyAppLocalisationKey</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="d5/d86/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_localisation_key_1a8a80bb88cf5a57db21569f081acd7874" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kTitle</definition>
+        <argsstring></argsstring>
+        <name>kTitle</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppLocalisationKey.kTitle</qualifiedname>
+        <initializer>= &quot;rma_title&quot;</initializer>
+        <briefdescription>
+<para>The key for the title of the rate my app prompt. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppLocalisationKey.cs" line="16" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppLocalisationKey.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d86/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_localisation_key_1a62b4764c108029d7768ec9f3cbcde5c9" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kDescription</definition>
+        <argsstring></argsstring>
+        <name>kDescription</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppLocalisationKey.kDescription</qualifiedname>
+        <initializer>= &quot;rma_description&quot;</initializer>
+        <briefdescription>
+<para>The key for the description of the rate my app prompt. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppLocalisationKey.cs" line="21" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppLocalisationKey.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d86/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_localisation_key_1ac5e8ad597df1e0c38ad9fdfb05e7b8d1" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kOkButton</definition>
+        <argsstring></argsstring>
+        <name>kOkButton</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppLocalisationKey.kOkButton</qualifiedname>
+        <initializer>= &quot;rma_button_ok&quot;</initializer>
+        <briefdescription>
+<para>The key for the &apos;Ok&apos; button of the rate my app prompt. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppLocalisationKey.cs" line="26" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppLocalisationKey.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d86/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_localisation_key_1a95821360874254b853653b6ed8818ad2" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kCancelButton</definition>
+        <argsstring></argsstring>
+        <name>kCancelButton</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppLocalisationKey.kCancelButton</qualifiedname>
+        <initializer>= &quot;rma_button_cancel&quot;</initializer>
+        <briefdescription>
+<para>The key for the &apos;Cancel&apos; button of the rate my app prompt. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppLocalisationKey.cs" line="31" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppLocalisationKey.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d86/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_localisation_key_1aa2e9fceae1fb8a6f45bca53458b44a1f" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kRemindLaterButton</definition>
+        <argsstring></argsstring>
+        <name>kRemindLaterButton</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RateMyAppLocalisationKey.kRemindLaterButton</qualifiedname>
+        <initializer>= &quot;rma_button_remind_later&quot;</initializer>
+        <briefdescription>
+<para>The key for the &apos;Remind me later&apos; button of the rate my app prompt. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppLocalisationKey.cs" line="36" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppLocalisationKey.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Keys used to localize the rate my app feature. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppLocalisationKey.cs" line="11" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppLocalisationKey.cs" bodystart="12" bodyend="37"/>
+    <listofallmembers>
+      <member refid="d5/d86/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_localisation_key_1a95821360874254b853653b6ed8818ad2" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppLocalisationKey</scope><name>kCancelButton</name></member>
+      <member refid="d5/d86/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_localisation_key_1a62b4764c108029d7768ec9f3cbcde5c9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppLocalisationKey</scope><name>kDescription</name></member>
+      <member refid="d5/d86/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_localisation_key_1ac5e8ad597df1e0c38ad9fdfb05e7b8d1" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppLocalisationKey</scope><name>kOkButton</name></member>
+      <member refid="d5/d86/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_localisation_key_1aa2e9fceae1fb8a6f45bca53458b44a1f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppLocalisationKey</scope><name>kRemindLaterButton</name></member>
+      <member refid="d5/d86/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_localisation_key_1a8a80bb88cf5a57db21569f081acd7874" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppLocalisationKey</scope><name>kTitle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="db/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_content" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::MediaContent</compoundname>
+    <basecompoundref refid="d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content" prot="public" virt="non-virtual">IMediaContent</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="db/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_content_1a499ef9f0f52fe3cee348b490ddb815ca" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>byte[]</type>
+        <definition>byte [] Data</definition>
+        <argsstring></argsstring>
+        <name>Data</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContent.Data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContent.cs" line="10" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContent.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="db/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_content_1a1153601619bcad2c8364de4e2e13be13" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Mime</definition>
+        <argsstring></argsstring>
+        <name>Mime</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContent.Mime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContent.cs" line="11" column="26" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContent.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_content_1a577f61c92a95d2bf21d3d7891ab2b92e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void AsTexture2D</definition>
+        <argsstring>(EventCallback&lt; Texture2D &gt; onComplete)</argsstring>
+        <name>AsTexture2D</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContent.AsTexture2D</qualifiedname>
+        <param>
+          <type>EventCallback&lt; Texture2D &gt;</type>
+          <declname>onComplete</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContent.cs" line="13" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContent.cs" bodystart="13" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_content_1a5a32c18308c48e2d407fd5b3ff348330" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AsRawMediaData</definition>
+        <argsstring>(EventCallback&lt; RawMediaData &gt; onComplete)</argsstring>
+        <name>AsRawMediaData</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContent.AsRawMediaData</qualifiedname>
+        <param>
+          <type>EventCallback&lt; <ref refid="d9/dac/class_voxel_busters_1_1_essential_kit_1_1_raw_media_data" kindref="compound">RawMediaData</ref> &gt;</type>
+          <declname>onComplete</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContent.cs" line="19" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContent.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_content_1aea7641c78c496991f22a91e3582dc084" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void AsFilePath</definition>
+        <argsstring>(string destinationDirectory, string fileName, EventCallback&lt; string &gt; onComplete)</argsstring>
+        <name>AsFilePath</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContent.AsFilePath</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>destinationDirectory</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>EventCallback&lt; string &gt;</type>
+          <declname>onComplete</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContent.cs" line="24" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContent.cs" bodystart="24" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_content_1a80a6b82b4dca09cd4bd14f9502817edd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MediaContent</type>
+        <definition>static MediaContent From</definition>
+        <argsstring>(byte[] data, string mime)</argsstring>
+        <name>From</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContent.From</qualifiedname>
+        <param>
+          <type>byte[]</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>mime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContent.cs" line="34" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContent.cs" bodystart="34" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_content_1ac05de203ccbefb64d689bcc8b54a5cf5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MediaContent</type>
+        <definition>static MediaContent From</definition>
+        <argsstring>(Texture2D texture)</argsstring>
+        <name>From</name>
+        <qualifiedname>VoxelBusters.EssentialKit.MediaContent.From</qualifiedname>
+        <param>
+          <type>Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContent.cs" line="42" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContent.cs" bodystart="42" bodyend="50"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IMediaContent</label>
+        <link refid="d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content"/>
+      </node>
+      <node id="1">
+        <label>MediaContent</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IMediaContent</label>
+        <link refid="d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content"/>
+      </node>
+      <node id="1">
+        <label>MediaContent</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContent.cs" line="8" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/MediaContent.cs" bodystart="9" bodyend="52"/>
+    <listofallmembers>
+      <member refid="db/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_content_1aea7641c78c496991f22a91e3582dc084" prot="public" virt="virtual"><scope>VoxelBusters::EssentialKit::MediaContent</scope><name>AsFilePath</name></member>
+      <member refid="db/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_content_1a5a32c18308c48e2d407fd5b3ff348330" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContent</scope><name>AsRawMediaData</name></member>
+      <member refid="db/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_content_1a577f61c92a95d2bf21d3d7891ab2b92e" prot="public" virt="virtual"><scope>VoxelBusters::EssentialKit::MediaContent</scope><name>AsTexture2D</name></member>
+      <member refid="db/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_content_1a499ef9f0f52fe3cee348b490ddb815ca" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContent</scope><name>Data</name></member>
+      <member refid="db/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_content_1a80a6b82b4dca09cd4bd14f9502817edd" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContent</scope><name>From</name></member>
+      <member refid="db/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_content_1ac05de203ccbefb64d689bcc8b54a5cf5" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContent</scope><name>From</name></member>
+      <member refid="db/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_content_1a1153601619bcad2c8364de4e2e13be13" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::MediaContent</scope><name>Mime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

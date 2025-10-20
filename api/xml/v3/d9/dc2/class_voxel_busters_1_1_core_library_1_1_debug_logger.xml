@@ -1,0 +1,538 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::DebugLogger</compoundname>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1aca1fd1d8935433e6ba2e3918214e07f9" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>LogLevel</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.DebugLogger.LogLevel</qualifiedname>
+        <enumvalue id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1aca1fd1d8935433e6ba2e3918214e07f9a4059b0251f66a18cb56f544728796875" prot="public">
+          <name>Info</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1aca1fd1d8935433e6ba2e3918214e07f9a0eaadb4fcb48a0a0ed7bc9868be9fbaa" prot="public">
+          <name>Warning</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1aca1fd1d8935433e6ba2e3918214e07f9a902b0d55fddef6f8d651fe1035b7d4bd" prot="public">
+          <name>Error</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1aca1fd1d8935433e6ba2e3918214e07f9a278d01e5af56273bae1bb99a98b370cd" prot="public">
+          <name>Critical</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1aca1fd1d8935433e6ba2e3918214e07f9a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" line="179" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" bodystart="180" bodyend="190"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1a6ca32fdae4e8bbf0d02749a432e2d346" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kDefaultTag</definition>
+        <argsstring></argsstring>
+        <name>kDefaultTag</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.DebugLogger.kDefaultTag</qualifiedname>
+        <initializer>= &quot;VoxelBusters&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" line="12" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1afaf69ca1d5171c0e5395124113631ca1" prot="private" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Dictionary&lt; string, LogLevel &gt;</type>
+        <definition>Dictionary&lt;string, LogLevel&gt; TagLevelMap</definition>
+        <argsstring></argsstring>
+        <name>TagLevelMap</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.DebugLogger.TagLevelMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" line="18" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1ac6ee99d7091eb56c2ea4b9c7c64e6410" prot="private" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>LogLevel</type>
+        <definition>LogLevel DefaultLogLevel</definition>
+        <argsstring></argsstring>
+        <name>DefaultLogLevel</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.DebugLogger.DefaultLogLevel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" line="20" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1aecca33eebae3142df790b502e1b1caac" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static DebugLogger</definition>
+        <argsstring>()</argsstring>
+        <name>DebugLogger</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.DebugLogger.DebugLogger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" line="26" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1a55c5e0c77ea2fd2f97cb729348115744" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool IgnoreLog</definition>
+        <argsstring>(LogLevel level, string tag=null)</argsstring>
+        <name>IgnoreLog</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.DebugLogger.IgnoreLog</qualifiedname>
+        <param>
+          <type>LogLevel</type>
+          <declname>level</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" line="165" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" bodystart="165" bodyend="173"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1a990a15be99f12410573abbf72c2e526a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SetLogLevel</definition>
+        <argsstring>(LogLevel value, params string[] tags)</argsstring>
+        <name>SetLogLevel</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.DebugLogger.SetLogLevel</qualifiedname>
+        <param>
+          <type>LogLevel</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>params string[]</type>
+          <declname>tags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" line="37" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" bodystart="37" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1a302ffe63d038178988e4786e1f983f97" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Log</definition>
+        <argsstring>(string message, Object context=null)</argsstring>
+        <name>Log</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.DebugLogger.Log</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>context</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" line="57" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1ae129c8ab5f0ca9b2e3d13a71e836649c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Log</definition>
+        <argsstring>(string tag, string message, Object context=null)</argsstring>
+        <name>Log</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.DebugLogger.Log</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>context</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" line="62" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" bodystart="62" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1a52b3b6fcf0750ac57cce72a6b979fd04" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogWarning</definition>
+        <argsstring>(string message, Object context=null)</argsstring>
+        <name>LogWarning</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.DebugLogger.LogWarning</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>context</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" line="70" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1abf48790ec713d6c098c0780de7b37537" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogWarning</definition>
+        <argsstring>(string tag, string message, Object context=null)</argsstring>
+        <name>LogWarning</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.DebugLogger.LogWarning</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>context</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" line="75" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" bodystart="75" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1a6ec36aa7c0a44bbbc42b52060d4db06f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogError</definition>
+        <argsstring>(string message, Object context=null)</argsstring>
+        <name>LogError</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.DebugLogger.LogError</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>context</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" line="83" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" bodystart="83" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1a53765c4c786a94fd14552d5625d22700" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogError</definition>
+        <argsstring>(string tag, string message, Object context=null)</argsstring>
+        <name>LogError</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.DebugLogger.LogError</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>context</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" line="88" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" bodystart="88" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1ac83e0e607459bbdeceb01c64a47e5727" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogException</definition>
+        <argsstring>(Exception exception, Object context=null)</argsstring>
+        <name>LogException</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.DebugLogger.LogException</qualifiedname>
+        <param>
+          <type>Exception</type>
+          <declname>exception</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>context</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" line="96" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" bodystart="96" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1aea62a177ac8c56cfe6c38a3963758d85" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogException</definition>
+        <argsstring>(string tag, Exception exception, Object context=null)</argsstring>
+        <name>LogException</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.DebugLogger.LogException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <param>
+          <type>Exception</type>
+          <declname>exception</declname>
+        </param>
+        <param>
+          <type>Object</type>
+          <declname>context</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" line="101" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" bodystart="101" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1a28ab5d086cde015f2d934057a419c2ac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogFormat</definition>
+        <argsstring>(string format, params object[] arguments)</argsstring>
+        <name>LogFormat</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.DebugLogger.LogFormat</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>arguments</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" line="114" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" bodystart="114" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1a25bf8fc1915a8ad666debf8b4a893da4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogFormat</definition>
+        <argsstring>(Object context, string format, params object[] arguments)</argsstring>
+        <name>LogFormat</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.DebugLogger.LogFormat</qualifiedname>
+        <param>
+          <type>Object</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>arguments</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" line="120" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" bodystart="120" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1afbfe9487e88ae47828201028ab5c8a5e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogWarningFormat</definition>
+        <argsstring>(string format, params object[] arguments)</argsstring>
+        <name>LogWarningFormat</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.DebugLogger.LogWarningFormat</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>arguments</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" line="130" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" bodystart="130" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1a250b3457e62ae394e39450cca7424b38" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogWarningFormat</definition>
+        <argsstring>(Object context, string format, params object[] arguments)</argsstring>
+        <name>LogWarningFormat</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.DebugLogger.LogWarningFormat</qualifiedname>
+        <param>
+          <type>Object</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>arguments</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" line="136" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" bodystart="136" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1a7fa9bba7417b8dfde1724683bfb989c7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogErrorFormat</definition>
+        <argsstring>(string format, params object[] arguments)</argsstring>
+        <name>LogErrorFormat</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.DebugLogger.LogErrorFormat</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>arguments</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" line="146" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" bodystart="146" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1a55c0660152f2de2b805d47227ca55dc8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void LogErrorFormat</definition>
+        <argsstring>(Object context, string format, params object[] arguments)</argsstring>
+        <name>LogErrorFormat</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.DebugLogger.LogErrorFormat</qualifiedname>
+        <param>
+          <type>Object</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>arguments</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" line="152" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" bodystart="152" bodyend="159"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" line="8" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Misc/DebugLogger.cs" bodystart="9" bodyend="193"/>
+    <listofallmembers>
+      <member refid="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1aecca33eebae3142df790b502e1b1caac" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::DebugLogger</scope><name>DebugLogger</name></member>
+      <member refid="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1ac6ee99d7091eb56c2ea4b9c7c64e6410" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::DebugLogger</scope><name>DefaultLogLevel</name></member>
+      <member refid="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1a55c5e0c77ea2fd2f97cb729348115744" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::DebugLogger</scope><name>IgnoreLog</name></member>
+      <member refid="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1a6ca32fdae4e8bbf0d02749a432e2d346" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::DebugLogger</scope><name>kDefaultTag</name></member>
+      <member refid="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1a302ffe63d038178988e4786e1f983f97" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::DebugLogger</scope><name>Log</name></member>
+      <member refid="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1ae129c8ab5f0ca9b2e3d13a71e836649c" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::DebugLogger</scope><name>Log</name></member>
+      <member refid="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1a6ec36aa7c0a44bbbc42b52060d4db06f" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::DebugLogger</scope><name>LogError</name></member>
+      <member refid="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1a53765c4c786a94fd14552d5625d22700" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::DebugLogger</scope><name>LogError</name></member>
+      <member refid="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1a7fa9bba7417b8dfde1724683bfb989c7" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::DebugLogger</scope><name>LogErrorFormat</name></member>
+      <member refid="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1a55c0660152f2de2b805d47227ca55dc8" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::DebugLogger</scope><name>LogErrorFormat</name></member>
+      <member refid="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1ac83e0e607459bbdeceb01c64a47e5727" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::DebugLogger</scope><name>LogException</name></member>
+      <member refid="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1aea62a177ac8c56cfe6c38a3963758d85" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::DebugLogger</scope><name>LogException</name></member>
+      <member refid="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1a28ab5d086cde015f2d934057a419c2ac" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::DebugLogger</scope><name>LogFormat</name></member>
+      <member refid="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1a25bf8fc1915a8ad666debf8b4a893da4" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::DebugLogger</scope><name>LogFormat</name></member>
+      <member refid="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1aca1fd1d8935433e6ba2e3918214e07f9" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::DebugLogger</scope><name>LogLevel</name></member>
+      <member refid="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1a52b3b6fcf0750ac57cce72a6b979fd04" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::DebugLogger</scope><name>LogWarning</name></member>
+      <member refid="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1abf48790ec713d6c098c0780de7b37537" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::DebugLogger</scope><name>LogWarning</name></member>
+      <member refid="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1afbfe9487e88ae47828201028ab5c8a5e" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::DebugLogger</scope><name>LogWarningFormat</name></member>
+      <member refid="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1a250b3457e62ae394e39450cca7424b38" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::DebugLogger</scope><name>LogWarningFormat</name></member>
+      <member refid="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1a990a15be99f12410573abbf72c2e526a" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::DebugLogger</scope><name>SetLogLevel</name></member>
+      <member refid="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger_1afaf69ca1d5171c0e5395124113631ca1" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::DebugLogger</scope><name>TagLevelMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

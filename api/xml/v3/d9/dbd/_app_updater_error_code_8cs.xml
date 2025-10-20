@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/dbd/_app_updater_error_code_8cs" kind="file" language="C#">
+    <compoundname>AppUpdaterErrorCode.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a28cf169ada28d5a4e5ff5fb1e93f5857" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>AppUpdaterErrorCode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AppUpdaterErrorCode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a28cf169ada28d5a4e5ff5fb1e93f5857a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>The error code is unknown. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a28cf169ada28d5a4e5ff5fb1e93f5857af68f18f18c359699e62e11e6ef13d07d" prot="public">
+          <name>NetworkIssue</name>
+          <briefdescription>
+<para>There is a network issue. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a28cf169ada28d5a4e5ff5fb1e93f5857ae2d83543233f8282ad6a049174415dd2" prot="public">
+          <name>UpdateNotCompatible</name>
+          <briefdescription>
+<para>The update is not compatible with the current version. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a28cf169ada28d5a4e5ff5fb1e93f5857a692b6bd842d9300ed94e30bbb719dbd7" prot="public">
+          <name>UpdateInfoNotAvailable</name>
+          <briefdescription>
+<para>There is no update info fetched for the current version. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a28cf169ada28d5a4e5ff5fb1e93f5857a2073e216f0959599e628c47df23467ef" prot="public">
+          <name>UpdateNotAvailable</name>
+          <briefdescription>
+<para>The update is not available. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a28cf169ada28d5a4e5ff5fb1e93f5857abe7bd44ba521a3628a4c1534d12d40a3" prot="public">
+          <name>UpdateInProgress</name>
+          <briefdescription>
+<para>The update is already in progress. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a28cf169ada28d5a4e5ff5fb1e93f5857acef1bf5995a5a8150cda3b3ba7ac4aa5" prot="public">
+          <name>UpdateCancelled</name>
+          <briefdescription>
+<para>The update has been cancelled. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The error codes for <ref refid="d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater" kindref="compound">AppUpdater</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterErrorCode.cs" line="8" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterErrorCode.cs" bodystart="9" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/AppUpdater/AppUpdaterErrorCode.cs"/>
+  </compounddef>
+</doxygen>

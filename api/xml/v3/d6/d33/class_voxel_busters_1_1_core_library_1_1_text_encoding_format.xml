@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d6/d33/class_voxel_busters_1_1_core_library_1_1_text_encoding_format" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::TextEncodingFormat</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="d6/d33/class_voxel_busters_1_1_core_library_1_1_text_encoding_format_1a557cb3caeb821853d9aa75b3a9ee9f21" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kUTF8</definition>
+        <argsstring></argsstring>
+        <name>kUTF8</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.TextEncodingFormat.kUTF8</qualifiedname>
+        <initializer>= &quot;utf8&quot;</initializer>
+        <briefdescription>
+<para>Encodes characters using the UTF-8 encoding. (Readonly) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/TextEncodingFormat.cs" line="12" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/TextEncodingFormat.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d33/class_voxel_busters_1_1_core_library_1_1_text_encoding_format_1a89da2a3906f1bb32dceedbaaf784c294" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kUTF16</definition>
+        <argsstring></argsstring>
+        <name>kUTF16</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.TextEncodingFormat.kUTF16</qualifiedname>
+        <initializer>= &quot;utf16&quot;</initializer>
+        <briefdescription>
+<para>Encodes characters using the UTF-16 encoding. (Readonly) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/TextEncodingFormat.cs" line="15" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/TextEncodingFormat.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d33/class_voxel_busters_1_1_core_library_1_1_text_encoding_format_1a98142e3776b7bd1f2a9cc9f032c0e0d1" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string kUTF32</definition>
+        <argsstring></argsstring>
+        <name>kUTF32</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.TextEncodingFormat.kUTF32</qualifiedname>
+        <initializer>= &quot;utf32&quot;</initializer>
+        <briefdescription>
+<para>Encodes characters using the UTF-32 encoding. (Readonly) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/TextEncodingFormat.cs" line="18" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/TextEncodingFormat.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/TextEncodingFormat.cs" line="7" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Constants/TextEncodingFormat.cs" bodystart="8" bodyend="21"/>
+    <listofallmembers>
+      <member refid="d6/d33/class_voxel_busters_1_1_core_library_1_1_text_encoding_format_1a89da2a3906f1bb32dceedbaaf784c294" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::TextEncodingFormat</scope><name>kUTF16</name></member>
+      <member refid="d6/d33/class_voxel_busters_1_1_core_library_1_1_text_encoding_format_1a98142e3776b7bd1f2a9cc9f032c0e0d1" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::TextEncodingFormat</scope><name>kUTF32</name></member>
+      <member refid="d6/d33/class_voxel_busters_1_1_core_library_1_1_text_encoding_format_1a557cb3caeb821853d9aa75b3a9ee9f21" prot="public" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::TextEncodingFormat</scope><name>kUTF8</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

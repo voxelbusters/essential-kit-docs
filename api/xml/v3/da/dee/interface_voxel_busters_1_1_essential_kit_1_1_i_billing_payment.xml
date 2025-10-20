@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="da/dee/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_payment" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::IBillingPayment</compoundname>
+    <derivedcompoundref refid="d6/d67/class_voxel_busters_1_1_essential_kit_1_1_billing_services_core_1_1_billing_payment" prot="public" virt="non-virtual">BillingPayment</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="da/dee/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_payment_1a1cc22ff9eaa7f6ef0a8e900c9d707b49" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ProductId</definition>
+        <argsstring></argsstring>
+        <name>ProductId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IBillingPayment.ProductId</qualifiedname>
+        <briefdescription>
+<para>The string that identifies the product within Unity environment (read-only). Potentially independent of store IDs. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingPayment.cs" line="13" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingPayment.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="da/dee/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_payment_1a48d6b69703682363d6dfb0f46a4bea24" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ProductPlatformId</definition>
+        <argsstring></argsstring>
+        <name>ProductPlatformId</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IBillingPayment.ProductPlatformId</qualifiedname>
+        <briefdescription>
+<para>The string that identifies the product registered in the Store (platform specific). (read-only) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingPayment.cs" line="19" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingPayment.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="da/dee/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_payment_1a8081d8fb9d8f51e49f80d612438324cf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Quantity</definition>
+        <argsstring></argsstring>
+        <name>Quantity</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IBillingPayment.Quantity</qualifiedname>
+        <briefdescription>
+<para>The number of units to be purchased. This should be a non-zero number. This will be always 1 on Android as user can only set it from store purchase dialog window. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingPayment.cs" line="25" column="13" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingPayment.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="da/dee/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_payment_1a121d9cb485fa9e23380cb8c883e46c9c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Tag</definition>
+        <argsstring></argsstring>
+        <name>Tag</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IBillingPayment.Tag</qualifiedname>
+        <briefdescription>
+<para>An optional information provided by the developer at the time of initiating purchase. This can be used to identify a user or anything specific to the product purchase. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>This must be UUID v4 format identifier and can be generated with Guid.NewGuid(). </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingPayment.cs" line="33" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingPayment.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingPayment.cs" line="5" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingPayment.cs" bodystart="6" bodyend="36"/>
+    <listofallmembers>
+      <member refid="da/dee/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_payment_1a1cc22ff9eaa7f6ef0a8e900c9d707b49" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IBillingPayment</scope><name>ProductId</name></member>
+      <member refid="da/dee/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_payment_1a48d6b69703682363d6dfb0f46a4bea24" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IBillingPayment</scope><name>ProductPlatformId</name></member>
+      <member refid="da/dee/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_payment_1a8081d8fb9d8f51e49f80d612438324cf" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IBillingPayment</scope><name>Quantity</name></member>
+      <member refid="da/dee/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_payment_1a121d9cb485fa9e23380cb8c883e46c9c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IBillingPayment</scope><name>Tag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d0/d9c/namespace_voxel_busters_1_1_essential_kit_1_1_cloud_services_core" kind="namespace" language="C#">
+    <compoundname>VoxelBusters::EssentialKit::CloudServicesCore</compoundname>
+    <innerclass refid="d5/def/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_cloud_user" prot="public">VoxelBusters::EssentialKit::CloudServicesCore::CloudUser</innerclass>
+    <innerclass refid="d2/d0a/interface_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_i_native_cloud_services_interface" prot="public">VoxelBusters::EssentialKit::CloudServicesCore::INativeCloudServicesInterface</innerclass>
+    <innerclass refid="db/dad/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_native_cloud_services_interface_base" prot="public">VoxelBusters::EssentialKit::CloudServicesCore::NativeCloudServicesInterfaceBase</innerclass>
+    <innerclass refid="d3/d0e/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1_1_null_cloud_services_interface" prot="public">VoxelBusters::EssentialKit::CloudServicesCore::NullCloudServicesInterface</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="d0/d9c/namespace_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1a0eb9ff5c91e6921592e621d1386a545f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void UserChangeInternalCallback</definition>
+        <argsstring>(CloudUser user, Error error)</argsstring>
+        <name>UserChangeInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesCore.UserChangeInternalCallback</qualifiedname>
+        <param>
+          <type>CloudUser</type>
+          <declname>user</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/Delegates.cs" line="8" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/Delegates.cs" declline="8" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d9c/namespace_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1a8aee2771d1ad890c6280d9e89515d38d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void SavedDataChangeInternalCallback</definition>
+        <argsstring>(CloudSavedDataChangeReasonCode changeReason, string[] changedKeys)</argsstring>
+        <name>SavedDataChangeInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesCore.SavedDataChangeInternalCallback</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a4f3b4326b7ed2ed6bcef09c3de8bed8f" kindref="member">CloudSavedDataChangeReasonCode</ref></type>
+          <declname>changeReason</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>changedKeys</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/Delegates.cs" line="10" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/Delegates.cs" declline="10" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d9c/namespace_voxel_busters_1_1_essential_kit_1_1_cloud_services_core_1a0a29cdef96edebc696ac6b6c10972f59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void SynchronizeInternalCallback</definition>
+        <argsstring>(bool success, Error error)</argsstring>
+        <name>SynchronizeInternalCallback</name>
+        <qualifiedname>VoxelBusters.EssentialKit.CloudServicesCore.SynchronizeInternalCallback</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>success</declname>
+        </param>
+        <param>
+          <type>Error</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/Delegates.cs" line="12" column="26" declfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/Delegates.cs" declline="12" declcolumn="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudUser.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

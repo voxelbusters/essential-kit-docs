@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d5/dd7/interface_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_i_native_u_i_interface" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::NativeUICore::INativeUIInterface</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">INativeFeatureInterface</basecompoundref>
+    <derivedcompoundref refid="db/d80/class_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_native_u_i_interface_base" prot="public" virt="non-virtual">NativeUIInterfaceBase</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/dd7/interface_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_i_native_u_i_interface_1ab1091d0c8d44a97916597bec45389ac2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>INativeAlertDialogInterface</type>
+        <definition>INativeAlertDialogInterface CreateAlertDialog</definition>
+        <argsstring>(AlertDialogStyle style)</argsstring>
+        <name>CreateAlertDialog</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.INativeUIInterface.CreateAlertDialog</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1ae3613e0c055e54cd26802837c2ad5b41" kindref="member">AlertDialogStyle</ref></type>
+          <declname>style</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/INativeUIInterface.cs" line="12" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/dd7/interface_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_i_native_u_i_interface_1aef4bdd28794c103084cbb442946a9132" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>INativeDatePickerInterface</type>
+        <definition>INativeDatePickerInterface CreateDatePicker</definition>
+        <argsstring>(DatePickerMode mode)</argsstring>
+        <name>CreateDatePicker</name>
+        <qualifiedname>VoxelBusters.EssentialKit.NativeUICore.INativeUIInterface.CreateDatePicker</qualifiedname>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a3c684be76fc389f509b5926f69d1d67b" kindref="member">DatePickerMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/INativeUIInterface.cs" line="14" column="36"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/INativeUIInterface.cs" line="8" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/NativeUI/INativeUIInterface.cs" bodystart="9" bodyend="17"/>
+    <listofallmembers>
+      <member refid="d5/dd7/interface_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_i_native_u_i_interface_1ab1091d0c8d44a97916597bec45389ac2" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::INativeUIInterface</scope><name>CreateAlertDialog</name></member>
+      <member refid="d5/dd7/interface_voxel_busters_1_1_essential_kit_1_1_native_u_i_core_1_1_i_native_u_i_interface_1aef4bdd28794c103084cbb442946a9132" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NativeUICore::INativeUIInterface</scope><name>CreateDatePicker</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

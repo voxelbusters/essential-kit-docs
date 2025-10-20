@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content" kind="interface" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::IMediaContent</compoundname>
+    <derivedcompoundref refid="db/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_content" prot="public" virt="non-virtual">MediaContent</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content_1affc48083f8a795b4789224a3e4bfd996" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AsTexture2D</definition>
+        <argsstring>(EventCallback&lt; Texture2D &gt; onComplete)</argsstring>
+        <name>AsTexture2D</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IMediaContent.AsTexture2D</qualifiedname>
+        <param>
+          <type>EventCallback&lt; Texture2D &gt;</type>
+          <declname>onComplete</declname>
+        </param>
+        <briefdescription>
+<para>Converts the media content to a Texture2D </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The callback will be invoked with the converted texture.  <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>onComplete</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Callback to be invoked when the conversion is completed.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/IMediaContent.cs" line="22" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content_1a5a32c18308c48e2d407fd5b3ff348330" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AsRawMediaData</definition>
+        <argsstring>(EventCallback&lt; RawMediaData &gt; onComplete)</argsstring>
+        <name>AsRawMediaData</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IMediaContent.AsRawMediaData</qualifiedname>
+        <param>
+          <type>EventCallback&lt; <ref refid="d9/dac/class_voxel_busters_1_1_essential_kit_1_1_raw_media_data" kindref="compound">RawMediaData</ref> &gt;</type>
+          <declname>onComplete</declname>
+        </param>
+        <briefdescription>
+<para>Converts the media content to a <ref refid="d9/dac/class_voxel_busters_1_1_essential_kit_1_1_raw_media_data" kindref="compound">RawMediaData</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The callback will be invoked with the converted raw media data.  <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>onComplete</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Callback to be invoked when the conversion is completed.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/IMediaContent.cs" line="31" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content_1ae63090d353221f3249d1bca269bb2d3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AsFilePath</definition>
+        <argsstring>(string destinationDirectory, string fileName, EventCallback&lt; string &gt; onComplete)</argsstring>
+        <name>AsFilePath</name>
+        <qualifiedname>VoxelBusters.EssentialKit.IMediaContent.AsFilePath</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>destinationDirectory</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>EventCallback&lt; string &gt;</type>
+          <declname>onComplete</declname>
+        </param>
+        <briefdescription>
+<para>Converts the media content to a file path. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The callback will be invoked with the converted file path.  <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>destinationDirectory</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The directory to which the file should be saved.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the file to be saved.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>onComplete</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Callback to be invoked when the conversion is completed.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/IMediaContent.cs" line="42" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Interface to be implemented by media content classes. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This interface provides methods to convert the media content to various formats.  </para>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/IMediaContent.cs" line="13" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/MediaServices/IMediaContent.cs" bodystart="14" bodyend="43"/>
+    <listofallmembers>
+      <member refid="d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content_1ae63090d353221f3249d1bca269bb2d3b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IMediaContent</scope><name>AsFilePath</name></member>
+      <member refid="d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content_1a5a32c18308c48e2d407fd5b3ff348330" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IMediaContent</scope><name>AsRawMediaData</name></member>
+      <member refid="d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content_1affc48083f8a795b4789224a3e4bfd996" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IMediaContent</scope><name>AsTexture2D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
