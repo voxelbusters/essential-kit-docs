@@ -1,41 +1,60 @@
-# 💲 Billing Services
+---
+description: "Cross-platform in-app purchase system for Unity mobile games with consumables, non-consumables, subscriptions, and transaction management"
+---
 
-Billing Services gives access to use In-App purchases on both iOS and Android with a unified API.
+# Billing Services
+
+Essential Kit's Billing Services feature lets Unity teams monetize mobile games with in-app purchases without maintaining platform-specific code. This tutorial walks you through setup, key APIs, testing, and troubleshooting so you can add consumables, non-consumables, and subscriptions with confidence.
 
 {% embed url="https://www.youtube.com/watch?v=s1r2wpeIxjU" %}
 Billing Services Video Tutorial
 {% endembed %}
 
-### Use-cases
-
-### Sell Virtual Goods
-
-Use in-app purchases (Consumable/Non-Consumable) to sell in-game items or levels of your game which gives them an added advantage. This can be achieved indirectly too by allowing them to buy virtual coins and exchange them for in-game items.
-
-### Sell Subscriptions
-
-Utilize subscriptions to provide players with ongoing benefits or premium features. This could include access to exclusive content, special items, or enhanced game mechanics. Offer flexible subscription plans (e.g., weekly, monthly, yearly) to cater to different player needs and engage them with continuous updates and rewards to maintain their interest and justify the subscription value.
-
-### Option for Removing Ads
-
-Use in-app purchases (Non-Consumable) to let user pay for ad-free experience.
-
 {% hint style="info" %}
-Make use of [IsProductPurchased](usage.md#making-a-purchase) to check if the user already bought the (Remove Ads) in-app product.
+Looking for a working reference? Open the demo scene at `Assets/Plugins/VoxelBusters/EssentialKit/Examples/Scenes/BillingServicesDemo.unity` and the companion script at `Assets/Plugins/VoxelBusters/EssentialKit/Examples/Scripts/BillingServicesDemo.cs` to see the full API in action.
 {% endhint %}
 
-> ### [40 Secrets to Making Money with In-App Purchases](https://agilie.com/en/blog/how-you-can-use-in-app-purchases-and-make-money-with-them) - _raywenderlich.com_
+## What You'll Learn
+- Configure products in Essential Kit Settings and platform stores (App Store Connect, Google Play Console)
+- Initialize the store connection and retrieve localized product pricing
+- Purchase products and handle transaction states (success, failure, deferred, restored)
+- Restore purchases for non-consumables and subscriptions
+- Finish transactions and manage pending purchases (advanced server verification)
 
-### Few more ideas
+## Why Billing Services Matters
+- **Revenue Generation**: Primary monetization driver for mobile games with secure, native purchase flows
+- **Cross-Platform Consistency**: Single API works across iOS App Store and Google Play Store
+- **Security Built-In**: Local receipt verification on iOS (StoreKit2), optional server verification for Android
+- **App Store Compliance**: Automatic platform setup with restore functionality required by Apple guidelines
 
-* **Unlock premium levels or maps**: Allow players to purchase access to exclusive levels or maps that are not available in the free version.
-* **Cosmetic items**: Offer skins, costumes, or other visual enhancements for characters or game environments.
-* **In-game currency**: Sell virtual currency that can be used to buy items, boosts, or other resources within the game.
-* **Subscription model**: Provide a subscription service for ongoing benefits like regular currency boosts or exclusive content.
-* **Remove ads**: Allow users to pay for an ad-free gaming experience, enhancing their gameplay without interruptions.
-* **Character upgrades**: Let players buy enhancements or upgrades for their characters to improve skills or abilities.
+## Tutorial Roadmap
+1. [Setup](setup/) - Configure products in Essential Kit Settings and platform stores
+2. [Usage](usage.md) - Initialize store, purchase products, restore purchases, handle transactions
+3. [Testing](testing/) - Test with sandbox accounts and validate on devices
+4. [FAQ](faq.md) - Troubleshoot common purchase and configuration issues
 
+## Key Use Cases
 
+### Sell Virtual Goods
+Use consumable products to sell in-game items like coins, gems, lives, or power-ups that players can purchase repeatedly. Offer multiple value tiers ($0.99, $4.99, $9.99) to maximize revenue across different player segments.
+
+### Premium Upgrades
+Sell permanent features with non-consumable products like ad removal, character unlocks, or premium level packs. Once purchased, these items are owned forever and automatically restored across devices.
+
+### Subscriptions
+Implement VIP memberships, battle passes, or season passes with recurring billing. Offer flexible durations (weekly, monthly, yearly) with introductory offers and free trials to increase conversion.
+
+### Multi-Currency Systems
+Support multiple virtual currencies (coins, gems, tickets) using payout definitions. A single purchase can grant multiple currency types for complex economy systems.
+
+### Remove Ads
+Offer an ad-free experience with a non-consumable product. Use `IsProductPurchased()` to check ownership status and hide ads permanently for paying users.
+
+## Prerequisites
+- Unity project with Essential Kit v3 installed and Billing Services feature included in the build
+- **iOS**: App Store Connect account with products configured and banking information complete
+- **Android**: Google Play Console account with products configured and app uploaded for testing
+- Test device or sandbox accounts to validate purchases before release
 
 {% content-ref url="setup/" %}
 [setup](setup/)

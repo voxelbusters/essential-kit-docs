@@ -125,6 +125,13 @@
   * [Examples](features/web-view/examples/README.md)
     * [Loading Pdf File](features/web-view/examples/loading-pdf-file.md)
 
+## Migrations
+
+* [Gley](migrations/gley/README.md)
+  * [Easy IAP → Essential Kit Billing Services](migrations/gley/easy-iap/README.md)
+    * [Migration Guide](migrations/gley/easy-iap/migration-guide.md)
+    * [FAQ](migrations/gley/easy-iap/faq.md)
+
 ## Notes
 
 * [Resolving Android Gradle Build Errors](notes/resolving-android-gradle-build-errors.md)

@@ -90,15 +90,11 @@ void Start()
 // NEW: Essential Kit initialization (optional - auto-initializes from settings)
 void Start()
 {
-    // Optional: Check if service is available
-    if (GameServices.IsAvailable())
-    {
-        // Subscribe to auth status changes
-        GameServices.OnAuthStatusChange += OnAuthStatusChange;
-        
-        // Authenticate
-        GameServices.Authenticate();
-    }
+    // Subscribe to auth status changes
+    GameServices.OnAuthStatusChange += OnAuthStatusChange;
+
+    // Authenticate (returns immediately if already signed in)
+    GameServices.Authenticate();
 }
 ```
 
@@ -480,12 +476,9 @@ private void OnDestroy()
 **Issue: Authentication not working**
 
 ```csharp
-// SOLUTION: Check service availability and event subscription
-if (GameServices.IsAvailable())
-{
-    GameServices.OnAuthStatusChange += OnAuthStatusChange;
-    GameServices.Authenticate();
-}
+// SOLUTION: Ensure event subscription and authentication call
+GameServices.OnAuthStatusChange += OnAuthStatusChange;
+GameServices.Authenticate();
 ```
 
 {% content-ref url="../../../notes/google-play-services-authentication.md" %}

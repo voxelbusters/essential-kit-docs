@@ -174,7 +174,7 @@ To save media content to device whether it could be image or video or any other 
 
 Through options you can&#x20;
 
-1. Set directory or album name for target
+1. Set directory or album name for target (If you don't need this, just pass null - Check note below)
 2. Set file name(without extension) of the file being saved
 
 Options can be created as follows
@@ -182,6 +182,15 @@ Options can be created as follows
 ```csharp
 MediaContentSaveOptions saveOptions = new MediaContentSaveOptions(directoryName: "Essential Kit Album", fileName: "image");
 ```
+
+{% hint style="danger" %}
+Some platforms (iOS) may need additional permissions if you set the directory name(album). Setting directory/album name is enabled by default.
+
+To disable custom album/directory feature to avoid additional permissions,&#x20;
+
+1. Pass directoryName as null when creating MediaContentSaveOptions and
+2. Disable "Saves Files To Custom Directories" option in [Media Services settings ](setup.md#properties)of Essential Kit.
+{% endhint %}
 
 Once after creating MediaContentSaveOptions instance, call MediaServices.SaveMediaContent with the options and a callback which gets called after the action is complete.
 

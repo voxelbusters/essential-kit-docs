@@ -18,9 +18,9 @@ Let’s assume the player updates their preferred language setting.
 CloudServices.SetString("player.language", "en");
 ```
 
-This will **immediately update the local cache** with the value `"en"` for the key `player.language`. At this point, the value is still only available locally – it has not yet been pushed to the cloud.
+This will **immediately update the device copy** with the value `"en"` for the key `player.language`. At this point, the value is still only available locally – it has not yet been pushed to the cloud.
 
-> ✅ Tip: All `Set*` methods update local cache immediately.
+> ✅ Tip: All `Set*` methods update the device copy immediately.
 
 ***
 
@@ -29,7 +29,7 @@ This will **immediately update the local cache** with the value `"en"` for the k
 When you want to push or pull the latest data to/from the cloud, call:
 
 ```csharp
-csharpCopyEditCloudServices.Synchronize();
+CloudServices.Synchronize();
 ```
 
 This will:
@@ -47,26 +47,29 @@ If a **conflict** is detected (i.e., both local and cloud versions were modified
 You can listen for this event and inspect which keys had conflicting values:
 
 ```csharp
-void OnSavedDataChange(string[] changedKeys)
+void OnSavedDataChange(CloudServicesSavedDataChangeResult result)
 {
-    //📌 Important: CloudServices.GetString(key) here now returns the cloud value, since the local cache has already been updated.
-    for (int i = 0; i < changedKeys.Length; i++)
+    if (result.ChangedKeys == null)
     {
-        string key = changedKeys[i];
+        return;
+    }
+
+    //📌 Important: CloudServices.GetString(key) now returns the cloud value because the device copy was overwritten.
+    for (int i = 0; i < result.ChangedKeys.Length; i++)
+    {
+        string key = result.ChangedKeys[i];
         string cloudValue;
-        string localCacheValue;
+        string previousDeviceValue;
 
-        // Retrieve both cloud and local values before the overwrite
-        CloudServicesUtility.TryGetCloudAndLocalCacheValues(key, out cloudValue, out localCacheValue, "default");
+        // Retrieve the latest cloud value and the device snapshot saved before the overwrite
+        CloudServicesUtility.TryGetCloudAndLocalCacheValues(key, out cloudValue, out previousDeviceValue, "default");
 
-        Debug.LogFormat("[{0}] Key: {1}\n  [Cloud Value]: {2}\n  [Local Cache Value before overwrite]: {3}", i, key, cloudValue, localCacheValue);
+        Debug.LogFormat("[{0}] Key: {1}\n  [Cloud Value]: {2}\n  [Previous Device Value]: {3}", i, key, cloudValue, previousDeviceValue);
 
-        // Decide what to do: Keep cloud version or restore local
-        if (ShouldKeepLocalValue(key, localCacheValue, cloudValue))
+        // Decide what to do: keep the cloud value or restore the previous device value
+        if (ShouldKeepLocalValue(key, previousDeviceValue, cloudValue))
         {
-            // Restore the local value
-            CloudServices.SetString(key, localCacheValue);
-            //Calling CloudServices.GetString here will return localCacheValue as we updated with SetString
+            CloudServices.SetString(key, previousDeviceValue);
         }
     }
 }
@@ -79,9 +82,9 @@ void OnSavedDataChange(string[] changedKeys)
 After the sync is completed (and any conflict resolution is done), the `SynchronizeComplete` event fires:
 
 ```csharp
-CloudServices.OnSynchronizeComplete += () => 
+CloudServices.OnSynchronizeComplete += (result) =>
 {
-    Debug.Log("Cloud sync complete.");
+    Debug.Log($"Cloud sync complete. Success: {result.Success}");
 };
 ```
 
@@ -93,11 +96,11 @@ If you restored a value during conflict resolution using `SetString`, the update
 
 | Action                           | Description                                                               |
 | -------------------------------- | ------------------------------------------------------------------------- |
-| `SetString("key", value)`        | Immediately updates local cache                                           |
+| `SetString("key", value)`        | Immediately updates the device copy                                       |
 | `Synchronize()`                  | Syncs data, resolves conflicts, and fires events                          |
-| `OnSavedDataChange`              | Fires **after a conflict**, providing keys that were overwritten by cloud |
-| `TryGetCloudAndLocalCacheValues` | Lets you inspect both the cloud and previous local values                 |
-| `SetString(...)` inside event    | Lets you restore the local value if cloud data is not what you want       |
+| `OnSavedDataChange`              | Fires **after a conflict**, providing changed keys and the reason         |
+| `TryGetCloudAndLocalCacheValues` | Lets you inspect both the cloud value and the previous device value       |
+| `SetString(...)` inside event    | Lets you restore the preferred value before the next sync                 |
 | `OnSynchronizeComplete`          | Fires after sync and conflict resolution is done                          |
 
 ***

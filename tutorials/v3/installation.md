@@ -14,7 +14,7 @@ description: Steps to install the plugin
        ```json
        "com.unity.nuget.newtonsoft-json": "2.0.0"
        ```
-5. Do a force resolve from top menu bar -> Assets -> External Dependency Manager -> Android -> Settings
+5. Do a force resolve from top menu bar -> Assets -> External Dependency Manager -> Android Resolver -> Force Resolve
 6. Configure the features you want in [Essential Kit Settings](plugin-overview/settings.md#essential-kit-settings)
 
 

@@ -1,486 +1,878 @@
+---
+description: "Game Services provides cross-platform access to Game Center and Google Play Games for authentication, leaderboards, achievements, and social features"
+---
+
 # Usage
 
-Once you are done with [setup](setup/) by configuring leaderboards and achievements, you can start implementing the feature with **GameServices** class and you can use this by importing the namespace.
+Essential Kit wraps iOS Game Center and Android Google Play Games into a unified API. Game Services handles authentication automatically - just call the APIs and Essential Kit manages platform differences.
 
+## Table of Contents
+- [Import Namespaces](#import-namespaces)
+- [Understanding Authentication](#understanding-authentication)
+- [Event Registration](#event-registration)
+- [Player Authentication](#player-authentication)
+- [Leaderboards](#leaderboards)
+- [Achievements](#achievements)
+- [Social Features](#social-features)
+- [Server Integration](#server-integration)
+- [Core APIs Reference](#core-apis-reference)
+- [Data Properties](#data-properties)
+- [Error Handling](#error-handling)
+- [Advanced: Runtime Settings Initialization](#advanced-runtime-settings-initialization)
+- [Related Guides](#related-guides)
+
+## Import Namespaces
 ```csharp
+using System;
+using System.Collections.Generic;
 using VoxelBusters.CoreLibrary;
 using VoxelBusters.EssentialKit;
 ```
 
-## Overview
+## Understanding Authentication
 
-For accessing and managing leaderboards, achievements we need to let user authenticate first. Once user tries to login, the status updates will be posted in the form of events (OnAuthStatusChange).
+Game Services requires player authentication before accessing leaderboards, achievements, or social features. Essential Kit auto-initializes Game Services on app start using your configured settings.
 
-Have the list of leaderboard and achievement id's ready (you set in setup) as these are required to refer them from code.
+**Authentication Flow:**
+1. Call `GameServices.Authenticate()` when you want the player to sign in
+2. On first call, platform shows native login UI (Game Center or Play Games)
+3. `OnAuthStatusChange` event fires with authentication result
+4. Once authenticated, `GameServices.LocalPlayer` contains player info
+5. Subsequent app launches may auto-authenticate silently if enabled by platform
 
-For submitting a score, you can either create a Leaderboard instance or use utility method of GameServices.
+**Key Concepts:**
+- **Interactive Authentication**: Shows login UI if player not signed in
+- **Silent Authentication**: Attempts sign-in without showing UI (useful for automatic login)
+- **LocalPlayer**: Represents the authenticated player with display name, ID, and avatar
+- **IsAuthenticated**: Check if player is currently signed in
 
-For reporting progress, create an achievement instance or use utility method of Game Services.
+## Event Registration
 
-
-
-{% hint style="info" %}
-<mark style="color:green;background-color:red;">\[Updated from V2?]</mark>&#x20;
-
-<mark style="color:red;background-color:red;">If you are using LocalPlayer.Id to identify your account, make sure you handle it carefully as it returns gameScopeId instead of old Id(teamScopeId ≥ 2.7.3, legacyId < 2.7.3).</mark>&#x20;
-
-<mark style="color:red;background-color:red;">If you want to still use old id, please use IPlayer.LegacyIdentifier or IPlayer.DeveloperScopeIdentifier as per the version you are from.</mark>
-{% endhint %}
-
-## Register for Events
-
-You need to register for **GameServices.OnAuthStatusChange** event for getting the updates on auth status once you attempt logging in.
+Register for authentication events in `OnEnable` and unregister in `OnDisable`:
 
 ```csharp
-private void OnEnable()
+void OnEnable()
 {
-    // register for events
     GameServices.OnAuthStatusChange += OnAuthStatusChange;
 }
 
-private void OnDisable()
+void OnDisable()
 {
-    base.OnDisable();
-
-    // unregister from events
     GameServices.OnAuthStatusChange -= OnAuthStatusChange;
 }
 ```
 
-## Check Availability
+| Event | Trigger | Data |
+| --- | --- | --- |
+| `OnAuthStatusChange` | Player signs in, signs out, or authentication state changes | `GameServicesAuthStatusChangeResult` with `LocalPlayer` and `AuthStatus` |
 
-First thing, we need to do is to check if game services are enabled in settings. If available we can proceed with sign in.
+## Player Authentication
 
-```csharp
-bool isAvailable = GameServices.IsAvailable();
-```
+### Authenticate Player
 
-This returns true if feature is enabled in essential kit settings.
-
-## Authenticate Player
-
-{% hint style="info" %}
-<mark style="color:green;background-color:red;">\[Updated from V2?]</mark>&#x20;
-
-<mark style="color:red;background-color:red;">\[Game Services] If you are using LocalPlayer.Id to identify your account, make sure you handle it carefully as it returns gameScopeId instead of old Id(teamScopeId ≥ 2.7.3, legacyId < 2.7.3).</mark>&#x20;
-
-<mark style="color:red;background-color:red;">If you want to still use old id, please use IPlayer.LegacyIdentifier or IPlayer.DeveloperScopeIdentifier as per the version you are from.</mark>
-{% endhint %}
-
-If service is available, we can move on to Authenticating user.
+Call `Authenticate()` to sign in the player. On first call, shows platform login UI.
 
 ```csharp
-GameServices.Authenticate();
-```
-
-```csharp
-GameServices.Authenticate(interactive: false); // For silent sign-in
-```
-
-Authenticate method may open a dialog to let user enter the credentials for logging in.&#x20;
-
-> #### On iOS, it may open Game Center login dialog and on Android, it can open a dialog for Game Play Services login.
-
-{% hint style="success" %}
-For silent sign-in functionality, pass interactive as false to Authenticate method. If already user signed in, it returns else no interactive login dialog is shown. If you want to let user sign-in explicitly, give option for your user from settings to sign-in.
-{% endhint %}
-
-You can listen to the status of the login through the event **GameServices.OnAuthStatusChange** and on successful login, you get an instance of **ILocalPlayer** or an error on failure.
-
-```csharp
-private void OnAuthStatusChange(GameServicesAuthStatusChangeResult result, Error error)
+void SignInPlayer()
 {
-    if(error == null)
+    Debug.Log("Starting authentication...");
+    GameServices.Authenticate(interactive: true);
+}
+
+void OnAuthStatusChange(GameServicesAuthStatusChangeResult result, Error error)
+{
+    if (error != null)
     {
-        Debug.Log("Received auth status change event");
-        Debug.Log("Auth status: " + result.AuthStatus);
-        
-        if(result.AuthStatus == LocalPlayerAuthStatus.Authenticated)
-            Debug.Log("Local player: " + result.LocalPlayer);
-        
+        Debug.Log($"Authentication failed: {error.LocalizedDescription}");
+        return;
     }
-    else
+
+    Debug.Log($"Auth status: {result.AuthStatus}");
+
+    if (result.AuthStatus == LocalPlayerAuthStatus.Authenticated)
     {
-        Debug.LogError("Failed login with error : " + error);   
+        ILocalPlayer player = result.LocalPlayer;
+        Debug.Log($"Signed in as {player.DisplayName}");
+
+        // Access player info
+        Debug.Log($"Player Identifier: {player.Identifier}");
+
+        // Load player avatar
+        player.LoadImage((imageData, loadError) =>
+        {
+            if (loadError == null && imageData != null)
+            {
+                Texture2D avatar = imageData.Texture;
+                // Display avatar in UI
+            }
+        });
     }
 }
 ```
 
-You can access **ILocalPlayer** Instance any time through GameServices. However, you will get it null if the authentication is not successful.
-
-```csharp
-ILocalPlayer localPlayer = GameServices.LocalUser;
-```
-
-Incase if you want to know if the player is authenticated or not, you can check with IsAuthenticated
-
-```csharp
-bool loggedIn = GameServices.IsAuthenticated
-```
-
-![Game Center login view for iOS](../../.gitbook/assets/GameCenterLogin.png)
-
-![Google Play Services login view for Android](../../.gitbook/assets/GooglePlayServicesLogin.png)
-
-## Achievements
-
-Achievements can be a great way to increase your users' engagement within your game. Achievements can also be a fun way for players to compare their progress with each other and engage in light-hearted competition.
-
-### Get all Achievement Details
-
-If you are planning for having your own custom achievements UI, you can get details of all achievements with LoadAchievementDescriptions call.
-
-```csharp
-GameServices.LoadAchievementDescriptions((result, error) =>
-{
-    if (error == null)
-    {
-        IAchievementDescription[] descriptions    = result.AchievementDescriptions;
-        Debug.Log("Request to load achievement descriptions finished successfully.");
-        Debug.Log("Total achievement descriptions fetched: " + descriptions.Length);
-        Debug.Log("Below are the available achievement descriptions:");
-        for (int iter = 0; iter < descriptions.Length; iter++)
-        {
-            IAchievementDescription description1    = descriptions[iter];
-            Debug.Log(string.Format("[{0}]: {1}", iter, description1));
-        }
-    }
-    else
-    {
-        Debug.Log("Request to load achievement descriptions failed with error. Error: " + error);
-    }
-});
-```
-
-> _**Achievement Description**_ : This holds description and images used to describe an achievement.
-
-### Get achievements reported
-
-You can get the list of achievements which got reported till date with LoadAchievements.&#x20;
-
-```csharp
-GameServices.LoadAchievements((result, error) =>
-{
-    if (error == null)
-    {
-        // show console messages
-        IAchievement[] achievements    = result.Achievements;
-        Debug.Log("Request to load achievements finished successfully.");
-        Debug.Log("Total achievements fetched: " + achievements.Length);
-        Debug.Log("Below are the available achievements:");
-        for (int iter = 0; iter < achievements.Length; iter++)
-        {
-            IAchievement achievement1    = achievements[iter];
-            Debug.Log(string.Format("[{0}]: {1}", iter, achievement1));
-        }
-    }
-    else
-    {
-        Debug.Log("Request to load achievements failed with error. Error: " + error);
-    }
-});
-```
-
-> Difference between LoadAchievementDescriptions and LoadAchievements is the later only returns the achievements which are reported with  progress (check ReportProgress below).  Where as LoadAchievementDescriptions returns all the available achievements created on store dashboards.
-
-### Report Achievement Progress
-
-{% hint style="success" %}
-_Achievement Progress_  denotes how much part of achievement is achieved.
+{% hint style="info" %}
+`GameServices.Authenticate()` immediately succeeds when the player is already signed in, so you can call it directly without first checking `GameServices.IsAuthenticated`. Use `IsAuthenticated` when you need to query status (for example, to toggle UI) rather than to guard the authentication call.
 {% endhint %}
 
-* 100 % progress denotes Achievement is Unlocked and revealed to the player.
-* One shot/Instant achievements unlock instantly and needs to be set 100% while reporting.
-* Incremental achievements (which takes many steps to get unlocked) can be set with 0-100% range based on steps completed by the player.
+### Silent Authentication
 
-{% tabs %}
-{% tab title="Report With Achievement Id" %}
-{% code title="Report a one-shot Achivement (This reveals and unlocks an achievemet)" %}
+Use silent authentication to auto-sign in without showing UI:
+
 ```csharp
-string achievementId; //This is the Id set in Setup for each achievement
-double percentageCompleted = 100;// This is in the range [0 - 100]
-GameServices.ReportAchievementProgress(achievementId, percentageCompleted, (success, error) =>
+void Start()
 {
-    if (success)
-    {
-        Debug.Log("Request to submit progress finished successfully.");
-    }
-    else
-    {
-        Debug.Log("Request to submit progress failed with error. Error: " + error);
-    }
-});
+    // Try silent authentication on app start
+    GameServices.Authenticate(interactive: false);
+}
 ```
-{% endcode %}
+
+If player previously signed in and platform supports auto-authentication, this succeeds silently. Otherwise, `OnAuthStatusChange` returns not authenticated without showing UI.
 
 {% hint style="success" %}
-Report with 0 progress value if you just want to reveal a hidden achievement!
+**UX Best Practice**: Call silent authentication on app start. If it fails, show a "Sign In" button that calls `Authenticate(interactive: true)` to show login UI only when player explicitly wants to sign in.
 {% endhint %}
 
-{% code title="Report an incremental Achivement" %}
-```csharp
-string achievementId; //This is the Id set in Setup for each achievement
-int stepsCompleted     = 4; //Steps completed by user until now
-int totalSteps         = 10; //This value you can get from AchievementDescription (NumberOfStepsRequiredToUnlockAchievement)
-double percentageCompleted = (stepsCompleted/(totalSteps * 1.0)) * 100.0;// This is in the range [0 - 100]
-GameServices.ReportAchievementProgress(achievementId, percentageCompleted, (error) =>
-{
-    if (error == null)
-    {
-        Debug.Log("Request to submit progress finished successfully.");
-    }
-    else
-    {
-        Debug.Log("Request to submit progress failed with error. Error: " + error);
-    }
-});
-```
-{% endcode %}
-{% endtab %}
+### Check Authentication Status
 
-{% tab title="Report with Achievement Description Instance" %}
-You can get the achievement description instance from LoadAchievementDescriptions callback method.
+Use `IsAuthenticated` or `LocalPlayer` to check current state:
 
 ```csharp
-IAchievementDescription achievementDescription; //This is the Id set in Setup for each achievement
-double percentageCompleted = 100;// This is in the range [0 - 100]
-GameServices.ReportAchievementProgress(achievementDescription, percentageCompleted, (success, error) =>
+if (GameServices.IsAuthenticated)
 {
-    if (success)
-    {
-        Debug.Log("Request to submit progress finished successfully.");
-    }
-    else
-    {
-        Debug.Log("Request to submit progress failed with error. Error: " + error);
-    }
-});
+    ILocalPlayer player = GameServices.LocalPlayer;
+    Debug.Log($"Player signed in: {player.DisplayName}");
+}
+else
+{
+    Debug.Log("Player not signed in");
+}
 ```
-{% endtab %}
 
-{% tab title="Report with Achievement Instance" %}
-You can get the achievement description instance from LoadAchievement callback method.
+### Sign Out
 
 ```csharp
-IAchievement achievement; //This is the Id set in Setup for each achievement
-double percentageCompleted = 100;// This is in the range [0 - 100]
-GameServices.ReportAchievementProgress(achievement, percentageCompleted, (success, error) =>
+void SignOut()
 {
-    if (error == null)
-    {
-        Debug.Log("Request to submit progress finished successfully.");
-    }
-    else
-    {
-        Debug.Log("Request to submit progress failed with error. Error: " + error);
-    }
-});
+    GameServices.Signout();
+    Debug.Log("Player signed out");
+}
 ```
-{% endtab %}
-{% endtabs %}
 
-### Show Achievements
-
-You can display the default UI provided by native platform. If you are looking for displaying your own UI, you can make use of details form Achievements and Achievement Descriptions.
-
-```csharp
-GameServices.ShowAchievements((result, error) =>
-{
-    Debug.Log("Achievements view closed");
-});
-```
+After sign out, `IsAuthenticated` returns `false` and game services operations will fail until player re-authenticates.
 
 ## Leaderboards
 
-Leaderboards let your players to compete socially by sharing their scores to the world. Three actions can be done from Leaderboards API.&#x20;
+Leaderboards display competitive rankings. Essential Kit supports submitting scores, loading scores, and showing native leaderboard UI.
 
-* Load details of Leaderboards
-* Loading Scores from a leaderboard(can give a User Scope and Time Scope).
-* Reporting score to a  leaderboard
-* Show Leaderboards
+### Submit Score
 
-### Load details of Leaderboards
-
-If you want to display the list of leaderboards configured on native platforms (Game Center and Google Play Services), you can get all the available leaderboards with **LoadLeaderboards**. This returns a list of ILeaderboard(doc) which has details regarding title, local player score and option to load icon image set for the leaderboard etc.
+**Using leaderboard ID** (simplest approach):
 
 ```csharp
-GameServices.LoadLeaderboards((result, error) =>
+void SubmitScore(long score)
 {
-    if (error == null)
+    if (!GameServices.IsAuthenticated)
     {
-        // show console messages
-        ILeaderboard[] leaderboards    = result.Leaderboards;
-        Debug.Log("Request to load leaderboards finished successfully.");
-        Debug.Log("Total leaderboards fetched: " + leaderboards.Length);
-        Debug.Log("Below are the available leaderboards:");
-        for (int iter = 0; iter < leaderboards.Length; iter++)
+        Debug.Log("Player must be authenticated to submit scores");
+        return;
+    }
+
+    GameServices.ReportScore("high_score", score, (success, error) =>
+    {
+        if (success)
         {
-            ILeaderboard leaderboard1    = leaderboards[iter];
-            Debug.Log(string.Format("[{0}]: {1}", iter, leaderboard1));
+            Debug.Log($"Score {score} submitted successfully");
         }
-    }
-    else
+        else if (error != null)
+        {
+            Debug.Log($"Score submission failed: {error.LocalizedDescription}");
+        }
+    });
+}
+```
+
+**Using leaderboard object** (for advanced operations):
+
+```csharp
+void SubmitScoreAdvanced(long score)
+{
+    ILeaderboard leaderboard = GameServices.CreateLeaderboard("high_score");
+    if (leaderboard == null)
     {
-        Debug.Log("Request to load leaderboards failed with error. Error: " + error);
+        Debug.Log("Leaderboard 'high_score' not found in settings");
+        return;
     }
-});
+
+    leaderboard.ReportScore(score, (success, error) =>
+    {
+        if (success)
+        {
+            Debug.Log($"Score {score} submitted");
+        }
+        else if (error != null)
+        {
+            Debug.Log($"Score submission failed: {error.LocalizedDescription}");
+        }
+    });
+}
 ```
 
-### Load Scores of a Leaderboard
-
-Scores submitted to a leaderboard can be fetched  with ILeaderboard instance.
-
-You can get ILeaderboard instance either by calling **LoadLeaderboards** or by creating an instance of Leaderboard.
+**With optional score tag** (8 ASCII characters max):
 
 ```csharp
-string leaderboardId; // This is the Id you set in Essential Kit Settings for the leaderboard entry
-ILeaderboard leaderboard = GameServices.CreateLeaderboard(leaderboardId);
+void SubmitTaggedScore(long score, string levelId)
+{
+    string tag = levelId.Substring(0, Math.Min(8, levelId.Length));
+
+    GameServices.ReportScore("level_scores", score, (success, error) =>
+    {
+        if (success)
+        {
+            Debug.Log($"Score {score} submitted with tag {tag}");
+        }
+        else if (error != null)
+        {
+            Debug.Log($"Score submission failed: {error.LocalizedDescription}");
+        }
+    }, tag);
+}
 ```
 
-Now you have an instance of ILeaderboard.
+### Load Leaderboard Scores
 
-> Leaderboards data will be fetched in terms of pages. This is because there can be lot of results reported by many and pagination will help not to load complete data at once.
-
-You can set max scores that needs to be fetched by setting LoadScoresQuerySize property of ILeaderboard.
+**Load top scores** from a leaderboard:
 
 ```csharp
-leaderboard.LoadScoresQuerySize = 10; //leaderboard is ILeaderboard instance
+void LoadTopScores()
+{
+    ILeaderboard leaderboard = GameServices.CreateLeaderboard("high_score");
+    if (leaderboard == null) return;
+
+    // Configure score query
+    leaderboard.TimeScope = LeaderboardTimeScope.AllTime;
+    leaderboard.PlayerScope = LeaderboardPlayerScope.Global;
+    leaderboard.LoadTopScores((result, error) =>
+    {
+        if (error != null)
+        {
+            Debug.Log($"Failed to load scores: {error.LocalizedDescription}");
+            return;
+        }
+
+        Debug.Log($"Loaded {result.Scores.Length} scores");
+        foreach (ILeaderboardScore score in result.Scores)
+        {
+            Debug.Log($"{score.Rank}. {score.Player.DisplayName}: {score.Value}");
+        }
+    });
+}
+```
+
+**Load player-centered scores** (scores around authenticated player):
+
+```csharp
+void LoadPlayerCenteredScores()
+{
+    ILeaderboard leaderboard = GameServices.CreateLeaderboard("high_score");
+    if (leaderboard == null) return;
+
+    leaderboard.TimeScope = LeaderboardTimeScope.Week;
+    leaderboard.LoadPlayerCenteredScores((result, error) =>
+    {
+        if (error == null)
+        {
+            Debug.Log($"Loaded {result.Scores.Length} scores around player");
+        }
+    });
+}
+```
+
+### Leaderboard Time Scopes
+
+Control which scores are displayed:
+
+```csharp
+// All-time scores (default)
+leaderboard.TimeScope = LeaderboardTimeScope.AllTime;
+
+// This week's scores
+leaderboard.TimeScope = LeaderboardTimeScope.Week;
+
+// Today's scores
+leaderboard.TimeScope = LeaderboardTimeScope.Today;
+```
+
+### Show Leaderboard UI
+
+**Show all leaderboards**:
+
+```csharp
+void ShowAllLeaderboards()
+{
+    GameServices.ShowLeaderboards(LeaderboardTimeScope.AllTime, (result, error) =>
+    {
+        Debug.Log("Leaderboard UI closed");
+    });
+}
+```
+
+**Show specific leaderboard**:
+
+```csharp
+void ShowHighScoreLeaderboard()
+{
+    GameServices.ShowLeaderboard("high_score", LeaderboardTimeScope.Week, (result, error) =>
+    {
+        Debug.Log("Leaderboard UI closed");
+    });
+}
+```
+
+The native platform UI shows:
+- iOS: Game Center leaderboard overlay
+- Android: Play Games leaderboard screen
+
+{% hint style="info" %}
+Native leaderboard UI pauses your game automatically. Resume game logic in the callback if needed.
+{% endhint %}
+
+### Load Leaderboard Metadata
+
+Load all configured leaderboards with metadata:
+
+```csharp
+void LoadLeaderboardsData()
+{
+    GameServices.LoadLeaderboards((result, error) =>
+    {
+        if (error == null)
+        {
+            Debug.Log($"Loaded {result.Leaderboards.Length} leaderboards");
+            foreach (ILeaderboard lb in result.Leaderboards)
+            {
+                Debug.Log($"Leaderboard: {lb.Id}, Title: {lb.Title}");
+            }
+        }
+    });
+}
+```
+
+## Achievements
+
+Achievements reward player milestones. Essential Kit supports reporting progress and showing achievement UI.
+
+### Understanding Achievement Types
+
+**Standard Achievements** (single unlock):
+- Unlock once when player completes a task
+- Example: "Complete first level"
+- Set `PercentageCompleted = 100.0` to unlock
+
+**Incremental Achievements** (progressive unlock):
+- Track progress over time
+- Example: "Win 100 games" (0-100% progress)
+- Update `PercentageCompleted` as player progresses
+
+### Report Achievement Progress
+
+**Using achievement ID** (simplest approach):
+
+```csharp
+void UnlockAchievement(string achievementId)
+{
+    if (!GameServices.IsAuthenticated)
+    {
+        Debug.Log("Player must be authenticated");
+        return;
+    }
+
+    GameServices.ReportAchievementProgress(achievementId, 100.0, (success, error) =>
+    {
+        if (success)
+        {
+            Debug.Log($"Achievement {achievementId} unlocked!");
+        }
+        else if (error != null)
+        {
+            Debug.Log($"Achievement failed: {error.LocalizedDescription}");
+        }
+    });
+}
+```
+
+**For incremental achievements**:
+
+```csharp
+void UpdateAchievementProgress(string achievementId, int currentProgress, int maxProgress)
+{
+    double percentage = ((double)currentProgress / maxProgress) * 100.0;
+
+    GameServices.ReportAchievementProgress(achievementId, percentage, (success, error) =>
+    {
+        if (success)
+        {
+            Debug.Log($"Achievement progress: {percentage:F1}%");
+        }
+        else if (error != null)
+        {
+            Debug.Log($"Progress update failed: {error.LocalizedDescription}");
+        }
+    });
+}
+
+// Example: Track wins
+int wins = 45;
+int targetWins = 100;
+UpdateAchievementProgress("win_100_games", wins, targetWins); // Reports 45% progress
+```
+
+**Using achievement object** (for advanced control):
+
+```csharp
+void ReportProgressAdvanced()
+{
+    IAchievement achievement = GameServices.CreateAchievement("first_win");
+    if (achievement == null)
+    {
+        Debug.Log("Achievement 'first_win' not found in settings");
+        return;
+    }
+
+    achievement.PercentageCompleted = 100.0;
+    achievement.ReportProgress((success, error) =>
+    {
+        if (success)
+        {
+            Debug.Log("Achievement reported successfully");
+        }
+        else if (error != null)
+        {
+            Debug.Log($"Achievement report failed: {error.LocalizedDescription}");
+        }
+    });
+}
+```
+
+### Load Achievement Descriptions
+
+Load metadata for all configured achievements:
+
+```csharp
+void LoadAchievementDescriptions()
+{
+    GameServices.LoadAchievementDescriptions((result, error) =>
+    {
+        if (error != null)
+        {
+            Debug.Log($"Failed to load: {error.LocalizedDescription}");
+            return;
+        }
+
+        Debug.Log($"Loaded {result.AchievementDescriptions.Length} achievements");
+        foreach (IAchievementDescription desc in result.AchievementDescriptions)
+        {
+            Debug.Log($"{desc.Id}: {desc.Title}");
+            Debug.Log($"  Points: {desc.MaximumPoints}");
+            Debug.Log($"  Hidden: {desc.IsHidden}");
+        }
+    });
+}
+```
+
+### Load Player Achievement Progress
+
+Load player's current achievement progress:
+
+```csharp
+void LoadPlayerAchievements()
+{
+    GameServices.LoadAchievements((result, error) =>
+    {
+        if (error == null)
+        {
+            Debug.Log($"Loaded {result.Achievements.Length} achievements");
+            foreach (IAchievement achievement in result.Achievements)
+            {
+                Debug.Log($"{achievement.Id}: {achievement.PercentageCompleted:F1}%");
+                if (achievement.IsCompleted)
+                {
+                    Debug.Log($"  Unlocked on {achievement.LastReportedDate}");
+                }
+            }
+        }
+    });
+}
+```
+
+### Show Achievements UI
+
+Display native achievement progress screen:
+
+```csharp
+void ShowAchievementsUI()
+{
+    GameServices.ShowAchievements((result, error) =>
+    {
+        Debug.Log("Achievements UI closed");
+    });
+}
+```
+
+The native UI shows:
+- iOS: Game Center achievements overlay
+- Android: Play Games achievements screen
+
+{% hint style="success" %}
+**Achievement Completion Banners**: On iOS, Essential Kit can show a native banner when achievements unlock. Enable "Show Achievement Completion Banner" in Game Services settings to display automatic unlock notifications.
+{% endhint %}
+
+## Social Features
+
+Access friends list and add friends for social competition.
+
+### Load Friends
+
+```csharp
+void LoadPlayerFriends()
+{
+    if (!GameServices.IsAuthenticated)
+    {
+        Debug.Log("Player must be authenticated to load friends");
+        return;
+    }
+
+    GameServices.LoadFriends((result, error) =>
+    {
+        if (error != null)
+        {
+            Debug.Log($"Failed to load friends: {error.LocalizedDescription}");
+            return;
+        }
+
+        Debug.Log($"Found {result.Players.Length} friends");
+        foreach (IPlayer friend in result.Players)
+        {
+            Debug.Log($"Friend: {friend.DisplayName}");
+
+            // Load friend avatar
+            friend.LoadImage((imageData, imgError) =>
+            {
+                if (imgError == null && imageData != null)
+                {
+                    Texture2D avatar = imageData.Texture;
+                    // Display in friends UI
+                }
+            });
+        }
+    });
+}
 ```
 
 {% hint style="warning" %}
-Scores query size has a limit on Android where it caps to max of 25 scores.
+**Privacy Permissions**: Friends access requires additional privacy permissions. Enable "Allow Friends Access" in Game Services settings and provide clear usage descriptions on iOS.
 {% endhint %}
 
-You can set time scope to the scores that needs to be fetched. Time scope defines the time when the scores were submitted. This can be any of Today/Week/AllTime.
+### Add Friend
+
+Send friend request to a player:
 
 ```csharp
-leaderboard.TimeScope = LeaderboardTimeScope.Week;// For fetching submitted scores past week.
+void SendFriendRequest(string playerId)
+{
+    GameServices.AddFriend(playerId, (success, error) =>
+    {
+        if (error == null && success)
+        {
+            Debug.Log("Friend request sent successfully");
+        }
+        else
+        {
+            Debug.Log($"Friend request failed: {error?.LocalizedDescription}");
+        }
+    });
+}
 ```
 
-#### Loading Top Scores
+## Server Integration
+
+### Load Server Credentials
+
+For backend integration, load server credentials to validate player identity on your game server:
 
 ```csharp
-leaderboard.LoadTopScores((result, error) => {
-    if (error == null)
+void GetServerCredentials()
+{
+    if (!GameServices.IsAuthenticated)
     {
-         Debug.Log("Scores loaded : " + result.Scores);
-         for (int iter = 0; iter < result.Scores.Length; iter++)
-         {
-              IScore score = result.Scores[iter];
-              Debug.Log(string.Format("Player {0} Rank : {1} Score : {2}", score.Player.DisplayName, score.Rank, score.Value);
-         }
+        Debug.Log("Player must be authenticated");
+        return;
     }
-    else
-    {
-         Debug.LogError("Failed loading top scores with error : " + error.Description);
-    }
-});
-```
 
-#### Loading Player centered scores
+    var additionalScopes = new List<ServerCredentialAdditionalScope>
+    {
+        ServerCredentialAdditionalScope.Email
+    };
 
-```csharp
-leaderboard.LoadPlayerCenteredScores((result, error) => {
-    if (error == null)
+    GameServices.LoadServerCredentials(additionalScopes, (result, error) =>
     {
-         Debug.Log("Scores loaded : " + result.Scores);
-         for (int iter = 0; iter < result.Scores.Length; iter++)
-         {
-              IScore score = result.Scores[iter];
-              Debug.Log(string.Format("Player {0} Rank : {1} Score : {2}", score.Player.DisplayName, score.Rank, score.Value);
-         }
-    }
-    else
-    {
-         Debug.LogError("Failed loading top scores with error : " + error.Description);
-    }
-});
+        if (error != null)
+        {
+            Debug.Log($"Failed to load credentials: {error.LocalizedDescription}");
+            return;
+        }
+
+        ServerCredentials credentials = result.ServerCredentials;
+        Debug.Log("Server credentials loaded");
+
+        foreach (ServerCredentialAdditionalScope scope in result.AdditionalGrantedScopes)
+        {
+            Debug.Log($"Granted additional scope: {scope}");
+        }
+
+        // Send to your backend for validation
+        SendToBackend(credentials);
+    });
+}
+
+void SendToBackend(ServerCredentials credentials)
+{
+    // Example: Send credentials to your game server
+    // Server can validate with Game Center or Play Games backend
+    Debug.Log("Sending credentials to backend...");
+}
 ```
 
 {% hint style="info" %}
-As the results returned by **LoadTopScores** and **LoadPlayerCenteredScores** are limited by **LoadScoresQuerySize** value, you can fetch the rest of the pages with **LoadPrevious** and **LoadNext** methods.
+Server credentials expire and need periodic refresh. Credentials contain platform-specific authentication data your backend can use to verify player identity with Game Center or Google Play Games servers.
 {% endhint %}
 
-### Report Score to a leaderboard <a href="#report-score" id="report-score"></a>
-
-For reporting a score to leaderboard, you need to have a **ILeaderboard**(doc) instance or [Id of the leaderboard set in Essential Kit Settings](setup/#properties).
-
-There are multiple ways to report a score
-
-{% tabs %}
-{% tab title="With Leaderboard Id" %}
-```csharp
-long        score       = 57;
-string      leaderboardId = "leaderboardId";// Value from setup done in inspector
-string      tag = "weapon-6"; //This must be a 8 length ascii chars - Optional
-GameServices.ReportScore(leaderboardId, score, (success, error) =>
-{
-    if (success)
-    {
-        Debug.Log("Request to submit score finished successfully.");
-    }
-    else
-    {
-        Debug.Log("Request to submit score failed with error: " + error.Description);
-    }
-}, tag);
-```
-{% endtab %}
-
-{% tab title="With ILeaderboard instance" %}
-{% code title="Reporting with leaderboard id" %}
-```csharp
-long        score       = 57;
-ILeaderboard      leaderboardInstance;// This you can get from either LoadLeaderboards or CreateLeaderboard
-string      tag = "weapon-6"; //This must be a 8 length ascii chars
-GameServices.ReportScore(leaderboardInstance, score, (success, error) =>
-{
-    if (success)
-    {
-        Debug.Log("Request to submit score finished successfully.");
-    }
-    else
-    {
-        Debug.Log("Request to submit score failed with error: " + error.Description);
-    }
-}, tag);
-```
-{% endcode %}
-{% endtab %}
-{% endtabs %}
-
-{% hint style="success" %}
-**NEW : Helps in Game Retention and Monetization**&#x20;
-
-Now you can submit a **tag** to a score to give some **context** which can be retrieved back when fetching leaderboards. With this you can do something like below
-
-* Show a popup to purchase an in-app item used to secure the score
-* Showcase player's past score and how he/she improved
-* Show level in which player reached this score
+{% hint style="warning" %}
+On Android, additional scopes (such as email) require user consent. Inspect `result.AdditionalGrantedScopes` to confirm which scopes were approved before relying on them server-side.
 {% endhint %}
 
+## Core APIs Reference
 
+### Authentication APIs
+| API | Purpose | Returns |
+| --- | --- | --- |
+| `GameServices.Authenticate(interactive)` | Authenticate player (shows UI if interactive=true) | Result via `OnAuthStatusChange` event |
+| `GameServices.Signout()` | Sign out current player | Immediate, no callback |
+| `GameServices.IsAuthenticated` | Check if player signed in | `bool` |
+| `GameServices.LocalPlayer` | Get authenticated player info | `ILocalPlayer` (null if not authenticated) |
+| `GameServices.Initialize(settings)` | (Advanced) Override settings at runtime | `void` |
 
-### Show Leaderboards <a href="#show-leaderboards-ui" id="show-leaderboards-ui"></a>
+### Leaderboard APIs
+| API | Purpose | Returns |
+| --- | --- | --- |
+| `GameServices.CreateLeaderboard(id)` | Create leaderboard object for operations | `ILeaderboard` |
+| `GameServices.ReportScore(id, score, callback, tag)` | Submit score to leaderboard | Result via callback |
+| `ILeaderboard.LoadTopScores(callback)` | Load highest scores | Result via callback with scores array |
+| `ILeaderboard.LoadPlayerCenteredScores(callback)` | Load scores around player | Result via callback with scores array |
+| `ILeaderboard.LoadNext(callback)` | Load next page of scores | Result via callback with scores array |
+| `ILeaderboard.LoadPrevious(callback)` | Load previous page of scores | Result via callback with scores array |
+| `GameServices.ShowLeaderboard(id, timescope, callback)` | Show native leaderboard UI | Result via callback when UI closes |
+| `GameServices.ShowLeaderboards(timescope, callback)` | Show all leaderboards UI | Result via callback when UI closes |
+| `GameServices.LoadLeaderboards(callback)` | Load leaderboard metadata | Result via callback with leaderboard array |
+| `ILeaderboard.LoadImage(callback)` | Load leaderboard icon image | Result via callback with `TextureData` |
+| `ILeaderboard.LoadScoresQuerySize` | Configure max entries before loading | `int` (get/set) |
 
-By default, native platforms provide a way to show the leaderboards with their own UI.&#x20;
+### Achievement APIs
+| API | Purpose | Returns |
+| --- | --- | --- |
+| `GameServices.CreateAchievement(id)` | Create achievement object for operations | `IAchievement` |
+| `GameServices.ReportAchievementProgress(id, percentage, callback)` | Report achievement progress | Result via callback |
+| `IAchievement.ReportProgress(callback)` | Report progress (set `PercentageCompleted` first) | Result via callback |
+| `GameServices.ShowAchievements(callback)` | Show native achievements UI | Result via callback when UI closes |
+| `GameServices.LoadAchievementDescriptions(callback)` | Load achievement metadata | Result via callback with descriptions array |
+| `GameServices.LoadAchievements(callback)` | Load player's achievement progress | Result via callback with achievements array |
+| `IAchievementDescription.LoadImage(callback)` | Load achievement icon image | Result via callback with `TextureData` |
 
-#### Showing All Leaderboards
+### Social APIs
+| API | Purpose | Returns |
+| --- | --- | --- |
+| `GameServices.LoadFriends(callback)` | Load player's friends list | Result via callback with players array |
+| `GameServices.AddFriend(playerId, callback)` | Send friend request | Result via callback with success bool |
+| `ILocalPlayer.LoadFriends(callback)` | Load friends directly from the player object | Result via callback with players array |
+| `ILocalPlayer.AddFriend(playerId, callback)` | Send friend request via player object | Result via callback with success bool |
+
+### Server APIs
+| API | Purpose | Returns |
+| --- | --- | --- |
+| `GameServices.LoadServerCredentials(callback)` | Load server credentials for backend validation | Result via callback with credentials |
+| `GameServices.LoadServerCredentials(additionalScopes, callback)` | Request credentials with additional scopes (Android) | Result via callback with credentials and granted scopes |
+
+## Data Properties
+
+### ILocalPlayer Properties
+| Property | Type | Notes |
+| --- | --- | --- |
+| `Identifier` | string | Platform-specific player identifier |
+| `DeveloperScopeIdentifier` | string | Cross-game identifier (iOS only when available) |
+| `LegacyIdentifier` | string | Backwards-compatible identifier |
+| `DisplayName` | string | Player display name |
+| `Alias` | string | Player alias (may match `DisplayName`) |
+| `IsAuthenticated` | bool | Whether player is signed in |
+| `LoadImage(callback)` | Method | Async load player avatar |
+| `LoadFriends(callback)` | Method | Load player's friends |
+| `AddFriend(playerId, callback)` | Method | Send friend request |
+
+### ILeaderboardScore Properties
+| Property | Type | Notes |
+| --- | --- | --- |
+| `Value` | long | Score value |
+| `Rank` | int | Player rank in leaderboard |
+| `Player` | IPlayer | Player who achieved this score |
+| `Date` | DateTime | When score was submitted |
+| `Tag` | string | Optional score tag (max 8 ASCII chars) |
+
+### IAchievement Properties
+| Property | Type | Notes |
+| --- | --- | --- |
+| `Id` | string | Achievement identifier |
+| `PercentageCompleted` | double | Progress (0.0 to 100.0) |
+| `IsCompleted` | bool | Whether achievement is unlocked |
+| `LastReportedDate` | DateTime | Last progress report time |
+
+### IAchievementDescription Properties
+| Property | Type | Notes |
+| --- | --- | --- |
+| `Id` | string | Achievement identifier |
+| `Title` | string | Achievement title |
+| `UnachievedDescription` | string | Description when locked |
+| `AchievedDescription` | string | Description when unlocked |
+| `MaximumPoints` | int | Points awarded for unlocking |
+| `IsHidden` | bool | Whether achievement is hidden |
+| `IsReplayable` | bool | Whether achievement can be re-earned |
+
+## Error Handling
+
+| Error Code | Trigger | Recommended Action |
+| --- | --- | --- |
+| `Unknown` | Platform error, network issue | Retry or display error message to user |
+| `NotAuthenticated` | Operation requires authentication | Prompt player to sign in |
+| `InvalidParameter` | Invalid leaderboard/achievement ID | Verify IDs match settings configuration |
+| `NetworkError` | No internet connection | Show offline message, cache may work |
+| `Cancelled` | User cancelled operation | Handle gracefully, no error UI needed |
+
+**Error Handling Example**:
 
 ```csharp
-GameServices.ShowLeaderboards(callback: (result, error) =>
+void HandleGameServicesError(Error error)
 {
-    Debug.Log("Leaderboards UI closed");
-});
+    if (error == null) return;
+
+    Debug.Log($"Error: {error.LocalizedDescription}");
+
+    // Handle specific error codes
+    switch (error.Code)
+    {
+        case (int)GameServicesErrorCode.NotAuthenticated:
+            Debug.Log("Player needs to sign in");
+            ShowSignInPrompt();
+            break;
+
+        case (int)GameServicesErrorCode.InvalidParameter:
+            Debug.Log("Invalid leaderboard or achievement ID");
+            break;
+
+        case (int)GameServicesErrorCode.NetworkError:
+            Debug.Log("No internet connection");
+            ShowOfflineMessage();
+            break;
+
+        default:
+            Debug.Log("Unknown error occurred");
+            break;
+    }
+}
 ```
 
-#### Showing a specific Leaderboard with Time Scope
+## Advanced: Runtime Settings Initialization
+
+{% hint style="danger" %}
+**Warning**: Most games should use Essential Kit Settings configuration. Only use runtime initialization for dynamic leaderboard/achievement systems, server-driven configurations, or tournament modes.
+{% endhint %}
+
+### Understanding Runtime Initialization
+
+**Default Behavior:**
+Essential Kit auto-initializes Game Services using settings configured in the inspector. This works for 99% of games.
+
+**Advanced Usage:**
+Runtime initialization allows creating settings programmatically. Use this for:
+- Dynamic tournament leaderboards loaded from your server
+- Server-driven achievement systems
+- A/B testing different leaderboard configurations
+- Event-based competitions with temporary leaderboards
+
+### Implementation
+
+Override default settings at runtime:
 
 ```csharp
-string leaderboardId = "leaderboardId";// Id you set for settings in Essential Kit Settings
-GameServices.ShowLeaderboard(leaderboardId, LeaderboardTimeScope.AllTime, callback: (result, error) =>
+void Awake()
 {
-    Debug.Log("Leaderboard UI closed");
-});
+    // Create settings programmatically
+    var settings = new GameServicesUnitySettings(
+        isEnabled: true,
+        leaderboards: CreateDynamicLeaderboards(),
+        achievements: CreateDynamicAchievements(),
+        showAchievementCompletionBanner: true,
+        allowFriendsAccess: true
+    );
+
+    GameServices.Initialize(settings);
+}
+
+LeaderboardDefinition[] CreateDynamicLeaderboards()
+{
+    // Example: Load from server or create dynamically
+    return new LeaderboardDefinition[]
+    {
+        new LeaderboardDefinition("tournament_weekly")
+        {
+            IosPlatformProperties = new LeaderboardDefinition.IosPlatformProperties
+            {
+                Id = "com.yourgame.tournament.weekly"
+            },
+            AndroidPlatformProperties = new LeaderboardDefinition.AndroidPlatformProperties
+            {
+                Id = "CgkI_TOURNAMENT_WEEKLY"
+            }
+        }
+    };
+}
+
+AchievementDefinition[] CreateDynamicAchievements()
+{
+    // Example: Create achievements dynamically
+    return new AchievementDefinition[]
+    {
+        new AchievementDefinition("event_achievement")
+        {
+            IosPlatformProperties = new AchievementDefinition.IosPlatformProperties
+            {
+                Id = "com.yourgame.event.achievement"
+            },
+            AndroidPlatformProperties = new AchievementDefinition.AndroidPlatformProperties
+            {
+                Id = "CgkI_EVENT_ACHIEVEMENT"
+            }
+        }
+    };
+}
 ```
 
+{% hint style="warning" %}
+**Important**: Calling `Initialize()` again clears registered callbacks and events. Register for `OnAuthStatusChange` AFTER initialization.
+{% endhint %}
+
+## Related Guides
+- Demo scene: `Assets/Plugins/VoxelBusters/EssentialKit/Examples/Scenes/GameServicesDemo.unity`
+- [Platform Setup](setup/) for Game Center and Play Games configuration
+- [Testing Guide](testing.md) to validate your implementation
+- [FAQ](faq.md) for common issues and troubleshooting
+
+{% hint style="info" %}
+Ready to test? Head to the [Testing Guide](testing.md) to validate your implementation on device and in the editor simulator.
+{% endhint %}
