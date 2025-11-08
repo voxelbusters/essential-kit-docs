@@ -17,12 +17,13 @@
           </detaileddescription>
         </enumvalue>
         <briefdescription>
+<para>Enumerates the web view error code values. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewErrorCode.cs" line="3" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewErrorCode.cs" bodystart="4" bodyend="6"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewErrorCode.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewErrorCode.cs" bodystart="7" bodyend="9"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

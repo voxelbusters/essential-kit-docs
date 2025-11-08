@@ -70,6 +70,17 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>SettingsObject</label>
+      </node>
+      <node id="2">
+        <label>EssentialKitSettings</label>
+        <link refid="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
     <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/SettingsObject.cs" line="7" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Setup/SettingsObject.cs" bodystart="8" bodyend="33"/>
     <listofallmembers>
       <member refid="df/d1d/class_voxel_busters_1_1_core_library_1_1_settings_object_1a44799bf0955d9540b472665270fdb384" prot="package" virt="virtual"><scope>VoxelBusters::CoreLibrary::SettingsObject</scope><name>OnEditorReload</name></member>

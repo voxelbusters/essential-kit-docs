@@ -5,7 +5,7 @@
     <basecompoundref prot="public" virt="non-virtual">SettingsObject</basecompoundref>
     <sectiondef kind="private-static-attrib">
       <memberdef kind="variable" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1adfc7c4680d0985b325654f8dbbde2dce" prot="private" static="yes" mutable="no">
-        <type>EssentialKitSettings</type>
+        <type><ref refid="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings" kindref="compound">EssentialKitSettings</ref></type>
         <definition>EssentialKitSettings s_sharedInstance</definition>
         <argsstring></argsstring>
         <name>s_sharedInstance</name>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="20" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="20" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="26" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1abb27e76bdc3c5a70ff17bdb5afa0e42f" prot="private" static="yes" mutable="no">
         <type>UnityPackageDefinition</type>
@@ -30,24 +30,24 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="23" column="47" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="23" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="29" column="47" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="29" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a68794c87e5b46162d720191076e7e25c" prot="private" static="no" mutable="no">
-        <type>ApplicationSettings</type>
+        <type><ref refid="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings" kindref="compound">ApplicationSettings</ref></type>
         <definition>ApplicationSettings m_applicationSettings</definition>
         <argsstring></argsstring>
         <name>m_applicationSettings</name>
         <qualifiedname>VoxelBusters.EssentialKit.EssentialKitSettings.m_applicationSettings</qualifiedname>
-        <initializer>= new ApplicationSettings()</initializer>
+        <initializer>= new <ref refid="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings" kindref="compound">ApplicationSettings</ref>()</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="30" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="30" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="36" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1afae254bef66040f227d0d9632c51ea44" prot="private" static="no" mutable="no">
         <type><ref refid="d8/d8d/class_voxel_busters_1_1_essential_kit_1_1_address_book_unity_settings" kindref="compound">AddressBookUnitySettings</ref></type>
@@ -62,37 +62,37 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="33" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="33" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="39" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a4262bdf398070449b0fbc0938247fe64" prot="private" static="no" mutable="no">
-        <type>AppUpdaterUnitySettings</type>
+        <type><ref refid="de/d6c/class_voxel_busters_1_1_essential_kit_1_1_app_updater_unity_settings" kindref="compound">AppUpdaterUnitySettings</ref></type>
         <definition>AppUpdaterUnitySettings m_appUpdaterSettings</definition>
         <argsstring></argsstring>
         <name>m_appUpdaterSettings</name>
         <qualifiedname>VoxelBusters.EssentialKit.EssentialKitSettings.m_appUpdaterSettings</qualifiedname>
-        <initializer>= new AppUpdaterUnitySettings()</initializer>
+        <initializer>= new <ref refid="de/d6c/class_voxel_busters_1_1_essential_kit_1_1_app_updater_unity_settings" kindref="compound">AppUpdaterUnitySettings</ref>()</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="36" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="36" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="42" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a426dd856361b00f16849c81885daf957" prot="private" static="no" mutable="no">
-        <type>AppShortcutsUnitySettings</type>
+        <type><ref refid="d5/dfe/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_unity_settings" kindref="compound">AppShortcutsUnitySettings</ref></type>
         <definition>AppShortcutsUnitySettings m_appShortcutsSettings</definition>
         <argsstring></argsstring>
         <name>m_appShortcutsSettings</name>
         <qualifiedname>VoxelBusters.EssentialKit.EssentialKitSettings.m_appShortcutsSettings</qualifiedname>
-        <initializer>= new AppShortcutsUnitySettings()</initializer>
+        <initializer>= new <ref refid="d5/dfe/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_unity_settings" kindref="compound">AppShortcutsUnitySettings</ref>()</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="39" column="43" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="39" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="45" column="43" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a23f21d42795aa266e735c2825a208949" prot="private" static="no" mutable="no">
         <type>NativeUIUnitySettings</type>
@@ -107,37 +107,37 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="43" column="39" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="43" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="49" column="39" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a721ce4d42af8790b987578746253df5e" prot="private" static="no" mutable="no">
-        <type>SharingServicesUnitySettings</type>
+        <type><ref refid="d4/d57/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_unity_settings" kindref="compound">SharingServicesUnitySettings</ref></type>
         <definition>SharingServicesUnitySettings m_sharingServicesSettings</definition>
         <argsstring></argsstring>
         <name>m_sharingServicesSettings</name>
         <qualifiedname>VoxelBusters.EssentialKit.EssentialKitSettings.m_sharingServicesSettings</qualifiedname>
-        <initializer>= new SharingServicesUnitySettings()</initializer>
+        <initializer>= new <ref refid="d4/d57/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_unity_settings" kindref="compound">SharingServicesUnitySettings</ref>()</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="46" column="46" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="46" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="52" column="46" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="52" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1af1e063448ca9c849efd3aeba0b3543d7" prot="private" static="no" mutable="no">
-        <type>CloudServicesUnitySettings</type>
+        <type><ref refid="db/d80/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings" kindref="compound">CloudServicesUnitySettings</ref></type>
         <definition>CloudServicesUnitySettings m_cloudServicesSettings</definition>
         <argsstring></argsstring>
         <name>m_cloudServicesSettings</name>
         <qualifiedname>VoxelBusters.EssentialKit.EssentialKitSettings.m_cloudServicesSettings</qualifiedname>
-        <initializer>= new CloudServicesUnitySettings()</initializer>
+        <initializer>= new <ref refid="db/d80/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings" kindref="compound">CloudServicesUnitySettings</ref>()</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="49" column="44" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="49" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="55" column="44" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a2bb4133a1981298ce20ccdb1799c37a5" prot="private" static="no" mutable="no">
         <type><ref refid="d7/dee/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings" kindref="compound">GameServicesUnitySettings</ref></type>
@@ -152,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="52" column="43" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="52" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="58" column="43" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="58" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a1078bdb7c49ca6bdf49f52051d0861bd" prot="private" static="no" mutable="no">
         <type><ref refid="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings" kindref="compound">BillingServicesUnitySettings</ref></type>
@@ -167,127 +167,127 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="55" column="46" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="55" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="61" column="46" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="61" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a75fc7a0cbc43c838085322d0b9cb0dc1" prot="private" static="no" mutable="no">
-        <type>NetworkServicesUnitySettings</type>
+        <type><ref refid="db/d83/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings" kindref="compound">NetworkServicesUnitySettings</ref></type>
         <definition>NetworkServicesUnitySettings m_networkServicesSettings</definition>
         <argsstring></argsstring>
         <name>m_networkServicesSettings</name>
         <qualifiedname>VoxelBusters.EssentialKit.EssentialKitSettings.m_networkServicesSettings</qualifiedname>
-        <initializer>= new NetworkServicesUnitySettings()</initializer>
+        <initializer>= new <ref refid="db/d83/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings" kindref="compound">NetworkServicesUnitySettings</ref>()</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="58" column="46" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="58" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="64" column="46" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="64" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1ac1f4b34527cb2254ae6741bfe449baf2" prot="private" static="no" mutable="no">
-        <type>NotificationServicesUnitySettings</type>
+        <type><ref refid="d2/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings" kindref="compound">NotificationServicesUnitySettings</ref></type>
         <definition>NotificationServicesUnitySettings m_notificationServicesSettings</definition>
         <argsstring></argsstring>
         <name>m_notificationServicesSettings</name>
         <qualifiedname>VoxelBusters.EssentialKit.EssentialKitSettings.m_notificationServicesSettings</qualifiedname>
-        <initializer>= new NotificationServicesUnitySettings()</initializer>
+        <initializer>= new <ref refid="d2/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings" kindref="compound">NotificationServicesUnitySettings</ref>()</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="61" column="51" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="61" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="67" column="51" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a8a7c72fa4a56b43b877aae19ac32ec7c" prot="private" static="no" mutable="no">
-        <type>MediaServicesUnitySettings</type>
+        <type><ref refid="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings" kindref="compound">MediaServicesUnitySettings</ref></type>
         <definition>MediaServicesUnitySettings m_mediaServicesSettings</definition>
         <argsstring></argsstring>
         <name>m_mediaServicesSettings</name>
         <qualifiedname>VoxelBusters.EssentialKit.EssentialKitSettings.m_mediaServicesSettings</qualifiedname>
-        <initializer>= new MediaServicesUnitySettings()</initializer>
+        <initializer>= new <ref refid="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings" kindref="compound">MediaServicesUnitySettings</ref>()</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="64" column="44" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="64" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="70" column="44" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="70" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1abc7cb385e540f42c826a6ac81f4dfe48" prot="private" static="no" mutable="no">
-        <type>DeepLinkServicesUnitySettings</type>
+        <type><ref refid="da/d12/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings" kindref="compound">DeepLinkServicesUnitySettings</ref></type>
         <definition>DeepLinkServicesUnitySettings m_deepLinkServicesSettings</definition>
         <argsstring></argsstring>
         <name>m_deepLinkServicesSettings</name>
         <qualifiedname>VoxelBusters.EssentialKit.EssentialKitSettings.m_deepLinkServicesSettings</qualifiedname>
-        <initializer>= new DeepLinkServicesUnitySettings()</initializer>
+        <initializer>= new <ref refid="da/d12/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings" kindref="compound">DeepLinkServicesUnitySettings</ref>()</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="67" column="47" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="67" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="73" column="47" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="73" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1adb93394bc19c5696aed67fd399a872c7" prot="private" static="no" mutable="no">
-        <type>RateMyAppUnitySettings</type>
+        <type><ref refid="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings" kindref="compound">RateMyAppUnitySettings</ref></type>
         <definition>RateMyAppUnitySettings m_rateMyAppSettings</definition>
         <argsstring></argsstring>
         <name>m_rateMyAppSettings</name>
         <qualifiedname>VoxelBusters.EssentialKit.EssentialKitSettings.m_rateMyAppSettings</qualifiedname>
-        <initializer>= new RateMyAppUnitySettings()</initializer>
+        <initializer>= new <ref refid="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings" kindref="compound">RateMyAppUnitySettings</ref>()</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="70" column="40" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="70" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="76" column="40" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="76" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1abcc79006b549e9c1ead995c84358e391" prot="private" static="no" mutable="no">
-        <type>TaskServicesUnitySettings</type>
+        <type><ref refid="d8/d4f/class_voxel_busters_1_1_essential_kit_1_1_task_services_unity_settings" kindref="compound">TaskServicesUnitySettings</ref></type>
         <definition>TaskServicesUnitySettings m_taskServicesSettings</definition>
         <argsstring></argsstring>
         <name>m_taskServicesSettings</name>
         <qualifiedname>VoxelBusters.EssentialKit.EssentialKitSettings.m_taskServicesSettings</qualifiedname>
-        <initializer>= new TaskServicesUnitySettings()</initializer>
+        <initializer>= new <ref refid="d8/d4f/class_voxel_busters_1_1_essential_kit_1_1_task_services_unity_settings" kindref="compound">TaskServicesUnitySettings</ref>()</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="73" column="43" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="73" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="79" column="43" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="79" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a2d431b21ba3a9b6cfc426835acd089f5" prot="private" static="no" mutable="no">
-        <type>UtilityUnitySettings</type>
+        <type><ref refid="d2/de9/class_voxel_busters_1_1_essential_kit_1_1_utility_unity_settings" kindref="compound">UtilityUnitySettings</ref></type>
         <definition>UtilityUnitySettings m_utilitySettings</definition>
         <argsstring></argsstring>
         <name>m_utilitySettings</name>
         <qualifiedname>VoxelBusters.EssentialKit.EssentialKitSettings.m_utilitySettings</qualifiedname>
-        <initializer>= new UtilityUnitySettings()</initializer>
+        <initializer>= new <ref refid="d2/de9/class_voxel_busters_1_1_essential_kit_1_1_utility_unity_settings" kindref="compound">UtilityUnitySettings</ref>()</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="76" column="38" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="76" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="82" column="38" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="82" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1aee5713d4870232dc5784707b20287f46" prot="private" static="no" mutable="no">
-        <type>WebViewUnitySettings</type>
+        <type><ref refid="dd/d25/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings" kindref="compound">WebViewUnitySettings</ref></type>
         <definition>WebViewUnitySettings m_webViewSettings</definition>
         <argsstring></argsstring>
         <name>m_webViewSettings</name>
         <qualifiedname>VoxelBusters.EssentialKit.EssentialKitSettings.m_webViewSettings</qualifiedname>
-        <initializer>= new WebViewUnitySettings()</initializer>
+        <initializer>= new <ref refid="dd/d25/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings" kindref="compound">WebViewUnitySettings</ref>()</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="79" column="38" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="79" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="85" column="38" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="85" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="property">
@@ -303,7 +303,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="86" column="48" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="86" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="92" column="48" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="92" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a1bb0b2b1370cd7861ac6b238d3f1a0f2" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -317,7 +317,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="97" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="97" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="103" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="103" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1aba0e038e9b973f3ba4ca520a2fb057dc" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -331,7 +331,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="99" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="99" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="105" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="105" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a8ca1a1a001dc102637530f1a11a83224" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -345,7 +345,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="101" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="101" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="107" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="107" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a8839248dc7ec6e912e5bb08827aeef2d" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -359,7 +359,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="103" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="103" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="109" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="109" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a0d43e6d8e9e91b3fa34b2f9a7efeef05" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -373,7 +373,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="105" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="105" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="111" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="111" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a40aae5e22511b132b78966c34a066435" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -387,10 +387,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="107" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="107" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="113" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="113" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a48ff8bd526d83aa30c70ba04dcac6c82" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>EssentialKitSettings</type>
+        <type><ref refid="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings" kindref="compound">EssentialKitSettings</ref></type>
         <definition>EssentialKitSettings Instance</definition>
         <argsstring></argsstring>
         <name>Instance</name>
@@ -401,10 +401,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="109" column="44" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="109" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="115" column="44" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="115" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a3a7fe1433127438bd367bcd2bc203f6e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>ApplicationSettings</type>
+        <type><ref refid="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings" kindref="compound">ApplicationSettings</ref></type>
         <definition>ApplicationSettings ApplicationSettings</definition>
         <argsstring></argsstring>
         <name>ApplicationSettings</name>
@@ -415,7 +415,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="115" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="116" bodyend="119"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="121" column="36" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="122" bodyend="125"/>
       </memberdef>
       <memberdef kind="property" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1ab92c4aaf91bf821c6321733bf4cd79e3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type><ref refid="d8/d8d/class_voxel_busters_1_1_essential_kit_1_1_address_book_unity_settings" kindref="compound">AddressBookUnitySettings</ref></type>
@@ -429,10 +429,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="121" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="122" bodyend="125"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="127" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="128" bodyend="131"/>
       </memberdef>
       <memberdef kind="property" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a94aacb62b073fbd3123196938f44a175" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>AppShortcutsUnitySettings</type>
+        <type><ref refid="d5/dfe/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_unity_settings" kindref="compound">AppShortcutsUnitySettings</ref></type>
         <definition>AppShortcutsUnitySettings AppShortcutsSettings</definition>
         <argsstring></argsstring>
         <name>AppShortcutsSettings</name>
@@ -443,10 +443,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="127" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="128" bodyend="131"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="133" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="134" bodyend="137"/>
       </memberdef>
       <memberdef kind="property" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1ab930bd92e17b1da47cf2adadbad1e4b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>AppUpdaterUnitySettings</type>
+        <type><ref refid="de/d6c/class_voxel_busters_1_1_essential_kit_1_1_app_updater_unity_settings" kindref="compound">AppUpdaterUnitySettings</ref></type>
         <definition>AppUpdaterUnitySettings AppUpdaterSettings</definition>
         <argsstring></argsstring>
         <name>AppUpdaterSettings</name>
@@ -457,10 +457,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="133" column="40" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="134" bodyend="137"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="139" column="40" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="140" bodyend="143"/>
       </memberdef>
       <memberdef kind="property" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1aa90f0afc3aea35d1f60913a1b64f9708" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>TaskServicesUnitySettings</type>
+        <type><ref refid="d8/d4f/class_voxel_busters_1_1_essential_kit_1_1_task_services_unity_settings" kindref="compound">TaskServicesUnitySettings</ref></type>
         <definition>TaskServicesUnitySettings TaskServicesSettings</definition>
         <argsstring></argsstring>
         <name>TaskServicesSettings</name>
@@ -471,7 +471,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="139" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="140" bodyend="143"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="145" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="146" bodyend="149"/>
       </memberdef>
       <memberdef kind="property" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a77163c4428b3aa27ec2f854cc0926207" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>NativeUIUnitySettings</type>
@@ -485,10 +485,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="145" column="38" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="146" bodyend="149"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="151" column="38" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="152" bodyend="155"/>
       </memberdef>
       <memberdef kind="property" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a471677e61cb2284d67b9865b1bff0d8f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>SharingServicesUnitySettings</type>
+        <type><ref refid="d4/d57/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_unity_settings" kindref="compound">SharingServicesUnitySettings</ref></type>
         <definition>SharingServicesUnitySettings SharingServicesSettings</definition>
         <argsstring></argsstring>
         <name>SharingServicesSettings</name>
@@ -499,10 +499,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="151" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="152" bodyend="155"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="157" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="158" bodyend="161"/>
       </memberdef>
       <memberdef kind="property" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a168b910c006ba074b2c7a9e7a311e2f6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>CloudServicesUnitySettings</type>
+        <type><ref refid="db/d80/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings" kindref="compound">CloudServicesUnitySettings</ref></type>
         <definition>CloudServicesUnitySettings CloudServicesSettings</definition>
         <argsstring></argsstring>
         <name>CloudServicesSettings</name>
@@ -513,7 +513,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="157" column="43" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="158" bodyend="161"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="163" column="43" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="164" bodyend="167"/>
       </memberdef>
       <memberdef kind="property" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1af80a6034e52f19e3ac3273fd36888538" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type><ref refid="d7/dee/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings" kindref="compound">GameServicesUnitySettings</ref></type>
@@ -527,7 +527,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="163" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="164" bodyend="167"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="169" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="170" bodyend="173"/>
       </memberdef>
       <memberdef kind="property" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1ad127851e95c3bf987c2dde8756545763" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type><ref refid="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings" kindref="compound">BillingServicesUnitySettings</ref></type>
@@ -541,10 +541,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="169" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="170" bodyend="173"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="175" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="176" bodyend="179"/>
       </memberdef>
       <memberdef kind="property" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1aab592497f1df6bd4b721e4773d0ca695" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>NetworkServicesUnitySettings</type>
+        <type><ref refid="db/d83/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings" kindref="compound">NetworkServicesUnitySettings</ref></type>
         <definition>NetworkServicesUnitySettings NetworkServicesSettings</definition>
         <argsstring></argsstring>
         <name>NetworkServicesSettings</name>
@@ -555,10 +555,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="175" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="176" bodyend="179"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="181" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="182" bodyend="185"/>
       </memberdef>
       <memberdef kind="property" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a5e164c41dc5158c007012e8fff34ffe6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>WebViewUnitySettings</type>
+        <type><ref refid="dd/d25/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings" kindref="compound">WebViewUnitySettings</ref></type>
         <definition>WebViewUnitySettings WebViewSettings</definition>
         <argsstring></argsstring>
         <name>WebViewSettings</name>
@@ -569,10 +569,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="181" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="182" bodyend="185"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="187" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="188" bodyend="191"/>
       </memberdef>
       <memberdef kind="property" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a343bdd1523692390a1969abc79ec7baa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>NotificationServicesUnitySettings</type>
+        <type><ref refid="d2/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings" kindref="compound">NotificationServicesUnitySettings</ref></type>
         <definition>NotificationServicesUnitySettings NotificationServicesSettings</definition>
         <argsstring></argsstring>
         <name>NotificationServicesSettings</name>
@@ -583,10 +583,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="187" column="50" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="188" bodyend="191"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="193" column="50" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="194" bodyend="197"/>
       </memberdef>
       <memberdef kind="property" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a89785ba00b859bcdb676cb9fdbe708e4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>MediaServicesUnitySettings</type>
+        <type><ref refid="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings" kindref="compound">MediaServicesUnitySettings</ref></type>
         <definition>MediaServicesUnitySettings MediaServicesSettings</definition>
         <argsstring></argsstring>
         <name>MediaServicesSettings</name>
@@ -597,10 +597,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="193" column="43" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="194" bodyend="197"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="199" column="43" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="200" bodyend="203"/>
       </memberdef>
       <memberdef kind="property" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1aecbb335185997857ee9419fa353d8939" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>DeepLinkServicesUnitySettings</type>
+        <type><ref refid="da/d12/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings" kindref="compound">DeepLinkServicesUnitySettings</ref></type>
         <definition>DeepLinkServicesUnitySettings DeepLinkServicesSettings</definition>
         <argsstring></argsstring>
         <name>DeepLinkServicesSettings</name>
@@ -611,10 +611,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="199" column="46" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="200" bodyend="203"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="205" column="46" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="206" bodyend="209"/>
       </memberdef>
       <memberdef kind="property" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a34c4829bba42cc7d6d4ba91ad8612f3a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>UtilityUnitySettings</type>
+        <type><ref refid="d2/de9/class_voxel_busters_1_1_essential_kit_1_1_utility_unity_settings" kindref="compound">UtilityUnitySettings</ref></type>
         <definition>UtilityUnitySettings UtilitySettings</definition>
         <argsstring></argsstring>
         <name>UtilitySettings</name>
@@ -625,10 +625,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="205" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="206" bodyend="209"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="211" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="212" bodyend="215"/>
       </memberdef>
       <memberdef kind="property" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1ae58d1ba99c311ddc2f59d2eb86643d9c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>RateMyAppUnitySettings</type>
+        <type><ref refid="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings" kindref="compound">RateMyAppUnitySettings</ref></type>
         <definition>RateMyAppUnitySettings RateMyAppSettings</definition>
         <argsstring></argsstring>
         <name>RateMyAppSettings</name>
@@ -639,7 +639,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="211" column="39" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="212" bodyend="215"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="217" column="39" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="218" bodyend="221"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -650,7 +650,7 @@
         <name>SetSettings</name>
         <qualifiedname>VoxelBusters.EssentialKit.EssentialKitSettings.SetSettings</qualifiedname>
         <param>
-          <type>EssentialKitSettings</type>
+          <type><ref refid="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings" kindref="compound">EssentialKitSettings</ref></type>
           <declname>settings</declname>
         </param>
         <briefdescription>
@@ -659,12 +659,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="221" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="221" bodyend="227"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="227" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="227" bodyend="233"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
       <memberdef kind="function" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1af14dfe0f95f6d2c570b5064a494a8027" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>EssentialKitSettings</type>
+        <type><ref refid="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings" kindref="compound">EssentialKitSettings</ref></type>
         <definition>static EssentialKitSettings GetSharedInstanceInternal</definition>
         <argsstring>(bool throwError=true)</argsstring>
         <name>GetSharedInstanceInternal</name>
@@ -680,7 +680,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="229" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="229" bodyend="246"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="235" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="235" bodyend="252"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -696,7 +696,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="252" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="252" bodyend="259"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="258" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="258" bodyend="265"/>
       </memberdef>
       <memberdef kind="function" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1abba921a452da94ad81d0628484506e96" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override void</type>
@@ -710,7 +710,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="261" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="261" bodyend="267"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="267" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="267" bodyend="273"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -726,7 +726,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="273" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="273" bodyend="294"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="279" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="279" bodyend="300"/>
       </memberdef>
       <memberdef kind="function" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a4359c890a5e85fdaad28493ce8a7bc9a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string[]</type>
@@ -740,7 +740,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="296" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="296" bodyend="369"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="302" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="302" bodyend="375"/>
       </memberdef>
       <memberdef kind="function" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a73cc76142650d89829f9104173c08b79" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -758,7 +758,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="371" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="371" bodyend="374"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="377" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="377" bodyend="380"/>
       </memberdef>
       <memberdef kind="function" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a8e17918c0d37cc14f67d0792ca232b3e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -780,7 +780,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="377" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="377" bodyend="383"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="383" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="383" bodyend="389"/>
       </memberdef>
       <memberdef kind="function" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a9fea7f10d2601ebf9aa34f4c927d1fb5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -794,7 +794,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="385" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="385" bodyend="392"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="391" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="391" bodyend="398"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -810,7 +810,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="398" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="398" bodyend="417"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="404" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="404" bodyend="423"/>
       </memberdef>
       <memberdef kind="function" id="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1ac0205d05acec386f239de8deeaee1ff9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -828,14 +828,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="419" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="419" bodyend="422"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="425" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="425" bodyend="428"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Represents the essential kit settings. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="15" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="16" bodyend="425"/>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" line="21" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/EssentialKitSettings.cs" bodystart="22" bodyend="431"/>
     <listofallmembers>
       <member refid="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1ab92c4aaf91bf821c6321733bf4cd79e3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::EssentialKitSettings</scope><name>AddressBookSettings</name></member>
       <member refid="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings_1a3a7fe1433127438bd367bcd2bc203f6e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::EssentialKitSettings</scope><name>ApplicationSettings</name></member>

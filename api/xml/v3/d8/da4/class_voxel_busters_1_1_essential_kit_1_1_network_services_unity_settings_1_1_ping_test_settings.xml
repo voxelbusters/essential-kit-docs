@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="17" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="17" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="23" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1aebaec4ae8c3dda59fbdb4cf16dedc662" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="21" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="21" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="27" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1a5e02857c187d7c431e17c55dfbb2459d" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="25" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="25" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="31" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1a664f68281fb64c5687e8f160fd6e4372" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="29" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="29" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="35" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="35" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="property">
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="35" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="35" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="41" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1a71f51bc367fbee9216f67fa85052ed99" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>float</type>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="37" column="26" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="37" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="43" column="26" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1a9f85ca971eb82286c727e19fcc008d50" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>float</type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="39" column="26" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="39" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="45" column="26" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1a91b1a1342df7fe9e51fb5dfc4999dfe8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>int</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="41" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="41" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="47" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="47" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -151,14 +151,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="47" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="47" bodyend="55"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="53" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="53" bodyend="61"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Represents the ping test settings. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="11" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="12" bodyend="58"/>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" line="17" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NetworkServicesUnitySettings.PingTestSettings.cs" bodystart="18" bodyend="64"/>
     <listofallmembers>
       <member refid="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1a43f55b3e67a9ae2621f1c10d7f98998d" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesUnitySettings::PingTestSettings</scope><name>m_maxRetryCount</name></member>
       <member refid="d8/da4/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings_1_1_ping_test_settings_1a664f68281fb64c5687e8f160fd6e4372" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NetworkServicesUnitySettings::PingTestSettings</scope><name>m_port</name></member>

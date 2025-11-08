@@ -64,7 +64,7 @@
         <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.cs" line="33" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.cs" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d7/dee/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1a336579bd5fe8d5a6c406adea5f33d141" prot="private" static="no" mutable="no">
-        <type>AndroidPlatformProperties</type>
+        <type><ref refid="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties" kindref="compound">AndroidPlatformProperties</ref></type>
         <definition>AndroidPlatformProperties m_androidProperties</definition>
         <argsstring></argsstring>
         <name>m_androidProperties</name>
@@ -143,7 +143,7 @@
         <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.cs" line="61" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.cs" bodystart="61" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="d7/dee/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1a43ee530d504628390660ed6ec9f35a11" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>AndroidPlatformProperties</type>
+        <type><ref refid="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties" kindref="compound">AndroidPlatformProperties</ref></type>
         <definition>AndroidPlatformProperties AndroidProperties</definition>
         <argsstring></argsstring>
         <name>AndroidProperties</name>
@@ -196,7 +196,7 @@
           <defval>true</defval>
         </param>
         <param>
-          <type>AndroidPlatformProperties</type>
+          <type><ref refid="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties" kindref="compound">AndroidPlatformProperties</ref></type>
           <declname>androidProperties</declname>
           <defval>null</defval>
         </param>
@@ -210,9 +210,10 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>The <ref refid="d7/dee/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings" kindref="compound">GameServicesUnitySettings</ref> class is used to configure Game Services module of Essential Kit. </para>
+<para>Represents the game services unity settings. </para>
     </briefdescription>
     <detaileddescription>
+<para>The <ref refid="d7/dee/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings" kindref="compound">GameServicesUnitySettings</ref> class is used to configure Game Services module of Essential Kit. </para>
     </detaileddescription>
     <collaborationgraph>
       <node id="1">
@@ -234,7 +235,7 @@
         <link refid="d8/d0a/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_definition"/>
       </node>
     </collaborationgraph>
-    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="9" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.cs" bodystart="16" bodyend="86"/>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="12" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.cs" bodystart="16" bodyend="86"/>
     <listofallmembers>
       <member refid="d7/dee/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1a012cc68041651fbb7739e7f41d9cf845" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesUnitySettings</scope><name>Achievements</name></member>
       <member refid="d7/dee/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1a1903f555bafd518ce066c3c98313c2e6" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesUnitySettings</scope><name>AllowFriendsAccess</name></member>

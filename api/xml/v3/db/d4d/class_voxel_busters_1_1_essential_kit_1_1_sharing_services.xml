@@ -21,7 +21,7 @@
     </sectiondef>
     <sectiondef kind="property">
       <memberdef kind="property" id="db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_1a99e08dae6b4ac408e330a2eddef272b5" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
-        <type>SharingServicesUnitySettings</type>
+        <type><ref refid="d4/d57/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_unity_settings" kindref="compound">SharingServicesUnitySettings</ref></type>
         <definition>SharingServicesUnitySettings UnitySettings</definition>
         <argsstring></argsstring>
         <name>UnitySettings</name>
@@ -71,7 +71,7 @@
         <name>Initialize</name>
         <qualifiedname>VoxelBusters.EssentialKit.SharingServices.Initialize</qualifiedname>
         <param>
-          <type>SharingServicesUnitySettings</type>
+          <type><ref refid="d4/d57/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_unity_settings" kindref="compound">SharingServicesUnitySettings</ref></type>
           <declname>settings</declname>
         </param>
         <briefdescription>

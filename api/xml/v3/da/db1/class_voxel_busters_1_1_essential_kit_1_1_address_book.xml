@@ -125,7 +125,7 @@
 <parametername>options</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>The options to customize the retrieval of contacts. Can be created with ReadContactsOptions.Builder.</para>
+<para>The options to customize the retrieval of contacts. Can be created with <ref refid="d8/dea/class_voxel_busters_1_1_essential_kit_1_1_read_contacts_options_1_1_builder" kindref="compound">ReadContactsOptions.Builder</ref>.</para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>

@@ -133,12 +133,13 @@
         <name>Offers</name>
         <qualifiedname>VoxelBusters.EssentialKit.IBillingProduct.Offers</qualifiedname>
         <briefdescription>
+<para>Gets the available introductory or promotional offers configured for the product. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" line="56" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" bodystart="56" bodyend="56"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" line="59" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" bodystart="59" bodyend="59"/>
       </memberdef>
       <memberdef kind="property" id="d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product_1a46c5091225f0310f95a62eddd018b1b5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>IEnumerable&lt; <ref refid="d7/d25/class_voxel_busters_1_1_essential_kit_1_1_billing_product_payout_definition" kindref="compound">BillingProductPayoutDefinition</ref> &gt;</type>
@@ -153,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" line="61" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" bodystart="61" bodyend="61"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" line="64" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" bodystart="64" bodyend="64"/>
       </memberdef>
       <memberdef kind="property" id="d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product_1a244402a53e71855c3657ff810ec10ce2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -168,7 +169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" line="67" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" bodystart="67" bodyend="67"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" line="70" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" bodystart="70" bodyend="70"/>
       </memberdef>
       <memberdef kind="property" id="d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product_1aac16f291ef94a11441762be578dd9cc5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -183,7 +184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" line="73" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" bodystart="73" bodyend="73"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" line="76" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" bodystart="76" bodyend="76"/>
       </memberdef>
       <memberdef kind="property" id="d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product_1afe249c7db8a45fe12fb79fba017322d7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -198,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" line="79" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" bodystart="79" bodyend="79"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" line="82" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" bodystart="82" bodyend="82"/>
       </memberdef>
       <memberdef kind="property" id="d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product_1a4b7f4dc326555ee4a2f96d52622475cd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>object</type>
@@ -213,7 +214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" line="85" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" bodystart="85" bodyend="85"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" line="88" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" bodystart="88" bodyend="88"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -221,7 +222,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" line="12" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" bodystart="13" bodyend="88"/>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" line="12" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingProduct.cs" bodystart="13" bodyend="91"/>
     <listofallmembers>
       <member refid="d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product_1a186291c875988107b7ace745ea84d4ec" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IBillingProduct</scope><name>Id</name></member>
       <member refid="d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product_1a7a547596c0c095817d16bbe4ba4c48f4" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::IBillingProduct</scope><name>IsAvailable</name></member>

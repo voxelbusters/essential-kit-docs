@@ -163,6 +163,7 @@
     <innerclass refid="d4/d57/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_unity_settings" prot="public">VoxelBusters::EssentialKit::SharingServicesUnitySettings</innerclass>
     <innerclass refid="df/d49/class_voxel_busters_1_1_essential_kit_1_1_social_share_composer" prot="public">VoxelBusters::EssentialKit::SocialShareComposer</innerclass>
     <innerclass refid="d9/d6e/class_voxel_busters_1_1_essential_kit_1_1_social_share_composer_result" prot="public">VoxelBusters::EssentialKit::SocialShareComposerResult</innerclass>
+    <innerclass refid="d2/dad/class_voxel_busters_1_1_essential_kit_1_1_sync_on_app_events" prot="package">VoxelBusters::EssentialKit::SyncOnAppEvents</innerclass>
     <innerclass refid="dd/dce/class_voxel_busters_1_1_essential_kit_1_1_task_services" prot="public">VoxelBusters::EssentialKit::TaskServices</innerclass>
     <innerclass refid="de/dc9/class_voxel_busters_1_1_essential_kit_1_1_task_services_error" prot="public">VoxelBusters::EssentialKit::TaskServicesError</innerclass>
     <innerclass refid="d8/d4f/class_voxel_busters_1_1_essential_kit_1_1_task_services_unity_settings" prot="public">VoxelBusters::EssentialKit::TaskServicesUnitySettings</innerclass>
@@ -2620,12 +2621,13 @@
           </detaileddescription>
         </enumvalue>
         <briefdescription>
+<para>Enumerates the web view error code values. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewErrorCode.cs" line="3" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewErrorCode.cs" bodystart="4" bodyend="6"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewErrorCode.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebViewErrorCode.cs" bodystart="7" bodyend="9"/>
       </memberdef>
       <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1affd0f8f037d8080ee2f06ec06f710a53" prot="public" static="no" strong="yes">
         <type></type>

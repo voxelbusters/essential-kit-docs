@@ -115,14 +115,14 @@ var group___billing_services =
         [ "SetTag", "d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder.html#a47fb026c0633b397a41c4f01e83f75f0", null ],
         [ "SetQuantity", "d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder.html#ac1cf13e76763efe02c7554b94e8c9ad6", null ],
         [ "SetOfferRedeemDetails", "d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder.html#a8dd6904e73b175c8f3be2b40fad3649e", null ],
-        [ "SetPreviousProductIdentifier", "d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder.html#a506361a9735bcaf998e4d9e218b45cd0", null ],
+        [ "SetProductToModify", "d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder.html#a4ae8810b9b54e13001a3ceedb3491faa", null ],
         [ "Build", "d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder.html#a1f68c88a05351e965f4fd875e11f0e2f", null ]
       ] ],
       [ "Default", "d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options.html#a338e297ce7daa88c4ab465a097c3928e", null ],
       [ "Tag", "d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options.html#a121d9cb485fa9e23380cb8c883e46c9c", null ],
       [ "Quantity", "d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options.html#a8081d8fb9d8f51e49f80d612438324cf", null ],
       [ "OfferRedeemDetails", "d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options.html#ade4f0560573c6ae75e951b37819c247f", null ],
-      [ "PreviousProductIdentifier", "d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options.html#a2e25e2b429f32c9fe649ed085bc09a2d", null ]
+      [ "ProductToModify", "d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options.html#ae7cb9b01ea286eae519402b2b4a5df72", null ]
     ] ],
     [ "IBillingProduct", "d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product.html", [
       [ "Id", "d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product.html#a186291c875988107b7ace745ea84d4ec", null ],
@@ -133,6 +133,7 @@ var group___billing_services =
       [ "Price", "d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product.html#ac2d969105619923c5bd8178126e392f9", null ],
       [ "IsAvailable", "d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product.html#a7a547596c0c095817d16bbe4ba4c48f4", null ],
       [ "SubscriptionInfo", "d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product.html#adbd9a6d2948820b25ade53b33fde24e8", null ],
+      [ "Offers", "d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product.html#a89216eeff4a60dbb2245e17af7ade4fb", null ],
       [ "Payouts", "d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product.html#a46c5091225f0310f95a62eddd018b1b5", null ],
       [ "LocalizedPrice", "d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product.html#a244402a53e71855c3657ff810ec10ce2", null ],
       [ "PriceCurrencyCode", "d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product.html#aac16f291ef94a11441762be578dd9cc5", null ],

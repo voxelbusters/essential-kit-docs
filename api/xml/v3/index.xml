@@ -814,7 +814,7 @@
     <member refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder_1a47fb026c0633b397a41c4f01e83f75f0" kind="function"><name>SetTag</name></member>
     <member refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder_1ac1cf13e76763efe02c7554b94e8c9ad6" kind="function"><name>SetQuantity</name></member>
     <member refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder_1a8dd6904e73b175c8f3be2b40fad3649e" kind="function"><name>SetOfferRedeemDetails</name></member>
-    <member refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder_1a506361a9735bcaf998e4d9e218b45cd0" kind="function"><name>SetPreviousProductIdentifier</name></member>
+    <member refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder_1a4ae8810b9b54e13001a3ceedb3491faa" kind="function"><name>SetProductToModify</name></member>
     <member refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder_1a1f68c88a05351e965f4fd875e11f0e2f" kind="function"><name>Build</name></member>
   </compound>
   <compound refid="db/d2b/class_voxel_busters_1_1_essential_kit_1_1_prompt_update_options_1_1_builder" kind="class"><name>VoxelBusters::EssentialKit::PromptUpdateOptions::Builder</name>
@@ -847,7 +847,7 @@
     <member refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1a121d9cb485fa9e23380cb8c883e46c9c" kind="property"><name>Tag</name></member>
     <member refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1a8081d8fb9d8f51e49f80d612438324cf" kind="property"><name>Quantity</name></member>
     <member refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1ade4f0560573c6ae75e951b37819c247f" kind="property"><name>OfferRedeemDetails</name></member>
-    <member refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1a2e25e2b429f32c9fe649ed085bc09a2d" kind="property"><name>PreviousProductIdentifier</name></member>
+    <member refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1ae7cb9b01ea286eae519402b2b4a5df72" kind="property"><name>ProductToModify</name></member>
     <member refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1ae1357dcaaf0d06cd305e9cf7830d177a" kind="function"><name>BuyProductOptions</name></member>
     <member refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1aa73e7c4dd1df5fd5fbf81c7764ee1533" kind="function"><name>ToString</name></member>
   </compound>
@@ -1155,6 +1155,10 @@
     <member refid="db/d5e/class_voxel_busters_1_1_core_library_1_1_default_value_attribute_1a6757d87586f0a344bb45bbeb979e5b4c" kind="function"><name>DefaultValueAttribute</name></member>
     <member refid="db/d5e/class_voxel_busters_1_1_core_library_1_1_default_value_attribute_1a66149a7c8d24a09b29dd7f20d68e51eb" kind="function"><name>GetValue&lt; T &gt;</name></member>
     <member refid="db/d5e/class_voxel_busters_1_1_core_library_1_1_default_value_attribute_1afa2b26132e19422569dc3bffa6b8ee20" kind="function"><name>GetValue</name></member>
+  </compound>
+  <compound refid="d6/dfc/class_voxel_busters_1_1_core_library_1_1_editor_only_object" kind="class"><name>VoxelBusters::CoreLibrary::EditorOnlyObject</name>
+    <member refid="d6/dfc/class_voxel_busters_1_1_core_library_1_1_editor_only_object_1a8eadfea44c98b370f1cfc2d01010e312" kind="variable"><name>m_allowInEditorRuntime</name></member>
+    <member refid="d6/dfc/class_voxel_busters_1_1_core_library_1_1_editor_only_object_1ae4b513cddd594f1c359e4f0a3e79a8c6" kind="function"><name>Awake</name></member>
   </compound>
   <compound refid="d5/d14/class_voxel_busters_1_1_core_library_1_1_enum_mask_field_attribute" kind="class"><name>VoxelBusters::CoreLibrary::EnumMaskFieldAttribute</name>
     <member refid="d5/d14/class_voxel_busters_1_1_core_library_1_1_enum_mask_field_attribute_1ae02a1261ac662f120ccbede181eddf88" kind="property"><name>EnumType</name></member>
@@ -3635,6 +3639,9 @@
     <member refid="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine_1a03ac3f3c0bf24d6c133add5bbcb2d857" kind="function"><name>WaitUntilAndInvokeInternal</name></member>
     <member refid="d5/d4c/class_voxel_busters_1_1_core_library_1_1_surrogate_coroutine_1a96781e48cc095ee08c1b781bc07610ca" kind="function"><name>InvokeInternal</name></member>
   </compound>
+  <compound refid="d2/dad/class_voxel_busters_1_1_essential_kit_1_1_sync_on_app_events" kind="class"><name>VoxelBusters::EssentialKit::SyncOnAppEvents</name>
+    <member refid="d2/dad/class_voxel_busters_1_1_essential_kit_1_1_sync_on_app_events_1ac4a3eb5aad5ee0c1e0f01fbd9cf05ad7" kind="function"><name>OnApplicationPause</name></member>
+  </compound>
   <compound refid="de/d10/class_voxel_busters_1_1_core_library_1_1_system_assembly_name" kind="class"><name>VoxelBusters::CoreLibrary::SystemAssemblyName</name>
     <member refid="de/d10/class_voxel_busters_1_1_core_library_1_1_system_assembly_name_1a7bef47cdce3631b700cb4d27e5a2b9ce" kind="variable"><name>kCSharpFirstPass</name></member>
     <member refid="de/d10/class_voxel_busters_1_1_core_library_1_1_system_assembly_name_1a54d3b2a221988750eb1b25fa36c981bb" kind="variable"><name>kCSharp</name></member>
@@ -4452,6 +4459,8 @@
     <member refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a67258e35735836517152f688bd5a5b43" kind="function"><name>CompletionCallback</name></member>
     <member refid="d7/d45/namespace_voxel_busters_1_1_core_library_1aadab12fda25059270c8586a88740ef21" kind="function"><name>CompletionCallback&lt; TResult &gt;</name></member>
     <member refid="d7/d45/namespace_voxel_busters_1_1_core_library_1a96bb32eccace4a42161521d5d6b6d478" kind="function"><name>EventCallback&lt; TResult &gt;</name></member>
+  </compound>
+  <compound refid="d6/ddf/_editor_only_object_8cs" kind="file"><name>EditorOnlyObject.cs</name>
   </compound>
   <compound refid="dc/deb/_editor_scheduler_8cs" kind="file"><name>EditorScheduler.cs</name>
   </compound>

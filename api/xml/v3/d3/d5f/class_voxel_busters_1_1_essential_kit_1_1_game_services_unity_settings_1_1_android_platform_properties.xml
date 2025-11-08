@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="18" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="18" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="24" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1a4d88a785a7688e1c116a3bc59efb9dc3" prot="private" static="no" mutable="no">
         <type>string</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="23" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="23" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="29" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1ac8b619f06f976b03958de183b076569c" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="33" column="26" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="33" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="39" column="26" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1aebf33c773bc25be1417354717fd437d9" prot="private" static="no" mutable="no">
         <type>string[]</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="36" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="36" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="42" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1adaf882b193440cf2f6800fffce64ea24" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="41" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="41" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="47" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1afbd927349326e53a042ea41c70260673" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="45" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="45" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="51" column="37" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="51" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="property">
@@ -105,7 +105,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="51" column="27" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="51" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="57" column="27" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="57" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1af68359927bd3ed9e9e4a8c2aed60dd88" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -119,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="53" column="27" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="53" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="59" column="27" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1a4a129b23313dc7009597b029e0402f9d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>string[]</type>
@@ -133,7 +133,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="55" column="27" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="55" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="61" column="27" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="61" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1a2d3d7559b1d06de57acdab0496425d17" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>bool</type>
@@ -147,7 +147,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="57" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="57" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="63" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="63" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1ad09a3436e8d7807a6dbcc42c4b11b911" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>bool</type>
@@ -161,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="59" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="59" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="65" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="65" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1a9cfa579a41425b1e7ebb7e8a9a048c4f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>bool</type>
@@ -175,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="61" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="61" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="67" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="67" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -221,14 +221,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="67" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="67" bodyend="81"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="73" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="73" bodyend="87"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Represents the android platform properties. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="12" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="13" bodyend="84"/>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" line="18" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/GameServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="19" bodyend="90"/>
     <listofallmembers>
       <member refid="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1a4a129b23313dc7009597b029e0402f9d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesUnitySettings::AndroidPlatformProperties</scope><name>AchievedDescriptionFormats</name></member>
       <member refid="d3/d5f/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings_1_1_android_platform_properties_1a69d1423f33546c732cc6a1e9127201c9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::GameServicesUnitySettings::AndroidPlatformProperties</scope><name>AndroidPlatformProperties</name></member>

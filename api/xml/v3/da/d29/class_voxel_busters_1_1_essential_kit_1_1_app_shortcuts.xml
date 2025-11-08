@@ -21,7 +21,7 @@
     </sectiondef>
     <sectiondef kind="property">
       <memberdef kind="property" id="da/d29/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_1a81e93c1d08cbfe82e69b4375d26b15fb" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
-        <type>AppShortcutsUnitySettings</type>
+        <type><ref refid="d5/dfe/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_unity_settings" kindref="compound">AppShortcutsUnitySettings</ref></type>
         <definition>AppShortcutsUnitySettings UnitySettings</definition>
         <argsstring></argsstring>
         <name>UnitySettings</name>
@@ -77,7 +77,7 @@
         <name>Initialize</name>
         <qualifiedname>VoxelBusters.EssentialKit.AppShortcuts.Initialize</qualifiedname>
         <param>
-          <type>AppShortcutsUnitySettings</type>
+          <type><ref refid="d5/dfe/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_unity_settings" kindref="compound">AppShortcutsUnitySettings</ref></type>
           <declname>settings</declname>
         </param>
         <briefdescription>

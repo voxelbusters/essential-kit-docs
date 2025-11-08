@@ -11,7 +11,7 @@
         <name>Initialize</name>
         <qualifiedname>VoxelBusters.EssentialKit.Utilities.Initialize</qualifiedname>
         <param>
-          <type>UtilityUnitySettings</type>
+          <type><ref refid="d2/de9/class_voxel_busters_1_1_essential_kit_1_1_utility_unity_settings" kindref="compound">UtilityUnitySettings</ref></type>
           <declname>settings</declname>
         </param>
         <briefdescription>

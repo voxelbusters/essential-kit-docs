@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.AndroidPlatformProperties.cs" line="18" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="18" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.AndroidPlatformProperties.cs" line="24" column="41" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="24" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="property">
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.AndroidPlatformProperties.cs" line="24" column="27" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="24" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.AndroidPlatformProperties.cs" line="30" column="27" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="30" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -52,14 +52,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.AndroidPlatformProperties.cs" line="30" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="30" bodyend="34"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.AndroidPlatformProperties.cs" line="36" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="36" bodyend="40"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Represents the android platform properties. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.AndroidPlatformProperties.cs" line="12" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="13" bodyend="37"/>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.AndroidPlatformProperties.cs" line="18" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/BillingServicesUnitySettings.AndroidPlatformProperties.cs" bodystart="19" bodyend="43"/>
     <listofallmembers>
       <member refid="d2/d98/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings_1_1_android_platform_properties_1a96cc03c2dedf6b963a6cc84afb31990b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesUnitySettings::AndroidPlatformProperties</scope><name>AndroidPlatformProperties</name></member>
       <member refid="d2/d98/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings_1_1_android_platform_properties_1a0fd41f35edc6334548c23bcdd3f3e2ce" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingServicesUnitySettings::AndroidPlatformProperties</scope><name>m_publicKey</name></member>

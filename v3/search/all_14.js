@@ -22,5 +22,6 @@ var searchData=
   ['usercancelled_19',['UserCancelled',['../da/d57/namespace_voxel_busters_1_1_essential_kit.html#ad689e316267138fbec06db351c0d1903abbfe96b896eba6b2bff34fcf6b1086c6',1,'VoxelBusters.EssentialKit.UserCancelled'],['../da/d57/namespace_voxel_busters_1_1_essential_kit.html#a1a3e5a0c340fc0e4bd71017609f0678dabbfe96b896eba6b2bff34fcf6b1086c6',1,'VoxelBusters.EssentialKit.UserCancelled']]],
   ['userid_20',['UserId',['../d5/d14/interface_voxel_busters_1_1_essential_kit_1_1_i_cloud_user.html#abc7e824d07fb4b7efdef6498d7c99e63',1,'VoxelBusters::EssentialKit::ICloudUser']]],
   ['userinfo_21',['UserInfo',['../d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification.html#afe57e84d9a5251e7f2146537692c4e11',1,'VoxelBusters::EssentialKit::INotification']]],
-  ['utilities_22',['Utilities',['../d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities.html',1,'Utilities'],['../db/deb/group___utilities.html',1,'Utilities']]]
+  ['utilities_22',['Utilities',['../d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities.html',1,'Utilities'],['../db/deb/group___utilities.html',1,'Utilities']]],
+  ['utilityunitysettings_23',['UtilityUnitySettings',['../d2/de9/class_voxel_busters_1_1_essential_kit_1_1_utility_unity_settings.html',1,'VoxelBusters::EssentialKit']]]
 ];

@@ -19,7 +19,7 @@
         <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppPresenter.cs" line="12" column="65" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyAppPresenter.cs" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d1/dc9/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_presenter_1a2b984e89cfa9ad4f435f269197cf1f3f" prot="private" static="no" mutable="no">
-        <type>RateMyAppConfirmationDialogSettings</type>
+        <type><ref refid="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings" kindref="compound">RateMyAppConfirmationDialogSettings</ref></type>
         <definition>RateMyAppConfirmationDialogSettings m_confirmationDialogSettings</definition>
         <argsstring></argsstring>
         <name>m_confirmationDialogSettings</name>
@@ -90,7 +90,7 @@
           <declname>storeId</declname>
         </param>
         <param>
-          <type>RateMyAppConfirmationDialogSettings</type>
+          <type><ref refid="d9/dc5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_confirmation_dialog_settings" kindref="compound">RateMyAppConfirmationDialogSettings</ref></type>
           <declname>settings</declname>
         </param>
         <param>

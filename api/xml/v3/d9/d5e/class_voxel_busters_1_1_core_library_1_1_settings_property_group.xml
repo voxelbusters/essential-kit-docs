@@ -104,14 +104,80 @@
         </childnode>
       </node>
       <node id="3">
+        <label>AppShortcutsUnitySettings</label>
+        <link refid="d5/dfe/class_voxel_busters_1_1_essential_kit_1_1_app_shortcuts_unity_settings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>AppUpdaterUnitySettings</label>
+        <link refid="de/d6c/class_voxel_busters_1_1_essential_kit_1_1_app_updater_unity_settings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
         <label>BillingServicesUnitySettings</label>
         <link refid="d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="4">
+      <node id="6">
+        <label>CloudServicesUnitySettings</label>
+        <link refid="db/d80/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>DeepLinkServicesUnitySettings</label>
+        <link refid="da/d12/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
         <label>GameServicesUnitySettings</label>
         <link refid="d7/dee/class_voxel_busters_1_1_essential_kit_1_1_game_services_unity_settings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MediaServicesUnitySettings</label>
+        <link refid="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>NotificationServicesUnitySettings</label>
+        <link refid="d2/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>RateMyAppUnitySettings</label>
+        <link refid="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>SharingServicesUnitySettings</label>
+        <link refid="d4/d57/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_unity_settings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>TaskServicesUnitySettings</label>
+        <link refid="d8/d4f/class_voxel_busters_1_1_essential_kit_1_1_task_services_unity_settings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>UtilityUnitySettings</label>
+        <link refid="d2/de9/class_voxel_busters_1_1_essential_kit_1_1_utility_unity_settings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>WebViewUnitySettings</label>
+        <link refid="dd/d25/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>

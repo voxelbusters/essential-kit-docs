@@ -3,6 +3,7 @@
   <compounddef id="d7/db8/_cloud_services_8cs" kind="file" language="C#">
     <compoundname>CloudServices.cs</compoundname>
     <innerclass refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services" prot="public">VoxelBusters::EssentialKit::CloudServices</innerclass>
+    <innerclass refid="d2/dad/class_voxel_busters_1_1_essential_kit_1_1_sync_on_app_events" prot="package">VoxelBusters::EssentialKit::SyncOnAppEvents</innerclass>
     <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
     <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
     <briefdescription>

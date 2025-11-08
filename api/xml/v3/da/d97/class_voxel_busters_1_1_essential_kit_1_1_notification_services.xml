@@ -11,7 +11,7 @@
         <name>Initialize</name>
         <qualifiedname>VoxelBusters.EssentialKit.NotificationServices.Initialize</qualifiedname>
         <param>
-          <type>NotificationServicesUnitySettings</type>
+          <type><ref refid="d2/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings" kindref="compound">NotificationServicesUnitySettings</ref></type>
           <declname>settings</declname>
         </param>
         <briefdescription>
@@ -59,7 +59,7 @@
     </sectiondef>
     <sectiondef kind="property">
       <memberdef kind="property" id="da/d97/class_voxel_busters_1_1_essential_kit_1_1_notification_services_1ac1be37575b0f6023cd81a9a9fd486cba" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
-        <type>NotificationServicesUnitySettings</type>
+        <type><ref refid="d2/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings" kindref="compound">NotificationServicesUnitySettings</ref></type>
         <definition>NotificationServicesUnitySettings UnitySettings</definition>
         <argsstring></argsstring>
         <name>UnitySettings</name>

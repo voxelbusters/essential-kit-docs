@@ -21,7 +21,7 @@
     </sectiondef>
     <sectiondef kind="property">
       <memberdef kind="property" id="dd/dce/class_voxel_busters_1_1_essential_kit_1_1_task_services_1aceef8b42d26132cf98e2afea13bc41c4" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
-        <type>TaskServicesUnitySettings</type>
+        <type><ref refid="d8/d4f/class_voxel_busters_1_1_essential_kit_1_1_task_services_unity_settings" kindref="compound">TaskServicesUnitySettings</ref></type>
         <definition>TaskServicesUnitySettings UnitySettings</definition>
         <argsstring></argsstring>
         <name>UnitySettings</name>
@@ -59,7 +59,7 @@
         <name>Initialize</name>
         <qualifiedname>VoxelBusters.EssentialKit.TaskServices.Initialize</qualifiedname>
         <param>
-          <type>TaskServicesUnitySettings</type>
+          <type><ref refid="d8/d4f/class_voxel_busters_1_1_essential_kit_1_1_task_services_unity_settings" kindref="compound">TaskServicesUnitySettings</ref></type>
           <declname>settings</declname>
         </param>
         <briefdescription>

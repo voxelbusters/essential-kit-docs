@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" line="16" column="53" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" bodystart="16" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" line="19" column="53" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1a140d44b1e0e5e991fa31f41b2bd1260f" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" line="21" column="53" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" bodystart="21" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" line="24" column="53" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1aadea1935c616c7be39b36c194fb417d5" prot="private" static="no" mutable="no">
         <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a21971c82011b915a93363b6d01ce323f" kindref="member">PushNotificationServiceType</ref></type>
@@ -45,10 +45,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" line="25" column="53" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" bodystart="25" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" line="28" column="53" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1a336579bd5fe8d5a6c406adea5f33d141" prot="private" static="no" mutable="no">
-        <type>AndroidPlatformProperties</type>
+        <type><ref refid="d7/db9/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties" kindref="compound">AndroidPlatformProperties</ref></type>
         <definition>AndroidPlatformProperties m_androidProperties</definition>
         <argsstring></argsstring>
         <name>m_androidProperties</name>
@@ -59,7 +59,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" line="29" column="53" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" bodystart="29" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" line="32" column="53" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" bodystart="32" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="property">
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" line="35" column="48" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" bodystart="35" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" line="38" column="48" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="d2/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1a23fe33f78e2a20f77433574f4e754fdb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>bool</type>
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" line="37" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" bodystart="37" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" line="40" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="d2/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1a0d660f524d10fd679850f503f690c73c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a21971c82011b915a93363b6d01ce323f" kindref="member">PushNotificationServiceType</ref></type>
@@ -103,10 +103,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" line="39" column="44" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" bodystart="39" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" line="42" column="44" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="d2/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1a43ee530d504628390660ed6ec9f35a11" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>AndroidPlatformProperties</type>
+        <type><ref refid="d7/db9/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties" kindref="compound">AndroidPlatformProperties</ref></type>
         <definition>AndroidPlatformProperties AndroidProperties</definition>
         <argsstring></argsstring>
         <name>AndroidProperties</name>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" line="41" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" bodystart="41" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" line="44" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" bodystart="44" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -148,7 +148,7 @@
           <defval><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1a21971c82011b915a93363b6d01ce323fa90589c47f06eb971d548591f23c285af" kindref="member">PushNotificationServiceType.Custom</ref></defval>
         </param>
         <param>
-          <type>AndroidPlatformProperties</type>
+          <type><ref refid="d7/db9/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1_1_android_platform_properties" kindref="compound">AndroidPlatformProperties</ref></type>
           <declname>androidProperties</declname>
           <defval>null</defval>
         </param>
@@ -158,14 +158,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" line="47" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" bodystart="47" bodyend="57"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" line="50" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" bodystart="50" bodyend="60"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Represents the notification services unity settings. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" line="10" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" bodystart="11" bodyend="60"/>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.AndroidPlatformProperties.cs" line="13" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/NotificationServicesUnitySettings.cs" bodystart="14" bodyend="63"/>
     <listofallmembers>
       <member refid="d2/d28/class_voxel_busters_1_1_essential_kit_1_1_notification_services_unity_settings_1a43ee530d504628390660ed6ec9f35a11" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesUnitySettings</scope><name>AndroidProperties</name></member>
       <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1a45f8df3acbb2721c2df8462f1cd8f14b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::NotificationServicesUnitySettings</scope><name>IsEnabled</name></member>

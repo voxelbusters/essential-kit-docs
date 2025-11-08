@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionAndroidProperties.cs" line="14" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionAndroidProperties.cs" bodystart="14" bodyend="14"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionAndroidProperties.cs" line="17" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionAndroidProperties.cs" bodystart="17" bodyend="17"/>
       </memberdef>
       <memberdef kind="property" id="d0/d9d/class_voxel_busters_1_1_essential_kit_1_1_billing_transaction_android_properties_1ab1a27bc669d041fe23ec05792737849f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
         <type>string</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionAndroidProperties.cs" line="19" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionAndroidProperties.cs" bodystart="19" bodyend="19"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionAndroidProperties.cs" line="22" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionAndroidProperties.cs" bodystart="22" bodyend="22"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -55,14 +55,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionAndroidProperties.cs" line="25" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionAndroidProperties.cs" bodystart="25" bodyend="30"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionAndroidProperties.cs" line="28" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionAndroidProperties.cs" bodystart="28" bodyend="33"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Represents the billing transaction android properties. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionAndroidProperties.cs" line="7" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionAndroidProperties.cs" bodystart="8" bodyend="33"/>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionAndroidProperties.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BillingTransactionAndroidProperties.cs" bodystart="11" bodyend="36"/>
     <listofallmembers>
       <member refid="d0/d9d/class_voxel_busters_1_1_essential_kit_1_1_billing_transaction_android_properties_1a708023a45b042f41ce49a499769fa701" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingTransactionAndroidProperties</scope><name>BillingTransactionAndroidProperties</name></member>
       <member refid="d0/d9d/class_voxel_busters_1_1_essential_kit_1_1_billing_transaction_android_properties_1acc1f79ea1e0e28dfd4fadd55ec9f4179" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BillingTransactionAndroidProperties</scope><name>PurchaseData</name></member>

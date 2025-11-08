@@ -11,7 +11,7 @@
         <name>Initialize</name>
         <qualifiedname>VoxelBusters.EssentialKit.NetworkServices.Initialize</qualifiedname>
         <param>
-          <type>NetworkServicesUnitySettings</type>
+          <type><ref refid="db/d83/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings" kindref="compound">NetworkServicesUnitySettings</ref></type>
           <declname>settings</declname>
         </param>
         <briefdescription>
@@ -59,7 +59,7 @@
     </sectiondef>
     <sectiondef kind="property">
       <memberdef kind="property" id="dd/d14/class_voxel_busters_1_1_essential_kit_1_1_network_services_1af756af60458aeef04f172d2e539e731b" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
-        <type>NetworkServicesUnitySettings</type>
+        <type><ref refid="db/d83/class_voxel_busters_1_1_essential_kit_1_1_network_services_unity_settings" kindref="compound">NetworkServicesUnitySettings</ref></type>
         <definition>NetworkServicesUnitySettings UnitySettings</definition>
         <argsstring></argsstring>
         <name>UnitySettings</name>

@@ -342,7 +342,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="131" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="131" bodyend="135"/>
-        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1adc998578d58aa52f2f5efeaec6a380ba" compoundref="d7/db8/_cloud_services_8cs" startline="302" endline="323">CloudServices.SetBool</referencedby>
+        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1adc998578d58aa52f2f5efeaec6a380ba" compoundref="d7/db8/_cloud_services_8cs" startline="309" endline="330">CloudServices.SetBool</referencedby>
       </memberdef>
       <memberdef kind="function" id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1aff2f1d4f2369beb352f837d378ae2a08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -384,7 +384,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="142" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="142" bodyend="146"/>
-        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a840eededc0c7294ed04208fec769899a" compoundref="d7/db8/_cloud_services_8cs" startline="340" endline="361">CloudServices.SetLong</referencedby>
+        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a840eededc0c7294ed04208fec769899a" compoundref="d7/db8/_cloud_services_8cs" startline="347" endline="368">CloudServices.SetLong</referencedby>
       </memberdef>
       <memberdef kind="function" id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1adb6dd48bd289e834844e12f2ca1eac0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -426,7 +426,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="153" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="153" bodyend="157"/>
-        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1aaac6f2b336bf35521015142d0404cb24" compoundref="d7/db8/_cloud_services_8cs" startline="378" endline="399">CloudServices.SetDouble</referencedby>
+        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1aaac6f2b336bf35521015142d0404cb24" compoundref="d7/db8/_cloud_services_8cs" startline="385" endline="406">CloudServices.SetDouble</referencedby>
       </memberdef>
       <memberdef kind="function" id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1ae870ef904ae29e7b220d7fbadff193ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -468,7 +468,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="164" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="164" bodyend="168"/>
-        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1af42da4722e4c7718d43080ba3edb766e" compoundref="d7/db8/_cloud_services_8cs" startline="406" endline="427">CloudServices.SetString</referencedby>
+        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1af42da4722e4c7718d43080ba3edb766e" compoundref="d7/db8/_cloud_services_8cs" startline="413" endline="434">CloudServices.SetString</referencedby>
       </memberdef>
       <memberdef kind="function" id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a1e35ec08d87e62f189c57f0c12fe1183" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -510,7 +510,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="175" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="175" bodyend="179"/>
-        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1aa88933e605d3cd67ec143e2bdcfa4ba6" compoundref="d7/db8/_cloud_services_8cs" startline="434" endline="455">CloudServices.SetByteArray</referencedby>
+        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1aa88933e605d3cd67ec143e2bdcfa4ba6" compoundref="d7/db8/_cloud_services_8cs" startline="441" endline="462">CloudServices.SetByteArray</referencedby>
       </memberdef>
       <memberdef kind="function" id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a9ca5b99b3550503ca7bad8418e133156" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -529,7 +529,7 @@
         <references refid="d4/db5/class_voxel_busters_1_1_core_library_1_1_external_service_provider_1a6413c11580b05eb4401cf1ea0243e8e6" compoundref="d3/d2c/_external_service_provider_8cs" startline="29" endline="42">ExternalServiceProvider.JsonServiceProvider</references>
         <references refid="d4/d8a/interface_voxel_busters_1_1_core_library_1_1_i_json_service_provider_1a5d91d552f664a8f18abc224121eaae4f">IJsonServiceProvider.ToJson</references>
         <referencedby refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1aa71d36872f416feaa853788a7a7a7ef8" compoundref="db/dc3/_key_value_data_store_8cs" startline="197" endline="201">KeyValueDataStore.Clear</referencedby>
-        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1ac5fdc0063f43a370213502f228a36fde" compoundref="d7/db8/_cloud_services_8cs" startline="472" endline="492">CloudServices.Synchronize</referencedby>
+        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1ac5fdc0063f43a370213502f228a36fde" compoundref="d7/db8/_cloud_services_8cs" startline="479" endline="499">CloudServices.Synchronize</referencedby>
       </memberdef>
       <memberdef kind="function" id="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1aa71d36872f416feaa853788a7a7a7ef8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -575,7 +575,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" line="207" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/DataModels/KeyValueDataStore.cs" bodystart="207" bodyend="210"/>
-        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1aa4bddd4e8a729aff19d716519e416364" compoundref="d7/db8/_cloud_services_8cs" startline="502" endline="519">CloudServices.RemoveKey</referencedby>
+        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1aa4bddd4e8a729aff19d716519e416364" compoundref="d7/db8/_cloud_services_8cs" startline="509" endline="526">CloudServices.RemoveKey</referencedby>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">

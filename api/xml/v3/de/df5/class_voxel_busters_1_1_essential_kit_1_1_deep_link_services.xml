@@ -11,7 +11,7 @@
         <name>Initialize</name>
         <qualifiedname>VoxelBusters.EssentialKit.DeepLinkServices.Initialize</qualifiedname>
         <param>
-          <type>DeepLinkServicesUnitySettings</type>
+          <type><ref refid="da/d12/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings" kindref="compound">DeepLinkServicesUnitySettings</ref></type>
           <declname>settings</declname>
         </param>
         <briefdescription>
@@ -55,7 +55,7 @@
     </sectiondef>
     <sectiondef kind="property">
       <memberdef kind="property" id="de/df5/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_1a3ef610891056994ebe09c0f74d65e7e4" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
-        <type>DeepLinkServicesUnitySettings</type>
+        <type><ref refid="da/d12/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings" kindref="compound">DeepLinkServicesUnitySettings</ref></type>
         <definition>DeepLinkServicesUnitySettings UnitySettings</definition>
         <argsstring></argsstring>
         <name>UnitySettings</name>

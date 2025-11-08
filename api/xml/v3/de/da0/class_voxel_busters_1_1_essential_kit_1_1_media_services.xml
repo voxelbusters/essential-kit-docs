@@ -11,7 +11,7 @@
         <name>Initialize</name>
         <qualifiedname>VoxelBusters.EssentialKit.MediaServices.Initialize</qualifiedname>
         <param>
-          <type>MediaServicesUnitySettings</type>
+          <type><ref refid="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings" kindref="compound">MediaServicesUnitySettings</ref></type>
           <declname>settings</declname>
         </param>
         <briefdescription>
@@ -56,7 +56,7 @@
     </sectiondef>
     <sectiondef kind="property">
       <memberdef kind="property" id="de/da0/class_voxel_busters_1_1_essential_kit_1_1_media_services_1aca4118e0b4be45b4d263d95791ee8a61" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
-        <type>MediaServicesUnitySettings</type>
+        <type><ref refid="df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings" kindref="compound">MediaServicesUnitySettings</ref></type>
         <definition>MediaServicesUnitySettings UnitySettings</definition>
         <argsstring></argsstring>
         <name>UnitySettings</name>

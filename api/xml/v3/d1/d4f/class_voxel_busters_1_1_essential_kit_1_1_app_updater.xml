@@ -21,7 +21,7 @@
     </sectiondef>
     <sectiondef kind="property">
       <memberdef kind="property" id="d1/d4f/class_voxel_busters_1_1_essential_kit_1_1_app_updater_1a28095fb157c01b2bdf56906f845387af" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
-        <type>AppUpdaterUnitySettings</type>
+        <type><ref refid="de/d6c/class_voxel_busters_1_1_essential_kit_1_1_app_updater_unity_settings" kindref="compound">AppUpdaterUnitySettings</ref></type>
         <definition>AppUpdaterUnitySettings UnitySettings</definition>
         <argsstring></argsstring>
         <name>UnitySettings</name>
@@ -57,7 +57,7 @@
         <name>Initialize</name>
         <qualifiedname>VoxelBusters.EssentialKit.AppUpdater.Initialize</qualifiedname>
         <param>
-          <type>AppUpdaterUnitySettings</type>
+          <type><ref refid="de/d6c/class_voxel_busters_1_1_essential_kit_1_1_app_updater_unity_settings" kindref="compound">AppUpdaterUnitySettings</ref></type>
           <declname>settings</declname>
         </param>
         <briefdescription>

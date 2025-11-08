@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppUpdaterUnitySettings.cs" line="14" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppUpdaterUnitySettings.cs" bodystart="14" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppUpdaterUnitySettings.cs" line="17" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppUpdaterUnitySettings.cs" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/d6c/class_voxel_busters_1_1_essential_kit_1_1_app_updater_unity_settings_1a6f47bb8d3008bd611a81033757135db7" prot="private" static="no" mutable="no">
         <type>string</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppUpdaterUnitySettings.cs" line="18" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppUpdaterUnitySettings.cs" bodystart="18" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppUpdaterUnitySettings.cs" line="21" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppUpdaterUnitySettings.cs" bodystart="21" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="property">
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppUpdaterUnitySettings.cs" line="24" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppUpdaterUnitySettings.cs" bodystart="24" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppUpdaterUnitySettings.cs" line="27" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppUpdaterUnitySettings.cs" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="de/d6c/class_voxel_busters_1_1_essential_kit_1_1_app_updater_unity_settings_1a7339ee908da08f5c92907e10f590cfd9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppUpdaterUnitySettings.cs" line="25" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppUpdaterUnitySettings.cs" bodystart="25" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppUpdaterUnitySettings.cs" line="28" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppUpdaterUnitySettings.cs" bodystart="28" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -93,14 +93,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppUpdaterUnitySettings.cs" line="31" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppUpdaterUnitySettings.cs" bodystart="31" bodyend="37"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppUpdaterUnitySettings.cs" line="34" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppUpdaterUnitySettings.cs" bodystart="34" bodyend="40"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Represents the app updater unity settings. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppUpdaterUnitySettings.cs" line="8" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppUpdaterUnitySettings.cs" bodystart="9" bodyend="40"/>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppUpdaterUnitySettings.cs" line="11" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/AppUpdaterUnitySettings.cs" bodystart="12" bodyend="43"/>
     <listofallmembers>
       <member refid="de/d6c/class_voxel_busters_1_1_essential_kit_1_1_app_updater_unity_settings_1af49759a2e56a600f16eb5d92b3e99374" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppUpdaterUnitySettings</scope><name>AppUpdaterUnitySettings</name></member>
       <member refid="de/d6c/class_voxel_busters_1_1_essential_kit_1_1_app_updater_unity_settings_1a7339ee908da08f5c92907e10f590cfd9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AppUpdaterUnitySettings</scope><name>DefaultPromptMessage</name></member>

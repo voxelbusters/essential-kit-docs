@@ -61,7 +61,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" line="54" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" bodystart="54" bodyend="54"/>
-        <referencedby refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder_1a1f68c88a05351e965f4fd875e11f0e2f" compoundref="de/d8f/_buy_product_options_8cs" startline="163" endline="172">BuyProductOptions.Builder.Build</referencedby>
+        <referencedby refid="d3/db9/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1_1_builder_1a1f68c88a05351e965f4fd875e11f0e2f" compoundref="de/d8f/_buy_product_options_8cs" startline="164" endline="173">BuyProductOptions.Builder.Build</referencedby>
       </memberdef>
       <memberdef kind="property" id="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1ade4f0560573c6ae75e951b37819c247f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
         <type><ref refid="d6/ddd/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details" kindref="compound">BillingProductOfferRedeemDetails</ref></type>
@@ -81,21 +81,21 @@
         </inbodydescription>
         <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" line="63" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" bodystart="63" bodyend="63"/>
       </memberdef>
-      <memberdef kind="property" id="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1a2e25e2b429f32c9fe649ed085bc09a2d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
-        <type>string</type>
-        <definition>string PreviousProductIdentifier</definition>
+      <memberdef kind="property" id="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1ae7cb9b01ea286eae519402b2b4a5df72" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product" kindref="compound">IBillingProduct</ref></type>
+        <definition>IBillingProduct ProductToModify</definition>
         <argsstring></argsstring>
-        <name>PreviousProductIdentifier</name>
-        <qualifiedname>VoxelBusters.EssentialKit.BuyProductOptions.PreviousProductIdentifier</qualifiedname>
+        <name>ProductToModify</name>
+        <qualifiedname>VoxelBusters.EssentialKit.BuyProductOptions.ProductToModify</qualifiedname>
         <briefdescription>
-<para>Gets or sets the product identifier to upgrade or downgrade from. </para>
+<para>Gets the product to upgrade or downgrade from. </para>
         </briefdescription>
         <detaileddescription>
-<para>The product identifier to upgrade or downgrade from. Default value is <computeroutput>null</computeroutput>.</para>
+<para>The product to upgrade or downgrade from. Default value is <computeroutput>null</computeroutput>.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" line="69" column="23" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" bodystart="69" bodyend="69"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" line="69" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" bodystart="69" bodyend="69"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -146,12 +146,12 @@
 <codeline><highlight class="normal"><sp/><sp/><sp/><sp/>.Build();</highlight></codeline>
 </programlisting> </para>
     </detaileddescription>
-    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" line="27" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" bodystart="28" bodyend="175"/>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" line="27" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/BuyProductOptions.cs" bodystart="28" bodyend="176"/>
     <listofallmembers>
       <member refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1ae1357dcaaf0d06cd305e9cf7830d177a" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BuyProductOptions</scope><name>BuyProductOptions</name></member>
       <member refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1a338e297ce7daa88c4ab465a097c3928e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BuyProductOptions</scope><name>Default</name></member>
       <member refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1ade4f0560573c6ae75e951b37819c247f" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BuyProductOptions</scope><name>OfferRedeemDetails</name></member>
-      <member refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1a2e25e2b429f32c9fe649ed085bc09a2d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BuyProductOptions</scope><name>PreviousProductIdentifier</name></member>
+      <member refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1ae7cb9b01ea286eae519402b2b4a5df72" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BuyProductOptions</scope><name>ProductToModify</name></member>
       <member refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1a8081d8fb9d8f51e49f80d612438324cf" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BuyProductOptions</scope><name>Quantity</name></member>
       <member refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1a121d9cb485fa9e23380cb8c883e46c9c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BuyProductOptions</scope><name>Tag</name></member>
       <member refid="d1/d9e/class_voxel_busters_1_1_essential_kit_1_1_buy_product_options_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::BuyProductOptions</scope><name>ToString</name></member>

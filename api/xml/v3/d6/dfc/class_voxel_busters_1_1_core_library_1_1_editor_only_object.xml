@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d6/dfc/class_voxel_busters_1_1_core_library_1_1_editor_only_object" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::CoreLibrary::EditorOnlyObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d6/dfc/class_voxel_busters_1_1_core_library_1_1_editor_only_object_1a8eadfea44c98b370f1cfc2d01010e312" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_allowInEditorRuntime</definition>
+        <argsstring></argsstring>
+        <name>m_allowInEditorRuntime</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.EditorOnlyObject.m_allowInEditorRuntime</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/EditorOnlyObject.cs" line="11" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/EditorOnlyObject.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d6/dfc/class_voxel_busters_1_1_core_library_1_1_editor_only_object_1ae4b513cddd594f1c359e4f0a3e79a8c6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>VoxelBusters.CoreLibrary.EditorOnlyObject.Awake</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/EditorOnlyObject.cs" line="13" column="14" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/EditorOnlyObject.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class is used to hide objects at runtime and show them only in the editor. As EditorOnly tag doesn&apos;t work for objects created at runtime, this class will be used. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/EditorOnlyObject.cs" line="8" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/CoreLibrary/Runtime/CoreLibrary/Components/EditorOnlyObject.cs" bodystart="9" bodyend="22"/>
+    <listofallmembers>
+      <member refid="d6/dfc/class_voxel_busters_1_1_core_library_1_1_editor_only_object_1ae4b513cddd594f1c359e4f0a3e79a8c6" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::EditorOnlyObject</scope><name>Awake</name></member>
+      <member refid="d6/dfc/class_voxel_busters_1_1_core_library_1_1_editor_only_object_1a8eadfea44c98b370f1cfc2d01010e312" prot="private" virt="non-virtual"><scope>VoxelBusters::CoreLibrary::EditorOnlyObject</scope><name>m_allowInEditorRuntime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

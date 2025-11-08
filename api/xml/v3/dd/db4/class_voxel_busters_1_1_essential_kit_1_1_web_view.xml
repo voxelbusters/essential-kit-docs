@@ -124,7 +124,7 @@
         <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebView.cs" line="129" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebView.cs" bodystart="129" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/db4/class_voxel_busters_1_1_essential_kit_1_1_web_view_1a69ef15b111fc3a0b3ee6fbe5212949f5" prot="private" static="no" mutable="no">
-        <type>WebViewUnitySettings</type>
+        <type><ref refid="dd/d25/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings" kindref="compound">WebViewUnitySettings</ref></type>
         <definition>WebViewUnitySettings m_settings</definition>
         <argsstring></argsstring>
         <name>m_settings</name>
@@ -140,7 +140,7 @@
     </sectiondef>
     <sectiondef kind="property">
       <memberdef kind="property" id="dd/db4/class_voxel_busters_1_1_essential_kit_1_1_web_view_1aadf26063446ee596892f20c05810d00d" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
-        <type>WebViewUnitySettings</type>
+        <type><ref refid="dd/d25/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings" kindref="compound">WebViewUnitySettings</ref></type>
         <definition>WebViewUnitySettings GlobalSettings</definition>
         <argsstring></argsstring>
         <name>GlobalSettings</name>
@@ -154,7 +154,7 @@
         <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebView.cs" line="136" column="44" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/WebView/WebView.cs" bodystart="136" bodyend="136"/>
       </memberdef>
       <memberdef kind="property" id="dd/db4/class_voxel_busters_1_1_essential_kit_1_1_web_view_1a504d9974a4497054163c99419a4daff1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>WebViewUnitySettings</type>
+        <type><ref refid="dd/d25/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings" kindref="compound">WebViewUnitySettings</ref></type>
         <definition>WebViewUnitySettings Settings</definition>
         <argsstring></argsstring>
         <name>Settings</name>
@@ -418,7 +418,7 @@
         <name>Initialize</name>
         <qualifiedname>VoxelBusters.EssentialKit.WebView.Initialize</qualifiedname>
         <param>
-          <type>WebViewUnitySettings</type>
+          <type><ref refid="dd/d25/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings" kindref="compound">WebViewUnitySettings</ref></type>
           <declname>globalSettings</declname>
         </param>
         <briefdescription>
@@ -436,7 +436,7 @@
         <name>CreateInstance</name>
         <qualifiedname>VoxelBusters.EssentialKit.WebView.CreateInstance</qualifiedname>
         <param>
-          <type>WebViewUnitySettings</type>
+          <type><ref refid="dd/d25/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings" kindref="compound">WebViewUnitySettings</ref></type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>

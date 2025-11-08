@@ -22,6 +22,7 @@
     <innerclass refid="d7/de8/class_voxel_busters_1_1_core_library_1_1_core_library_settings" prot="public">VoxelBusters::CoreLibrary::CoreLibrarySettings</innerclass>
     <innerclass refid="d9/dc2/class_voxel_busters_1_1_core_library_1_1_debug_logger" prot="public">VoxelBusters::CoreLibrary::DebugLogger</innerclass>
     <innerclass refid="db/d5e/class_voxel_busters_1_1_core_library_1_1_default_value_attribute" prot="public">VoxelBusters::CoreLibrary::DefaultValueAttribute</innerclass>
+    <innerclass refid="d6/dfc/class_voxel_busters_1_1_core_library_1_1_editor_only_object" prot="public">VoxelBusters::CoreLibrary::EditorOnlyObject</innerclass>
     <innerclass refid="d5/d14/class_voxel_busters_1_1_core_library_1_1_enum_mask_field_attribute" prot="public">VoxelBusters::CoreLibrary::EnumMaskFieldAttribute</innerclass>
     <innerclass refid="d7/dc0/class_voxel_busters_1_1_core_library_1_1_enum_utility" prot="public">VoxelBusters::CoreLibrary::EnumUtility</innerclass>
     <innerclass refid="da/d6b/class_voxel_busters_1_1_core_library_1_1_error" prot="public">VoxelBusters::CoreLibrary::Error</innerclass>

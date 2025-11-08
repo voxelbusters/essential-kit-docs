@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConstraints.cs" line="53" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConstraints.cs" bodystart="53" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConstraints.cs" line="59" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConstraints.cs" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d6/daa/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_constraints_1_1_prompt_constraints_1a4487727d79bb107e4ba015ab2c3010dc" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConstraints.cs" line="57" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConstraints.cs" bodystart="57" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConstraints.cs" line="63" column="33" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConstraints.cs" bodystart="63" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="property">
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConstraints.cs" line="60" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConstraints.cs" bodystart="60" bodyend="60"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConstraints.cs" line="66" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConstraints.cs" bodystart="66" bodyend="66"/>
       </memberdef>
       <memberdef kind="property" id="d6/daa/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_constraints_1_1_prompt_constraints_1a875d25aba9c0e447c81f57776a44efa0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>int</type>
@@ -59,7 +59,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConstraints.cs" line="62" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConstraints.cs" bodystart="62" bodyend="62"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConstraints.cs" line="68" column="24" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConstraints.cs" bodystart="68" bodyend="68"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -83,14 +83,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConstraints.cs" line="65" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConstraints.cs" bodystart="65" bodyend="70"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConstraints.cs" line="71" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConstraints.cs" bodystart="71" bodyend="76"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Represents the prompt constraints. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConstraints.cs" line="49" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConstraints.cs" bodystart="50" bodyend="71"/>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConstraints.cs" line="55" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/RateMyAppConstraints.cs" bodystart="56" bodyend="77"/>
     <listofallmembers>
       <member refid="d6/daa/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_constraints_1_1_prompt_constraints_1a5df20ad8947da33fd561ccc2057b3d1c" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppConstraints::PromptConstraints</scope><name>m_minHours</name></member>
       <member refid="d6/daa/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_constraints_1_1_prompt_constraints_1a4487727d79bb107e4ba015ab2c3010dc" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyAppConstraints::PromptConstraints</scope><name>m_minLaunches</name></member>

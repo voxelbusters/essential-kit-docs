@@ -21,14 +21,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/TaskServicesUnitySettings.cs" line="10" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/TaskServicesUnitySettings.cs" bodystart="10" bodyend="14"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/TaskServicesUnitySettings.cs" line="13" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/TaskServicesUnitySettings.cs" bodystart="13" bodyend="17"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Represents the task services unity settings. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/TaskServicesUnitySettings.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/TaskServicesUnitySettings.cs" bodystart="7" bodyend="17"/>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/TaskServicesUnitySettings.cs" line="9" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/TaskServicesUnitySettings.cs" bodystart="10" bodyend="20"/>
     <listofallmembers>
       <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1a45f8df3acbb2721c2df8462f1cd8f14b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::TaskServicesUnitySettings</scope><name>IsEnabled</name></member>
       <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1a7ee9065718e6628dc7791b756fa6c0f9" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::TaskServicesUnitySettings</scope><name>Name</name></member>

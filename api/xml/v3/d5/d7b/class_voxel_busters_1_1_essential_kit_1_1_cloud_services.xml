@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="42" column="61" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="42" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="42" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a4a536659291d0fe09c0cbac8ad13efc2" prot="private" static="yes" mutable="no">
         <type>INativeCloudServicesInterface</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="49" column="61" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="49" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="49" column="54" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a7e8062a60c5d30efb6d520a68dbc5c8b" prot="private" static="yes" mutable="no">
         <type><ref refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store" kindref="compound">KeyValueDataStore</ref></type>
@@ -44,12 +44,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="51" column="61" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="51" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="51" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="51" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="property">
       <memberdef kind="property" id="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a530d6b22d01fa76592f57740f9353098" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
-        <type>CloudServicesUnitySettings</type>
+        <type><ref refid="db/d80/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings" kindref="compound">CloudServicesUnitySettings</ref></type>
         <definition>CloudServicesUnitySettings UnitySettings</definition>
         <argsstring></argsstring>
         <name>UnitySettings</name>
@@ -139,7 +139,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="83" column="38" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="83" bodyend="-1"/>
-        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1ac5fdc0063f43a370213502f228a36fde" compoundref="d7/db8/_cloud_services_8cs" startline="472" endline="492">CloudServices.Synchronize</referencedby>
+        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1ac5fdc0063f43a370213502f228a36fde" compoundref="d7/db8/_cloud_services_8cs" startline="479" endline="499">CloudServices.Synchronize</referencedby>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -164,7 +164,7 @@
         <name>Initialize</name>
         <qualifiedname>VoxelBusters.EssentialKit.CloudServices.Initialize</qualifiedname>
         <param>
-          <type>CloudServicesUnitySettings</type>
+          <type><ref refid="db/d80/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings" kindref="compound">CloudServicesUnitySettings</ref></type>
           <declname>settings</declname>
         </param>
         <briefdescription>
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="94" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="94" bodyend="111"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="94" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="94" bodyend="118"/>
       </memberdef>
       <memberdef kind="function" id="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a47a31504c00ff2ad7dcc50dad3f81b0c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -204,7 +204,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="122" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="122" bodyend="141"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="129" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="129" bodyend="148"/>
         <referencedby refid="d1/da8/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_utility_1ab99b23fd9918112e8be770a80deefb3e" compoundref="d8/d5f/_cloud_services_utility_8cs" startline="23" endline="76">CloudServicesUtility.TryGetCloudAndLocalCacheValues&lt; T &gt;</referencedby>
       </memberdef>
       <memberdef kind="function" id="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a0caa7d7e37b4f28cbe2b4039f73dfe54" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -236,8 +236,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="148" column="27" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="148" bodyend="151"/>
-        <references refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1abbd36a9cc47288e0f334aebc484d8add" compoundref="d7/db8/_cloud_services_8cs" startline="158" endline="177">CloudServices.GetLong</references>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="155" column="27" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="155" bodyend="158"/>
+        <references refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1abbd36a9cc47288e0f334aebc484d8add" compoundref="d7/db8/_cloud_services_8cs" startline="165" endline="184">CloudServices.GetLong</references>
         <referencedby refid="d1/da8/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_utility_1ab99b23fd9918112e8be770a80deefb3e" compoundref="d8/d5f/_cloud_services_utility_8cs" startline="23" endline="76">CloudServicesUtility.TryGetCloudAndLocalCacheValues&lt; T &gt;</referencedby>
       </memberdef>
       <memberdef kind="function" id="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1abbd36a9cc47288e0f334aebc484d8add" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -269,8 +269,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="158" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="158" bodyend="177"/>
-        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a0caa7d7e37b4f28cbe2b4039f73dfe54" compoundref="d7/db8/_cloud_services_8cs" startline="148" endline="151">CloudServices.GetInt</referencedby>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="165" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="165" bodyend="184"/>
+        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a0caa7d7e37b4f28cbe2b4039f73dfe54" compoundref="d7/db8/_cloud_services_8cs" startline="155" endline="158">CloudServices.GetInt</referencedby>
         <referencedby refid="d1/da8/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_utility_1ab99b23fd9918112e8be770a80deefb3e" compoundref="d8/d5f/_cloud_services_utility_8cs" startline="23" endline="76">CloudServicesUtility.TryGetCloudAndLocalCacheValues&lt; T &gt;</referencedby>
       </memberdef>
       <memberdef kind="function" id="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1aaf00cdc07a7e3e110bdac0642f302a38" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -302,8 +302,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="184" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="184" bodyend="187"/>
-        <references refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a9350f8eeb1a405eaf403c0a2eda90391" compoundref="d7/db8/_cloud_services_8cs" startline="194" endline="213">CloudServices.GetDouble</references>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="191" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="191" bodyend="194"/>
+        <references refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a9350f8eeb1a405eaf403c0a2eda90391" compoundref="d7/db8/_cloud_services_8cs" startline="201" endline="220">CloudServices.GetDouble</references>
         <referencedby refid="d1/da8/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_utility_1ab99b23fd9918112e8be770a80deefb3e" compoundref="d8/d5f/_cloud_services_utility_8cs" startline="23" endline="76">CloudServicesUtility.TryGetCloudAndLocalCacheValues&lt; T &gt;</referencedby>
       </memberdef>
       <memberdef kind="function" id="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a9350f8eeb1a405eaf403c0a2eda90391" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -335,8 +335,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="194" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="194" bodyend="213"/>
-        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1aaf00cdc07a7e3e110bdac0642f302a38" compoundref="d7/db8/_cloud_services_8cs" startline="184" endline="187">CloudServices.GetFloat</referencedby>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="201" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="201" bodyend="220"/>
+        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1aaf00cdc07a7e3e110bdac0642f302a38" compoundref="d7/db8/_cloud_services_8cs" startline="191" endline="194">CloudServices.GetFloat</referencedby>
         <referencedby refid="d1/da8/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_utility_1ab99b23fd9918112e8be770a80deefb3e" compoundref="d8/d5f/_cloud_services_utility_8cs" startline="23" endline="76">CloudServicesUtility.TryGetCloudAndLocalCacheValues&lt; T &gt;</referencedby>
       </memberdef>
       <memberdef kind="function" id="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1ac984a5da1e145ef9494a2d2d7cd968ac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -368,7 +368,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="220" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="220" bodyend="239"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="227" column="30" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="227" bodyend="246"/>
         <referencedby refid="d1/da8/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_utility_1ab99b23fd9918112e8be770a80deefb3e" compoundref="d8/d5f/_cloud_services_utility_8cs" startline="23" endline="76">CloudServicesUtility.TryGetCloudAndLocalCacheValues&lt; T &gt;</referencedby>
       </memberdef>
       <memberdef kind="function" id="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a1b536ec77117a3f1c3b6bd66ccf6c3b2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -401,7 +401,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="246" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="246" bodyend="265"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="253" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="253" bodyend="272"/>
         <referencedby refid="d1/da8/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_utility_1ab99b23fd9918112e8be770a80deefb3e" compoundref="d8/d5f/_cloud_services_utility_8cs" startline="23" endline="76">CloudServicesUtility.TryGetCloudAndLocalCacheValues&lt; T &gt;</referencedby>
       </memberdef>
       <memberdef kind="function" id="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a21989a600bac52cf570cba4e0b5f85e8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -433,7 +433,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="272" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="272" bodyend="291"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="279" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="279" bodyend="298"/>
       </memberdef>
       <memberdef kind="function" id="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1adc998578d58aa52f2f5efeaec6a380ba" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -474,7 +474,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="302" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="302" bodyend="323"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="309" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="309" bodyend="330"/>
         <references refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a691c82fd00a90fff5e7554b4393d7ca9" compoundref="db/dc3/_key_value_data_store_8cs" startline="131" endline="135">KeyValueDataStore.SetBool</references>
       </memberdef>
       <memberdef kind="function" id="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a95a4fd58b0d7f700aea99c47aa841650" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -516,8 +516,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="330" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="330" bodyend="333"/>
-        <references refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a840eededc0c7294ed04208fec769899a" compoundref="d7/db8/_cloud_services_8cs" startline="340" endline="361">CloudServices.SetLong</references>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="337" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="337" bodyend="340"/>
+        <references refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a840eededc0c7294ed04208fec769899a" compoundref="d7/db8/_cloud_services_8cs" startline="347" endline="368">CloudServices.SetLong</references>
       </memberdef>
       <memberdef kind="function" id="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a840eededc0c7294ed04208fec769899a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -558,9 +558,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="340" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="340" bodyend="361"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="347" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="347" bodyend="368"/>
         <references refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1aff2f1d4f2369beb352f837d378ae2a08" compoundref="db/dc3/_key_value_data_store_8cs" startline="142" endline="146">KeyValueDataStore.SetLong</references>
-        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a95a4fd58b0d7f700aea99c47aa841650" compoundref="d7/db8/_cloud_services_8cs" startline="330" endline="333">CloudServices.SetInt</referencedby>
+        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a95a4fd58b0d7f700aea99c47aa841650" compoundref="d7/db8/_cloud_services_8cs" startline="337" endline="340">CloudServices.SetInt</referencedby>
       </memberdef>
       <memberdef kind="function" id="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a3a107bab4f14d7192764cff4b3bbfc5e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -601,8 +601,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="368" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="368" bodyend="371"/>
-        <references refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1aaac6f2b336bf35521015142d0404cb24" compoundref="d7/db8/_cloud_services_8cs" startline="378" endline="399">CloudServices.SetDouble</references>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="375" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="375" bodyend="378"/>
+        <references refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1aaac6f2b336bf35521015142d0404cb24" compoundref="d7/db8/_cloud_services_8cs" startline="385" endline="406">CloudServices.SetDouble</references>
       </memberdef>
       <memberdef kind="function" id="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1aaac6f2b336bf35521015142d0404cb24" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -643,9 +643,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="378" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="378" bodyend="399"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="385" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="385" bodyend="406"/>
         <references refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1adb6dd48bd289e834844e12f2ca1eac0c" compoundref="db/dc3/_key_value_data_store_8cs" startline="153" endline="157">KeyValueDataStore.SetDouble</references>
-        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a3a107bab4f14d7192764cff4b3bbfc5e" compoundref="d7/db8/_cloud_services_8cs" startline="368" endline="371">CloudServices.SetFloat</referencedby>
+        <referencedby refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a3a107bab4f14d7192764cff4b3bbfc5e" compoundref="d7/db8/_cloud_services_8cs" startline="375" endline="378">CloudServices.SetFloat</referencedby>
       </memberdef>
       <memberdef kind="function" id="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1af42da4722e4c7718d43080ba3edb766e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -686,7 +686,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="406" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="406" bodyend="427"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="413" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="413" bodyend="434"/>
         <references refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1ae870ef904ae29e7b220d7fbadff193ae" compoundref="db/dc3/_key_value_data_store_8cs" startline="164" endline="168">KeyValueDataStore.SetString</references>
       </memberdef>
       <memberdef kind="function" id="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1aa88933e605d3cd67ec143e2bdcfa4ba6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -728,7 +728,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="434" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="434" bodyend="455"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="441" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="441" bodyend="462"/>
         <references refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a1e35ec08d87e62f189c57f0c12fe1183" compoundref="db/dc3/_key_value_data_store_8cs" startline="175" endline="179">KeyValueDataStore.SetByteArray</references>
       </memberdef>
       <memberdef kind="function" id="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a1275547c121ea1f450d0cae8fb512e7d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -743,7 +743,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="457" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="457" bodyend="460"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="464" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="464" bodyend="467"/>
       </memberdef>
       <memberdef kind="function" id="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1ac5fdc0063f43a370213502f228a36fde" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -766,7 +766,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="472" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="472" bodyend="492"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="479" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="479" bodyend="499"/>
         <references refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a4c7ac48183ba83c6cba1947e197c3049" compoundref="d7/db8/_cloud_services_8cs" startline="83">CloudServices.OnSynchronizeComplete</references>
         <references refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a9ca5b99b3550503ca7bad8418e133156" compoundref="db/dc3/_key_value_data_store_8cs" startline="188" endline="192">KeyValueDataStore.Synchronize</references>
       </memberdef>
@@ -797,7 +797,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="502" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="502" bodyend="519"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="509" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="509" bodyend="526"/>
         <references refid="d7/df1/class_voxel_busters_1_1_core_library_1_1_key_value_data_store_1a238e438e2b03405741317bad0cd9da12" compoundref="db/dc3/_key_value_data_store_8cs" startline="207" endline="210">KeyValueDataStore.RemoveKey</references>
       </memberdef>
     </sectiondef>
@@ -814,7 +814,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="525" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="525" bodyend="529"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="532" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="532" bodyend="536"/>
       </memberdef>
       <memberdef kind="function" id="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1aee853b4b9fa58069e83057363c45aacd" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -828,7 +828,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="531" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="531" bodyend="535"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="538" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="538" bodyend="542"/>
       </memberdef>
       <memberdef kind="function" id="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a18407171131c8643c34a21299e9c3fb8" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -846,7 +846,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="537" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="537" bodyend="560"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="544" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="544" bodyend="569"/>
       </memberdef>
       <memberdef kind="function" id="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a7a81c001a8980724f6ac94bfd426789d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -868,7 +868,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="566" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="566" bodyend="580"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="575" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="575" bodyend="589"/>
       </memberdef>
       <memberdef kind="function" id="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1acedf6790ce5ef8e478e73369bb464cc1" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -890,7 +890,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="582" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="582" bodyend="589"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="591" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="591" bodyend="598"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -903,7 +903,7 @@
 </simplesect>
 </para>
     </detaileddescription>
-    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="38" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="39" bodyend="592"/>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="38" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="39" bodyend="601"/>
     <listofallmembers>
       <member refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a6c7c341953df4b671a040aa8f41592bf" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServices</scope><name>ActiveUser</name></member>
       <member refid="d5/d7b/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_1a47a31504c00ff2ad7dcc50dad3f81b0c" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::CloudServices</scope><name>GetBool</name></member>

@@ -11,7 +11,7 @@
         <name>Initialize</name>
         <qualifiedname>VoxelBusters.EssentialKit.RateMyApp.Initialize</qualifiedname>
         <param>
-          <type>RateMyAppUnitySettings</type>
+          <type><ref refid="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings" kindref="compound">RateMyAppUnitySettings</ref></type>
           <declname>settings</declname>
         </param>
         <param>
@@ -31,7 +31,7 @@
     </sectiondef>
     <sectiondef kind="public-static-attrib">
       <memberdef kind="variable" id="d2/d13/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_1a051a01b55645aca1855c6508af686b0d" prot="public" static="yes" mutable="no">
-        <type>RateMyAppUnitySettings</type>
+        <type><ref refid="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings" kindref="compound">RateMyAppUnitySettings</ref></type>
         <definition>RateMyAppUnitySettings UnitySettings</definition>
         <argsstring></argsstring>
         <name>UnitySettings</name>
@@ -136,6 +136,19 @@
     <detaileddescription>
 <para>By default, prompt system makes use of configuration available in <ref refid="d2/d13/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app" kindref="compound">RateMyApp</ref> section of Essential Kit Settings. These values can be adjusted according to developer preference.  </para>
     </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>RateMyApp</label>
+        <link refid="d2/d13/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>UnitySettings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RateMyAppUnitySettings</label>
+        <link refid="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings"/>
+      </node>
+    </collaborationgraph>
     <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyApp.cs" line="24" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/RateMyApp/RateMyApp.cs" bodystart="25" bodyend="92"/>
     <listofallmembers>
       <member refid="d2/d13/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_1a376750c717b11f2687300067f0c2192e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RateMyApp</scope><name>AskForReviewNow</name></member>

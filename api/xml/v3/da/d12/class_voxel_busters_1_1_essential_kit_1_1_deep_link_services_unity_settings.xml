@@ -7,7 +7,7 @@
     <innerclass refid="d5/db4/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1_1_ios_platform_properties" prot="public">VoxelBusters::EssentialKit::DeepLinkServicesUnitySettings::IosPlatformProperties</innerclass>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="da/d12/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1a75cde8e55eba608a7c09cbbd8a3b591a" prot="private" static="no" mutable="no">
-        <type>IosPlatformProperties</type>
+        <type><ref refid="d5/db4/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1_1_ios_platform_properties" kindref="compound">IosPlatformProperties</ref></type>
         <definition>IosPlatformProperties m_iosProperties</definition>
         <argsstring></argsstring>
         <name>m_iosProperties</name>
@@ -18,10 +18,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" line="16" column="53" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" bodystart="16" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" line="19" column="53" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="da/d12/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1a336579bd5fe8d5a6c406adea5f33d141" prot="private" static="no" mutable="no">
-        <type>AndroidPlatformProperties</type>
+        <type><ref refid="d9/df0/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1_1_android_platform_properties" kindref="compound">AndroidPlatformProperties</ref></type>
         <definition>AndroidPlatformProperties m_androidProperties</definition>
         <argsstring></argsstring>
         <name>m_androidProperties</name>
@@ -32,12 +32,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" line="19" column="53" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" bodystart="19" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" line="22" column="53" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" bodystart="22" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="property">
       <memberdef kind="property" id="da/d12/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1ac85bf8879a7bfb347b77062f1f062603" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>IosPlatformProperties</type>
+        <type><ref refid="d5/db4/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1_1_ios_platform_properties" kindref="compound">IosPlatformProperties</ref></type>
         <definition>IosPlatformProperties IosProperties</definition>
         <argsstring></argsstring>
         <name>IosProperties</name>
@@ -48,10 +48,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" line="25" column="38" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" bodystart="25" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" line="28" column="38" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="da/d12/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1a43ee530d504628390660ed6ec9f35a11" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>AndroidPlatformProperties</type>
+        <type><ref refid="d9/df0/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1_1_android_platform_properties" kindref="compound">AndroidPlatformProperties</ref></type>
         <definition>AndroidPlatformProperties AndroidProperties</definition>
         <argsstring></argsstring>
         <name>AndroidProperties</name>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" line="27" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" bodystart="27" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" line="30" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" bodystart="30" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -78,12 +78,12 @@
           <defval>true</defval>
         </param>
         <param>
-          <type>IosPlatformProperties</type>
+          <type><ref refid="d5/db4/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1_1_ios_platform_properties" kindref="compound">IosPlatformProperties</ref></type>
           <declname>iosProperties</declname>
           <defval>null</defval>
         </param>
         <param>
-          <type>AndroidPlatformProperties</type>
+          <type><ref refid="d9/df0/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1_1_android_platform_properties" kindref="compound">AndroidPlatformProperties</ref></type>
           <declname>androidProperties</declname>
           <defval>null</defval>
         </param>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" line="33" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" bodystart="33" bodyend="40"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" line="36" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" bodystart="36" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="da/d12/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1a0aaf97ea34d20e434283d07a9532a36f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition" kindref="compound">DeepLinkDefinition</ref>[]</type>
@@ -111,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" line="68" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" bodystart="68" bodyend="81"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" line="71" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" bodystart="71" bodyend="84"/>
       </memberdef>
       <memberdef kind="function" id="da/d12/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1a102cea9e6293726d36bf5b76a68af9f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="de/dba/class_voxel_busters_1_1_essential_kit_1_1_deep_link_definition" kindref="compound">DeepLinkDefinition</ref>[]</type>
@@ -129,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" line="83" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" bodystart="83" bodyend="96"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" line="86" column="35" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" bodystart="86" bodyend="99"/>
       </memberdef>
       <memberdef kind="function" id="da/d12/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1a1991e4741ae5f464165166ee1d7ecd69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -151,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" line="98" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" bodystart="98" bodyend="110"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" line="101" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" bodystart="101" bodyend="113"/>
       </memberdef>
       <memberdef kind="function" id="da/d12/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1adee03022efbf0424ab06f758c520041e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" line="112" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" bodystart="112" bodyend="124"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" line="115" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" bodystart="115" bodyend="127"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -197,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" line="46" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" bodystart="46" bodyend="49"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" line="49" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" bodystart="49" bodyend="52"/>
       </memberdef>
       <memberdef kind="function" id="da/d12/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1a09c816e17c2f89b9b074aa0a94ac3192" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -219,14 +219,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" line="51" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" bodystart="51" bodyend="62"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" line="54" column="29" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.cs" bodystart="54" bodyend="65"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Represents the deep link services unity settings. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.AndroidPlatformProperties.cs" line="10" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.IosPlatformProperties.cs" bodystart="11" bodyend="58"/>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.AndroidPlatformProperties.cs" line="13" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/DeepLinkServicesUnitySettings.IosPlatformProperties.cs" bodystart="14" bodyend="64"/>
     <listofallmembers>
       <member refid="da/d12/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1a1991e4741ae5f464165166ee1d7ecd69" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkServicesUnitySettings</scope><name>AddCustomSchemeUrl</name></member>
       <member refid="da/d12/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1a09c816e17c2f89b9b074aa0a94ac3192" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::DeepLinkServicesUnitySettings</scope><name>AddDeepLinkDefinition</name></member>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d2/dad/class_voxel_busters_1_1_essential_kit_1_1_sync_on_app_events" kind="class" language="C#" prot="package">
+    <compoundname>VoxelBusters::EssentialKit::SyncOnAppEvents</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d2/dad/class_voxel_busters_1_1_essential_kit_1_1_sync_on_app_events_1ac4a3eb5aad5ee0c1e0f01fbd9cf05ad7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OnApplicationPause</definition>
+        <argsstring>(bool paused)</argsstring>
+        <name>OnApplicationPause</name>
+        <qualifiedname>VoxelBusters.EssentialKit.SyncOnAppEvents.OnApplicationPause</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>paused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="605" column="22" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="605" bodyend="611"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" line="603" column="13" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudServices.cs" bodystart="604" bodyend="612"/>
+    <listofallmembers>
+      <member refid="d2/dad/class_voxel_busters_1_1_essential_kit_1_1_sync_on_app_events_1ac4a3eb5aad5ee0c1e0f01fbd9cf05ad7" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::SyncOnAppEvents</scope><name>OnApplicationPause</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

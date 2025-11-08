@@ -4,7 +4,7 @@
     <compoundname>VoxelBusters::EssentialKit::RateMyAppController</compoundname>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="dc/d5d/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_controller_1ae4a263f62f3cdd0650cc776151fdb057" prot="private" static="no" mutable="no">
-        <type>RateMyAppUnitySettings</type>
+        <type><ref refid="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings" kindref="compound">RateMyAppUnitySettings</ref></type>
         <definition>RateMyAppUnitySettings m_settings</definition>
         <argsstring></argsstring>
         <name>m_settings</name>
@@ -87,7 +87,7 @@
         <name>RateMyAppController</name>
         <qualifiedname>VoxelBusters.EssentialKit.RateMyAppController.RateMyAppController</qualifiedname>
         <param>
-          <type>RateMyAppUnitySettings</type>
+          <type><ref refid="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings" kindref="compound">RateMyAppUnitySettings</ref></type>
           <declname>settings</declname>
         </param>
         <param>

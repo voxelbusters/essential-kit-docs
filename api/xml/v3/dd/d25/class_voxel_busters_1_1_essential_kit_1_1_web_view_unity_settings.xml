@@ -6,7 +6,7 @@
     <innerclass refid="dd/ddb/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings_1_1_android_platform_properties" prot="public">VoxelBusters::EssentialKit::WebViewUnitySettings::AndroidPlatformProperties</innerclass>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="dd/d25/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings_1a336579bd5fe8d5a6c406adea5f33d141" prot="private" static="no" mutable="no">
-        <type>AndroidPlatformProperties</type>
+        <type><ref refid="dd/ddb/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings_1_1_android_platform_properties" kindref="compound">AndroidPlatformProperties</ref></type>
         <definition>AndroidPlatformProperties m_androidProperties</definition>
         <argsstring></argsstring>
         <name>m_androidProperties</name>
@@ -17,12 +17,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.cs" line="16" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.cs" bodystart="16" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.cs" line="19" column="49" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.cs" bodystart="19" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="property">
       <memberdef kind="property" id="dd/d25/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings_1a43ee530d504628390660ed6ec9f35a11" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>AndroidPlatformProperties</type>
+        <type><ref refid="dd/ddb/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings_1_1_android_platform_properties" kindref="compound">AndroidPlatformProperties</ref></type>
         <definition>AndroidPlatformProperties AndroidProperties</definition>
         <argsstring></argsstring>
         <name>AndroidProperties</name>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.cs" line="22" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.cs" bodystart="22" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.cs" line="25" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.cs" bodystart="25" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -49,7 +49,7 @@
           <defval>true</defval>
         </param>
         <param>
-          <type>AndroidPlatformProperties</type>
+          <type><ref refid="dd/ddb/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings_1_1_android_platform_properties" kindref="compound">AndroidPlatformProperties</ref></type>
           <declname>androidProperties</declname>
           <defval>null</defval>
         </param>
@@ -59,14 +59,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.cs" line="28" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.cs" bodystart="28" bodyend="32"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.cs" line="31" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.cs" bodystart="31" bodyend="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Represents the web view unity settings. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.AndroidPlatformProperties.cs" line="8" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.cs" bodystart="11" bodyend="35"/>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.AndroidPlatformProperties.cs" line="11" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Setup/WebViewUnitySettings.cs" bodystart="14" bodyend="38"/>
     <listofallmembers>
       <member refid="dd/d25/class_voxel_busters_1_1_essential_kit_1_1_web_view_unity_settings_1a43ee530d504628390660ed6ec9f35a11" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewUnitySettings</scope><name>AndroidProperties</name></member>
       <member refid="d9/d5e/class_voxel_busters_1_1_core_library_1_1_settings_property_group_1a45f8df3acbb2721c2df8462f1cd8f14b" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::WebViewUnitySettings</scope><name>IsEnabled</name></member>

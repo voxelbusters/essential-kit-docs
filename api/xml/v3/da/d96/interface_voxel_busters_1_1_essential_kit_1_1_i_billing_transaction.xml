@@ -268,7 +268,7 @@
         <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingTransaction.cs" line="106" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/BillingServices/IBillingTransaction.cs" bodystart="106" bodyend="106"/>
       </memberdef>
       <memberdef kind="property" id="da/d96/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_transaction_1aa0a983dd8ae9e8ffe1bb0d53293bf9ef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>BillingTransactionAndroidProperties</type>
+        <type><ref refid="d0/d9d/class_voxel_busters_1_1_essential_kit_1_1_billing_transaction_android_properties" kindref="compound">BillingTransactionAndroidProperties</ref></type>
         <definition>BillingTransactionAndroidProperties AndroidProperties</definition>
         <argsstring></argsstring>
         <name>AndroidProperties</name>
