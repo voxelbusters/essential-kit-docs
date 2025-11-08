@@ -11,7 +11,8 @@ var searchData=
   ['mediaservicesrequestgalleryaccessresult_8',['MediaServicesRequestGalleryAccessResult',['../d9/d3f/class_voxel_busters_1_1_essential_kit_1_1_media_services_request_gallery_access_result.html',1,'VoxelBusters::EssentialKit']]],
   ['mediaservicessaveimagetogalleryresult_9',['MediaServicesSaveImageToGalleryResult',['../da/dc0/class_voxel_busters_1_1_essential_kit_1_1_media_services_save_image_to_gallery_result.html',1,'VoxelBusters::EssentialKit']]],
   ['mediaservicesselectmediacontentresult_10',['MediaServicesSelectMediaContentResult',['../dd/d2e/class_voxel_busters_1_1_essential_kit_1_1_media_services_select_media_content_result.html',1,'VoxelBusters::EssentialKit']]],
-  ['messagecomposer_11',['MessageComposer',['../d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer.html',1,'VoxelBusters::EssentialKit']]],
-  ['messagecomposerresult_12',['MessageComposerResult',['../d7/d02/class_voxel_busters_1_1_essential_kit_1_1_message_composer_result.html',1,'VoxelBusters::EssentialKit']]],
-  ['mimetype_13',['MimeType',['../db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type.html',1,'VoxelBusters::CoreLibrary']]]
+  ['mediaservicesunitysettings_11',['MediaServicesUnitySettings',['../df/df0/class_voxel_busters_1_1_essential_kit_1_1_media_services_unity_settings.html',1,'VoxelBusters::EssentialKit']]],
+  ['messagecomposer_12',['MessageComposer',['../d1/d0b/class_voxel_busters_1_1_essential_kit_1_1_message_composer.html',1,'VoxelBusters::EssentialKit']]],
+  ['messagecomposerresult_13',['MessageComposerResult',['../d7/d02/class_voxel_busters_1_1_essential_kit_1_1_message_composer_result.html',1,'VoxelBusters::EssentialKit']]],
+  ['mimetype_14',['MimeType',['../db/de7/class_voxel_busters_1_1_core_library_1_1_mime_type.html',1,'VoxelBusters::CoreLibrary']]]
 ];

@@ -5,7 +5,8 @@ var searchData=
   ['sharesheet_2',['ShareSheet',['../d3/d77/class_voxel_busters_1_1_essential_kit_1_1_share_sheet.html',1,'VoxelBusters::EssentialKit']]],
   ['sharesheetresult_3',['ShareSheetResult',['../d3/d86/class_voxel_busters_1_1_essential_kit_1_1_share_sheet_result.html',1,'VoxelBusters::EssentialKit']]],
   ['sharingservices_4',['SharingServices',['../db/d4d/class_voxel_busters_1_1_essential_kit_1_1_sharing_services.html',1,'VoxelBusters::EssentialKit']]],
-  ['socialsharecomposer_5',['SocialShareComposer',['../df/d49/class_voxel_busters_1_1_essential_kit_1_1_social_share_composer.html',1,'VoxelBusters::EssentialKit']]],
-  ['socialsharecomposerresult_6',['SocialShareComposerResult',['../d9/d6e/class_voxel_busters_1_1_essential_kit_1_1_social_share_composer_result.html',1,'VoxelBusters::EssentialKit']]],
-  ['stringpopupattribute_7',['StringPopupAttribute',['../d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute.html',1,'VoxelBusters::CoreLibrary']]]
+  ['sharingservicesunitysettings_5',['SharingServicesUnitySettings',['../d4/d57/class_voxel_busters_1_1_essential_kit_1_1_sharing_services_unity_settings.html',1,'VoxelBusters::EssentialKit']]],
+  ['socialsharecomposer_6',['SocialShareComposer',['../df/d49/class_voxel_busters_1_1_essential_kit_1_1_social_share_composer.html',1,'VoxelBusters::EssentialKit']]],
+  ['socialsharecomposerresult_7',['SocialShareComposerResult',['../d9/d6e/class_voxel_busters_1_1_essential_kit_1_1_social_share_composer_result.html',1,'VoxelBusters::EssentialKit']]],
+  ['stringpopupattribute_8',['StringPopupAttribute',['../d9/daf/class_voxel_busters_1_1_core_library_1_1_string_popup_attribute.html',1,'VoxelBusters::CoreLibrary']]]
 ];

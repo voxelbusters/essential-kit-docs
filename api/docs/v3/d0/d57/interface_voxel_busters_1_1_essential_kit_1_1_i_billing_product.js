@@ -8,6 +8,7 @@ var interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product =
     [ "Price", "d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product.html#ac2d969105619923c5bd8178126e392f9", null ],
     [ "IsAvailable", "d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product.html#a7a547596c0c095817d16bbe4ba4c48f4", null ],
     [ "SubscriptionInfo", "d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product.html#adbd9a6d2948820b25ade53b33fde24e8", null ],
+    [ "Offers", "d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product.html#a89216eeff4a60dbb2245e17af7ade4fb", null ],
     [ "Payouts", "d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product.html#a46c5091225f0310f95a62eddd018b1b5", null ],
     [ "LocalizedPrice", "d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product.html#a244402a53e71855c3657ff810ec10ce2", null ],
     [ "PriceCurrencyCode", "d0/d57/interface_voxel_busters_1_1_essential_kit_1_1_i_billing_product.html#aac16f291ef94a11441762be578dd9cc5", null ],
