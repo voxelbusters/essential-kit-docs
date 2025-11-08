@@ -51,9 +51,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d4/dee/group___cloud_services.html",
-"da/d04/class_voxel_busters_1_1_essential_kit_1_1_notification_channel.html#a7ee9065718e6628dc7791b756fa6c0f9",
-"df/d49/class_voxel_busters_1_1_essential_kit_1_1_social_share_composer.html#a4ef94737dd4b7a20d2ccad4fdaf0bf42"
+"d4/dc9/class_voxel_busters_1_1_essential_kit_1_1_mail_composer.html#a1ee64fd83fdf8d23e913a00624538910",
+"d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services.html#a262e22e12b359155297430a799125089",
+"dd/dce/class_voxel_busters_1_1_essential_kit_1_1_task_services.html#a3a6cbd7a3d5312969356021e4c748cc7"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

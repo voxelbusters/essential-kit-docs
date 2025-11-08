@@ -17,5 +17,6 @@ var searchData=
   ['announcementsetting_14',['AnnouncementSetting',['../d4/dbc/class_voxel_busters_1_1_essential_kit_1_1_notification_settings.html#ac5c20be8112ba642a5e7afa278cb2f37',1,'VoxelBusters::EssentialKit::NotificationSettings']]],
   ['authstatus_15',['AuthStatus',['../db/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_auth_status_change_result.html#a9c67c7b244c9fdf50becf90c8215623c',1,'VoxelBusters::EssentialKit::GameServicesAuthStatusChangeResult']]],
   ['autofinishtransactions_16',['AutoFinishTransactions',['../d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings.html#aad4b248692f2d08855142afba9e408f7',1,'VoxelBusters::EssentialKit::BillingServicesUnitySettings']]],
-  ['autoshowonloadfinish_17',['AutoShowOnLoadFinish',['../dd/db4/class_voxel_busters_1_1_essential_kit_1_1_web_view.html#ae97e49c45c345ebaedbf6b26e567ea70',1,'VoxelBusters::EssentialKit::WebView']]]
+  ['autohandleexternalproductpurchaseactions_17',['AutoHandleExternalProductPurchaseActions',['../d9/d15/class_voxel_busters_1_1_essential_kit_1_1_billing_services_unity_settings.html#a73c325c6eac1859a9bc3b97c01cb880b',1,'VoxelBusters::EssentialKit::BillingServicesUnitySettings']]],
+  ['autoshowonloadfinish_18',['AutoShowOnLoadFinish',['../dd/db4/class_voxel_busters_1_1_essential_kit_1_1_web_view.html#ae97e49c45c345ebaedbf6b26e567ea70',1,'VoxelBusters::EssentialKit::WebView']]]
 ];

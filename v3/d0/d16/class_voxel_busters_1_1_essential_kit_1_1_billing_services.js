@@ -12,11 +12,9 @@ var class_voxel_busters_1_1_essential_kit_1_1_billing_services =
     [ "GetTransactions", "d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#a41882dda3662550824b58c35e5454a5f", null ],
     [ "FinishTransactions", "d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#a2f0e3c49ac61146bc2e8f21bb0eebed7", null ],
     [ "RestorePurchases", "d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#ae2d89aff47dbcaed7a59cfee1b1088e9", null ],
-    [ "BuyProduct", "d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#adf2b409ab054568ae069e3eb0d60901c", null ],
-    [ "BuyProduct", "d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#afcb2a730e6fab8ae4edaf061491368c8", null ],
-    [ "RestorePurchases", "d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#a24212c37e0c5277eba61fa76a2cf6a3b", null ],
     [ "Products", "d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#a0348608165317345943fae4d7ba2835e", null ],
     [ "OnInitializeStoreComplete", "d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#ad487ce650880e3c88afd00d07647cff8", null ],
     [ "OnTransactionStateChange", "d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#aab6295ca48645407097f0f276845ab13", null ],
-    [ "OnRestorePurchasesComplete", "d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#ac1cd4538761d81c93c380af38362c7f1", null ]
+    [ "OnRestorePurchasesComplete", "d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#ac1cd4538761d81c93c380af38362c7f1", null ],
+    [ "OnExternalProductPurchaseAction", "d0/d16/class_voxel_busters_1_1_essential_kit_1_1_billing_services.html#aae23d7eae5fdd4cfe49b090b0aaae8d6", null ]
 ];
