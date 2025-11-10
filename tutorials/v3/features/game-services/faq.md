@@ -311,7 +311,7 @@ void OnComplete(CompletionResult result)
     {
         Error error = result.Error;
         Debug.Log($"Error code: {error.Code}");
-        Debug.Log($"Error message: {error.LocalizedDescription}");
+        Debug.Log($"Error message: {error.Description}");
     }
 }
 ```

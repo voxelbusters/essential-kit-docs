@@ -115,7 +115,7 @@ void OnEnable()
     {
         if (error != null)
         {
-            Debug.LogError($"User change error: {error.LocalizedDescription}");
+            Debug.LogError($"User change error: {error.Description}");
         }
         else
         {

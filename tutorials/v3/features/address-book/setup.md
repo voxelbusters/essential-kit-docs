@@ -1,5 +1,5 @@
 ---
-description: Configuring Address Book Feature
+description: "Configuring Address Book"
 ---
 
 # Setup

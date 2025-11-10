@@ -504,7 +504,7 @@ void ProcessPendingTransactions()
     foreach (var transaction in BillingServices.GetTransactions())
     {
         if (transaction.TransactionState == BillingTransactionState.Purchased &&
-            transaction.VerificationState == BillingReceiptVerificationState.Pending)
+            (transaction.VerificationState == BillingReceiptVerificationState.NotDetermined || transaction.VerificationState == BillingReceiptVerificationState.Success)
         {
             QueueTransactionForVerification(transaction); // helper shown earlier
         }
@@ -566,25 +566,22 @@ Override default settings at runtime for server-driven catalogs:
 ```csharp
 void ConfigureProductsAtRuntime()
 {
-    var settings = ScriptableObject.CreateInstance<BillingServicesUnitySettings>();
-
-    var products = new BillingProductDefinition[]
+    var products = new[]
     {
-        new BillingProductDefinition("coins_100", BillingProductType.Consumable)
-        {
-            IosPlatformProperties = new BillingProductDefinition.IosPlatformProperties
-            {
-                Id = "com.yourgame.coins_100"
-            },
-            AndroidPlatformProperties = new BillingProductDefinition.AndroidPlatformProperties
-            {
-                Id = "coins_100"
-            }
-        }
+        new BillingProductDefinition(
+            id: "coins_100",
+            platformId: "coins_100",
+            platformIdOverrides: new RuntimePlatformConstantSet(
+                ios: "com.yourgame.coins_100",
+                android: "coins_100"),
+            productType: BillingProductType.Consumable,
+            title: "100 Coins",
+            description: "Grants 100 soft currency coins")
     };
 
-    settings.Products = products;
-    settings.AutoFinishTransactions = true;
+    var settings = new BillingServicesUnitySettings(
+        products: products,
+        autoFinishTransactions: true);
 
     BillingServices.Initialize(settings);
 }

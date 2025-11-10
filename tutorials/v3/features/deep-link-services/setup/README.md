@@ -1,89 +1,117 @@
+---
+description: "Configuring Deep Link Services"
+---
+
 # Setup
 
-## Overview
+## Understanding Deep Link Types
 
-There are two types of deep links possible on mobile devices
+Before configuring, understand the two types of deep links available:
 
-1. Custom Scheme Deep Links _or_ URI Scheme Deep Links
-2. Universal Deep Links
+### Custom Scheme URLs (Simple)
+Custom scheme URLs use app-specific schemes like `mygame://invite/123`. These are quick to set up but not unique across apps.
 
-### Custom Scheme Deep Links _or_ URI Scheme Deep Links
+**Pros:**
+- Simple setup through Essential Kit Settings only
+- No backend infrastructure required
+- Works immediately after configuration
 
-You just need to provide a scheme of your choice for this to work. Any links pointing that scheme will be directed to your app.
+**Cons:**
+- Not unique - other apps can register the same scheme
+- If multiple apps use the same scheme, users see a selection dialog
+- Less professional for marketing campaigns
 
-These deep links aren't unique and any other app can create them like yours. If multiple apps define same URI scheme installed on the device, a dialog with list of those apps will be presented to the user.
+**Example:** `mygame://level/5`, `mygame://shop?item=sword`
 
-Ex:&#x20;
+### Universal Links (Professional)
+Universal links use standard web URLs like `https://yourgame.com/invite/123`. These require backend setup but provide a professional experience.
 
-1. voxelbusters://essentialkit/deep-link-services
-2. voxelbusters://
-3. voxelbusters://essentialkit
+**Pros:**
+- Unique to your domain - no conflicts
+- Seamless user experience with no selection dialog
+- Better for attribution and marketing campaigns
+- Falls back to web browser if app is not installed
 
-### Universal Deep Links
+**Cons:**
+- Requires backend server configuration
+- More complex setup with domain verification
+- Needs separate iOS and Android configuration files
 
-These deep links are unique and can be bounded to your app uniquely. Usually these are a bit time consuming to setup as these needs backend support as well to validate that the link belongs to your app.
+**Example:** `https://yourgame.com/level/5`, `https://yourgame.com/shop/sword`
 
-Ex:&#x20;
+{% hint style="info" %}
+Start with custom scheme URLs for development and testing. Add universal links later for production when you need professional user acquisition.
+{% endhint %}
 
-1. &#x20;https://www.voxelbusters.com/essentialkit
-2. https://www.yourgame.com/invite
-3. https://www.yourgame.com/invite?referrer=brackeys
+## Prerequisites
+- Essential Kit imported into the project from My Assets section of Package Manager
+- iOS or Android build target configured in Unity
+- For universal links: A web server with HTTPS and the ability to host verification files
 
-Usually universal deep links look exactly similar to the normal web links. If your app has a website too and if a page of it gets opened on mobile device, you can seamlessly redirect them to your app quickly.
+## Setup Checklist
 
-There won't be any dialog to choose from (compared to URI scheme links) so it can open your app directly on clicking a registered universal deep link.
-
-Deep links contains mainly three parts
-
-* Scheme
-* Host
-* Path
-
-Ex 1 : voxelbusters://essentialkit/deep-link-services (URI scheme deep link)
-
-Scheme : voxelbusters\
-Host : essentialkit\
-Path : deep-link-services
-
-
-
-Ex 2 : https://www.voxelbusters.com/essentialkit (Universal deep link)
-
-\
-Scheme : https\
-Host : www.voxelbusters.com\
-Path : essentialkit
-
-
-
-## :white\_check\_mark: Enable Feature
-
-Open [Essential Kit Settings](../../../plugin-overview/settings.md) and enable Deep Link Services feature in the inspector.
+### 1. Enable Deep Link Services
+Open **Essential Kit Settings** (`Window > Voxel Busters > Essential Kit > Open Settings`), switch to the **Services** tab, and enable **Deep Link Services**.
 
 <figure><img src="../../../.gitbook/assets/deep-link-services-settings.gif" alt=""><figcaption><p>Deep Link Services Settings</p></figcaption></figure>
 
+### 2. Configure Custom Scheme URLs
+Under **iOS Properties** and **Android Properties**, add your custom URL schemes:
 
+| Field | Description | Example |
+| --- | --- | --- |
+| **Identifier** | Display name shown in app chooser dialog if multiple apps register this scheme | "MyGame Deep Link" |
+| **Scheme** | Unique scheme name for your app | "mygame" |
+| **Host** | Optional host to filter links further | "invite" or leave empty |
+| **Path** | Optional path to filter specific actions | "/referral" or leave empty |
 
-{% tabs %}
-{% tab title="Settings" %}
-| Name               | Description                                        |
-| ------------------ | -------------------------------------------------- |
-| iOS Properties     | Deep link settings for iOS platform goes here.     |
-| Android Properties | Deep link settings for Android platform goes here. |
-{% endtab %}
+**Common Patterns:**
+- **Open-ended**: Set only Scheme (`mygame://`) to handle all links
+- **Specific actions**: Set Scheme + Host (`mygame://invite/`) for targeted handling
+- **Fine-grained**: Set Scheme + Host + Path (`mygame://shop/items`) for precise routing
 
-{% tab title="Deep Link Entry Properties" %}
-| Name         | Description                                                                                                                                  |
-| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| Identifier   | An identifier for this deep link. This will be shown as a label in the chooser window if multiple applications register for the same scheme. |
-| Service Type | Applicable only on iOS where you can specific the type of service being used. Leave it blank for general use.                                |
-| Scheme       | Scheme part of the deep link you want to target                                                                                              |
-| Host         | Host part of your deep link you want to target                                                                                               |
-| Path         | Path part of your deep link you want to target                                                                                               |
-{% endtab %}
-{% endtabs %}
+{% hint style="success" %}
+Use a scheme name that's unique to your game. Consider including your studio name or game name: `studiogame://` instead of just `game://`
+{% endhint %}
 
+### 3. Configure Universal Links (Optional)
+For universal links, you need:
 
+**Essential Kit Configuration:**
+- Add universal link definitions in the same way as custom schemes
+- Use `https` as the Scheme
+- Set your domain as the Host (e.g., `yourgame.com`)
+- Set paths to match specific content (e.g., `/invite`, `/level`)
 
+**Backend Configuration:**
+See platform-specific guides for backend setup:
+- [iOS Universal Links Setup](ios.md)
+- [Android App Links Setup](android.md)
 
+### 4. Save and Build
+Changes to the settings asset are saved automatically. If you use source control, commit the updated `Resources/EssentialKitSettings.asset` file.
 
+During build, Essential Kit automatically:
+- **iOS**: Adds URL schemes to `Info.plist`
+- **Android**: Adds intent filters to `AndroidManifest.xml`
+
+## Configuration Reference
+
+| Setting | Platform | Required? | Notes |
+| --- | --- | --- | --- |
+| Enable Deep Link Services | All | Yes | Toggles the feature in builds; disabling strips related native code |
+| iOS Properties | iOS | Yes | Contains custom schemes and universal links for iOS |
+| Android Properties | Android | Yes | Contains custom schemes and app links for Android |
+| Identifier | All | Yes | Display name for this deep link configuration |
+| Service Type | iOS | No | Leave blank unless you need specific iOS service types |
+| Scheme | All | Yes | The URL scheme (e.g., "mygame" for mygame://) |
+| Host | All | Optional | Filter links by host (e.g., "invite" for mygame://invite/) |
+| Path | All | Optional | Filter links by path (e.g., "/referral") |
+
+{% hint style="info" %}
+Need a working baseline? Run the sample at `Assets/Plugins/VoxelBusters/EssentialKit/Examples/Scenes/DeepLinkServicesDemo.unity` to confirm your settings before integrating into production.
+{% endhint %}
+
+{% hint style="warning" %}
+Test deep links on actual devices, not just the editor simulator. Platform-specific behavior (like the app chooser dialog) only appears on real devices.
+{% endhint %}

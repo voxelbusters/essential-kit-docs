@@ -1,42 +1,59 @@
-# ⭐ Rate My App
+---
+description: "Boost app ratings with smart, native review prompts that respect platform limits and user experience"
+---
 
-Rate App feature allows you to show up native rate/review dialogs provided by native os.
+# Rate My App for Unity
 
-{% tabs %}
-{% tab title="iOS" %}
-![iOS rate dialog](../../.gitbook/assets/iOSAppRating.png)
-{% endtab %}
+Essential Kit's Rate My App feature lets Unity teams prompt players for app reviews using native store dialogs without maintaining platform-specific code. This tutorial walks you through setup, key APIs, testing, and troubleshooting so you can boost ratings with confidence.
 
-{% tab title="Android" %}
-![Android In-App Rating](../../.gitbook/assets/AndroidAppRating.jpg)
-{% endtab %}
-{% endtabs %}
+{% hint style="info" %}
+Looking for a working reference? Open the demo scene at `Assets/Plugins/VoxelBusters/EssentialKit/Examples/Scenes/RateMyAppDemo.unity` and the companion script at `Assets/Plugins/VoxelBusters/EssentialKit/Examples/Scripts/RateMyAppDemo.cs` to see the full API in action.
+{% endhint %}
+
+## What You'll Learn
+- Request app reviews at the right moment with conditional prompting
+- Configure smart timing constraints to avoid annoying users
+- Handle platform review quotas (iOS 3x/year limit, Android restrictions)
+- Use confirmation dialogs to protect against quota waste
+
+## Why Rate My App Matters
+- **Business impact**: Higher ratings improve app store visibility and conversion rates
+- **UX impact**: Native dialogs feel integrated and trustworthy to users
+- **Technical impact**: No custom native code needed - works on iOS and Android
+
+## Tutorial Roadmap
+1. [Setup](setup.md) - Enable the feature and configure rating constraints
+2. [Usage](usage.md) - Auto-show vs manual prompts, confirmation dialogs, and timing
+3. [Testing](testing.md) - Simulate in editor and verify on devices
+4. [FAQ](faq.md) - Troubleshoot common issues
+
+## Key Use Cases
+- Show rating prompt after major achievements or level completions
+- Request reviews when users demonstrate positive engagement patterns
+- Protect review quota with optional confirmation dialogs before native prompts
+- Re-prompt for ratings when new versions ship
+
+## Prerequisites
+- Unity project with Essential Kit v3 installed and Rate My App feature included in the build
+- iOS or Android targets with app store IDs configured in Essential Kit Settings
+- Understanding of platform review quotas (iOS: 3x/year max, Android: limited but undisclosed)
 
 {% embed url="https://www.youtube.com/watch?v=2V2MMUdmb4o" %}
 Rate App Video Tutorial
 {% endembed %}
 
-### Use-cases
-
-#### Get feedback from users
-
-Rate app allows to collect feedback from users. By prompting the rate dialog at right time can make users to give constructive feedback about your application.
-
-#### Increase ratings for your application
-
-Ratings helps an app to shine in the marketplaces (Appstore/Google Play). Make sure you have a strategy for prompting the alert to rate your app.
-
-
-
 {% content-ref url="setup.md" %}
-[setup.md](setup.md)
+[Setup](setup.md)
 {% endcontent-ref %}
 
 {% content-ref url="usage.md" %}
-[usage.md](usage.md)
+[Usage](usage.md)
+{% endcontent-ref %}
+
+{% content-ref url="testing.md" %}
+[Testing](testing.md)
 {% endcontent-ref %}
 
 {% content-ref url="faq.md" %}
-[faq.md](faq.md)
+[FAQ](faq.md)
 {% endcontent-ref %}
-

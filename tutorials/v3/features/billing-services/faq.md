@@ -184,15 +184,16 @@ if (BillingServices.IsProductPurchased(currentSeasonId))
 {
     if (IsSeasonActive(currentSeasonId))
     {
-        GrantSeasonBenefits();
+        Debug.Log("Grant season pass rewards to the player.");
     }
 }
 
 bool IsSeasonActive(string seasonId)
 {
-    var seasonConfig = GetSeasonConfig(seasonId);
     DateTime now = DateTime.Now;
-    return now >= seasonConfig.StartDate && now <= seasonConfig.EndDate;
+    DateTime seasonStart = new DateTime(2024, 1, 1);
+    DateTime seasonEnd = new DateTime(2024, 3, 31);
+    return now >= seasonStart && now <= seasonEnd;
 }
 ```
 

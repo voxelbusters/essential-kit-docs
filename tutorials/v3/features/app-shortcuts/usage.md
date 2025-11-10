@@ -162,15 +162,15 @@ void OnShortcutClicked(string shortcutId)
     switch (shortcutId)
     {
         case "daily-reward":
-            OpenDailyRewardsScreen();
+            Debug.Log("Open the daily rewards screen.");
             break;
 
         case "continue-game":
-            LoadLastSavedLevel();
+            Debug.Log("Load the last saved level.");
             break;
 
         case "quick-match":
-            StartMultiplayerMatchmaking();
+            Debug.Log("Start multiplayer matchmaking.");
             break;
 
         default:
@@ -246,8 +246,9 @@ Override default settings at runtime before adding any shortcuts:
 ```csharp
 void Awake()
 {
-    var settings = ScriptableObject.CreateInstance<AppShortcutsUnitySettings>();
-    settings.Icons = runtimeIconList; // Populate from Addressables, remote configs, etc.
+    var settings = new AppShortcutsUnitySettings(
+        isEnabled: true,
+        icons: runtimeIconList); // Populate from Addressables, remote configs, etc.
 
     AppShortcuts.Initialize(settings);
 }

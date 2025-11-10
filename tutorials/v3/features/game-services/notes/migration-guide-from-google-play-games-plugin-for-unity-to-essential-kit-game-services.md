@@ -132,8 +132,8 @@ private void OnAuthStatusChange(GameServicesAuthStatusChangeResult result, Error
                 string playerName = localPlayer.DisplayName;
                 break;
                 
-            case LocalPlayerAuthStatus.NotAuthenticated:
-                Debug.Log("Player not authenticated");
+            case LocalPlayerAuthStatus.NotAvailable:
+                Debug.Log("Authentication state unavailable or player signed out");
                 break;
                 
             case LocalPlayerAuthStatus.Authenticating:

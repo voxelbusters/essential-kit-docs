@@ -149,8 +149,8 @@ void OnSavedDataChange(CloudServicesSavedDataChangeResult result)
     if (result.ChangeReason == CloudSavedDataChangeReasonCode.AccountChange)
     {
         // User switched accounts - reset game state
-        ClearAllGameData();
-        LoadCloudDataForNewAccount();
+        Debug.Log("Clear local game data caches.");
+        Debug.Log("Load the fresh cloud data for the new account.");
     }
 }
 ```

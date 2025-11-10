@@ -1,3 +1,7 @@
+---
+description: "Solve common Address Book permission and data issues quickly"
+---
+
 # FAQ & Troubleshooting
 
 ## Permissions & Setup

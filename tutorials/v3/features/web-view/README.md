@@ -1,54 +1,70 @@
-# 🌏 Web View
+---
+description: "Cross-platform web content display for Unity mobile games"
+---
 
-WebView provides access to Web View on the native platform. It allows following functionalities.
+# Web View for Unity
 
-* Load
-* Show/Hide
-* Register a Scheme for passing information to Unity
-* Evaluate JavaScript
-* Load a file to web view
-
-{% hint style="info" %}
-Plugin can display only one web view at any given time. Showing multiple web views is not possible anymore.
-{% endhint %}
-
-{% hint style="danger" %}
-Web view feature is not simulated on editor. This only works on native device.
-{% endhint %}
+Essential Kit's WebView feature lets Unity teams display web content, run JavaScript, and enable web-to-game communication without maintaining platform-specific code. This tutorial walks you through setup, web view APIs, JavaScript interaction, and troubleshooting so you can integrate web content seamlessly.
 
 {% embed url="https://www.youtube.com/watch?v=0GSBP3tknT4" %}
-Web View Video Tutorials
+Web View Video Tutorial
 {% endembed %}
 
-### Use-cases
+{% hint style="danger" %}
+**Editor Limitation**: WebView feature does not work in Unity Editor. Testing requires building to iOS or Android devices.
+{% endhint %}
 
-#### Show a registration/login prompt of your website
+{% hint style="info" %}
+Looking for a working reference? Open the demo scene at `Assets/Plugins/VoxelBusters/EssentialKit/Examples/Scenes/WebViewDemo.unity` and the companion script at `Assets/Plugins/VoxelBusters/EssentialKit/Examples/Scripts/WebViewDemo.cs` to see the full API in action.
+{% endhint %}
 
-You can show your website's login prompt and get the access token once user logs in successfully.
+## What You'll Learn
+- Create and display web views with custom frame sizes and styles
+- Load URLs, HTML strings, and local files into web views
+- Execute JavaScript and receive results from web content
+- Implement web-to-Unity communication using custom URL schemes
+- Control web view lifecycle (show, hide, reload, clear cache)
 
-#### Run HTML5 games
+## Why WebView Matters
+- **Dynamic Content**: Display terms of service, privacy policies, and FAQs without app updates
+- **Web Authentication**: Show OAuth login flows (Facebook, Google) with native web interface
+- **HTML5 Games**: Run HTML5 mini-games or interactive content within your Unity app
+- **Hybrid Features**: Integrate web-based UI for complex forms, dashboards, or admin tools
 
-Games developed in HTML5 can run on webview
+## Tutorial Roadmap
+1. [Setup](setup.md) - Enable the feature and configure platform permissions
+2. [Usage](usage.md) - Create web views, load content, JavaScript interaction, URL schemes
+3. [Testing](testing.md) - Device testing checklist and validation
+4. [FAQ](faq.md) - Troubleshoot common issues
 
-#### Run custom fullscreen ads
+## Key Use Cases
+- **Terms & Conditions**: Display hosted legal documents with automatic updates
+- **Social Login**: Show OAuth flows for Facebook, Google, Apple authentication
+- **News Feed**: Display dynamic game news, announcements, and patch notes
+- **HTML5 Mini-Games**: Run lightweight web games within your main game
+- **Custom Ads**: Display full-screen promotional web content
 
-You can open up a web view for showing your own custom full screen ads.
+## Prerequisites
+- Unity project with Essential Kit v3 installed and WebView feature included
+- iOS or Android target (WebView requires physical device testing)
+- Web content to display (URL, HTML string, or local HTML file)
 
-#### Show your hosted content / dynamic content
-
-Open a web view for showing your privacy policy or terms & conditions hosted on your website. As these change and needs to be reflected quickly to user, serving as webpage is ideal.
-
-
+{% hint style="info" %}
+**Single WebView Limitation**: Essential Kit displays one web view at a time. Multiple simultaneous web views are not supported.
+{% endhint %}
 
 {% content-ref url="setup.md" %}
-[setup.md](setup.md)
+[Setup](setup.md)
 {% endcontent-ref %}
 
 {% content-ref url="usage.md" %}
-[usage.md](usage.md)
+[Usage](usage.md)
+{% endcontent-ref %}
+
+{% content-ref url="testing.md" %}
+[Testing](testing.md)
 {% endcontent-ref %}
 
 {% content-ref url="faq.md" %}
-[faq.md](faq.md)
+[FAQ](faq.md)
 {% endcontent-ref %}
-

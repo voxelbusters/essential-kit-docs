@@ -1,18 +1,55 @@
+---
+description: "Configuring Network Services for connectivity monitoring"
+---
+
 # Setup
 
-## :white\_check\_mark: Enable Feature
+## Prerequisites
+- Essential Kit imported into the project from My Assets section of Package Manager
+- No special permissions required (network state monitoring is available to all apps)
+- Optional: Backend server address for host reachability monitoring
 
-Open [Essential Kit Settings](../../plugin-overview/settings.md) and enable Network Services feature in the inspector.
+## Setup Checklist
+1. Open **Essential Kit Settings** (`Window > Voxel Busters > Essential Kit > Open Settings`), switch to the **Services** tab, and enable **Network Services**
+2. Configure optional settings: host address, auto-start behavior, ping configuration
+3. Essential Kit automatically adds `ACCESS_NETWORK_STATE` permission on Android during build
+4. Changes to the settings asset are saved automatically. If you use source control, commit the updated `Resources/EssentialKitSettings.asset` file
 
-<figure><img src="../../.gitbook/assets/network-services-settings.gif" alt=""><figcaption><p>Network Services</p></figcaption></figure>
+### Configuration Reference
+| Setting | Platform | Required? | Notes |
+| --- | --- | --- | --- |
+| Enable Network Services | All | Yes | Toggles the feature in builds; disabling strips related native code |
+| Host Address (IPv4/IPv6) | All | Optional | Server address to monitor for reachability; leave empty if only monitoring general internet |
+| Auto Start Notifier | All | Optional | If enabled, monitoring begins automatically on app launch; disable for manual control |
+| Max Retry Count | All | Optional | Number of retry attempts before reporting failure (default: 3) |
+| Time Gap Between Polling | All | Optional | Seconds between network checks when monitoring is active (default: 5) |
+| Time Out Period | All | Optional | Seconds before considering a network request timed out (default: 10) |
+| Port | All | Optional | Port to ping on remote server for reachability checks (default: 80) |
 
+{% hint style="success" %}
+**Auto Start Notifier**: Enable this to automatically monitor network status from app launch. Disable if you want manual control (call `StartNotifier()` only when needed to save battery).
+{% endhint %}
 
+{% hint style="info" %}
+**Host Reachability Monitoring**: If you configure a host address, Network Services monitors both general internet connectivity AND specific server reachability. This is useful for detecting when your backend is down even if the user has internet access.
+{% endhint %}
 
-### Properties
+### Platform-Specific Notes
 
-| Name                | Description                                                                                                                                                                                                                                                                                                                                                    |
-| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Host Address        | <p>ipv 4 : Ip 4 address of the server to check</p><p>ipv 6 : Ip 6 address of the server to check</p>                                                                                                                                                                                                                                                           |
-| Auto Start Notifier | Enabling this will auto start detecting network status as soon as the app launches                                                                                                                                                                                                                                                                             |
-| Ping Settings       | <p><strong>Max Retry Count :</strong> Number of times to retry before reporting failure status</p><p><strong>Time Gap Between Polling :</strong> Time gap between two network call checks</p><p><strong>Time Out Period :</strong> Time to consider for a request timeout</p><p><strong>Port :</strong> Port to ping on the remote server while connecting</p> |
+#### iOS
+- Uses iOS Reachability API via `SystemConfiguration.framework`
+- No permissions required
+- Essential Kit automatically configures framework links during build
 
+#### Android
+- Uses `ConnectivityManager` and network callback APIs
+- `ACCESS_NETWORK_STATE` permission automatically added during build
+- Works on all Android versions with automatic API level adaptation
+
+{% hint style="warning" %}
+**Battery Considerations**: Continuous network monitoring consumes battery. Use `StartNotifier()` and `StopNotifier()` to control when monitoring is active. Stop monitoring when network status isn't actively needed (e.g., on menu screens without online features).
+{% endhint %}
+
+{% hint style="info" %}
+Need a working baseline? Run the sample at `Assets/Plugins/VoxelBusters/EssentialKit/Examples/Scenes/NetworkServicesDemo.unity` to confirm your settings before wiring the feature into production screens.
+{% endhint %}

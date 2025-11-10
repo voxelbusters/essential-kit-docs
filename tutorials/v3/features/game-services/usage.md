@@ -83,7 +83,7 @@ void OnAuthStatusChange(GameServicesAuthStatusChangeResult result, Error error)
 {
     if (error != null)
     {
-        Debug.Log($"Authentication failed: {error.LocalizedDescription}");
+        Debug.Log($"Authentication failed: {error.Description}");
         return;
     }
 
@@ -102,7 +102,7 @@ void OnAuthStatusChange(GameServicesAuthStatusChangeResult result, Error error)
         {
             if (loadError == null && imageData != null)
             {
-                Texture2D avatar = imageData.Texture;
+                Texture2D avatar = imageData.GetTexture();
                 // Display avatar in UI
             }
         });
@@ -185,7 +185,7 @@ void SubmitScore(long score)
         }
         else if (error != null)
         {
-            Debug.Log($"Score submission failed: {error.LocalizedDescription}");
+            Debug.Log($"Score submission failed: {error.Description}");
         }
     });
 }
@@ -211,7 +211,7 @@ void SubmitScoreAdvanced(long score)
         }
         else if (error != null)
         {
-            Debug.Log($"Score submission failed: {error.LocalizedDescription}");
+            Debug.Log($"Score submission failed: {error.Description}");
         }
     });
 }
@@ -232,7 +232,7 @@ void SubmitTaggedScore(long score, string levelId)
         }
         else if (error != null)
         {
-            Debug.Log($"Score submission failed: {error.LocalizedDescription}");
+            Debug.Log($"Score submission failed: {error.Description}");
         }
     }, tag);
 }
@@ -255,7 +255,7 @@ void LoadTopScores()
     {
         if (error != null)
         {
-            Debug.Log($"Failed to load scores: {error.LocalizedDescription}");
+            Debug.Log($"Failed to load scores: {error.Description}");
             return;
         }
 
@@ -394,7 +394,7 @@ void UnlockAchievement(string achievementId)
         }
         else if (error != null)
         {
-            Debug.Log($"Achievement failed: {error.LocalizedDescription}");
+            Debug.Log($"Achievement failed: {error.Description}");
         }
     });
 }
@@ -415,7 +415,7 @@ void UpdateAchievementProgress(string achievementId, int currentProgress, int ma
         }
         else if (error != null)
         {
-            Debug.Log($"Progress update failed: {error.LocalizedDescription}");
+            Debug.Log($"Progress update failed: {error.Description}");
         }
     });
 }
@@ -447,7 +447,7 @@ void ReportProgressAdvanced()
         }
         else if (error != null)
         {
-            Debug.Log($"Achievement report failed: {error.LocalizedDescription}");
+            Debug.Log($"Achievement report failed: {error.Description}");
         }
     });
 }
@@ -464,7 +464,7 @@ void LoadAchievementDescriptions()
     {
         if (error != null)
         {
-            Debug.Log($"Failed to load: {error.LocalizedDescription}");
+            Debug.Log($"Failed to load: {error.Description}");
             return;
         }
 
@@ -545,7 +545,7 @@ void LoadPlayerFriends()
     {
         if (error != null)
         {
-            Debug.Log($"Failed to load friends: {error.LocalizedDescription}");
+            Debug.Log($"Failed to load friends: {error.Description}");
             return;
         }
 
@@ -559,7 +559,7 @@ void LoadPlayerFriends()
             {
                 if (imgError == null && imageData != null)
                 {
-                    Texture2D avatar = imageData.Texture;
+                    Texture2D avatar = imageData.GetTexture();
                     // Display in friends UI
                 }
             });
@@ -587,7 +587,7 @@ void SendFriendRequest(string playerId)
         }
         else
         {
-            Debug.Log($"Friend request failed: {error?.LocalizedDescription}");
+            Debug.Log($"Friend request failed: {error?.Description}");
         }
     });
 }
@@ -617,7 +617,7 @@ void GetServerCredentials()
     {
         if (error != null)
         {
-            Debug.Log($"Failed to load credentials: {error.LocalizedDescription}");
+            Debug.Log($"Failed to load credentials: {error.Description}");
             return;
         }
 
@@ -750,7 +750,7 @@ On Android, additional scopes (such as email) require user consent. Inspect `res
 | --- | --- | --- |
 | `Unknown` | Platform error, network issue | Retry or display error message to user |
 | `NotAuthenticated` | Operation requires authentication | Prompt player to sign in |
-| `InvalidParameter` | Invalid leaderboard/achievement ID | Verify IDs match settings configuration |
+| `InvalidInput` | Invalid leaderboard/achievement ID | Verify IDs match settings configuration |
 | `NetworkError` | No internet connection | Show offline message, cache may work |
 | `Cancelled` | User cancelled operation | Handle gracefully, no error UI needed |
 
@@ -761,23 +761,23 @@ void HandleGameServicesError(Error error)
 {
     if (error == null) return;
 
-    Debug.Log($"Error: {error.LocalizedDescription}");
+    Debug.Log($"Error: {error.Description}");
 
     // Handle specific error codes
     switch (error.Code)
     {
         case (int)GameServicesErrorCode.NotAuthenticated:
             Debug.Log("Player needs to sign in");
-            ShowSignInPrompt();
+            Debug.Log("Show sign-in UI to the player.");
             break;
 
-        case (int)GameServicesErrorCode.InvalidParameter:
+        case (int)GameServicesErrorCode.InvalidInput:
             Debug.Log("Invalid leaderboard or achievement ID");
             break;
 
         case (int)GameServicesErrorCode.NetworkError:
             Debug.Log("No internet connection");
-            ShowOfflineMessage();
+            Debug.Log("Display offline message to the player.");
             break;
 
         default:

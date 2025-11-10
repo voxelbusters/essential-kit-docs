@@ -160,14 +160,14 @@ Sync only at appropriate game checkpoints for performance:
 ```csharp
 void OnLevelComplete()
 {
-    SaveGameProgress();
+    Debug.Log("Save game progress locally.");
 
     // Show syncing UI for better UX
-    ShowSyncingIndicator();
+    Debug.Log("Display syncing indicator.");
 
     CloudServices.Synchronize((result) =>
     {
-        HideSyncingIndicator();
+        Debug.Log("Hide syncing indicator.");
 
         if (result.Success)
         {
@@ -368,7 +368,7 @@ void OnSavedDataChange(CloudServicesSavedDataChangeResult result)
 | --- | --- |
 | `ServerChange` | Cloud data differs from local data during sync |
 | `InitialSyncChange` | First sync after fresh install (cloud data downloaded) |
-| `QuotaViolation` | Exceeded storage limits - data reset to cloud copy |
+| `QuotaViolationChange` | Exceeded storage limits - data reset to cloud copy |
 | `AccountChange` | User switched cloud accounts - all keys invalidated |
 
 {% hint style="danger" %}
@@ -384,21 +384,21 @@ void OnSavedDataChange(CloudServicesSavedDataChangeResult result)
     {
         case CloudSavedDataChangeReasonCode.ServerChange:
             // Merge changes from another device
-            ResolveConflicts(result.ChangedKeys);
+            Debug.Log("Resolve conflicts with server-changed data.");
             break;
 
         case CloudSavedDataChangeReasonCode.InitialSyncChange:
             // First sync - cloud data loaded
-            LoadCloudData();
+            Debug.Log("Load cloud data into the local save.");
             break;
 
         case CloudSavedDataChangeReasonCode.AccountChange:
             // User switched accounts - reset local data
-            ClearLocalGameData();
-            LoadCloudData();
+            Debug.Log("Clear local cached data for the previous account.");
+            Debug.Log("Load cloud data for the new account.");
             break;
 
-        case CloudSavedDataChangeReasonCode.QuotaViolation:
+        case CloudSavedDataChangeReasonCode.QuotaViolationChange:
             // Exceeded storage - compress data
             Debug.LogWarning("Storage quota exceeded - consider data compression");
             break;
@@ -436,7 +436,7 @@ void OnSavedDataChange(CloudServicesSavedDataChangeResult result)
 | Error Code | Trigger | Recommended Action |
 | --- | --- | --- |
 | Sync failure (result.Success = false) | Network error, user denied authentication | Retry later or continue with local-only data |
-| `QuotaViolation` reason | Exceeded storage limits | Compress data or remove unnecessary keys |
+| `QuotaViolationChange` reason | Exceeded storage limits | Compress data or remove unnecessary keys |
 | `AccountChange` reason | User switched cloud accounts | Clear local data and reload from new account |
 | Null/empty key | Invalid key parameter | Validate keys before calling Get/Set |
 
@@ -477,8 +477,10 @@ Override settings programmatically for:
 ```csharp
 void Awake()
 {
-    var settings = ScriptableObject.CreateInstance<CloudServicesUnitySettings>();
-    // Configure runtime settings as needed
+    var settings = new CloudServicesUnitySettings(
+        iosProperties: new CloudServicesUnitySettings.IosPlatformProperties(substituteEntitlementIdentifiers: true),
+        androidProperties: new CloudServicesUnitySettings.AndroidPlatformProperties(playServicesApplicationId: "123456789012"));
+
     CloudServices.Initialize(settings);
 }
 ```

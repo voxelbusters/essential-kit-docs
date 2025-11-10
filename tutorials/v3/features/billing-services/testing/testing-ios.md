@@ -1,53 +1,47 @@
 ---
-description: Testing in-app purchases on iOS using Apple’s sandbox environment
+description: Testing in-app purchases in Sandbox environment
 ---
 
-# iOS Sandbox Testing
+# iOS
 
-Essential Kit uses Apple’s sandbox automatically for development builds. Use this condensed guide during verification.
+### Overview
 
-## Quick Troubleshooting Reference
-| Problem | Likely Cause | Quick Fix |
-|---------|-------------|-----------|
-| `InitializeStore` returns no products | App Store Connect agreements or product status incomplete | Accept the latest agreements, finish tax/banking forms, ensure products are “Ready to Submit” or “Approved”. |
-| Prompt lacks `[Environment: Sandbox]` | Production-signed build or wrong account | Install a development/TestFlight build and sign in with the sandbox tester. |
-| Sandbox option missing in Settings | Developer Mode disabled or sandbox build not opened | Connect device to Xcode, enable **Settings → Privacy & Security → Developer Mode**, launch the build once, then re-open Settings. |
-| Pending transaction repeats | Manual finishing without valid verification | Leave **Auto Finish Transactions** enabled, or call `GetTransactions()` and finish manually after server verification. |
-| Promoted product URL opens app but no sheet | Store init incomplete or wrong identifiers | Wait for `InitializeStore` success and double-check bundle/product IDs used in the URL. |
+Use the Apple sandbox environment to test your implementation of in-app purchases using the StoreKit framework on devices using real product information from App Store Connect. Your development-signed apps uses the sandbox environment when you sign in to App Store using a Sandbox Apple ID.
 
-## Setup Checklist
-1. **Create sandbox testers** – App Store Connect → **Users and Access → Sandbox Testers** → add tester → verify email ([guide](https://help.apple.com/app-store-connect/#/dev8b997bee1)).
-2. **Enable Developer Mode** – connect the device to Xcode once, approve the prompt, toggle **Settings → Privacy & Security → Developer Mode**.
-3. **Launch a sandbox build** – run the development build from Xcode or install your TestFlight build that uses Essential Kit.
-4. **Sign in on device** – open **Settings → Developer → Sandbox** (older iOS: **Settings → App Store → Sandbox Account**) and enter the sandbox Apple ID. Keep your personal App Store ID signed in at the top—sandbox credentials are stored separately.
+To create a Sandbox Apple ID or test account in App Store Connect, see [Create a sandbox tester account](https://help.apple.com/app-store-connect/#/dev8b997bee1).
 
-## Run Purchases
-1. Start a purchase flow inside the app.
-2. Confirm the alert displays `[Environment: Sandbox]` and complete the flow.
-3. Verify your Essential Kit callbacks (`OnTransactionStateChange`, reward logic, etc.) fire as expected.
+### Sign In to the App Store with Your Sandbox Apple ID
 
-### Interrupted Purchase Tips
-- Simulate network loss, backgrounding, or force-quitting mid-purchase.
-- With **Auto Finish Transactions** enabled (default), Essential Kit replays pending transactions automatically on next launch.
-- If you disable auto finishing for server checks, call `BillingServices.GetTransactions()` on launch and finish transactions with `BillingServices.FinishTransactions()` manually after verification.
-- Apple’s reference: [Testing interrupted purchases](https://help.apple.com/app-store-connect/#/dev7e89e149d?sub=dev55ecec74d).
+To run your app using your Sandbox Apple ID, do the following, depending on your device and operating system:
+
+* For iOS 12 or later—Build and run your app from Xcode. The sandbox account in Settings appears after the first time you use the device to attempt a purchase on a development-signed app. Sign in using a Sandbox Apple ID. There’s no need to log out of the non-test Apple ID.
+
+### Make an In-App Purchase
+
+The first time you make a purchase in a development-signed app, the system prompts you to sign in to the App Store. Sign in using your Sandbox Apple ID to begin testing. Note that the text `[Environment: Sandbox]` appears as part of the prompt, indicating that you’ve connected to the test environment. If `[Environment: Sandbox]` doesn’t appear, you’re using the production environment. Make sure you’re running a development-signed build of your app; production-signed builds use the production environment.\
+
+
+Additionally you can test interrupted purchases. For more details, check the documentation [here](https://help.apple.com/app-store-connect/#/dev7e89e149d?sub=dev55ecec74d).
 
 {% hint style="danger" %}
-Most “no products” issues stem from unaccepted agreements or incomplete tax setup in App Store Connect. Confirm those pages first.
+If you see **InitializeStore** call doesn't return any billing products in the callback, make sure you finish accepting all pending updated terms and conditions and also finish your **tax agreements** on iTunes connect.
 {% endhint %}
 
-## Promoted In-App Products
-Trigger promoted products via Safari:
+### Test App Store Promoted In-App Products
+
+To test App Store promoted in-app products, use the following URL format:
 
 ```
-itms-services://?action=purchaseIntent&bundleId=YOUR_BUNDLE_ID&productIdentifier=YOUR_PRODUCT_IDENTIFIER
+itms-services://?action=purchaseIntent&bundleId=BUNDLE_IDENTIFIER&productIdentifier=BILLING_PRODUCT_PLATFORM_IDENTIFIER
 ```
 
-Replace the placeholders with your bundle ID and App Store product identifier, open the URL on the device, then wait for `InitializeStore` to finish—the promoted sheet will appear automatically.
+Replace [<mark style="color:green;">BUNDLE\_IDENTIFIER</mark>](#user-content-fn-1)[^1] with your app's bundle identifier and [<mark style="color:green;">BILLING\_PRODUCT\_PLATFORM\_IDENTIFIER</mark>](#user-content-fn-2)[^2] with your native billing product identifier. This will simulate the purchase intent for the promoted in-app product in your app.
 
-## Checklist
-- [ ] Sandbox tester created, verified, and signed in under **Settings → Developer → Sandbox**.
-- [ ] Developer Mode enabled and sandbox build launched successfully.
-- [ ] Purchase prompts show `[Environment: Sandbox]`.
-- [ ] Interrupted purchase recovery confirmed (auto or manual flow).
-- [ ] Promoted purchase URL (if applicable) launches the correct sheet.
+Open the above url with your product details in Safari browser and it opens your app. Once after Billing Services InitializeStore call is successful, it prompts user to purchase the specified billing product.\
+
+
+
+
+[^1]: App's Bundle Identifier
+
+[^2]: Native Product Identifier of the testing Billing Product (the one on Appstore dashboards)
