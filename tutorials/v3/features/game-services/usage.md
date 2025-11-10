@@ -749,10 +749,14 @@ On Android, additional scopes (such as email) require user consent. Inspect `res
 | Error Code | Trigger | Recommended Action |
 | --- | --- | --- |
 | `Unknown` | Platform error, network issue | Retry or display error message to user |
+| `SystemError` | Store/Game Center server reported an internal failure | Retry later and show a user-friendly error |
+| `NetworkError` | No internet connection | Show offline message or cache work |
+| `NotAllowed` | Operation blocked (e.g., parental controls, insufficient privileges) | Disable the action and explain the restriction |
+| `DataNotAvailable` | Requested leaderboard/achievement data missing | Refresh data or hide the UI section temporarily |
+| `NotSupported` | Feature disabled on this platform/configuration | Hide feature entry points for the current platform |
+| `ConfigurationError` | Essential Kit/Game Services settings mismatch | Verify leaderboard/achievement identifiers and platform setup |
+| `InvalidInput` | Invalid leaderboard/achievement ID | Validate IDs against Essential Kit settings |
 | `NotAuthenticated` | Operation requires authentication | Prompt player to sign in |
-| `InvalidInput` | Invalid leaderboard/achievement ID | Verify IDs match settings configuration |
-| `NetworkError` | No internet connection | Show offline message, cache may work |
-| `Cancelled` | User cancelled operation | Handle gracefully, no error UI needed |
 
 **Error Handling Example**:
 
@@ -771,6 +775,22 @@ void HandleGameServicesError(Error error)
             Debug.Log("Show sign-in UI to the player.");
             break;
 
+        case (int)GameServicesErrorCode.NotAllowed:
+            Debug.LogWarning("Operation not allowed for this player or region.");
+            break;
+
+        case (int)GameServicesErrorCode.DataNotAvailable:
+            Debug.LogWarning("Requested data is not available yet.");
+            break;
+
+        case (int)GameServicesErrorCode.NotSupported:
+            Debug.LogWarning("Feature not supported on this platform or configuration.");
+            break;
+
+        case (int)GameServicesErrorCode.ConfigurationError:
+            Debug.LogError("Game Services configuration mismatch.");
+            break;
+
         case (int)GameServicesErrorCode.InvalidInput:
             Debug.Log("Invalid leaderboard or achievement ID");
             break;
@@ -778,6 +798,10 @@ void HandleGameServicesError(Error error)
         case (int)GameServicesErrorCode.NetworkError:
             Debug.Log("No internet connection");
             Debug.Log("Display offline message to the player.");
+            break;
+
+        case (int)GameServicesErrorCode.SystemError:
+            Debug.LogError("Platform reported a server-side error.");
             break;
 
         default:
@@ -810,7 +834,7 @@ Runtime initialization allows creating settings programmatically. Use this for:
 Override default settings at runtime:
 
 ```csharp
-void Awake()
+void Start()
 {
     // Create settings programmatically
     var settings = new GameServicesUnitySettings(
@@ -827,38 +851,35 @@ void Awake()
 LeaderboardDefinition[] CreateDynamicLeaderboards()
 {
     // Example: Load from server or create dynamically
-    return new LeaderboardDefinition[]
+    return new[]
     {
-        new LeaderboardDefinition("tournament_weekly")
-        {
-            IosPlatformProperties = new LeaderboardDefinition.IosPlatformProperties
-            {
-                Id = "com.yourgame.tournament.weekly"
-            },
-            AndroidPlatformProperties = new LeaderboardDefinition.AndroidPlatformProperties
-            {
-                Id = "CgkI_TOURNAMENT_WEEKLY"
-            }
-        }
+        new LeaderboardDefinition(
+            id: "tournament_weekly",
+            platformId: "com.yourgame.tournament.weekly",
+            platformIdOverrides: new RuntimePlatformConstantSet(
+                ios: "com.yourgame.tournament.weekly",
+                tvos: "com.yourgame.tournament.weekly.tv",
+                android: "CgkI_TOURNAMENT_WEEKLY"
+            ),
+            title: "Weekly Tournament Leaderboard")
     };
 }
 
 AchievementDefinition[] CreateDynamicAchievements()
 {
     // Example: Create achievements dynamically
-    return new AchievementDefinition[]
+    return new[]
     {
-        new AchievementDefinition("event_achievement")
-        {
-            IosPlatformProperties = new AchievementDefinition.IosPlatformProperties
-            {
-                Id = "com.yourgame.event.achievement"
-            },
-            AndroidPlatformProperties = new AchievementDefinition.AndroidPlatformProperties
-            {
-                Id = "CgkI_EVENT_ACHIEVEMENT"
-            }
-        }
+        new AchievementDefinition(
+            id: "event_achievement",
+            platformId: "com.yourgame.event.achievement",
+            platformIdOverrides: new RuntimePlatformConstantSet(
+                ios: "com.yourgame.event.achievement",
+                tvos: "com.yourgame.event.achievement.tv",
+                android: "CgkI_EVENT_ACHIEVEMENT"
+            ),
+            title: "Special Event Winner",
+            numOfStepsToUnlock: 1)
     };
 }
 ```
