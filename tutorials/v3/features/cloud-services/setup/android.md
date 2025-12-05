@@ -25,5 +25,5 @@ As cloud services on Android uses google play services(Game Services) internally
 5. **Set** Saved Games to **On**
 6. Click on **Save Changes**
 
-![Enable Saved Games on Google Play Console](../../../.gitbook/assets/CloudServicesiOSEnableAndroid.gif)
+![Enable Saved Games on Google Play Console](/broken/files/-MK4uQ6FsNVQRH6h5jvI)
 

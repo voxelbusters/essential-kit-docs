@@ -8,7 +8,7 @@ For supporting queries tag(which is required for Android 11 support/Target API 3
 
 You need to edit the Android Plugin Version to any of the closest in above versions.
 
-![Update Android Gradle Version to nearest of 3.3.3/3.4.3/3.5.4/4.0.1](../.gitbook/assets/ResolvingQueriesTagAndroid.gif)
+![Update Android Gradle Version to nearest of 3.3.3/3.4.3/3.5.4/4.0.1](/broken/files/qaktjBWDio1W0f4gt6P7)
 
 > Android Gradle Plugin Version and Gradle Version are two different values and not the same.
 

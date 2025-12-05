@@ -23,7 +23,7 @@ Open [Essential Kit Settings](../../../plugin-overview/settings.md) and enable N
 
 
 
-![Details of an Android Notification](<../../../.gitbook/assets/AndroidNotification Details.png>)
+![Details of an Android Notification](/broken/files/-MLDyOmZ9CY6NJI26pFg)
 
 ## Setting custom resources
 

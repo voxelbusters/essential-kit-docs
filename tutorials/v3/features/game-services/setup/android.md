@@ -10,7 +10,7 @@ Plugin uses Google Play Services to provide the functionalities of Game Services
 
 1. Navigate to [Google Play Console](https://play.google.com/apps/publish) and select your app
 2. Select Grow -> Play Games Services -> Setup and Management -> Leaderboards tab on the left and click on **Create Leaderboard**
-3. Input your leaderboard metadata. For more information, see [Leaderboard properties](https://developers.google.com/games/services/common/concepts/leaderboards#the\_basics).
+3. Input your leaderboard metadata. For more information, see [Leaderboard properties](https://developers.google.com/games/services/common/concepts/leaderboards#the_basics).
    * Name
    * Format
    * Icon
@@ -20,7 +20,7 @@ Plugin uses Google Play Services to provide the functionalities of Game Services
    * Order
 4. &#x20;Click Save
 
-![The Id from this page will be the Platform Id in Essential Kit Settings for Android](../../../.gitbook/assets/GameServicesAndroidAddLeaderboard.png)
+![The Id from this page will be the Platform Id in Essential Kit Settings for Android](/broken/files/-MKQb4V2FE85i0IX4AU5)
 
 {% hint style="success" %}
 Once after saving the created leaderboard, you can see the leaderboard id  in the leaderboards section and this will be the **platform Id** for Android platform on [Essential Kit Settings](./#properties) for each leaderboard you configure.
@@ -32,7 +32,7 @@ Once after saving the created leaderboard, you can see the leaderboard id  in th
 
 1. Navigate to [Google Play Console](https://play.google.com/apps/publish) and select your app
 2. Select Grow -> Play Games Services -> Setup and Management -> Achievements tab on the left and click on **Create Achievement**
-3. Input your leaderboard metadata. For more information, see [Leaderboard properties](https://developers.google.com/games/services/common/concepts/leaderboards#the\_basics).
+3. Input your leaderboard metadata. For more information, see [Leaderboard properties](https://developers.google.com/games/services/common/concepts/leaderboards#the_basics).
    * Name
    * Description
    * Icon
@@ -42,7 +42,7 @@ Once after saving the created leaderboard, you can see the leaderboard id  in th
    * List Order
 4. &#x20;Click Save
 
-![The Id from this page will be the Platform Id in Essential Kit Settings for Android](../../../.gitbook/assets/GameServicesAndroidAddAchievement.png)
+![The Id from this page will be the Platform Id in Essential Kit Settings for Android](/broken/files/-MKQdxU0g1v1WpzRPyYV)
 
 
 

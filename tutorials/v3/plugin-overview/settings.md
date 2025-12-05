@@ -45,7 +45,7 @@ General section is common to all features and the values need to be set before y
 | Store Ids         | <p>iOS : Set the "<strong>Apple Id</strong>" value from <a href="https://appstoreconnect.apple.com/apps">Appstore Connect</a> -> Select your App -> General  -> App Information -> General information (check below screenshot ). This is a numeric value. Ex: 1210072186</p><p> </p><p>Android : Set the <strong>package name</strong> of your app here. Ex: com.voxelbusters.essentialkit</p> |
 | Usage Permissions | <p>These are the descriptions shown when a permission is shown on the native platform.<br>Currently these descriptions are shown only on iOS as on Android it's not possible to have custom permission messages.<br></p><p><strong>$productName</strong> will be replaced with the app product name</p>                                                                                         |
 
-![App Store Id for iOS](../.gitbook/assets/AppStoreIdIOS.png)
+![App Store Id for iOS](/broken/files/-MKjueXfgLBGZHtRmfOa)
 
 ## [External Dependency Manager](https://github.com/googlesamples/unity-jar-resolver)
 
@@ -55,5 +55,5 @@ Plugin uses [**External Dependency Manager**](https://github.com/googlesamples/u
 Activate Force Resolve from Assets -> External Dependency Manager -> Android Resolver -> Force Resolve
 {% endhint %}
 
-![Force Resolve Android Libraries](../.gitbook/assets/ExternalDependencyManager.gif)
+![Force Resolve Android Libraries](/broken/files/-MKkT0I7YEwYDDL0CGLi)
 

@@ -1,5 +1,5 @@
 ---
-description: "Billing Services allows cross-platform in-app purchases on mobile devices"
+description: Billing Services allows cross-platform in-app purchases on mobile devices
 ---
 
 # Usage
@@ -7,69 +7,80 @@ description: "Billing Services allows cross-platform in-app purchases on mobile 
 Essential Kit wraps native iOS StoreKit and Android Google Play Billing APIs into a single Unity interface. Essential Kit automatically initializes Billing Services - you just need to connect to the store and start making purchases.
 
 ## Table of Contents
-- [Understanding Product Types](#understanding-product-types)
-- [Import Namespaces](#import-namespaces)
-- [Event Registration](#event-registration)
-- [Store Initialization](#store-initialization)
-- [Making Purchases](#making-purchases)
-- [Restoring Purchases](#restoring-purchases)
-- [Subscriptions](#subscriptions)
-- [Core APIs Reference](#core-apis-reference)
-- [Advanced: Manual Transaction Finishing](#advanced-manual-transaction-finishing)
-- [Advanced: Runtime Product Configuration](#advanced-runtime-product-configuration)
-- [Error Handling](#error-handling)
-- [Related Guides](#related-guides)
+
+* [Understanding Product Types](usage.md#understanding-product-types)
+* [Import Namespaces](usage.md#import-namespaces)
+* [Event Registration](usage.md#event-registration)
+* [Store Initialization](usage.md#store-initialization)
+* [Making Purchases](usage.md#making-purchases)
+* [Restoring Purchases](usage.md#restoring-purchases)
+* [Subscriptions](usage.md#subscriptions)
+* [Core APIs Reference](usage.md#core-apis-reference)
+* [Advanced: Manual Transaction Finishing](usage.md#advanced-manual-transaction-finishing)
+* [Advanced: Runtime Product Configuration](usage.md#advanced-runtime-product-configuration)
+* [Error Handling](usage.md#error-handling)
+* [Related Guides](usage.md#related-guides)
 
 ## Understanding Product Types
 
 Before diving into implementation, it's important to understand the three types of in-app purchase products:
 
 ### Consumable Products
+
 Items that can be purchased multiple times and are "consumed" after use. When a player buys a consumable product, they receive the content, use it, and can purchase it again.
 
 **Examples:**
-- 100 gold coins pack
-- 5 extra lives
-- Health potions
-- Ammo packs
+
+* 100 gold coins pack
+* 5 extra lives
+* Health potions
+* Ammo packs
 
 **Key characteristics:**
-- Can be purchased repeatedly
-- Not restored across devices
-- `IsProductPurchased()` always returns false (no permanent ownership)
+
+* Can be purchased repeatedly
+* Not restored across devices
+* `IsProductPurchased()` always returns false (no permanent ownership)
 
 ### Non-Consumable Products
+
 Permanent purchases that unlock content or features forever. Once purchased, the player owns it permanently across all their devices.
 
 **Examples:**
-- Remove all ads
-- Premium features unlock
-- Character unlocks
-- Level pack access
+
+* Remove all ads
+* Premium features unlock
+* Character unlocks
+* Level pack access
 
 **Key characteristics:**
-- Can only be purchased once
-- Automatically restored on new devices
-- `IsProductPurchased()` returns true after purchase
-- Must provide a "Restore Purchases" button (iOS requirement)
+
+* Can only be purchased once
+* Automatically restored on new devices
+* `IsProductPurchased()` returns true after purchase
+* Must provide a "Restore Purchases" button (iOS requirement)
 
 ### Subscription Products
+
 Time-bound purchases that provide benefits for a specific period (week, month, year). Subscriptions automatically renew until cancelled by the user.
 
 **Examples:**
-- VIP membership (monthly)
-- Battle pass (seasonal)
-- Premium subscription (yearly)
-- Ad-free experience (weekly)
+
+* VIP membership (monthly)
+* Battle pass (seasonal)
+* Premium subscription (yearly)
+* Ad-free experience (weekly)
 
 **Key characteristics:**
-- Recurring billing until cancelled
-- Time-limited access
-- Automatically restored on new devices
-- `IsProductPurchased()` returns true while subscription is active
-- Can include promotional offers (free trial, introductory pricing)
+
+* Recurring billing until cancelled
+* Time-limited access
+* Automatically restored on new devices
+* `IsProductPurchased()` returns true while subscription is active
+* Can include promotional offers (free trial, introductory pricing)
 
 ## Import Namespaces
+
 ```csharp
 using System;
 using System.Collections;
@@ -98,10 +109,10 @@ void OnDisable()
 }
 ```
 
-| Event | Trigger |
-| --- | --- |
-| `OnInitializeStoreComplete` | After `InitializeStore()` fetches product details |
-| `OnTransactionStateChange` | When transaction state changes during purchase |
+| Event                        | Trigger                                               |
+| ---------------------------- | ----------------------------------------------------- |
+| `OnInitializeStoreComplete`  | After `InitializeStore()` fetches product details     |
+| `OnTransactionStateChange`   | When transaction state changes during purchase        |
 | `OnRestorePurchasesComplete` | After `RestorePurchases()` fetches previous purchases |
 
 ## Store Initialization
@@ -111,10 +122,11 @@ void OnDisable()
 Product details like pricing, descriptions, and availability are managed in App Store Connect (iOS) and Google Play Console (Android). These details can change at any time - you might update prices, add new products, or modify descriptions without releasing a new app version.
 
 Store initialization connects to the platform stores and fetches the current, localized product information. This ensures:
-- Players see accurate prices in their local currency
-- Product titles and descriptions match what you configured in store consoles
-- Only active/available products are shown
-- Pricing changes take effect immediately without app updates
+
+* Players see accurate prices in their local currency
+* Product titles and descriptions match what you configured in store consoles
+* Only active/available products are shown
+* Pricing changes take effect immediately without app updates
 
 ### Implementation
 
@@ -219,10 +231,10 @@ void OnTransactionStateChanged(BillingServicesTransactionStateChangeResult resul
 {
     foreach (var transaction in result.Transactions)
     {
-        Debug.Log($"Transaction {transaction.Product.Id}: {transaction.TransactionState} / {transaction.VerificationState}");
+        Debug.Log($"Transaction {transaction.Product.Id}: {transaction.TransactionState} / {transaction.ReceiptVerificationState}");
 
         if (transaction.TransactionState == BillingTransactionState.Purchased &&
-            transaction.VerificationState == BillingReceiptVerificationState.Success)
+            transaction.ReceiptVerificationState == BillingReceiptVerificationState.Success)
         {
             Debug.Log($"Grant content for {transaction.Product.Id}");
         }
@@ -242,25 +254,25 @@ void OnTransactionStateChanged(BillingServicesTransactionStateChangeResult resul
 }
 ```
 
-Always evaluate both `TransactionState` and `VerificationState` before granting rewards. Essential Kit performs local verification automatically, and any remote verification workflow should update the verification state before finishing the transaction.
+Always evaluate both `TransactionState` and `ReceiptVerificationState` before granting rewards. Essential Kit performs local verification automatically, and any remote verification workflow should update the verification state before finishing the transaction.
 
 ### Transaction States
 
 During a purchase, the transaction goes through different states. Understanding these states helps you handle all scenarios properly:
 
-| State | Meaning | Action |
-| --- | --- | --- |
-| `Purchased` | Transaction completed successfully - user paid | Grant content immediately, save player data |
-| `Failed` | Transaction failed or user cancelled | Show error only if not user cancellation |
-| `Restored` | Previously purchased item restored (no new payment) | Grant content without charging user |
-| `Deferred` | Waiting for approval (e.g., parental control, Ask to Buy) | Inform user to wait, transaction will complete later |
+| State       | Meaning                                                   | Action                                               |
+| ----------- | --------------------------------------------------------- | ---------------------------------------------------- |
+| `Purchased` | Transaction completed successfully - user paid            | Grant content immediately, save player data          |
+| `Failed`    | Transaction failed or user cancelled                      | Show error only if not user cancellation             |
+| `Restored`  | Previously purchased item restored (no new payment)       | Grant content without charging user                  |
+| `Deferred`  | Waiting for approval (e.g., parental control, Ask to Buy) | Inform user to wait, transaction will complete later |
 
 **Purchased vs Restored:**
-- `Purchased`: User just paid for the item now
-- `Restored`: User bought this item before on another device/install, getting it back without paying again
 
-**Deferred State:**
-When "Ask to Buy" is enabled (common for child accounts), the purchase request goes to a parent for approval. The transaction enters `Deferred` state until approved or rejected. Handle this gracefully by informing the user their purchase is pending approval.
+* `Purchased`: User just paid for the item now
+* `Restored`: User bought this item before on another device/install, getting it back without paying again
+
+**Deferred State:** When "Ask to Buy" is enabled (common for child accounts), the purchase request goes to a parent for approval. The transaction enters `Deferred` state until approved or rejected. Handle this gracefully by informing the user their purchase is pending approval.
 
 {% hint style="success" %}
 Always save player data immediately after granting purchased content. If the app crashes before saving, the transaction is already finished and won't be delivered again.
@@ -304,10 +316,11 @@ BillingServices.BuyProduct(product, options);
 ### What is Purchase Restoration?
 
 Purchase restoration allows users to regain access to their non-consumable products and active subscriptions without paying again. This is essential when users:
-- Install your game on a new device
-- Reinstall the game after deleting it
-- Switch to a different device (phone to tablet)
-- Lose their game data
+
+* Install your game on a new device
+* Reinstall the game after deleting it
+* Switch to a different device (phone to tablet)
+* Lose their game data
 
 **Important:** Only non-consumable products and subscriptions can be restored. Consumable products (like coins or lives) are not restored because they're meant to be used up and purchased again.
 
@@ -439,14 +452,14 @@ Android subscription data has more constraints than iOS. Some subscription prope
 
 ## Core APIs Reference
 
-| API | Purpose | Returns |
-| --- | --- | --- |
-| `BillingServices.InitializeStore()` | Connect to store and fetch products | Triggers `OnInitializeStoreComplete` |
-| `BillingServices.GetProductWithId(id)` | Get product by ID | `IBillingProduct` or null |
-| `BillingServices.CanMakePayments()` | Check if purchases allowed | `bool` |
-| `BillingServices.IsProductPurchased(id)` | Check ownership (non-consumables/subs only) | `bool` |
-| `BillingServices.BuyProduct(product, options)` | Start purchase flow | Triggers `OnTransactionStateChange` |
-| `BillingServices.RestorePurchases(forceRefresh)` | Restore previous purchases | Triggers `OnRestorePurchasesComplete` |
+| API                                              | Purpose                                     | Returns                               |
+| ------------------------------------------------ | ------------------------------------------- | ------------------------------------- |
+| `BillingServices.InitializeStore()`              | Connect to store and fetch products         | Triggers `OnInitializeStoreComplete`  |
+| `BillingServices.GetProductWithId(id)`           | Get product by ID                           | `IBillingProduct` or null             |
+| `BillingServices.CanMakePayments()`              | Check if purchases allowed                  | `bool`                                |
+| `BillingServices.IsProductPurchased(id)`         | Check ownership (non-consumables/subs only) | `bool`                                |
+| `BillingServices.BuyProduct(product, options)`   | Start purchase flow                         | Triggers `OnTransactionStateChange`   |
+| `BillingServices.RestorePurchases(forceRefresh)` | Restore previous purchases                  | Triggers `OnRestorePurchasesComplete` |
 
 ## Advanced: Manual Transaction Finishing
 
@@ -458,14 +471,13 @@ Only disable Auto Finish Transactions if you have a server-side verification sys
 
 When a purchase completes, the transaction enters a "pending" state in the platform store queue. The transaction must be "finished" (marked as complete) to remove it from this queue. If not finished, the platform will keep trying to deliver it on every app launch.
 
-**Auto Finish Transactions (Default: Enabled):**
-Essential Kit automatically finishes transactions after firing the `OnTransactionStateChange` event. This works for most games and is the recommended approach.
+**Auto Finish Transactions (Default: Enabled):** Essential Kit automatically finishes transactions after firing the `OnTransactionStateChange` event. This works for most games and is the recommended approach.
 
-**Manual Finishing (Advanced):**
-Only disable Auto Finish Transactions if you need to verify purchases with your own server before granting content. This is typically used for:
-- Server-side receipt validation (recommended for Android apps with large user base)
-- High-value purchases requiring fraud prevention
-- Custom backend verification workflows
+**Manual Finishing (Advanced):** Only disable Auto Finish Transactions if you need to verify purchases with your own server before granting content. This is typically used for:
+
+* Server-side receipt validation (recommended for Android apps with large user base)
+* High-value purchases requiring fraud prevention
+* Custom backend verification workflows
 
 ### When to Use Manual Finishing
 
@@ -504,7 +516,7 @@ void ProcessPendingTransactions()
     foreach (var transaction in BillingServices.GetTransactions())
     {
         if (transaction.TransactionState == BillingTransactionState.Purchased &&
-            (transaction.VerificationState == BillingReceiptVerificationState.NotDetermined || transaction.VerificationState == BillingReceiptVerificationState.Success)
+            (transaction.ReceiptVerificationState == BillingReceiptVerificationState.NotDetermined || transaction.ReceiptVerificationState == BillingReceiptVerificationState.Success)
         {
             QueueTransactionForVerification(transaction); // helper shown earlier
         }
@@ -524,16 +536,16 @@ void OnServerVerificationComplete(string transactionId, bool isValid)
     if (!_pendingTransactions.TryGetValue(transactionId, out var transaction))
         return;
 
-    transaction.VerificationState = isValid
+    transaction.ReceiptVerificationState = isValid
         ? BillingReceiptVerificationState.Success
         : BillingReceiptVerificationState.Failed;
 
-    if (transaction.VerificationState == BillingReceiptVerificationState.Success)
+    if (transaction.ReceiptVerificationState == BillingReceiptVerificationState.Success)
         Debug.Log($"Grant content for {transaction.Product.Id}");
 
     BillingServices.FinishTransactions(new[] { transaction });
     _pendingTransactions.Remove(transactionId);
-    Debug.Log($"Finished transaction {transactionId} with verification {transaction.VerificationState}");
+    Debug.Log($"Finished transaction {transactionId} with verification {transaction.ReceiptVerificationState}");
 }
 ```
 
@@ -542,11 +554,13 @@ void OnServerVerificationComplete(string transactionId, bool isValid)
 Platform-specific receipt data available in `IBillingTransaction`:
 
 **iOS:**
-- `transaction.Receipt` - JWS representation for StoreKit2
+
+* `transaction.Receipt` - JWS representation for StoreKit2
 
 **Android:**
-- `transaction.Receipt` - Purchase token
-- `transaction.RawData` - JSON containing signature and transaction data
+
+* `transaction.Receipt` - Purchase token
+* `transaction.RawData` - JSON containing signature and transaction data
 
 ```csharp
 // Android receipt extraction
@@ -588,10 +602,11 @@ void ConfigureProductsAtRuntime()
 ```
 
 **Use cases:**
-- Server-driven product catalogs
-- A/B testing product offerings
-- Dynamic pricing experiments
-- Season passes or time-limited products
+
+* Server-driven product catalogs
+* A/B testing product offerings
+* Dynamic pricing experiments
+* Season passes or time-limited products
 
 {% hint style="info" %}
 Only call `BillingServices.Initialize()` for advanced runtime configuration scenarios. Essential Kit automatically initializes using the settings asset for standard usage.
@@ -605,19 +620,20 @@ Runtime product configuration is for advanced scenarios only. For most games, co
 
 Common error codes and recommended actions:
 
-| Error Code | Trigger | Action |
-| --- | --- | --- |
-| `PaymentCancelled` | User cancelled | No action needed |
-| `PaymentNotAllowed` | Purchases disabled | Show message about restrictions |
+| Error Code            | Trigger              | Action                          |
+| --------------------- | -------------------- | ------------------------------- |
+| `PaymentCancelled`    | User cancelled       | No action needed                |
+| `PaymentNotAllowed`   | Purchases disabled   | Show message about restrictions |
 | `ProductNotAvailable` | Product not in store | Verify product ID configuration |
-| `NetworkNotAvailable` | No connection | Prompt to check connection |
-| `Unknown` | Platform error | Log and retry |
+| `NetworkNotAvailable` | No connection        | Prompt to check connection      |
+| `Unknown`             | Platform error       | Log and retry                   |
 
 {% hint style="success" %}
 Ready to test your implementation? Head to the [Testing Guide](testing/) to learn how to test purchases in sandbox environments before going live.
 {% endhint %}
 
 ## Related Guides
-- Demo scene: `Assets/Plugins/VoxelBusters/EssentialKit/Examples/Scenes/BillingServicesDemo.unity`
-- Pair with **Network Services** to verify connectivity before purchases
-- Use **Native UI** for custom purchase confirmation dialogs
+
+* Demo scene: `Assets/Plugins/VoxelBusters/EssentialKit/Examples/Scenes/BillingServicesDemo.unity`
+* Pair with **Network Services** to verify connectivity before purchases
+* Use **Native UI** for custom purchase confirmation dialogs

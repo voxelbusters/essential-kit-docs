@@ -21,7 +21,7 @@ Configure  in‑app purchases in[ App Store Connect](https://appstoreconnect.app
 ### Product Id you set in step 5 needs to be used as Platform Id in [Billing Services settings](./#billing-products) for iOS platform.
 {% endhint %}
 
-![Creating In-App purchases in App Store Connect](../../../.gitbook/assets/InAppAppStoreConnect.png)
+![Creating In-App purchases in App Store Connect](/broken/files/-MJrjjpbWJV4w3Vsd6vl)
 
 <figure><img src="../../../.gitbook/assets/ios-platform-identifiers.jpg" alt=""><figcaption><p>Identifiers you need to fill for Platform Id's in Essential Kit</p></figcaption></figure>
 
@@ -29,7 +29,7 @@ Configure  in‑app purchases in[ App Store Connect](https://appstoreconnect.app
 
 When you are done testing your in-app purchases, you'll be able to submit for review. Check its in-app purchase status to make sure you aren't missing information and ensure that you've selected your in-app purchase pricing. Products are reviewed when you submit your app as part of the app review process.
 
-![Submit In-App purchases for review](../../../.gitbook/assets/BillingServicesSubmitIAP.gif)
+![Submit In-App purchases for review](/broken/files/-MJrt4Zgn3uKZSn8riDr)
 
 
 
