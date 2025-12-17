@@ -193,6 +193,8 @@ public void LoadMoreIfNeeded()
 `LoadImage` is async and safe to call on the main thread. Provide a default sprite while the callback resolves.
 
 ```csharp
+[SerializeField] private Texture _placeholder;
+
 void ShowAvatar(IAddressBookContact contact, RawImage target)
 {
     target.texture = _placeholder;

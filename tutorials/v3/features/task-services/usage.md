@@ -51,10 +51,14 @@ User presses Home → Task Services requests background time → App continues f
 The primary method protects any async Task from backgrounding interruption:
 
 ```csharp
+using System.Threading.Tasks;
+using UnityEngine;
+
+// API Signature:
 public static Task AllowRunningApplicationInBackgroundUntilTaskCompletion(
     Task task,
     Callback onBackgroundProcessingQuotaWillExpireCallback = null
-)
+);
 ```
 
 | Parameter | Type | Purpose |
@@ -69,10 +73,23 @@ public static Task AllowRunningApplicationInBackgroundUntilTaskCompletion(
 For tasks that return values:
 
 ```csharp
-public static Task<TResult> AllowRunningApplicationInBackgroundUntilTaskCompletion<TResult>(
-    Task<TResult> task,
-    Callback onBackgroundProcessingQuotaWillExpireCallback = null
-)
+using System.Threading.Tasks;
+using UnityEngine;
+
+// Example: Using the generic overload with a task that returns a value
+// Assume you have a PlayerData class and SavePlayerDataAsync() method defined in your game code
+async Task<PlayerData> SavePlayerDataWithBackgroundSupport()
+{
+    Task<PlayerData> saveTask = SavePlayerDataAsync();
+
+    return await TaskServices.AllowRunningApplicationInBackgroundUntilCompletion(
+        saveTask,
+        onBackgroundProcessingQuotaWillExpireCallback: () =>
+        {
+            Debug.Log("Background time expiring - save operation finishing");
+        }
+    );
+}
 ```
 
 Preserves the task result while providing background protection.
@@ -81,16 +98,21 @@ Preserves the task result while providing background protection.
 
 Task Services provides extension methods on `Task` and `Task<TResult>`:
 
+**API Signatures:**
 ```csharp
+using System.Threading.Tasks;
+using UnityEngine;
+
+// Extension method that allows running application in background until task completion
 public static Task AllowRunningApplicationInBackgroundUntilCompletion(
-    this Task task,
-    Callback onBackgroundProcessingQuotaWillExpireCallback = null
-)
+            this Task task,
+            Callback onBackgroundProcessingQuotaWillExpireCallback = null
+);
 
 public static Task<TResult> AllowRunningApplicationInBackgroundUntilCompletion<TResult>(
     this Task<TResult> task,
     Callback onBackgroundProcessingQuotaWillExpireCallback = null
-)
+);
 ```
 
 Extension methods provide identical functionality with more convenient syntax.
@@ -100,6 +122,8 @@ Extension methods provide identical functionality with more convenient syntax.
 Protect save operations when the user backgrounds the app:
 
 ```csharp
+using System.Threading.Tasks;
+using UnityEngine;
 using VoxelBusters.EssentialKit;
 using VoxelBusters.CoreLibrary;
 
@@ -186,6 +210,7 @@ Use extension methods for cleaner, more readable code:
 ```csharp
 using VoxelBusters.EssentialKit;
 using VoxelBusters.CoreLibrary;
+using System.Threading.Tasks;
 
 public class AnalyticsManager : MonoBehaviour
 {
@@ -246,6 +271,7 @@ Protect operations that return results:
 ```csharp
 using VoxelBusters.EssentialKit;
 using VoxelBusters.CoreLibrary;
+using System.Threading.Tasks;
 
 public class CloudSyncManager : MonoBehaviour
 {
@@ -327,6 +353,7 @@ You can protect multiple independent tasks:
 ```csharp
 using VoxelBusters.EssentialKit;
 using VoxelBusters.CoreLibrary;
+using System.Threading.Tasks;
 
 public class DataManager : MonoBehaviour
 {
@@ -384,6 +411,7 @@ Always implement quota expiration callbacks for graceful degradation:
 ```csharp
 using VoxelBusters.EssentialKit;
 using VoxelBusters.CoreLibrary;
+using System.Threading.Tasks;
 
 public class RobustSaveManager : MonoBehaviour
 {

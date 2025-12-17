@@ -214,23 +214,22 @@ If you encounter unexpected behavior, run `Assets/Plugins/VoxelBusters/Essential
 For CI/CD pipelines, consider these automated checks:
 
 ```csharp
-// Unit test example: Verify notification creation
-[Test]
-public void TestNotificationCreation()
+// Unit test style example: Verify notification creation
+public void ExampleNotificationCreationTest()
 {
     var notification = NotificationBuilder.CreateNotification("test_id")
         .SetTitle("Test Title")
         .SetBody("Test Body")
         .Create();
 
-    Assert.IsNotNull(notification);
-    Assert.AreEqual("test_id", notification.Id);
-    Assert.AreEqual("Test Title", notification.Title);
+    bool isValid = notification != null &&
+                   notification.Id == "test_id" &&
+                   notification.Title == "Test Title";
+    Debug.Log($"Notification creation valid: {isValid}");
 }
 
-// Integration test: Verify permission request flow
-[UnityTest]
-public IEnumerator TestPermissionRequest()
+// Integration-style example: Verify permission request flow
+public IEnumerator ExamplePermissionRequestCheck()
 {
     bool callbackReceived = false;
     NotificationPermissionStatus status = NotificationPermissionStatus.NotDetermined;
@@ -245,7 +244,7 @@ public IEnumerator TestPermissionRequest()
 
     yield return new WaitForSeconds(2f);
 
-    Assert.IsTrue(callbackReceived, "Permission callback should fire");
+    Debug.Log($"Permission callback fired: {callbackReceived}, status: {status}");
 }
 ```
 

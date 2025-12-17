@@ -60,6 +60,7 @@ This guide distils the migration into the few changes you actually need to make.
    * **Product Type** – Consumable, NonConsumable, or Subscription.
    * **Store IDs** – iOS and Google Play identifiers exactly as created on each store.
    * **Payouts** (optional)– each reward is `Category + Variant + Quantity`. Use `Currency` for virtual currencies and name the variant clearly (e.g. `coins_primary`).
+   * **Android Public Key** – paste the Base64-encoded RSA key from **Play Console → Monetization → Licensing** so Essential Kit can validate Google Play receipts.
 
 Example:
 
@@ -74,7 +75,7 @@ Payouts:
     Quantity: 100
 ```
 
-> Essential Kit keeps the category and variant so you can differentiate primary/secondary currencies later.
+> Essential Kit keeps the category and variant so you can differentiate primary/secondary currencies later. On Android, an incorrect or missing public key leads to purchases staying in a pending state or failing verification, so double-check the value you paste.
 
 ## 4. Replace Initialisation Code
 
@@ -104,7 +105,7 @@ public sealed class StoreBootstrap : MonoBehaviour
     {
         if (error != null)
         {
-            Debug.LogError($"Billing store init failed: {error.LocalizedDescription}");
+            Debug.LogError($"Billing store init failed: {error.Description}");
             return;
         }
 
@@ -210,7 +211,7 @@ private void HandleRestoreComplete(BillingServicesRestorePurchasesResult result,
 {
     if (error != null)
     {
-        Debug.LogError($"Restore failed: {error.LocalizedDescription}");
+        Debug.LogError($"Restore failed: {error.Description}");
         return;
     }
 

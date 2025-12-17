@@ -11,11 +11,15 @@ WebView requires native iOS WKWebView or Android WebView components which are no
 Use custom URL schemes for web-to-Unity communication:
 
 ```csharp
-// In Unity: Register custom scheme
-webView.AddURLScheme("mygame");
+// Assume you have a webView instance (IWebView) already created
+void SetupWebViewCommunication()
+{
+    // In Unity: Register custom scheme
+    webView.AddURLScheme("mygame");
 
-// In HTML: Use custom URL to send data
-<button onclick='window.location="mygame://action?data=value"'>Send to Unity</button>
+    // In HTML: Use custom URL to send data
+    // <button onclick='window.location="mygame://action?data=value"'>Send to Unity</button>
+}
 
 // In Unity: Receive the URL
 void OnURLSchemeMatchFound(string url)

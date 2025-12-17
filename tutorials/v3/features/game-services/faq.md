@@ -305,6 +305,12 @@ Both Game Center and Play Games cache data when offline:
 Check the `Error` object in callbacks:
 
 ```csharp
+struct CompletionResult
+{
+    public bool Success;
+    public Error Error;
+}
+
 void OnComplete(CompletionResult result)
 {
     if (!result.Success)

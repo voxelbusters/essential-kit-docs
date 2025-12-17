@@ -278,20 +278,23 @@ AppUpdater.PromptUpdate(options, (progress, error) =>
 - Requires valid package name in Essential Kit Settings
 
 ```csharp
-// Android prompt flow with progress
-AppUpdater.PromptUpdate(options, (progress, error) =>
+void PromptUpdateWithProgress()
 {
-    // Android fires multiple times with increasing progress
+    // Android prompt flow with progress
+    AppUpdater.PromptUpdate(options, (progress, error) =>
+    {
+        // Android fires multiple times with increasing progress
         if (progress > 0 && progress < 1.0f)
         {
             Debug.Log($"Downloading: {progress * 100}%");
             Debug.Log($"Update progress bar to {progress * 100}%.");
         }
-    else if (progress >= 1.0f)
-    {
-        Debug.Log("Download complete, installing...");
-    }
-});
+        else if (progress >= 1.0f)
+        {
+            Debug.Log("Download complete, installing...");
+        }
+    });
+}
 ```
 
 ### Install Downloaded Update (Android)

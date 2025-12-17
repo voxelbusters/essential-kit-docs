@@ -81,14 +81,14 @@ using VoxelBusters.EssentialKit;
 
 ```csharp
 // OLD: Google Play Games initialization
-void Start()
+void InitializeLegacyPlugin()
 {
     PlayGamesPlatform.Activate();
     Social.localUser.Authenticate(OnAuthenticate);
 }
 
 // NEW: Essential Kit initialization (optional - auto-initializes from settings)
-void Start()
+void InitializeEssentialKit()
 {
     // Subscribe to auth status changes
     GameServices.OnAuthStatusChange += OnAuthStatusChange;

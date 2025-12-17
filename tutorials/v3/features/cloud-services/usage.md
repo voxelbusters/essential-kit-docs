@@ -240,39 +240,47 @@ public class GameSaveData
     public string version = "1.0";
 }
 
-void SaveGame()
+public class CloudSaveExample : MonoBehaviour
 {
-    GameSaveData saveData = new GameSaveData
+    private int currentLevel;
+    private long playerCoins;
+
+    void SaveGame()
     {
-        level = currentLevel,
-        playerPosition = new float[] { transform.position.x, transform.position.y, transform.position.z },
-        unlockedItems = GetUnlockedItems(),
-        coins = playerCoins
-    };
+        GameSaveData saveData = new GameSaveData
+        {
+            level = currentLevel,
+            playerPosition = new float[] { transform.position.x, transform.position.y, transform.position.z },
+            unlockedItems = GetUnlockedItems(),
+            coins = playerCoins
+        };
 
-    // Serialize to JSON
-    string json = JsonUtility.ToJson(saveData);
-    CloudServices.SetString("complete_save_data", json);
+        // Serialize to JSON
+        string json = JsonUtility.ToJson(saveData);
+        CloudServices.SetString("complete_save_data", json);
 
-    // Optional: sync to cloud at checkpoints
-    CloudServices.Synchronize();
-}
-
-void LoadGame()
-{
-    string json = CloudServices.GetString("complete_save_data");
-
-    if (!string.IsNullOrEmpty(json))
-    {
-        GameSaveData saveData = JsonUtility.FromJson<GameSaveData>(json);
-        currentLevel = saveData.level;
-        // Restore other game state
-        Debug.Log($"Loaded game at level {saveData.level}");
+        // Optional: sync to cloud at checkpoints
+        CloudServices.Synchronize();
     }
-    else
+
+    void LoadGame()
     {
-        Debug.Log("No save data found - starting fresh");
+        string json = CloudServices.GetString("complete_save_data");
+
+        if (!string.IsNullOrEmpty(json))
+        {
+            GameSaveData saveData = JsonUtility.FromJson<GameSaveData>(json);
+            currentLevel = saveData.level;
+            // Restore other game state
+            Debug.Log($"Loaded game at level {saveData.level}");
+        }
+        else
+        {
+            Debug.Log("No save data found - starting fresh");
+        }
     }
+
+    List<string> GetUnlockedItems() => new List<string>();
 }
 ```
 

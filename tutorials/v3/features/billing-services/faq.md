@@ -129,24 +129,27 @@ Verify all store setup steps are complete and products are live in production.
 Use the `Payouts` property in product definitions:
 
 ```csharp
-// In Essential Kit Settings or runtime configuration
-new BillingProductDefinition("mega_pack", BillingProductType.Consumable)
+void ConfigureAndGrantMultiCurrencyProduct()
 {
-    Payouts = new BillingProductPayoutDefinition[]
+    // In Essential Kit Settings or runtime configuration
+    var productDef = new BillingProductDefinition("mega_pack", BillingProductType.Consumable)
     {
-        new BillingProductPayoutDefinition { Type = "coins", Quantity = 500 },
-        new BillingProductPayoutDefinition { Type = "gems", Quantity = 100 }
-    }
-}
+        Payouts = new BillingProductPayoutDefinition[]
+        {
+            new BillingProductPayoutDefinition { Type = "coins", Quantity = 500 },
+            new BillingProductPayoutDefinition { Type = "gems", Quantity = 100 }
+        }
+    };
 
-// In your grant content code
-var product = BillingServices.GetProductWithId("mega_pack");
-foreach (var payout in product.PayoutDefinitions)
-{
-    switch (payout.Type)
+    // In your grant content code
+    var product = BillingServices.GetProductWithId("mega_pack");
+    foreach (var payout in product.PayoutDefinitions)
     {
-        case "coins": PlayerData.AddCoins(payout.Quantity); break;
-        case "gems": PlayerData.AddGems(payout.Quantity); break;
+        switch (payout.Type)
+        {
+            case "coins": PlayerData.AddCoins(payout.Quantity); break;
+            case "gems": PlayerData.AddGems(payout.Quantity); break;
+        }
     }
 }
 ```
@@ -178,13 +181,16 @@ If the sample works but your scene does not, compare:
 Use non-consumable products with custom time tracking:
 
 ```csharp
-string currentSeasonId = "season_pass_2024_q1";
-
-if (BillingServices.IsProductPurchased(currentSeasonId))
+void CheckSeasonPassAccess()
 {
-    if (IsSeasonActive(currentSeasonId))
+    string currentSeasonId = "season_pass_2024_q1";
+
+    if (BillingServices.IsProductPurchased(currentSeasonId))
     {
-        Debug.Log("Grant season pass rewards to the player.");
+        if (IsSeasonActive(currentSeasonId))
+        {
+            Debug.Log("Grant season pass rewards to the player.");
+        }
     }
 }
 

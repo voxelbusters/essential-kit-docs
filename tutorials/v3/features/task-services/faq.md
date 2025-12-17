@@ -19,6 +19,9 @@ Essential Kit cannot extend these limits—they are enforced by the operating sy
 Implement a **checkpoint/resume pattern**:
 
 ```csharp
+using System.Threading.Tasks;
+using UnityEngine;
+
 async void OnApplicationPause(bool pauseStatus)
 {
     if (pauseStatus)
@@ -63,6 +66,10 @@ void ClearCheckpoint()
     PlayerPrefs.DeleteKey("SaveStage");
     PlayerPrefs.Save();
 }
+
+Task SaveCriticalData() => Task.CompletedTask;
+Task SaveSecondaryData() => Task.CompletedTask;
+Task SaveOptionalData() => Task.CompletedTask;
 ```
 
 On next app launch, check for incomplete saves and resume from the checkpoint.
@@ -71,6 +78,9 @@ On next app launch, check for incomplete saves and resume from the checkpoint.
 **No**. All tasks share the same background quota (30s on iOS, minutes on Android). Calling `AllowRunningApplicationInBackgroundUntilTaskCompletion` multiple times doesn't extend the total available time.
 
 ```csharp
+using System.Threading.Tasks;
+using UnityEngine;
+
 // Both tasks share the same 30-second iOS quota
 var task1 = UploadAnalyticsAsync();
 var task2 = SaveGameDataAsync();
@@ -158,7 +168,7 @@ Common causes:
 **1. Missing await**:
 ```csharp
 // ❌ Wrong - task not awaited
-void OnApplicationPause(bool pauseStatus)
+void OnApplicationPauseWithoutAwait(bool pauseStatus)
 {
     if (pauseStatus)
     {
@@ -169,7 +179,7 @@ void OnApplicationPause(bool pauseStatus)
 }
 
 // ✅ Correct - task awaited
-async void OnApplicationPause(bool pauseStatus)
+async void OnApplicationPauseWithAwait(bool pauseStatus)
 {
     if (pauseStatus)
     {
@@ -370,6 +380,9 @@ The quota expiration callback will **not** be called if the task completes succe
 Create a deliberately long task on iOS:
 
 ```csharp
+using System.Threading.Tasks;
+using UnityEngine;
+
 async void TestQuotaExpiration()
 {
     var longTask = Task.Delay(60000); // 60 seconds - exceeds iOS limit

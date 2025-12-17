@@ -24,7 +24,7 @@ Once you get the results from above methods, you need to add content to the mess
 
 ```csharp
 MessageComposer composer = MessageComposer.CreateInstance();
-composer.SetRecipients(new string[2]{"abc@gmail.com", 9138393x03});
+composer.SetRecipients(new string[] {"abc@gmail.com", "9138393003"});
 composer.SetSubject("Subject");
 composer.SetBody("Body");
 composer.AddScreenshot("screenshot file name");
@@ -38,7 +38,7 @@ composer.Show();
 
 ```csharp
 MessageComposer composer = MessageComposer.CreateInstance();
-composer.SetRecipients(new string[2]{"abc@gmail.com", 9138393x03});
+composer.SetRecipients(new string[] {"abc@gmail.com", "9138393003"});
 composer.SetSubject("Subject");
 composer.SetBody("Body");
 composer.SetCompletionCallback((result, error) => {
@@ -50,8 +50,11 @@ composer.Show();
 ### Share an image
 
 ```csharp
+// Assume you have a Texture2D image reference
+Texture2D image = yourImageTexture; // Replace with your actual image source
+
 MessageComposer composer = MessageComposer.CreateInstance();
-composer.SetRecipients(new string[2]{"abc@gmail.com", 9138393x03});
+composer.SetRecipients(new string[] {"abc@gmail.com", "9138393003"});
 composer.AddImage(image, "name");
 composer.SetCompletionCallback((result, error) => {
     Debug.Log("Message composer was closed. Result code: " + result.ResultCode);

@@ -121,13 +121,16 @@ Use cases:
 
 Example:
 ```csharp
-if (!NetworkServices.IsInternetActive)
+void CheckNetworkStatus()
 {
-    Debug.Log("Show dialog: No internet connection");
-}
-else if (!NetworkServices.IsHostReachable)
-{
-    Debug.Log("Show dialog: Server temporarily unavailable");
+    if (!NetworkServices.IsInternetActive)
+    {
+        Debug.Log("Show dialog: No internet connection");
+    }
+    else if (!NetworkServices.IsHostReachable)
+    {
+        Debug.Log("Show dialog: Server temporarily unavailable");
+    }
 }
 ```
 

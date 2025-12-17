@@ -65,21 +65,39 @@ Local notifications fire based on triggers you specify when scheduling:
 **Time Interval Triggers** fire after a specific delay from scheduling. Use for relative timing like cooldowns and energy refills.
 
 ```csharp
-// Fire 30 minutes from now
-.SetTimeIntervalNotificationTrigger(1800) // seconds
+void ConfigureTimeIntervalNotifications()
+{
+    // Create a notification builder instance
+    var notificationBuilder = new NotificationBuilder()
+        .SetId("time_interval_notification")
+        .SetTitle("Reminder")
+        .SetBody("Your notification message");
 
-// Fire every hour repeatedly
-.SetTimeIntervalNotificationTrigger(3600, repeats: true)
+    // Fire 30 minutes from now
+    notificationBuilder.SetTimeIntervalNotificationTrigger(1800); // seconds
+
+    // Fire every hour repeatedly
+    notificationBuilder.SetTimeIntervalNotificationTrigger(3600, repeats: true);
+}
 ```
 
 **Calendar Triggers** fire at specific clock times. Use for daily rewards, weekly events, and scheduled content.
 
 ```csharp
-// Fire every day at 6 PM
-var components = new DateComponents();
-components.Hour = 18;
-components.Minute = 0;
-.SetCalendarNotificationTrigger(components, repeats: true)
+void ConfigureCalendarNotification()
+{
+    // Create a notification builder instance
+    var notificationBuilder = new NotificationBuilder()
+        .SetId("daily_reminder")
+        .SetTitle("Daily Reminder")
+        .SetBody("Your daily notification");
+
+    // Fire every day at 6 PM
+    var components = new DateComponents();
+    components.Hour = 18;
+    components.Minute = 0;
+    notificationBuilder.SetCalendarNotificationTrigger(components, repeats: true);
+}
 ```
 
 ### Notification Lifecycle
@@ -197,19 +215,22 @@ void OnPermissionResult(NotificationServicesRequestPermissionResult result, Erro
 Use `GetSettings()` only when you need to inspect the exact state **before** calling the main operation, or to customize UI messaging:
 
 ```csharp
-NotificationServices.GetSettings((result) =>
+void CheckNotificationPermissionStatus()
 {
-    Debug.Log($"Permission status: {result.Settings.PermissionStatus}");
+    NotificationServices.GetSettings((result) =>
+    {
+        Debug.Log($"Permission status: {result.Settings.PermissionStatus}");
 
-    if (result.Settings.PermissionStatus == NotificationPermissionStatus.NotDetermined)
-    {
-        Debug.Log("Permission not requested yet");
-    }
-    else if (result.Settings.PermissionStatus == NotificationPermissionStatus.Authorized)
-    {
-        Debug.Log("Permission granted - can schedule notifications");
-    }
-});
+        if (result.Settings.PermissionStatus == NotificationPermissionStatus.NotDetermined)
+        {
+            Debug.Log("Permission not requested yet");
+        }
+        else if (result.Settings.PermissionStatus == NotificationPermissionStatus.Authorized)
+        {
+            Debug.Log("Permission granted - can schedule notifications");
+        }
+    });
+}
 ```
 
 **Permission status values:**
@@ -270,14 +291,23 @@ void ScheduleEnergyNotification()
 Use when timing is relative to the current moment:
 
 ```csharp
-// Fire once after 1 hour
-.SetTimeIntervalNotificationTrigger(3600)
+void ConfigureTimeIntervalNotificationTriggers()
+{
+    // Create a notification builder instance
+    var notificationBuilder = new NotificationBuilder()
+        .SetId("interval_notification")
+        .SetTitle("Scheduled Reminder")
+        .SetBody("Your scheduled notification");
 
-// Fire every 24 hours (daily)
-.SetTimeIntervalNotificationTrigger(86400, repeats: true)
+    // Fire once after 1 hour
+    notificationBuilder.SetTimeIntervalNotificationTrigger(3600);
 
-// Fire once after 30 minutes
-.SetTimeIntervalNotificationTrigger(TimeSpan.FromMinutes(30).TotalSeconds)
+    // Fire every 24 hours (daily)
+    notificationBuilder.SetTimeIntervalNotificationTrigger(86400, repeats: true);
+
+    // Fire once after 30 minutes
+    notificationBuilder.SetTimeIntervalNotificationTrigger(TimeSpan.FromMinutes(30).TotalSeconds);
+}
 ```
 
 **Common patterns:**
@@ -674,10 +704,15 @@ void OnApplicationFocus(bool hasFocus)
 }
 
 // Increment badge when scheduling notification
-var notification = NotificationBuilder.CreateNotification("daily_reward")
-    .SetTitle("Daily Reward Available!")
-    .SetBadge(1) // Show badge count in notification
-    .Create();
+void ScheduleBadgeNotification()
+{
+    var notification = NotificationBuilder.CreateNotification("daily_reward")
+        .SetTitle("Daily Reward Available!")
+        .SetBadge(1) // Show badge count in notification
+        .Create();
+
+    NotificationServices.ScheduleNotification(notification);
+}
 ```
 
 {% hint style="warning" %}

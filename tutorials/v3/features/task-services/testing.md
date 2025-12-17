@@ -184,6 +184,10 @@ If background tasks don't complete or quota expires prematurely:
 Add extensive logging to track task progress:
 
 ```csharp
+using System.Threading.Tasks;
+using UnityEngine;
+using VoxelBusters.EssentialKit;
+
 async void OnApplicationPause(bool pauseStatus)
 {
     if (pauseStatus)

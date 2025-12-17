@@ -420,10 +420,13 @@ void UpdateAchievementProgress(string achievementId, int currentProgress, int ma
     });
 }
 
-// Example: Track wins
-int wins = 45;
-int targetWins = 100;
-UpdateAchievementProgress("win_100_games", wins, targetWins); // Reports 45% progress
+void TrackWinsExample()
+{
+    // Example: Track wins
+    int wins = 45;
+    int targetWins = 100;
+    UpdateAchievementProgress("win_100_games", wins, targetWins); // Reports 45% progress
+}
 ```
 
 **Using achievement object** (for advanced control):

@@ -258,6 +258,15 @@ void OnHostReachabilityChange(NetworkServicesHostReachabilityStatusChangeResult 
 
 ### Smart Monitoring Control
 ```csharp
+enum GameState
+{
+    MainMenu,
+    Multiplayer,
+    Leaderboards,
+    LiveEvents,
+    SinglePlayer,
+}
+
 void OnGameStateChanged(GameState newState)
 {
     switch (newState)

@@ -172,8 +172,14 @@ Verify all result codes are handled:
 void TestShareSheetCallbacks()
 {
     SharingServices.ShowShareSheet(
-        callback: (result) =>
+        callback: (result, error) =>
         {
+            if (error != null)
+            {
+                Debug.LogError($"Share sheet error: {error.Description}");
+                return;
+            }
+
             switch (result.ResultCode)
             {
                 case ShareSheetResultCode.Done:
@@ -187,7 +193,10 @@ void TestShareSheetCallbacks()
                     break;
             }
         },
-        ShareItem.Text("Test")
+        shareItems: new[]
+        {
+            ShareItem.Text("Test"),
+        }
     );
 }
 
@@ -197,8 +206,14 @@ void TestMailComposerCallbacks()
         toRecipients: new[] { "test@test.com" },
         subject: "Test",
         body: "Testing mail callbacks",
-        callback: (result) =>
+        callback: (result, error) =>
         {
+            if (error != null)
+            {
+                Debug.LogError($"Mail composer error: {error.Description}");
+                return;
+            }
+
             switch (result.ResultCode)
             {
                 case MailComposerResultCode.Sent:

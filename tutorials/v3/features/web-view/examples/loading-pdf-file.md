@@ -13,12 +13,16 @@ Just prefix your url with "[http://docs.google.com/gview?embedded=true\&url=](ht
 
 
 ```csharp
-string yourPdfUrl  = "https://yourwebsite.com/sample.pdf"
-string urlPath     = "http://docs.google.com/gview?embedded=true&url=" + yourPdfUrl;
+// Assume you have a webView instance (IWebView) already created
+void LoadPdfInWebView()
+{
+    string yourPdfUrl  = "https://yourwebsite.com/sample.pdf";
+    string urlPath     = "http://docs.google.com/gview?embedded=true&url=" + yourPdfUrl;
 
-//...
+    //...
 
-webView.LoadUrl(URLString.URLWithPath(urlPath));
+    webView.LoadUrl(URLString.URLWithPath(urlPath));
+}
 ```
 
 

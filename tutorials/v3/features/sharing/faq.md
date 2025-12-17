@@ -88,23 +88,31 @@ MailComposer requires configured email accounts on the device. If none are confi
 
 **Solution**: Always check before showing:
 ```csharp
-if (MailComposer.CanSendMail())
+void ShowMailComposerOrFallback()
 {
-    SharingServices.ShowMailComposer(
-        toRecipients: new[] { "support@yourgame.com" },
-        subject: "Support Request",
-        body: "Describe your issue.",
-        callback: null
-    );
+    if (MailComposer.CanSendMail())
+    {
+        SharingServices.ShowMailComposer(
+            toRecipients: new[] { "support@yourgame.com" },
+            subject: "Support Request",
+            body: "Describe your issue.",
+            callback: null
+        );
+    }
+    else
+    {
+        ShowMessage("Please configure an email account in Settings");
+        // Offer alternative sharing method
+        SharingServices.ShowShareSheet(
+            callback: null,
+            ShareItem.Text("Support request")
+        ); // Fallback
+    }
 }
-else
+
+void ShowMessage(string message)
 {
-    ShowMessage("Please configure an email account in Settings");
-    // Offer alternative sharing method
-    SharingServices.ShowShareSheet(
-        callback: null,
-        ShareItem.Text("Support request")
-    ); // Fallback
+    Debug.Log(message);
 }
 ```
 
@@ -184,8 +192,20 @@ public void ShareHighQualityScreenshot()
     var screenshot = ShareItem.Screenshot();
 
     SharingServices.ShowShareSheet(
-        callback: (result) => Debug.Log($"Screenshot shared: {result.ResultCode}"),
-        screenshot
+        callback: (result, error) =>
+        {
+            if (error != null)
+            {
+                Debug.LogError($"Screenshot share failed: {error.Description}");
+                return;
+            }
+
+            Debug.Log($"Screenshot shared: {result.ResultCode}");
+        },
+        shareItems: new[]
+        {
+            screenshot,
+        }
     );
 }
 ```
@@ -198,6 +218,12 @@ var imageItem = ShareItem.Image(
     TextureEncodingFormat.PNG, // Lossless
     "highres.png"
 );
+
+Texture2D GetHighResTexture()
+{
+    // Return your captured texture here
+    return Texture2D.blackTexture;
+}
 ```
 
 **Note**: Some platforms (like Twitter, Facebook) may automatically compress images on their end. Essential Kit preserves quality up to the sharing point.
@@ -231,8 +257,20 @@ public void SharePDF()
     );
 
     SharingServices.ShowShareSheet(
-        callback: (result) => Debug.Log($"PDF shared: {result.ResultCode}"),
-        fileItem
+        callback: (result, error) =>
+        {
+            if (error != null)
+            {
+                Debug.LogError($"PDF share failed: {error.Description}");
+                return;
+            }
+
+            Debug.Log($"PDF shared: {result.ResultCode}");
+        },
+        shareItems: new[]
+        {
+            fileItem,
+        }
     );
 }
 
@@ -292,18 +330,21 @@ Platform tracking is limited:
 
 **Best Practice**: Track by composer type rather than destination app:
 ```csharp
+void ShareWithTracking()
+{
+    // Track specific composer
+    SharingServices.ShowSocialShareComposer(
+        SocialShareComposerType.Twitter,
+        callback: (result) => TrackSharing("Twitter", result.ResultCode),
+        ShareItem.Text("Share text")
+    );
+}
+
 void TrackSharing(string composerType, object resultCode)
 {
     Debug.Log($"Sharing via {composerType}: {resultCode}");
     // Send to analytics: composer type, result code, content type
 }
-
-// Track specific composer
-SharingServices.ShowSocialShareComposer(
-    SocialShareComposerType.Twitter,
-    callback: (result) => TrackSharing("Twitter", result.ResultCode),
-    ShareItem.Text("Share text")
-);
 ```
 
 ### Why are my email attachments too large to send?
