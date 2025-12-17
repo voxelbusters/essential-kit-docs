@@ -25,13 +25,35 @@
 var NAVTREE =
 [
   [ "Essential Kit", "index.html", [
-    [ "Introduction", "index.html", null ]
+    [ "Introduction", "index.html", null ],
+    [ "Deprecated List", "da/d58/deprecated.html", null ],
+    [ "Topics", "topics.html", "topics" ],
+    [ "Package Members", "namespacemembers.html", [
+      [ "All", "namespacemembers.html", null ],
+      [ "Functions", "namespacemembers_func.html", null ],
+      [ "Enumerations", "namespacemembers_enum.html", null ]
+    ] ],
+    [ "Classes", "annotated.html", [
+      [ "Class List", "annotated.html", "annotated_dup" ],
+      [ "Class Index", "classes.html", null ],
+      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
+      [ "Class Members", "functions.html", [
+        [ "All", "functions.html", "functions_dup" ],
+        [ "Functions", "functions_func.html", "functions_func" ],
+        [ "Variables", "functions_vars.html", null ],
+        [ "Properties", "functions_prop.html", "functions_prop" ],
+        [ "Events", "functions_evnt.html", null ]
+      ] ]
+    ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"index.html"
+"annotated.html",
+"d4/dc9/class_voxel_busters_1_1_essential_kit_1_1_mail_composer.html#a1ee64fd83fdf8d23e913a00624538910",
+"d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services.html#a262e22e12b359155297430a799125089",
+"dd/dce/class_voxel_busters_1_1_essential_kit_1_1_task_services.html#a3a6cbd7a3d5312969356021e4c748cc7"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
