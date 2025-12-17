@@ -5,34 +5,38 @@ Quick-start guides showing minimal implementations of camera and gallery feature
 ## Available Use Cases
 
 ### 1. [Capture Photo from Camera](use-case-1-capture-photo.md)
-**What it does:** Open camera, take photo, display in game
-**Complexity:** Basic
-**Actions:** 3 (GetCameraAccessStatus, CaptureContent, GetContentTexture)
-**Best for:** Profile pictures, AR features, photo-based gameplay
+
+- **What it does:** Open camera, take photo, display in game
+- **Complexity:** Basic
+- **Actions:** 3 (GetCameraAccessStatus, CaptureContent, GetContentTexture)
+- **Best for:** Profile pictures, AR features, photo-based gameplay
 
 ---
 
 ### 2. [Select Photo from Gallery](use-case-2-gallery-select.md)
-**What it does:** Pick one or more photos from device gallery
-**Complexity:** Basic
-**Actions:** 4 (GetGalleryAccessStatus, SelectContent, GetSelectContentSuccessResult, GetContentTexture)
-**Best for:** Photo frames, avatars, importing user images
+
+- **What it does:** Pick one or more photos from device gallery
+- **Complexity:** Basic
+- **Actions:** 4 (GetGalleryAccessStatus, SelectContent, GetSelectContentSuccessResult, GetContentTexture)
+- **Best for:** Photo frames, avatars, importing user images
 
 ---
 
 ### 3. [Batch Import Multiple Images](use-case-3-batch-import.md)
-**What it does:** Select multiple photos and get file paths for processing
-**Complexity:** Intermediate
-**Actions:** 3 (SelectContent, GetSelectContentSuccessResult, GetContentFilePath)
-**Best for:** Photo albums, batch upload, collage creation
+
+- **What it does:** Select multiple photos and get file paths for processing
+- **Complexity:** Intermediate
+- **Actions:** 3 (SelectContent, GetSelectContentSuccessResult, GetContentFilePath)
+- **Best for:** Photo albums, batch upload, collage creation
 
 ---
 
 ### 4. [Save Image to Device Gallery](use-case-4-save-to-gallery.md)
-**What it does:** Save screenshots or generated images to Photos app
-**Complexity:** Basic
-**Actions:** 2 (GetGalleryAccessStatus, SaveContent)
-**Best for:** Screenshot sharing, saving creations, photo export
+
+- **What it does:** Save screenshots or generated images to Photos app
+- **Complexity:** Basic
+- **Actions:** 2 (GetGalleryAccessStatus, SaveContent)
+- **Best for:** Screenshot sharing, saving creations, photo export
 
 ---
 

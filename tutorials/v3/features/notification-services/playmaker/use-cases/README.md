@@ -5,34 +5,38 @@ Quick-start guides showing minimal implementations of notification features usin
 ## Available Use Cases
 
 ### 1. [Simple Local Reminder](use-case-1-simple-reminder.md)
-**What it does:** Schedule a notification to fire after a time interval (e.g., 1 hour)
-**Complexity:** Basic
-**Actions:** 4 (GetSettings, RequestPermission, CreateBuilder, ScheduleNotification)
-**Best for:** Reminders, timers, delayed alerts
+
+- **What it does:** Schedule a notification to fire after a time interval (e.g., 1 hour)
+- **Complexity:** Basic
+- **Actions:** 4 (GetSettings, RequestPermission, CreateBuilder, ScheduleNotification)
+- **Best for:** Reminders, timers, delayed alerts
 
 ---
 
 ### 2. [Listen and Respond to Notifications](use-case-2-listen-and-respond.md)
-**What it does:** Handle notifications received while app is active or from user tap
-**Complexity:** Intermediate
-**Actions:** 2 (OnNotificationReceived, GetReceivedNotificationInfo)
-**Best for:** Deep linking, content navigation, foreground alerts
+
+- **What it does:** Handle notifications received while app is active or from user tap
+- **Complexity:** Intermediate
+- **Actions:** 2 (OnNotificationReceived, GetReceivedNotificationInfo)
+- **Best for:** Deep linking, content navigation, foreground alerts
 
 ---
 
 ### 3. [Manage Scheduled Notifications](use-case-3-manage-scheduled.md)
-**What it does:** View, cancel specific, or clear all scheduled notifications
-**Complexity:** Basic
-**Actions:** 3 (GetScheduledNotifications, Cancel, CancelAll) + optional (GetScheduledNotificationsSuccessResult, GetScheduledNotificationsError)
-**Best for:** Settings panels, notification management UI
+
+- **What it does:** View, cancel specific, or clear all scheduled notifications
+- **Complexity:** Basic
+- **Actions:** 3 (GetScheduledNotifications, Cancel, CancelAll) + optional (GetScheduledNotificationsSuccessResult, GetScheduledNotificationsError)
+- **Best for:** Settings panels, notification management UI
 
 ---
 
 ### 4. [Push Notification Registration](use-case-4-push-registration.md)
-**What it does:** Register device for remote push and get device token
-**Complexity:** Advanced
-**Actions:** 2 (RequestPermission, OnRegisterForPushNotificationsComplete)
-**Best for:** Server-driven notifications, multiplayer alerts, campaigns
+
+- **What it does:** Register device for remote push and get device token
+- **Complexity:** Advanced
+- **Actions:** 2 (RequestPermission, OnRegisterForPushNotificationsComplete)
+- **Best for:** Server-driven notifications, multiplayer alerts, campaigns
 
 ---
 

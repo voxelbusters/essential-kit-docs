@@ -5,16 +5,19 @@ Quick-start guides for home screen shortcuts and quick actions using PlayMaker c
 ## Available Use Cases
 
 ### 1. [Register And Route](use-case-1-register-and-route.md)
-**What it does:** Register shortcuts and route when user clicks one
-**Actions:** 2 (`AppShortcutsAddShortcut`, `AppShortcutsOnShortcutClicked`)
+
+- **What it does:** Register shortcuts and route when user clicks one
+- **Actions:** 2 (`AppShortcutsAddShortcut`, `AppShortcutsOnShortcutClicked`)
 
 ### 2. [Add/Update/Remove Policy](use-case-2-add-update-remove-policy.md)
-**What it does:** Add/update/remove shortcuts based on app state
-**Actions:** 2 (`AppShortcutsAddShortcut`, `AppShortcutsRemoveShortcut`)
+
+- **What it does:** Add/update/remove shortcuts based on app state
+- **Actions:** 2 (`AppShortcutsAddShortcut`, `AppShortcutsRemoveShortcut`)
 
 ### 3. [Custom Icons](use-case-3-custom-icons.md)
-**What it does:** Use `iconFileName` correctly (via AppShortcuts settings Icons list)
-**Actions:** 1 (`AppShortcutsAddShortcut`)
+
+- **What it does:** Use `iconFileName` correctly (via AppShortcuts settings Icons list)
+- **Actions:** 1 (`AppShortcutsAddShortcut`)
 
 ## Quick Action Reference
 | Action | Purpose |

@@ -5,20 +5,23 @@ Quick-start guides for common “app is suspending” scenarios using PlayMaker 
 ## Available Use Cases
 
 ### 1. [Basic Background Task](use-case-1-basic-background-task.md)
-**What it does:** Start background allowance, save, then end the task.
-**Actions:** 2 (`TaskServicesStartTaskAndAllowInBackground`, `TaskServicesCancelTask`)
+
+- **What it does:** Start background allowance, save, then end the task.
+- **Actions:** 2 (`TaskServicesStartTaskAndAllowInBackground`, `TaskServicesCancelTask`)
 
 ---
 
 ### 2. [Quota Management](use-case-2-quota-management.md)
-**What it does:** Handle quota expiry by switching to an emergency “save minimal” path.
-**Actions:** 2 (`TaskServicesStartTaskAndAllowInBackground`, `TaskServicesCancelTask`)
+
+- **What it does:** Handle quota expiry by switching to an emergency “save minimal” path.
+- **Actions:** 2 (`TaskServicesStartTaskAndAllowInBackground`, `TaskServicesCancelTask`)
 
 ---
 
 ### 3. [Upload Completion](use-case-3-upload-completion.md)
-**What it does:** Try to finish a small upload; if time expires, save-for-retry.
-**Actions:** 2 (`TaskServicesStartTaskAndAllowInBackground`, `TaskServicesCancelTask`)
+
+- **What it does:** Try to finish a small upload; if time expires, save-for-retry.
+- **Actions:** 2 (`TaskServicesStartTaskAndAllowInBackground`, `TaskServicesCancelTask`)
 
 ---
 

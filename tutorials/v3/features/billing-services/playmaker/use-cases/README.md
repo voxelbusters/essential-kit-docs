@@ -8,42 +8,47 @@ Event listener actions like `BillingServicesOnTransactionStateChange` and `Billi
 ## Available Use Cases
 
 ### 1. [Build a Simple Store UI](use-case-1-build-store-ui.md)
-**What it does:** List products with localized prices and gate owned non-consumables
-**Complexity:** Basic
-**Actions:** 4 (InitializeStore, GetInitializeStoreSuccessResult, GetStoreProductInfo, IsProductPurchased)
-**Best for:** Store screens, premium unlock UI, product listing
+
+- **What it does:** List products with localized prices and gate owned non-consumables
+- **Complexity:** Basic
+- **Actions:** 4 (InitializeStore, GetInitializeStoreSuccessResult, GetStoreProductInfo, IsProductPurchased)
+- **Best for:** Store screens, premium unlock UI, product listing
 
 ---
 
 ### 2. [Simple Product Purchase](use-case-2-simple-purchase.md)
-**What it does:** Complete purchase flow with automatic transaction finishing
-**Complexity:** Basic
-**Actions:** 4 (InitializeStore, CanMakePayments, BuyProduct, OnTransactionStateChange)
-**Best for:** Basic IAP implementation, non-consumables, simple consumables
+
+- **What it does:** Complete purchase flow with automatic transaction finishing
+- **Complexity:** Basic
+- **Actions:** 4 (InitializeStore, CanMakePayments, BuyProduct, OnTransactionStateChange)
+- **Best for:** Basic IAP implementation, non-consumables, simple consumables
 
 ---
 
 ### 3. [Restore Previous Purchases](use-case-3-restore-purchases.md)
-**What it does:** Restore non-consumable and subscription purchases on reinstall
-**Complexity:** Intermediate
-**Actions:** 6 (InitializeStore, RestorePurchases, OnRestorePurchasesComplete, GetRestorePurchasesSuccessResult, GetRestoredTransactionInfo, FinishTransactions)
-**Best for:** Account recovery, device transfers, non-consumables
+
+- **What it does:** Restore non-consumable and subscription purchases on reinstall
+- **Complexity:** Intermediate
+- **Actions:** 6 (InitializeStore, RestorePurchases, OnRestorePurchasesComplete, GetRestorePurchasesSuccessResult, GetRestoredTransactionInfo, FinishTransactions)
+- **Best for:** Account recovery, device transfers, non-consumables
 
 ---
 
 ### 4. [Purchase with Manual Verification](use-case-4-manual-verification.md)
-**What it does:** Purchase with server-side receipt verification before granting content
-**Complexity:** Advanced
-**Actions:** 6 (InitializeStore, BuyProduct, OnTransactionStateChange, GetTransactionInfo, SetReceiptVerificationState, FinishTransactions)
-**Best for:** Fraud prevention, high-value purchases, consumable currencies
+
+- **What it does:** Purchase with server-side receipt verification before granting content
+- **Complexity:** Advanced
+- **Actions:** 6 (InitializeStore, BuyProduct, OnTransactionStateChange, GetTransactionInfo, SetReceiptVerificationState, FinishTransactions)
+- **Best for:** Fraud prevention, high-value purchases, consumable currencies
 
 ---
 
 ### 5. [Process Pending Transactions (AutoFinishTransactions OFF)](use-case-5-process-pending-transactions.md)
-**What it does:** Recover and finish pending transactions after a restart/network retry (manual verification setups)
-**Complexity:** Advanced
-**Actions:** 5 (InitializeStore, GetTransactions, GetTransactionInfo, SetReceiptVerificationState, FinishTransactions)
-**Best for:** AutoFinishTransactions OFF, external receipt verification, “stuck in queue” recovery
+
+- **What it does:** Recover and finish pending transactions after a restart/network retry (manual verification setups)
+- **Complexity:** Advanced
+- **Actions:** 5 (InitializeStore, GetTransactions, GetTransactionInfo, SetReceiptVerificationState, FinishTransactions)
+- **Best for:** AutoFinishTransactions OFF, external receipt verification, “stuck in queue” recovery
 
 ---
 

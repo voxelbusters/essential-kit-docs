@@ -5,16 +5,19 @@ Quick-start guides for checking app updates and prompting updates using PlayMake
 ## Available Use Cases
 
 ### 1. [Request Update Info And Prompt](use-case-1-request-update-info-and-prompt.md)
-**What it does:** End-to-end flow: check update status and (optionally) prompt the user to update
-**Actions:** 3 (`AppUpdaterRequestUpdateInfo`, `AppUpdaterGetRequestUpdateInfoSuccessResult`, `AppUpdaterPromptUpdate`)
+
+- **What it does:** End-to-end flow: check update status and (optionally) prompt the user to update
+- **Actions:** 3 (`AppUpdaterRequestUpdateInfo`, `AppUpdaterGetRequestUpdateInfoSuccessResult`, `AppUpdaterPromptUpdate`)
 
 ### 2. [Silent Policy Check](use-case-2-silent-policy-check.md)
-**What it does:** Check for updates periodically without blocking UI
-**Actions:** 2 (`AppUpdaterRequestUpdateInfo`, `AppUpdaterGetRequestUpdateInfoSuccessResult`)
+
+- **What it does:** Check for updates periodically without blocking UI
+- **Actions:** 2 (`AppUpdaterRequestUpdateInfo`, `AppUpdaterGetRequestUpdateInfoSuccessResult`)
 
 ### 3. [Prompt Update (Manual Trigger)](use-case-3-prompt-update.md)
-**What it does:** Trigger a store update prompt from a settings/help screen
-**Actions:** 1 (`AppUpdaterPromptUpdate`)
+
+- **What it does:** Trigger a store update prompt from a settings/help screen
+- **Actions:** 1 (`AppUpdaterPromptUpdate`)
 
 ## Quick Action Reference
 | Action | Purpose |

@@ -5,16 +5,19 @@ Quick-start guides for in-app rating prompts and review requests using PlayMaker
 ## Available Use Cases
 
 ### 1. [Gate And Ask For Review](use-case-1-gate-and-ask-for-review.md)
-**What it does:** Gate by `RateMyAppIsAllowed` and request the native prompt
-**Actions:** 2 (IsAllowed, AskForReview)
+
+- **What it does:** Gate by `RateMyAppIsAllowed` and request the native prompt
+- **Actions:** 2 (IsAllowed, AskForReview)
 
 ### 2. [Manual Ask For Review](use-case-2-manual-ask-for-review.md)
-**What it does:** User-initiated “Rate Us” button
-**Actions:** 1 (AskForReview)
+
+- **What it does:** User-initiated “Rate Us” button
+- **Actions:** 1 (AskForReview)
 
 ### 3. [Confirmation Prompt Handler](use-case-3-confirmation-prompt-handler.md)
-**What it does:** React to confirmation dialog choices (Rate Now / Remind Later / Cancel)
-**Actions:** 1 (OnConfirmationPrompt)
+
+- **What it does:** React to confirmation dialog choices (Rate Now / Remind Later / Cancel)
+- **Actions:** 1 (OnConfirmationPrompt)
 
 ## Quick Action Reference
 | Action | Purpose |

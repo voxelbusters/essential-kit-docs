@@ -5,20 +5,24 @@ Quick-start guides for sharing content via native share mechanisms using PlayMak
 ## Available Use Cases
 
 ### 1. [Screenshot Share](use-case-1-screenshot-share.md)
-**What it does:** Share screenshots with text and URL via native share sheet
-**Actions:** 2 (ShareSheetShow, ShareSheetGetError)
+
+- **What it does:** Share screenshots with text and URL via native share sheet
+- **Actions:** 2 (ShareSheetShow, ShareSheetGetError)
 
 ### 2. [Bug Report Email](use-case-2-bug-report-email.md)
-**What it does:** Send pre-filled email with attachments
-**Actions:** 2 (MailComposerCanSend, MailComposerShow)
+
+- **What it does:** Send pre-filled email with attachments
+- **Actions:** 2 (MailComposerCanSend, MailComposerShow)
 
 ### 3. [SMS Challenge Invite](use-case-3-sms-challenge.md)
-**What it does:** Send challenge codes via text message
-**Actions:** 3 (MessageComposerCanSend, MessageComposerShow, MessageComposerGetError)
+
+- **What it does:** Send challenge codes via text message
+- **Actions:** 3 (MessageComposerCanSend, MessageComposerShow, MessageComposerGetError)
 
 ### 4. [Social Media Post](use-case-4-social-post.md)
-**What it does:** Share directly to Facebook, Twitter, or WhatsApp
-**Actions:** 3 (SocialComposerIsComposerAvailable, SocialShareComposerShow, SocialShareComposerGetError)
+
+- **What it does:** Share directly to Facebook, Twitter, or WhatsApp
+- **Actions:** 3 (SocialComposerIsComposerAvailable, SocialShareComposerShow, SocialShareComposerGetError)
 
 ## Quick Action Reference
 | Action | Purpose |

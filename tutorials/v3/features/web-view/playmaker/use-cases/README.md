@@ -5,42 +5,47 @@ Quick-start guides showing minimal implementations of common WebView tasks using
 ## Available Use Cases
 
 ### 1. [Basic Web Browser](use-case-1-basic-web-browser.md)
-**What it does:** Create a simple in-app web browser with navigation
-**Complexity:** Basic
-**Actions:** 4 (Create, LoadURL, Show, OnLoadFinish)
-**Best for:** In-app content viewing, help pages, news feeds
+
+- **What it does:** Create a simple in-app web browser with navigation
+- **Complexity:** Basic
+- **Actions:** 4 (Create, LoadURL, Show, OnLoadFinish)
+- **Best for:** In-app content viewing, help pages, news feeds
 
 ---
 
 ### 2. [JavaScript Execution & Communication](use-case-2-javascript-bridge.md)
-**What it does:** Execute JavaScript and retrieve results for Unity-WebView interaction
-**Complexity:** Intermediate
-**Actions:** 5 (Create, LoadURL, Show, RunJavaScript, GetRunJavaScriptResult) + optional error extractor
-**Best for:** Dynamic content manipulation, data extraction, interactive features
+
+- **What it does:** Execute JavaScript and retrieve results for Unity-WebView interaction
+- **Complexity:** Intermediate
+- **Actions:** 5 (Create, LoadURL, Show, RunJavaScript, GetRunJavaScriptResult) + optional error extractor
+- **Best for:** Dynamic content manipulation, data extraction, interactive features
 
 ---
 
 ### 3. [Custom URL Schemes](use-case-3-custom-url-schemes.md)
-**What it does:** Register custom URL schemes for WebView-to-Unity communication
-**Complexity:** Intermediate
-**Actions:** 4 (Create, AddURLScheme, LoadURL, OnURLSchemeMatchFound)
-**Best for:** OAuth callbacks, deep linking, custom protocol handling
+
+- **What it does:** Register custom URL schemes for WebView-to-Unity communication
+- **Complexity:** Intermediate
+- **Actions:** 4 (Create, AddURLScheme, LoadURL, OnURLSchemeMatchFound)
+- **Best for:** OAuth callbacks, deep linking, custom protocol handling
 
 ---
 
 ### 4. [Styled WebView with Configuration](use-case-4-styled-web-view.md)
-**What it does:** Customize WebView appearance, size, and behavior
-**Complexity:** Basic
-**Actions:** 4 (Create, Configure, LoadURL, Show) + optional OnLoadFinish
-**Best for:** Branded content, custom UI integration, responsive layouts
+
+- **What it does:** Customize WebView appearance, size, and behavior
+- **Complexity:** Basic
+- **Actions:** 4 (Create, Configure, LoadURL, Show) + optional OnLoadFinish
+- **Best for:** Branded content, custom UI integration, responsive layouts
 
 ---
 
 ### 5. [HTML Content Display](use-case-5-html-content.md)
-**What it does:** Display local HTML content (terms, privacy, help)
-**Complexity:** Basic
-**Actions:** 3 (Create, LoadHtmlString, Show)
-**Best for:** Terms & conditions, privacy policies, offline help
+
+- **What it does:** Display local HTML content (terms, privacy, help)
+- **Complexity:** Basic
+- **Actions:** 3 (Create, LoadHtmlString, Show)
+- **Best for:** Terms & conditions, privacy policies, offline help
 
 ---
 
