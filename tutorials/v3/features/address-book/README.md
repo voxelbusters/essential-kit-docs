@@ -8,6 +8,10 @@ description: >-
 
 Essential Kit's Address Book feature lets Unity teams read device contacts, detect friends already playing, and power invite flows without maintaining platform-specific code. This tutorial covers setup, permissions, core APIs, testing, and troubleshooting so you can safely build contact-powered experiences.
 
+{% hint style="info" %}
+Using PlayMaker? See the PlayMaker guide: [PlayMaker](playmaker/README.md).
+{% endhint %}
+
 {% embed url="https://www.youtube.com/watch?v=Tv85rRIYY_4" %}
 Address Book Video Tutorial
 {% endembed %}

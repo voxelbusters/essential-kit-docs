@@ -7,6 +7,10 @@ icon: wifi-slash
 
 Essential Kit's Network Services feature lets Unity teams monitor network connectivity and server reachability without maintaining platform-specific code. This tutorial walks you through setup, monitoring APIs, testing, and troubleshooting so you can build offline-first experiences and gracefully handle connectivity changes.
 
+{% hint style="info" %}
+Using PlayMaker? See the PlayMaker guide: [PlayMaker](playmaker/README.md).
+{% endhint %}
+
 {% embed url="https://www.youtube.com/watch?v=FNYw6eLPK0s" %}
 Network Services Video Tutorial
 {% endembed %}

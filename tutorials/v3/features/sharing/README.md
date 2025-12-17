@@ -8,6 +8,10 @@ description: >-
 
 Essential Kit's Sharing Services feature provides native sharing capabilities for Unity games across iOS and Android. This tutorial walks you through choosing the right sharing method (ShareSheet, MailComposer, MessageComposer, SocialShareComposer), sharing content types (text, images, screenshots), and implementing viral growth strategies that feel natural to players.
 
+{% hint style="info" %}
+Using PlayMaker? See the PlayMaker guide: [PlayMaker](playmaker/README.md).
+{% endhint %}
+
 {% embed url="https://www.youtube.com/watch?v=KGlEt183pwk" %}
 Sharing Services Video Tutorial
 {% endembed %}

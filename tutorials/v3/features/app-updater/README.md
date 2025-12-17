@@ -8,6 +8,10 @@ description: >-
 
 Essential Kit's App Updater feature lets Unity teams check for app updates and prompt users without maintaining platform-specific code. This tutorial walks you through setup, key APIs, testing, and troubleshooting so you can keep your users on the latest version with confidence.
 
+{% hint style="info" %}
+Using PlayMaker? See the PlayMaker guide: [PlayMaker](playmaker/README.md).
+{% endhint %}
+
 <div><figure><img src="../../.gitbook/assets/app-updater-update-prompt.gif" alt="" width="360"><figcaption><p>Update Prompt</p></figcaption></figure> <figure><img src="../../.gitbook/assets/app-updater-update-installation.gif" alt="" width="360"><figcaption><p>Installation</p></figcaption></figure></div>
 
 {% hint style="info" %}

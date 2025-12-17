@@ -6,6 +6,10 @@ description: Cross-platform web content display for Unity mobile games
 
 Essential Kit's WebView feature lets Unity teams display web content, run JavaScript, and enable web-to-game communication without maintaining platform-specific code. This tutorial walks you through setup, web view APIs, JavaScript interaction, and troubleshooting so you can integrate web content seamlessly.
 
+{% hint style="info" %}
+Using PlayMaker? See the PlayMaker guide: [PlayMaker](playmaker/README.md).
+{% endhint %}
+
 {% embed url="https://www.youtube.com/watch?v=0GSBP3tknT4" %}
 Web View Video Tutorial
 {% endembed %}

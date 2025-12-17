@@ -9,6 +9,10 @@ description: >-
 Essential Kit's Cloud Services feature lets Unity teams sync player data across devices without maintaining platform-specific code. This tutorial walks you through setup, key APIs, testing, and troubleshooting so you can add cloud save functionality with confidence.
 
 {% hint style="info" %}
+Using PlayMaker? See the PlayMaker guide: [PlayMaker](playmaker/README.md).
+{% endhint %}
+
+{% hint style="info" %}
 Looking for a working reference? Open the demo scene at `Assets/Plugins/VoxelBusters/EssentialKit/Examples/Scenes/CloudServicesDemo.unity` and the companion script at `Assets/Plugins/VoxelBusters/EssentialKit/Examples/Scripts/CloudServicesDemo.cs` to see the full API in action.
 {% endhint %}
 

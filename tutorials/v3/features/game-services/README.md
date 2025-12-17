@@ -9,6 +9,10 @@ description: >-
 Essential Kit's Game Services feature lets Unity teams integrate Game Center (iOS) and Google Play Games (Android) without maintaining platform-specific code. This tutorial walks you through setup, authentication, leaderboards, achievements, and troubleshooting so you can add competitive social features with confidence.
 
 {% hint style="info" %}
+Using PlayMaker? See the PlayMaker guide: [PlayMaker](playmaker/README.md).
+{% endhint %}
+
+{% hint style="info" %}
 Looking for a working reference? Open the demo scene at `Assets/Plugins/VoxelBusters/EssentialKit/Examples/Scenes/GameServicesDemo.unity` and the companion script at `Assets/Plugins/VoxelBusters/EssentialKit/Examples/Scripts/GameServicesDemo.cs` to see the full API in action.
 {% endhint %}
 

@@ -9,6 +9,10 @@ description: >-
 Essential Kit's Native UI feature provides platform-native alert dialogs and date/time pickers without maintaining platform-specific code. This tutorial walks you through creating professional UI components that feel native to each platform.
 
 {% hint style="info" %}
+Using PlayMaker? See the PlayMaker guide: [PlayMaker](playmaker/README.md).
+{% endhint %}
+
+{% hint style="info" %}
 Looking for a working reference? Open the demo scene at `Assets/Plugins/VoxelBusters/EssentialKit/Examples/Scenes/NativeUIDemo.unity` and the companion script at `Assets/Plugins/VoxelBusters/EssentialKit/Examples/Scripts/NativeUIDemo.cs` to see the full API in action.
 {% endhint %}
 

@@ -7,6 +7,10 @@ icon: microchip
 
 Essential Kit's Task Services feature lets Unity developers ensure critical operations complete even when users put the app in the background. This tutorial walks you through background task protection, app lifecycle management, and platform-specific limitations so you can implement reliable data persistence and network operations.
 
+{% hint style="info" %}
+Using PlayMaker? See the PlayMaker guide: [PlayMaker](playmaker/README.md).
+{% endhint %}
+
 {% hint style="danger" %}
 **Platform Background Time Limits**: iOS allows approximately 30 seconds of background execution. Android provides a few minutes. Essential Kit cannot extend these system-enforced limits—plan your tasks accordingly.
 {% endhint %}

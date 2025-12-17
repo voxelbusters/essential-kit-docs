@@ -8,6 +8,10 @@ description: >-
 
 Essential Kit's Billing Services feature lets Unity teams monetize mobile games with in-app purchases without maintaining platform-specific code. This tutorial walks you through setup, key APIs, testing, and troubleshooting so you can add consumables, non-consumables, and subscriptions with confidence.
 
+{% hint style="info" %}
+Using PlayMaker? See the PlayMaker guide: [PlayMaker](playmaker/README.md).
+{% endhint %}
+
 {% embed url="https://www.youtube.com/watch?v=s1r2wpeIxjU" %}
 Billing Services Video Tutorial
 {% endembed %}

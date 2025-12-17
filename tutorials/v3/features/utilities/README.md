@@ -7,6 +7,10 @@ description: Cross-platform utilities for app store navigation and system settin
 Essential Kit's Utilities feature provides cross-platform helpers for common mobile operations: opening app store pages and directing users to system settings. This tutorial shows you how to add these essential navigation features without platform-specific code.
 
 {% hint style="info" %}
+Using PlayMaker? See the PlayMaker guide: [PlayMaker](playmaker/README.md).
+{% endhint %}
+
+{% hint style="info" %}
 Looking for a working reference? Check the demo implementations in other Essential Kit feature demos that use Utilities for permission recovery and app store navigation.
 {% endhint %}
 

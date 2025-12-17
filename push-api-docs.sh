@@ -1,78 +1,115 @@
-#!/bin/bash
-# Expecting it to run from api folder
+#!/usr/bin/env bash
+set -euo pipefail
 
-# Define the paths
+script_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+docs_repo_root="$script_dir"
 
-# Branches
+usage() {
+  cat <<'EOF'
+Usage: bash push-api-docs.sh
+
+Publishes updated API docs to the `api-github-pages` branch (GitHub Pages) and syncs PlayMaker docs into `tutorials/v3`.
+
+Runs in the `Docs` repo:
+  1) Sync PlayMaker docs -> tutorials/v3/features/**/playmaker
+  2) Run Doxygen -> api/docs
+  3) Commit+push to origin/master (if changed)
+  4) Copy api/docs/* to api-github-pages branch root and push (if changed)
+EOF
+}
+
+if [[ "${1:-}" == "-h" || "${1:-}" == "--help" ]]; then
+  usage
+  exit 0
+fi
+
+step() {
+  echo
+  echo "==> $*"
+}
+
+git_docs() {
+  git -C "$docs_repo_root" "$@"
+}
+
+# Branches (Docs repo)
 master_branch="master"
 target_branch="api-github-pages"
 
-# Folders
+# Folders (relative to Docs repo root)
 api_folder="api"
-docs_folder="docs"
 docs_folder_from_root="api/docs"
 
-temp_folder="temp"
 target_folder="."
 
+sync_playmaker_script="$docs_repo_root/sync-playmaker-docs.sh"
 
-
-# Check if we're on the main branch
-current_branch=$(git symbolic-ref --short HEAD)
-if [[ "$current_branch" != $master_branch ]]; then
-  echo "You are not on the $master_branch branch. Please switch to $master_branch branch first."
+if [[ ! -f "$sync_playmaker_script" ]]; then
+  echo "ERROR: Missing sync script: $sync_playmaker_script" >&2
   exit 1
 fi
 
+if ! command -v doxygen >/dev/null 2>&1; then
+  echo "ERROR: doxygen is required but was not found on PATH." >&2
+  exit 1
+fi
 
-cd $api_folder
-mkdir $docs_folder
-doxygen Doxyfile
-cd ..
+# Ensure we're on the expected branch in the Docs repo (not the monorepo root).
+current_branch="$(git_docs symbolic-ref --short HEAD)"
+if [[ "$current_branch" != "$master_branch" ]]; then
+  echo "You are not on the $master_branch branch (Docs repo). Please switch to $master_branch first." >&2
+  exit 1
+fi
 
-git commit -m 'chore: updated docs' -- $docs_folder_from_root/
-git push origin $master_branch
+step "Syncing PlayMaker docs into Docs/tutorials/v3"
+bash "$sync_playmaker_script"
 
-git checkout $target_branch
+step "Building API docs with Doxygen"
+rm -rf "$docs_repo_root/$docs_folder_from_root"
+mkdir -p "$docs_repo_root/$docs_folder_from_root"
+(cd "$docs_repo_root/$api_folder" && doxygen Doxyfile)
 
-echo "Copying contents of $docs_folder_from_root from $master_branch to $temp_folder"
-mkdir $temp_folder
-echo "Copying contants of $docs_folder_from_root to $temp_folder"
-git --work-tree=./$temp_folder checkout $master_branch -- $docs_folder_from_root/
-#git checkout $master_branch -- $resources_folder/ - No need to copy this as it will be copied now within doxygen (as we referred the images folder and moved overview.md to root)
+step "Committing and pushing updates to $master_branch (if changed)"
+git_docs add "$docs_folder_from_root" "tutorials/v3"
+if git_docs diff --cached --quiet; then
+  echo "No changes to commit on $master_branch."
+else
+  git_docs commit -m "chore: update API docs + sync PlayMaker tutorials"
+  git_docs push origin "$master_branch"
+fi
 
-# Loop through all sub_folderes of $docs_folder_from_root, delete only if they exist in destination
+step "Publishing API docs to $target_branch"
+git_docs checkout "$target_branch"
+
+temp_folder="$(mktemp -d)"
+cleanup() {
+  rm -rf "$temp_folder"
+}
+trap cleanup EXIT
+
+git -C "$docs_repo_root" --work-tree="$temp_folder" checkout "$master_branch" -- "$docs_folder_from_root/"
+
+# Loop through subfolders of api/docs and mirror them to the branch root.
 find "$temp_folder/$docs_folder_from_root" -mindepth 1 -maxdepth 1 -type d | while read -r sub_folder; do
-  sub_folder_name=$(basename "$sub_folder")
-  target_sub_folder="$target_folder/$sub_folder_name"
-  echo "Source sub folder : $sub_folder"
-  echo "Target sub folder : $target_sub_folder"
+  sub_folder_name="$(basename "$sub_folder")"
+  target_sub_folder="$docs_repo_root/$target_folder/$sub_folder_name"
 
-  # Check if the sub_folder exists in the target directory
-  if [ -d "$target_sub_folder" ]; then
-    echo "There is a target folder $target_sub_folder, so we will delete it"
-    # If it exists, delete it
+  if [[ -d "$target_sub_folder" ]]; then
     rm -rf "$target_sub_folder"
-    echo "Deleted existing folder: $target_sub_folder"
   else
-    echo "Creating $target_sub_folder if doesn't exist"
-    mkdir -p "$target_sub_folder"  
+    mkdir -p "$target_sub_folder"
   fi
-  
-  # Copy the sub_folder from source to target
+
   cp -r "$sub_folder/." "$target_sub_folder"
-  echo "Copied folder: $sub_folder to $target_sub_folder"
 done
 
-echo "Deleting temp folder"
-rm -rf $temp_folder
+git_docs add "$target_folder"
+if git_docs diff --cached --quiet; then
+  echo "No changes to commit on $target_branch."
+else
+  git_docs commit -m "chore: update GitHub Pages API docs"
+  git_docs push origin "$target_branch"
+fi
 
-# Add, commit, and push changes to the api-github-pages branch
-git add $target_folder
-git commit -m "chore: Updating contents of latest docs for GitHub Pages"
-git push origin $target_branch
-
-# Checkout back to the master branch
-git checkout $master_branch
-
-echo "Contents of the docs folder have been moved to the root of the $target_branch branch, and you are now back on the main branch."
+git_docs checkout "$master_branch"
+step "Done (back on $master_branch)"

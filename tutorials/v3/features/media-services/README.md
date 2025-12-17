@@ -8,6 +8,10 @@ description: >-
 
 Essential Kit's Media Services feature lets Unity teams integrate native camera and gallery functionality without maintaining platform-specific code. This tutorial walks you through setup, key APIs, testing, and troubleshooting so you can add photo capture, media selection, and image saving capabilities with confidence.
 
+{% hint style="info" %}
+Using PlayMaker? See the PlayMaker guide: [PlayMaker](playmaker/README.md).
+{% endhint %}
+
 {% embed url="https://www.youtube.com/watch?v=SI_ZOMxSty4" %}
 Media Services Video Tutorial
 {% endembed %}
