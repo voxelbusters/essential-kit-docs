@@ -11,6 +11,10 @@
 * [Folder Structure](plugin-overview/folder-structure.md)
 * [Localisation](plugin-overview/localisation.md)
 
+## Third Party Support
+
+* [PlayMaker](ThirdPartySupport/playmaker.md)
+
 ## Whats new in v3
 
 * [Version 3 vs Version 2](whats-new-in-v3/version-3-vs-version-2.md)
