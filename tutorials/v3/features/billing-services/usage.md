@@ -575,7 +575,7 @@ Need help implementing server-side verification? See the [FAQ](faq.md#how-do-i-i
 
 ## Advanced: Runtime Product Configuration
 
-Override default settings at runtime for server-driven catalogs:
+Build a runtime catalog and pass it directly to `InitializeStore`:
 
 ```csharp
 void ConfigureProductsAtRuntime()
@@ -593,11 +593,7 @@ void ConfigureProductsAtRuntime()
             description: "Grants 100 soft currency coins")
     };
 
-    var settings = new BillingServicesUnitySettings(
-        products: products,
-        autoFinishTransactions: true);
-
-    BillingServices.Initialize(settings);
+    BillingServices.InitializeStore(products);
 }
 ```
 
@@ -609,7 +605,7 @@ void ConfigureProductsAtRuntime()
 * Season passes or time-limited products
 
 {% hint style="info" %}
-Only call `BillingServices.Initialize()` for advanced runtime configuration scenarios. Essential Kit automatically initializes using the settings asset for standard usage.
+Use `InitializeStore(productDefinitions)` for runtime catalogs. If you don’t pass product definitions at runtime, the products configured in Essential Kit Settings → Billing Services → Products are used by default.
 {% endhint %}
 
 {% hint style="warning" %}
