@@ -605,7 +605,7 @@ void ConfigureProductsAtRuntime()
 * Season passes or time-limited products
 
 {% hint style="info" %}
-Use `InitializeStore(productDefinitions)` for runtime catalogs. If you don’t pass product definitions at runtime, the products configured in Essential Kit Settings → Billing Services → Products are used by default.
+Use either `InitializeStore(productDefinitions)` for runtime catalogs or the Billing Settings product definitions in Essential Kit Settings → Billing Services → Products, but not both to avoid confusion. If no products are passed with the `InitializeStore` call, it falls back to the Settings configuration.
 {% endhint %}
 
 {% hint style="warning" %}
