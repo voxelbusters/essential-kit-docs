@@ -116,7 +116,7 @@ public void ShowTextInputDialog()
         Debug.Log("Player name: " + playerName);
     });
 
-    dialog.AddCancelButton("Cancel", (inputTexts) =>
+    dialog.AddCancelButton("Cancel", () =>
     {
         Debug.Log("Input cancelled");
     });
@@ -138,14 +138,14 @@ public void ShowCustomTextInput()
 
     // Username field with placeholder
     var usernameOptions = new TextInputFieldOptions.Builder()
-        .SetPlaceholder("Username")
+        .SetPlaceholderText("Username")
         .Build();
     dialog.AddTextInputField(usernameOptions);
 
     // Password field (secure entry)
     var passwordOptions = new TextInputFieldOptions.Builder()
-        .SetPlaceholder("Password")
-        .SetSecureTextEntry(true)
+        .SetPlaceholderText("Password")
+        .SetIsSecured(true)
         .Build();
     dialog.AddTextInputField(passwordOptions);
 
@@ -156,7 +156,7 @@ public void ShowCustomTextInput()
         Debug.Log($"Login attempt: {username}");
     });
 
-    dialog.AddCancelButton("Cancel", (inputTexts) => { });
+    dialog.AddCancelButton("Cancel", () => { });
 
     dialog.Show();
 }
@@ -213,9 +213,9 @@ public void ShowDatePicker()
 
     datePicker.SetOnCloseCallback((result) =>
     {
-        if (result.ResultCode == DatePickerResultCode.Done)
+        if (result.SelectedDate.HasValue)
         {
-            DateTime selectedDate = result.Date;
+            DateTime selectedDate = result.SelectedDate.Value;
             Debug.Log("Selected date: " + selectedDate.ToString("yyyy-MM-dd"));
         }
         else
@@ -239,9 +239,9 @@ public void ShowTimePicker()
 
     timePicker.SetOnCloseCallback((result) =>
     {
-        if (result.ResultCode == DatePickerResultCode.Done)
+        if (result.SelectedDate.HasValue)
         {
-            DateTime selectedTime = result.Date;
+            DateTime selectedTime = result.SelectedDate.Value;
             Debug.Log("Selected time: " + selectedTime.ToString("HH:mm"));
         }
     });
@@ -268,9 +268,9 @@ public void ShowDateTimePicker()
 
     picker.SetOnCloseCallback((result) =>
     {
-        if (result.ResultCode == DatePickerResultCode.Done)
+        if (result.SelectedDate.HasValue)
         {
-            Debug.Log("Scheduled for: " + result.Date.ToString("yyyy-MM-dd HH:mm"));
+            Debug.Log("Scheduled for: " + result.SelectedDate.Value.ToString("yyyy-MM-dd HH:mm"));
         }
     });
 
@@ -296,9 +296,9 @@ public void ShowConstrainedDatePicker()
 
     datePicker.SetOnCloseCallback((result) =>
     {
-        if (result.ResultCode == DatePickerResultCode.Done)
+        if (result.SelectedDate.HasValue)
         {
-            Debug.Log("Tournament date: " + result.Date.ToString("MMM dd, yyyy"));
+            Debug.Log("Tournament date: " + result.SelectedDate.Value.ToString("MMM dd, yyyy"));
         }
     });
 
@@ -337,8 +337,7 @@ public void ShowConstrainedDatePicker()
 
 | Property | Type | Notes |
 | --- | --- | --- |
-| `DatePickerResult.Date` | `DateTime` | Selected date/time value |
-| `DatePickerResult.ResultCode` | `DatePickerResultCode` | `Done` or `Cancelled` |
+| `DatePickerResult.SelectedDate` | `DateTime?` | Selected date/time value; `null` when the picker is dismissed without a selection |
 | `TextInputFieldOptions` | Class | Configure placeholder, keyboard, secure entry |
 
 ## Common Patterns
@@ -385,7 +384,7 @@ public void ShowNameInput()
     dialog.Message = "Enter your name (3-15 characters):";
 
     var options = new TextInputFieldOptions.Builder()
-        .SetPlaceholder("Your name")
+        .SetPlaceholderText("Your name")
         .Build();
     dialog.AddTextInputField(options);
 
@@ -403,7 +402,7 @@ public void ShowNameInput()
         }
     });
 
-    dialog.AddCancelButton("Cancel", (inputTexts) => { });
+    dialog.AddCancelButton("Cancel", () => { });
 
     dialog.Show();
 }
@@ -439,9 +438,9 @@ public void ScheduleTournament()
 
     datePicker.SetOnCloseCallback((result) =>
     {
-        if (result.ResultCode == DatePickerResultCode.Done)
+        if (result.SelectedDate.HasValue)
         {
-            ShowConfirmation(result.Date);
+            ShowConfirmation(result.SelectedDate.Value);
         }
     });
 
@@ -476,9 +475,9 @@ public void SetDailyReminder()
 
     timePicker.SetOnCloseCallback((result) =>
     {
-        if (result.ResultCode == DatePickerResultCode.Done)
+        if (result.SelectedDate.HasValue)
         {
-            TimeSpan reminderTime = result.Date.TimeOfDay;
+            TimeSpan reminderTime = result.SelectedDate.Value.TimeOfDay;
             Debug.Log($"Daily reminder set for {reminderTime.Hours:00}:{reminderTime.Minutes:00}");
             ScheduleDailyNotification(reminderTime);
         }
@@ -497,7 +496,7 @@ void ScheduleDailyNotification(TimeSpan time)
 
 | Scenario | Trigger | Recommended Action |
 | --- | --- | --- |
-| Dialog dismissed without confirmation | Player taps outside the alert or presses system back | Treat `OnCloseCallback` with `DatePickerResultCode.Cancelled` (or cancel button callbacks) as a no-op and keep the previous state intact. |
+| Dialog dismissed without confirmation | Player taps outside the alert or presses system back | Treat `OnCloseCallback` with `SelectedDate == null` (or cancel button callbacks) as a no-op and keep the previous state intact. |
 | Input validation fails | Text field callback receives empty or invalid data | Re-open a lightweight alert explaining the requirement and focus the relevant field again. |
 | Dialogs invoked while another is active | Multiple modals launched simultaneously | Track outstanding dialogs; dismiss the existing one before showing the next to avoid stacking errors. |
 | App backgrounded while dialog open | OS hides the alert/picker | In `OnApplicationPause(false)` re-check pending work and show the dialog again if the action is critical. |

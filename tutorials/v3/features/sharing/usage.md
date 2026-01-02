@@ -92,8 +92,13 @@ public class ShareManager : MonoBehaviour
         var screenshot = ShareItem.Screenshot();
 
         SharingServices.ShowShareSheet(
-            callback: (result) =>
+            callback: (result, error) =>
             {
+                if (error != null)
+                {
+                    Debug.LogError($"Share failed: {error.Description}");
+                    return;
+                }
                 Debug.Log($"Share sheet closed. Result: {result.ResultCode}");
 
                 if (result.ResultCode == ShareSheetResultCode.Done)
@@ -206,8 +211,14 @@ public class SupportEmailManager : MonoBehaviour
             subject: subject,
             body: body,
             isHtmlBody: false,
-            callback: (result) =>
+            callback: (result, error) =>
             {
+                if (error != null)
+                {
+                    Debug.LogError($"Mail composer error: {error.Description}");
+                    return;
+                }
+
                 if (result.ResultCode == MailComposerResultCode.Sent)
                 {
                     Debug.Log("Bug report sent successfully");
@@ -337,8 +348,13 @@ public class InviteManager : MonoBehaviour
             recipients: null, // Let user choose recipients
             subject: MessageComposer.CanSendSubject() ? "Game Invitation" : null,
             body: inviteMessage,
-            callback: (result) =>
+            callback: (result, error) =>
             {
+                if (error != null)
+                {
+                    Debug.LogError($"Message composer error: {error.Description}");
+                    return;
+                }
                 if (result.ResultCode == MessageComposerResultCode.Sent)
                 {
                     Debug.Log("Invite sent successfully");
@@ -435,8 +451,13 @@ public class FacebookShareManager : MonoBehaviour
 
         SharingServices.ShowSocialShareComposer(
             SocialShareComposerType.Facebook,
-            callback: (result) =>
+            callback: (result, error) =>
             {
+                if (error != null)
+                {
+                    Debug.LogError($"Facebook share error: {error.Description}");
+                    return;
+                }
                 if (result.ResultCode == SocialShareComposerResultCode.Done)
                 {
                     Debug.Log("Shared to Facebook successfully");
@@ -486,8 +507,13 @@ public class TwitterShareManager : MonoBehaviour
 
         SharingServices.ShowSocialShareComposer(
             SocialShareComposerType.Twitter,
-            callback: (result) =>
+            callback: (result, error) =>
             {
+                if (error != null)
+                {
+                    Debug.LogError($"Twitter share error: {error.Description}");
+                    return;
+                }
                 Debug.Log($"Twitter share result: {result.ResultCode}");
             },
             textItem,
@@ -518,8 +544,13 @@ public class WhatsAppShareManager : MonoBehaviour
 
         SharingServices.ShowSocialShareComposer(
             SocialShareComposerType.WhatsApp,
-            callback: (result) =>
+            callback: (result, error) =>
             {
+                if (error != null)
+                {
+                    Debug.LogError($"WhatsApp share error: {error.Description}");
+                    return;
+                }
                 if (result.ResultCode == SocialShareComposerResultCode.Done)
                 {
                     Debug.Log("Shared to WhatsApp");
@@ -600,7 +631,7 @@ public class SmartSharingManager : MonoBehaviour
             Debug.Log("Sharing via Twitter");
             SharingServices.ShowSocialShareComposer(
                 SocialShareComposerType.Twitter,
-                callback: (result) => HandleSharingResult("Twitter", result.ResultCode),
+                callback: (result, error) => HandleSharingResult("Twitter", result?.ResultCode, error),
                 textItem,
                 imageItem,
                 urlItem
@@ -611,7 +642,7 @@ public class SmartSharingManager : MonoBehaviour
             Debug.Log("Twitter unavailable, trying Facebook");
             SharingServices.ShowSocialShareComposer(
                 SocialShareComposerType.Facebook,
-                callback: (result) => HandleSharingResult("Facebook", result.ResultCode),
+                callback: (result, error) => HandleSharingResult("Facebook", result?.ResultCode, error),
                 imageItem,
                 urlItem
             );
@@ -620,7 +651,7 @@ public class SmartSharingManager : MonoBehaviour
         {
             Debug.Log("No specific platforms available, using ShareSheet");
             SharingServices.ShowShareSheet(
-                callback: (result) => HandleSharingResult("ShareSheet", result.ResultCode),
+                callback: (result, error) => HandleSharingResult("ShareSheet", result?.ResultCode, error),
                 textItem,
                 imageItem,
                 urlItem
@@ -628,8 +659,13 @@ public class SmartSharingManager : MonoBehaviour
         }
     }
 
-    void HandleSharingResult(string platform, object resultCode)
+    void HandleSharingResult(string platform, object resultCode, Error error)
     {
+        if (error != null)
+        {
+            Debug.LogError($"{platform} sharing failed: {error.Description}");
+            return;
+        }
         Debug.Log($"{platform} sharing completed: {resultCode}");
     }
 }
@@ -651,7 +687,15 @@ public void ShareAnimatedGif(string gifFilePath)
             Debug.Log("GIF converted successfully");
 
             SharingServices.ShowShareSheet(
-                callback: (result) => Debug.Log($"Shared GIF: {result.ResultCode}"),
+                callback: (result, error) =>
+                {
+                    if (error != null)
+                    {
+                        Debug.LogError($"GIF share failed: {error.Description}");
+                        return;
+                    }
+                    Debug.Log($"Shared GIF: {result.ResultCode}");
+                },
                 shareItem
             );
         },
@@ -676,7 +720,15 @@ public void ShareRichContent()
     var customImage = ShareItem.Image(GetLogoTexture(), TextureEncodingFormat.PNG, "logo.png");
 
 SharingServices.ShowShareSheet(
-    callback: (result) => Debug.Log($"Rich content shared: {result.ResultCode}"),
+    callback: (result, error) =>
+    {
+        if (error != null)
+        {
+            Debug.LogError($"Share failed: {error.Description}");
+            return;
+        }
+        Debug.Log($"Rich content shared: {result.ResultCode}");
+    },
     text,
     screenshot,
     url,

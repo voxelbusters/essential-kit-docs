@@ -94,7 +94,7 @@ void Update()
 {
     if (webView != null && webView.IsLoading)
     {
-        float progress = webView.Progress; // 0.0 to 1.0
+        double progress = webView.Progress; // 0.0 to 1.0
         Debug.Log($"Update progress bar to {progress * 100}%.");
     }
 }

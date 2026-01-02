@@ -132,20 +132,21 @@ Use the `Payouts` property in product definitions:
 void ConfigureAndGrantMultiCurrencyProduct()
 {
     // In Essential Kit Settings or runtime configuration
-    var productDef = new BillingProductDefinition("mega_pack", BillingProductType.Consumable)
-    {
-        Payouts = new BillingProductPayoutDefinition[]
+    var productDef = new BillingProductDefinition(
+        id: "mega_pack",
+        platformId: "mega_pack",
+        productType: BillingProductType.Consumable,
+        payouts: new[]
         {
-            new BillingProductPayoutDefinition { Type = "coins", Quantity = 500 },
-            new BillingProductPayoutDefinition { Type = "gems", Quantity = 100 }
-        }
-    };
+            new BillingProductPayoutDefinition(BillingProductPayoutCategory.Currency, subtype: "coins", quantity: 500),
+            new BillingProductPayoutDefinition(BillingProductPayoutCategory.Currency, subtype: "gems", quantity: 100),
+        });
 
     // In your grant content code
     var product = BillingServices.GetProductWithId("mega_pack");
-    foreach (var payout in product.PayoutDefinitions)
+    foreach (var payout in product.Payouts)
     {
-        switch (payout.Type)
+        switch (payout.Variant)
         {
             case "coins": PlayerData.AddCoins(payout.Quantity); break;
             case "gems": PlayerData.AddGems(payout.Quantity); break;
@@ -226,7 +227,7 @@ Call this after granting purchased content. Transactions in `Purchasing` or `Def
 
 **Android testing:**
 - Use Google Play's test card for subscription testing
-- Check `product.SubscriptionInfo.ExpiryDate` to validate status
+- Inspect the transaction's `SubscriptionStatus` when processing subscription purchases
 
 Note: Subscription properties may have limited data on Android.
 

@@ -128,7 +128,7 @@ private void OnAuthStatusChange(GameServicesAuthStatusChangeResult result, Error
             case LocalPlayerAuthStatus.Authenticated:
                 Debug.Log("Player authenticated successfully");
                 var localPlayer = GameServices.LocalPlayer;
-                string playerId = localPlayer.Id;
+                string playerId = localPlayer.Identifier;
                 string playerName = localPlayer.DisplayName;
                 break;
                 
@@ -177,9 +177,9 @@ PlayGamesPlatform.Instance.UnlockAchievement("first_win", (bool success) =>
 });
 
 // NEW: Essential Kit achievement reporting
-GameServices.ReportAchievementProgress("first_win", 100.0, (error) =>
+GameServices.ReportAchievementProgress("first_win", 100.0, (success, error) =>
 {
-    if (error == null)
+    if (success && error == null)
     {
         Debug.Log("Achievement unlocked!");
     }
@@ -247,9 +247,9 @@ Social.ReportScore(1000, "high_scores", (bool success) =>
 });
 
 // NEW: Essential Kit score reporting
-GameServices.ReportScore("high_scores", 1000, (error) =>
+GameServices.ReportScore("high_scores", 1000, (success, error) =>
 {
-    if (error == null)
+    if (success && error == null)
     {
         Debug.Log("Score reported successfully");
     }
@@ -260,9 +260,16 @@ GameServices.ReportScore("high_scores", 1000, (error) =>
 });
 
 // NEW: Score reporting with context tag
-GameServices.ReportScore("high_scores", 1000, (error) =>
+GameServices.ReportScore("high_scores", 1000, (success, error) =>
 {
-    // Handle callback
+    if (success && error == null)
+    {
+        Debug.Log("Score reported successfully with tag");
+    }
+    else
+    {
+        Debug.LogError($"Score report error: {error?.Description}");
+    }
 }, tag: "level_1");
 ```
 
@@ -343,7 +350,7 @@ GameServices.LoadFriends((result, error) =>
 {
     if (error == null)
     {
-        foreach (var friend in result.Friends)
+        foreach (var friend in result.Players)
         {
             Debug.Log($"Friend: {friend.DisplayName}");
         }
@@ -384,9 +391,12 @@ GameServices.LoadServerCredentials((result, error) =>
     if (error == null)
     {
         var credentials = result.ServerCredentials;
-        Debug.Log($"Player ID: {credentials.PlayerId}");
-        Debug.Log($"Auth Token: {credentials.AuthToken}");
-        // More comprehensive server integration data
+#if UNITY_ANDROID
+        Debug.Log($"Server Auth Code: {credentials.AndroidProperties.ServerAuthCode}");
+#elif UNITY_IOS
+        Debug.Log($"Public Key Url: {credentials.IosProperties.PublicKeyUrl}");
+#endif
+        // Send platform-specific values to your backend for verification
     }
 });
 ```
@@ -404,9 +414,9 @@ Social.ReportScore(1000, "leaderboard", (bool success) =>
 });
 
 // NEW: Essential Kit comprehensive error handling
-GameServices.ReportScore("leaderboard", 1000, (error) =>
+GameServices.ReportScore("leaderboard", 1000, (success, error) =>
 {
-    if (error != null)
+    if (!success || error != null)
     {
         Debug.LogError($"Score report failed: {error.Description}");
         Debug.LogError($"Error Code: {error.Code}");

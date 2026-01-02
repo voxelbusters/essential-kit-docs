@@ -53,11 +53,11 @@ If you're reading raw data yourself, check the EXIF orientation tag and rotate a
 Media selection APIs don't provide built-in file size filtering. Check file size after selection:
 
 ```csharp
-content.GetRawMediaData((rawData, error) =>
+content.AsRawMediaData((rawData, error) =>
 {
     if (error == null)
     {
-        int fileSizeKB = rawData.Data.Length / 1024;
+        int fileSizeKB = rawData.Bytes.Length / 1024;
         if (fileSizeKB > 5000) // 5MB limit
         {
             Debug.LogWarning("Please select an image smaller than 5MB.");

@@ -134,9 +134,9 @@ In your code, process payouts when granting content:
 
 ```csharp
 var product = BillingServices.GetProductWithId("mega_pack");
-foreach (var payout in product.PayoutDefinitions)
+foreach (var payout in product.Payouts)
 {
-    switch (payout.Type)
+    switch (payout.Variant)
     {
         case "coins": PlayerData.AddCoins(payout.Quantity); break;
         case "gems": PlayerData.AddGems(payout.Quantity); break;

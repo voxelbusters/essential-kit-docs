@@ -68,8 +68,7 @@ Local notifications fire based on triggers you specify when scheduling:
 void ConfigureTimeIntervalNotifications()
 {
     // Create a notification builder instance
-    var notificationBuilder = new NotificationBuilder()
-        .SetId("time_interval_notification")
+    var notificationBuilder = NotificationBuilder.CreateNotification("time_interval_notification")
         .SetTitle("Reminder")
         .SetBody("Your notification message");
 
@@ -87,8 +86,7 @@ void ConfigureTimeIntervalNotifications()
 void ConfigureCalendarNotification()
 {
     // Create a notification builder instance
-    var notificationBuilder = new NotificationBuilder()
-        .SetId("daily_reminder")
+    var notificationBuilder = NotificationBuilder.CreateNotification("daily_reminder")
         .SetTitle("Daily Reminder")
         .SetBody("Your daily notification");
 
@@ -294,8 +292,7 @@ Use when timing is relative to the current moment:
 void ConfigureTimeIntervalNotificationTriggers()
 {
     // Create a notification builder instance
-    var notificationBuilder = new NotificationBuilder()
-        .SetId("interval_notification")
+    var notificationBuilder = NotificationBuilder.CreateNotification("interval_notification")
         .SetTitle("Scheduled Reminder")
         .SetBody("Your scheduled notification");
 

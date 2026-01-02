@@ -57,7 +57,7 @@ void ConfigureForRegion(string serverURL)
 {
     var settings = new NetworkServicesUnitySettings(
         isEnabled: true,
-        hostAddress: new Address { IPv4 = serverURL },
+        hostAddress: new Address(ipv4: serverURL),
         autoStartNotifier: false);
 
     NetworkServices.Initialize(settings);

@@ -367,11 +367,7 @@ void Awake()
 {
     var customSettings = new NetworkServicesUnitySettings(
         isEnabled: true,
-        hostAddress: new Address
-        {
-            IPv4 = "api.mygame.com",
-            IPv6 = string.Empty
-        },
+        hostAddress: new Address(ipv4: "api.mygame.com", ipv6: string.Empty),
         autoStartNotifier: false,
         pingSettings: new NetworkServicesUnitySettings.PingTestSettings(
             maxRetryCount: 3,

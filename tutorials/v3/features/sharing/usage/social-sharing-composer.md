@@ -90,7 +90,7 @@ composer.Show();
 ```csharp
 Texture2D texture = Resources.Load<Texture2D>("texture name");
 
-SocialShareComposer composer = new SocialShareComposer(SocialShareComposerType.Twitter);
+SocialShareComposer composer = SocialShareComposer.CreateInstance(SocialShareComposerType.Twitter);
 composer.AddImage(texture);
 composer.SetCompletionCallback((result, error) => {
     Debug.Log("Social Share Composer was closed. Result code: " + result.ResultCode);

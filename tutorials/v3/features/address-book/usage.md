@@ -203,7 +203,7 @@ void ShowAvatar(IAddressBookContact contact, RawImage target)
     {
         if (error == null && textureData.Texture != null)
         {
-            target.texture = textureData.Texture;
+            target.texture = textureData.GetTexture();
         }
     });
 }

@@ -99,7 +99,6 @@ This ensures:
 void SelectAvatarImage()
 {
     var options = MediaContentSelectOptions.CreateForImage();
-    options.AllowsMultipleSelection = false;
 
     MediaServices.SelectMediaContent(options, OnImageSelected);
 }
@@ -137,8 +136,7 @@ void OnImageSelected(IMediaContent[] contents, Error error)
 ```csharp
 void SelectMultiplePhotos()
 {
-    var options = MediaContentSelectOptions.CreateForImage();
-    options.AllowsMultipleSelection = true;
+    var options = MediaContentSelectOptions.CreateForImage(maxAllowed: 10);
 
     MediaServices.SelectMediaContent(options, (contents, error) =>
     {
@@ -207,9 +205,11 @@ This ensures:
 ```csharp
 void CaptureProfilePhoto()
 {
-    var options = MediaContentCaptureOptions.CreateForImage();
-    options.Title = "Capture Profile Photo";
-    options.FileName = "profile_photo";
+    var options = new MediaContentCaptureOptions(
+        MediaContentCaptureType.Image,
+        title: "Capture Profile Photo",
+        fileName: "profile_photo",
+        source: MediaContentCaptureSource.Camera);
 
     MediaServices.CaptureMediaContent(options, OnPhotoCaptured);
 }
@@ -243,8 +243,11 @@ void OnPhotoCaptured(IMediaContent content, Error error)
 ```csharp
 void CaptureVideo()
 {
-    var options = MediaContentCaptureOptions.CreateForVideo();
-    options.FileName = "captured_video";
+    var options = new MediaContentCaptureOptions(
+        MediaContentCaptureType.Video,
+        title: "Capture video",
+        fileName: "captured_video",
+        source: MediaContentCaptureSource.Camera);
 
     MediaServices.CaptureMediaContent(options, (content, error) =>
     {
@@ -389,12 +392,12 @@ void SaveToFile(IMediaContent content)
 ```csharp
 void GetRawBytes(IMediaContent content)
 {
-    content.GetRawMediaData((rawData, error) =>
+    content.AsRawMediaData((rawData, error) =>
     {
         if (error == null)
         {
-            byte[] mediaBytes = rawData.Data;
-            string mimeType = rawData.MimeType;
+            byte[] mediaBytes = rawData.Bytes;
+            string mimeType = rawData.Mime;
             Debug.Log($"Got {mediaBytes.Length} bytes of {mimeType}");
 
             // Upload to server, process, etc.

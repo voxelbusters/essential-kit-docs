@@ -67,8 +67,13 @@ Detection varies by platform:
 **iOS**: Result callbacks reliably report share status:
 ```csharp
 SharingServices.ShowShareSheet(
-    callback: (result) =>
+    callback: (result, error) =>
     {
+        if (error != null)
+        {
+            Debug.LogError($"Share failed: {error.Description}");
+            return;
+        }
         if (result.ResultCode == ShareSheetResultCode.Done)
         {
             Debug.Log("User completed sharing on iOS");
@@ -335,13 +340,18 @@ void ShareWithTracking()
     // Track specific composer
     SharingServices.ShowSocialShareComposer(
         SocialShareComposerType.Twitter,
-        callback: (result) => TrackSharing("Twitter", result.ResultCode),
+        callback: (result, error) => TrackSharing("Twitter", result?.ResultCode, error),
         ShareItem.Text("Share text")
     );
 }
 
-void TrackSharing(string composerType, object resultCode)
+void TrackSharing(string composerType, object resultCode, Error error)
 {
+    if (error != null)
+    {
+        Debug.LogError($"Sharing via {composerType} failed: {error.Description}");
+        return;
+    }
     Debug.Log($"Sharing via {composerType}: {resultCode}");
     // Send to analytics: composer type, result code, content type
 }
@@ -363,13 +373,21 @@ public void ShareCompressedScreenshot()
         "screenshot.jpg"
     );
 
-    SharingServices.ShowMailComposer(
-        toRecipients: new[] { "support@yourgame.com" },
-        subject: "Screenshot",
-        body: "Compressed screenshot attached",
-        callback: (result) => Debug.Log($"Email result: {result.ResultCode}"),
-        compressedImage
-    );
+SharingServices.ShowMailComposer(
+    toRecipients: new[] { "support@yourgame.com" },
+    subject: "Screenshot",
+    body: "Compressed screenshot attached",
+    callback: (result, error) =>
+    {
+        if (error != null)
+        {
+            Debug.LogError($"Email result error: {error.Description}");
+            return;
+        }
+        Debug.Log($"Email result: {result.ResultCode}");
+    },
+    compressedImage
+);
 }
 
 Texture2D CaptureScreenshot()
@@ -393,7 +411,15 @@ SharingServices.ShowMessageComposer(
     recipients: new[] { "+1234567890", "+0987654321" },
     subject: null,
     body: "Join my game!",
-    callback: (result) => Debug.Log($"Message result: {result.ResultCode}")
+    callback: (result, error) =>
+    {
+        if (error != null)
+        {
+            Debug.LogError($"Message failed: {error.Description}");
+            return;
+        }
+        Debug.Log($"Message result: {result.ResultCode}");
+    }
 );
 ```
 
@@ -423,17 +449,22 @@ public void ShareWithErrorHandling()
         return;
     }
 
-    SharingServices.ShowMailComposer(
-        toRecipients: new[] { "support@game.com" },
-        subject: "Support Request",
-        body: "Describe your issue here",
-        callback: (result) =>
+SharingServices.ShowMailComposer(
+    toRecipients: new[] { "support@game.com" },
+    subject: "Support Request",
+    body: "Describe your issue here",
+    callback: (result, error) =>
+    {
+        if (error != null)
         {
-            switch (result.ResultCode)
-            {
-                case MailComposerResultCode.Sent:
-                    ShowMessage("Thank you! Your email was sent.");
-                    break;
+            ShowMessage($"Email failed to send. {error.Description}");
+            return;
+        }
+        switch (result.ResultCode)
+        {
+            case MailComposerResultCode.Sent:
+                ShowMessage("Thank you! Your email was sent.");
+                break;
 
                 case MailComposerResultCode.Saved:
                     ShowMessage("Email saved as draft");
@@ -463,7 +494,15 @@ void OfferAlternativeSharing()
 {
     // Fallback to ShareSheet
     SharingServices.ShowShareSheet(
-        callback: (result) => Debug.Log($"ShareSheet fallback: {result.ResultCode}"),
+        callback: (result, error) =>
+        {
+            if (error != null)
+            {
+                Debug.LogError($"ShareSheet fallback failed: {error.Description}");
+                return;
+            }
+            Debug.Log($"ShareSheet fallback: {result.ResultCode}");
+        },
         ShareItem.Text("Support request")
     );
 }
@@ -484,7 +523,15 @@ public void ShareAnimatedGif()
             Debug.Log("GIF converted successfully");
 
             SharingServices.ShowShareSheet(
-                callback: (result) => Debug.Log($"GIF shared: {result.ResultCode}"),
+                callback: (result, error) =>
+                {
+                    if (error != null)
+                    {
+                        Debug.LogError($"GIF shared error: {error.Description}");
+                        return;
+                    }
+                    Debug.Log($"GIF shared: {result.ResultCode}");
+                },
                 shareItem
             );
         },

@@ -75,7 +75,11 @@ if (SocialShareComposer.IsComposerAvailable(SocialShareComposerType.Facebook))
 
     SharingServices.ShowSocialShareComposer(
         SocialShareComposerType.Facebook,
-        callback: (result) => {
+        callback: (result, error) => {
+            if (error != null) {
+                Debug.LogError($"Sharing failed: {error.Description}");
+                return;
+            }
             if (result.ResultCode == SocialShareComposerResultCode.Done) {
                 Debug.Log("Grant sharing reward to the player.");
             }
@@ -101,7 +105,11 @@ if (MailComposer.CanSendMail())
         toRecipients: new[] { "support@yourgame.com" },
         subject: subject,
         body: body,
-        callback: (result) => {
+        callback: (result, error) => {
+            if (error != null) {
+                Debug.LogError($"Mail failed: {error.Description}");
+                return;
+            }
             Debug.Log($"Support email result: {result.ResultCode}");
         },
         screenshot
@@ -120,7 +128,11 @@ if (MessageComposer.CanSendText())
 
     SharingServices.ShowMessageComposer(
         body: invite,
-        callback: (result) => {
+        callback: (result, error) => {
+            if (error != null) {
+                Debug.LogError($"Message failed: {error.Description}");
+                return;
+            }
             if (result.ResultCode == MessageComposerResultCode.Sent) {
                 Debug.Log("Track viral invitation event.");
             }
@@ -139,7 +151,11 @@ var textItem = ShareItem.Text(shareText);
 var screenshotItem = ShareItem.Screenshot();
 
 SharingServices.ShowShareSheet(
-    callback: (result) => {
+    callback: (result, error) => {
+        if (error != null) {
+            Debug.LogError($"Share failed: {error.Description}");
+            return;
+        }
         Debug.Log($"Share sheet result: {result.ResultCode}");
     },
     textItem,

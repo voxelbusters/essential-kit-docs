@@ -388,7 +388,7 @@ void DisplaySubscription(string productId)
     if (product.SubscriptionInfo != null)
     {
         Debug.Log($"Period: {product.SubscriptionInfo.Period}");
-        Debug.Log($"Title: {product.SubscriptionInfo.Title}");
+        Debug.Log($"Title: {product.SubscriptionInfo.LocalizedGroupTitle}");
     }
 }
 ```
@@ -400,9 +400,10 @@ After `InitializeStore()`, subscription products may include promotional offers:
 ```csharp
 foreach (var product in result.Products)
 {
-    if (product.Offers != null && product.Offers.Length > 0)
+    var offers = product.Offers;
+    if (offers != null)
     {
-        foreach (var offer in product.Offers)
+        foreach (var offer in offers)
         {
             Debug.Log($"Offer: {offer.Id}, Category: {offer.Category}");
 

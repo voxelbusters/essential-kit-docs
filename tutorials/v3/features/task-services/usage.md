@@ -77,17 +77,17 @@ using System.Threading.Tasks;
 using UnityEngine;
 
 // Example: Using the generic overload with a task that returns a value
-// Assume you have a PlayerData class and SavePlayerDataAsync() method defined in your game code
-async Task<PlayerData> SavePlayerDataWithBackgroundSupport()
-{
-    Task<PlayerData> saveTask = SavePlayerDataAsync();
+    // Assume you have a PlayerData class and SavePlayerDataAsync() method defined in your game code
+    async Task<PlayerData> SavePlayerDataWithBackgroundSupport()
+    {
+        Task<PlayerData> saveTask = SavePlayerDataAsync();
 
-    return await TaskServices.AllowRunningApplicationInBackgroundUntilCompletion(
-        saveTask,
-        onBackgroundProcessingQuotaWillExpireCallback: () =>
-        {
-            Debug.Log("Background time expiring - save operation finishing");
-        }
+        return await TaskServices.AllowRunningApplicationInBackgroundUntilTaskCompletion(
+            saveTask,
+            onBackgroundProcessingQuotaWillExpireCallback: () =>
+            {
+                Debug.Log("Background time expiring - save operation finishing");
+            }
     );
 }
 ```

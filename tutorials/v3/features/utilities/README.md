@@ -4,7 +4,7 @@ description: Cross-platform utilities for app store navigation and system settin
 
 # 🛠️ Utilities (Extras)
 
-Essential Kit's Utilities feature provides cross-platform helpers for common mobile operations: opening app store pages and directing users to system settings. This tutorial shows you how to add these essential navigation features without platform-specific code.
+Essential Kit's Utilities feature provides cross-platform helpers for common mobile operations: opening app store pages, directing users to system settings, and retrieving age compliance signals from the platform. This tutorial shows you how to add these essential capabilities without platform-specific code.
 
 {% hint style="info" %}
 Using PlayMaker? See the PlayMaker guide: [PlayMaker](playmaker/README.md).
@@ -19,18 +19,19 @@ Looking for a working reference? Check the demo implementations in other Essenti
 * Open app store pages for reviews, cross-promotion, and updates
 * Direct users to system settings when permissions are denied
 * Handle platform-specific app identifiers correctly
+* Request age compliance information using platform-provided age signals
 
 ## Why Utilities Matters
 
 * **Business impact**: Drive ratings and cross-promote companion apps
-* **UX impact**: Help users fix permission issues without confusion
+* **UX impact**: Help users fix permission issues without confusion and respect age-appropriate content gates
 * **Technical impact**: No custom native code for store links or settings access
 
 ## Tutorial Roadmap
 
 1. [Setup](setup.md) - Enable utilities and configure app store IDs
-2. [Usage](usage.md) - Store pages and application settings APIs
-3. [Testing](testing.md) - Verify navigation on both platforms
+2. [Usage](usage.md) - Store pages, application settings, and age compliance APIs
+3. [Testing](testing.md) - Verify navigation and age compliance flows on both platforms
 
 ## Key Use Cases
 
@@ -38,6 +39,7 @@ Looking for a working reference? Check the demo implementations in other Essenti
 * Navigate to companion app or DLC listings for cross-promotion
 * Guide users to system settings after permission denial
 * Direct users to app settings for manual permission grants
+* Fetch declared age signals to choose the correct content experience
 
 ## Prerequisites
 

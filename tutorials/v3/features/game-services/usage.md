@@ -725,7 +725,7 @@ On Android, additional scopes (such as email) require user consent. Inspect `res
 | `Value` | long | Score value |
 | `Rank` | int | Player rank in leaderboard |
 | `Player` | IPlayer | Player who achieved this score |
-| `Date` | DateTime | When score was submitted |
+| `LastReportedDate` | DateTime | When score was submitted |
 | `Tag` | string | Optional score tag (max 8 ASCII chars) |
 
 ### IAchievement Properties

@@ -453,7 +453,7 @@ void CheckLoadingState()
 {
     if (webView.IsLoading)
     {
-        float progress = webView.Progress; // 0.0 to 1.0
+        double progress = webView.Progress; // 0.0 to 1.0
         Debug.Log($"Loading: {progress * 100}%");
         Debug.Log($"Update progress bar to {progress * 100}%.");
     }
@@ -575,12 +575,10 @@ void Awake()
 {
     var globalSettings = new WebViewUnitySettings(
         isEnabled: true,
-        androidProperties: new WebViewUnitySettings.AndroidPlatformProperties()
-        {
-            UsesCamera = true,
-            UsesMicrophone = false,
-            AllowBackNavigationKey = true
-        }
+        androidProperties: new WebViewUnitySettings.AndroidPlatformProperties(
+            usesCamera: true,
+            usesMicrophone: false,
+            allowBackNavigationKey: true)
     );
 
     WebView.Initialize(globalSettings);
@@ -593,12 +591,10 @@ void CreateCustomWebView()
 {
     var instanceSettings = new WebViewUnitySettings(
         isEnabled: true,
-        androidProperties: new WebViewUnitySettings.AndroidPlatformProperties()
-        {
-            UsesCamera = false, // Override global setting
-            UsesMicrophone = false,
-            AllowBackNavigationKey = false
-        }
+        androidProperties: new WebViewUnitySettings.AndroidPlatformProperties(
+            usesCamera: false, // Override global setting
+            usesMicrophone: false,
+            allowBackNavigationKey: false)
     );
 
     webView = WebView.CreateInstance(instanceSettings);

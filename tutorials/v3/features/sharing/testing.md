@@ -323,8 +323,13 @@ void ShareWithLogging()
             toRecipients: new[] { "test@test.com" },
             subject: "Test",
             body: "Test body",
-            callback: (result) =>
+            callback: (result, error) =>
             {
+                if (error != null)
+                {
+                    Debug.LogError($"[Sharing] Mail error: {error.Description}");
+                    return;
+                }
                 Debug.Log($"[Sharing] Mail result: {result.ResultCode}");
                 if (result.ResultCode == MailComposerResultCode.Failed)
                 {
