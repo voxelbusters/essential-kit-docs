@@ -11,7 +11,7 @@ Save player progress (level, score, settings) to iCloud or Google Play Games clo
 
 ## Variables Needed
 - currentLevel (Int)
-- totalScore (Long)
+- totalScore (Int)
 - playerName (String)
 
 ## Implementation Steps
@@ -23,7 +23,7 @@ Save player progress (level, score, settings) to iCloud or Google Play Games clo
   - value: currentLevel (Int)
 - **Save Score:**
   - key: "total_score"
-  - value: totalScore (Long)
+  - value: totalScore (Int)
 - **Save Name:**
   - key: "player_name"
   - value: playerName (String)

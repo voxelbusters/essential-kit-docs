@@ -13,7 +13,7 @@ Show native alerts (with optional text input) and date/time pickers.
   - Read `pressedButtonIndex`, `pressedButtonLabel`, and `enteredText` (when `enableTextInput = true`).
 - `NativeUIShowDatePicker`:
   - Use `dateSelectedEvent` / `cancelledEvent`.
-  - `selectedDate` is stored as UTC in `FsmDateTime`.
+  - `selectedDate` is stored as an ISO 8601 UTC string in `FsmString`.
 
 ## Use cases
 Start here: `use-cases/README.md`

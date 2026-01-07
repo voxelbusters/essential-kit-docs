@@ -18,7 +18,7 @@ Make sure the player is authenticated first. Use `use-case-1-auth-bootstrap.md`.
 ## Variables
 - `leaderboardId` (String) e.g. `"top_scores"`
 - `scoreCount` (Int), `scoreIndex` (Int)
-- Per entry: `playerDisplayName` (String), `rank` (Int), `scoreValue` (Long), `formattedScore` (String)
+- Per entry: `playerDisplayName` (String), `rank` (Int), `scoreValue` (Int), `formattedScore` (String)
 
 ## Flow
 1. State: `CreateLeaderboard`

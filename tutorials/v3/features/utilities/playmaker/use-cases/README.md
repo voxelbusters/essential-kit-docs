@@ -31,12 +31,22 @@ Quick-start guides showing minimal implementations of common system utility task
 
 ---
 
+### 4. [Request Age Compliance Info](use-case-4-age-compliance.md)
+
+- **What it does:** Requests user age range info and declaration method for compliance flows
+- **Complexity:** Intermediate
+- **Actions:** 1 (UtilitiesRequestInfoForAgeCompliance) + optional (UtilitiesGetInfoForAgeComplianceSuccessResult, UtilitiesGetInfoForAgeComplianceError)
+- **Best for:** Age gating, regional compliance requirements
+
+---
+
 ## Choosing the Right Use Case
 
 **Start Here:**
 - Want ratings/reviews for THIS app? → **Use Case 1**
 - Users need to grant permissions? → **Use Case 2**
 - Promoting a DIFFERENT app? → **Use Case 3**
+- Need age compliance info? → **Use Case 4**
 
 ## Quick Action Reference
 
@@ -45,6 +55,9 @@ Quick-start guides showing minimal implementations of common system utility task
 | UtilitiesOpenAppStorePageDefault | Open store for this app | Use Case 1 |
 | UtilitiesOpenApplicationSettings | Open app settings | Use Case 2 |
 | UtilitiesOpenAppStorePageById | Open store with iOS + Android IDs | Use Case 3 |
+| UtilitiesRequestInfoForAgeCompliance | Request age compliance info | Use Case 4 |
+| UtilitiesGetInfoForAgeComplianceSuccessResult | Read cached age compliance result | Use Case 4 |
+| UtilitiesGetInfoForAgeComplianceError | Read cached age compliance error | Use Case 4 |
 
 ## Related Documentation
 

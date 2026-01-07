@@ -14,7 +14,7 @@ Make sure the player is authenticated first. Use `use-case-1-auth-bootstrap.md` 
 
 ## Variables
 - `leaderboardId` (String) e.g. `"top_scores"`
-- `scoreValue` (Long)
+- `scoreValue` (Int)
 
 ## Flow
 1. When the match ends (or on a milestone), store the score in `scoreValue`.

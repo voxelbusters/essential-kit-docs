@@ -3,7 +3,7 @@
 Store and sync key-value data across devices using platform cloud storage.
 
 ## Actions (9)
-- Write/read: `CloudServicesSetValue`, `CloudServicesGetValue` (supports Bool/Int/Long/Float/Double/String/ByteArray)
+- Write/read: `CloudServicesSetValue`, `CloudServicesGetValue` (supports Bool/Int/Float/String/ByteArray)
 - Existence: `CloudServicesHasKey` (checks current snapshot)
 - Sync: `CloudServicesSynchronize` (fires `successEvent` / `failureEvent`)
 - Change listener: `CloudServicesOnSavedDataChange` (persistent; fires `dataChangedEvent`)

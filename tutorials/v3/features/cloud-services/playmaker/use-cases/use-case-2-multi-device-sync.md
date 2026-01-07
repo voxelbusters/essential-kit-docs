@@ -12,7 +12,7 @@ Load saved data when app starts and listen for changes from other devices.
 
 ## Variables Needed
 - playerLevel (Int)
-- totalScore (Long)
+- totalScore (Int)
 - changedKeys (Array: String) - PlayMaker Array (set element type to String)
 - changeReason (Enum: CloudSavedDataChangeReasonCode)
 
@@ -43,7 +43,7 @@ Loop `keyIndex = 0..changedKeys.Length-1` and for each key:
    - decide your policy (cloud wins / local wins / max wins / prompt user)
 3. Otherwise, just reload from cloud:
    - If keyName == "player_level" → `CloudServicesGetValue("player_level", valueType:Int)` and update `playerLevel`
-   - If keyName == "total_score" → `CloudServicesGetValue("total_score", valueType:Long)` and update `totalScore`
+   - If keyName == "total_score" → `CloudServicesGetValue("total_score", valueType:Int)` and update `totalScore`
 
 If you don’t want a loop, you can also directly use PlayMaker Array actions (Array Get / Array Contains) on `changedKeys`.
 
@@ -52,4 +52,3 @@ If you don’t want a loop, you can also directly use PlayMaker Array actions (A
 **Last Write Wins:** Use remote value always
 **Highest Wins:** Compare local vs remote, keep higher value
 **Manual Merge:** Prompt user to choose
-

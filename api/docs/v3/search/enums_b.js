@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['taskserviceserrorcode_0',['TaskServicesErrorCode',['../da/d57/namespace_voxel_busters_1_1_essential_kit.html#a69b0de3de1c45085104020c3c50d01f5',1,'VoxelBusters::EssentialKit']]],
-  ['textureencodingformat_1',['TextureEncodingFormat',['../d7/d45/namespace_voxel_busters_1_1_core_library.html#a533c2670f0a8893cf58661a4784b2c9f',1,'VoxelBusters::CoreLibrary']]]
+  ['servercredentialadditionalscope_0',['ServerCredentialAdditionalScope',['../d7/d93/group___game_services.html#gacdfa6f09422eb91f2f542a21d6780705',1,'VoxelBusters::EssentialKit']]],
+  ['sharesheetresultcode_1',['ShareSheetResultCode',['../d9/d40/group___sharing_services.html#ga80527fbff6347e8d1acb9ec527c72afd',1,'VoxelBusters::EssentialKit']]],
+  ['sharingserviceserrorcode_2',['SharingServicesErrorCode',['../da/d57/namespace_voxel_busters_1_1_essential_kit.html#abd972b34a2bd13f7afa9b603dee5c7e9',1,'VoxelBusters::EssentialKit']]],
+  ['socialsharecomposerresultcode_3',['SocialShareComposerResultCode',['../da/d57/namespace_voxel_busters_1_1_essential_kit.html#a1870ada81005411484215a0bd6bb5e54',1,'VoxelBusters::EssentialKit']]],
+  ['socialsharecomposertype_4',['SocialShareComposerType',['../da/d57/namespace_voxel_busters_1_1_essential_kit.html#afdc794be6e025a649c9261e3e48b2e46',1,'VoxelBusters::EssentialKit']]]
 ];
