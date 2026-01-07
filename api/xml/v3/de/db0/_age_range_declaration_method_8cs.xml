@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="de/db0/_age_range_declaration_method_8cs" kind="file" language="C#">
+    <compoundname>AgeRangeDeclarationMethod.cs</compoundname>
+    <innernamespace refid="db/daf/namespace_voxel_busters">VoxelBusters</innernamespace>
+    <innernamespace refid="da/d57/namespace_voxel_busters_1_1_essential_kit">VoxelBusters::EssentialKit</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>AgeRangeDeclarationMethod</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AgeRangeDeclarationMethod</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69aa3199c8256905206ec41c003f1bac802" prot="public">
+          <name>NotDeclared</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>The age range is not declared. <ref refid="d2/db3/struct_voxel_busters_1_1_essential_kit_1_1_age_range" kindref="compound">AgeRange</ref>&apos;s lower and upper bound values are set to 0. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69a8dab5afa67b5bd0eeef12daf9edc19ce" prot="public">
+          <name>DeclaredBySelf</name>
+          <briefdescription>
+<para>The age range is declared by the user. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69a8121554aad339594774c75bee2aeddf2" prot="public">
+          <name>DeclaredWithPayment</name>
+          <briefdescription>
+<para>The age range is declared with a valid payment method ex: credit card. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69af45945bbf2c907c389c99fbf45a90494" prot="public">
+          <name>DeclaredWithValidId</name>
+          <briefdescription>
+<para>The age range is declared with a valid id ex: passport or government id. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69af0f823415d11f63cd65a633cf3b48239" prot="public">
+          <name>DeclaredWithOther</name>
+          <briefdescription>
+<para>The age range is declared with any other method. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69a51fc8e67961a90c396ace606038b8de8" prot="public">
+          <name>DeclaredByGuardian</name>
+          <briefdescription>
+<para>The age range is declared by the guardian. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69af4f2eebd3dc9ac041161d9b45c066915" prot="public">
+          <name>DeclaredByGuardianWithPayment</name>
+          <briefdescription>
+<para>The age range is declared by the guardian with a valid payment method. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69aadbc6c4d4e7854ca45975acc74205f09" prot="public">
+          <name>DeclaredByGuardianWithValidId</name>
+          <briefdescription>
+<para>The age range is declared by the guardian with a valid id. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69a1b39b3d4a8f77c8a712918081812db5a" prot="public">
+          <name>DeclaredByGuardianWithOther</name>
+          <briefdescription>
+<para>The age range is declared by the guardian with any other method. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>The age range declaration method is unknown. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The age range declaration method. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/AgeRangeDeclarationMethod.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/AgeRangeDeclarationMethod.cs" bodystart="7" bodyend="57"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/AgeRangeDeclarationMethod.cs"/>
+  </compounddef>
+</doxygen>

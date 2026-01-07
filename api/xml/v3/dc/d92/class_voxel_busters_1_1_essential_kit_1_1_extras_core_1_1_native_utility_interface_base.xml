@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/NativeUtilityInterfaceBase.cs" line="12" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/NativeUtilityInterfaceBase.cs" bodystart="12" bodyend="14"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/NativeUtilityInterfaceBase.cs" line="13" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/NativeUtilityInterfaceBase.cs" bodystart="13" bodyend="15"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/NativeUtilityInterfaceBase.cs" line="20" column="30"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/NativeUtilityInterfaceBase.cs" line="21" column="30"/>
       </memberdef>
       <memberdef kind="function" id="dc/d92/class_voxel_busters_1_1_essential_kit_1_1_extras_core_1_1_native_utility_interface_base_1abd53881cec85ee7844f85d8f6e785e4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -56,18 +56,41 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/NativeUtilityInterfaceBase.cs" line="22" column="30"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/NativeUtilityInterfaceBase.cs" line="23" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d92/class_voxel_busters_1_1_essential_kit_1_1_extras_core_1_1_native_utility_interface_base_1af28219670acf7a3d9551ebcd9d3afc56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RequestInfoForAgeCompliance</definition>
+        <argsstring>(RequestInfoForAgeComplianceOptions options, EventCallback&lt; InfoForAgeCompliance &gt; onComplete)</argsstring>
+        <name>RequestInfoForAgeCompliance</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ExtrasCore.NativeUtilityInterfaceBase.RequestInfoForAgeCompliance</qualifiedname>
+        <param>
+          <type><ref refid="dd/d41/class_voxel_busters_1_1_essential_kit_1_1_request_info_for_age_compliance_options" kindref="compound">RequestInfoForAgeComplianceOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>EventCallback&lt; <ref refid="d9/db2/class_voxel_busters_1_1_essential_kit_1_1_info_for_age_compliance" kindref="compound">InfoForAgeCompliance</ref> &gt;</type>
+          <declname>onComplete</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/NativeUtilityInterfaceBase.cs" line="25" column="30"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/NativeUtilityInterfaceBase.cs" line="8" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/NativeUtilityInterfaceBase.cs" bodystart="9" bodyend="25"/>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/NativeUtilityInterfaceBase.cs" line="9" column="21" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/NativeUtilityInterfaceBase.cs" bodystart="10" bodyend="28"/>
     <listofallmembers>
       <member refid="dc/d92/class_voxel_busters_1_1_essential_kit_1_1_extras_core_1_1_native_utility_interface_base_1a4242061ebfccfe0795df636e2e11d60d" prot="protected" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ExtrasCore::NativeUtilityInterfaceBase</scope><name>NativeUtilityInterfaceBase</name></member>
       <member refid="dc/d92/class_voxel_busters_1_1_essential_kit_1_1_extras_core_1_1_native_utility_interface_base_1abd53881cec85ee7844f85d8f6e785e4a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ExtrasCore::NativeUtilityInterfaceBase</scope><name>OpenApplicationSettings</name></member>
       <member refid="dc/d92/class_voxel_busters_1_1_essential_kit_1_1_extras_core_1_1_native_utility_interface_base_1a8ed4df28f6455a230665b6de60ce7deb" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ExtrasCore::NativeUtilityInterfaceBase</scope><name>OpenAppStorePage</name></member>
+      <member refid="dc/d92/class_voxel_busters_1_1_essential_kit_1_1_extras_core_1_1_native_utility_interface_base_1af28219670acf7a3d9551ebcd9d3afc56" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::ExtrasCore::NativeUtilityInterfaceBase</scope><name>RequestInfoForAgeCompliance</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

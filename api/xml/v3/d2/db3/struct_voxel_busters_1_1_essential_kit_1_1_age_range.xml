@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d2/db3/struct_voxel_busters_1_1_essential_kit_1_1_age_range" kind="struct" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::AgeRange</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d2/db3/struct_voxel_busters_1_1_essential_kit_1_1_age_range_1a6f98147aca1b7780618bec44992a4c70" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int LowerBound</definition>
+        <argsstring></argsstring>
+        <name>LowerBound</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AgeRange.LowerBound</qualifiedname>
+        <briefdescription>
+<para>The lower bound in years. Value will be -1 if bound is not applicable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/AgeRange.cs" line="17" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/AgeRange.cs" bodystart="17" bodyend="17"/>
+        <referencedby refid="d2/db3/struct_voxel_busters_1_1_essential_kit_1_1_age_range_1a4b9e3fc977f7956c176eb7e4283cbe51" compoundref="d6/d1e/_age_range_8cs" startline="31" endline="35">AgeRange.AgeRange</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="d2/db3/struct_voxel_busters_1_1_essential_kit_1_1_age_range_1a23ac64b5780397bb78675bc28d280a5a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int UpperBound</definition>
+        <argsstring></argsstring>
+        <name>UpperBound</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AgeRange.UpperBound</qualifiedname>
+        <briefdescription>
+<para>The upper bound in years. Value will be -1 if bound is not applicable (for ex: adult&apos;s upper bound will be -1) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/AgeRange.cs" line="22" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/AgeRange.cs" bodystart="22" bodyend="22"/>
+        <referencedby refid="d2/db3/struct_voxel_busters_1_1_essential_kit_1_1_age_range_1a4b9e3fc977f7956c176eb7e4283cbe51" compoundref="d6/d1e/_age_range_8cs" startline="31" endline="35">AgeRange.AgeRange</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/db3/struct_voxel_busters_1_1_essential_kit_1_1_age_range_1a4b9e3fc977f7956c176eb7e4283cbe51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AgeRange</definition>
+        <argsstring>(int lowerBoundInYears, int upperBoundInYears)</argsstring>
+        <name>AgeRange</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AgeRange.AgeRange</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>lowerBoundInYears</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>upperBoundInYears</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="d2/db3/struct_voxel_busters_1_1_essential_kit_1_1_age_range" kindref="compound">AgeRange</ref> struct. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lowerBoundInYears</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The lower bound in years. Value will be -1 if bound is not applicable</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>upperBoundInYears</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The upper bound in years. Value will be -1 if bound is not applicable (for ex: adult&apos;s upper bound will be -1)</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/AgeRange.cs" line="31" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/AgeRange.cs" bodystart="31" bodyend="35"/>
+        <references refid="d2/db3/struct_voxel_busters_1_1_essential_kit_1_1_age_range_1a6f98147aca1b7780618bec44992a4c70" compoundref="d6/d1e/_age_range_8cs" startline="17" endline="17">AgeRange.LowerBound</references>
+        <references refid="d2/db3/struct_voxel_busters_1_1_essential_kit_1_1_age_range_1a23ac64b5780397bb78675bc28d280a5a" compoundref="d6/d1e/_age_range_8cs" startline="22" endline="22">AgeRange.UpperBound</references>
+      </memberdef>
+      <memberdef kind="function" id="d2/db3/struct_voxel_busters_1_1_essential_kit_1_1_age_range_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AgeRange.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/AgeRange.cs" line="37" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/AgeRange.cs" bodystart="37" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Range of age in years. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/AgeRange.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/AgeRange.cs" bodystart="11" bodyend="41"/>
+    <listofallmembers>
+      <member refid="d2/db3/struct_voxel_busters_1_1_essential_kit_1_1_age_range_1a4b9e3fc977f7956c176eb7e4283cbe51" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AgeRange</scope><name>AgeRange</name></member>
+      <member refid="d2/db3/struct_voxel_busters_1_1_essential_kit_1_1_age_range_1a6f98147aca1b7780618bec44992a4c70" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AgeRange</scope><name>LowerBound</name></member>
+      <member refid="d2/db3/struct_voxel_busters_1_1_essential_kit_1_1_age_range_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AgeRange</scope><name>ToString</name></member>
+      <member refid="d2/db3/struct_voxel_busters_1_1_essential_kit_1_1_age_range_1a23ac64b5780397bb78675bc28d280a5a" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::AgeRange</scope><name>UpperBound</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

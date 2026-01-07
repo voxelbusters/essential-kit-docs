@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="d9/db2/class_voxel_busters_1_1_essential_kit_1_1_info_for_age_compliance" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::InfoForAgeCompliance</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="d9/db2/class_voxel_busters_1_1_essential_kit_1_1_info_for_age_compliance_1a532ae729f1e0279f05a96889ec99153d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="d2/db3/struct_voxel_busters_1_1_essential_kit_1_1_age_range" kindref="compound">AgeRange</ref></type>
+        <definition>AgeRange UserAgeRange</definition>
+        <argsstring></argsstring>
+        <name>UserAgeRange</name>
+        <qualifiedname>VoxelBusters.EssentialKit.InfoForAgeCompliance.UserAgeRange</qualifiedname>
+        <briefdescription>
+<para>The age range of the user. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/InfoForAgeCompliance.cs" line="13" column="25" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/InfoForAgeCompliance.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/db2/class_voxel_busters_1_1_essential_kit_1_1_info_for_age_compliance_1ac21021c22213a5a57f01ee1dc6524c7e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69" kindref="member">AgeRangeDeclarationMethod</ref></type>
+        <definition>AgeRangeDeclarationMethod UserAgeRangeDeclarationMethod</definition>
+        <argsstring></argsstring>
+        <name>UserAgeRangeDeclarationMethod</name>
+        <qualifiedname>VoxelBusters.EssentialKit.InfoForAgeCompliance.UserAgeRangeDeclarationMethod</qualifiedname>
+        <briefdescription>
+<para>The age range declaration method. See <ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69" kindref="member">AgeRangeDeclarationMethod</ref> for possible values. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/InfoForAgeCompliance.cs" line="18" column="42" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/InfoForAgeCompliance.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/db2/class_voxel_busters_1_1_essential_kit_1_1_info_for_age_compliance_1acc827a7b1d03f2e9a7a2275bc7a799fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InfoForAgeCompliance</definition>
+        <argsstring>(AgeRange userAgeRange, AgeRangeDeclarationMethod userAgeRangeDeclarationMethod)</argsstring>
+        <name>InfoForAgeCompliance</name>
+        <qualifiedname>VoxelBusters.EssentialKit.InfoForAgeCompliance.InfoForAgeCompliance</qualifiedname>
+        <param>
+          <type><ref refid="d2/db3/struct_voxel_busters_1_1_essential_kit_1_1_age_range" kindref="compound">AgeRange</ref></type>
+          <declname>userAgeRange</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69" kindref="member">AgeRangeDeclarationMethod</ref></type>
+          <declname>userAgeRangeDeclarationMethod</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/InfoForAgeCompliance.cs" line="20" column="16" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/InfoForAgeCompliance.cs" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/db2/class_voxel_busters_1_1_essential_kit_1_1_info_for_age_compliance_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>VoxelBusters.EssentialKit.InfoForAgeCompliance.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/InfoForAgeCompliance.cs" line="26" column="32" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/InfoForAgeCompliance.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="d9/db2/class_voxel_busters_1_1_essential_kit_1_1_info_for_age_compliance" kindref="compound">InfoForAgeCompliance</ref> class provides information related to the age range of the user and other which are helpful to the age compliance process. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/InfoForAgeCompliance.cs" line="8" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/InfoForAgeCompliance.cs" bodystart="9" bodyend="30"/>
+    <listofallmembers>
+      <member refid="d9/db2/class_voxel_busters_1_1_essential_kit_1_1_info_for_age_compliance_1acc827a7b1d03f2e9a7a2275bc7a799fc" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::InfoForAgeCompliance</scope><name>InfoForAgeCompliance</name></member>
+      <member refid="d9/db2/class_voxel_busters_1_1_essential_kit_1_1_info_for_age_compliance_1aa73e7c4dd1df5fd5fbf81c7764ee1533" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::InfoForAgeCompliance</scope><name>ToString</name></member>
+      <member refid="d9/db2/class_voxel_busters_1_1_essential_kit_1_1_info_for_age_compliance_1a532ae729f1e0279f05a96889ec99153d" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::InfoForAgeCompliance</scope><name>UserAgeRange</name></member>
+      <member refid="d9/db2/class_voxel_busters_1_1_essential_kit_1_1_info_for_age_compliance_1ac21021c22213a5a57f01ee1dc6524c7e" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::InfoForAgeCompliance</scope><name>UserAgeRangeDeclarationMethod</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

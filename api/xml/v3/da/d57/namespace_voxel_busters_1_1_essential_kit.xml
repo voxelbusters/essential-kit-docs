@@ -11,6 +11,7 @@
     <innerclass refid="d6/de4/class_voxel_busters_1_1_essential_kit_1_1_address_book_read_contacts_result" prot="public">VoxelBusters::EssentialKit::AddressBookReadContactsResult</innerclass>
     <innerclass refid="db/d1b/class_voxel_busters_1_1_essential_kit_1_1_address_book_request_contacts_access_result" prot="public">VoxelBusters::EssentialKit::AddressBookRequestContactsAccessResult</innerclass>
     <innerclass refid="d8/d8d/class_voxel_busters_1_1_essential_kit_1_1_address_book_unity_settings" prot="public">VoxelBusters::EssentialKit::AddressBookUnitySettings</innerclass>
+    <innerclass refid="d2/db3/struct_voxel_busters_1_1_essential_kit_1_1_age_range" prot="public">VoxelBusters::EssentialKit::AgeRange</innerclass>
     <innerclass refid="d6/d61/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog" prot="public">VoxelBusters::EssentialKit::AlertDialog</innerclass>
     <innerclass refid="d1/d29/class_voxel_busters_1_1_essential_kit_1_1_alert_dialog_builder" prot="public">VoxelBusters::EssentialKit::AlertDialogBuilder</innerclass>
     <innerclass refid="d1/d9a/class_voxel_busters_1_1_essential_kit_1_1_application_settings" prot="public">VoxelBusters::EssentialKit::ApplicationSettings</innerclass>
@@ -62,6 +63,7 @@
     <innerclass refid="d6/dd4/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_domain" prot="public">VoxelBusters::EssentialKit::EssentialKitDomain</innerclass>
     <innerclass refid="d9/db3/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_manager" prot="public">VoxelBusters::EssentialKit::EssentialKitManager</innerclass>
     <innerclass refid="d1/d16/class_voxel_busters_1_1_essential_kit_1_1_essential_kit_settings" prot="public">VoxelBusters::EssentialKit::EssentialKitSettings</innerclass>
+    <innerclass refid="d1/d03/class_voxel_busters_1_1_essential_kit_1_1_extras_error" prot="public">VoxelBusters::EssentialKit::ExtrasError</innerclass>
     <innerclass refid="d9/d98/class_voxel_busters_1_1_essential_kit_1_1_game_services" prot="public">VoxelBusters::EssentialKit::GameServices</innerclass>
     <innerclass refid="db/d23/class_voxel_busters_1_1_essential_kit_1_1_game_services_auth_status_change_result" prot="public">VoxelBusters::EssentialKit::GameServicesAuthStatusChangeResult</innerclass>
     <innerclass refid="d1/d8f/class_voxel_busters_1_1_essential_kit_1_1_game_services_error" prot="public">VoxelBusters::EssentialKit::GameServicesError</innerclass>
@@ -88,6 +90,7 @@
     <innerclass refid="d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content" prot="public">VoxelBusters::EssentialKit::IMediaContent</innerclass>
     <innerclass refid="dd/d46/class_voxel_busters_1_1_essential_kit_1_1_implementation_schema" prot="package">VoxelBusters::EssentialKit::ImplementationSchema</innerclass>
     <innerclass refid="dc/d1c/interface_voxel_busters_1_1_essential_kit_1_1_i_native_rate_my_app_interface" prot="public">VoxelBusters::EssentialKit::INativeRateMyAppInterface</innerclass>
+    <innerclass refid="d9/db2/class_voxel_busters_1_1_essential_kit_1_1_info_for_age_compliance" prot="public">VoxelBusters::EssentialKit::InfoForAgeCompliance</innerclass>
     <innerclass refid="d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification" prot="public">VoxelBusters::EssentialKit::INotification</innerclass>
     <innerclass refid="d2/df5/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_trigger" prot="public">VoxelBusters::EssentialKit::INotificationTrigger</innerclass>
     <innerclass refid="db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player" prot="public">VoxelBusters::EssentialKit::IPlayer</innerclass>
@@ -154,6 +157,7 @@
     <innerclass refid="d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings" prot="public">VoxelBusters::EssentialKit::RateMyAppUnitySettings</innerclass>
     <innerclass refid="d9/dac/class_voxel_busters_1_1_essential_kit_1_1_raw_media_data" prot="public">VoxelBusters::EssentialKit::RawMediaData</innerclass>
     <innerclass refid="d8/d39/class_voxel_busters_1_1_essential_kit_1_1_read_contacts_options" prot="public">VoxelBusters::EssentialKit::ReadContactsOptions</innerclass>
+    <innerclass refid="dd/d41/class_voxel_busters_1_1_essential_kit_1_1_request_info_for_age_compliance_options" prot="public">VoxelBusters::EssentialKit::RequestInfoForAgeComplianceOptions</innerclass>
     <innerclass refid="d5/d8f/class_voxel_busters_1_1_essential_kit_1_1_server_credentials" prot="public">VoxelBusters::EssentialKit::ServerCredentials</innerclass>
     <innerclass refid="d8/d32/class_voxel_busters_1_1_essential_kit_1_1_share_item" prot="public">VoxelBusters::EssentialKit::ShareItem</innerclass>
     <innerclass refid="d3/d77/class_voxel_busters_1_1_essential_kit_1_1_share_sheet" prot="public">VoxelBusters::EssentialKit::ShareSheet</innerclass>
@@ -1268,6 +1272,121 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudUserAccountStatus.cs" line="10" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/CloudServices/CloudUserAccountStatus.cs" bodystart="11" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>AgeRangeDeclarationMethod</name>
+        <qualifiedname>VoxelBusters.EssentialKit.AgeRangeDeclarationMethod</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69aa3199c8256905206ec41c003f1bac802" prot="public">
+          <name>NotDeclared</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>The age range is not declared. <ref refid="d2/db3/struct_voxel_busters_1_1_essential_kit_1_1_age_range" kindref="compound">AgeRange</ref>&apos;s lower and upper bound values are set to 0. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69a8dab5afa67b5bd0eeef12daf9edc19ce" prot="public">
+          <name>DeclaredBySelf</name>
+          <briefdescription>
+<para>The age range is declared by the user. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69a8121554aad339594774c75bee2aeddf2" prot="public">
+          <name>DeclaredWithPayment</name>
+          <briefdescription>
+<para>The age range is declared with a valid payment method ex: credit card. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69af45945bbf2c907c389c99fbf45a90494" prot="public">
+          <name>DeclaredWithValidId</name>
+          <briefdescription>
+<para>The age range is declared with a valid id ex: passport or government id. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69af0f823415d11f63cd65a633cf3b48239" prot="public">
+          <name>DeclaredWithOther</name>
+          <briefdescription>
+<para>The age range is declared with any other method. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69a51fc8e67961a90c396ace606038b8de8" prot="public">
+          <name>DeclaredByGuardian</name>
+          <briefdescription>
+<para>The age range is declared by the guardian. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69af4f2eebd3dc9ac041161d9b45c066915" prot="public">
+          <name>DeclaredByGuardianWithPayment</name>
+          <briefdescription>
+<para>The age range is declared by the guardian with a valid payment method. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69aadbc6c4d4e7854ca45975acc74205f09" prot="public">
+          <name>DeclaredByGuardianWithValidId</name>
+          <briefdescription>
+<para>The age range is declared by the guardian with a valid id. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69a1b39b3d4a8f77c8a712918081812db5a" prot="public">
+          <name>DeclaredByGuardianWithOther</name>
+          <briefdescription>
+<para>The age range is declared by the guardian with any other method. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1adbe9d4b16a5ad3ffafd28a68e28fcd69a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>The age range declaration method is unknown. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The age range declaration method. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/AgeRangeDeclarationMethod.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/AgeRangeDeclarationMethod.cs" bodystart="7" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ac8c3af587e9ba7e053fb9d9c3b461723" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ExtrasErrorCode</name>
+        <qualifiedname>VoxelBusters.EssentialKit.ExtrasErrorCode</qualifiedname>
+        <enumvalue id="da/d57/namespace_voxel_busters_1_1_essential_kit_1ac8c3af587e9ba7e053fb9d9c3b461723a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+<para>The error code indicating that the cause of the error could not be determined. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The error codes for Extras(Utilities) feature. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/ExtrasErrorCode.cs" line="6" column="11" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/ExtrasErrorCode.cs" bodystart="7" bodyend="13"/>
       </memberdef>
       <memberdef kind="enum" id="da/d57/namespace_voxel_busters_1_1_essential_kit_1a2f5d9b001eb542801436a718e63ca16b" prot="public" static="no" strong="yes">
         <type></type>

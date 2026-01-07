@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" line="39" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" bodystart="39" bodyend="43"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" line="40" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" bodystart="40" bodyend="45"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-attrib">
@@ -48,7 +48,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" line="23" column="57" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" bodystart="23" bodyend="-1"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" line="21" column="48" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1ac6d51524de9997f62949366e65c8424d" prot="private" static="yes" mutable="no">
+        <type><ref refid="d2/de9/class_voxel_busters_1_1_essential_kit_1_1_utility_unity_settings" kindref="compound">UtilityUnitySettings</ref></type>
+        <definition>UtilityUnitySettings s_settings</definition>
+        <argsstring></argsstring>
+        <name>s_settings</name>
+        <qualifiedname>VoxelBusters.EssentialKit.Utilities.s_settings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" line="24" column="45" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" bodystart="24" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -65,9 +79,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" line="49" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" bodystart="49" bodyend="55"/>
-        <references refid="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1a4762977ab68072fc0ad870c3b4674996" compoundref="d8/d16/_utilities_8cs" startline="49" endline="55">Utilities.OpenAppStorePage</references>
-        <referencedby refid="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1a4762977ab68072fc0ad870c3b4674996" compoundref="d8/d16/_utilities_8cs" startline="49" endline="55">Utilities.OpenAppStorePage</referencedby>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" line="51" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" bodystart="51" bodyend="57"/>
+        <references refid="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1a4762977ab68072fc0ad870c3b4674996" compoundref="d8/d16/_utilities_8cs" startline="51" endline="57">Utilities.OpenAppStorePage</references>
+        <referencedby refid="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1a4762977ab68072fc0ad870c3b4674996" compoundref="d8/d16/_utilities_8cs" startline="51" endline="57">Utilities.OpenAppStorePage</referencedby>
       </memberdef>
       <memberdef kind="function" id="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1a9f050ac2f0aee36f061ec624fc3b8074" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -108,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" line="82" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" bodystart="82" bodyend="102"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" line="84" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" bodystart="84" bodyend="104"/>
       </memberdef>
       <memberdef kind="function" id="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1a0d0ba6f1036c8e9801f520a9f372c470" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -137,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" line="108" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" bodystart="108" bodyend="121"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" line="110" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" bodystart="110" bodyend="123"/>
       </memberdef>
       <memberdef kind="function" id="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1abc8021a2d00879e17d4d0881eae74599" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -153,7 +167,49 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" line="130" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" bodystart="130" bodyend="140"/>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" line="132" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" bodystart="132" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1a366684af7a96e64d0c3db0bc05410181" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RequestInfoForAgeCompliance</definition>
+        <argsstring>(RequestInfoForAgeComplianceOptions options, EventCallback&lt; InfoForAgeCompliance &gt; onComplete)</argsstring>
+        <name>RequestInfoForAgeCompliance</name>
+        <qualifiedname>VoxelBusters.EssentialKit.Utilities.RequestInfoForAgeCompliance</qualifiedname>
+        <param>
+          <type><ref refid="dd/d41/class_voxel_busters_1_1_essential_kit_1_1_request_info_for_age_compliance_options" kindref="compound">RequestInfoForAgeComplianceOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>EventCallback&lt; <ref refid="d9/db2/class_voxel_busters_1_1_essential_kit_1_1_info_for_age_compliance" kindref="compound">InfoForAgeCompliance</ref> &gt;</type>
+          <declname>onComplete</declname>
+        </param>
+        <briefdescription>
+<para>Requests info for age compliance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Options for adding available content age gate ranges. Pass null or RequestInfoForAgeComplianceOptions.Default to use default values.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>onComplete</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A callback that will be invoked when the request is completed with the result.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" line="150" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" bodystart="150" bodyend="166"/>
+        <references refid="d2/de9/class_voxel_busters_1_1_essential_kit_1_1_utility_unity_settings_1a6aadd06f79b620618e1b41a625006b42" compoundref="d6/db2/_utility_unity_settings_8cs" startline="30">UtilityUnitySettings.UsesAgeComplianceApi</references>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -161,14 +217,16 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" line="18" column="19" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" bodystart="19" bodyend="143"/>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" line="16" column="26" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/Utilities.cs" bodystart="17" bodyend="169"/>
     <listofallmembers>
       <member refid="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1a85a289b5f583bd3697c417a1861c4278" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::Utilities</scope><name>Initialize</name></member>
       <member refid="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1abc8021a2d00879e17d4d0881eae74599" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::Utilities</scope><name>OpenApplicationSettings</name></member>
       <member refid="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1a4762977ab68072fc0ad870c3b4674996" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::Utilities</scope><name>OpenAppStorePage</name></member>
       <member refid="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1a9f050ac2f0aee36f061ec624fc3b8074" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::Utilities</scope><name>OpenAppStorePage</name></member>
       <member refid="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1a0d0ba6f1036c8e9801f520a9f372c470" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::Utilities</scope><name>OpenAppStorePage</name></member>
+      <member refid="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1a366684af7a96e64d0c3db0bc05410181" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::Utilities</scope><name>RequestInfoForAgeCompliance</name></member>
       <member refid="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1aa7ad7258768eea02f2017a87294ca86a" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::Utilities</scope><name>s_nativeInterface</name></member>
+      <member refid="d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities_1ac6d51524de9997f62949366e65c8424d" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::Utilities</scope><name>s_settings</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

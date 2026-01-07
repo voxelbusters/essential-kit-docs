@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="df/d31/class_voxel_busters_1_1_essential_kit_1_1_request_info_for_age_compliance_options_1_1_builder" kind="class" language="C#" prot="public">
+    <compoundname>VoxelBusters::EssentialKit::RequestInfoForAgeComplianceOptions::Builder</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="df/d31/class_voxel_busters_1_1_essential_kit_1_1_request_info_for_age_compliance_options_1_1_builder_1aa4495baa8b678da48618a69ca6305afb" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="d2/db3/struct_voxel_busters_1_1_essential_kit_1_1_age_range" kindref="compound">AgeRange</ref> &gt;</type>
+        <definition>List&lt;AgeRange&gt; m_contentAgeGateRanges</definition>
+        <argsstring></argsstring>
+        <name>m_contentAgeGateRanges</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RequestInfoForAgeComplianceOptions.Builder.m_contentAgeGateRanges</qualifiedname>
+        <initializer>= new List&lt;<ref refid="d2/db3/struct_voxel_busters_1_1_essential_kit_1_1_age_range" kindref="compound">AgeRange</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/RequestInfoForAgeComplianceOptions.cs" line="29" column="26" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/RequestInfoForAgeComplianceOptions.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d31/class_voxel_busters_1_1_essential_kit_1_1_request_info_for_age_compliance_options_1_1_builder_1a4c5b1b5b658880619647b859000724fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Builder</definition>
+        <argsstring>()</argsstring>
+        <name>Builder</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RequestInfoForAgeComplianceOptions.Builder.Builder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/RequestInfoForAgeComplianceOptions.cs" line="30" column="20" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/RequestInfoForAgeComplianceOptions.cs" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d31/class_voxel_busters_1_1_essential_kit_1_1_request_info_for_age_compliance_options_1_1_builder_1a41aed80ce8da1ca6af05132426bf00c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="df/d31/class_voxel_busters_1_1_essential_kit_1_1_request_info_for_age_compliance_options_1_1_builder" kindref="compound">Builder</ref></type>
+        <definition>Builder AddContentAgeGateRange</definition>
+        <argsstring>(int lowerBoundInYears, int upperBoundInYears)</argsstring>
+        <name>AddContentAgeGateRange</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RequestInfoForAgeComplianceOptions.Builder.AddContentAgeGateRange</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>lowerBoundInYears</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>upperBoundInYears</declname>
+        </param>
+        <briefdescription>
+<para>Adds a content age gate range. Provide this info if you have different content based on age. By default, 0-100 content age gate range is considered. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lowerBoundInYears</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The lower bound in years</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>upperBoundInYears</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The upper bound in years</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ArgumentException</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/RequestInfoForAgeComplianceOptions.cs" line="42" column="28" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/RequestInfoForAgeComplianceOptions.cs" bodystart="42" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d31/class_voxel_busters_1_1_essential_kit_1_1_request_info_for_age_compliance_options_1_1_builder_1a396b9c01a9365d8d143d15a64fb510c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dd/d41/class_voxel_busters_1_1_essential_kit_1_1_request_info_for_age_compliance_options" kindref="compound">RequestInfoForAgeComplianceOptions</ref></type>
+        <definition>RequestInfoForAgeComplianceOptions Build</definition>
+        <argsstring>()</argsstring>
+        <name>Build</name>
+        <qualifiedname>VoxelBusters.EssentialKit.RequestInfoForAgeComplianceOptions.Builder.Build</qualifiedname>
+        <briefdescription>
+<para>Builds the <ref refid="dd/d41/class_voxel_busters_1_1_essential_kit_1_1_request_info_for_age_compliance_options" kindref="compound">RequestInfoForAgeComplianceOptions</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/RequestInfoForAgeComplianceOptions.cs" line="58" column="55" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/RequestInfoForAgeComplianceOptions.cs" bodystart="58" bodyend="68"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The builder class for <ref refid="dd/d41/class_voxel_busters_1_1_essential_kit_1_1_request_info_for_age_compliance_options" kindref="compound">RequestInfoForAgeComplianceOptions</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/RequestInfoForAgeComplianceOptions.cs" line="27" column="15" bodyfile="/Volumes/Work/Projects/Products/AssetStore/Cross Platform Essential Kit/UnityProject/Assets/Plugins/VoxelBusters/EssentialKit/Runtime/Core/Extras/RequestInfoForAgeComplianceOptions.cs" bodystart="28" bodyend="69"/>
+    <listofallmembers>
+      <member refid="df/d31/class_voxel_busters_1_1_essential_kit_1_1_request_info_for_age_compliance_options_1_1_builder_1a41aed80ce8da1ca6af05132426bf00c3" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RequestInfoForAgeComplianceOptions::Builder</scope><name>AddContentAgeGateRange</name></member>
+      <member refid="df/d31/class_voxel_busters_1_1_essential_kit_1_1_request_info_for_age_compliance_options_1_1_builder_1a396b9c01a9365d8d143d15a64fb510c4" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RequestInfoForAgeComplianceOptions::Builder</scope><name>Build</name></member>
+      <member refid="df/d31/class_voxel_busters_1_1_essential_kit_1_1_request_info_for_age_compliance_options_1_1_builder_1a4c5b1b5b658880619647b859000724fc" prot="public" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RequestInfoForAgeComplianceOptions::Builder</scope><name>Builder</name></member>
+      <member refid="df/d31/class_voxel_busters_1_1_essential_kit_1_1_request_info_for_age_compliance_options_1_1_builder_1aa4495baa8b678da48618a69ca6305afb" prot="private" virt="non-virtual"><scope>VoxelBusters::EssentialKit::RequestInfoForAgeComplianceOptions::Builder</scope><name>m_contentAgeGateRanges</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
