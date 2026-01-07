@@ -47,5 +47,6 @@ var searchData=
   ['localplayerscore_44',['LocalPlayerScore',['../d0/d20/interface_voxel_busters_1_1_essential_kit_1_1_i_leaderboard.html#a0c3a40518d70778a3ae44e002b53cf64',1,'VoxelBusters.EssentialKit.ILeaderboard.LocalPlayerScore'],['../db/d4d/class_voxel_busters_1_1_essential_kit_1_1_leaderboard_load_scores_result.html#a0c3a40518d70778a3ae44e002b53cf64',1,'VoxelBusters.EssentialKit.LeaderboardLoadScoresResult.LocalPlayerScore']]],
   ['location_45',['Location',['../da/d57/namespace_voxel_busters_1_1_essential_kit.html#a6fb7a26e2f0301e70c63af1477d0a40face5bf551379459c1c61d2a204061c455',1,'VoxelBusters::EssentialKit']]],
   ['lockscreensetting_46',['LockScreenSetting',['../d4/dbc/class_voxel_busters_1_1_essential_kit_1_1_notification_settings.html#a33f3f8fbf74877bd31d35d9a42a328bf',1,'VoxelBusters::EssentialKit::NotificationSettings']]],
-  ['low_47',['Low',['../da/d57/namespace_voxel_busters_1_1_essential_kit.html#aed65b4bc3683d5107f984b5d778bf553a28d0edd045e05cf5af64e35ae0c4c6ef',1,'VoxelBusters::EssentialKit']]]
+  ['low_47',['Low',['../da/d57/namespace_voxel_busters_1_1_essential_kit.html#aed65b4bc3683d5107f984b5d778bf553a28d0edd045e05cf5af64e35ae0c4c6ef',1,'VoxelBusters::EssentialKit']]],
+  ['lowerbound_48',['LowerBound',['../d2/db3/struct_voxel_busters_1_1_essential_kit_1_1_age_range.html#a6f98147aca1b7780618bec44992a4c70',1,'VoxelBusters::EssentialKit::AgeRange']]]
 ];

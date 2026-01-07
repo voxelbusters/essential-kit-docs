@@ -12,5 +12,6 @@ var searchData=
   ['eventcallback_3c_20tresult_20_3e_9',['EventCallback&lt; TResult &gt;',['../d7/d45/namespace_voxel_busters_1_1_core_library.html#a96bb32eccace4a42161521d5d6b6d478',1,'VoxelBusters::CoreLibrary']]],
   ['expirationreason_10',['ExpirationReason',['../dd/d36/class_voxel_busters_1_1_essential_kit_1_1_billing_product_subscription_renewal_info.html#a14c98f5f9aa9ec469e5cc7abbac7c749',1,'VoxelBusters::EssentialKit::BillingProductSubscriptionRenewalInfo']]],
   ['expired_11',['Expired',['../da/d57/namespace_voxel_busters_1_1_essential_kit.html#a4fe4cf71a855612966d19f8dff53149da24fe48030f7d3097d5882535b04c3fa8',1,'VoxelBusters::EssentialKit']]],
-  ['externalserviceprovider_12',['ExternalServiceProvider',['../d4/db5/class_voxel_busters_1_1_core_library_1_1_external_service_provider.html',1,'VoxelBusters::CoreLibrary']]]
+  ['externalserviceprovider_12',['ExternalServiceProvider',['../d4/db5/class_voxel_busters_1_1_core_library_1_1_external_service_provider.html',1,'VoxelBusters::CoreLibrary']]],
+  ['extraserrorcode_13',['ExtrasErrorCode',['../da/d57/namespace_voxel_busters_1_1_essential_kit.html#ac8c3af587e9ba7e053fb9d9c3b461723',1,'VoxelBusters::EssentialKit']]]
 ];

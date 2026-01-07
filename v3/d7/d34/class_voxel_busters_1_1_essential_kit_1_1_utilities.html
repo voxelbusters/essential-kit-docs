@@ -126,6 +126,9 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>OpenAppStorePa
 <tr class="memitem:abc8021a2d00879e17d4d0881eae74599" id="r_abc8021a2d00879e17d4d0881eae74599"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc8021a2d00879e17d4d0881eae74599">OpenApplicationSettings</a> ()</td></tr>
 <tr class="memdesc:abc8021a2d00879e17d4d0881eae74599"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens the app settings page associated with this app.  <br /></td></tr>
 <tr class="separator:abc8021a2d00879e17d4d0881eae74599"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a366684af7a96e64d0c3db0bc05410181" id="r_a366684af7a96e64d0c3db0bc05410181"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a366684af7a96e64d0c3db0bc05410181">RequestInfoForAgeCompliance</a> (<a class="el" href="../../dd/d41/class_voxel_busters_1_1_essential_kit_1_1_request_info_for_age_compliance_options.html">RequestInfoForAgeComplianceOptions</a> options, EventCallback&lt; <a class="el" href="../../d9/db2/class_voxel_busters_1_1_essential_kit_1_1_info_for_age_compliance.html">InfoForAgeCompliance</a> &gt; onComplete)</td></tr>
+<tr class="memdesc:a366684af7a96e64d0c3db0bc05410181"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests info for age compliance.  <br /></td></tr>
+<tr class="separator:a366684af7a96e64d0c3db0bc05410181"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Advanced Usage</div></td></tr>
 <tr class="memitem:a85a289b5f583bd3697c417a1861c4278" id="r_a85a289b5f583bd3697c417a1861c4278"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85a289b5f583bd3697c417a1861c4278">Initialize</a> (<a class="el" href="../../d2/de9/class_voxel_busters_1_1_essential_kit_1_1_utility_unity_settings.html">UtilityUnitySettings</a> settings)</td></tr>
 <tr class="memdesc:a85a289b5f583bd3697c417a1861c4278"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the utilities module with the given settings. This call is optional and only need to be called if you have custom settings to initialize this feature.  <br /></td></tr>
@@ -203,7 +206,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>OpenAppStorePa
 <div class="line">        <a class="code hl_class" href="../../d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities.html">Utilities</a>.OpenStoreLink(PlatformValue.Android(<span class="stringliteral">&quot;com.example.app&quot;</span>), PlatformValue.IOS(<span class="stringliteral">&quot;ios-app-id&quot;</span>));</div>
 <div class="line">    }</div>
 <div class="line">}</div>
-<div class="ttc" id="aclass_voxel_busters_1_1_essential_kit_1_1_utilities_html"><div class="ttname"><a href="../../d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities.html">VoxelBusters.EssentialKit.Utilities</a></div><div class="ttdoc">Provides a cross-platform interface to access commonly used native features.</div><div class="ttdef"><b>Definition</b> Utilities.cs:19</div></div>
+<div class="ttc" id="aclass_voxel_busters_1_1_essential_kit_1_1_utilities_html"><div class="ttname"><a href="../../d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities.html">VoxelBusters.EssentialKit.Utilities</a></div><div class="ttdoc">Provides a cross-platform interface to access commonly used native features.</div><div class="ttdef"><b>Definition</b> Utilities.cs:17</div></div>
 <div class="ttc" id="anamespace_voxel_busters_1_1_essential_kit_html"><div class="ttname"><a href="../../da/d57/namespace_voxel_busters_1_1_essential_kit.html">VoxelBusters.EssentialKit</a></div><div class="ttdoc">Namespace for essential kit features. You need to import this namespace along with VoxelBusters....</div><div class="ttdef"><b>Definition</b> AddressBook.cs:8</div></div>
 </div><!-- fragment --> 
 </div>
@@ -265,13 +268,51 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>OpenAppStorePa
 
 </div>
 </div>
+<a id="a366684af7a96e64d0c3db0bc05410181" name="a366684af7a96e64d0c3db0bc05410181"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a366684af7a96e64d0c3db0bc05410181">&#9670;&#160;</a></span>RequestInfoForAgeCompliance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void RequestInfoForAgeCompliance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d41/class_voxel_busters_1_1_essential_kit_1_1_request_info_for_age_compliance_options.html">RequestInfoForAgeComplianceOptions</a></td>          <td class="paramname"><span class="paramname"><em>options</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EventCallback&lt; <a class="el" href="../../d9/db2/class_voxel_busters_1_1_essential_kit_1_1_info_for_age_compliance.html">InfoForAgeCompliance</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>onComplete</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">options</td><td>Options for adding available content age gate ranges. Pass null or RequestInfoForAgeComplianceOptions.Default to use default values.</td></tr>
+    <tr><td class="paramname">onComplete</td><td>A callback that will be invoked when the request is completed with the result.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">References <a class="el" href="../../d2/de9/class_voxel_busters_1_1_essential_kit_1_1_utility_unity_settings.html#a6aadd06f79b620618e1b41a625006b42">UtilityUnitySettings.UsesAgeComplianceApi</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/daf/namespace_voxel_busters.html">VoxelBusters</a></li><li class="navelem"><a class="el" href="../../da/d57/namespace_voxel_busters_1_1_essential_kit.html">EssentialKit</a></li><li class="navelem"><a class="el" href="../../d7/d34/class_voxel_busters_1_1_essential_kit_1_1_utilities.html">Utilities</a></li>
-    <li class="footer">Generated on Sat Nov 8 2025 for Essential Kit by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">Generated on Wed Jan 7 2026 for Essential Kit by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>
 </body>

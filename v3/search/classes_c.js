@@ -7,5 +7,6 @@ var searchData=
   ['ratemyappunitysettings_4',['RateMyAppUnitySettings',['../d2/de5/class_voxel_busters_1_1_essential_kit_1_1_rate_my_app_unity_settings.html',1,'VoxelBusters::EssentialKit']]],
   ['rawmediadata_5',['RawMediaData',['../d9/dac/class_voxel_busters_1_1_essential_kit_1_1_raw_media_data.html',1,'VoxelBusters::EssentialKit']]],
   ['readcontactsoptions_6',['ReadContactsOptions',['../d8/d39/class_voxel_busters_1_1_essential_kit_1_1_read_contacts_options.html',1,'VoxelBusters::EssentialKit']]],
-  ['runtimeplatformconstant_7',['RuntimePlatformConstant',['../db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant.html',1,'VoxelBusters::CoreLibrary']]]
+  ['requestinfoforagecomplianceoptions_7',['RequestInfoForAgeComplianceOptions',['../dd/d41/class_voxel_busters_1_1_essential_kit_1_1_request_info_for_age_compliance_options.html',1,'VoxelBusters::EssentialKit']]],
+  ['runtimeplatformconstant_8',['RuntimePlatformConstant',['../db/db7/class_voxel_busters_1_1_core_library_1_1_runtime_platform_constant.html',1,'VoxelBusters::CoreLibrary']]]
 ];

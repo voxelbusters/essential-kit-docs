@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['webviewerrorcode_0',['WebViewErrorCode',['../da/d57/namespace_voxel_busters_1_1_essential_kit.html#ae197128c23fa81b1367c036f19b73ca9',1,'VoxelBusters::EssentialKit']]],
-  ['webviewstyle_1',['WebViewStyle',['../da/d57/namespace_voxel_busters_1_1_essential_kit.html#affd0f8f037d8080ee2f06ec06f710a53',1,'VoxelBusters::EssentialKit']]]
+  ['taskserviceserrorcode_0',['TaskServicesErrorCode',['../da/d57/namespace_voxel_busters_1_1_essential_kit.html#a69b0de3de1c45085104020c3c50d01f5',1,'VoxelBusters::EssentialKit']]],
+  ['textureencodingformat_1',['TextureEncodingFormat',['../d7/d45/namespace_voxel_busters_1_1_core_library.html#a533c2670f0a8893cf58661a4784b2c9f',1,'VoxelBusters::CoreLibrary']]]
 ];

@@ -12,11 +12,12 @@ var searchData=
   ['ileaderboardscore_9',['ILeaderboardScore',['../d6/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_leaderboard_score.html',1,'VoxelBusters::EssentialKit']]],
   ['ilocalplayer_10',['ILocalPlayer',['../d4/d37/interface_voxel_busters_1_1_essential_kit_1_1_i_local_player.html',1,'VoxelBusters::EssentialKit']]],
   ['imediacontent_11',['IMediaContent',['../d7/d4c/interface_voxel_busters_1_1_essential_kit_1_1_i_media_content.html',1,'VoxelBusters::EssentialKit']]],
-  ['inotification_12',['INotification',['../d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification.html',1,'VoxelBusters::EssentialKit']]],
-  ['inotificationtrigger_13',['INotificationTrigger',['../d2/df5/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_trigger.html',1,'VoxelBusters::EssentialKit']]],
-  ['iosplatformproperties_14',['IosPlatformProperties',['../d8/d68/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings_1_1_ios_platform_properties.html',1,'CloudServicesUnitySettings.IosPlatformProperties'],['../d5/db4/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1_1_ios_platform_properties.html',1,'DeepLinkServicesUnitySettings.IosPlatformProperties'],['../d3/da5/class_voxel_busters_1_1_essential_kit_1_1_server_credentials_1_1_ios_platform_properties.html',1,'ServerCredentials.IosPlatformProperties']]],
-  ['iosproperties_15',['IosProperties',['../db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties.html',1,'VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails']]],
-  ['iplayer_16',['IPlayer',['../db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player.html',1,'VoxelBusters::EssentialKit']]],
-  ['isaveserviceprovider_17',['ISaveServiceProvider',['../d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider.html',1,'VoxelBusters::CoreLibrary']]],
-  ['iscore_18',['IScore',['../dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score.html',1,'VoxelBusters::EssentialKit']]]
+  ['infoforagecompliance_12',['InfoForAgeCompliance',['../d9/db2/class_voxel_busters_1_1_essential_kit_1_1_info_for_age_compliance.html',1,'VoxelBusters::EssentialKit']]],
+  ['inotification_13',['INotification',['../d5/ddb/interface_voxel_busters_1_1_essential_kit_1_1_i_notification.html',1,'VoxelBusters::EssentialKit']]],
+  ['inotificationtrigger_14',['INotificationTrigger',['../d2/df5/interface_voxel_busters_1_1_essential_kit_1_1_i_notification_trigger.html',1,'VoxelBusters::EssentialKit']]],
+  ['iosplatformproperties_15',['IosPlatformProperties',['../d8/d68/class_voxel_busters_1_1_essential_kit_1_1_cloud_services_unity_settings_1_1_ios_platform_properties.html',1,'CloudServicesUnitySettings.IosPlatformProperties'],['../d5/db4/class_voxel_busters_1_1_essential_kit_1_1_deep_link_services_unity_settings_1_1_ios_platform_properties.html',1,'DeepLinkServicesUnitySettings.IosPlatformProperties'],['../d3/da5/class_voxel_busters_1_1_essential_kit_1_1_server_credentials_1_1_ios_platform_properties.html',1,'ServerCredentials.IosPlatformProperties']]],
+  ['iosproperties_16',['IosProperties',['../db/d66/class_voxel_busters_1_1_essential_kit_1_1_billing_product_offer_redeem_details_1_1_ios_properties.html',1,'VoxelBusters::EssentialKit::BillingProductOfferRedeemDetails']]],
+  ['iplayer_17',['IPlayer',['../db/d2f/interface_voxel_busters_1_1_essential_kit_1_1_i_player.html',1,'VoxelBusters::EssentialKit']]],
+  ['isaveserviceprovider_18',['ISaveServiceProvider',['../d2/dc7/interface_voxel_busters_1_1_core_library_1_1_i_save_service_provider.html',1,'VoxelBusters::CoreLibrary']]],
+  ['iscore_19',['IScore',['../dc/d19/interface_voxel_busters_1_1_essential_kit_1_1_i_score.html',1,'VoxelBusters::EssentialKit']]]
 ];
