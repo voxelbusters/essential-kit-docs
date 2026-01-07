@@ -8,12 +8,12 @@ Android natively doesn't have option to render pdf file. So rendering it is a bi
 
 To load a pdf file, we can make use of google drive's embedded url utility to achieve similar functionality on both iOS and Android.
 
-Just prefix your url with "[http://docs.google.com/gview?embedded=true\&url=](http://docs.google.com/gview?embedded=true\&url=)"  and call LoadUrl of web view.
+Just prefix your url with "[http://docs.google.com/gview?embedded=true\&url=](http://docs.google.com/gview?embedded=true\&url=)" and call LoadURL on the web view.
 
 
 
 ```csharp
-// Assume you have a webView instance (IWebView) already created
+// Assume you have a webView instance (WebView) already created
 void LoadPdfInWebView()
 {
     string yourPdfUrl  = "https://yourwebsite.com/sample.pdf";
@@ -21,7 +21,7 @@ void LoadPdfInWebView()
 
     //...
 
-    webView.LoadUrl(URLString.URLWithPath(urlPath));
+    webView.LoadURL(URLString.URLWithPath(urlPath));
 }
 ```
 
@@ -50,7 +50,7 @@ string finalPath = PDF_VIEWER_PATH + "file://" + yourFilePersistentDataPath;
 
 //...
 
-webView.LoadUrl(URLString.URLWithPath(finalPath));
+webView.LoadURL(URLString.URLWithPath(finalPath));
 ```
 
 
@@ -103,8 +103,6 @@ private IEnumerator CopyToPersistentPath(string sourceFolder, string fileName, A
 }
 ```
 {% endcode %}
-
-
 
 
 

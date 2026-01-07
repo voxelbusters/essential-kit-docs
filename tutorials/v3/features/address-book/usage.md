@@ -201,7 +201,7 @@ void ShowAvatar(IAddressBookContact contact, RawImage target)
 
     contact.LoadImage((textureData, error) =>
     {
-        if (error == null && textureData.Texture != null)
+        if (error == null && textureData != null)
         {
             target.texture = textureData.GetTexture();
         }

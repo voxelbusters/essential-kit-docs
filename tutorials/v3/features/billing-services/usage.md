@@ -151,7 +151,7 @@ void OnStoreInitialized(BillingServicesInitializeStoreResult result, Error error
 
     foreach (var product in result.Products)
     {
-        Debug.Log($"{product.LocalizedTitle} - {product.LocalizedPrice}");
+        Debug.Log($"{product.LocalizedTitle} - {product.Price.LocalizedText}");
     }
 }
 ```
@@ -159,7 +159,7 @@ void OnStoreInitialized(BillingServicesInitializeStoreResult result, Error error
 `InitializeStore()` uses products configured in Essential Kit Settings and retrieves localized pricing from stores. This may take several seconds depending on network conditions.
 
 {% hint style="success" %}
-Display a loading indicator while initializing. Once complete, show products in your store UI using `product.LocalizedPrice` for accurate, localized pricing.
+Display a loading indicator while initializing. Once complete, show products in your store UI using `product.Price.LocalizedText` for accurate, localized pricing.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -187,7 +187,7 @@ void DisplayProduct(string productId)
 
     Debug.Log($"Title: {product.LocalizedTitle}");
     Debug.Log($"Description: {product.LocalizedDescription}");
-    Debug.Log($"Price: {product.LocalizedPrice}");
+    Debug.Log($"Price: {product.Price.LocalizedText}");
 }
 ```
 
@@ -264,13 +264,11 @@ During a purchase, the transaction goes through different states. Understanding 
 | ----------- | --------------------------------------------------------- | ---------------------------------------------------- |
 | `Purchased` | Transaction completed successfully - user paid            | Grant content immediately, save player data          |
 | `Failed`    | Transaction failed or user cancelled                      | Show error only if not user cancellation             |
-| `Restored`  | Previously purchased item restored (no new payment)       | Grant content without charging user                  |
 | `Deferred`  | Waiting for approval (e.g., parental control, Ask to Buy) | Inform user to wait, transaction will complete later |
 
 **Purchased vs Restored:**
 
-* `Purchased`: User just paid for the item now
-* `Restored`: User bought this item before on another device/install, getting it back without paying again
+Use the restore flow (`BillingServices.RestorePurchases`) to handle past purchases. Restored items come back as `Purchased` transactions in the restore callback; there is no `Restored` transaction state to check in code.
 
 **Deferred State:** When "Ask to Buy" is enabled (common for child accounts), the purchase request goes to a parent for approval. The transaction enters `Deferred` state until approved or rejected. Handle this gracefully by informing the user their purchase is pending approval.
 

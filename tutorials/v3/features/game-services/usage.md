@@ -723,7 +723,7 @@ On Android, additional scopes (such as email) require user consent. Inspect `res
 | Property | Type | Notes |
 | --- | --- | --- |
 | `Value` | long | Score value |
-| `Rank` | int | Player rank in leaderboard |
+| `Rank` | long | Player rank in leaderboard |
 | `Player` | IPlayer | Player who achieved this score |
 | `LastReportedDate` | DateTime | When score was submitted |
 | `Tag` | string | Optional score tag (max 8 ASCII chars) |

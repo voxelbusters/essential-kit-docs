@@ -208,7 +208,7 @@ Each season should have a unique product ID to prevent conflicts.
 
 ## Can I change product prices after release?
 
-Yes. Change prices in App Store Connect and Google Play Console at any time. New prices appear in `product.LocalizedPrice` after `InitializeStore()` completes. Players who already purchased keep their access at the old price.
+Yes. Change prices in App Store Connect and Google Play Console at any time. New prices appear in `product.Price.LocalizedText` after `InitializeStore()` completes. Players who already purchased keep their access at the old price.
 
 ## My transactions stay in pending state. What's wrong?
 

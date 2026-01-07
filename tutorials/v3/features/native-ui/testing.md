@@ -63,8 +63,8 @@ Platform appearances differ significantly. iOS uses UIAlertController (centered 
 | Multi-button dialog | All buttons visible and functional |
 | Text input with empty field | Empty string returned, validation in your code |
 | Text input cancellation | Cancel callback fires, no input processed |
-| Date picker cancellation | ResultCode returns Cancelled |
-| Date picker selection | ResultCode returns Done with selected DateTime |
+| Date picker cancellation | `SelectedDate` is null |
+| Date picker selection | `SelectedDate` has the selected `DateTime` |
 | Min/max date constraints | Picker prevents selection outside range |
 | Action sheet (iOS) | Bottom sheet style on iOS, regular dialog on Android |
 

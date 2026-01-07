@@ -20,6 +20,7 @@ description: "Configuring Cloud Services"
 | Enable Cloud Services | All | Yes | Toggles the feature in builds; disabling removes related native code. |
 | Play Services Application ID | Android | Yes | Set in Game Services settings; Cloud Services shares this configuration. |
 | iCloud Key-Value Store | iOS | N/A | Essential Kit automatically enables this capability during iOS builds. |
+| Substitute Entitlement Identifiers | iOS | Optional | Rewrites entitlement identifiers to absolute values during build; enable only if your project requires it. |
 
 {% hint style="info" %}
 Need a working baseline? Run the sample at `Assets/Plugins/VoxelBusters/EssentialKit/Examples/Scenes/CloudServicesDemo.unity` to confirm your settings before integrating into production.
@@ -36,6 +37,7 @@ Essential Kit automatically handles iOS configuration:
 - Enables **iCloud** capability in Xcode project during build
 - Adds **Key-Value Store** entitlement
 - No manual Xcode configuration required
+ - Optional: enable **Substitute Entitlement Identifiers** in settings only if your entitlements must be rewritten to absolute values
 
 **Storage Limits:**
 - Maximum 1 MB total storage

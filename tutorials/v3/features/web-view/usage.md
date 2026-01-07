@@ -31,7 +31,7 @@ Essential Kit wraps native iOS WKWebView and Android WebView into a single Unity
 - **Single-instance model** – Essential Kit surfaces one active web view at a time. Create it once, reuse it, and hide it when not in use.
 - **Frames and styles** – Choose between full-screen, normalized, or pixel-perfect frames and pick the style (`Default`, `Popup`, `Browser`) that matches your UX.
 - **Content sources** – Web views can render remote URLs, inline HTML strings, or local files bundled with your game.
-- **JavaScript bridge** – `RunJavaScript` executes scripts synchronously and custom URL schemes let the page talk back to Unity.
+- **JavaScript bridge** – `RunJavaScript` executes scripts asynchronously and custom URL schemes let the page talk back to Unity.
 - **Lifecycle** – Register events for load, show, hide, and URL scheme matches so you can pause gameplay and resume when the user closes the web content.
 
 ## Import Namespaces
@@ -492,7 +492,7 @@ void OnWebViewLoadFinish(WebView view, Error error)
 | --- | --- | --- |
 | `WebView.URL` | `string` | Last URL that finished loading. Useful for analytics or resuming content after a hide/show cycle. |
 | `WebView.IsLoading` | `bool` | `true` while the page is still loading. Pair it with `Progress` to drive loading indicators. |
-| `WebView.Progress` | `float` | Normalized progress (0–1) reported by native web views. |
+| `WebView.Progress` | `double` | Normalized progress (0–1) reported by native web views. |
 | `WebView.ScalesPageToFit` | `bool` | Enable to allow pinch-to-zoom and automatic scaling on both platforms. |
 | `WebView.CanBounce` | `bool` | Controls the iOS rubber-band effect. Disable for full-screen kiosk experiences. |
 | `WebView.BackgroundColor` | `Color` | Fills the view while content is loading—set it to match your brand palette. |

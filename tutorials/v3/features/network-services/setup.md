@@ -22,9 +22,9 @@ description: "Configuring Network Services for connectivity monitoring"
 | Host Address (IPv4/IPv6) | All | Optional | Server address to monitor for reachability; leave empty if only monitoring general internet |
 | Auto Start Notifier | All | Optional | If enabled, monitoring begins automatically on app launch; disable for manual control |
 | Max Retry Count | All | Optional | Number of retry attempts before reporting failure (default: 3) |
-| Time Gap Between Polling | All | Optional | Seconds between network checks when monitoring is active (default: 5) |
-| Time Out Period | All | Optional | Seconds before considering a network request timed out (default: 10) |
-| Port | All | Optional | Port to ping on remote server for reachability checks (default: 80) |
+| Time Gap Between Polling | All | Optional | Seconds between network checks when monitoring is active (default: 2) |
+| Time Out Period | All | Optional | Seconds before considering a network request timed out (default: 60) |
+| Port | All | Optional | Port to ping on remote server for reachability checks (default: 53) |
 
 {% hint style="success" %}
 **Auto Start Notifier**: Enable this to automatically monitor network status from app launch. Disable if you want manual control (call `StartNotifier()` only when needed to save battery).

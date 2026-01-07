@@ -11,7 +11,7 @@ WebView requires native iOS WKWebView or Android WebView components which are no
 Use custom URL schemes for web-to-Unity communication:
 
 ```csharp
-// Assume you have a webView instance (IWebView) already created
+// Assume you have a webView instance (WebView) already created
 void SetupWebViewCommunication()
 {
     // In Unity: Register custom scheme

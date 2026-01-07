@@ -106,7 +106,7 @@ This avoids changing IDs later once you have live versions on different platform
 | Achievements                       | All      | Empty   | Array of achievement definitions                    |
 | Show Achievement Completion Banner | iOS      | On      | Displays native iOS banner when achievements unlock |
 | Allow Friends Access               | All      | Off     | Adds permissions for friends list access            |
-| Android Properties                 | Android  | Auto    | OAuth client and display configuration              |
+| Android Properties                 | Android  | Auto    | OAuth client and Android-specific options           |
 
 ### Leaderboard Properties
 
@@ -135,6 +135,14 @@ This avoids changing IDs later once you have live versions on different platform
 | ---------------------------- | ------ | -------- | ----------------------------------------------------------------------------- |
 | Play Services Application Id | string | Yes      | Project ID from Google Play Console → Play Games Services → Configuration     |
 | Server Client Id             | string | Optional | **Web** OAuth Client ID for backend access to player data (not Android OAuth) |
+| Force Refresh Token          | bool   | On       | Enables refresh tokens for long-lived access to Play Games data |
+| Achieved Description Formats | string[] | Optional | Format strings for Android achievement completion text; `#` is replaced with the achievement title |
+| Show Error Dialogs           | bool   | On       | Shows Play Games error dialogs automatically (sign-in failures, etc.) |
+| Enable Auto Initialization   | bool   | On       | Starts Play Games initialization on app launch (see note below) |
+
+{% hint style="warning" %}
+**Enable Auto Initialization (Android)** is experimental. Google Play Games Services does not provide an official switch to fully stop auto-initialization, and Essential Kit uses a workaround. Disable only if you are gating sign-in (for example, age flow/GDPR), and test carefully on device.
+{% endhint %}
 | Show Alert Dialogs           | bool   | Optional | Display native error dialogs for sign-in failures                             |
 
 {% hint style="success" %}
