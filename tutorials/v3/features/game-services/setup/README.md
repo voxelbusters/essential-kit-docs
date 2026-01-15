@@ -141,7 +141,7 @@ This avoids changing IDs later once you have live versions on different platform
 | Enable Auto Initialization   | bool   | On       | Starts Play Games initialization on app launch (see note below) |
 
 {% hint style="warning" %}
-**Enable Auto Initialization (Android)** is experimental. Google Play Games Services does not provide an official switch to fully stop auto-initialization, and Essential Kit uses a workaround. Disable only if you are gating sign-in (for example, age flow/GDPR), and test carefully on device.
+**Enable Auto Initialization (Android)** is experimental. Google Play Games Services does not officially support disabling auto-init; Essential Kit uses an undocumented workaround. Use with caution and test thoroughly because there can be side effects.
 {% endhint %}
 | Show Alert Dialogs           | bool   | Optional | Display native error dialogs for sign-in failures                             |
 

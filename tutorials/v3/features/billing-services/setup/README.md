@@ -55,7 +55,7 @@ Open **Essential Kit Settings** (`Window > Voxel Busters > Essential Kit > Open 
 | Enable Billing Services | All | Yes | Toggles the feature in builds; disabling strips related native code |
 | Products | All | Yes | Array of product definitions with platform-specific IDs |
 | Auto Finish Transactions | All | Optional | Default: true. Set to false only for server-side receipt verification (advanced) |
-| Auto Handle External Product Actions | All | Optional | Default: true. If disabled, handle `BillingServices.OnExternalProductPurchaseAction` and start the purchase yourself |
+| Auto Handle External Product Actions | All | Optional | Default: true. If disabled, handle `BillingServices.OnExternalProductPurchaseAction` and start the purchase yourself (for example, when a user taps a buy button on the store page and the platform forwards the purchase intent to your app). |
 | Android Public Key | Android | Yes | Base64-encoded public key from Google Play Console |
 
 ### Adding Billing Products
