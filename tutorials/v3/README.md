@@ -218,15 +218,13 @@ However, rest of the features are supported and unsupported features has null im
 * Link to player profile on community hub
 * Host user-generated levels in HTML
 * Run surveys or feedback forms
-* Display marketplace listings or DLC\\
+* Display marketplace listings or DLC
 
 **Note**
 
 • Plugin doesn't include Facebook SDK.
 
 • Works with Unity Cloud Build.
-
-• You need to add "com.unity.nuget.**newtonsoft**-json": "2.0.0" or higher in Packages/manifest.json
 
 ### Why Choose Us?
 

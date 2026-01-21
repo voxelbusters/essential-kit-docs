@@ -7,15 +7,8 @@ description: Steps to install the plugin
 1. Open Package Manager from Unity Editor
 2. Under My Assets category, Search for "Essential Kit"
 3. Import the plugin into your project
-4. If you don't have Newtonsoft's Json package installed in your project then follow below additional steps. Else, jump to step 5.
-   1. Open manifest.json file in Packages folder
-   2.  Add below line in the dependencies block (any version ≥ 2.0.0 is fine)
-
-       ```json
-       "com.unity.nuget.newtonsoft-json": "2.0.0"
-       ```
-5. Do a force resolve from top menu bar -> Assets -> External Dependency Manager -> Android Resolver -> Force Resolve
-6. Configure the features you want in [Essential Kit Settings](plugin-overview/settings.md#essential-kit-settings)
+4. Do a force resolve from top menu bar -> Assets -> External Dependency Manager -> Android Resolver -> Force Resolve
+5. Configure the features you want in [Essential Kit Settings](plugin-overview/settings.md#essential-kit-settings)
 
 
 
@@ -28,18 +21,6 @@ If you have an error related to iOS/XCode assemblies from External Dependency Ma
 {% endhint %}
 
 ## FAQs
-
-### I see this error on installation - The type or namespace name 'Newtonsoft' could not be found (are you missing a using directive or an assembly reference?
-
-The plugin depends on Newtonsoft's json plugin which needs to be added to your packages.
-
-Add the following dependencies in YOUR\_PROJECT\_ROOT/Packages/manifest.json under dependencies block
-
-```json
-"com.unity.nuget.newtonsoft-json": "2.0.0"
-```
-
-> Any version ≥ 2.0.0 is fine.
 
 ### I see this error when making Android build - "Failed to install the following Android SDK packages as some licences have not been accepted.". How to resolve this?
 
