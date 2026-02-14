@@ -18,11 +18,11 @@
 
 
 {% hint style="danger" %}
-<mark style="color:red;">\[Game Services] If you are using LocalPlayer.Id to identify your account, make sure you handle it carefully</mark> <mark style="color:$danger;">as it returns gameScopeId instead of old Id(teamScopeId ≥ 2.7.3, legacyId < 2.7.3).</mark>&#x20;
+\[Game Services] If you are using LocalPlayer.Id to identify your account, make sure you handle it carefully as it returns gameScopeId instead of old Id(teamScopeId ≥ 2.7.3, legacyId < 2.7.3).&#x20;
 
 
 
-<mark style="color:$danger;">If you want to still use old id, please use legacyId or teamScopeId as per the version you are from.</mark>
+If you want to still use old id, please use legacyId or teamScopeId as per the version you are from.
 {% endhint %}
 
 {% hint style="info" %}
